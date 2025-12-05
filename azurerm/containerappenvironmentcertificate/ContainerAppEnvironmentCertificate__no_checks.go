@@ -75,6 +75,10 @@ func (c *jsiiProxy_ContainerAppEnvironmentCertificate) validateOverrideLogicalId
 	return nil
 }
 
+func (c *jsiiProxy_ContainerAppEnvironmentCertificate) validatePutCertificateKeyVaultParameters(value *ContainerAppEnvironmentCertificateCertificateKeyVault) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerAppEnvironmentCertificate) validatePutTimeoutsParameters(value *ContainerAppEnvironmentCertificateTimeouts) error {
 	return nil
 }

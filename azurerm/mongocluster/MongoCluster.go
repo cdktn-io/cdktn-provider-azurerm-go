@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.54.0/docs/resources/mongo_cluster azurerm_mongo_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mongo_cluster azurerm_mongo_cluster}.
 type MongoCluster interface {
 	cdktf.TerraformResource
 	AdministratorPassword() *string
@@ -21,6 +21,9 @@ type MongoCluster interface {
 	AdministratorUsername() *string
 	SetAdministratorUsername(val *string)
 	AdministratorUsernameInput() *string
+	AuthenticationMethods() *[]*string
+	SetAuthenticationMethods(val *[]*string)
+	AuthenticationMethodsInput() *[]*string
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
 	ComputeTier() *string
@@ -40,6 +43,11 @@ type MongoCluster interface {
 	CreateMode() *string
 	SetCreateMode(val *string)
 	CreateModeInput() *string
+	CustomerManagedKey() MongoClusterCustomerManagedKeyOutputReference
+	CustomerManagedKeyInput() *MongoClusterCustomerManagedKey
+	DataApiModeEnabled() interface{}
+	SetDataApiModeEnabled(val interface{})
+	DataApiModeEnabledInput() interface{}
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -57,6 +65,8 @@ type MongoCluster interface {
 	HighAvailabilityModeInput() *string
 	Id() *string
 	SetId(val *string)
+	Identity() MongoClusterIdentityOutputReference
+	IdentityInput() *MongoClusterIdentity
 	IdInput() *string
 	// Experimental.
 	Lifecycle() *cdktf.TerraformResourceLifecycle
@@ -89,6 +99,8 @@ type MongoCluster interface {
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
+	Restore() MongoClusterRestoreOutputReference
+	RestoreInput() *MongoClusterRestore
 	ShardCount() *float64
 	SetShardCount(val *float64)
 	ShardCountInput() *float64
@@ -101,6 +113,9 @@ type MongoCluster interface {
 	StorageSizeInGb() *float64
 	SetStorageSizeInGb(val *float64)
 	StorageSizeInGbInput() *float64
+	StorageType() *string
+	SetStorageType(val *string)
+	StorageTypeInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -158,22 +173,31 @@ type MongoCluster interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutCustomerManagedKey(value *MongoClusterCustomerManagedKey)
+	PutIdentity(value *MongoClusterIdentity)
+	PutRestore(value *MongoClusterRestore)
 	PutTimeouts(value *MongoClusterTimeouts)
 	ResetAdministratorPassword()
 	ResetAdministratorUsername()
+	ResetAuthenticationMethods()
 	ResetComputeTier()
 	ResetCreateMode()
+	ResetCustomerManagedKey()
+	ResetDataApiModeEnabled()
 	ResetHighAvailabilityMode()
 	ResetId()
+	ResetIdentity()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPreviewFeatures()
 	ResetPublicNetworkAccess()
+	ResetRestore()
 	ResetShardCount()
 	ResetSourceLocation()
 	ResetSourceServerId()
 	ResetStorageSizeInGb()
+	ResetStorageType()
 	ResetTags()
 	ResetTimeouts()
 	ResetVersion()
@@ -230,6 +254,26 @@ func (j *jsiiProxy_MongoCluster) AdministratorUsernameInput() *string {
 	_jsii_.Get(
 		j,
 		"administratorUsernameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) AuthenticationMethods() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"authenticationMethods",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) AuthenticationMethodsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"authenticationMethodsInput",
 		&returns,
 	)
 	return returns
@@ -325,6 +369,46 @@ func (j *jsiiProxy_MongoCluster) CreateModeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MongoCluster) CustomerManagedKey() MongoClusterCustomerManagedKeyOutputReference {
+	var returns MongoClusterCustomerManagedKeyOutputReference
+	_jsii_.Get(
+		j,
+		"customerManagedKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) CustomerManagedKeyInput() *MongoClusterCustomerManagedKey {
+	var returns *MongoClusterCustomerManagedKey
+	_jsii_.Get(
+		j,
+		"customerManagedKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) DataApiModeEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dataApiModeEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) DataApiModeEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dataApiModeEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MongoCluster) DependsOn() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -390,6 +474,26 @@ func (j *jsiiProxy_MongoCluster) Id() *string {
 	_jsii_.Get(
 		j,
 		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) Identity() MongoClusterIdentityOutputReference {
+	var returns MongoClusterIdentityOutputReference
+	_jsii_.Get(
+		j,
+		"identity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) IdentityInput() *MongoClusterIdentity {
+	var returns *MongoClusterIdentity
+	_jsii_.Get(
+		j,
+		"identityInput",
 		&returns,
 	)
 	return returns
@@ -555,6 +659,26 @@ func (j *jsiiProxy_MongoCluster) ResourceGroupNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MongoCluster) Restore() MongoClusterRestoreOutputReference {
+	var returns MongoClusterRestoreOutputReference
+	_jsii_.Get(
+		j,
+		"restore",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) RestoreInput() *MongoClusterRestore {
+	var returns *MongoClusterRestore
+	_jsii_.Get(
+		j,
+		"restoreInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MongoCluster) ShardCount() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -630,6 +754,26 @@ func (j *jsiiProxy_MongoCluster) StorageSizeInGbInput() *float64 {
 	_jsii_.Get(
 		j,
 		"storageSizeInGbInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) StorageType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MongoCluster) StorageTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageTypeInput",
 		&returns,
 	)
 	return returns
@@ -726,7 +870,7 @@ func (j *jsiiProxy_MongoCluster) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.54.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
 func NewMongoCluster(scope constructs.Construct, id *string, config *MongoClusterConfig) MongoCluster {
 	_init_.Initialize()
 
@@ -744,7 +888,7 @@ func NewMongoCluster(scope constructs.Construct, id *string, config *MongoCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.54.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
 func NewMongoCluster_Override(m MongoCluster, scope constructs.Construct, id *string, config *MongoClusterConfig) {
 	_init_.Initialize()
 
@@ -773,6 +917,17 @@ func (j *jsiiProxy_MongoCluster)SetAdministratorUsername(val *string) {
 	_jsii_.Set(
 		j,
 		"administratorUsername",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MongoCluster)SetAuthenticationMethods(val *[]*string) {
+	if err := j.validateSetAuthenticationMethodsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"authenticationMethods",
 		val,
 	)
 }
@@ -817,6 +972,17 @@ func (j *jsiiProxy_MongoCluster)SetCreateMode(val *string) {
 	_jsii_.Set(
 		j,
 		"createMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MongoCluster)SetDataApiModeEnabled(val interface{}) {
+	if err := j.validateSetDataApiModeEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataApiModeEnabled",
 		val,
 	)
 }
@@ -984,6 +1150,17 @@ func (j *jsiiProxy_MongoCluster)SetStorageSizeInGb(val *float64) {
 	_jsii_.Set(
 		j,
 		"storageSizeInGb",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MongoCluster)SetStorageType(val *string) {
+	if err := j.validateSetStorageTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageType",
 		val,
 	)
 }
@@ -1363,6 +1540,39 @@ func (m *jsiiProxy_MongoCluster) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (m *jsiiProxy_MongoCluster) PutCustomerManagedKey(value *MongoClusterCustomerManagedKey) {
+	if err := m.validatePutCustomerManagedKeyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putCustomerManagedKey",
+		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MongoCluster) PutIdentity(value *MongoClusterIdentity) {
+	if err := m.validatePutIdentityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putIdentity",
+		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MongoCluster) PutRestore(value *MongoClusterRestore) {
+	if err := m.validatePutRestoreParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putRestore",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MongoCluster) PutTimeouts(value *MongoClusterTimeouts) {
 	if err := m.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1390,6 +1600,14 @@ func (m *jsiiProxy_MongoCluster) ResetAdministratorUsername() {
 	)
 }
 
+func (m *jsiiProxy_MongoCluster) ResetAuthenticationMethods() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetAuthenticationMethods",
+		nil, // no parameters
+	)
+}
+
 func (m *jsiiProxy_MongoCluster) ResetComputeTier() {
 	_jsii_.InvokeVoid(
 		m,
@@ -1406,6 +1624,22 @@ func (m *jsiiProxy_MongoCluster) ResetCreateMode() {
 	)
 }
 
+func (m *jsiiProxy_MongoCluster) ResetCustomerManagedKey() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetCustomerManagedKey",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MongoCluster) ResetDataApiModeEnabled() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDataApiModeEnabled",
+		nil, // no parameters
+	)
+}
+
 func (m *jsiiProxy_MongoCluster) ResetHighAvailabilityMode() {
 	_jsii_.InvokeVoid(
 		m,
@@ -1418,6 +1652,14 @@ func (m *jsiiProxy_MongoCluster) ResetId() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MongoCluster) ResetIdentity() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetIdentity",
 		nil, // no parameters
 	)
 }
@@ -1442,6 +1684,14 @@ func (m *jsiiProxy_MongoCluster) ResetPublicNetworkAccess() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetPublicNetworkAccess",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MongoCluster) ResetRestore() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetRestore",
 		nil, // no parameters
 	)
 }
@@ -1474,6 +1724,14 @@ func (m *jsiiProxy_MongoCluster) ResetStorageSizeInGb() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetStorageSizeInGb",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MongoCluster) ResetStorageType() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetStorageType",
 		nil, // no parameters
 	)
 }

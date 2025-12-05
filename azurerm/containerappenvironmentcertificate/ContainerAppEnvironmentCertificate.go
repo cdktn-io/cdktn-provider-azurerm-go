@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.54.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate}.
 type ContainerAppEnvironmentCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -20,6 +20,8 @@ type ContainerAppEnvironmentCertificate interface {
 	CertificateBlobBase64() *string
 	SetCertificateBlobBase64(val *string)
 	CertificateBlobBase64Input() *string
+	CertificateKeyVault() ContainerAppEnvironmentCertificateCertificateKeyVaultOutputReference
+	CertificateKeyVaultInput() *ContainerAppEnvironmentCertificateCertificateKeyVault
 	CertificatePassword() *string
 	SetCertificatePassword(val *string)
 	CertificatePasswordInput() *string
@@ -129,7 +131,11 @@ type ContainerAppEnvironmentCertificate interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutCertificateKeyVault(value *ContainerAppEnvironmentCertificateCertificateKeyVault)
 	PutTimeouts(value *ContainerAppEnvironmentCertificateTimeouts)
+	ResetCertificateBlobBase64()
+	ResetCertificateKeyVault()
+	ResetCertificatePassword()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -179,6 +185,26 @@ func (j *jsiiProxy_ContainerAppEnvironmentCertificate) CertificateBlobBase64Inpu
 	_jsii_.Get(
 		j,
 		"certificateBlobBase64Input",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAppEnvironmentCertificate) CertificateKeyVault() ContainerAppEnvironmentCertificateCertificateKeyVaultOutputReference {
+	var returns ContainerAppEnvironmentCertificateCertificateKeyVaultOutputReference
+	_jsii_.Get(
+		j,
+		"certificateKeyVault",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAppEnvironmentCertificate) CertificateKeyVaultInput() *ContainerAppEnvironmentCertificateCertificateKeyVault {
+	var returns *ContainerAppEnvironmentCertificateCertificateKeyVault
+	_jsii_.Get(
+		j,
+		"certificateKeyVaultInput",
 		&returns,
 	)
 	return returns
@@ -505,7 +531,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentCertificate) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.54.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate} Resource.
 func NewContainerAppEnvironmentCertificate(scope constructs.Construct, id *string, config *ContainerAppEnvironmentCertificateConfig) ContainerAppEnvironmentCertificate {
 	_init_.Initialize()
 
@@ -523,7 +549,7 @@ func NewContainerAppEnvironmentCertificate(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.54.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate} Resource.
 func NewContainerAppEnvironmentCertificate_Override(c ContainerAppEnvironmentCertificate, scope constructs.Construct, id *string, config *ContainerAppEnvironmentCertificateConfig) {
 	_init_.Initialize()
 
@@ -1021,6 +1047,17 @@ func (c *jsiiProxy_ContainerAppEnvironmentCertificate) OverrideLogicalId(newLogi
 	)
 }
 
+func (c *jsiiProxy_ContainerAppEnvironmentCertificate) PutCertificateKeyVault(value *ContainerAppEnvironmentCertificateCertificateKeyVault) {
+	if err := c.validatePutCertificateKeyVaultParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putCertificateKeyVault",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerAppEnvironmentCertificate) PutTimeouts(value *ContainerAppEnvironmentCertificateTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1029,6 +1066,30 @@ func (c *jsiiProxy_ContainerAppEnvironmentCertificate) PutTimeouts(value *Contai
 		c,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContainerAppEnvironmentCertificate) ResetCertificateBlobBase64() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCertificateBlobBase64",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerAppEnvironmentCertificate) ResetCertificateKeyVault() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCertificateKeyVault",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerAppEnvironmentCertificate) ResetCertificatePassword() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCertificatePassword",
+		nil, // no parameters
 	)
 }
 

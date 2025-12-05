@@ -1,0 +1,85 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package paloaltonextgenerationfirewallvirtualhubstratacloudmanager
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateSetInternalValueParameters(val *PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateSetPortParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateSetPublicIpAddressIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerDestinationNatFrontendConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

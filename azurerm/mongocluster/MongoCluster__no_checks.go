@@ -75,6 +75,18 @@ func (m *jsiiProxy_MongoCluster) validateOverrideLogicalIdParameters(newLogicalI
 	return nil
 }
 
+func (m *jsiiProxy_MongoCluster) validatePutCustomerManagedKeyParameters(value *MongoClusterCustomerManagedKey) error {
+	return nil
+}
+
+func (m *jsiiProxy_MongoCluster) validatePutIdentityParameters(value *MongoClusterIdentity) error {
+	return nil
+}
+
+func (m *jsiiProxy_MongoCluster) validatePutRestoreParameters(value *MongoClusterRestore) error {
+	return nil
+}
+
 func (m *jsiiProxy_MongoCluster) validatePutTimeoutsParameters(value *MongoClusterTimeouts) error {
 	return nil
 }
@@ -103,6 +115,10 @@ func (j *jsiiProxy_MongoCluster) validateSetAdministratorUsernameParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_MongoCluster) validateSetAuthenticationMethodsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MongoCluster) validateSetComputeTierParameters(val *string) error {
 	return nil
 }
@@ -116,6 +132,10 @@ func (j *jsiiProxy_MongoCluster) validateSetCountParameters(val interface{}) err
 }
 
 func (j *jsiiProxy_MongoCluster) validateSetCreateModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MongoCluster) validateSetDataApiModeEnabledParameters(val interface{}) error {
 	return nil
 }
 
@@ -168,6 +188,10 @@ func (j *jsiiProxy_MongoCluster) validateSetSourceServerIdParameters(val *string
 }
 
 func (j *jsiiProxy_MongoCluster) validateSetStorageSizeInGbParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_MongoCluster) validateSetStorageTypeParameters(val *string) error {
 	return nil
 }
 
