@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermadvisorrecommendations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermadvisorrecommendations/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermadvisorrecommendations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations}.
 type DataAzurermAdvisorRecommendations interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendations) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations} Data Source.
 func NewDataAzurermAdvisorRecommendations(scope constructs.Construct, id *string, config *DataAzurermAdvisorRecommendationsConfig) DataAzurermAdvisorRecommendations {
 	_init_.Initialize()
 
@@ -358,7 +358,7 @@ func NewDataAzurermAdvisorRecommendations(scope constructs.Construct, id *string
 	j := jsiiProxy_DataAzurermAdvisorRecommendations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
+		"@cdktn/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -366,12 +366,12 @@ func NewDataAzurermAdvisorRecommendations(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations} Data Source.
 func NewDataAzurermAdvisorRecommendations_Override(d DataAzurermAdvisorRecommendations, scope constructs.Construct, id *string, config *DataAzurermAdvisorRecommendationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
+		"@cdktn/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -466,7 +466,7 @@ func DataAzurermAdvisorRecommendations_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
+		"@cdktn/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -501,7 +501,7 @@ func DataAzurermAdvisorRecommendations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
+		"@cdktn/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -520,7 +520,7 @@ func DataAzurermAdvisorRecommendations_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
+		"@cdktn/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAzurermAdvisorRecommendations_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
+		"@cdktn/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAzurermAdvisorRecommendations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
+		"@cdktn/provider-azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendations",
 		"tfResourceType",
 		&returns,
 	)

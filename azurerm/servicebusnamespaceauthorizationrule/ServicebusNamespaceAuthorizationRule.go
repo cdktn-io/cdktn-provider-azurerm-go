@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicebusnamespaceauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/servicebusnamespaceauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicebusnamespaceauthorizationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule}.
 type ServicebusNamespaceAuthorizationRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_ServicebusNamespaceAuthorizationRule) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Resource.
 func NewServicebusNamespaceAuthorizationRule(scope constructs.Construct, id *string, config *ServicebusNamespaceAuthorizationRuleConfig) ServicebusNamespaceAuthorizationRule {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewServicebusNamespaceAuthorizationRule(scope constructs.Construct, id *str
 	j := jsiiProxy_ServicebusNamespaceAuthorizationRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -536,12 +536,12 @@ func NewServicebusNamespaceAuthorizationRule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Resource.
 func NewServicebusNamespaceAuthorizationRule_Override(s ServicebusNamespaceAuthorizationRule, scope constructs.Construct, id *string, config *ServicebusNamespaceAuthorizationRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -691,7 +691,7 @@ func ServicebusNamespaceAuthorizationRule_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -726,7 +726,7 @@ func ServicebusNamespaceAuthorizationRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func ServicebusNamespaceAuthorizationRule_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -764,7 +764,7 @@ func ServicebusNamespaceAuthorizationRule_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func ServicebusNamespaceAuthorizationRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.servicebusNamespaceAuthorizationRule.ServicebusNamespaceAuthorizationRule",
 		"tfResourceType",
 		&returns,
 	)

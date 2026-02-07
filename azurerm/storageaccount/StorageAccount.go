@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account azurerm_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account azurerm_storage_account}.
 type StorageAccount interface {
 	cdktf.TerraformResource
 	AccessTier() *string
@@ -2057,7 +2057,7 @@ func (j *jsiiProxy_StorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAccountConfig) StorageAccount {
 	_init_.Initialize()
 
@@ -2067,7 +2067,7 @@ func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAc
 	j := jsiiProxy_StorageAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccount",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -2075,12 +2075,12 @@ func NewStorageAccount(scope constructs.Construct, id *string, config *StorageAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account azurerm_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account azurerm_storage_account} Resource.
 func NewStorageAccount_Override(s StorageAccount, scope constructs.Construct, id *string, config *StorageAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccount",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccount",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -2472,7 +2472,7 @@ func StorageAccount_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccount",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -2507,7 +2507,7 @@ func StorageAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccount",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2526,7 +2526,7 @@ func StorageAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccount",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -2545,7 +2545,7 @@ func StorageAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccount",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -2558,7 +2558,7 @@ func StorageAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccount",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccount",
 		"tfResourceType",
 		&returns,
 	)

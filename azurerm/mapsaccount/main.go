@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mapsaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccount",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccount",
 		reflect.TypeOf((*MapsAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountConfig",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountConfig",
 		reflect.TypeOf((*MapsAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountCors",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountCors",
 		reflect.TypeOf((*MapsAccountCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountCorsOutputReference",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountCorsOutputReference",
 		reflect.TypeOf((*MapsAccountCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountDataStore",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountDataStore",
 		reflect.TypeOf((*MapsAccountDataStore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountDataStoreList",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountDataStoreList",
 		reflect.TypeOf((*MapsAccountDataStoreList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountDataStoreOutputReference",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountDataStoreOutputReference",
 		reflect.TypeOf((*MapsAccountDataStoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountIdentity",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountIdentity",
 		reflect.TypeOf((*MapsAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountIdentityOutputReference",
 		reflect.TypeOf((*MapsAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -247,11 +247,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountTimeouts",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountTimeouts",
 		reflect.TypeOf((*MapsAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mapsAccount.MapsAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mapsAccount.MapsAccountTimeoutsOutputReference",
 		reflect.TypeOf((*MapsAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

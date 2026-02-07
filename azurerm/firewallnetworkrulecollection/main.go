@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firewallnetworkrulecollection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollection",
+		"@cdktn/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollection",
 		reflect.TypeOf((*FirewallNetworkRuleCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionConfig",
+		"@cdktn/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionConfig",
 		reflect.TypeOf((*FirewallNetworkRuleCollectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionRule",
+		"@cdktn/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionRule",
 		reflect.TypeOf((*FirewallNetworkRuleCollectionRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionRuleList",
+		"@cdktn/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionRuleList",
 		reflect.TypeOf((*FirewallNetworkRuleCollectionRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionRuleOutputReference",
+		"@cdktn/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionRuleOutputReference",
 		reflect.TypeOf((*FirewallNetworkRuleCollectionRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -169,11 +169,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionTimeouts",
+		"@cdktn/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionTimeouts",
 		reflect.TypeOf((*FirewallNetworkRuleCollectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.firewallNetworkRuleCollection.FirewallNetworkRuleCollectionTimeoutsOutputReference",
 		reflect.TypeOf((*FirewallNetworkRuleCollectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dynatracetagrules
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
 		reflect.TypeOf((*DynatraceTagRules)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,19 +82,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesConfig",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesConfig",
 		reflect.TypeOf((*DynatraceTagRulesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRule",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRule",
 		reflect.TypeOf((*DynatraceTagRulesLogRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRuleFilteringTag",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRuleFilteringTag",
 		reflect.TypeOf((*DynatraceTagRulesLogRuleFilteringTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRuleFilteringTagList",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRuleFilteringTagList",
 		reflect.TypeOf((*DynatraceTagRulesLogRuleFilteringTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRuleFilteringTagOutputReference",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRuleFilteringTagOutputReference",
 		reflect.TypeOf((*DynatraceTagRulesLogRuleFilteringTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -154,7 +154,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRuleOutputReference",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesLogRuleOutputReference",
 		reflect.TypeOf((*DynatraceTagRulesLogRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,15 +199,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRule",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRule",
 		reflect.TypeOf((*DynatraceTagRulesMetricRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRuleFilteringTag",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRuleFilteringTag",
 		reflect.TypeOf((*DynatraceTagRulesMetricRuleFilteringTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRuleFilteringTagList",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRuleFilteringTagList",
 		reflect.TypeOf((*DynatraceTagRulesMetricRuleFilteringTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -229,7 +229,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRuleFilteringTagOutputReference",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRuleFilteringTagOutputReference",
 		reflect.TypeOf((*DynatraceTagRulesMetricRuleFilteringTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -267,7 +267,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRuleOutputReference",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesMetricRuleOutputReference",
 		reflect.TypeOf((*DynatraceTagRulesMetricRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -306,11 +306,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesTimeouts",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesTimeouts",
 		reflect.TypeOf((*DynatraceTagRulesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRulesTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRulesTimeoutsOutputReference",
 		reflect.TypeOf((*DynatraceTagRulesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualhubconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnection",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnection",
 		reflect.TypeOf((*VirtualHubConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionConfig",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionConfig",
 		reflect.TypeOf((*VirtualHubConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionRouting",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionRouting",
 		reflect.TypeOf((*VirtualHubConnectionRouting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingOutputReference",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingOutputReference",
 		reflect.TypeOf((*VirtualHubConnectionRoutingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "associatedRouteTableId", GoGetter: "AssociatedRouteTableId"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingPropagatedRouteTable",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingPropagatedRouteTable",
 		reflect.TypeOf((*VirtualHubConnectionRoutingPropagatedRouteTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingPropagatedRouteTableOutputReference",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingPropagatedRouteTableOutputReference",
 		reflect.TypeOf((*VirtualHubConnectionRoutingPropagatedRouteTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -188,11 +188,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingStaticVnetRoute",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingStaticVnetRoute",
 		reflect.TypeOf((*VirtualHubConnectionRoutingStaticVnetRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingStaticVnetRouteList",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingStaticVnetRouteList",
 		reflect.TypeOf((*VirtualHubConnectionRoutingStaticVnetRouteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -214,7 +214,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingStaticVnetRouteOutputReference",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionRoutingStaticVnetRouteOutputReference",
 		reflect.TypeOf((*VirtualHubConnectionRoutingStaticVnetRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressPrefixes", GoGetter: "AddressPrefixes"},
@@ -255,11 +255,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionTimeouts",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionTimeouts",
 		reflect.TypeOf((*VirtualHubConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubConnection.VirtualHubConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualHubConnection.VirtualHubConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualHubConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

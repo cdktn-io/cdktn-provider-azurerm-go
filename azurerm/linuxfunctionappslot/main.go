@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxfunctionappslot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
 		reflect.TypeOf((*LinuxFunctionAppSlot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -179,15 +179,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettings",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettings",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsActiveDirectory",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsActiveDirectory",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsActiveDirectoryOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -230,11 +230,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsFacebook",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsFacebook",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsFacebook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsFacebookOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsFacebookOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsFacebookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appId", GoGetter: "AppId"},
@@ -277,11 +277,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsGithub",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsGithub",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsGithub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsGithubOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsGithubOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsGithubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -324,11 +324,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsGoogle",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsGoogle",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsGoogle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsGoogleOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsGoogleOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsGoogleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -371,11 +371,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsMicrosoft",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsMicrosoft",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsMicrosoft)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsMicrosoftOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsMicrosoftOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsMicrosoftOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -418,7 +418,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -500,11 +500,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsTwitter",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsTwitter",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsTwitter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsTwitterOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsTwitterOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsTwitterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -544,15 +544,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2ActiveDirectoryV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2ActiveDirectoryV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2ActiveDirectoryV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2ActiveDirectoryV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2ActiveDirectoryV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2ActiveDirectoryV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedApplications", GoGetter: "AllowedApplications"},
@@ -618,11 +618,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AppleV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AppleV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2AppleV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AppleV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AppleV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2AppleV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -659,11 +659,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AzureStaticWebAppV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AzureStaticWebAppV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2AzureStaticWebAppV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AzureStaticWebAppV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AzureStaticWebAppV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2AzureStaticWebAppV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -697,11 +697,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2List",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2List",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -723,7 +723,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorisationEndpoint", GoGetter: "AuthorisationEndpoint"},
@@ -773,11 +773,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2FacebookV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2FacebookV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2FacebookV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2FacebookV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2FacebookV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2FacebookV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appId", GoGetter: "AppId"},
@@ -819,11 +819,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GithubV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GithubV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2GithubV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GithubV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GithubV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2GithubV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -862,11 +862,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GoogleV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GoogleV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2GoogleV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GoogleV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GoogleV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2GoogleV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -908,11 +908,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2Login",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2Login",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2Login)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedExternalRedirectUrls", GoGetter: "AllowedExternalRedirectUrls"},
@@ -977,11 +977,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2MicrosoftV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2MicrosoftV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2MicrosoftV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2MicrosoftV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2MicrosoftV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2MicrosoftV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -1023,7 +1023,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryV2", GoGetter: "ActiveDirectoryV2"},
@@ -1130,11 +1130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2TwitterV2",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2TwitterV2",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2TwitterV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2TwitterV2OutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2TwitterV2OutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotAuthSettingsV2TwitterV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1170,11 +1170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackup",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackup",
 		reflect.TypeOf((*LinuxFunctionAppSlotBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackupOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackupOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1216,11 +1216,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackupSchedule",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackupSchedule",
 		reflect.TypeOf((*LinuxFunctionAppSlotBackupSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackupScheduleOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackupScheduleOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotBackupScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1266,15 +1266,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotConfig",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotConfig",
 		reflect.TypeOf((*LinuxFunctionAppSlotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotConnectionString",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotConnectionString",
 		reflect.TypeOf((*LinuxFunctionAppSlotConnectionString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotConnectionStringList",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotConnectionStringList",
 		reflect.TypeOf((*LinuxFunctionAppSlotConnectionStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1296,7 +1296,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotConnectionStringOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotConnectionStringOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotConnectionStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1334,11 +1334,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotIdentity",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotIdentity",
 		reflect.TypeOf((*LinuxFunctionAppSlotIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotIdentityOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotIdentityOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1377,15 +1377,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfig",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfig",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigAppServiceLogs",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigAppServiceLogs",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigAppServiceLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1423,15 +1423,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStack",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStack",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigApplicationStack)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackDocker",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackDocker",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigApplicationStackDocker)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackDockerList",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackDockerList",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigApplicationStackDockerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1453,7 +1453,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackDockerOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackDockerOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigApplicationStackDockerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1497,7 +1497,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigApplicationStackOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1554,11 +1554,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigCors",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigCors",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigCorsOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigCorsOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
@@ -1596,15 +1596,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestriction",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestriction",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionHeaders",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionHeadersList",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1626,7 +1626,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1670,7 +1670,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionList",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionList",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1692,7 +1692,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1749,7 +1749,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alwaysOn", GoGetter: "AlwaysOn"},
@@ -1897,15 +1897,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestriction",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestriction",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigScmIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeaders",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersList",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1927,7 +1927,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1971,7 +1971,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionList",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionList",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigScmIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1993,7 +1993,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -2050,11 +2050,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteCredential",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteCredential",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteCredentialList",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteCredentialList",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2075,7 +2075,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteCredentialOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteCredentialOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotSiteCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2109,11 +2109,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotStorageAccount",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotStorageAccount",
 		reflect.TypeOf((*LinuxFunctionAppSlotStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotStorageAccountList",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotStorageAccountList",
 		reflect.TypeOf((*LinuxFunctionAppSlotStorageAccountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2135,7 +2135,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotStorageAccountOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
@@ -2180,11 +2180,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotTimeouts",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotTimeouts",
 		reflect.TypeOf((*LinuxFunctionAppSlotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotTimeoutsOutputReference",
 		reflect.TypeOf((*LinuxFunctionAppSlotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

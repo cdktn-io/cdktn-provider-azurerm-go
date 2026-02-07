@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultkey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKey",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKey",
 		reflect.TypeOf((*KeyVaultKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,19 +107,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKeyConfig",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyConfig",
 		reflect.TypeOf((*KeyVaultKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicy",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicy",
 		reflect.TypeOf((*KeyVaultKeyRotationPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicyAutomatic",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicyAutomatic",
 		reflect.TypeOf((*KeyVaultKeyRotationPolicyAutomatic)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicyAutomaticOutputReference",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicyAutomaticOutputReference",
 		reflect.TypeOf((*KeyVaultKeyRotationPolicyAutomaticOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -157,7 +157,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicyOutputReference",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicyOutputReference",
 		reflect.TypeOf((*KeyVaultKeyRotationPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "automatic", GoGetter: "Automatic"},
@@ -199,11 +199,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKeyTimeouts",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyTimeouts",
 		reflect.TypeOf((*KeyVaultKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyTimeoutsOutputReference",
 		reflect.TypeOf((*KeyVaultKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprotectionbackupinstancemysqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataprotectionbackupinstancemysqlflexibleserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataprotectionbackupinstancemysqlflexibleserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_protection_backup_instance_mysql_flexible_server azurerm_data_protection_backup_instance_mysql_flexible_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_protection_backup_instance_mysql_flexible_server azurerm_data_protection_backup_instance_mysql_flexible_server}.
 type DataProtectionBackupInstanceMysqlFlexibleServer interface {
 	cdktf.TerraformResource
 	BackupPolicyId() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServer) VaultIdInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_protection_backup_instance_mysql_flexible_server azurerm_data_protection_backup_instance_mysql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_protection_backup_instance_mysql_flexible_server azurerm_data_protection_backup_instance_mysql_flexible_server} Resource.
 func NewDataProtectionBackupInstanceMysqlFlexibleServer(scope constructs.Construct, id *string, config *DataProtectionBackupInstanceMysqlFlexibleServerConfig) DataProtectionBackupInstanceMysqlFlexibleServer {
 	_init_.Initialize()
 
@@ -470,7 +470,7 @@ func NewDataProtectionBackupInstanceMysqlFlexibleServer(scope constructs.Constru
 	j := jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
+		"@cdktn/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -478,12 +478,12 @@ func NewDataProtectionBackupInstanceMysqlFlexibleServer(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_protection_backup_instance_mysql_flexible_server azurerm_data_protection_backup_instance_mysql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_protection_backup_instance_mysql_flexible_server azurerm_data_protection_backup_instance_mysql_flexible_server} Resource.
 func NewDataProtectionBackupInstanceMysqlFlexibleServer_Override(d DataProtectionBackupInstanceMysqlFlexibleServer, scope constructs.Construct, id *string, config *DataProtectionBackupInstanceMysqlFlexibleServerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
+		"@cdktn/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -633,7 +633,7 @@ func DataProtectionBackupInstanceMysqlFlexibleServer_GenerateConfigForImport(sco
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
+		"@cdktn/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -668,7 +668,7 @@ func DataProtectionBackupInstanceMysqlFlexibleServer_IsConstruct(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
+		"@cdktn/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func DataProtectionBackupInstanceMysqlFlexibleServer_IsTerraformElement(x interf
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
+		"@cdktn/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -706,7 +706,7 @@ func DataProtectionBackupInstanceMysqlFlexibleServer_IsTerraformResource(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
+		"@cdktn/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func DataProtectionBackupInstanceMysqlFlexibleServer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
+		"@cdktn/provider-azurerm.dataProtectionBackupInstanceMysqlFlexibleServer.DataProtectionBackupInstanceMysqlFlexibleServer",
 		"tfResourceType",
 		&returns,
 	)

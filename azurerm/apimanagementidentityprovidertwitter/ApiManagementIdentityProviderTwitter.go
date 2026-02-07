@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementidentityprovidertwitter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementidentityprovidertwitter/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementidentityprovidertwitter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_twitter azurerm_api_management_identity_provider_twitter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_twitter azurerm_api_management_identity_provider_twitter}.
 type ApiManagementIdentityProviderTwitter interface {
 	cdktf.TerraformResource
 	ApiKey() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderTwitter) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_twitter azurerm_api_management_identity_provider_twitter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_twitter azurerm_api_management_identity_provider_twitter} Resource.
 func NewApiManagementIdentityProviderTwitter(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderTwitterConfig) ApiManagementIdentityProviderTwitter {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewApiManagementIdentityProviderTwitter(scope constructs.Construct, id *str
 	j := jsiiProxy_ApiManagementIdentityProviderTwitter{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewApiManagementIdentityProviderTwitter(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_twitter azurerm_api_management_identity_provider_twitter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_twitter azurerm_api_management_identity_provider_twitter} Resource.
 func NewApiManagementIdentityProviderTwitter_Override(a ApiManagementIdentityProviderTwitter, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderTwitterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -588,7 +588,7 @@ func ApiManagementIdentityProviderTwitter_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func ApiManagementIdentityProviderTwitter_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func ApiManagementIdentityProviderTwitter_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func ApiManagementIdentityProviderTwitter_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ApiManagementIdentityProviderTwitter_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderTwitter.ApiManagementIdentityProviderTwitter",
 		"tfResourceType",
 		&returns,
 	)

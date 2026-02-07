@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automanageconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automanageconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automanageconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automanage_configuration azurerm_automanage_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automanage_configuration azurerm_automanage_configuration}.
 type AutomanageConfiguration interface {
 	cdktf.TerraformResource
 	Antimalware() AutomanageConfigurationAntimalwareOutputReference
@@ -643,7 +643,7 @@ func (j *jsiiProxy_AutomanageConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automanage_configuration azurerm_automanage_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automanage_configuration azurerm_automanage_configuration} Resource.
 func NewAutomanageConfiguration(scope constructs.Construct, id *string, config *AutomanageConfigurationConfig) AutomanageConfiguration {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewAutomanageConfiguration(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_AutomanageConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -661,12 +661,12 @@ func NewAutomanageConfiguration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automanage_configuration azurerm_automanage_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automanage_configuration azurerm_automanage_configuration} Resource.
 func NewAutomanageConfiguration_Override(a AutomanageConfiguration, scope constructs.Construct, id *string, config *AutomanageConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -871,7 +871,7 @@ func AutomanageConfiguration_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -906,7 +906,7 @@ func AutomanageConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -925,7 +925,7 @@ func AutomanageConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -944,7 +944,7 @@ func AutomanageConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -957,7 +957,7 @@ func AutomanageConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegrouppolicyremediation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupPolicyRemediation.ResourceGroupPolicyRemediation",
+		"@cdktn/provider-azurerm.resourceGroupPolicyRemediation.ResourceGroupPolicyRemediation",
 		reflect.TypeOf((*ResourceGroupPolicyRemediation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupPolicyRemediation.ResourceGroupPolicyRemediationConfig",
+		"@cdktn/provider-azurerm.resourceGroupPolicyRemediation.ResourceGroupPolicyRemediationConfig",
 		reflect.TypeOf((*ResourceGroupPolicyRemediationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupPolicyRemediation.ResourceGroupPolicyRemediationTimeouts",
+		"@cdktn/provider-azurerm.resourceGroupPolicyRemediation.ResourceGroupPolicyRemediationTimeouts",
 		reflect.TypeOf((*ResourceGroupPolicyRemediationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupPolicyRemediation.ResourceGroupPolicyRemediationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.resourceGroupPolicyRemediation.ResourceGroupPolicyRemediationTimeoutsOutputReference",
 		reflect.TypeOf((*ResourceGroupPolicyRemediationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermkeyvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
 		reflect.TypeOf((*DataAzurermKeyVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicy", GoGetter: "AccessPolicy"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultAccessPolicy",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultAccessPolicy",
 		reflect.TypeOf((*DataAzurermKeyVaultAccessPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultAccessPolicyList",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultAccessPolicyList",
 		reflect.TypeOf((*DataAzurermKeyVaultAccessPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultAccessPolicyOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultAccessPolicyOutputReference",
 		reflect.TypeOf((*DataAzurermKeyVaultAccessPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationId", GoGetter: "ApplicationId"},
@@ -144,15 +144,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultConfig",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultConfig",
 		reflect.TypeOf((*DataAzurermKeyVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultNetworkAcls",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultNetworkAcls",
 		reflect.TypeOf((*DataAzurermKeyVaultNetworkAcls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultNetworkAclsList",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultNetworkAclsList",
 		reflect.TypeOf((*DataAzurermKeyVaultNetworkAclsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultNetworkAclsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultNetworkAclsOutputReference",
 		reflect.TypeOf((*DataAzurermKeyVaultNetworkAclsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bypass", GoGetter: "Bypass"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultTimeouts",
 		reflect.TypeOf((*DataAzurermKeyVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVaultTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermKeyVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

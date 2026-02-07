@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fluidrelayserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.fluidRelayServer.FluidRelayServer",
+		"@cdktn/provider-azurerm.fluidRelayServer.FluidRelayServer",
 		reflect.TypeOf((*FluidRelayServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.fluidRelayServer.FluidRelayServerConfig",
+		"@cdktn/provider-azurerm.fluidRelayServer.FluidRelayServerConfig",
 		reflect.TypeOf((*FluidRelayServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.fluidRelayServer.FluidRelayServerCustomerManagedKey",
+		"@cdktn/provider-azurerm.fluidRelayServer.FluidRelayServerCustomerManagedKey",
 		reflect.TypeOf((*FluidRelayServerCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.fluidRelayServer.FluidRelayServerCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.fluidRelayServer.FluidRelayServerCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*FluidRelayServerCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.fluidRelayServer.FluidRelayServerIdentity",
+		"@cdktn/provider-azurerm.fluidRelayServer.FluidRelayServerIdentity",
 		reflect.TypeOf((*FluidRelayServerIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.fluidRelayServer.FluidRelayServerIdentityOutputReference",
+		"@cdktn/provider-azurerm.fluidRelayServer.FluidRelayServerIdentityOutputReference",
 		reflect.TypeOf((*FluidRelayServerIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.fluidRelayServer.FluidRelayServerTimeouts",
+		"@cdktn/provider-azurerm.fluidRelayServer.FluidRelayServerTimeouts",
 		reflect.TypeOf((*FluidRelayServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.fluidRelayServer.FluidRelayServerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.fluidRelayServer.FluidRelayServerTimeoutsOutputReference",
 		reflect.TypeOf((*FluidRelayServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

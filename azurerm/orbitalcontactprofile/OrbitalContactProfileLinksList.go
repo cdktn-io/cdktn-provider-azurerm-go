@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orbitalcontactprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/orbitalcontactprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orbitalcontactprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewOrbitalContactProfileLinksList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_OrbitalContactProfileLinksList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksList",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewOrbitalContactProfileLinksList_Override(o OrbitalContactProfileLinksList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksList",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package postgresqlconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlConfiguration.PostgresqlConfiguration",
+		"@cdktn/provider-azurerm.postgresqlConfiguration.PostgresqlConfiguration",
 		reflect.TypeOf((*PostgresqlConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlConfiguration.PostgresqlConfigurationConfig",
+		"@cdktn/provider-azurerm.postgresqlConfiguration.PostgresqlConfigurationConfig",
 		reflect.TypeOf((*PostgresqlConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlConfiguration.PostgresqlConfigurationTimeouts",
+		"@cdktn/provider-azurerm.postgresqlConfiguration.PostgresqlConfigurationTimeouts",
 		reflect.TypeOf((*PostgresqlConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlConfiguration.PostgresqlConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.postgresqlConfiguration.PostgresqlConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*PostgresqlConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

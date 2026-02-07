@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualdesktopapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
 		reflect.TypeOf((*VirtualDesktopApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplicationConfig",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplicationConfig",
 		reflect.TypeOf((*VirtualDesktopApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplicationTimeouts",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplicationTimeouts",
 		reflect.TypeOf((*VirtualDesktopApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplicationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualDesktopApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

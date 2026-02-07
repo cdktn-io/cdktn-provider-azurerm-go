@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressrouteconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/expressrouteconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/expressrouteconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_connection azurerm_express_route_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_connection azurerm_express_route_connection}.
 type ExpressRouteConnection interface {
 	cdktf.TerraformResource
 	AuthorizationKey() *string
@@ -547,7 +547,7 @@ func (j *jsiiProxy_ExpressRouteConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
 func NewExpressRouteConnection(scope constructs.Construct, id *string, config *ExpressRouteConnectionConfig) ExpressRouteConnection {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewExpressRouteConnection(scope constructs.Construct, id *string, config *E
 	j := jsiiProxy_ExpressRouteConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -565,12 +565,12 @@ func NewExpressRouteConnection(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
 func NewExpressRouteConnection_Override(e ExpressRouteConnection, scope constructs.Construct, id *string, config *ExpressRouteConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -753,7 +753,7 @@ func ExpressRouteConnection_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -788,7 +788,7 @@ func ExpressRouteConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -807,7 +807,7 @@ func ExpressRouteConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func ExpressRouteConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -839,7 +839,7 @@ func ExpressRouteConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
 		"tfResourceType",
 		&returns,
 	)

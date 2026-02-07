@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orbitalcontact
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContact.OrbitalContact",
+		"@cdktn/provider-azurerm.orbitalContact.OrbitalContact",
 		reflect.TypeOf((*OrbitalContact)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalContact.OrbitalContactConfig",
+		"@cdktn/provider-azurerm.orbitalContact.OrbitalContactConfig",
 		reflect.TypeOf((*OrbitalContactConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalContact.OrbitalContactTimeouts",
+		"@cdktn/provider-azurerm.orbitalContact.OrbitalContactTimeouts",
 		reflect.TypeOf((*OrbitalContactTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContact.OrbitalContactTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.orbitalContact.OrbitalContactTimeoutsOutputReference",
 		reflect.TypeOf((*OrbitalContactTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

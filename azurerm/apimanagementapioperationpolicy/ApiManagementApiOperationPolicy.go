@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementapioperationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementapioperationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementapioperationpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy}.
 type ApiManagementApiOperationPolicy interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -474,7 +474,7 @@ func (j *jsiiProxy_ApiManagementApiOperationPolicy) XmlLinkInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy} Resource.
 func NewApiManagementApiOperationPolicy(scope constructs.Construct, id *string, config *ApiManagementApiOperationPolicyConfig) ApiManagementApiOperationPolicy {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewApiManagementApiOperationPolicy(scope constructs.Construct, id *string, 
 	j := jsiiProxy_ApiManagementApiOperationPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
+		"@cdktn/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewApiManagementApiOperationPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_operation_policy azurerm_api_management_api_operation_policy} Resource.
 func NewApiManagementApiOperationPolicy_Override(a ApiManagementApiOperationPolicy, scope constructs.Construct, id *string, config *ApiManagementApiOperationPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
+		"@cdktn/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -658,7 +658,7 @@ func ApiManagementApiOperationPolicy_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
+		"@cdktn/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func ApiManagementApiOperationPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
+		"@cdktn/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func ApiManagementApiOperationPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
+		"@cdktn/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func ApiManagementApiOperationPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
+		"@cdktn/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func ApiManagementApiOperationPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
+		"@cdktn/provider-azurerm.apiManagementApiOperationPolicy.ApiManagementApiOperationPolicy",
 		"tfResourceType",
 		&returns,
 	)

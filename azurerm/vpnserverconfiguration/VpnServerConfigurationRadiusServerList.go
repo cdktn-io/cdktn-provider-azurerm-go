@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpnserverconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vpnserverconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpnserverconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewVpnServerConfigurationRadiusServerList(terraformResource cdktf.IInterpol
 	j := jsiiProxy_VpnServerConfigurationRadiusServerList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerList",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewVpnServerConfigurationRadiusServerList_Override(v VpnServerConfiguration
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerList",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		v,
 	)

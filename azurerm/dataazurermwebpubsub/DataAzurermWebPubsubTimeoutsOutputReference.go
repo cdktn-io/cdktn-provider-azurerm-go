@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermwebpubsub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermwebpubsub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermwebpubsub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDataAzurermWebPubsubTimeoutsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAzurermWebPubsubTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDataAzurermWebPubsubTimeoutsOutputReference_Override(d DataAzurermWebPub
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

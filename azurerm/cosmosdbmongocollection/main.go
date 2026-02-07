@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbmongocollection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
 		reflect.TypeOf((*CosmosdbMongoCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -99,11 +99,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionAutoscaleSettings",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionAutoscaleSettings",
 		reflect.TypeOf((*CosmosdbMongoCollectionAutoscaleSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionAutoscaleSettingsOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionAutoscaleSettingsOutputReference",
 		reflect.TypeOf((*CosmosdbMongoCollectionAutoscaleSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,15 +138,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionConfig",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionConfig",
 		reflect.TypeOf((*CosmosdbMongoCollectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionIndex",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionIndex",
 		reflect.TypeOf((*CosmosdbMongoCollectionIndex)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionIndexList",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionIndexList",
 		reflect.TypeOf((*CosmosdbMongoCollectionIndexList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -168,7 +168,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionIndexOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionIndexOutputReference",
 		reflect.TypeOf((*CosmosdbMongoCollectionIndexOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,11 +205,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionSystemIndexes",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionSystemIndexes",
 		reflect.TypeOf((*CosmosdbMongoCollectionSystemIndexes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionSystemIndexesList",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionSystemIndexesList",
 		reflect.TypeOf((*CosmosdbMongoCollectionSystemIndexesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -230,7 +230,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionSystemIndexesOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionSystemIndexesOutputReference",
 		reflect.TypeOf((*CosmosdbMongoCollectionSystemIndexesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -264,11 +264,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionTimeouts",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionTimeouts",
 		reflect.TypeOf((*CosmosdbMongoCollectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionTimeoutsOutputReference",
 		reflect.TypeOf((*CosmosdbMongoCollectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

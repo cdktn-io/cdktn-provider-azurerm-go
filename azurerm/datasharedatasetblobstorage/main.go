@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datasharedatasetblobstorage
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
 		reflect.TypeOf((*DataShareDatasetBlobStorage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageConfig",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageConfig",
 		reflect.TypeOf((*DataShareDatasetBlobStorageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageStorageAccount",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageStorageAccount",
 		reflect.TypeOf((*DataShareDatasetBlobStorageStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageStorageAccountOutputReference",
 		reflect.TypeOf((*DataShareDatasetBlobStorageStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageTimeouts",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageTimeouts",
 		reflect.TypeOf((*DataShareDatasetBlobStorageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorageTimeoutsOutputReference",
 		reflect.TypeOf((*DataShareDatasetBlobStorageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

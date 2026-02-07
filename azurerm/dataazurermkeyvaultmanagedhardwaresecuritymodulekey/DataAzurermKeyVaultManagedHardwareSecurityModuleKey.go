@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermkeyvaultmanagedhardwaresecuritymodulekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermkeyvaultmanagedhardwaresecuritymodulekey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkeyvaultmanagedhardwaresecuritymodulekey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key}.
 type DataAzurermKeyVaultManagedHardwareSecurityModuleKey interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModuleKey) Versione
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key} Data Source.
 func NewDataAzurermKeyVaultManagedHardwareSecurityModuleKey(scope constructs.Construct, id *string, config *DataAzurermKeyVaultManagedHardwareSecurityModuleKeyConfig) DataAzurermKeyVaultManagedHardwareSecurityModuleKey {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewDataAzurermKeyVaultManagedHardwareSecurityModuleKey(scope constructs.Con
 	j := jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModuleKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -452,12 +452,12 @@ func NewDataAzurermKeyVaultManagedHardwareSecurityModuleKey(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault_managed_hardware_security_module_key azurerm_key_vault_managed_hardware_security_module_key} Data Source.
 func NewDataAzurermKeyVaultManagedHardwareSecurityModuleKey_Override(d DataAzurermKeyVaultManagedHardwareSecurityModuleKey, scope constructs.Construct, id *string, config *DataAzurermKeyVaultManagedHardwareSecurityModuleKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -552,7 +552,7 @@ func DataAzurermKeyVaultManagedHardwareSecurityModuleKey_GenerateConfigForImport
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -587,7 +587,7 @@ func DataAzurermKeyVaultManagedHardwareSecurityModuleKey_IsConstruct(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAzurermKeyVaultManagedHardwareSecurityModuleKey_IsTerraformDataSource(x
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func DataAzurermKeyVaultManagedHardwareSecurityModuleKey_IsTerraformElement(x in
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func DataAzurermKeyVaultManagedHardwareSecurityModuleKey_TfResourceType() *strin
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKey",
 		"tfResourceType",
 		&returns,
 	)

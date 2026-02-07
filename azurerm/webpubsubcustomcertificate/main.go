@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubcustomcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
 		reflect.TypeOf((*WebPubsubCustomCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificateConfig",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificateConfig",
 		reflect.TypeOf((*WebPubsubCustomCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificateTimeouts",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificateTimeouts",
 		reflect.TypeOf((*WebPubsubCustomCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*WebPubsubCustomCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

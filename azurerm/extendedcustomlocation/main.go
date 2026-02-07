@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package extendedcustomlocation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
 		reflect.TypeOf((*ExtendedCustomLocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,11 +92,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationAuthentication",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationAuthentication",
 		reflect.TypeOf((*ExtendedCustomLocationAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationAuthenticationOutputReference",
 		reflect.TypeOf((*ExtendedCustomLocationAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,15 +133,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationConfig",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationConfig",
 		reflect.TypeOf((*ExtendedCustomLocationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationTimeouts",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationTimeouts",
 		reflect.TypeOf((*ExtendedCustomLocationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationTimeoutsOutputReference",
 		reflect.TypeOf((*ExtendedCustomLocationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

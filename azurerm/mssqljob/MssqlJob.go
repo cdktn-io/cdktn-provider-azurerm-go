@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqljob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqljob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job azurerm_mssql_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job azurerm_mssql_job}.
 type MssqlJob interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_MssqlJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job azurerm_mssql_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job azurerm_mssql_job} Resource.
 func NewMssqlJob(scope constructs.Construct, id *string, config *MssqlJobConfig) MssqlJob {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewMssqlJob(scope constructs.Construct, id *string, config *MssqlJobConfig)
 	j := jsiiProxy_MssqlJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJob",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewMssqlJob(scope constructs.Construct, id *string, config *MssqlJobConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job azurerm_mssql_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job azurerm_mssql_job} Resource.
 func NewMssqlJob_Override(m MssqlJob, scope constructs.Construct, id *string, config *MssqlJobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJob",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJob",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -555,7 +555,7 @@ func MssqlJob_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJob",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func MssqlJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJob",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func MssqlJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJob",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func MssqlJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJob",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func MssqlJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJob",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJob",
 		"tfResourceType",
 		&returns,
 	)

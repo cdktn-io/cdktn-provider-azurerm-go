@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticcloudelasticsearch
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearch",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearch",
 		reflect.TypeOf((*ElasticCloudElasticsearch)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,19 +96,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchConfig",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchConfig",
 		reflect.TypeOf((*ElasticCloudElasticsearchConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogs",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogs",
 		reflect.TypeOf((*ElasticCloudElasticsearchLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsFilteringTag",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsFilteringTag",
 		reflect.TypeOf((*ElasticCloudElasticsearchLogsFilteringTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsFilteringTagList",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsFilteringTagList",
 		reflect.TypeOf((*ElasticCloudElasticsearchLogsFilteringTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsFilteringTagOutputReference",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsFilteringTagOutputReference",
 		reflect.TypeOf((*ElasticCloudElasticsearchLogsFilteringTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -168,7 +168,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsOutputReference",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsOutputReference",
 		reflect.TypeOf((*ElasticCloudElasticsearchLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchTimeouts",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchTimeouts",
 		reflect.TypeOf((*ElasticCloudElasticsearchTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticCloudElasticsearchTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

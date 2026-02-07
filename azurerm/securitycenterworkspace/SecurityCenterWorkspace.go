@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycenterworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/securitycenterworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/securitycenterworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_workspace azurerm_security_center_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_workspace azurerm_security_center_workspace}.
 type SecurityCenterWorkspace interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SecurityCenterWorkspace) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_workspace azurerm_security_center_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_workspace azurerm_security_center_workspace} Resource.
 func NewSecurityCenterWorkspace(scope constructs.Construct, id *string, config *SecurityCenterWorkspaceConfig) SecurityCenterWorkspace {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSecurityCenterWorkspace(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_SecurityCenterWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSecurityCenterWorkspace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_workspace azurerm_security_center_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_workspace azurerm_security_center_workspace} Resource.
 func NewSecurityCenterWorkspace_Override(s SecurityCenterWorkspace, scope constructs.Construct, id *string, config *SecurityCenterWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -520,7 +520,7 @@ func SecurityCenterWorkspace_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func SecurityCenterWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func SecurityCenterWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func SecurityCenterWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func SecurityCenterWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
 		"tfResourceType",
 		&returns,
 	)

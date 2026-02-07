@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermhealthcareservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermhealthcareservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermhealthcareservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/healthcare_service azurerm_healthcare_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/healthcare_service azurerm_healthcare_service}.
 type DataAzurermHealthcareService interface {
 	cdktf.TerraformDataSource
 	AccessPolicyObjectIds() *[]*string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAzurermHealthcareService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/healthcare_service azurerm_healthcare_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/healthcare_service azurerm_healthcare_service} Data Source.
 func NewDataAzurermHealthcareService(scope constructs.Construct, id *string, config *DataAzurermHealthcareServiceConfig) DataAzurermHealthcareService {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewDataAzurermHealthcareService(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAzurermHealthcareService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
+		"@cdktn/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -453,12 +453,12 @@ func NewDataAzurermHealthcareService(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/healthcare_service azurerm_healthcare_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/healthcare_service azurerm_healthcare_service} Data Source.
 func NewDataAzurermHealthcareService_Override(d DataAzurermHealthcareService, scope constructs.Construct, id *string, config *DataAzurermHealthcareServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
+		"@cdktn/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -564,7 +564,7 @@ func DataAzurermHealthcareService_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
+		"@cdktn/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -599,7 +599,7 @@ func DataAzurermHealthcareService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
+		"@cdktn/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func DataAzurermHealthcareService_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
+		"@cdktn/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -637,7 +637,7 @@ func DataAzurermHealthcareService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
+		"@cdktn/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func DataAzurermHealthcareService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
+		"@cdktn/provider-azurerm.dataAzurermHealthcareService.DataAzurermHealthcareService",
 		"tfResourceType",
 		&returns,
 	)

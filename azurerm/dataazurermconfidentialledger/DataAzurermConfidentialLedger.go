@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermconfidentialledger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermconfidentialledger/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermconfidentialledger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger}.
 type DataAzurermConfidentialLedger interface {
 	cdktf.TerraformDataSource
 	AzureadBasedServicePrincipal() DataAzurermConfidentialLedgerAzureadBasedServicePrincipalList
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAzurermConfidentialLedger) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger} Data Source.
 func NewDataAzurermConfidentialLedger(scope constructs.Construct, id *string, config *DataAzurermConfidentialLedgerConfig) DataAzurermConfidentialLedger {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewDataAzurermConfidentialLedger(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAzurermConfidentialLedger{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
+		"@cdktn/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -430,12 +430,12 @@ func NewDataAzurermConfidentialLedger(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger} Data Source.
 func NewDataAzurermConfidentialLedger_Override(d DataAzurermConfidentialLedger, scope constructs.Construct, id *string, config *DataAzurermConfidentialLedgerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
+		"@cdktn/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -530,7 +530,7 @@ func DataAzurermConfidentialLedger_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
+		"@cdktn/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func DataAzurermConfidentialLedger_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
+		"@cdktn/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAzurermConfidentialLedger_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
+		"@cdktn/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func DataAzurermConfidentialLedger_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
+		"@cdktn/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func DataAzurermConfidentialLedger_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
+		"@cdktn/provider-azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedger",
 		"tfResourceType",
 		&returns,
 	)

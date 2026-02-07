@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpngateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGateway",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGateway",
 		reflect.TypeOf((*VpnGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayBgpSettings",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayBgpSettings",
 		reflect.TypeOf((*VpnGatewayBgpSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsInstance0BgpPeeringAddress",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsInstance0BgpPeeringAddress",
 		reflect.TypeOf((*VpnGatewayBgpSettingsInstance0BgpPeeringAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsInstance0BgpPeeringAddressOutputReference",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsInstance0BgpPeeringAddressOutputReference",
 		reflect.TypeOf((*VpnGatewayBgpSettingsInstance0BgpPeeringAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsInstance1BgpPeeringAddress",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsInstance1BgpPeeringAddress",
 		reflect.TypeOf((*VpnGatewayBgpSettingsInstance1BgpPeeringAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsInstance1BgpPeeringAddressOutputReference",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsInstance1BgpPeeringAddressOutputReference",
 		reflect.TypeOf((*VpnGatewayBgpSettingsInstance1BgpPeeringAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,7 +181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsOutputReference",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayBgpSettingsOutputReference",
 		reflect.TypeOf((*VpnGatewayBgpSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asn", GoGetter: "Asn"},
@@ -226,15 +226,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayConfig",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayConfig",
 		reflect.TypeOf((*VpnGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayIpConfiguration",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayIpConfiguration",
 		reflect.TypeOf((*VpnGatewayIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayIpConfigurationList",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayIpConfigurationList",
 		reflect.TypeOf((*VpnGatewayIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -255,7 +255,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayIpConfigurationOutputReference",
 		reflect.TypeOf((*VpnGatewayIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -290,11 +290,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayTimeouts",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayTimeouts",
 		reflect.TypeOf((*VpnGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*VpnGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

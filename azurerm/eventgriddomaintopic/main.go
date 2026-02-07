@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventgriddomaintopic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
 		reflect.TypeOf((*EventgridDomainTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopicConfig",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopicConfig",
 		reflect.TypeOf((*EventgridDomainTopicConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopicTimeouts",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopicTimeouts",
 		reflect.TypeOf((*EventgridDomainTopicTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopicTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopicTimeoutsOutputReference",
 		reflect.TypeOf((*EventgridDomainTopicTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

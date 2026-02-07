@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagedatalakegen2filesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagedatalakegen2filesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagedatalakegen2filesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem}.
 type StorageDataLakeGen2Filesystem interface {
 	cdktf.TerraformResource
 	Ace() StorageDataLakeGen2FilesystemAceList
@@ -500,7 +500,7 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem} Resource.
 func NewStorageDataLakeGen2Filesystem(scope constructs.Construct, id *string, config *StorageDataLakeGen2FilesystemConfig) StorageDataLakeGen2Filesystem {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewStorageDataLakeGen2Filesystem(scope constructs.Construct, id *string, co
 	j := jsiiProxy_StorageDataLakeGen2Filesystem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,12 +518,12 @@ func NewStorageDataLakeGen2Filesystem(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem} Resource.
 func NewStorageDataLakeGen2Filesystem_Override(s StorageDataLakeGen2Filesystem, scope constructs.Construct, id *string, config *StorageDataLakeGen2FilesystemConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -684,7 +684,7 @@ func StorageDataLakeGen2Filesystem_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -719,7 +719,7 @@ func StorageDataLakeGen2Filesystem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -738,7 +738,7 @@ func StorageDataLakeGen2Filesystem_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func StorageDataLakeGen2Filesystem_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func StorageDataLakeGen2Filesystem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
 		"tfResourceType",
 		&returns,
 	)

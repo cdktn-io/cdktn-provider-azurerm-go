@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowsfunctionapp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
 		reflect.TypeOf((*WindowsFunctionApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -187,15 +187,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettings",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettings",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsActiveDirectory",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsActiveDirectory",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsActiveDirectoryOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -238,11 +238,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsFacebook",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsFacebook",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsFacebook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsFacebookOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsFacebookOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsFacebookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appId", GoGetter: "AppId"},
@@ -285,11 +285,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsGithub",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsGithub",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsGithub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsGithubOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsGithubOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsGithubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -332,11 +332,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsGoogle",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsGoogle",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsGoogle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsGoogleOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsGoogleOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsGoogleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -379,11 +379,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsMicrosoft",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsMicrosoft",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsMicrosoft)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsMicrosoftOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsMicrosoftOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsMicrosoftOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -426,7 +426,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -508,11 +508,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsTwitter",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsTwitter",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsTwitter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsTwitterOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsTwitterOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsTwitterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -552,15 +552,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2ActiveDirectoryV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2ActiveDirectoryV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2ActiveDirectoryV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedApplications", GoGetter: "AllowedApplications"},
@@ -626,11 +626,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2AppleV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2AppleV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2AppleV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2AppleV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2AppleV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2AppleV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -667,11 +667,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2AzureStaticWebAppV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2AzureStaticWebAppV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2AzureStaticWebAppV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2AzureStaticWebAppV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2AzureStaticWebAppV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2AzureStaticWebAppV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -705,11 +705,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2CustomOidcV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2List",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2List",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2CustomOidcV2List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -731,7 +731,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2CustomOidcV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorisationEndpoint", GoGetter: "AuthorisationEndpoint"},
@@ -781,11 +781,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2FacebookV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2FacebookV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2FacebookV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appId", GoGetter: "AppId"},
@@ -827,11 +827,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2GithubV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2GithubV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2GithubV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2GithubV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2GithubV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2GithubV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -870,11 +870,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2GoogleV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2GoogleV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2GoogleV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2GoogleV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2GoogleV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2GoogleV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -916,11 +916,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2Login",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2Login",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2Login)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2LoginOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2LoginOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2LoginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedExternalRedirectUrls", GoGetter: "AllowedExternalRedirectUrls"},
@@ -985,11 +985,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2MicrosoftV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2MicrosoftV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2MicrosoftV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2MicrosoftV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2MicrosoftV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2MicrosoftV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -1031,7 +1031,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryV2", GoGetter: "ActiveDirectoryV2"},
@@ -1138,11 +1138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2TwitterV2",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2TwitterV2",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2TwitterV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2TwitterV2OutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2TwitterV2OutputReference",
 		reflect.TypeOf((*WindowsFunctionAppAuthSettingsV2TwitterV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1178,11 +1178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppBackup",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppBackup",
 		reflect.TypeOf((*WindowsFunctionAppBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppBackupOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppBackupOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1224,11 +1224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppBackupSchedule",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppBackupSchedule",
 		reflect.TypeOf((*WindowsFunctionAppBackupSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppBackupScheduleOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppBackupScheduleOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppBackupScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1274,15 +1274,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppConfig",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppConfig",
 		reflect.TypeOf((*WindowsFunctionAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppConnectionString",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppConnectionString",
 		reflect.TypeOf((*WindowsFunctionAppConnectionString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppConnectionStringList",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppConnectionStringList",
 		reflect.TypeOf((*WindowsFunctionAppConnectionStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1304,7 +1304,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppConnectionStringOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppConnectionStringOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppConnectionStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1342,11 +1342,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppIdentity",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppIdentity",
 		reflect.TypeOf((*WindowsFunctionAppIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppIdentityOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppIdentityOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1385,15 +1385,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfig",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfig",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigAppServiceLogs",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigAppServiceLogs",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigAppServiceLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigAppServiceLogsOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigAppServiceLogsOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigAppServiceLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1431,11 +1431,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigApplicationStack",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigApplicationStack",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigApplicationStack)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigApplicationStackOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigApplicationStackOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigApplicationStackOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1485,11 +1485,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigCors",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigCors",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigCorsOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigCorsOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
@@ -1527,15 +1527,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestriction",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestriction",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionHeaders",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionHeadersList",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1557,7 +1557,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1601,7 +1601,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionList",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionList",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1623,7 +1623,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestrictionOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1680,7 +1680,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alwaysOn", GoGetter: "AlwaysOn"},
@@ -1819,15 +1819,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestriction",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestriction",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigScmIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionHeaders",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigScmIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionHeadersList",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigScmIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1849,7 +1849,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigScmIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1893,7 +1893,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionList",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionList",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigScmIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1915,7 +1915,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestrictionOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteConfigScmIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1972,11 +1972,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteCredential",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteCredential",
 		reflect.TypeOf((*WindowsFunctionAppSiteCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteCredentialList",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteCredentialList",
 		reflect.TypeOf((*WindowsFunctionAppSiteCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1997,7 +1997,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteCredentialOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppSiteCredentialOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppSiteCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2031,11 +2031,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStickySettings",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStickySettings",
 		reflect.TypeOf((*WindowsFunctionAppStickySettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStickySettingsOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStickySettingsOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppStickySettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appSettingNames", GoGetter: "AppSettingNames"},
@@ -2073,11 +2073,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStorageAccount",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStorageAccount",
 		reflect.TypeOf((*WindowsFunctionAppStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStorageAccountList",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStorageAccountList",
 		reflect.TypeOf((*WindowsFunctionAppStorageAccountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2099,7 +2099,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppStorageAccountOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
@@ -2144,11 +2144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppTimeouts",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppTimeouts",
 		reflect.TypeOf((*WindowsFunctionAppTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppTimeoutsOutputReference",
 		reflect.TypeOf((*WindowsFunctionAppTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

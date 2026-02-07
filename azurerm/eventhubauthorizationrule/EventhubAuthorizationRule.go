@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventhubauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/eventhubauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventhubauthorizationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_authorization_rule azurerm_eventhub_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_authorization_rule azurerm_eventhub_authorization_rule}.
 type EventhubAuthorizationRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_EventhubAuthorizationRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_authorization_rule azurerm_eventhub_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_authorization_rule azurerm_eventhub_authorization_rule} Resource.
 func NewEventhubAuthorizationRule(scope constructs.Construct, id *string, config *EventhubAuthorizationRuleConfig) EventhubAuthorizationRule {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewEventhubAuthorizationRule(scope constructs.Construct, id *string, config
 	j := jsiiProxy_EventhubAuthorizationRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -582,12 +582,12 @@ func NewEventhubAuthorizationRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_authorization_rule azurerm_eventhub_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_authorization_rule azurerm_eventhub_authorization_rule} Resource.
 func NewEventhubAuthorizationRule_Override(e EventhubAuthorizationRule, scope constructs.Construct, id *string, config *EventhubAuthorizationRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -759,7 +759,7 @@ func EventhubAuthorizationRule_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -794,7 +794,7 @@ func EventhubAuthorizationRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func EventhubAuthorizationRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -832,7 +832,7 @@ func EventhubAuthorizationRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -845,7 +845,7 @@ func EventhubAuthorizationRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
 		"tfResourceType",
 		&returns,
 	)

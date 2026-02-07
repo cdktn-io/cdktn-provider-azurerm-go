@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package routeserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/routeserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/routeserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/route_server azurerm_route_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/route_server azurerm_route_server}.
 type RouteServer interface {
 	cdktf.TerraformResource
 	BranchToBranchTrafficEnabled() interface{}
@@ -577,7 +577,7 @@ func (j *jsiiProxy_RouteServer) VirtualRouterIps() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/route_server azurerm_route_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/route_server azurerm_route_server} Resource.
 func NewRouteServer(scope constructs.Construct, id *string, config *RouteServerConfig) RouteServer {
 	_init_.Initialize()
 
@@ -587,7 +587,7 @@ func NewRouteServer(scope constructs.Construct, id *string, config *RouteServerC
 	j := jsiiProxy_RouteServer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.routeServer.RouteServer",
+		"@cdktn/provider-azurerm.routeServer.RouteServer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -595,12 +595,12 @@ func NewRouteServer(scope constructs.Construct, id *string, config *RouteServerC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/route_server azurerm_route_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/route_server azurerm_route_server} Resource.
 func NewRouteServer_Override(r RouteServer, scope constructs.Construct, id *string, config *RouteServerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.routeServer.RouteServer",
+		"@cdktn/provider-azurerm.routeServer.RouteServer",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -794,7 +794,7 @@ func RouteServer_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.routeServer.RouteServer",
+		"@cdktn/provider-azurerm.routeServer.RouteServer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -829,7 +829,7 @@ func RouteServer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.routeServer.RouteServer",
+		"@cdktn/provider-azurerm.routeServer.RouteServer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func RouteServer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.routeServer.RouteServer",
+		"@cdktn/provider-azurerm.routeServer.RouteServer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -867,7 +867,7 @@ func RouteServer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.routeServer.RouteServer",
+		"@cdktn/provider-azurerm.routeServer.RouteServer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -880,7 +880,7 @@ func RouteServer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.routeServer.RouteServer",
+		"@cdktn/provider-azurerm.routeServer.RouteServer",
 		"tfResourceType",
 		&returns,
 	)

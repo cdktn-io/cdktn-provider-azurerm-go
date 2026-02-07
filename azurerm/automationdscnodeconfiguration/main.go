@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationdscnodeconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
 		reflect.TypeOf((*AutomationDscNodeconfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfigurationConfig",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfigurationConfig",
 		reflect.TypeOf((*AutomationDscNodeconfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfigurationTimeouts",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfigurationTimeouts",
 		reflect.TypeOf((*AutomationDscNodeconfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationDscNodeconfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

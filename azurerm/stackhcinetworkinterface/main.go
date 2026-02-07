@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcinetworkinterface
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
 		reflect.TypeOf((*StackHciNetworkInterface)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceConfig",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceConfig",
 		reflect.TypeOf((*StackHciNetworkInterfaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceIpConfiguration",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceIpConfiguration",
 		reflect.TypeOf((*StackHciNetworkInterfaceIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceIpConfigurationOutputReference",
 		reflect.TypeOf((*StackHciNetworkInterfaceIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceTimeouts",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceTimeouts",
 		reflect.TypeOf((*StackHciNetworkInterfaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterfaceTimeoutsOutputReference",
 		reflect.TypeOf((*StackHciNetworkInterfaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

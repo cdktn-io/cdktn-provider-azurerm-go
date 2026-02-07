@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appserviceplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appserviceplan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appserviceplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_plan azurerm_app_service_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_plan azurerm_app_service_plan}.
 type AppServicePlan interface {
 	cdktf.TerraformResource
 	AppServiceEnvironmentId() *string
@@ -629,7 +629,7 @@ func (j *jsiiProxy_AppServicePlan) ZoneRedundantInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_plan azurerm_app_service_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_plan azurerm_app_service_plan} Resource.
 func NewAppServicePlan(scope constructs.Construct, id *string, config *AppServicePlanConfig) AppServicePlan {
 	_init_.Initialize()
 
@@ -639,7 +639,7 @@ func NewAppServicePlan(scope constructs.Construct, id *string, config *AppServic
 	j := jsiiProxy_AppServicePlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlan",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -647,12 +647,12 @@ func NewAppServicePlan(scope constructs.Construct, id *string, config *AppServic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_plan azurerm_app_service_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_plan azurerm_app_service_plan} Resource.
 func NewAppServicePlan_Override(a AppServicePlan, scope constructs.Construct, id *string, config *AppServicePlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlan",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlan",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -868,7 +868,7 @@ func AppServicePlan_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlan",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -903,7 +903,7 @@ func AppServicePlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlan",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -922,7 +922,7 @@ func AppServicePlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlan",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -941,7 +941,7 @@ func AppServicePlan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlan",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -954,7 +954,7 @@ func AppServicePlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlan",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlan",
 		"tfResourceType",
 		&returns,
 	)

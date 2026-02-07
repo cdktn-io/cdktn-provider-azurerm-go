@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermappservicecertificateorder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermappservicecertificateorder/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermappservicecertificateorder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/app_service_certificate_order azurerm_app_service_certificate_order}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/app_service_certificate_order azurerm_app_service_certificate_order}.
 type DataAzurermAppServiceCertificateOrder interface {
 	cdktf.TerraformDataSource
 	AppServiceCertificateNotRenewableReasons() *[]*string
@@ -522,7 +522,7 @@ func (j *jsiiProxy_DataAzurermAppServiceCertificateOrder) ValidityInYears() *flo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/app_service_certificate_order azurerm_app_service_certificate_order} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/app_service_certificate_order azurerm_app_service_certificate_order} Data Source.
 func NewDataAzurermAppServiceCertificateOrder(scope constructs.Construct, id *string, config *DataAzurermAppServiceCertificateOrderConfig) DataAzurermAppServiceCertificateOrder {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewDataAzurermAppServiceCertificateOrder(scope constructs.Construct, id *st
 	j := jsiiProxy_DataAzurermAppServiceCertificateOrder{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
+		"@cdktn/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewDataAzurermAppServiceCertificateOrder(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/app_service_certificate_order azurerm_app_service_certificate_order} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/app_service_certificate_order azurerm_app_service_certificate_order} Data Source.
 func NewDataAzurermAppServiceCertificateOrder_Override(d DataAzurermAppServiceCertificateOrder, scope constructs.Construct, id *string, config *DataAzurermAppServiceCertificateOrderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
+		"@cdktn/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -640,7 +640,7 @@ func DataAzurermAppServiceCertificateOrder_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
+		"@cdktn/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -675,7 +675,7 @@ func DataAzurermAppServiceCertificateOrder_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
+		"@cdktn/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func DataAzurermAppServiceCertificateOrder_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
+		"@cdktn/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func DataAzurermAppServiceCertificateOrder_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
+		"@cdktn/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func DataAzurermAppServiceCertificateOrder_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
+		"@cdktn/provider-azurerm.dataAzurermAppServiceCertificateOrder.DataAzurermAppServiceCertificateOrder",
 		"tfResourceType",
 		&returns,
 	)

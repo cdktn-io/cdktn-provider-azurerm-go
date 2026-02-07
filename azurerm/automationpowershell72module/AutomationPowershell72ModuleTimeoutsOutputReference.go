@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationpowershell72module
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationpowershell72module/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationpowershell72module/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewAutomationPowershell72ModuleTimeoutsOutputReference(terraformResource cd
 	j := jsiiProxy_AutomationPowershell72ModuleTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewAutomationPowershell72ModuleTimeoutsOutputReference_Override(a Automatio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

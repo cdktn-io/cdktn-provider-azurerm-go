@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwareprivatecloud
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vmwareprivatecloud/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vmwareprivatecloud/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud}.
 type VmwarePrivateCloud interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -667,7 +667,7 @@ func (j *jsiiProxy_VmwarePrivateCloud) VmotionSubnetCidr() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud} Resource.
 func NewVmwarePrivateCloud(scope constructs.Construct, id *string, config *VmwarePrivateCloudConfig) VmwarePrivateCloud {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewVmwarePrivateCloud(scope constructs.Construct, id *string, config *Vmwar
 	j := jsiiProxy_VmwarePrivateCloud{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -685,12 +685,12 @@ func NewVmwarePrivateCloud(scope constructs.Construct, id *string, config *Vmwar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud} Resource.
 func NewVmwarePrivateCloud_Override(v VmwarePrivateCloud, scope constructs.Construct, id *string, config *VmwarePrivateCloudConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -884,7 +884,7 @@ func VmwarePrivateCloud_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -919,7 +919,7 @@ func VmwarePrivateCloud_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -938,7 +938,7 @@ func VmwarePrivateCloud_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -957,7 +957,7 @@ func VmwarePrivateCloud_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -970,7 +970,7 @@ func VmwarePrivateCloud_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
 		"tfResourceType",
 		&returns,
 	)

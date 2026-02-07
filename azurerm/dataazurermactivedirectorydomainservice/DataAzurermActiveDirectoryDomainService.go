@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermactivedirectorydomainservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermactivedirectorydomainservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermactivedirectorydomainservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service}.
 type DataAzurermActiveDirectoryDomainService interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -513,7 +513,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service} Data Source.
 func NewDataAzurermActiveDirectoryDomainService(scope constructs.Construct, id *string, config *DataAzurermActiveDirectoryDomainServiceConfig) DataAzurermActiveDirectoryDomainService {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewDataAzurermActiveDirectoryDomainService(scope constructs.Construct, id *
 	j := jsiiProxy_DataAzurermActiveDirectoryDomainService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
+		"@cdktn/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -531,12 +531,12 @@ func NewDataAzurermActiveDirectoryDomainService(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service} Data Source.
 func NewDataAzurermActiveDirectoryDomainService_Override(d DataAzurermActiveDirectoryDomainService, scope constructs.Construct, id *string, config *DataAzurermActiveDirectoryDomainServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
+		"@cdktn/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -642,7 +642,7 @@ func DataAzurermActiveDirectoryDomainService_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
+		"@cdktn/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -677,7 +677,7 @@ func DataAzurermActiveDirectoryDomainService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
+		"@cdktn/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func DataAzurermActiveDirectoryDomainService_IsTerraformDataSource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
+		"@cdktn/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -715,7 +715,7 @@ func DataAzurermActiveDirectoryDomainService_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
+		"@cdktn/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -728,7 +728,7 @@ func DataAzurermActiveDirectoryDomainService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
+		"@cdktn/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
 		"tfResourceType",
 		&returns,
 	)

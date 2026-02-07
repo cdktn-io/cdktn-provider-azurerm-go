@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redisenterprisedatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/redisenterprisedatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/redisenterprisedatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database}.
 type RedisEnterpriseDatabase interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -571,7 +571,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database} Resource.
 func NewRedisEnterpriseDatabase(scope constructs.Construct, id *string, config *RedisEnterpriseDatabaseConfig) RedisEnterpriseDatabase {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewRedisEnterpriseDatabase(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_RedisEnterpriseDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -589,12 +589,12 @@ func NewRedisEnterpriseDatabase(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database} Resource.
 func NewRedisEnterpriseDatabase_Override(r RedisEnterpriseDatabase, scope constructs.Construct, id *string, config *RedisEnterpriseDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -777,7 +777,7 @@ func RedisEnterpriseDatabase_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -812,7 +812,7 @@ func RedisEnterpriseDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func RedisEnterpriseDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func RedisEnterpriseDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func RedisEnterpriseDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
 		"tfResourceType",
 		&returns,
 	)

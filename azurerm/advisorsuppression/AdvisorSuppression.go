@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package advisorsuppression
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/advisorsuppression/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/advisorsuppression/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/advisor_suppression azurerm_advisor_suppression}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/advisor_suppression azurerm_advisor_suppression}.
 type AdvisorSuppression interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_AdvisorSuppression) TtlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
 func NewAdvisorSuppression(scope constructs.Construct, id *string, config *AdvisorSuppressionConfig) AdvisorSuppression {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewAdvisorSuppression(scope constructs.Construct, id *string, config *Advis
 	j := jsiiProxy_AdvisorSuppression{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppression",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppression",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewAdvisorSuppression(scope constructs.Construct, id *string, config *Advis
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
 func NewAdvisorSuppression_Override(a AdvisorSuppression, scope constructs.Construct, id *string, config *AdvisorSuppressionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppression",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppression",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -600,7 +600,7 @@ func AdvisorSuppression_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppression",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppression",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func AdvisorSuppression_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppression",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppression",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func AdvisorSuppression_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppression",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppression",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func AdvisorSuppression_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppression",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppression",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func AdvisorSuppression_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppression",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppression",
 		"tfResourceType",
 		&returns,
 	)

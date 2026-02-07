@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_web_app azurerm_linux_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_web_app azurerm_linux_web_app}.
 type LinuxWebApp interface {
 	cdktf.TerraformResource
 	AppSettings() *map[string]*string
@@ -1124,7 +1124,7 @@ func (j *jsiiProxy_LinuxWebApp) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_web_app azurerm_linux_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_web_app azurerm_linux_web_app} Resource.
 func NewLinuxWebApp(scope constructs.Construct, id *string, config *LinuxWebAppConfig) LinuxWebApp {
 	_init_.Initialize()
 
@@ -1134,7 +1134,7 @@ func NewLinuxWebApp(scope constructs.Construct, id *string, config *LinuxWebAppC
 	j := jsiiProxy_LinuxWebApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebApp",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1142,12 +1142,12 @@ func NewLinuxWebApp(scope constructs.Construct, id *string, config *LinuxWebAppC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_web_app azurerm_linux_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_web_app azurerm_linux_web_app} Resource.
 func NewLinuxWebApp_Override(l LinuxWebApp, scope constructs.Construct, id *string, config *LinuxWebAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebApp",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1462,7 +1462,7 @@ func LinuxWebApp_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebApp",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1497,7 +1497,7 @@ func LinuxWebApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebApp",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1516,7 +1516,7 @@ func LinuxWebApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebApp",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1535,7 +1535,7 @@ func LinuxWebApp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebApp",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1548,7 +1548,7 @@ func LinuxWebApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebApp",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljobschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqljobschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqljobschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_schedule azurerm_mssql_job_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_schedule azurerm_mssql_job_schedule}.
 type MssqlJobSchedule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -476,7 +476,7 @@ func (j *jsiiProxy_MssqlJobSchedule) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_schedule azurerm_mssql_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_schedule azurerm_mssql_job_schedule} Resource.
 func NewMssqlJobSchedule(scope constructs.Construct, id *string, config *MssqlJobScheduleConfig) MssqlJobSchedule {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewMssqlJobSchedule(scope constructs.Construct, id *string, config *MssqlJo
 	j := jsiiProxy_MssqlJobSchedule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewMssqlJobSchedule(scope constructs.Construct, id *string, config *MssqlJo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_schedule azurerm_mssql_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_schedule azurerm_mssql_job_schedule} Resource.
 func NewMssqlJobSchedule_Override(m MssqlJobSchedule, scope constructs.Construct, id *string, config *MssqlJobScheduleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -660,7 +660,7 @@ func MssqlJobSchedule_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func MssqlJobSchedule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func MssqlJobSchedule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func MssqlJobSchedule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func MssqlJobSchedule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
 		"tfResourceType",
 		&returns,
 	)

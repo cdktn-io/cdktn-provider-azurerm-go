@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermeventgridtopic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopic",
+		"@cdktn/provider-azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopic",
 		reflect.TypeOf((*DataAzurermEventgridTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopicConfig",
+		"@cdktn/provider-azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopicConfig",
 		reflect.TypeOf((*DataAzurermEventgridTopicConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopicTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopicTimeouts",
 		reflect.TypeOf((*DataAzurermEventgridTopicTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopicTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopicTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermEventgridTopicTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

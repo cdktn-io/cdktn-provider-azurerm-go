@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcemanagementprivatelink
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLink",
+		"@cdktn/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLink",
 		reflect.TypeOf((*ResourceManagementPrivateLink)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkConfig",
+		"@cdktn/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkConfig",
 		reflect.TypeOf((*ResourceManagementPrivateLinkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkTimeouts",
+		"@cdktn/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkTimeouts",
 		reflect.TypeOf((*ResourceManagementPrivateLinkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkTimeoutsOutputReference",
 		reflect.TypeOf((*ResourceManagementPrivateLinkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package paloaltolocalrulestackrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/paloaltolocalrulestackrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/paloaltolocalrulestackrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewPaloAltoLocalRulestackRuleDestinationOutputReference(terraformResource c
 	j := jsiiProxy_PaloAltoLocalRulestackRuleDestinationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackRule.PaloAltoLocalRulestackRuleDestinationOutputReference",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackRule.PaloAltoLocalRulestackRuleDestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewPaloAltoLocalRulestackRuleDestinationOutputReference_Override(p PaloAlto
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackRule.PaloAltoLocalRulestackRuleDestinationOutputReference",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackRule.PaloAltoLocalRulestackRuleDestinationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

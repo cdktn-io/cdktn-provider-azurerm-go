@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hdinsightsparkcluster
@@ -7,9 +7,9 @@ package hdinsightsparkcluster
 type HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrence struct {
 	// schedule block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_spark_cluster#schedule HdinsightSparkCluster#schedule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_spark_cluster#schedule HdinsightSparkCluster#schedule}
 	Schedule interface{} `field:"required" json:"schedule" yaml:"schedule"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_spark_cluster#timezone HdinsightSparkCluster#timezone}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_spark_cluster#timezone HdinsightSparkCluster#timezone}.
 	Timezone *string `field:"required" json:"timezone" yaml:"timezone"`
 }
 

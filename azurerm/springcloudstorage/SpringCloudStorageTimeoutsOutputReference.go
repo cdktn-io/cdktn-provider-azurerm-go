@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudstorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudstorage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudstorage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewSpringCloudStorageTimeoutsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_SpringCloudStorageTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudStorage.SpringCloudStorageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudStorage.SpringCloudStorageTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewSpringCloudStorageTimeoutsOutputReference_Override(s SpringCloudStorageT
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudStorage.SpringCloudStorageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudStorage.SpringCloudStorageTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

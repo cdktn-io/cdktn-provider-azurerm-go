@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticscluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
 		reflect.TypeOf((*StreamAnalyticsCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsClusterConfig",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsClusterConfig",
 		reflect.TypeOf((*StreamAnalyticsClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsClusterTimeouts",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsClusterTimeouts",
 		reflect.TypeOf((*StreamAnalyticsClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsClusterTimeoutsOutputReference",
 		reflect.TypeOf((*StreamAnalyticsClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

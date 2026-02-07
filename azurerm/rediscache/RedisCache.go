@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rediscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/rediscache/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/rediscache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_cache azurerm_redis_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_cache azurerm_redis_cache}.
 type RedisCache interface {
 	cdktf.TerraformResource
 	AccessKeysAuthenticationEnabled() interface{}
@@ -933,7 +933,7 @@ func (j *jsiiProxy_RedisCache) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
 func NewRedisCache(scope constructs.Construct, id *string, config *RedisCacheConfig) RedisCache {
 	_init_.Initialize()
 
@@ -943,7 +943,7 @@ func NewRedisCache(scope constructs.Construct, id *string, config *RedisCacheCon
 	j := jsiiProxy_RedisCache{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redisCache.RedisCache",
+		"@cdktn/provider-azurerm.redisCache.RedisCache",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -951,12 +951,12 @@ func NewRedisCache(scope constructs.Construct, id *string, config *RedisCacheCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
 func NewRedisCache_Override(r RedisCache, scope constructs.Construct, id *string, config *RedisCacheConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redisCache.RedisCache",
+		"@cdktn/provider-azurerm.redisCache.RedisCache",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -1260,7 +1260,7 @@ func RedisCache_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisCache.RedisCache",
+		"@cdktn/provider-azurerm.redisCache.RedisCache",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1295,7 +1295,7 @@ func RedisCache_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisCache.RedisCache",
+		"@cdktn/provider-azurerm.redisCache.RedisCache",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1314,7 +1314,7 @@ func RedisCache_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisCache.RedisCache",
+		"@cdktn/provider-azurerm.redisCache.RedisCache",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1333,7 +1333,7 @@ func RedisCache_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisCache.RedisCache",
+		"@cdktn/provider-azurerm.redisCache.RedisCache",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1346,7 +1346,7 @@ func RedisCache_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.redisCache.RedisCache",
+		"@cdktn/provider-azurerm.redisCache.RedisCache",
 		"tfResourceType",
 		&returns,
 	)

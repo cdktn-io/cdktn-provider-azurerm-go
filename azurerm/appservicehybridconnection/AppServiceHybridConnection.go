@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservicehybridconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appservicehybridconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservicehybridconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection}.
 type AppServiceHybridConnection interface {
 	cdktf.TerraformResource
 	AppServiceName() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_AppServiceHybridConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection} Resource.
 func NewAppServiceHybridConnection(scope constructs.Construct, id *string, config *AppServiceHybridConnectionConfig) AppServiceHybridConnection {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewAppServiceHybridConnection(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_AppServiceHybridConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
+		"@cdktn/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -546,12 +546,12 @@ func NewAppServiceHybridConnection(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection} Resource.
 func NewAppServiceHybridConnection_Override(a AppServiceHybridConnection, scope constructs.Construct, id *string, config *AppServiceHybridConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
+		"@cdktn/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -712,7 +712,7 @@ func AppServiceHybridConnection_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
+		"@cdktn/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -747,7 +747,7 @@ func AppServiceHybridConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
+		"@cdktn/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func AppServiceHybridConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
+		"@cdktn/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -785,7 +785,7 @@ func AppServiceHybridConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
+		"@cdktn/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -798,7 +798,7 @@ func AppServiceHybridConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
+		"@cdktn/provider-azurerm.appServiceHybridConnection.AppServiceHybridConnection",
 		"tfResourceType",
 		&returns,
 	)

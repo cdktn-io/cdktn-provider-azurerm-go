@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationrunbook
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbook",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbook",
 		reflect.TypeOf((*AutomationRunbook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,12 +81,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetLogActivityTraceLevel", GoMethod: "ResetLogActivityTraceLevel"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPublishContentLink", GoMethod: "ResetPublishContentLink"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRuntimeEnvironmentName", GoMethod: "ResetRuntimeEnvironmentName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupNameInput", GoGetter: "ResourceGroupNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "runbookType", GoGetter: "RunbookType"},
 			_jsii_.MemberProperty{JsiiProperty: "runbookTypeInput", GoGetter: "RunbookTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "runtimeEnvironmentName", GoGetter: "RuntimeEnvironmentName"},
+			_jsii_.MemberProperty{JsiiProperty: "runtimeEnvironmentNameInput", GoGetter: "RuntimeEnvironmentNameInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
@@ -108,23 +111,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookConfig",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookConfig",
 		reflect.TypeOf((*AutomationRunbookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraft",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraft",
 		reflect.TypeOf((*AutomationRunbookDraft)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLink",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLink",
 		reflect.TypeOf((*AutomationRunbookDraftContentLink)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkHash",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkHash",
 		reflect.TypeOf((*AutomationRunbookDraftContentLinkHash)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkHashOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkHashOutputReference",
 		reflect.TypeOf((*AutomationRunbookDraftContentLinkHashOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},
@@ -160,7 +163,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkOutputReference",
 		reflect.TypeOf((*AutomationRunbookDraftContentLinkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,7 +204,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftOutputReference",
 		reflect.TypeOf((*AutomationRunbookDraftOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,11 +252,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftParameters",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftParameters",
 		reflect.TypeOf((*AutomationRunbookDraftParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftParametersList",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftParametersList",
 		reflect.TypeOf((*AutomationRunbookDraftParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -275,7 +278,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftParametersOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftParametersOutputReference",
 		reflect.TypeOf((*AutomationRunbookDraftParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -320,11 +323,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookJobSchedule",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookJobSchedule",
 		reflect.TypeOf((*AutomationRunbookJobSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookJobScheduleList",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookJobScheduleList",
 		reflect.TypeOf((*AutomationRunbookJobScheduleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -346,7 +349,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookJobScheduleOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookJobScheduleOutputReference",
 		reflect.TypeOf((*AutomationRunbookJobScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -390,15 +393,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookPublishContentLink",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookPublishContentLink",
 		reflect.TypeOf((*AutomationRunbookPublishContentLink)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookPublishContentLinkHash",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookPublishContentLinkHash",
 		reflect.TypeOf((*AutomationRunbookPublishContentLinkHash)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookPublishContentLinkHashOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookPublishContentLinkHashOutputReference",
 		reflect.TypeOf((*AutomationRunbookPublishContentLinkHashOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},
@@ -434,7 +437,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookPublishContentLinkOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookPublishContentLinkOutputReference",
 		reflect.TypeOf((*AutomationRunbookPublishContentLinkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -475,11 +478,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookTimeouts",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookTimeouts",
 		reflect.TypeOf((*AutomationRunbookTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationRunbookTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

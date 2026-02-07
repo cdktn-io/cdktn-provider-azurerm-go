@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementworkspaceapiversionset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementworkspaceapiversionset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementworkspaceapiversionset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_workspace_api_version_set azurerm_api_management_workspace_api_version_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_workspace_api_version_set azurerm_api_management_workspace_api_version_set}.
 type ApiManagementWorkspaceApiVersionSet interface {
 	cdktf.TerraformResource
 	ApiManagementWorkspaceId() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_ApiManagementWorkspaceApiVersionSet) VersionQueryNameInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_workspace_api_version_set azurerm_api_management_workspace_api_version_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_workspace_api_version_set azurerm_api_management_workspace_api_version_set} Resource.
 func NewApiManagementWorkspaceApiVersionSet(scope constructs.Construct, id *string, config *ApiManagementWorkspaceApiVersionSetConfig) ApiManagementWorkspaceApiVersionSet {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewApiManagementWorkspaceApiVersionSet(scope constructs.Construct, id *stri
 	j := jsiiProxy_ApiManagementWorkspaceApiVersionSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewApiManagementWorkspaceApiVersionSet(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_workspace_api_version_set azurerm_api_management_workspace_api_version_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_workspace_api_version_set azurerm_api_management_workspace_api_version_set} Resource.
 func NewApiManagementWorkspaceApiVersionSet_Override(a ApiManagementWorkspaceApiVersionSet, scope constructs.Construct, id *string, config *ApiManagementWorkspaceApiVersionSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -693,7 +693,7 @@ func ApiManagementWorkspaceApiVersionSet_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func ApiManagementWorkspaceApiVersionSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func ApiManagementWorkspaceApiVersionSet_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func ApiManagementWorkspaceApiVersionSet_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func ApiManagementWorkspaceApiVersionSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementWorkspaceApiVersionSet.ApiManagementWorkspaceApiVersionSet",
 		"tfResourceType",
 		&returns,
 	)

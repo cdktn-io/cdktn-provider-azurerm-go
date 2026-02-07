@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitorprivatelinkscope
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScope.MonitorPrivateLinkScope",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScope.MonitorPrivateLinkScope",
 		reflect.TypeOf((*MonitorPrivateLinkScope)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScope.MonitorPrivateLinkScopeConfig",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScope.MonitorPrivateLinkScopeConfig",
 		reflect.TypeOf((*MonitorPrivateLinkScopeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScope.MonitorPrivateLinkScopeTimeouts",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScope.MonitorPrivateLinkScopeTimeouts",
 		reflect.TypeOf((*MonitorPrivateLinkScopeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScope.MonitorPrivateLinkScopeTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScope.MonitorPrivateLinkScopeTimeoutsOutputReference",
 		reflect.TypeOf((*MonitorPrivateLinkScopeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

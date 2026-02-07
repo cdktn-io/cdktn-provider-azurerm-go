@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappintegrationaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/logicappintegrationaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappintegrationaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account azurerm_logic_app_integration_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account azurerm_logic_app_integration_account}.
 type LogicAppIntegrationAccount interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account azurerm_logic_app_integration_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account azurerm_logic_app_integration_account} Resource.
 func NewLogicAppIntegrationAccount(scope constructs.Construct, id *string, config *LogicAppIntegrationAccountConfig) LogicAppIntegrationAccount {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewLogicAppIntegrationAccount(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_LogicAppIntegrationAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewLogicAppIntegrationAccount(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account azurerm_logic_app_integration_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account azurerm_logic_app_integration_account} Resource.
 func NewLogicAppIntegrationAccount_Override(l LogicAppIntegrationAccount, scope constructs.Construct, id *string, config *LogicAppIntegrationAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -658,7 +658,7 @@ func LogicAppIntegrationAccount_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func LogicAppIntegrationAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func LogicAppIntegrationAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func LogicAppIntegrationAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func LogicAppIntegrationAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageaccountlocaluser
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
 		reflect.TypeOf((*StorageAccountLocalUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserConfig",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserConfig",
 		reflect.TypeOf((*StorageAccountLocalUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScope",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScope",
 		reflect.TypeOf((*StorageAccountLocalUserPermissionScope)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopeList",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopeList",
 		reflect.TypeOf((*StorageAccountLocalUserPermissionScopeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopeOutputReference",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopeOutputReference",
 		reflect.TypeOf((*StorageAccountLocalUserPermissionScopeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopePermissions",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopePermissions",
 		reflect.TypeOf((*StorageAccountLocalUserPermissionScopePermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopePermissionsOutputReference",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopePermissionsOutputReference",
 		reflect.TypeOf((*StorageAccountLocalUserPermissionScopePermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserSshAuthorizedKey",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserSshAuthorizedKey",
 		reflect.TypeOf((*StorageAccountLocalUserSshAuthorizedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserSshAuthorizedKeyList",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserSshAuthorizedKeyList",
 		reflect.TypeOf((*StorageAccountLocalUserSshAuthorizedKeyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -239,7 +239,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserSshAuthorizedKeyOutputReference",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserSshAuthorizedKeyOutputReference",
 		reflect.TypeOf((*StorageAccountLocalUserSshAuthorizedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -276,11 +276,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserTimeouts",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserTimeouts",
 		reflect.TypeOf((*StorageAccountLocalUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUserTimeoutsOutputReference",
 		reflect.TypeOf((*StorageAccountLocalUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

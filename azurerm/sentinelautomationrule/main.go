@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelautomationrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
 		reflect.TypeOf((*SentinelAutomationRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionIncident", GoGetter: "ActionIncident"},
@@ -105,11 +105,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncident",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncident",
 		reflect.TypeOf((*SentinelAutomationRuleActionIncident)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentList",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentList",
 		reflect.TypeOf((*SentinelAutomationRuleActionIncidentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentOutputReference",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentOutputReference",
 		reflect.TypeOf((*SentinelAutomationRuleActionIncidentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classification", GoGetter: "Classification"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentTask",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentTask",
 		reflect.TypeOf((*SentinelAutomationRuleActionIncidentTask)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentTaskList",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentTaskList",
 		reflect.TypeOf((*SentinelAutomationRuleActionIncidentTaskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentTaskOutputReference",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentTaskOutputReference",
 		reflect.TypeOf((*SentinelAutomationRuleActionIncidentTaskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionPlaybook",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionPlaybook",
 		reflect.TypeOf((*SentinelAutomationRuleActionPlaybook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionPlaybookList",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionPlaybookList",
 		reflect.TypeOf((*SentinelAutomationRuleActionPlaybookList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -274,7 +274,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionPlaybookOutputReference",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleActionPlaybookOutputReference",
 		reflect.TypeOf((*SentinelAutomationRuleActionPlaybookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -313,15 +313,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleConfig",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleConfig",
 		reflect.TypeOf((*SentinelAutomationRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleTimeouts",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleTimeouts",
 		reflect.TypeOf((*SentinelAutomationRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRuleTimeoutsOutputReference",
 		reflect.TypeOf((*SentinelAutomationRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

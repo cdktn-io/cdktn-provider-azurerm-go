@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sharedimageversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sharedimageversion/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sharedimageversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/shared_image_version azurerm_shared_image_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/shared_image_version azurerm_shared_image_version}.
 type SharedImageVersion interface {
 	cdktf.TerraformResource
 	BlobUri() *string
@@ -688,7 +688,7 @@ func (j *jsiiProxy_SharedImageVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
 func NewSharedImageVersion(scope constructs.Construct, id *string, config *SharedImageVersionConfig) SharedImageVersion {
 	_init_.Initialize()
 
@@ -698,7 +698,7 @@ func NewSharedImageVersion(scope constructs.Construct, id *string, config *Share
 	j := jsiiProxy_SharedImageVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -706,12 +706,12 @@ func NewSharedImageVersion(scope constructs.Construct, id *string, config *Share
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/shared_image_version azurerm_shared_image_version} Resource.
 func NewSharedImageVersion_Override(s SharedImageVersion, scope constructs.Construct, id *string, config *SharedImageVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersion",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -960,7 +960,7 @@ func SharedImageVersion_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -995,7 +995,7 @@ func SharedImageVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1014,7 +1014,7 @@ func SharedImageVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1033,7 +1033,7 @@ func SharedImageVersion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1046,7 +1046,7 @@ func SharedImageVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersion",
 		"tfResourceType",
 		&returns,
 	)

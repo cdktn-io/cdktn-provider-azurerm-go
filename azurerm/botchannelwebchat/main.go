@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelwebchat
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChat",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChat",
 		reflect.TypeOf((*BotChannelWebChat)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChatConfig",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChatConfig",
 		reflect.TypeOf((*BotChannelWebChatConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChatSite",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChatSite",
 		reflect.TypeOf((*BotChannelWebChatSite)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChatSiteList",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChatSiteList",
 		reflect.TypeOf((*BotChannelWebChatSiteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -110,7 +110,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChatSiteOutputReference",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChatSiteOutputReference",
 		reflect.TypeOf((*BotChannelWebChatSiteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChatTimeouts",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChatTimeouts",
 		reflect.TypeOf((*BotChannelWebChatTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChatTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChatTimeoutsOutputReference",
 		reflect.TypeOf((*BotChannelWebChatTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

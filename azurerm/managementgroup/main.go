@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managementgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroup",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroup",
 		reflect.TypeOf((*ManagementGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroupConfig",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroupConfig",
 		reflect.TypeOf((*ManagementGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroupTimeouts",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroupTimeouts",
 		reflect.TypeOf((*ManagementGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ManagementGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

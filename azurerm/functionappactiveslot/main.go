@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package functionappactiveslot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlot",
+		"@cdktn/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlot",
 		reflect.TypeOf((*FunctionAppActiveSlot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotConfig",
+		"@cdktn/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotConfig",
 		reflect.TypeOf((*FunctionAppActiveSlotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotTimeouts",
+		"@cdktn/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotTimeouts",
 		reflect.TypeOf((*FunctionAppActiveSlotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotTimeoutsOutputReference",
 		reflect.TypeOf((*FunctionAppActiveSlotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

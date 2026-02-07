@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewWindowsWebAppSlotAuthSettingsV2GithubV2OutputReference(terraformResource
 	j := jsiiProxy_WindowsWebAppSlotAuthSettingsV2GithubV2OutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotAuthSettingsV2GithubV2OutputReference",
+		"@cdktn/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotAuthSettingsV2GithubV2OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewWindowsWebAppSlotAuthSettingsV2GithubV2OutputReference_Override(w Window
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotAuthSettingsV2GithubV2OutputReference",
+		"@cdktn/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotAuthSettingsV2GithubV2OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

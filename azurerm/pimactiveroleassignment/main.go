@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pimactiveroleassignment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
 		reflect.TypeOf((*PimActiveRoleAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,19 +88,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentConfig",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentConfig",
 		reflect.TypeOf((*PimActiveRoleAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentSchedule",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentSchedule",
 		reflect.TypeOf((*PimActiveRoleAssignmentSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleExpiration",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleExpiration",
 		reflect.TypeOf((*PimActiveRoleAssignmentScheduleExpiration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleExpirationOutputReference",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleExpirationOutputReference",
 		reflect.TypeOf((*PimActiveRoleAssignmentScheduleExpirationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,7 +141,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleOutputReference",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleOutputReference",
 		reflect.TypeOf((*PimActiveRoleAssignmentScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -180,11 +180,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTicket",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTicket",
 		reflect.TypeOf((*PimActiveRoleAssignmentTicket)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTicketOutputReference",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTicketOutputReference",
 		reflect.TypeOf((*PimActiveRoleAssignmentTicketOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,11 +222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTimeouts",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTimeouts",
 		reflect.TypeOf((*PimActiveRoleAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*PimActiveRoleAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

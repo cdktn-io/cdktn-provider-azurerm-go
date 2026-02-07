@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxwebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/linuxwebappslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebappslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewLinuxWebAppSlotSiteCredentialList(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_LinuxWebAppSlotSiteCredentialList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteCredentialList",
+		"@cdktn/provider-azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteCredentialList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewLinuxWebAppSlotSiteCredentialList_Override(l LinuxWebAppSlotSiteCredenti
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteCredentialList",
+		"@cdktn/provider-azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteCredentialList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

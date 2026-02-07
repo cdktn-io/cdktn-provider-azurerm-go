@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationinsightsworkbook
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
 		reflect.TypeOf((*ApplicationInsightsWorkbook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookConfig",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookConfig",
 		reflect.TypeOf((*ApplicationInsightsWorkbookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookIdentity",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookIdentity",
 		reflect.TypeOf((*ApplicationInsightsWorkbookIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookIdentityOutputReference",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookIdentityOutputReference",
 		reflect.TypeOf((*ApplicationInsightsWorkbookIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookTimeouts",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookTimeouts",
 		reflect.TypeOf((*ApplicationInsightsWorkbookTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationInsightsWorkbookTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

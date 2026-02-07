@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backupprotectedvm
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupProtectedVm.BackupProtectedVm",
+		"@cdktn/provider-azurerm.backupProtectedVm.BackupProtectedVm",
 		reflect.TypeOf((*BackupProtectedVm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupProtectedVm.BackupProtectedVmConfig",
+		"@cdktn/provider-azurerm.backupProtectedVm.BackupProtectedVmConfig",
 		reflect.TypeOf((*BackupProtectedVmConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupProtectedVm.BackupProtectedVmTimeouts",
+		"@cdktn/provider-azurerm.backupProtectedVm.BackupProtectedVmTimeouts",
 		reflect.TypeOf((*BackupProtectedVmTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupProtectedVm.BackupProtectedVmTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.backupProtectedVm.BackupProtectedVmTimeoutsOutputReference",
 		reflect.TypeOf((*BackupProtectedVmTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

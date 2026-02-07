@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devcenterprojectenvironmenttype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/devcenterprojectenvironmenttype/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devcenterprojectenvironmenttype/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type}.
 type DevCenterProjectEnvironmentType interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -521,7 +521,7 @@ func (j *jsiiProxy_DevCenterProjectEnvironmentType) UserRoleAssignmentInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type} Resource.
 func NewDevCenterProjectEnvironmentType(scope constructs.Construct, id *string, config *DevCenterProjectEnvironmentTypeConfig) DevCenterProjectEnvironmentType {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewDevCenterProjectEnvironmentType(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DevCenterProjectEnvironmentType{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
+		"@cdktn/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewDevCenterProjectEnvironmentType(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type} Resource.
 func NewDevCenterProjectEnvironmentType_Override(d DevCenterProjectEnvironmentType, scope constructs.Construct, id *string, config *DevCenterProjectEnvironmentTypeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
+		"@cdktn/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -705,7 +705,7 @@ func DevCenterProjectEnvironmentType_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
+		"@cdktn/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -740,7 +740,7 @@ func DevCenterProjectEnvironmentType_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
+		"@cdktn/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func DevCenterProjectEnvironmentType_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
+		"@cdktn/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func DevCenterProjectEnvironmentType_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
+		"@cdktn/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func DevCenterProjectEnvironmentType_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
+		"@cdktn/provider-azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentType",
 		"tfResourceType",
 		&returns,
 	)

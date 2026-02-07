@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package galleryapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplication",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplication",
 		reflect.TypeOf((*GalleryApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplicationConfig",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplicationConfig",
 		reflect.TypeOf((*GalleryApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplicationTimeouts",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplicationTimeouts",
 		reflect.TypeOf((*GalleryApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplicationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*GalleryApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

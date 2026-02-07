@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchJob.BatchJob",
+		"@cdktn/provider-azurerm.batchJob.BatchJob",
 		reflect.TypeOf((*BatchJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchJob.BatchJobConfig",
+		"@cdktn/provider-azurerm.batchJob.BatchJobConfig",
 		reflect.TypeOf((*BatchJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchJob.BatchJobTimeouts",
+		"@cdktn/provider-azurerm.batchJob.BatchJobTimeouts",
 		reflect.TypeOf((*BatchJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchJob.BatchJobTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.batchJob.BatchJobTimeoutsOutputReference",
 		reflect.TypeOf((*BatchJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

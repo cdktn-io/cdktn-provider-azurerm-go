@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmanageddisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermmanageddisk/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmanageddisk/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/managed_disk azurerm_managed_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/managed_disk azurerm_managed_disk}.
 type DataAzurermManagedDisk interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_DataAzurermManagedDisk) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/managed_disk azurerm_managed_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/managed_disk azurerm_managed_disk} Data Source.
 func NewDataAzurermManagedDisk(scope constructs.Construct, id *string, config *DataAzurermManagedDiskConfig) DataAzurermManagedDisk {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewDataAzurermManagedDisk(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAzurermManagedDisk{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
+		"@cdktn/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewDataAzurermManagedDisk(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/managed_disk azurerm_managed_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/managed_disk azurerm_managed_disk} Data Source.
 func NewDataAzurermManagedDisk_Override(d DataAzurermManagedDisk, scope constructs.Construct, id *string, config *DataAzurermManagedDiskConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
+		"@cdktn/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -640,7 +640,7 @@ func DataAzurermManagedDisk_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
+		"@cdktn/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -675,7 +675,7 @@ func DataAzurermManagedDisk_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
+		"@cdktn/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func DataAzurermManagedDisk_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
+		"@cdktn/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func DataAzurermManagedDisk_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
+		"@cdktn/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func DataAzurermManagedDisk_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
+		"@cdktn/provider-azurerm.dataAzurermManagedDisk.DataAzurermManagedDisk",
 		"tfResourceType",
 		&returns,
 	)

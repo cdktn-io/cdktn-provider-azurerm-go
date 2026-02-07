@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudjavadeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
 		reflect.TypeOf((*SpringCloudJavaDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentConfig",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentConfig",
 		reflect.TypeOf((*SpringCloudJavaDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentQuota",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentQuota",
 		reflect.TypeOf((*SpringCloudJavaDeploymentQuota)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentQuotaOutputReference",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentQuotaOutputReference",
 		reflect.TypeOf((*SpringCloudJavaDeploymentQuotaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentTimeouts",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentTimeouts",
 		reflect.TypeOf((*SpringCloudJavaDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudJavaDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

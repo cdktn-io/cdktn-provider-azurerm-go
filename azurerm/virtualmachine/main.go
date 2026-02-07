@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachine
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachine",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachine",
 		reflect.TypeOf((*VirtualMachine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalCapabilities", GoGetter: "AdditionalCapabilities"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineAdditionalCapabilities",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineAdditionalCapabilities",
 		reflect.TypeOf((*VirtualMachineAdditionalCapabilities)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineAdditionalCapabilitiesOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineAdditionalCapabilitiesOutputReference",
 		reflect.TypeOf((*VirtualMachineAdditionalCapabilitiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineBootDiagnostics",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineBootDiagnostics",
 		reflect.TypeOf((*VirtualMachineBootDiagnostics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineBootDiagnosticsOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineBootDiagnosticsOutputReference",
 		reflect.TypeOf((*VirtualMachineBootDiagnosticsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -225,15 +225,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineConfig",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineConfig",
 		reflect.TypeOf((*VirtualMachineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineIdentity",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineIdentity",
 		reflect.TypeOf((*VirtualMachineIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineIdentityOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineIdentityOutputReference",
 		reflect.TypeOf((*VirtualMachineIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -272,15 +272,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfile",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfile",
 		reflect.TypeOf((*VirtualMachineOsProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfig",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfig",
 		reflect.TypeOf((*VirtualMachineOsProfileLinuxConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigOutputReference",
 		reflect.TypeOf((*VirtualMachineOsProfileLinuxConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -318,11 +318,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigSshKeys",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigSshKeys",
 		reflect.TypeOf((*VirtualMachineOsProfileLinuxConfigSshKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigSshKeysList",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigSshKeysList",
 		reflect.TypeOf((*VirtualMachineOsProfileLinuxConfigSshKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -344,7 +344,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigSshKeysOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigSshKeysOutputReference",
 		reflect.TypeOf((*VirtualMachineOsProfileLinuxConfigSshKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -380,7 +380,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileOutputReference",
 		reflect.TypeOf((*VirtualMachineOsProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminPassword", GoGetter: "AdminPassword"},
@@ -422,11 +422,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecrets",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecrets",
 		reflect.TypeOf((*VirtualMachineOsProfileSecrets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsList",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsList",
 		reflect.TypeOf((*VirtualMachineOsProfileSecretsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -448,7 +448,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsOutputReference",
 		reflect.TypeOf((*VirtualMachineOsProfileSecretsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -486,11 +486,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsVaultCertificates",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsVaultCertificates",
 		reflect.TypeOf((*VirtualMachineOsProfileSecretsVaultCertificates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsVaultCertificatesList",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsVaultCertificatesList",
 		reflect.TypeOf((*VirtualMachineOsProfileSecretsVaultCertificatesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -512,7 +512,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsVaultCertificatesOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileSecretsVaultCertificatesOutputReference",
 		reflect.TypeOf((*VirtualMachineOsProfileSecretsVaultCertificatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateStore", GoGetter: "CertificateStore"},
@@ -549,15 +549,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfig",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfig",
 		reflect.TypeOf((*VirtualMachineOsProfileWindowsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfig",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfig",
 		reflect.TypeOf((*VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigList",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigList",
 		reflect.TypeOf((*VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -579,7 +579,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReference",
 		reflect.TypeOf((*VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -619,7 +619,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigOutputReference",
 		reflect.TypeOf((*VirtualMachineOsProfileWindowsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalUnattendConfig", GoGetter: "AdditionalUnattendConfig"},
@@ -668,11 +668,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigWinrm",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigWinrm",
 		reflect.TypeOf((*VirtualMachineOsProfileWindowsConfigWinrm)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigWinrmList",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigWinrmList",
 		reflect.TypeOf((*VirtualMachineOsProfileWindowsConfigWinrmList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -694,7 +694,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigWinrmOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigWinrmOutputReference",
 		reflect.TypeOf((*VirtualMachineOsProfileWindowsConfigWinrmOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateUrl", GoGetter: "CertificateUrl"},
@@ -731,11 +731,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachinePlan",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachinePlan",
 		reflect.TypeOf((*VirtualMachinePlan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachinePlanOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachinePlanOutputReference",
 		reflect.TypeOf((*VirtualMachinePlanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -773,11 +773,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineStorageDataDisk",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineStorageDataDisk",
 		reflect.TypeOf((*VirtualMachineStorageDataDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineStorageDataDiskList",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineStorageDataDiskList",
 		reflect.TypeOf((*VirtualMachineStorageDataDiskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -799,7 +799,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineStorageDataDiskOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineStorageDataDiskOutputReference",
 		reflect.TypeOf((*VirtualMachineStorageDataDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caching", GoGetter: "Caching"},
@@ -855,11 +855,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineStorageImageReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineStorageImageReference",
 		reflect.TypeOf((*VirtualMachineStorageImageReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineStorageImageReferenceOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineStorageImageReferenceOutputReference",
 		reflect.TypeOf((*VirtualMachineStorageImageReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -906,11 +906,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineStorageOsDisk",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineStorageOsDisk",
 		reflect.TypeOf((*VirtualMachineStorageOsDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineStorageOsDiskOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineStorageOsDiskOutputReference",
 		reflect.TypeOf((*VirtualMachineStorageOsDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caching", GoGetter: "Caching"},
@@ -970,11 +970,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineTimeouts",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineTimeouts",
 		reflect.TypeOf((*VirtualMachineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachine.VirtualMachineTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualMachine.VirtualMachineTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualMachineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

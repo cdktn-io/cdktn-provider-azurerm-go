@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redhatopenshiftcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/redhatopenshiftcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/redhatopenshiftcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewRedhatOpenshiftClusterServicePrincipalOutputReference(terraformResource 
 	j := jsiiProxy_RedhatOpenshiftClusterServicePrincipalOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterServicePrincipalOutputReference",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterServicePrincipalOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewRedhatOpenshiftClusterServicePrincipalOutputReference_Override(r RedhatO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterServicePrincipalOutputReference",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterServicePrincipalOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

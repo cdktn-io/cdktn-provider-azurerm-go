@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationschedule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationSchedule.AutomationSchedule",
+		"@cdktn/provider-azurerm.automationSchedule.AutomationSchedule",
 		reflect.TypeOf((*AutomationSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationSchedule.AutomationScheduleConfig",
+		"@cdktn/provider-azurerm.automationSchedule.AutomationScheduleConfig",
 		reflect.TypeOf((*AutomationScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationSchedule.AutomationScheduleMonthlyOccurrence",
+		"@cdktn/provider-azurerm.automationSchedule.AutomationScheduleMonthlyOccurrence",
 		reflect.TypeOf((*AutomationScheduleMonthlyOccurrence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationSchedule.AutomationScheduleMonthlyOccurrenceOutputReference",
+		"@cdktn/provider-azurerm.automationSchedule.AutomationScheduleMonthlyOccurrenceOutputReference",
 		reflect.TypeOf((*AutomationScheduleMonthlyOccurrenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationSchedule.AutomationScheduleTimeouts",
+		"@cdktn/provider-azurerm.automationSchedule.AutomationScheduleTimeouts",
 		reflect.TypeOf((*AutomationScheduleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationSchedule.AutomationScheduleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationSchedule.AutomationScheduleTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationScheduleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

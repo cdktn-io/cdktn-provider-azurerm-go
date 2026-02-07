@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsmxrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dnsmxrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dnsmxrecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_mx_record azurerm_dns_mx_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_mx_record azurerm_dns_mx_record}.
 type DnsMxRecord interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_DnsMxRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_mx_record azurerm_dns_mx_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_mx_record azurerm_dns_mx_record} Resource.
 func NewDnsMxRecord(scope constructs.Construct, id *string, config *DnsMxRecordConfig) DnsMxRecord {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewDnsMxRecord(scope constructs.Construct, id *string, config *DnsMxRecordC
 	j := jsiiProxy_DnsMxRecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsMxRecord.DnsMxRecord",
+		"@cdktn/provider-azurerm.dnsMxRecord.DnsMxRecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewDnsMxRecord(scope constructs.Construct, id *string, config *DnsMxRecordC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_mx_record azurerm_dns_mx_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_mx_record azurerm_dns_mx_record} Resource.
 func NewDnsMxRecord_Override(d DnsMxRecord, scope constructs.Construct, id *string, config *DnsMxRecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsMxRecord.DnsMxRecord",
+		"@cdktn/provider-azurerm.dnsMxRecord.DnsMxRecord",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -658,7 +658,7 @@ func DnsMxRecord_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsMxRecord.DnsMxRecord",
+		"@cdktn/provider-azurerm.dnsMxRecord.DnsMxRecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func DnsMxRecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsMxRecord.DnsMxRecord",
+		"@cdktn/provider-azurerm.dnsMxRecord.DnsMxRecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func DnsMxRecord_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsMxRecord.DnsMxRecord",
+		"@cdktn/provider-azurerm.dnsMxRecord.DnsMxRecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func DnsMxRecord_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsMxRecord.DnsMxRecord",
+		"@cdktn/provider-azurerm.dnsMxRecord.DnsMxRecord",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func DnsMxRecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dnsMxRecord.DnsMxRecord",
+		"@cdktn/provider-azurerm.dnsMxRecord.DnsMxRecord",
 		"tfResourceType",
 		&returns,
 	)

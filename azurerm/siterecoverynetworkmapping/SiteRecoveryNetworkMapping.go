@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package siterecoverynetworkmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/siterecoverynetworkmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/siterecoverynetworkmapping/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping}.
 type SiteRecoveryNetworkMapping interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_SiteRecoveryNetworkMapping) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping} Resource.
 func NewSiteRecoveryNetworkMapping(scope constructs.Construct, id *string, config *SiteRecoveryNetworkMappingConfig) SiteRecoveryNetworkMapping {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewSiteRecoveryNetworkMapping(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_SiteRecoveryNetworkMapping{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
+		"@cdktn/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -513,12 +513,12 @@ func NewSiteRecoveryNetworkMapping(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_network_mapping azurerm_site_recovery_network_mapping} Resource.
 func NewSiteRecoveryNetworkMapping_Override(s SiteRecoveryNetworkMapping, scope constructs.Construct, id *string, config *SiteRecoveryNetworkMappingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
+		"@cdktn/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -690,7 +690,7 @@ func SiteRecoveryNetworkMapping_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
+		"@cdktn/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -725,7 +725,7 @@ func SiteRecoveryNetworkMapping_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
+		"@cdktn/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func SiteRecoveryNetworkMapping_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
+		"@cdktn/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -763,7 +763,7 @@ func SiteRecoveryNetworkMapping_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
+		"@cdktn/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func SiteRecoveryNetworkMapping_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
+		"@cdktn/provider-azurerm.siteRecoveryNetworkMapping.SiteRecoveryNetworkMapping",
 		"tfResourceType",
 		&returns,
 	)

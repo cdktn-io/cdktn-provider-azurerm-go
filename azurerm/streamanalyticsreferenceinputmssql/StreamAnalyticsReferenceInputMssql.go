@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticsreferenceinputmssql
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/streamanalyticsreferenceinputmssql/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsreferenceinputmssql/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_reference_input_mssql azurerm_stream_analytics_reference_input_mssql}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_reference_input_mssql azurerm_stream_analytics_reference_input_mssql}.
 type StreamAnalyticsReferenceInputMssql interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -613,7 +613,7 @@ func (j *jsiiProxy_StreamAnalyticsReferenceInputMssql) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_reference_input_mssql azurerm_stream_analytics_reference_input_mssql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_reference_input_mssql azurerm_stream_analytics_reference_input_mssql} Resource.
 func NewStreamAnalyticsReferenceInputMssql(scope constructs.Construct, id *string, config *StreamAnalyticsReferenceInputMssqlConfig) StreamAnalyticsReferenceInputMssql {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewStreamAnalyticsReferenceInputMssql(scope constructs.Construct, id *strin
 	j := jsiiProxy_StreamAnalyticsReferenceInputMssql{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -631,12 +631,12 @@ func NewStreamAnalyticsReferenceInputMssql(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_reference_input_mssql azurerm_stream_analytics_reference_input_mssql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_reference_input_mssql azurerm_stream_analytics_reference_input_mssql} Resource.
 func NewStreamAnalyticsReferenceInputMssql_Override(s StreamAnalyticsReferenceInputMssql, scope constructs.Construct, id *string, config *StreamAnalyticsReferenceInputMssqlConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -863,7 +863,7 @@ func StreamAnalyticsReferenceInputMssql_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -898,7 +898,7 @@ func StreamAnalyticsReferenceInputMssql_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func StreamAnalyticsReferenceInputMssql_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -936,7 +936,7 @@ func StreamAnalyticsReferenceInputMssql_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -949,7 +949,7 @@ func StreamAnalyticsReferenceInputMssql_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputMssql.StreamAnalyticsReferenceInputMssql",
 		"tfResourceType",
 		&returns,
 	)

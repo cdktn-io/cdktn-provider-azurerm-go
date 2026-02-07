@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rolemanagementpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/rolemanagementpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/rolemanagementpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -327,7 +327,7 @@ func NewRoleManagementPolicyActivationRulesOutputReference(terraformResource cdk
 	j := jsiiProxy_RoleManagementPolicyActivationRulesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicyActivationRulesOutputReference",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicyActivationRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -339,7 +339,7 @@ func NewRoleManagementPolicyActivationRulesOutputReference_Override(r RoleManage
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicyActivationRulesOutputReference",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicyActivationRulesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

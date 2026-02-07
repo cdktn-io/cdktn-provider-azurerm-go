@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticsreferenceinputblob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/streamanalyticsreferenceinputblob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsreferenceinputblob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob}.
 type StreamAnalyticsReferenceInputBlob interface {
 	cdktf.TerraformResource
 	AuthenticationMode() *string
@@ -589,7 +589,7 @@ func (j *jsiiProxy_StreamAnalyticsReferenceInputBlob) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
 func NewStreamAnalyticsReferenceInputBlob(scope constructs.Construct, id *string, config *StreamAnalyticsReferenceInputBlobConfig) StreamAnalyticsReferenceInputBlob {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewStreamAnalyticsReferenceInputBlob(scope constructs.Construct, id *string
 	j := jsiiProxy_StreamAnalyticsReferenceInputBlob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -607,12 +607,12 @@ func NewStreamAnalyticsReferenceInputBlob(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
 func NewStreamAnalyticsReferenceInputBlob_Override(s StreamAnalyticsReferenceInputBlob, scope constructs.Construct, id *string, config *StreamAnalyticsReferenceInputBlobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -817,7 +817,7 @@ func StreamAnalyticsReferenceInputBlob_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -852,7 +852,7 @@ func StreamAnalyticsReferenceInputBlob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func StreamAnalyticsReferenceInputBlob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -890,7 +890,7 @@ func StreamAnalyticsReferenceInputBlob_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -903,7 +903,7 @@ func StreamAnalyticsReferenceInputBlob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
+		"@cdktn/provider-azurerm.streamAnalyticsReferenceInputBlob.StreamAnalyticsReferenceInputBlob",
 		"tfResourceType",
 		&returns,
 	)

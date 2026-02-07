@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devcenterattachednetwork
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterAttachedNetwork.DevCenterAttachedNetwork",
+		"@cdktn/provider-azurerm.devCenterAttachedNetwork.DevCenterAttachedNetwork",
 		reflect.TypeOf((*DevCenterAttachedNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterAttachedNetwork.DevCenterAttachedNetworkConfig",
+		"@cdktn/provider-azurerm.devCenterAttachedNetwork.DevCenterAttachedNetworkConfig",
 		reflect.TypeOf((*DevCenterAttachedNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterAttachedNetwork.DevCenterAttachedNetworkTimeouts",
+		"@cdktn/provider-azurerm.devCenterAttachedNetwork.DevCenterAttachedNetworkTimeouts",
 		reflect.TypeOf((*DevCenterAttachedNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterAttachedNetwork.DevCenterAttachedNetworkTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.devCenterAttachedNetwork.DevCenterAttachedNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*DevCenterAttachedNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

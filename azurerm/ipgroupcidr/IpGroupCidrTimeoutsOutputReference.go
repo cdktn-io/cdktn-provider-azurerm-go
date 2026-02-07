@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ipgroupcidr
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/ipgroupcidr/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/ipgroupcidr/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewIpGroupCidrTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_IpGroupCidrTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidrTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidrTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewIpGroupCidrTimeoutsOutputReference_Override(i IpGroupCidrTimeoutsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidrTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidrTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

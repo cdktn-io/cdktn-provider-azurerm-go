@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressroutecircuitconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteCircuitConnection.ExpressRouteCircuitConnection",
+		"@cdktn/provider-azurerm.expressRouteCircuitConnection.ExpressRouteCircuitConnection",
 		reflect.TypeOf((*ExpressRouteCircuitConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteCircuitConnection.ExpressRouteCircuitConnectionConfig",
+		"@cdktn/provider-azurerm.expressRouteCircuitConnection.ExpressRouteCircuitConnectionConfig",
 		reflect.TypeOf((*ExpressRouteCircuitConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteCircuitConnection.ExpressRouteCircuitConnectionTimeouts",
+		"@cdktn/provider-azurerm.expressRouteCircuitConnection.ExpressRouteCircuitConnectionTimeouts",
 		reflect.TypeOf((*ExpressRouteCircuitConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteCircuitConnection.ExpressRouteCircuitConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.expressRouteCircuitConnection.ExpressRouteCircuitConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*ExpressRouteCircuitConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

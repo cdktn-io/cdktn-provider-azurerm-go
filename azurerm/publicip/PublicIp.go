@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package publicip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/publicip/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/publicip/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/public_ip azurerm_public_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/public_ip azurerm_public_ip}.
 type PublicIp interface {
 	cdktf.TerraformResource
 	AllocationMethod() *string
@@ -784,7 +784,7 @@ func (j *jsiiProxy_PublicIp) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/public_ip azurerm_public_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/public_ip azurerm_public_ip} Resource.
 func NewPublicIp(scope constructs.Construct, id *string, config *PublicIpConfig) PublicIp {
 	_init_.Initialize()
 
@@ -794,7 +794,7 @@ func NewPublicIp(scope constructs.Construct, id *string, config *PublicIpConfig)
 	j := jsiiProxy_PublicIp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.publicIp.PublicIp",
+		"@cdktn/provider-azurerm.publicIp.PublicIp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -802,12 +802,12 @@ func NewPublicIp(scope constructs.Construct, id *string, config *PublicIpConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/public_ip azurerm_public_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/public_ip azurerm_public_ip} Resource.
 func NewPublicIp_Override(p PublicIp, scope constructs.Construct, id *string, config *PublicIpConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.publicIp.PublicIp",
+		"@cdktn/provider-azurerm.publicIp.PublicIp",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -1100,7 +1100,7 @@ func PublicIp_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.publicIp.PublicIp",
+		"@cdktn/provider-azurerm.publicIp.PublicIp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1135,7 +1135,7 @@ func PublicIp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.publicIp.PublicIp",
+		"@cdktn/provider-azurerm.publicIp.PublicIp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1154,7 +1154,7 @@ func PublicIp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.publicIp.PublicIp",
+		"@cdktn/provider-azurerm.publicIp.PublicIp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1173,7 +1173,7 @@ func PublicIp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.publicIp.PublicIp",
+		"@cdktn/provider-azurerm.publicIp.PublicIp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1186,7 +1186,7 @@ func PublicIp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.publicIp.PublicIp",
+		"@cdktn/provider-azurerm.publicIp.PublicIp",
 		"tfResourceType",
 		&returns,
 	)

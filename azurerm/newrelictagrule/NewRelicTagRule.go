@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package newrelictagrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/newrelictagrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/newrelictagrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/new_relic_tag_rule azurerm_new_relic_tag_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/new_relic_tag_rule azurerm_new_relic_tag_rule}.
 type NewRelicTagRule interface {
 	cdktf.TerraformResource
 	ActivityLogEnabled() interface{}
@@ -501,7 +501,7 @@ func (j *jsiiProxy_NewRelicTagRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/new_relic_tag_rule azurerm_new_relic_tag_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/new_relic_tag_rule azurerm_new_relic_tag_rule} Resource.
 func NewNewRelicTagRule(scope constructs.Construct, id *string, config *NewRelicTagRuleConfig) NewRelicTagRule {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewNewRelicTagRule(scope constructs.Construct, id *string, config *NewRelic
 	j := jsiiProxy_NewRelicTagRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRule",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -519,12 +519,12 @@ func NewNewRelicTagRule(scope constructs.Construct, id *string, config *NewRelic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/new_relic_tag_rule azurerm_new_relic_tag_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/new_relic_tag_rule azurerm_new_relic_tag_rule} Resource.
 func NewNewRelicTagRule_Override(n NewRelicTagRule, scope constructs.Construct, id *string, config *NewRelicTagRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRule",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -674,7 +674,7 @@ func NewRelicTagRule_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRule",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -709,7 +709,7 @@ func NewRelicTagRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRule",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -728,7 +728,7 @@ func NewRelicTagRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRule",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func NewRelicTagRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRule",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -760,7 +760,7 @@ func NewRelicTagRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRule",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
 		"tfResourceType",
 		&returns,
 	)

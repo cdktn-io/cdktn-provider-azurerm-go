@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventhubauthorizationrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRule",
 		reflect.TypeOf((*EventhubAuthorizationRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRuleConfig",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRuleConfig",
 		reflect.TypeOf((*EventhubAuthorizationRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRuleTimeouts",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRuleTimeouts",
 		reflect.TypeOf((*EventhubAuthorizationRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventhubAuthorizationRule.EventhubAuthorizationRuleTimeoutsOutputReference",
 		reflect.TypeOf((*EventhubAuthorizationRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

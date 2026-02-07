@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccount",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccount",
 		reflect.TypeOf((*AutomationAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountConfig",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountConfig",
 		reflect.TypeOf((*AutomationAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountEncryption",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountEncryption",
 		reflect.TypeOf((*AutomationAccountEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountEncryptionList",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountEncryptionList",
 		reflect.TypeOf((*AutomationAccountEncryptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountEncryptionOutputReference",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountEncryptionOutputReference",
 		reflect.TypeOf((*AutomationAccountEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountIdentity",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountIdentity",
 		reflect.TypeOf((*AutomationAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountIdentityOutputReference",
 		reflect.TypeOf((*AutomationAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountPrivateEndpointConnection",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountPrivateEndpointConnection",
 		reflect.TypeOf((*AutomationAccountPrivateEndpointConnection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountPrivateEndpointConnectionList",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountPrivateEndpointConnectionList",
 		reflect.TypeOf((*AutomationAccountPrivateEndpointConnectionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -238,7 +238,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountPrivateEndpointConnectionOutputReference",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountPrivateEndpointConnectionOutputReference",
 		reflect.TypeOf((*AutomationAccountPrivateEndpointConnectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -272,11 +272,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountTimeouts",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountTimeouts",
 		reflect.TypeOf((*AutomationAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationAccount.AutomationAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationAccount.AutomationAccountTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

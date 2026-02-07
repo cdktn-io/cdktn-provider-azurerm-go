@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnfrontdoorcustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorcustomdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCdnFrontdoorCustomDomainTlsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsOutputReference",
+		"@cdktn/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCdnFrontdoorCustomDomainTlsOutputReference_Override(c CdnFrontdoorCustom
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsOutputReference",
+		"@cdktn/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

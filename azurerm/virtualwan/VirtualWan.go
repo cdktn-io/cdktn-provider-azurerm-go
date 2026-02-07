@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualwan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualwan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualwan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_wan azurerm_virtual_wan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_wan azurerm_virtual_wan}.
 type VirtualWan interface {
 	cdktf.TerraformResource
 	AllowBranchToBranchTraffic() interface{}
@@ -523,7 +523,7 @@ func (j *jsiiProxy_VirtualWan) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_wan azurerm_virtual_wan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_wan azurerm_virtual_wan} Resource.
 func NewVirtualWan(scope constructs.Construct, id *string, config *VirtualWanConfig) VirtualWan {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewVirtualWan(scope constructs.Construct, id *string, config *VirtualWanCon
 	j := jsiiProxy_VirtualWan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWan",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,12 +541,12 @@ func NewVirtualWan(scope constructs.Construct, id *string, config *VirtualWanCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_wan azurerm_virtual_wan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_wan azurerm_virtual_wan} Resource.
 func NewVirtualWan_Override(v VirtualWan, scope constructs.Construct, id *string, config *VirtualWanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWan",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWan",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -729,7 +729,7 @@ func VirtualWan_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWan",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -764,7 +764,7 @@ func VirtualWan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWan",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -783,7 +783,7 @@ func VirtualWan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWan",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func VirtualWan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWan",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func VirtualWan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWan",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWan",
 		"tfResourceType",
 		&returns,
 	)

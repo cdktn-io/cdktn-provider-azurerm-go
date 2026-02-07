@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewVirtualNetworkIpAddressPoolList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_VirtualNetworkIpAddressPoolList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPoolList",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPoolList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewVirtualNetworkIpAddressPoolList_Override(v VirtualNetworkIpAddressPoolLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPoolList",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPoolList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		v,
 	)

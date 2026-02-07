@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachinescalesetstandbypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualmachinescalesetstandbypool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachinescalesetstandbypool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool}.
 type VirtualMachineScaleSetStandbyPool interface {
 	cdktf.TerraformResource
 	AttachedVirtualMachineScaleSetId() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStandbyPool) VirtualMachineStateInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool} Resource.
 func NewVirtualMachineScaleSetStandbyPool(scope constructs.Construct, id *string, config *VirtualMachineScaleSetStandbyPoolConfig) VirtualMachineScaleSetStandbyPool {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewVirtualMachineScaleSetStandbyPool(scope constructs.Construct, id *string
 	j := jsiiProxy_VirtualMachineScaleSetStandbyPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
+		"@cdktn/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -514,12 +514,12 @@ func NewVirtualMachineScaleSetStandbyPool(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool} Resource.
 func NewVirtualMachineScaleSetStandbyPool_Override(v VirtualMachineScaleSetStandbyPool, scope constructs.Construct, id *string, config *VirtualMachineScaleSetStandbyPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
+		"@cdktn/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -680,7 +680,7 @@ func VirtualMachineScaleSetStandbyPool_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
+		"@cdktn/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -715,7 +715,7 @@ func VirtualMachineScaleSetStandbyPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
+		"@cdktn/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func VirtualMachineScaleSetStandbyPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
+		"@cdktn/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func VirtualMachineScaleSetStandbyPool_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
+		"@cdktn/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func VirtualMachineScaleSetStandbyPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
+		"@cdktn/provider-azurerm.virtualMachineScaleSetStandbyPool.VirtualMachineScaleSetStandbyPool",
 		"tfResourceType",
 		&returns,
 	)

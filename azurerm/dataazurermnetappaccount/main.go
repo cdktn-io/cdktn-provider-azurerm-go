@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnetappaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccount",
+		"@cdktn/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccount",
 		reflect.TypeOf((*DataAzurermNetappAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountConfig",
+		"@cdktn/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountConfig",
 		reflect.TypeOf((*DataAzurermNetappAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountIdentity",
+		"@cdktn/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountIdentity",
 		reflect.TypeOf((*DataAzurermNetappAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermNetappAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -119,11 +119,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountTimeouts",
 		reflect.TypeOf((*DataAzurermNetappAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermNetappAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

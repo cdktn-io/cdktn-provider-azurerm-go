@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermcontainerregistry
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistry",
+		"@cdktn/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistry",
 		reflect.TypeOf((*DataAzurermContainerRegistry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistryConfig",
+		"@cdktn/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistryConfig",
 		reflect.TypeOf((*DataAzurermContainerRegistryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistryTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistryTimeouts",
 		reflect.TypeOf((*DataAzurermContainerRegistryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistryTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistryTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermContainerRegistryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

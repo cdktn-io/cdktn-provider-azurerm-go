@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package activedirectorydomainservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainService",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainService",
 		reflect.TypeOf((*ActiveDirectoryDomainService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceConfig",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceConfig",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceInitialReplicaSet",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceInitialReplicaSet",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceInitialReplicaSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceInitialReplicaSetOutputReference",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceInitialReplicaSetOutputReference",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceInitialReplicaSetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -156,11 +156,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceNotifications",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceNotifications",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceNotifications)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceNotificationsOutputReference",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceNotificationsOutputReference",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceNotificationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalRecipients", GoGetter: "AdditionalRecipients"},
@@ -201,11 +201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceSecureLdap",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceSecureLdap",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceSecureLdap)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceSecureLdapOutputReference",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceSecureLdapOutputReference",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceSecureLdapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateExpiry", GoGetter: "CertificateExpiry"},
@@ -249,11 +249,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceSecurity",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceSecurity",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceSecurity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceSecurityOutputReference",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceSecurityOutputReference",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceSecurityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -306,11 +306,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceTimeouts",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceTimeouts",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.activeDirectoryDomainService.ActiveDirectoryDomainServiceTimeoutsOutputReference",
 		reflect.TypeOf((*ActiveDirectoryDomainServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

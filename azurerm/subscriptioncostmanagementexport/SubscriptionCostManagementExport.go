@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subscriptioncostmanagementexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/subscriptioncostmanagementexport/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subscriptioncostmanagementexport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export}.
 type SubscriptionCostManagementExport interface {
 	cdktf.TerraformResource
 	Active() interface{}
@@ -543,7 +543,7 @@ func (j *jsiiProxy_SubscriptionCostManagementExport) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export} Resource.
 func NewSubscriptionCostManagementExport(scope constructs.Construct, id *string, config *SubscriptionCostManagementExportConfig) SubscriptionCostManagementExport {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewSubscriptionCostManagementExport(scope constructs.Construct, id *string,
 	j := jsiiProxy_SubscriptionCostManagementExport{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
+		"@cdktn/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -561,12 +561,12 @@ func NewSubscriptionCostManagementExport(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_cost_management_export azurerm_subscription_cost_management_export} Resource.
 func NewSubscriptionCostManagementExport_Override(s SubscriptionCostManagementExport, scope constructs.Construct, id *string, config *SubscriptionCostManagementExportConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
+		"@cdktn/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -738,7 +738,7 @@ func SubscriptionCostManagementExport_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
+		"@cdktn/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -773,7 +773,7 @@ func SubscriptionCostManagementExport_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
+		"@cdktn/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func SubscriptionCostManagementExport_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
+		"@cdktn/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func SubscriptionCostManagementExport_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
+		"@cdktn/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func SubscriptionCostManagementExport_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
+		"@cdktn/provider-azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExport",
 		"tfResourceType",
 		&returns,
 	)

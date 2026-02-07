@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package voiceservicescommunicationsgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/voiceservicescommunicationsgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/voiceservicescommunicationsgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/voice_services_communications_gateway azurerm_voice_services_communications_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/voice_services_communications_gateway azurerm_voice_services_communications_gateway}.
 type VoiceServicesCommunicationsGateway interface {
 	cdktf.TerraformResource
 	ApiBridge() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGateway) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/voice_services_communications_gateway azurerm_voice_services_communications_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/voice_services_communications_gateway azurerm_voice_services_communications_gateway} Resource.
 func NewVoiceServicesCommunicationsGateway(scope constructs.Construct, id *string, config *VoiceServicesCommunicationsGatewayConfig) VoiceServicesCommunicationsGateway {
 	_init_.Initialize()
 
@@ -672,7 +672,7 @@ func NewVoiceServicesCommunicationsGateway(scope constructs.Construct, id *strin
 	j := jsiiProxy_VoiceServicesCommunicationsGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
+		"@cdktn/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -680,12 +680,12 @@ func NewVoiceServicesCommunicationsGateway(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/voice_services_communications_gateway azurerm_voice_services_communications_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/voice_services_communications_gateway azurerm_voice_services_communications_gateway} Resource.
 func NewVoiceServicesCommunicationsGateway_Override(v VoiceServicesCommunicationsGateway, scope constructs.Construct, id *string, config *VoiceServicesCommunicationsGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
+		"@cdktn/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -923,7 +923,7 @@ func VoiceServicesCommunicationsGateway_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
+		"@cdktn/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -958,7 +958,7 @@ func VoiceServicesCommunicationsGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
+		"@cdktn/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -977,7 +977,7 @@ func VoiceServicesCommunicationsGateway_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
+		"@cdktn/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -996,7 +996,7 @@ func VoiceServicesCommunicationsGateway_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
+		"@cdktn/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1009,7 +1009,7 @@ func VoiceServicesCommunicationsGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
+		"@cdktn/provider-azurerm.voiceServicesCommunicationsGateway.VoiceServicesCommunicationsGateway",
 		"tfResourceType",
 		&returns,
 	)

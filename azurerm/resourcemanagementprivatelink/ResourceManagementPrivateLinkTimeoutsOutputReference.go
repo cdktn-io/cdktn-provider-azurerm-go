@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcemanagementprivatelink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourcemanagementprivatelink/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcemanagementprivatelink/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewResourceManagementPrivateLinkTimeoutsOutputReference(terraformResource c
 	j := jsiiProxy_ResourceManagementPrivateLinkTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewResourceManagementPrivateLinkTimeoutsOutputReference_Override(r Resource
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.resourceManagementPrivateLink.ResourceManagementPrivateLinkTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

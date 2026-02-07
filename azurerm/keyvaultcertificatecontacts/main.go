@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultcertificatecontacts
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContacts",
+		"@cdktn/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContacts",
 		reflect.TypeOf((*KeyVaultCertificateContacts)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsConfig",
+		"@cdktn/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsConfig",
 		reflect.TypeOf((*KeyVaultCertificateContactsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsContact",
+		"@cdktn/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsContact",
 		reflect.TypeOf((*KeyVaultCertificateContactsContact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsContactList",
+		"@cdktn/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsContactList",
 		reflect.TypeOf((*KeyVaultCertificateContactsContactList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsContactOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsContactOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateContactsContactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsTimeouts",
+		"@cdktn/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsTimeouts",
 		reflect.TypeOf((*KeyVaultCertificateContactsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsTimeoutsOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateContactsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermloadtest
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
 		reflect.TypeOf((*DataAzurermLoadTest)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,19 +72,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestConfig",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestConfig",
 		reflect.TypeOf((*DataAzurermLoadTestConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryption",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryption",
 		reflect.TypeOf((*DataAzurermLoadTestEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionIdentity",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionIdentity",
 		reflect.TypeOf((*DataAzurermLoadTestEncryptionIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionIdentityList",
 		reflect.TypeOf((*DataAzurermLoadTestEncryptionIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermLoadTestEncryptionIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,7 +139,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionList",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionList",
 		reflect.TypeOf((*DataAzurermLoadTestEncryptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestEncryptionOutputReference",
 		reflect.TypeOf((*DataAzurermLoadTestEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestIdentity",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestIdentity",
 		reflect.TypeOf((*DataAzurermLoadTestIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestIdentityList",
 		reflect.TypeOf((*DataAzurermLoadTestIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -219,7 +219,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermLoadTestIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -255,11 +255,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestTimeouts",
 		reflect.TypeOf((*DataAzurermLoadTestTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTestTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermLoadTestTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

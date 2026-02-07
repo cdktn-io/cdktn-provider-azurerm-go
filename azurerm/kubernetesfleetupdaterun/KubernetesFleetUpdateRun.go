@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kubernetesfleetupdaterun
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kubernetesfleetupdaterun/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetesfleetupdaterun/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run}.
 type KubernetesFleetUpdateRun interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateRun) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
 func NewKubernetesFleetUpdateRun(scope constructs.Construct, id *string, config *KubernetesFleetUpdateRunConfig) KubernetesFleetUpdateRun {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewKubernetesFleetUpdateRun(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_KubernetesFleetUpdateRun{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
+		"@cdktn/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewKubernetesFleetUpdateRun(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
 func NewKubernetesFleetUpdateRun_Override(k KubernetesFleetUpdateRun, scope constructs.Construct, id *string, config *KubernetesFleetUpdateRunConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
+		"@cdktn/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -602,7 +602,7 @@ func KubernetesFleetUpdateRun_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
+		"@cdktn/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -637,7 +637,7 @@ func KubernetesFleetUpdateRun_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
+		"@cdktn/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -656,7 +656,7 @@ func KubernetesFleetUpdateRun_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
+		"@cdktn/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func KubernetesFleetUpdateRun_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
+		"@cdktn/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func KubernetesFleetUpdateRun_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
+		"@cdktn/provider-azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRun",
 		"tfResourceType",
 		&returns,
 	)

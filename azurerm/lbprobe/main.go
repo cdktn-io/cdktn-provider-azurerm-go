@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lbprobe
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lbProbe.LbProbe",
+		"@cdktn/provider-azurerm.lbProbe.LbProbe",
 		reflect.TypeOf((*LbProbe)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lbProbe.LbProbeConfig",
+		"@cdktn/provider-azurerm.lbProbe.LbProbeConfig",
 		reflect.TypeOf((*LbProbeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lbProbe.LbProbeTimeouts",
+		"@cdktn/provider-azurerm.lbProbe.LbProbeTimeouts",
 		reflect.TypeOf((*LbProbeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lbProbe.LbProbeTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.lbProbe.LbProbeTimeoutsOutputReference",
 		reflect.TypeOf((*LbProbeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

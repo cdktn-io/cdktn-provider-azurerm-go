@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementproducttag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementproducttag/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementproducttag/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_product_tag azurerm_api_management_product_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_product_tag azurerm_api_management_product_tag}.
 type ApiManagementProductTag interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_ApiManagementProductTag) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_product_tag azurerm_api_management_product_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_product_tag azurerm_api_management_product_tag} Resource.
 func NewApiManagementProductTag(scope constructs.Construct, id *string, config *ApiManagementProductTagConfig) ApiManagementProductTag {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewApiManagementProductTag(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ApiManagementProductTag{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
+		"@cdktn/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewApiManagementProductTag(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_product_tag azurerm_api_management_product_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_product_tag azurerm_api_management_product_tag} Resource.
 func NewApiManagementProductTag_Override(a ApiManagementProductTag, scope constructs.Construct, id *string, config *ApiManagementProductTagConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
+		"@cdktn/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -588,7 +588,7 @@ func ApiManagementProductTag_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
+		"@cdktn/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func ApiManagementProductTag_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
+		"@cdktn/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func ApiManagementProductTag_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
+		"@cdktn/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func ApiManagementProductTag_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
+		"@cdktn/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ApiManagementProductTag_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
+		"@cdktn/provider-azurerm.apiManagementProductTag.ApiManagementProductTag",
 		"tfResourceType",
 		&returns,
 	)

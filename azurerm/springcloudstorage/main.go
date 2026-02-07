@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudstorage
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudStorage.SpringCloudStorage",
+		"@cdktn/provider-azurerm.springCloudStorage.SpringCloudStorage",
 		reflect.TypeOf((*SpringCloudStorage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudStorage.SpringCloudStorageConfig",
+		"@cdktn/provider-azurerm.springCloudStorage.SpringCloudStorageConfig",
 		reflect.TypeOf((*SpringCloudStorageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudStorage.SpringCloudStorageTimeouts",
+		"@cdktn/provider-azurerm.springCloudStorage.SpringCloudStorageTimeouts",
 		reflect.TypeOf((*SpringCloudStorageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudStorage.SpringCloudStorageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudStorage.SpringCloudStorageTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudStorageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

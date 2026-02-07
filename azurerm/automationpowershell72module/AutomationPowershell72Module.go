@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationpowershell72module
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationpowershell72module/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationpowershell72module/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module}.
 type AutomationPowershell72Module interface {
 	cdktf.TerraformResource
 	AutomationAccountId() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_AutomationPowershell72Module) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
 func NewAutomationPowershell72Module(scope constructs.Construct, id *string, config *AutomationPowershell72ModuleConfig) AutomationPowershell72Module {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewAutomationPowershell72Module(scope constructs.Construct, id *string, con
 	j := jsiiProxy_AutomationPowershell72Module{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewAutomationPowershell72Module(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
 func NewAutomationPowershell72Module_Override(a AutomationPowershell72Module, scope constructs.Construct, id *string, config *AutomationPowershell72ModuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -578,7 +578,7 @@ func AutomationPowershell72Module_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -613,7 +613,7 @@ func AutomationPowershell72Module_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -632,7 +632,7 @@ func AutomationPowershell72Module_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func AutomationPowershell72Module_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func AutomationPowershell72Module_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
 		"tfResourceType",
 		&returns,
 	)

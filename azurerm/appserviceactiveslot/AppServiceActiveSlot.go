@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appserviceactiveslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appserviceactiveslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appserviceactiveslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot}.
 type AppServiceActiveSlot interface {
 	cdktf.TerraformResource
 	AppServiceName() *string
@@ -403,7 +403,7 @@ func (j *jsiiProxy_AppServiceActiveSlot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot} Resource.
 func NewAppServiceActiveSlot(scope constructs.Construct, id *string, config *AppServiceActiveSlotConfig) AppServiceActiveSlot {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewAppServiceActiveSlot(scope constructs.Construct, id *string, config *App
 	j := jsiiProxy_AppServiceActiveSlot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
+		"@cdktn/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewAppServiceActiveSlot(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot} Resource.
 func NewAppServiceActiveSlot_Override(a AppServiceActiveSlot, scope constructs.Construct, id *string, config *AppServiceActiveSlotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
+		"@cdktn/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -554,7 +554,7 @@ func AppServiceActiveSlot_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
+		"@cdktn/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func AppServiceActiveSlot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
+		"@cdktn/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func AppServiceActiveSlot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
+		"@cdktn/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func AppServiceActiveSlot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
+		"@cdktn/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func AppServiceActiveSlot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
+		"@cdktn/provider-azurerm.appServiceActiveSlot.AppServiceActiveSlot",
 		"tfResourceType",
 		&returns,
 	)

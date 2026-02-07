@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualhub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHub.VirtualHub",
+		"@cdktn/provider-azurerm.virtualHub.VirtualHub",
 		reflect.TypeOf((*VirtualHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHub.VirtualHubConfig",
+		"@cdktn/provider-azurerm.virtualHub.VirtualHubConfig",
 		reflect.TypeOf((*VirtualHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHub.VirtualHubRoute",
+		"@cdktn/provider-azurerm.virtualHub.VirtualHubRoute",
 		reflect.TypeOf((*VirtualHubRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHub.VirtualHubRouteList",
+		"@cdktn/provider-azurerm.virtualHub.VirtualHubRouteList",
 		reflect.TypeOf((*VirtualHubRouteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHub.VirtualHubRouteOutputReference",
+		"@cdktn/provider-azurerm.virtualHub.VirtualHubRouteOutputReference",
 		reflect.TypeOf((*VirtualHubRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressPrefixes", GoGetter: "AddressPrefixes"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHub.VirtualHubTimeouts",
+		"@cdktn/provider-azurerm.virtualHub.VirtualHubTimeouts",
 		reflect.TypeOf((*VirtualHubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHub.VirtualHubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualHub.VirtualHubTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualHubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

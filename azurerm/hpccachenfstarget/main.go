@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccachenfstarget
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTarget",
+		"@cdktn/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTarget",
 		reflect.TypeOf((*HpcCacheNfsTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetConfig",
+		"@cdktn/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetConfig",
 		reflect.TypeOf((*HpcCacheNfsTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetNamespaceJunction",
+		"@cdktn/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetNamespaceJunction",
 		reflect.TypeOf((*HpcCacheNfsTargetNamespaceJunction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetNamespaceJunctionList",
+		"@cdktn/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetNamespaceJunctionList",
 		reflect.TypeOf((*HpcCacheNfsTargetNamespaceJunctionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetNamespaceJunctionOutputReference",
+		"@cdktn/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetNamespaceJunctionOutputReference",
 		reflect.TypeOf((*HpcCacheNfsTargetNamespaceJunctionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicyName", GoGetter: "AccessPolicyName"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetTimeouts",
+		"@cdktn/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetTimeouts",
 		reflect.TypeOf((*HpcCacheNfsTargetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.hpcCacheNfsTarget.HpcCacheNfsTargetTimeoutsOutputReference",
 		reflect.TypeOf((*HpcCacheNfsTargetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

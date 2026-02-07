@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbtable
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTable",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTable",
 		reflect.TypeOf((*CosmosdbTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -83,11 +83,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTableAutoscaleSettings",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTableAutoscaleSettings",
 		reflect.TypeOf((*CosmosdbTableAutoscaleSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTableAutoscaleSettingsOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTableAutoscaleSettingsOutputReference",
 		reflect.TypeOf((*CosmosdbTableAutoscaleSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -122,15 +122,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTableConfig",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTableConfig",
 		reflect.TypeOf((*CosmosdbTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTableTimeouts",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTableTimeouts",
 		reflect.TypeOf((*CosmosdbTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTableTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTableTimeoutsOutputReference",
 		reflect.TypeOf((*CosmosdbTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

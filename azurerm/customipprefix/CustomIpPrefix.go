@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package customipprefix
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/customipprefix/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/customipprefix/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/custom_ip_prefix azurerm_custom_ip_prefix}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/custom_ip_prefix azurerm_custom_ip_prefix}.
 type CustomIpPrefix interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -594,7 +594,7 @@ func (j *jsiiProxy_CustomIpPrefix) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/custom_ip_prefix azurerm_custom_ip_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/custom_ip_prefix azurerm_custom_ip_prefix} Resource.
 func NewCustomIpPrefix(scope constructs.Construct, id *string, config *CustomIpPrefixConfig) CustomIpPrefix {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewCustomIpPrefix(scope constructs.Construct, id *string, config *CustomIpP
 	j := jsiiProxy_CustomIpPrefix{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefix",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefix",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -612,12 +612,12 @@ func NewCustomIpPrefix(scope constructs.Construct, id *string, config *CustomIpP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/custom_ip_prefix azurerm_custom_ip_prefix} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/custom_ip_prefix azurerm_custom_ip_prefix} Resource.
 func NewCustomIpPrefix_Override(c CustomIpPrefix, scope constructs.Construct, id *string, config *CustomIpPrefixConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefix",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefix",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -833,7 +833,7 @@ func CustomIpPrefix_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefix",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefix",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -868,7 +868,7 @@ func CustomIpPrefix_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefix",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefix",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -887,7 +887,7 @@ func CustomIpPrefix_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefix",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefix",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -906,7 +906,7 @@ func CustomIpPrefix_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefix",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefix",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -919,7 +919,7 @@ func CustomIpPrefix_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefix",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefix",
 		"tfResourceType",
 		&returns,
 	)

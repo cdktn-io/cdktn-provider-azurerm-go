@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappactionhttp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/logicappactionhttp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappactionhttp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLogicAppActionHttpRunAfterList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_LogicAppActionHttpRunAfterList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfterList",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLogicAppActionHttpRunAfterList_Override(l LogicAppActionHttpRunAfterList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfterList",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfterList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

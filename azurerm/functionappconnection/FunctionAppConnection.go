@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package functionappconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/functionappconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionappconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app_connection azurerm_function_app_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app_connection azurerm_function_app_connection}.
 type FunctionAppConnection interface {
 	cdktf.TerraformResource
 	Authentication() FunctionAppConnectionAuthenticationOutputReference
@@ -498,7 +498,7 @@ func (j *jsiiProxy_FunctionAppConnection) VnetSolutionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app_connection azurerm_function_app_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app_connection azurerm_function_app_connection} Resource.
 func NewFunctionAppConnection(scope constructs.Construct, id *string, config *FunctionAppConnectionConfig) FunctionAppConnection {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewFunctionAppConnection(scope constructs.Construct, id *string, config *Fu
 	j := jsiiProxy_FunctionAppConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.functionAppConnection.FunctionAppConnection",
+		"@cdktn/provider-azurerm.functionAppConnection.FunctionAppConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewFunctionAppConnection(scope constructs.Construct, id *string, config *Fu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app_connection azurerm_function_app_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app_connection azurerm_function_app_connection} Resource.
 func NewFunctionAppConnection_Override(f FunctionAppConnection, scope constructs.Construct, id *string, config *FunctionAppConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.functionAppConnection.FunctionAppConnection",
+		"@cdktn/provider-azurerm.functionAppConnection.FunctionAppConnection",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -671,7 +671,7 @@ func FunctionAppConnection_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionAppConnection.FunctionAppConnection",
+		"@cdktn/provider-azurerm.functionAppConnection.FunctionAppConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -706,7 +706,7 @@ func FunctionAppConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionAppConnection.FunctionAppConnection",
+		"@cdktn/provider-azurerm.functionAppConnection.FunctionAppConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func FunctionAppConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionAppConnection.FunctionAppConnection",
+		"@cdktn/provider-azurerm.functionAppConnection.FunctionAppConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func FunctionAppConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionAppConnection.FunctionAppConnection",
+		"@cdktn/provider-azurerm.functionAppConnection.FunctionAppConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func FunctionAppConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.functionAppConnection.FunctionAppConnection",
+		"@cdktn/provider-azurerm.functionAppConnection.FunctionAppConnection",
 		"tfResourceType",
 		&returns,
 	)

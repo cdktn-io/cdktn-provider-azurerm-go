@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkwatcherflowlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkwatcherflowlog/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkwatcherflowlog/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -275,7 +275,7 @@ func NewNetworkWatcherFlowLogTrafficAnalyticsOutputReference(terraformResource c
 	j := jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTrafficAnalyticsOutputReference",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTrafficAnalyticsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -287,7 +287,7 @@ func NewNetworkWatcherFlowLogTrafficAnalyticsOutputReference_Override(n NetworkW
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTrafficAnalyticsOutputReference",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTrafficAnalyticsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

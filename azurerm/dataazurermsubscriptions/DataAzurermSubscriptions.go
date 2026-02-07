@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsubscriptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermsubscriptions/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsubscriptions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/subscriptions azurerm_subscriptions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/subscriptions azurerm_subscriptions}.
 type DataAzurermSubscriptions interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -348,7 +348,7 @@ func (j *jsiiProxy_DataAzurermSubscriptions) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/subscriptions azurerm_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/subscriptions azurerm_subscriptions} Data Source.
 func NewDataAzurermSubscriptions(scope constructs.Construct, id *string, config *DataAzurermSubscriptionsConfig) DataAzurermSubscriptions {
 	_init_.Initialize()
 
@@ -358,7 +358,7 @@ func NewDataAzurermSubscriptions(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAzurermSubscriptions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -366,12 +366,12 @@ func NewDataAzurermSubscriptions(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/subscriptions azurerm_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/subscriptions azurerm_subscriptions} Data Source.
 func NewDataAzurermSubscriptions_Override(d DataAzurermSubscriptions, scope constructs.Construct, id *string, config *DataAzurermSubscriptionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -466,7 +466,7 @@ func DataAzurermSubscriptions_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -501,7 +501,7 @@ func DataAzurermSubscriptions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -520,7 +520,7 @@ func DataAzurermSubscriptions_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAzurermSubscriptions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAzurermSubscriptions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
 		"tfResourceType",
 		&returns,
 	)

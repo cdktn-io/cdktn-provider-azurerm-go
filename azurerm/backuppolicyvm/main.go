@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backuppolicyvm
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVm",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVm",
 		reflect.TypeOf((*BackupPolicyVm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -112,11 +112,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmBackup",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmBackup",
 		reflect.TypeOf((*BackupPolicyVmBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmBackupOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmBackupOutputReference",
 		reflect.TypeOf((*BackupPolicyVmBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,15 +161,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmConfig",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmConfig",
 		reflect.TypeOf((*BackupPolicyVmConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmInstantRestoreResourceGroup",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmInstantRestoreResourceGroup",
 		reflect.TypeOf((*BackupPolicyVmInstantRestoreResourceGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmInstantRestoreResourceGroupOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmInstantRestoreResourceGroupOutputReference",
 		reflect.TypeOf((*BackupPolicyVmInstantRestoreResourceGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -206,11 +206,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionDaily",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionDaily",
 		reflect.TypeOf((*BackupPolicyVmRetentionDaily)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionDailyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionDailyOutputReference",
 		reflect.TypeOf((*BackupPolicyVmRetentionDailyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -244,11 +244,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionMonthly",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionMonthly",
 		reflect.TypeOf((*BackupPolicyVmRetentionMonthly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionMonthlyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionMonthlyOutputReference",
 		reflect.TypeOf((*BackupPolicyVmRetentionMonthlyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -294,11 +294,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionWeekly",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionWeekly",
 		reflect.TypeOf((*BackupPolicyVmRetentionWeekly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionWeeklyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionWeeklyOutputReference",
 		reflect.TypeOf((*BackupPolicyVmRetentionWeeklyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -334,11 +334,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionYearly",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionYearly",
 		reflect.TypeOf((*BackupPolicyVmRetentionYearly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionYearlyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmRetentionYearlyOutputReference",
 		reflect.TypeOf((*BackupPolicyVmRetentionYearlyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -386,15 +386,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmTieringPolicy",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmTieringPolicy",
 		reflect.TypeOf((*BackupPolicyVmTieringPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmTieringPolicyArchivedRestorePoint",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmTieringPolicyArchivedRestorePoint",
 		reflect.TypeOf((*BackupPolicyVmTieringPolicyArchivedRestorePoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmTieringPolicyArchivedRestorePointOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmTieringPolicyArchivedRestorePointOutputReference",
 		reflect.TypeOf((*BackupPolicyVmTieringPolicyArchivedRestorePointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -434,7 +434,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmTieringPolicyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmTieringPolicyOutputReference",
 		reflect.TypeOf((*BackupPolicyVmTieringPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archivedRestorePoint", GoGetter: "ArchivedRestorePoint"},
@@ -469,11 +469,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmTimeouts",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmTimeouts",
 		reflect.TypeOf((*BackupPolicyVmTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyVm.BackupPolicyVmTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyVm.BackupPolicyVmTimeoutsOutputReference",
 		reflect.TypeOf((*BackupPolicyVmTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

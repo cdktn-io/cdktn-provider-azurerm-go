@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package frontdoor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.Frontdoor",
+		"@cdktn/provider-azurerm.frontdoor.Frontdoor",
 		reflect.TypeOf((*Frontdoor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,15 +110,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPool",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPool",
 		reflect.TypeOf((*FrontdoorBackendPool)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolBackend",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolBackend",
 		reflect.TypeOf((*FrontdoorBackendPoolBackend)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolBackendList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolBackendList",
 		reflect.TypeOf((*FrontdoorBackendPoolBackendList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolBackendOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolBackendOutputReference",
 		reflect.TypeOf((*FrontdoorBackendPoolBackendOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolHealthProbe",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolHealthProbe",
 		reflect.TypeOf((*FrontdoorBackendPoolHealthProbe)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolHealthProbeList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolHealthProbeList",
 		reflect.TypeOf((*FrontdoorBackendPoolHealthProbeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -215,7 +215,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolHealthProbeOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolHealthProbeOutputReference",
 		reflect.TypeOf((*FrontdoorBackendPoolHealthProbeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -265,7 +265,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolList",
 		reflect.TypeOf((*FrontdoorBackendPoolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -287,11 +287,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolLoadBalancing",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolLoadBalancing",
 		reflect.TypeOf((*FrontdoorBackendPoolLoadBalancing)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolLoadBalancingList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolLoadBalancingList",
 		reflect.TypeOf((*FrontdoorBackendPoolLoadBalancingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -313,7 +313,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolLoadBalancingOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolLoadBalancingOutputReference",
 		reflect.TypeOf((*FrontdoorBackendPoolLoadBalancingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalLatencyMilliseconds", GoGetter: "AdditionalLatencyMilliseconds"},
@@ -357,7 +357,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolOutputReference",
 		reflect.TypeOf((*FrontdoorBackendPoolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backend", GoGetter: "Backend"},
@@ -399,11 +399,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolSettings",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolSettings",
 		reflect.TypeOf((*FrontdoorBackendPoolSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolSettingsList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolSettingsList",
 		reflect.TypeOf((*FrontdoorBackendPoolSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -425,7 +425,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorBackendPoolSettingsOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorBackendPoolSettingsOutputReference",
 		reflect.TypeOf((*FrontdoorBackendPoolSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendPoolsSendReceiveTimeoutSeconds", GoGetter: "BackendPoolsSendReceiveTimeoutSeconds"},
@@ -462,15 +462,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorConfig",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorConfig",
 		reflect.TypeOf((*FrontdoorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrder",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrder",
 		reflect.TypeOf((*FrontdoorExplicitResourceOrder)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrderList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrderList",
 		reflect.TypeOf((*FrontdoorExplicitResourceOrderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -491,7 +491,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrderOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrderOutputReference",
 		reflect.TypeOf((*FrontdoorExplicitResourceOrderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendPoolHealthProbeIds", GoGetter: "BackendPoolHealthProbeIds"},
@@ -528,11 +528,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorFrontendEndpoint",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorFrontendEndpoint",
 		reflect.TypeOf((*FrontdoorFrontendEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorFrontendEndpointList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorFrontendEndpointList",
 		reflect.TypeOf((*FrontdoorFrontendEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -554,7 +554,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorFrontendEndpointOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorFrontendEndpointOutputReference",
 		reflect.TypeOf((*FrontdoorFrontendEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -600,15 +600,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorRoutingRule",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorRoutingRule",
 		reflect.TypeOf((*FrontdoorRoutingRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorRoutingRuleForwardingConfiguration",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorRoutingRuleForwardingConfiguration",
 		reflect.TypeOf((*FrontdoorRoutingRuleForwardingConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorRoutingRuleForwardingConfigurationOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorRoutingRuleForwardingConfigurationOutputReference",
 		reflect.TypeOf((*FrontdoorRoutingRuleForwardingConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendPoolName", GoGetter: "BackendPoolName"},
@@ -663,7 +663,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorRoutingRuleList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorRoutingRuleList",
 		reflect.TypeOf((*FrontdoorRoutingRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -685,7 +685,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorRoutingRuleOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorRoutingRuleOutputReference",
 		reflect.TypeOf((*FrontdoorRoutingRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptedProtocols", GoGetter: "AcceptedProtocols"},
@@ -737,11 +737,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorRoutingRuleRedirectConfiguration",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorRoutingRuleRedirectConfiguration",
 		reflect.TypeOf((*FrontdoorRoutingRuleRedirectConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorRoutingRuleRedirectConfigurationOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorRoutingRuleRedirectConfigurationOutputReference",
 		reflect.TypeOf((*FrontdoorRoutingRuleRedirectConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -789,11 +789,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorTimeouts",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorTimeouts",
 		reflect.TypeOf((*FrontdoorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorTimeoutsOutputReference",
 		reflect.TypeOf((*FrontdoorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

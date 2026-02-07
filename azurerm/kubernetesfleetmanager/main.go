@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kubernetesfleetmanager
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
 		reflect.TypeOf((*KubernetesFleetManager)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerConfig",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerConfig",
 		reflect.TypeOf((*KubernetesFleetManagerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerHubProfile",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerHubProfile",
 		reflect.TypeOf((*KubernetesFleetManagerHubProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerHubProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerHubProfileOutputReference",
 		reflect.TypeOf((*KubernetesFleetManagerHubProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerTimeouts",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerTimeouts",
 		reflect.TypeOf((*KubernetesFleetManagerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManagerTimeoutsOutputReference",
 		reflect.TypeOf((*KubernetesFleetManagerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

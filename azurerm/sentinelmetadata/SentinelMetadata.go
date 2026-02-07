@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelmetadata
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sentinelmetadata/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelmetadata/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_metadata azurerm_sentinel_metadata}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_metadata azurerm_sentinel_metadata}.
 type SentinelMetadata interface {
 	cdktf.TerraformResource
 	Author() SentinelMetadataAuthorOutputReference
@@ -833,7 +833,7 @@ func (j *jsiiProxy_SentinelMetadata) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_metadata azurerm_sentinel_metadata} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_metadata azurerm_sentinel_metadata} Resource.
 func NewSentinelMetadata(scope constructs.Construct, id *string, config *SentinelMetadataConfig) SentinelMetadata {
 	_init_.Initialize()
 
@@ -843,7 +843,7 @@ func NewSentinelMetadata(scope constructs.Construct, id *string, config *Sentine
 	j := jsiiProxy_SentinelMetadata{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadata",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadata",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -851,12 +851,12 @@ func NewSentinelMetadata(scope constructs.Construct, id *string, config *Sentine
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_metadata azurerm_sentinel_metadata} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_metadata azurerm_sentinel_metadata} Resource.
 func NewSentinelMetadata_Override(s SentinelMetadata, scope constructs.Construct, id *string, config *SentinelMetadataConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadata",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadata",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1138,7 +1138,7 @@ func SentinelMetadata_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadata",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadata",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1173,7 +1173,7 @@ func SentinelMetadata_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadata",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadata",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1192,7 +1192,7 @@ func SentinelMetadata_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadata",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadata",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1211,7 +1211,7 @@ func SentinelMetadata_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadata",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadata",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1224,7 +1224,7 @@ func SentinelMetadata_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadata",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadata",
 		"tfResourceType",
 		&returns,
 	)

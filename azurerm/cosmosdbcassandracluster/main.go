@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbcassandracluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraCluster",
+		"@cdktn/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraCluster",
 		reflect.TypeOf((*CosmosdbCassandraCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -108,15 +108,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterConfig",
+		"@cdktn/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterConfig",
 		reflect.TypeOf((*CosmosdbCassandraClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterIdentity",
+		"@cdktn/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterIdentity",
 		reflect.TypeOf((*CosmosdbCassandraClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterIdentityOutputReference",
 		reflect.TypeOf((*CosmosdbCassandraClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterTimeouts",
+		"@cdktn/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterTimeouts",
 		reflect.TypeOf((*CosmosdbCassandraClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterTimeoutsOutputReference",
 		reflect.TypeOf((*CosmosdbCassandraClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

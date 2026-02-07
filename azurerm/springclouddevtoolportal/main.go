@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springclouddevtoolportal
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
 		reflect.TypeOf((*SpringCloudDevToolPortal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalConfig",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalConfig",
 		reflect.TypeOf((*SpringCloudDevToolPortalConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalSso",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalSso",
 		reflect.TypeOf((*SpringCloudDevToolPortalSso)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalSsoOutputReference",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalSsoOutputReference",
 		reflect.TypeOf((*SpringCloudDevToolPortalSsoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalTimeouts",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalTimeouts",
 		reflect.TypeOf((*SpringCloudDevToolPortalTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortalTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudDevToolPortalTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

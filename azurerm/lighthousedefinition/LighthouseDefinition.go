@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lighthousedefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/lighthousedefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/lighthousedefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lighthouse_definition azurerm_lighthouse_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lighthouse_definition azurerm_lighthouse_definition}.
 type LighthouseDefinition interface {
 	cdktf.TerraformResource
 	Authorization() LighthouseDefinitionAuthorizationList
@@ -522,7 +522,7 @@ func (j *jsiiProxy_LighthouseDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lighthouse_definition azurerm_lighthouse_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lighthouse_definition azurerm_lighthouse_definition} Resource.
 func NewLighthouseDefinition(scope constructs.Construct, id *string, config *LighthouseDefinitionConfig) LighthouseDefinition {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewLighthouseDefinition(scope constructs.Construct, id *string, config *Lig
 	j := jsiiProxy_LighthouseDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewLighthouseDefinition(scope constructs.Construct, id *string, config *Lig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lighthouse_definition azurerm_lighthouse_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lighthouse_definition azurerm_lighthouse_definition} Resource.
 func NewLighthouseDefinition_Override(l LighthouseDefinition, scope constructs.Construct, id *string, config *LighthouseDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -695,7 +695,7 @@ func LighthouseDefinition_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -730,7 +730,7 @@ func LighthouseDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func LighthouseDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func LighthouseDefinition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func LighthouseDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
 		"tfResourceType",
 		&returns,
 	)

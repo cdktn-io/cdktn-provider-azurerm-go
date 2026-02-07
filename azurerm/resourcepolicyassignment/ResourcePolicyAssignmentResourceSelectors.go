@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcepolicyassignment
@@ -7,9 +7,9 @@ package resourcepolicyassignment
 type ResourcePolicyAssignmentResourceSelectors struct {
 	// selectors block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_policy_assignment#selectors ResourcePolicyAssignment#selectors}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_policy_assignment#selectors ResourcePolicyAssignment#selectors}
 	Selectors interface{} `field:"required" json:"selectors" yaml:"selectors"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_policy_assignment#name ResourcePolicyAssignment#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_policy_assignment#name ResourcePolicyAssignment#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

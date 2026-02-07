@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticsjobschedule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.streamAnalyticsJobSchedule.StreamAnalyticsJobSchedule",
+		"@cdktn/provider-azurerm.streamAnalyticsJobSchedule.StreamAnalyticsJobSchedule",
 		reflect.TypeOf((*StreamAnalyticsJobSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.streamAnalyticsJobSchedule.StreamAnalyticsJobScheduleConfig",
+		"@cdktn/provider-azurerm.streamAnalyticsJobSchedule.StreamAnalyticsJobScheduleConfig",
 		reflect.TypeOf((*StreamAnalyticsJobScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.streamAnalyticsJobSchedule.StreamAnalyticsJobScheduleTimeouts",
+		"@cdktn/provider-azurerm.streamAnalyticsJobSchedule.StreamAnalyticsJobScheduleTimeouts",
 		reflect.TypeOf((*StreamAnalyticsJobScheduleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.streamAnalyticsJobSchedule.StreamAnalyticsJobScheduleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.streamAnalyticsJobSchedule.StreamAnalyticsJobScheduleTimeoutsOutputReference",
 		reflect.TypeOf((*StreamAnalyticsJobScheduleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

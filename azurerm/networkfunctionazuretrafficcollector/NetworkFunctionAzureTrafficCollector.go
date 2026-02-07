@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkfunctionazuretrafficcollector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkfunctionazuretrafficcollector/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkfunctionazuretrafficcollector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector}.
 type NetworkFunctionAzureTrafficCollector interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_NetworkFunctionAzureTrafficCollector) VirtualHubId() *[]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector} Resource.
 func NewNetworkFunctionAzureTrafficCollector(scope constructs.Construct, id *string, config *NetworkFunctionAzureTrafficCollectorConfig) NetworkFunctionAzureTrafficCollector {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewNetworkFunctionAzureTrafficCollector(scope constructs.Construct, id *str
 	j := jsiiProxy_NetworkFunctionAzureTrafficCollector{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
+		"@cdktn/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewNetworkFunctionAzureTrafficCollector(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector} Resource.
 func NewNetworkFunctionAzureTrafficCollector_Override(n NetworkFunctionAzureTrafficCollector, scope constructs.Construct, id *string, config *NetworkFunctionAzureTrafficCollectorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
+		"@cdktn/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -611,7 +611,7 @@ func NetworkFunctionAzureTrafficCollector_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
+		"@cdktn/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -646,7 +646,7 @@ func NetworkFunctionAzureTrafficCollector_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
+		"@cdktn/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -665,7 +665,7 @@ func NetworkFunctionAzureTrafficCollector_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
+		"@cdktn/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -684,7 +684,7 @@ func NetworkFunctionAzureTrafficCollector_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
+		"@cdktn/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func NetworkFunctionAzureTrafficCollector_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
+		"@cdktn/provider-azurerm.networkFunctionAzureTrafficCollector.NetworkFunctionAzureTrafficCollector",
 		"tfResourceType",
 		&returns,
 	)

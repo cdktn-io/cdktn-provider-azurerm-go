@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpnsite
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnSite.VpnSite",
+		"@cdktn/provider-azurerm.vpnSite.VpnSite",
 		reflect.TypeOf((*VpnSite)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,19 +98,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteConfig",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteConfig",
 		reflect.TypeOf((*VpnSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteLink",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteLink",
 		reflect.TypeOf((*VpnSiteLink)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteLinkBgp",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteLinkBgp",
 		reflect.TypeOf((*VpnSiteLinkBgp)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteLinkBgpOutputReference",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteLinkBgpOutputReference",
 		reflect.TypeOf((*VpnSiteLinkBgpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asn", GoGetter: "Asn"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteLinkList",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteLinkList",
 		reflect.TypeOf((*VpnSiteLinkList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -168,7 +168,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteLinkOutputReference",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteLinkOutputReference",
 		reflect.TypeOf((*VpnSiteLinkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bgp", GoGetter: "Bgp"},
@@ -219,11 +219,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteO365Policy",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteO365Policy",
 		reflect.TypeOf((*VpnSiteO365Policy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteO365PolicyOutputReference",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteO365PolicyOutputReference",
 		reflect.TypeOf((*VpnSiteO365PolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -259,11 +259,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteO365PolicyTrafficCategory",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteO365PolicyTrafficCategory",
 		reflect.TypeOf((*VpnSiteO365PolicyTrafficCategory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteO365PolicyTrafficCategoryOutputReference",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteO365PolicyTrafficCategoryOutputReference",
 		reflect.TypeOf((*VpnSiteO365PolicyTrafficCategoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowEndpointEnabled", GoGetter: "AllowEndpointEnabled"},
@@ -304,11 +304,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteTimeouts",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteTimeouts",
 		reflect.TypeOf((*VpnSiteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteTimeoutsOutputReference",
 		reflect.TypeOf((*VpnSiteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermbatchaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccount",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccount",
 		reflect.TypeOf((*DataAzurermBatchAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountEndpoint", GoGetter: "AccountEndpoint"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountConfig",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountConfig",
 		reflect.TypeOf((*DataAzurermBatchAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountEncryption",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountEncryption",
 		reflect.TypeOf((*DataAzurermBatchAccountEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountEncryptionList",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountEncryptionList",
 		reflect.TypeOf((*DataAzurermBatchAccountEncryptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountEncryptionOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountEncryptionOutputReference",
 		reflect.TypeOf((*DataAzurermBatchAccountEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountKeyVaultReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountKeyVaultReference",
 		reflect.TypeOf((*DataAzurermBatchAccountKeyVaultReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountKeyVaultReferenceList",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountKeyVaultReferenceList",
 		reflect.TypeOf((*DataAzurermBatchAccountKeyVaultReferenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountKeyVaultReferenceOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountKeyVaultReferenceOutputReference",
 		reflect.TypeOf((*DataAzurermBatchAccountKeyVaultReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -196,11 +196,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountTimeouts",
 		reflect.TypeOf((*DataAzurermBatchAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermBatchAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

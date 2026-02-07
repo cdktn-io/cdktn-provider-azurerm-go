@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelmetadata
 
 
 type SentinelMetadataCategory struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_metadata#domains SentinelMetadata#domains}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_metadata#domains SentinelMetadata#domains}.
 	Domains *[]*string `field:"optional" json:"domains" yaml:"domains"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_metadata#verticals SentinelMetadata#verticals}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_metadata#verticals SentinelMetadata#verticals}.
 	Verticals *[]*string `field:"optional" json:"verticals" yaml:"verticals"`
 }
 

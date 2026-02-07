@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualhubsecuritypartnerprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualhubsecuritypartnerprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualhubsecuritypartnerprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_security_partner_provider azurerm_virtual_hub_security_partner_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_security_partner_provider azurerm_virtual_hub_security_partner_provider}.
 type VirtualHubSecurityPartnerProvider interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_VirtualHubSecurityPartnerProvider) VirtualHubIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_security_partner_provider azurerm_virtual_hub_security_partner_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_security_partner_provider azurerm_virtual_hub_security_partner_provider} Resource.
 func NewVirtualHubSecurityPartnerProvider(scope constructs.Construct, id *string, config *VirtualHubSecurityPartnerProviderConfig) VirtualHubSecurityPartnerProvider {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewVirtualHubSecurityPartnerProvider(scope constructs.Construct, id *string
 	j := jsiiProxy_VirtualHubSecurityPartnerProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
+		"@cdktn/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewVirtualHubSecurityPartnerProvider(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_security_partner_provider azurerm_virtual_hub_security_partner_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_security_partner_provider azurerm_virtual_hub_security_partner_provider} Resource.
 func NewVirtualHubSecurityPartnerProvider_Override(v VirtualHubSecurityPartnerProvider, scope constructs.Construct, id *string, config *VirtualHubSecurityPartnerProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
+		"@cdktn/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -658,7 +658,7 @@ func VirtualHubSecurityPartnerProvider_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
+		"@cdktn/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func VirtualHubSecurityPartnerProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
+		"@cdktn/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func VirtualHubSecurityPartnerProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
+		"@cdktn/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func VirtualHubSecurityPartnerProvider_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
+		"@cdktn/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func VirtualHubSecurityPartnerProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
+		"@cdktn/provider-azurerm.virtualHubSecurityPartnerProvider.VirtualHubSecurityPartnerProvider",
 		"tfResourceType",
 		&returns,
 	)

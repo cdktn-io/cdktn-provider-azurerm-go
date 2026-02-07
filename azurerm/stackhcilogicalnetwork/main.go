@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcilogicalnetwork
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetwork",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetwork",
 		reflect.TypeOf((*StackHciLogicalNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,19 +89,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkConfig",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkConfig",
 		reflect.TypeOf((*StackHciLogicalNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnet",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnet",
 		reflect.TypeOf((*StackHciLogicalNetworkSubnet)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetIpPool",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetIpPool",
 		reflect.TypeOf((*StackHciLogicalNetworkSubnetIpPool)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetIpPoolList",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetIpPoolList",
 		reflect.TypeOf((*StackHciLogicalNetworkSubnetIpPoolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -123,7 +123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetIpPoolOutputReference",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetIpPoolOutputReference",
 		reflect.TypeOf((*StackHciLogicalNetworkSubnetIpPoolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,7 +159,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetOutputReference",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetOutputReference",
 		reflect.TypeOf((*StackHciLogicalNetworkSubnetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressPrefix", GoGetter: "AddressPrefix"},
@@ -207,11 +207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetRoute",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetRoute",
 		reflect.TypeOf((*StackHciLogicalNetworkSubnetRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetRouteOutputReference",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetRouteOutputReference",
 		reflect.TypeOf((*StackHciLogicalNetworkSubnetRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressPrefix", GoGetter: "AddressPrefix"},
@@ -250,11 +250,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkTimeouts",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkTimeouts",
 		reflect.TypeOf((*StackHciLogicalNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*StackHciLogicalNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

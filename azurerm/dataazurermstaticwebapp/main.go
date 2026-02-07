@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermstaticwebapp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebApp",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebApp",
 		reflect.TypeOf((*DataAzurermStaticWebApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppBasicAuth",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppBasicAuth",
 		reflect.TypeOf((*DataAzurermStaticWebAppBasicAuth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppBasicAuthList",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppBasicAuthList",
 		reflect.TypeOf((*DataAzurermStaticWebAppBasicAuthList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppBasicAuthOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppBasicAuthOutputReference",
 		reflect.TypeOf((*DataAzurermStaticWebAppBasicAuthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,15 +138,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppConfig",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppConfig",
 		reflect.TypeOf((*DataAzurermStaticWebAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppIdentity",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppIdentity",
 		reflect.TypeOf((*DataAzurermStaticWebAppIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppIdentityList",
 		reflect.TypeOf((*DataAzurermStaticWebAppIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermStaticWebAppIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -203,11 +203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppTimeouts",
 		reflect.TypeOf((*DataAzurermStaticWebAppTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermStaticWebAppTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubendpointcosmosdbaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothubendpointcosmosdbaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubendpointcosmosdbaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_cosmosdb_account azurerm_iothub_endpoint_cosmosdb_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_cosmosdb_account azurerm_iothub_endpoint_cosmosdb_account}.
 type IothubEndpointCosmosdbAccount interface {
 	cdktf.TerraformResource
 	AuthenticationType() *string
@@ -640,7 +640,7 @@ func (j *jsiiProxy_IothubEndpointCosmosdbAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_cosmosdb_account azurerm_iothub_endpoint_cosmosdb_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_cosmosdb_account azurerm_iothub_endpoint_cosmosdb_account} Resource.
 func NewIothubEndpointCosmosdbAccount(scope constructs.Construct, id *string, config *IothubEndpointCosmosdbAccountConfig) IothubEndpointCosmosdbAccount {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewIothubEndpointCosmosdbAccount(scope constructs.Construct, id *string, co
 	j := jsiiProxy_IothubEndpointCosmosdbAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
+		"@cdktn/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -658,12 +658,12 @@ func NewIothubEndpointCosmosdbAccount(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_cosmosdb_account azurerm_iothub_endpoint_cosmosdb_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_cosmosdb_account azurerm_iothub_endpoint_cosmosdb_account} Resource.
 func NewIothubEndpointCosmosdbAccount_Override(i IothubEndpointCosmosdbAccount, scope constructs.Construct, id *string, config *IothubEndpointCosmosdbAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
+		"@cdktn/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -901,7 +901,7 @@ func IothubEndpointCosmosdbAccount_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
+		"@cdktn/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -936,7 +936,7 @@ func IothubEndpointCosmosdbAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
+		"@cdktn/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -955,7 +955,7 @@ func IothubEndpointCosmosdbAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
+		"@cdktn/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -974,7 +974,7 @@ func IothubEndpointCosmosdbAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
+		"@cdktn/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -987,7 +987,7 @@ func IothubEndpointCosmosdbAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
+		"@cdktn/provider-azurerm.iothubEndpointCosmosdbAccount.IothubEndpointCosmosdbAccount",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationrunbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewAutomationRunbookJobScheduleOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_AutomationRunbookJobScheduleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookJobScheduleOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookJobScheduleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewAutomationRunbookJobScheduleOutputReference_Override(a AutomationRunbook
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookJobScheduleOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookJobScheduleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		a,
 	)

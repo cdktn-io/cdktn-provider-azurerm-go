@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sshpublickey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKey",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKey",
 		reflect.TypeOf((*SshPublicKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKeyConfig",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKeyConfig",
 		reflect.TypeOf((*SshPublicKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKeyTimeouts",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKeyTimeouts",
 		reflect.TypeOf((*SshPublicKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKeyTimeoutsOutputReference",
 		reflect.TypeOf((*SshPublicKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

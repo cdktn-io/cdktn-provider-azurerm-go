@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermstoragetable
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTable",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTable",
 		reflect.TypeOf((*DataAzurermStorageTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acl", GoGetter: "Acl"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAcl",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAcl",
 		reflect.TypeOf((*DataAzurermStorageTableAcl)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclAccessPolicy",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclAccessPolicy",
 		reflect.TypeOf((*DataAzurermStorageTableAclAccessPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclAccessPolicyList",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclAccessPolicyList",
 		reflect.TypeOf((*DataAzurermStorageTableAclAccessPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -95,7 +95,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclAccessPolicyOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclAccessPolicyOutputReference",
 		reflect.TypeOf((*DataAzurermStorageTableAclAccessPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclList",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclList",
 		reflect.TypeOf((*DataAzurermStorageTableAclList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -151,7 +151,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableAclOutputReference",
 		reflect.TypeOf((*DataAzurermStorageTableAclOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicy", GoGetter: "AccessPolicy"},
@@ -185,15 +185,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableConfig",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableConfig",
 		reflect.TypeOf((*DataAzurermStorageTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableTimeouts",
 		reflect.TypeOf((*DataAzurermStorageTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStorageTable.DataAzurermStorageTableTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermStorageTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

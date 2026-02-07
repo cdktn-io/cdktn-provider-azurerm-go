@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwarecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vmwarecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vmwarecluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_cluster azurerm_vmware_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_cluster azurerm_vmware_cluster}.
 type VmwareCluster interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_VmwareCluster) VmwareCloudIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_cluster azurerm_vmware_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_cluster azurerm_vmware_cluster} Resource.
 func NewVmwareCluster(scope constructs.Construct, id *string, config *VmwareClusterConfig) VmwareCluster {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewVmwareCluster(scope constructs.Construct, id *string, config *VmwareClus
 	j := jsiiProxy_VmwareCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareCluster",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -466,12 +466,12 @@ func NewVmwareCluster(scope constructs.Construct, id *string, config *VmwareClus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_cluster azurerm_vmware_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_cluster azurerm_vmware_cluster} Resource.
 func NewVmwareCluster_Override(v VmwareCluster, scope constructs.Construct, id *string, config *VmwareClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareCluster",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareCluster",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -610,7 +610,7 @@ func VmwareCluster_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareCluster",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -645,7 +645,7 @@ func VmwareCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareCluster",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func VmwareCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareCluster",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -683,7 +683,7 @@ func VmwareCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareCluster",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func VmwareCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareCluster",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareCluster",
 		"tfResourceType",
 		&returns,
 	)

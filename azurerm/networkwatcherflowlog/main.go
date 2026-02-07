@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkwatcherflowlog
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
 		reflect.TypeOf((*NetworkWatcherFlowLog)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogConfig",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogConfig",
 		reflect.TypeOf((*NetworkWatcherFlowLogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogRetentionPolicy",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogRetentionPolicy",
 		reflect.TypeOf((*NetworkWatcherFlowLogRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogRetentionPolicyOutputReference",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogRetentionPolicyOutputReference",
 		reflect.TypeOf((*NetworkWatcherFlowLogRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTimeouts",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTimeouts",
 		reflect.TypeOf((*NetworkWatcherFlowLogTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkWatcherFlowLogTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTrafficAnalytics",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTrafficAnalytics",
 		reflect.TypeOf((*NetworkWatcherFlowLogTrafficAnalytics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTrafficAnalyticsOutputReference",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogTrafficAnalyticsOutputReference",
 		reflect.TypeOf((*NetworkWatcherFlowLogTrafficAnalyticsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

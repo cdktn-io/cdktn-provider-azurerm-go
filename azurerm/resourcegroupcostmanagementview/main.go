@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegroupcostmanagementview
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
 		reflect.TypeOf((*ResourceGroupCostManagementView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accumulated", GoGetter: "Accumulated"},
@@ -95,19 +95,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewConfig",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewConfig",
 		reflect.TypeOf((*ResourceGroupCostManagementViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDataset",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDataset",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDataset)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetAggregation",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetAggregation",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetAggregation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetAggregationList",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetAggregationList",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetAggregationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetAggregationOutputReference",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetAggregationOutputReference",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetAggregationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},
@@ -165,11 +165,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetGrouping",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetGrouping",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetGrouping)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetGroupingList",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetGroupingList",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetGroupingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -191,7 +191,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetGroupingOutputReference",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetGroupingOutputReference",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetGroupingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetOutputReference",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetOutputReference",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregation", GoGetter: "Aggregation"},
@@ -272,11 +272,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetSorting",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetSorting",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetSortingList",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetSortingList",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetSortingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -298,7 +298,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetSortingOutputReference",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetSortingOutputReference",
 		reflect.TypeOf((*ResourceGroupCostManagementViewDatasetSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -334,11 +334,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewKpi",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewKpi",
 		reflect.TypeOf((*ResourceGroupCostManagementViewKpi)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewKpiList",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewKpiList",
 		reflect.TypeOf((*ResourceGroupCostManagementViewKpiList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -360,7 +360,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewKpiOutputReference",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewKpiOutputReference",
 		reflect.TypeOf((*ResourceGroupCostManagementViewKpiOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -394,11 +394,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewPivot",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewPivot",
 		reflect.TypeOf((*ResourceGroupCostManagementViewPivot)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewPivotList",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewPivotList",
 		reflect.TypeOf((*ResourceGroupCostManagementViewPivotList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -420,7 +420,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewPivotOutputReference",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewPivotOutputReference",
 		reflect.TypeOf((*ResourceGroupCostManagementViewPivotOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -456,11 +456,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewTimeouts",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewTimeouts",
 		reflect.TypeOf((*ResourceGroupCostManagementViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewTimeoutsOutputReference",
 		reflect.TypeOf((*ResourceGroupCostManagementViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

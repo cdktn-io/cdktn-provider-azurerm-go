@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mysqlflexibleserver
 
 
 type MysqlFlexibleServerIdentity struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_server#identity_ids MysqlFlexibleServer#identity_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_server#identity_ids MysqlFlexibleServer#identity_ids}.
 	IdentityIds *[]*string `field:"required" json:"identityIds" yaml:"identityIds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_server#type MysqlFlexibleServer#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_server#type MysqlFlexibleServer#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

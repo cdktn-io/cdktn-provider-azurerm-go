@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lighthousedefinition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinition",
 		reflect.TypeOf((*LighthouseDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,11 +93,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionAuthorization",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionAuthorization",
 		reflect.TypeOf((*LighthouseDefinitionAuthorization)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionAuthorizationList",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionAuthorizationList",
 		reflect.TypeOf((*LighthouseDefinitionAuthorizationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionAuthorizationOutputReference",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionAuthorizationOutputReference",
 		reflect.TypeOf((*LighthouseDefinitionAuthorizationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,23 +161,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionConfig",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionConfig",
 		reflect.TypeOf((*LighthouseDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorization",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorization",
 		reflect.TypeOf((*LighthouseDefinitionEligibleAuthorization)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicy",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicy",
 		reflect.TypeOf((*LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApprover",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApprover",
 		reflect.TypeOf((*LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApprover)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverList",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverList",
 		reflect.TypeOf((*LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -199,7 +199,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReference",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReference",
 		reflect.TypeOf((*LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -236,7 +236,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyOutputReference",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyOutputReference",
 		reflect.TypeOf((*LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "approver", GoGetter: "Approver"},
@@ -278,7 +278,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationList",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationList",
 		reflect.TypeOf((*LighthouseDefinitionEligibleAuthorizationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -300,7 +300,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationOutputReference",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationOutputReference",
 		reflect.TypeOf((*LighthouseDefinitionEligibleAuthorizationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -343,11 +343,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionPlan",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionPlan",
 		reflect.TypeOf((*LighthouseDefinitionPlan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionPlanOutputReference",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionPlanOutputReference",
 		reflect.TypeOf((*LighthouseDefinitionPlanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -387,11 +387,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionTimeouts",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionTimeouts",
 		reflect.TypeOf((*LighthouseDefinitionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseDefinition.LighthouseDefinitionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.lighthouseDefinition.LighthouseDefinitionTimeoutsOutputReference",
 		reflect.TypeOf((*LighthouseDefinitionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

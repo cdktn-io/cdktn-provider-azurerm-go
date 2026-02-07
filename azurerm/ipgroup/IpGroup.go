@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ipgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/ipgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/ipgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ip_group azurerm_ip_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ip_group azurerm_ip_group}.
 type IpGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_IpGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ip_group azurerm_ip_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ip_group azurerm_ip_group} Resource.
 func NewIpGroup(scope constructs.Construct, id *string, config *IpGroupConfig) IpGroup {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewIpGroup(scope constructs.Construct, id *string, config *IpGroupConfig) I
 	j := jsiiProxy_IpGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.ipGroup.IpGroup",
+		"@cdktn/provider-azurerm.ipGroup.IpGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewIpGroup(scope constructs.Construct, id *string, config *IpGroupConfig) I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ip_group azurerm_ip_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ip_group azurerm_ip_group} Resource.
 func NewIpGroup_Override(i IpGroup, scope constructs.Construct, id *string, config *IpGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.ipGroup.IpGroup",
+		"@cdktn/provider-azurerm.ipGroup.IpGroup",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -646,7 +646,7 @@ func IpGroup_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.ipGroup.IpGroup",
+		"@cdktn/provider-azurerm.ipGroup.IpGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -681,7 +681,7 @@ func IpGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.ipGroup.IpGroup",
+		"@cdktn/provider-azurerm.ipGroup.IpGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func IpGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.ipGroup.IpGroup",
+		"@cdktn/provider-azurerm.ipGroup.IpGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -719,7 +719,7 @@ func IpGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.ipGroup.IpGroup",
+		"@cdktn/provider-azurerm.ipGroup.IpGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func IpGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.ipGroup.IpGroup",
+		"@cdktn/provider-azurerm.ipGroup.IpGroup",
 		"tfResourceType",
 		&returns,
 	)

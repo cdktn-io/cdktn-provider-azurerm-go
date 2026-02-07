@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlserversecurityalertpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqlserversecurityalertpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlserversecurityalertpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy}.
 type MssqlServerSecurityAlertPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -547,7 +547,7 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
 func NewMssqlServerSecurityAlertPolicy(scope constructs.Construct, id *string, config *MssqlServerSecurityAlertPolicyConfig) MssqlServerSecurityAlertPolicy {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewMssqlServerSecurityAlertPolicy(scope constructs.Construct, id *string, c
 	j := jsiiProxy_MssqlServerSecurityAlertPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
+		"@cdktn/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -565,12 +565,12 @@ func NewMssqlServerSecurityAlertPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
 func NewMssqlServerSecurityAlertPolicy_Override(m MssqlServerSecurityAlertPolicy, scope constructs.Construct, id *string, config *MssqlServerSecurityAlertPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
+		"@cdktn/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -764,7 +764,7 @@ func MssqlServerSecurityAlertPolicy_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
+		"@cdktn/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func MssqlServerSecurityAlertPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
+		"@cdktn/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func MssqlServerSecurityAlertPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
+		"@cdktn/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func MssqlServerSecurityAlertPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
+		"@cdktn/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func MssqlServerSecurityAlertPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
+		"@cdktn/provider-azurerm.mssqlServerSecurityAlertPolicy.MssqlServerSecurityAlertPolicy",
 		"tfResourceType",
 		&returns,
 	)

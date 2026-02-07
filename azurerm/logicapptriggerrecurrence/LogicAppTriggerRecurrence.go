@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicapptriggerrecurrence
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/logicapptriggerrecurrence/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicapptriggerrecurrence/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence}.
 type LogicAppTriggerRecurrence interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_LogicAppTriggerRecurrence) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence} Resource.
 func NewLogicAppTriggerRecurrence(scope constructs.Construct, id *string, config *LogicAppTriggerRecurrenceConfig) LogicAppTriggerRecurrence {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewLogicAppTriggerRecurrence(scope constructs.Construct, id *string, config
 	j := jsiiProxy_LogicAppTriggerRecurrence{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewLogicAppTriggerRecurrence(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence} Resource.
 func NewLogicAppTriggerRecurrence_Override(l LogicAppTriggerRecurrence, scope constructs.Construct, id *string, config *LogicAppTriggerRecurrenceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -682,7 +682,7 @@ func LogicAppTriggerRecurrence_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func LogicAppTriggerRecurrence_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func LogicAppTriggerRecurrence_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func LogicAppTriggerRecurrence_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func LogicAppTriggerRecurrence_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
 		"tfResourceType",
 		&returns,
 	)

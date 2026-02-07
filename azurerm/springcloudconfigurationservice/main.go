@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudconfigurationservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
 		reflect.TypeOf((*SpringCloudConfigurationService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceConfig",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceConfig",
 		reflect.TypeOf((*SpringCloudConfigurationServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceRepository",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceRepository",
 		reflect.TypeOf((*SpringCloudConfigurationServiceRepository)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceRepositoryList",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceRepositoryList",
 		reflect.TypeOf((*SpringCloudConfigurationServiceRepositoryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceRepositoryOutputReference",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceRepositoryOutputReference",
 		reflect.TypeOf((*SpringCloudConfigurationServiceRepositoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caCertificateId", GoGetter: "CaCertificateId"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceTimeouts",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceTimeouts",
 		reflect.TypeOf((*SpringCloudConfigurationServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationServiceTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudConfigurationServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

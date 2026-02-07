@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudbuildpackbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudbuildpackbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudbuildpackbinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewSpringCloudBuildPackBindingLaunchOutputReference(terraformResource cdktf
 	j := jsiiProxy_SpringCloudBuildPackBindingLaunchOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBindingLaunchOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBindingLaunchOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewSpringCloudBuildPackBindingLaunchOutputReference_Override(s SpringCloudB
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBindingLaunchOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBindingLaunchOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

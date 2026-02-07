@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -417,6 +417,17 @@ func (k *jsiiProxy_KubernetesCluster) validatePutMonitorMetricsParameters(value 
 }
 
 func (k *jsiiProxy_KubernetesCluster) validatePutNetworkProfileParameters(value *KubernetesClusterNetworkProfile) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (k *jsiiProxy_KubernetesCluster) validatePutNodeProvisioningProfileParameters(value *KubernetesClusterNodeProvisioningProfile) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

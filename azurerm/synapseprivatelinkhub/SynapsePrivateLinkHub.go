@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapseprivatelinkhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/synapseprivatelinkhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/synapseprivatelinkhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub}.
 type SynapsePrivateLinkHub interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_SynapsePrivateLinkHub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub} Resource.
 func NewSynapsePrivateLinkHub(scope constructs.Construct, id *string, config *SynapsePrivateLinkHubConfig) SynapsePrivateLinkHub {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewSynapsePrivateLinkHub(scope constructs.Construct, id *string, config *Sy
 	j := jsiiProxy_SynapsePrivateLinkHub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
+		"@cdktn/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewSynapsePrivateLinkHub(scope constructs.Construct, id *string, config *Sy
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_private_link_hub azurerm_synapse_private_link_hub} Resource.
 func NewSynapsePrivateLinkHub_Override(s SynapsePrivateLinkHub, scope constructs.Construct, id *string, config *SynapsePrivateLinkHubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
+		"@cdktn/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -589,7 +589,7 @@ func SynapsePrivateLinkHub_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
+		"@cdktn/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func SynapsePrivateLinkHub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
+		"@cdktn/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func SynapsePrivateLinkHub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
+		"@cdktn/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func SynapsePrivateLinkHub_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
+		"@cdktn/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func SynapsePrivateLinkHub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
+		"@cdktn/provider-azurerm.synapsePrivateLinkHub.SynapsePrivateLinkHub",
 		"tfResourceType",
 		&returns,
 	)

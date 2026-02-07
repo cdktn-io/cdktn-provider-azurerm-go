@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticsan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/elasticsan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/elasticsan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/elastic_san azurerm_elastic_san}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/elastic_san azurerm_elastic_san}.
 type ElasticSan interface {
 	cdktf.TerraformResource
 	BaseSizeInTib() *float64
@@ -576,7 +576,7 @@ func (j *jsiiProxy_ElasticSan) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/elastic_san azurerm_elastic_san} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/elastic_san azurerm_elastic_san} Resource.
 func NewElasticSan(scope constructs.Construct, id *string, config *ElasticSanConfig) ElasticSan {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewElasticSan(scope constructs.Construct, id *string, config *ElasticSanCon
 	j := jsiiProxy_ElasticSan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSan",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -594,12 +594,12 @@ func NewElasticSan(scope constructs.Construct, id *string, config *ElasticSanCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/elastic_san azurerm_elastic_san} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/elastic_san azurerm_elastic_san} Resource.
 func NewElasticSan_Override(e ElasticSan, scope constructs.Construct, id *string, config *ElasticSanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSan",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -771,7 +771,7 @@ func ElasticSan_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSan",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -806,7 +806,7 @@ func ElasticSan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSan",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func ElasticSan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSan",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -844,7 +844,7 @@ func ElasticSan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSan",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -857,7 +857,7 @@ func ElasticSan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSan",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
 		"tfResourceType",
 		&returns,
 	)

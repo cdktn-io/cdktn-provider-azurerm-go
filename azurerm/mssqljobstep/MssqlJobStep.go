@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljobstep
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqljobstep/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqljobstep/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_step azurerm_mssql_job_step}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_step azurerm_mssql_job_step}.
 type MssqlJobStep interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -617,7 +617,7 @@ func (j *jsiiProxy_MssqlJobStep) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_step azurerm_mssql_job_step} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_step azurerm_mssql_job_step} Resource.
 func NewMssqlJobStep(scope constructs.Construct, id *string, config *MssqlJobStepConfig) MssqlJobStep {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewMssqlJobStep(scope constructs.Construct, id *string, config *MssqlJobSte
 	j := jsiiProxy_MssqlJobStep{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStep",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStep",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -635,12 +635,12 @@ func NewMssqlJobStep(scope constructs.Construct, id *string, config *MssqlJobSte
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_step azurerm_mssql_job_step} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_step azurerm_mssql_job_step} Resource.
 func NewMssqlJobStep_Override(m MssqlJobStep, scope constructs.Construct, id *string, config *MssqlJobStepConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStep",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStep",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -856,7 +856,7 @@ func MssqlJobStep_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStep",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStep",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -891,7 +891,7 @@ func MssqlJobStep_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStep",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStep",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -910,7 +910,7 @@ func MssqlJobStep_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStep",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStep",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func MssqlJobStep_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStep",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStep",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -942,7 +942,7 @@ func MssqlJobStep_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStep",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStep",
 		"tfResourceType",
 		&returns,
 	)

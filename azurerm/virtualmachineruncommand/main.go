@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachineruncommand
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommand",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommand",
 		reflect.TypeOf((*VirtualMachineRunCommand)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -111,15 +111,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandConfig",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandConfig",
 		reflect.TypeOf((*VirtualMachineRunCommandConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandErrorBlobManagedIdentity",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandErrorBlobManagedIdentity",
 		reflect.TypeOf((*VirtualMachineRunCommandErrorBlobManagedIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference",
 		reflect.TypeOf((*VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandInstanceView",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandInstanceView",
 		reflect.TypeOf((*VirtualMachineRunCommandInstanceView)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandInstanceViewList",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandInstanceViewList",
 		reflect.TypeOf((*VirtualMachineRunCommandInstanceViewList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -182,7 +182,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandInstanceViewOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandInstanceViewOutputReference",
 		reflect.TypeOf((*VirtualMachineRunCommandInstanceViewOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -221,11 +221,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandOutputBlobManagedIdentity",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandOutputBlobManagedIdentity",
 		reflect.TypeOf((*VirtualMachineRunCommandOutputBlobManagedIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandOutputBlobManagedIdentityOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandOutputBlobManagedIdentityOutputReference",
 		reflect.TypeOf((*VirtualMachineRunCommandOutputBlobManagedIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -263,11 +263,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandParameter",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandParameter",
 		reflect.TypeOf((*VirtualMachineRunCommandParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandParameterList",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandParameterList",
 		reflect.TypeOf((*VirtualMachineRunCommandParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -289,7 +289,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandParameterOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandParameterOutputReference",
 		reflect.TypeOf((*VirtualMachineRunCommandParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -325,11 +325,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandProtectedParameter",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandProtectedParameter",
 		reflect.TypeOf((*VirtualMachineRunCommandProtectedParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandProtectedParameterList",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandProtectedParameterList",
 		reflect.TypeOf((*VirtualMachineRunCommandProtectedParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -351,7 +351,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandProtectedParameterOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandProtectedParameterOutputReference",
 		reflect.TypeOf((*VirtualMachineRunCommandProtectedParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -387,11 +387,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSource",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSource",
 		reflect.TypeOf((*VirtualMachineRunCommandSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSourceOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSourceOutputReference",
 		reflect.TypeOf((*VirtualMachineRunCommandSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commandId", GoGetter: "CommandId"},
@@ -436,11 +436,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSourceScriptUriManagedIdentity",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSourceScriptUriManagedIdentity",
 		reflect.TypeOf((*VirtualMachineRunCommandSourceScriptUriManagedIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReference",
 		reflect.TypeOf((*VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -478,11 +478,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandTimeouts",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandTimeouts",
 		reflect.TypeOf((*VirtualMachineRunCommandTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRunCommand.VirtualMachineRunCommandTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualMachineRunCommandTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

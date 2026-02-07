@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package attestationprovider
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.attestationProvider.AttestationProvider",
+		"@cdktn/provider-azurerm.attestationProvider.AttestationProvider",
 		reflect.TypeOf((*AttestationProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.attestationProvider.AttestationProviderConfig",
+		"@cdktn/provider-azurerm.attestationProvider.AttestationProviderConfig",
 		reflect.TypeOf((*AttestationProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.attestationProvider.AttestationProviderTimeouts",
+		"@cdktn/provider-azurerm.attestationProvider.AttestationProviderTimeouts",
 		reflect.TypeOf((*AttestationProviderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.attestationProvider.AttestationProviderTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.attestationProvider.AttestationProviderTimeoutsOutputReference",
 		reflect.TypeOf((*AttestationProviderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

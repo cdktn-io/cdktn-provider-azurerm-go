@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageaccountnetworkrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageaccountnetworkrules/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageaccountnetworkrules/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_network_rules azurerm_storage_account_network_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_network_rules azurerm_storage_account_network_rules}.
 type StorageAccountNetworkRulesA interface {
 	cdktf.TerraformResource
 	Bypass() *[]*string
@@ -476,7 +476,7 @@ func (j *jsiiProxy_StorageAccountNetworkRulesA) VirtualNetworkSubnetIdsInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_network_rules azurerm_storage_account_network_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_network_rules azurerm_storage_account_network_rules} Resource.
 func NewStorageAccountNetworkRulesA(scope constructs.Construct, id *string, config *StorageAccountNetworkRulesAConfig) StorageAccountNetworkRulesA {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewStorageAccountNetworkRulesA(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_StorageAccountNetworkRulesA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
+		"@cdktn/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewStorageAccountNetworkRulesA(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_network_rules azurerm_storage_account_network_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_network_rules azurerm_storage_account_network_rules} Resource.
 func NewStorageAccountNetworkRulesA_Override(s StorageAccountNetworkRulesA, scope constructs.Construct, id *string, config *StorageAccountNetworkRulesAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
+		"@cdktn/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -649,7 +649,7 @@ func StorageAccountNetworkRulesA_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
+		"@cdktn/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -684,7 +684,7 @@ func StorageAccountNetworkRulesA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
+		"@cdktn/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func StorageAccountNetworkRulesA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
+		"@cdktn/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func StorageAccountNetworkRulesA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
+		"@cdktn/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func StorageAccountNetworkRulesA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
+		"@cdktn/provider-azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesA",
 		"tfResourceType",
 		&returns,
 	)

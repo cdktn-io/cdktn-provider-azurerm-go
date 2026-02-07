@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmssqlfailovergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermmssqlfailovergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmssqlfailovergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_failover_group azurerm_mssql_failover_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_failover_group azurerm_mssql_failover_group}.
 type DataAzurermMssqlFailoverGroup interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermMssqlFailoverGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_failover_group azurerm_mssql_failover_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_failover_group azurerm_mssql_failover_group} Data Source.
 func NewDataAzurermMssqlFailoverGroup(scope constructs.Construct, id *string, config *DataAzurermMssqlFailoverGroupConfig) DataAzurermMssqlFailoverGroup {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewDataAzurermMssqlFailoverGroup(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAzurermMssqlFailoverGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
+		"@cdktn/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewDataAzurermMssqlFailoverGroup(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_failover_group azurerm_mssql_failover_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_failover_group azurerm_mssql_failover_group} Data Source.
 func NewDataAzurermMssqlFailoverGroup_Override(d DataAzurermMssqlFailoverGroup, scope constructs.Construct, id *string, config *DataAzurermMssqlFailoverGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
+		"@cdktn/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -508,7 +508,7 @@ func DataAzurermMssqlFailoverGroup_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
+		"@cdktn/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func DataAzurermMssqlFailoverGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
+		"@cdktn/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataAzurermMssqlFailoverGroup_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
+		"@cdktn/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func DataAzurermMssqlFailoverGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
+		"@cdktn/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func DataAzurermMssqlFailoverGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
+		"@cdktn/provider-azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroup",
 		"tfResourceType",
 		&returns,
 	)

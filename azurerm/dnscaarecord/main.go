@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnscaarecord
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecord",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecord",
 		reflect.TypeOf((*DnsCaaRecord)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecordConfig",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecordConfig",
 		reflect.TypeOf((*DnsCaaRecordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecord",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecord",
 		reflect.TypeOf((*DnsCaaRecordRecord)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecordList",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecordList",
 		reflect.TypeOf((*DnsCaaRecordRecordList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecordOutputReference",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecordOutputReference",
 		reflect.TypeOf((*DnsCaaRecordRecordOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecordTimeouts",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecordTimeouts",
 		reflect.TypeOf((*DnsCaaRecordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecordTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecordTimeoutsOutputReference",
 		reflect.TypeOf((*DnsCaaRecordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

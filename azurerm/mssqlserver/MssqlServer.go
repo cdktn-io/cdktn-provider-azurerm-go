@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqlserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server azurerm_mssql_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server azurerm_mssql_server}.
 type MssqlServer interface {
 	cdktf.TerraformResource
 	AdministratorLogin() *string
@@ -784,7 +784,7 @@ func (j *jsiiProxy_MssqlServer) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server azurerm_mssql_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server azurerm_mssql_server} Resource.
 func NewMssqlServer(scope constructs.Construct, id *string, config *MssqlServerConfig) MssqlServer {
 	_init_.Initialize()
 
@@ -794,7 +794,7 @@ func NewMssqlServer(scope constructs.Construct, id *string, config *MssqlServerC
 	j := jsiiProxy_MssqlServer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlServer.MssqlServer",
+		"@cdktn/provider-azurerm.mssqlServer.MssqlServer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -802,12 +802,12 @@ func NewMssqlServer(scope constructs.Construct, id *string, config *MssqlServerC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server azurerm_mssql_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server azurerm_mssql_server} Resource.
 func NewMssqlServer_Override(m MssqlServer, scope constructs.Construct, id *string, config *MssqlServerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlServer.MssqlServer",
+		"@cdktn/provider-azurerm.mssqlServer.MssqlServer",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1078,7 +1078,7 @@ func MssqlServer_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServer.MssqlServer",
+		"@cdktn/provider-azurerm.mssqlServer.MssqlServer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1113,7 +1113,7 @@ func MssqlServer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServer.MssqlServer",
+		"@cdktn/provider-azurerm.mssqlServer.MssqlServer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1132,7 +1132,7 @@ func MssqlServer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServer.MssqlServer",
+		"@cdktn/provider-azurerm.mssqlServer.MssqlServer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1151,7 +1151,7 @@ func MssqlServer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServer.MssqlServer",
+		"@cdktn/provider-azurerm.mssqlServer.MssqlServer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1164,7 +1164,7 @@ func MssqlServer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlServer.MssqlServer",
+		"@cdktn/provider-azurerm.mssqlServer.MssqlServer",
 		"tfResourceType",
 		&returns,
 	)

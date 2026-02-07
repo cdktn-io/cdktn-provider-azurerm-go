@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package consumptionbudgetmanagementgroup
@@ -7,11 +7,11 @@ package consumptionbudgetmanagementgroup
 type ConsumptionBudgetManagementGroupFilter struct {
 	// dimension block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/consumption_budget_management_group#dimension ConsumptionBudgetManagementGroup#dimension}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/consumption_budget_management_group#dimension ConsumptionBudgetManagementGroup#dimension}
 	Dimension interface{} `field:"optional" json:"dimension" yaml:"dimension"`
 	// tag block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/consumption_budget_management_group#tag ConsumptionBudgetManagementGroup#tag}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/consumption_budget_management_group#tag ConsumptionBudgetManagementGroup#tag}
 	Tag interface{} `field:"optional" json:"tag" yaml:"tag"`
 }
 

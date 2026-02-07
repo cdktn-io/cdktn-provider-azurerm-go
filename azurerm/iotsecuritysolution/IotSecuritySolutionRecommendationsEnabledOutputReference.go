@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotsecuritysolution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iotsecuritysolution/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iotsecuritysolution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -543,7 +543,7 @@ func NewIotSecuritySolutionRecommendationsEnabledOutputReference(terraformResour
 	j := jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -555,7 +555,7 @@ func NewIotSecuritySolutionRecommendationsEnabledOutputReference_Override(i IotS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

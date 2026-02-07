@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudappcosmosdbassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudappcosmosdbassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudappcosmosdbassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_app_cosmosdb_association azurerm_spring_cloud_app_cosmosdb_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_app_cosmosdb_association azurerm_spring_cloud_app_cosmosdb_association}.
 type SpringCloudAppCosmosdbAssociation interface {
 	cdktf.TerraformResource
 	ApiType() *string
@@ -569,7 +569,7 @@ func (j *jsiiProxy_SpringCloudAppCosmosdbAssociation) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_app_cosmosdb_association azurerm_spring_cloud_app_cosmosdb_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_app_cosmosdb_association azurerm_spring_cloud_app_cosmosdb_association} Resource.
 func NewSpringCloudAppCosmosdbAssociation(scope constructs.Construct, id *string, config *SpringCloudAppCosmosdbAssociationConfig) SpringCloudAppCosmosdbAssociation {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewSpringCloudAppCosmosdbAssociation(scope constructs.Construct, id *string
 	j := jsiiProxy_SpringCloudAppCosmosdbAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
+		"@cdktn/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +587,12 @@ func NewSpringCloudAppCosmosdbAssociation(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_app_cosmosdb_association azurerm_spring_cloud_app_cosmosdb_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_app_cosmosdb_association azurerm_spring_cloud_app_cosmosdb_association} Resource.
 func NewSpringCloudAppCosmosdbAssociation_Override(s SpringCloudAppCosmosdbAssociation, scope constructs.Construct, id *string, config *SpringCloudAppCosmosdbAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
+		"@cdktn/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -797,7 +797,7 @@ func SpringCloudAppCosmosdbAssociation_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
+		"@cdktn/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -832,7 +832,7 @@ func SpringCloudAppCosmosdbAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
+		"@cdktn/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -851,7 +851,7 @@ func SpringCloudAppCosmosdbAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
+		"@cdktn/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -870,7 +870,7 @@ func SpringCloudAppCosmosdbAssociation_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
+		"@cdktn/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -883,7 +883,7 @@ func SpringCloudAppCosmosdbAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
+		"@cdktn/provider-azurerm.springCloudAppCosmosdbAssociation.SpringCloudAppCosmosdbAssociation",
 		"tfResourceType",
 		&returns,
 	)

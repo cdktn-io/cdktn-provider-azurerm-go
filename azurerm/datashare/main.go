@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datashare
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataShare.DataShare",
+		"@cdktn/provider-azurerm.dataShare.DataShare",
 		reflect.TypeOf((*DataShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataShare.DataShareConfig",
+		"@cdktn/provider-azurerm.dataShare.DataShareConfig",
 		reflect.TypeOf((*DataShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataShare.DataShareSnapshotSchedule",
+		"@cdktn/provider-azurerm.dataShare.DataShareSnapshotSchedule",
 		reflect.TypeOf((*DataShareSnapshotSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataShare.DataShareSnapshotScheduleOutputReference",
+		"@cdktn/provider-azurerm.dataShare.DataShareSnapshotScheduleOutputReference",
 		reflect.TypeOf((*DataShareSnapshotScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataShare.DataShareTimeouts",
+		"@cdktn/provider-azurerm.dataShare.DataShareTimeouts",
 		reflect.TypeOf((*DataShareTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataShare.DataShareTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataShare.DataShareTimeoutsOutputReference",
 		reflect.TypeOf((*DataShareTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

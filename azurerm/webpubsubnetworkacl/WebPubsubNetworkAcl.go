@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubnetworkacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webpubsubnetworkacl/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubnetworkacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_network_acl azurerm_web_pubsub_network_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_network_acl azurerm_web_pubsub_network_acl}.
 type WebPubsubNetworkAcl interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -428,7 +428,7 @@ func (j *jsiiProxy_WebPubsubNetworkAcl) WebPubsubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_network_acl azurerm_web_pubsub_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_network_acl azurerm_web_pubsub_network_acl} Resource.
 func NewWebPubsubNetworkAcl(scope constructs.Construct, id *string, config *WebPubsubNetworkAclConfig) WebPubsubNetworkAcl {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewWebPubsubNetworkAcl(scope constructs.Construct, id *string, config *WebP
 	j := jsiiProxy_WebPubsubNetworkAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewWebPubsubNetworkAcl(scope constructs.Construct, id *string, config *WebP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_network_acl azurerm_web_pubsub_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_network_acl azurerm_web_pubsub_network_acl} Resource.
 func NewWebPubsubNetworkAcl_Override(w WebPubsubNetworkAcl, scope constructs.Construct, id *string, config *WebPubsubNetworkAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -568,7 +568,7 @@ func WebPubsubNetworkAcl_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -603,7 +603,7 @@ func WebPubsubNetworkAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -622,7 +622,7 @@ func WebPubsubNetworkAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func WebPubsubNetworkAcl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func WebPubsubNetworkAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
 		"tfResourceType",
 		&returns,
 	)

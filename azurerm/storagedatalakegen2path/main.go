@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagedatalakegen2path
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
 		reflect.TypeOf((*StorageDataLakeGen2Path)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "ace", GoGetter: "Ace"},
@@ -88,11 +88,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAce",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAce",
 		reflect.TypeOf((*StorageDataLakeGen2PathAce)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAceList",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAceList",
 		reflect.TypeOf((*StorageDataLakeGen2PathAceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -114,7 +114,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAceOutputReference",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAceOutputReference",
 		reflect.TypeOf((*StorageDataLakeGen2PathAceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -156,15 +156,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathConfig",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathConfig",
 		reflect.TypeOf((*StorageDataLakeGen2PathConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathTimeouts",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathTimeouts",
 		reflect.TypeOf((*StorageDataLakeGen2PathTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathTimeoutsOutputReference",
 		reflect.TypeOf((*StorageDataLakeGen2PathTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubcustomcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webpubsubcustomcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubcustomcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_custom_certificate azurerm_web_pubsub_custom_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_custom_certificate azurerm_web_pubsub_custom_certificate}.
 type WebPubsubCustomCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_WebPubsubCustomCertificate) WebPubsubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_custom_certificate azurerm_web_pubsub_custom_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_custom_certificate azurerm_web_pubsub_custom_certificate} Resource.
 func NewWebPubsubCustomCertificate(scope constructs.Construct, id *string, config *WebPubsubCustomCertificateConfig) WebPubsubCustomCertificate {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewWebPubsubCustomCertificate(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_WebPubsubCustomCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewWebPubsubCustomCertificate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_custom_certificate azurerm_web_pubsub_custom_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_custom_certificate azurerm_web_pubsub_custom_certificate} Resource.
 func NewWebPubsubCustomCertificate_Override(w WebPubsubCustomCertificate, scope constructs.Construct, id *string, config *WebPubsubCustomCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -565,7 +565,7 @@ func WebPubsubCustomCertificate_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func WebPubsubCustomCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func WebPubsubCustomCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func WebPubsubCustomCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func WebPubsubCustomCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
+		"@cdktn/provider-azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificate",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package frontdoorrulesengine
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
 		reflect.TypeOf((*FrontdoorRulesEngine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,19 +84,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineConfig",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineConfig",
 		reflect.TypeOf((*FrontdoorRulesEngineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRule",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRule",
 		reflect.TypeOf((*FrontdoorRulesEngineRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleAction",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleAction",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionOutputReference",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionOutputReference",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionRequestHeader",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionRequestHeader",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleActionRequestHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionRequestHeaderList",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionRequestHeaderList",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleActionRequestHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionRequestHeaderOutputReference",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionRequestHeaderOutputReference",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleActionRequestHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -203,11 +203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionResponseHeader",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionResponseHeader",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleActionResponseHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionResponseHeaderList",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionResponseHeaderList",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleActionResponseHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -229,7 +229,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionResponseHeaderOutputReference",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionResponseHeaderOutputReference",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleActionResponseHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -270,7 +270,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleList",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleList",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -292,11 +292,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleMatchCondition",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleMatchCondition",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleMatchCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleMatchConditionList",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleMatchConditionList",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleMatchConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -318,7 +318,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleMatchConditionOutputReference",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleMatchConditionOutputReference",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleMatchConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -367,7 +367,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleOutputReference",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleOutputReference",
 		reflect.TypeOf((*FrontdoorRulesEngineRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -411,11 +411,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineTimeouts",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineTimeouts",
 		reflect.TypeOf((*FrontdoorRulesEngineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngineTimeoutsOutputReference",
 		reflect.TypeOf((*FrontdoorRulesEngineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

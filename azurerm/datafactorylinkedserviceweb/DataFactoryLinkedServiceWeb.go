@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorylinkedserviceweb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorylinkedserviceweb/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedserviceweb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web}.
 type DataFactoryLinkedServiceWeb interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -594,7 +594,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceWeb) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web} Resource.
 func NewDataFactoryLinkedServiceWeb(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceWebConfig) DataFactoryLinkedServiceWeb {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewDataFactoryLinkedServiceWeb(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataFactoryLinkedServiceWeb{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -612,12 +612,12 @@ func NewDataFactoryLinkedServiceWeb(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web} Resource.
 func NewDataFactoryLinkedServiceWeb_Override(d DataFactoryLinkedServiceWeb, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceWebConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -833,7 +833,7 @@ func DataFactoryLinkedServiceWeb_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -868,7 +868,7 @@ func DataFactoryLinkedServiceWeb_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -887,7 +887,7 @@ func DataFactoryLinkedServiceWeb_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -906,7 +906,7 @@ func DataFactoryLinkedServiceWeb_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -919,7 +919,7 @@ func DataFactoryLinkedServiceWeb_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceWeb.DataFactoryLinkedServiceWeb",
 		"tfResourceType",
 		&returns,
 	)

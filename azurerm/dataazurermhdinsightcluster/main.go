@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermhdinsightcluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightCluster",
+		"@cdktn/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightCluster",
 		reflect.TypeOf((*DataAzurermHdinsightCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterConfig",
+		"@cdktn/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterConfig",
 		reflect.TypeOf((*DataAzurermHdinsightClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterGateway",
+		"@cdktn/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterGateway",
 		reflect.TypeOf((*DataAzurermHdinsightClusterGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterGatewayList",
+		"@cdktn/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterGatewayList",
 		reflect.TypeOf((*DataAzurermHdinsightClusterGatewayList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterGatewayOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterGatewayOutputReference",
 		reflect.TypeOf((*DataAzurermHdinsightClusterGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterTimeouts",
 		reflect.TypeOf((*DataAzurermHdinsightClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermHdinsightCluster.DataAzurermHdinsightClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermHdinsightClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

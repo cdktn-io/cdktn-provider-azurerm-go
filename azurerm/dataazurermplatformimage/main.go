@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermplatformimage
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
 		reflect.TypeOf((*DataAzurermPlatformImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImageConfig",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImageConfig",
 		reflect.TypeOf((*DataAzurermPlatformImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImageTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImageTimeouts",
 		reflect.TypeOf((*DataAzurermPlatformImageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImageTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermPlatformImageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package oracleresourceanchor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/oracleresourceanchor/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/oracleresourceanchor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor}.
 type OracleResourceAnchor interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_OracleResourceAnchor) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor} Resource.
 func NewOracleResourceAnchor(scope constructs.Construct, id *string, config *OracleResourceAnchorConfig) OracleResourceAnchor {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewOracleResourceAnchor(scope constructs.Construct, id *string, config *Ora
 	j := jsiiProxy_OracleResourceAnchor{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewOracleResourceAnchor(scope constructs.Construct, id *string, config *Ora
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/oracle_resource_anchor azurerm_oracle_resource_anchor} Resource.
 func NewOracleResourceAnchor_Override(o OracleResourceAnchor, scope constructs.Construct, id *string, config *OracleResourceAnchorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -577,7 +577,7 @@ func OracleResourceAnchor_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func OracleResourceAnchor_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func OracleResourceAnchor_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func OracleResourceAnchor_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func OracleResourceAnchor_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package roleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/roleassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/roleassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_assignment azurerm_role_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_assignment azurerm_role_assignment}.
 type RoleAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -596,7 +596,7 @@ func (j *jsiiProxy_RoleAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_assignment azurerm_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_assignment azurerm_role_assignment} Resource.
 func NewRoleAssignment(scope constructs.Construct, id *string, config *RoleAssignmentConfig) RoleAssignment {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewRoleAssignment(scope constructs.Construct, id *string, config *RoleAssig
 	j := jsiiProxy_RoleAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.roleAssignment.RoleAssignment",
+		"@cdktn/provider-azurerm.roleAssignment.RoleAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -614,12 +614,12 @@ func NewRoleAssignment(scope constructs.Construct, id *string, config *RoleAssig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_assignment azurerm_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_assignment azurerm_role_assignment} Resource.
 func NewRoleAssignment_Override(r RoleAssignment, scope constructs.Construct, id *string, config *RoleAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.roleAssignment.RoleAssignment",
+		"@cdktn/provider-azurerm.roleAssignment.RoleAssignment",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -835,7 +835,7 @@ func RoleAssignment_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleAssignment.RoleAssignment",
+		"@cdktn/provider-azurerm.roleAssignment.RoleAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -870,7 +870,7 @@ func RoleAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleAssignment.RoleAssignment",
+		"@cdktn/provider-azurerm.roleAssignment.RoleAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -889,7 +889,7 @@ func RoleAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleAssignment.RoleAssignment",
+		"@cdktn/provider-azurerm.roleAssignment.RoleAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +908,7 @@ func RoleAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleAssignment.RoleAssignment",
+		"@cdktn/provider-azurerm.roleAssignment.RoleAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func RoleAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.roleAssignment.RoleAssignment",
+		"@cdktn/provider-azurerm.roleAssignment.RoleAssignment",
 		"tfResourceType",
 		&returns,
 	)

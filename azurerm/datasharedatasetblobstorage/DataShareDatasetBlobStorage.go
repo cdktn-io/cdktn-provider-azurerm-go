@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datasharedatasetblobstorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datasharedatasetblobstorage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datasharedatasetblobstorage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage}.
 type DataShareDatasetBlobStorage interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_DataShareDatasetBlobStorage) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage} Resource.
 func NewDataShareDatasetBlobStorage(scope constructs.Construct, id *string, config *DataShareDatasetBlobStorageConfig) DataShareDatasetBlobStorage {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewDataShareDatasetBlobStorage(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataShareDatasetBlobStorage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewDataShareDatasetBlobStorage(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage} Resource.
 func NewDataShareDatasetBlobStorage_Override(d DataShareDatasetBlobStorage, scope constructs.Construct, id *string, config *DataShareDatasetBlobStorageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -658,7 +658,7 @@ func DataShareDatasetBlobStorage_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func DataShareDatasetBlobStorage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func DataShareDatasetBlobStorage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func DataShareDatasetBlobStorage_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func DataShareDatasetBlobStorage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
+		"@cdktn/provider-azurerm.dataShareDatasetBlobStorage.DataShareDatasetBlobStorage",
 		"tfResourceType",
 		&returns,
 	)

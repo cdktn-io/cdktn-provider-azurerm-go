@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationinsightsapikey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
 		reflect.TypeOf((*ApplicationInsightsApiKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKeyConfig",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKeyConfig",
 		reflect.TypeOf((*ApplicationInsightsApiKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKeyTimeouts",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKeyTimeouts",
 		reflect.TypeOf((*ApplicationInsightsApiKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKeyTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationInsightsApiKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

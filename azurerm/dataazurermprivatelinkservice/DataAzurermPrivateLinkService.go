@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermprivatelinkservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermprivatelinkservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermprivatelinkservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/private_link_service azurerm_private_link_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/private_link_service azurerm_private_link_service}.
 type DataAzurermPrivateLinkService interface {
 	cdktf.TerraformDataSource
 	Alias() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAzurermPrivateLinkService) VisibilitySubscriptionIds() *[
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/private_link_service azurerm_private_link_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/private_link_service azurerm_private_link_service} Data Source.
 func NewDataAzurermPrivateLinkService(scope constructs.Construct, id *string, config *DataAzurermPrivateLinkServiceConfig) DataAzurermPrivateLinkService {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewDataAzurermPrivateLinkService(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAzurermPrivateLinkService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
+		"@cdktn/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -441,12 +441,12 @@ func NewDataAzurermPrivateLinkService(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/private_link_service azurerm_private_link_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/private_link_service azurerm_private_link_service} Data Source.
 func NewDataAzurermPrivateLinkService_Override(d DataAzurermPrivateLinkService, scope constructs.Construct, id *string, config *DataAzurermPrivateLinkServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
+		"@cdktn/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -541,7 +541,7 @@ func DataAzurermPrivateLinkService_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
+		"@cdktn/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func DataAzurermPrivateLinkService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
+		"@cdktn/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAzurermPrivateLinkService_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
+		"@cdktn/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func DataAzurermPrivateLinkService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
+		"@cdktn/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func DataAzurermPrivateLinkService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
+		"@cdktn/provider-azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkService",
 		"tfResourceType",
 		&returns,
 	)

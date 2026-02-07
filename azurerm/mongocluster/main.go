@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mongocluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoCluster.MongoCluster",
+		"@cdktn/provider-azurerm.mongoCluster.MongoCluster",
 		reflect.TypeOf((*MongoCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -137,15 +137,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterConfig",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterConfig",
 		reflect.TypeOf((*MongoClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterConnectionStrings",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterConnectionStrings",
 		reflect.TypeOf((*MongoClusterConnectionStrings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterConnectionStringsList",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterConnectionStringsList",
 		reflect.TypeOf((*MongoClusterConnectionStringsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterConnectionStringsOutputReference",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterConnectionStringsOutputReference",
 		reflect.TypeOf((*MongoClusterConnectionStringsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -201,11 +201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterCustomerManagedKey",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterCustomerManagedKey",
 		reflect.TypeOf((*MongoClusterCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*MongoClusterCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -241,11 +241,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterIdentity",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterIdentity",
 		reflect.TypeOf((*MongoClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterIdentityOutputReference",
 		reflect.TypeOf((*MongoClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -281,11 +281,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterRestore",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterRestore",
 		reflect.TypeOf((*MongoClusterRestore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterRestoreOutputReference",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterRestoreOutputReference",
 		reflect.TypeOf((*MongoClusterRestoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -321,11 +321,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterTimeouts",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterTimeouts",
 		reflect.TypeOf((*MongoClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoCluster.MongoClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mongoCluster.MongoClusterTimeoutsOutputReference",
 		reflect.TypeOf((*MongoClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

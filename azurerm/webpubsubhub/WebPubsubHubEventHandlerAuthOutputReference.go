@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webpubsubhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewWebPubsubHubEventHandlerAuthOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_WebPubsubHubEventHandlerAuthOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerAuthOutputReference",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerAuthOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewWebPubsubHubEventHandlerAuthOutputReference_Override(w WebPubsubHubEvent
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerAuthOutputReference",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerAuthOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

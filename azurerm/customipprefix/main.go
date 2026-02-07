@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package customipprefix
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefix",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefix",
 		reflect.TypeOf((*CustomIpPrefix)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefixConfig",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefixConfig",
 		reflect.TypeOf((*CustomIpPrefixConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefixTimeouts",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefixTimeouts",
 		reflect.TypeOf((*CustomIpPrefixTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customIpPrefix.CustomIpPrefixTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.customIpPrefix.CustomIpPrefixTimeoutsOutputReference",
 		reflect.TypeOf((*CustomIpPrefixTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

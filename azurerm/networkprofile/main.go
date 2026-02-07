@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkprofile
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfile",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfile",
 		reflect.TypeOf((*NetworkProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,19 +83,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfileConfig",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfileConfig",
 		reflect.TypeOf((*NetworkProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterface",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterface",
 		reflect.TypeOf((*NetworkProfileContainerNetworkInterface)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceIpConfiguration",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceIpConfiguration",
 		reflect.TypeOf((*NetworkProfileContainerNetworkInterfaceIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceIpConfigurationList",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceIpConfigurationList",
 		reflect.TypeOf((*NetworkProfileContainerNetworkInterfaceIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceIpConfigurationOutputReference",
 		reflect.TypeOf((*NetworkProfileContainerNetworkInterfaceIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,7 +153,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceOutputReference",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceOutputReference",
 		reflect.TypeOf((*NetworkProfileContainerNetworkInterfaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -190,11 +190,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfileTimeouts",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfileTimeouts",
 		reflect.TypeOf((*NetworkProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfileTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfileTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

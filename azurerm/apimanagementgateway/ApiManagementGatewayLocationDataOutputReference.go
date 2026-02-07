@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewApiManagementGatewayLocationDataOutputReference(terraformResource cdktf.
 	j := jsiiProxy_ApiManagementGatewayLocationDataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementGateway.ApiManagementGatewayLocationDataOutputReference",
+		"@cdktn/provider-azurerm.apiManagementGateway.ApiManagementGatewayLocationDataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewApiManagementGatewayLocationDataOutputReference_Override(a ApiManagement
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementGateway.ApiManagementGatewayLocationDataOutputReference",
+		"@cdktn/provider-azurerm.apiManagementGateway.ApiManagementGatewayLocationDataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

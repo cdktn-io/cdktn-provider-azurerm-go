@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package trafficmanagerprofile
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
 		reflect.TypeOf((*TrafficManagerProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileConfig",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileConfig",
 		reflect.TypeOf((*TrafficManagerProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileDnsConfig",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileDnsConfig",
 		reflect.TypeOf((*TrafficManagerProfileDnsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileDnsConfigOutputReference",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileDnsConfigOutputReference",
 		reflect.TypeOf((*TrafficManagerProfileDnsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,15 +139,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfig",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfig",
 		reflect.TypeOf((*TrafficManagerProfileMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigCustomHeader",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigCustomHeader",
 		reflect.TypeOf((*TrafficManagerProfileMonitorConfigCustomHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigCustomHeaderList",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigCustomHeaderList",
 		reflect.TypeOf((*TrafficManagerProfileMonitorConfigCustomHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -169,7 +169,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigCustomHeaderOutputReference",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigCustomHeaderOutputReference",
 		reflect.TypeOf((*TrafficManagerProfileMonitorConfigCustomHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,7 +205,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigOutputReference",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigOutputReference",
 		reflect.TypeOf((*TrafficManagerProfileMonitorConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -260,11 +260,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileTimeouts",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileTimeouts",
 		reflect.TypeOf((*TrafficManagerProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfileTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfileTimeoutsOutputReference",
 		reflect.TypeOf((*TrafficManagerProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedredis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/managedredis/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managedredis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewManagedRedisDefaultDatabaseModuleList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_ManagedRedisDefaultDatabaseModuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedisDefaultDatabaseModuleList",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedisDefaultDatabaseModuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewManagedRedisDefaultDatabaseModuleList_Override(m ManagedRedisDefaultData
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedisDefaultDatabaseModuleList",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedisDefaultDatabaseModuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

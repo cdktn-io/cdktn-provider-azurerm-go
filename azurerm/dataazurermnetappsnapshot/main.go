@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnetappsnapshot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetappSnapshot.DataAzurermNetappSnapshot",
+		"@cdktn/provider-azurerm.dataAzurermNetappSnapshot.DataAzurermNetappSnapshot",
 		reflect.TypeOf((*DataAzurermNetappSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetappSnapshot.DataAzurermNetappSnapshotConfig",
+		"@cdktn/provider-azurerm.dataAzurermNetappSnapshot.DataAzurermNetappSnapshotConfig",
 		reflect.TypeOf((*DataAzurermNetappSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetappSnapshot.DataAzurermNetappSnapshotTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermNetappSnapshot.DataAzurermNetappSnapshotTimeouts",
 		reflect.TypeOf((*DataAzurermNetappSnapshotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetappSnapshot.DataAzurermNetappSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetappSnapshot.DataAzurermNetappSnapshotTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermNetappSnapshotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

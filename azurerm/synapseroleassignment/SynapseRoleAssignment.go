@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapseroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/synapseroleassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/synapseroleassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment}.
 type SynapseRoleAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -452,7 +452,7 @@ func (j *jsiiProxy_SynapseRoleAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment} Resource.
 func NewSynapseRoleAssignment(scope constructs.Construct, id *string, config *SynapseRoleAssignmentConfig) SynapseRoleAssignment {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewSynapseRoleAssignment(scope constructs.Construct, id *string, config *Sy
 	j := jsiiProxy_SynapseRoleAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewSynapseRoleAssignment(scope constructs.Construct, id *string, config *Sy
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment} Resource.
 func NewSynapseRoleAssignment_Override(s SynapseRoleAssignment, scope constructs.Construct, id *string, config *SynapseRoleAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -625,7 +625,7 @@ func SynapseRoleAssignment_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func SynapseRoleAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func SynapseRoleAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func SynapseRoleAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func SynapseRoleAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
 		"tfResourceType",
 		&returns,
 	)

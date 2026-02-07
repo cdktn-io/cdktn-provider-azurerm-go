@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustocosmosdbdataconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
 		reflect.TypeOf((*KustoCosmosdbDataConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnectionConfig",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnectionConfig",
 		reflect.TypeOf((*KustoCosmosdbDataConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnectionTimeouts",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnectionTimeouts",
 		reflect.TypeOf((*KustoCosmosdbDataConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*KustoCosmosdbDataConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

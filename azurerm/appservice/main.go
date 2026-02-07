@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppService",
+		"@cdktn/provider-azurerm.appService.AppService",
 		reflect.TypeOf((*AppService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -141,15 +141,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettings",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettings",
 		reflect.TypeOf((*AppServiceAuthSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsActiveDirectory",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsActiveDirectory",
 		reflect.TypeOf((*AppServiceAuthSettingsActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsActiveDirectoryOutputReference",
 		reflect.TypeOf((*AppServiceAuthSettingsActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -189,11 +189,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsFacebook",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsFacebook",
 		reflect.TypeOf((*AppServiceAuthSettingsFacebook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsFacebookOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsFacebookOutputReference",
 		reflect.TypeOf((*AppServiceAuthSettingsFacebookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appId", GoGetter: "AppId"},
@@ -232,11 +232,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsGoogle",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsGoogle",
 		reflect.TypeOf((*AppServiceAuthSettingsGoogle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsGoogleOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsGoogleOutputReference",
 		reflect.TypeOf((*AppServiceAuthSettingsGoogleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -275,11 +275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsMicrosoft",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsMicrosoft",
 		reflect.TypeOf((*AppServiceAuthSettingsMicrosoft)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsMicrosoftOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsMicrosoftOutputReference",
 		reflect.TypeOf((*AppServiceAuthSettingsMicrosoftOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -318,7 +318,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsOutputReference",
 		reflect.TypeOf((*AppServiceAuthSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -396,11 +396,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsTwitter",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsTwitter",
 		reflect.TypeOf((*AppServiceAuthSettingsTwitter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsTwitterOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsTwitterOutputReference",
 		reflect.TypeOf((*AppServiceAuthSettingsTwitterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -436,11 +436,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceBackup",
+		"@cdktn/provider-azurerm.appService.AppServiceBackup",
 		reflect.TypeOf((*AppServiceBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceBackupOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceBackupOutputReference",
 		reflect.TypeOf((*AppServiceBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -482,11 +482,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceBackupSchedule",
+		"@cdktn/provider-azurerm.appService.AppServiceBackupSchedule",
 		reflect.TypeOf((*AppServiceBackupSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceBackupScheduleOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceBackupScheduleOutputReference",
 		reflect.TypeOf((*AppServiceBackupScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -531,15 +531,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceConfig",
+		"@cdktn/provider-azurerm.appService.AppServiceConfig",
 		reflect.TypeOf((*AppServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceConnectionString",
+		"@cdktn/provider-azurerm.appService.AppServiceConnectionString",
 		reflect.TypeOf((*AppServiceConnectionString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceConnectionStringList",
+		"@cdktn/provider-azurerm.appService.AppServiceConnectionStringList",
 		reflect.TypeOf((*AppServiceConnectionStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -561,7 +561,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceConnectionStringOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceConnectionStringOutputReference",
 		reflect.TypeOf((*AppServiceConnectionStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -599,11 +599,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceIdentity",
+		"@cdktn/provider-azurerm.appService.AppServiceIdentity",
 		reflect.TypeOf((*AppServiceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceIdentityOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceIdentityOutputReference",
 		reflect.TypeOf((*AppServiceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -642,19 +642,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceLogs",
+		"@cdktn/provider-azurerm.appService.AppServiceLogs",
 		reflect.TypeOf((*AppServiceLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsApplicationLogs",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsApplicationLogs",
 		reflect.TypeOf((*AppServiceLogsApplicationLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsApplicationLogsAzureBlobStorage",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsApplicationLogsAzureBlobStorage",
 		reflect.TypeOf((*AppServiceLogsApplicationLogsAzureBlobStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsApplicationLogsAzureBlobStorageOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsApplicationLogsAzureBlobStorageOutputReference",
 		reflect.TypeOf((*AppServiceLogsApplicationLogsAzureBlobStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -692,7 +692,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsApplicationLogsOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsApplicationLogsOutputReference",
 		reflect.TypeOf((*AppServiceLogsApplicationLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureBlobStorage", GoGetter: "AzureBlobStorage"},
@@ -731,15 +731,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsHttpLogs",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsHttpLogs",
 		reflect.TypeOf((*AppServiceLogsHttpLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsHttpLogsAzureBlobStorage",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsHttpLogsAzureBlobStorage",
 		reflect.TypeOf((*AppServiceLogsHttpLogsAzureBlobStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsHttpLogsAzureBlobStorageOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsHttpLogsAzureBlobStorageOutputReference",
 		reflect.TypeOf((*AppServiceLogsHttpLogsAzureBlobStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -775,11 +775,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsHttpLogsFileSystem",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsHttpLogsFileSystem",
 		reflect.TypeOf((*AppServiceLogsHttpLogsFileSystem)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsHttpLogsFileSystemOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsHttpLogsFileSystemOutputReference",
 		reflect.TypeOf((*AppServiceLogsHttpLogsFileSystemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -815,7 +815,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsHttpLogsOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsHttpLogsOutputReference",
 		reflect.TypeOf((*AppServiceLogsHttpLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureBlobStorage", GoGetter: "AzureBlobStorage"},
@@ -855,7 +855,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceLogsOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceLogsOutputReference",
 		reflect.TypeOf((*AppServiceLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationLogs", GoGetter: "ApplicationLogs"},
@@ -901,15 +901,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfig",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfig",
 		reflect.TypeOf((*AppServiceSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigCors",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigCors",
 		reflect.TypeOf((*AppServiceSiteConfigCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigCorsOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigCorsOutputReference",
 		reflect.TypeOf((*AppServiceSiteConfigCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
@@ -946,15 +946,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigIpRestriction",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigIpRestriction",
 		reflect.TypeOf((*AppServiceSiteConfigIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionHeaders",
 		reflect.TypeOf((*AppServiceSiteConfigIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionHeadersList",
 		reflect.TypeOf((*AppServiceSiteConfigIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -976,7 +976,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*AppServiceSiteConfigIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1020,7 +1020,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionList",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionList",
 		reflect.TypeOf((*AppServiceSiteConfigIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1042,7 +1042,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigIpRestrictionOutputReference",
 		reflect.TypeOf((*AppServiceSiteConfigIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1096,7 +1096,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigOutputReference",
 		reflect.TypeOf((*AppServiceSiteConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acrUseManagedIdentityCredentials", GoGetter: "AcrUseManagedIdentityCredentials"},
@@ -1224,15 +1224,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigScmIpRestriction",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigScmIpRestriction",
 		reflect.TypeOf((*AppServiceSiteConfigScmIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionHeaders",
 		reflect.TypeOf((*AppServiceSiteConfigScmIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionHeadersList",
 		reflect.TypeOf((*AppServiceSiteConfigScmIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1254,7 +1254,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*AppServiceSiteConfigScmIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1298,7 +1298,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionList",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionList",
 		reflect.TypeOf((*AppServiceSiteConfigScmIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1320,7 +1320,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteConfigScmIpRestrictionOutputReference",
 		reflect.TypeOf((*AppServiceSiteConfigScmIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1374,11 +1374,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteCredential",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteCredential",
 		reflect.TypeOf((*AppServiceSiteCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteCredentialList",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteCredentialList",
 		reflect.TypeOf((*AppServiceSiteCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1399,7 +1399,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSiteCredentialOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceSiteCredentialOutputReference",
 		reflect.TypeOf((*AppServiceSiteCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1433,11 +1433,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceSourceControl",
+		"@cdktn/provider-azurerm.appService.AppServiceSourceControl",
 		reflect.TypeOf((*AppServiceSourceControl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceSourceControlOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceSourceControlOutputReference",
 		reflect.TypeOf((*AppServiceSourceControlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branch", GoGetter: "Branch"},
@@ -1484,11 +1484,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceStorageAccount",
+		"@cdktn/provider-azurerm.appService.AppServiceStorageAccount",
 		reflect.TypeOf((*AppServiceStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceStorageAccountList",
+		"@cdktn/provider-azurerm.appService.AppServiceStorageAccountList",
 		reflect.TypeOf((*AppServiceStorageAccountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1510,7 +1510,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceStorageAccountOutputReference",
 		reflect.TypeOf((*AppServiceStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
@@ -1555,11 +1555,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appService.AppServiceTimeouts",
+		"@cdktn/provider-azurerm.appService.AppServiceTimeouts",
 		reflect.TypeOf((*AppServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appService.AppServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceTimeoutsOutputReference",
 		reflect.TypeOf((*AppServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

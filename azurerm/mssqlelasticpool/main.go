@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlelasticpool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
 		reflect.TypeOf((*MssqlElasticpool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpoolConfig",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpoolConfig",
 		reflect.TypeOf((*MssqlElasticpoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpoolPerDatabaseSettings",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpoolPerDatabaseSettings",
 		reflect.TypeOf((*MssqlElasticpoolPerDatabaseSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpoolPerDatabaseSettingsOutputReference",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpoolPerDatabaseSettingsOutputReference",
 		reflect.TypeOf((*MssqlElasticpoolPerDatabaseSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpoolSku",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpoolSku",
 		reflect.TypeOf((*MssqlElasticpoolSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpoolSkuOutputReference",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpoolSkuOutputReference",
 		reflect.TypeOf((*MssqlElasticpoolSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpoolTimeouts",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpoolTimeouts",
 		reflect.TypeOf((*MssqlElasticpoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpoolTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpoolTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlElasticpoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultcertificateissuer
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
 		reflect.TypeOf((*KeyVaultCertificateIssuer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -89,11 +89,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerAdmin",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerAdmin",
 		reflect.TypeOf((*KeyVaultCertificateIssuerAdmin)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerAdminList",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerAdminList",
 		reflect.TypeOf((*KeyVaultCertificateIssuerAdminList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerAdminOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerAdminOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateIssuerAdminOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,15 +158,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerConfig",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerConfig",
 		reflect.TypeOf((*KeyVaultCertificateIssuerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerTimeouts",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerTimeouts",
 		reflect.TypeOf((*KeyVaultCertificateIssuerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuerTimeoutsOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateIssuerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermstoragesync
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageSync.DataAzurermStorageSync",
+		"@cdktn/provider-azurerm.dataAzurermStorageSync.DataAzurermStorageSync",
 		reflect.TypeOf((*DataAzurermStorageSync)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,15 +69,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageSync.DataAzurermStorageSyncConfig",
+		"@cdktn/provider-azurerm.dataAzurermStorageSync.DataAzurermStorageSyncConfig",
 		reflect.TypeOf((*DataAzurermStorageSyncConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageSync.DataAzurermStorageSyncTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermStorageSync.DataAzurermStorageSyncTimeouts",
 		reflect.TypeOf((*DataAzurermStorageSyncTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageSync.DataAzurermStorageSyncTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStorageSync.DataAzurermStorageSyncTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermStorageSyncTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

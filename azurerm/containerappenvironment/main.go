@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerappenvironment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironment",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironment",
 		reflect.TypeOf((*ContainerAppEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -120,15 +120,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentConfig",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentConfig",
 		reflect.TypeOf((*ContainerAppEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentIdentity",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentIdentity",
 		reflect.TypeOf((*ContainerAppEnvironmentIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentIdentityOutputReference",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentIdentityOutputReference",
 		reflect.TypeOf((*ContainerAppEnvironmentIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -167,11 +167,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentTimeouts",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentTimeouts",
 		reflect.TypeOf((*ContainerAppEnvironmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerAppEnvironmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -215,11 +215,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentWorkloadProfile",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentWorkloadProfile",
 		reflect.TypeOf((*ContainerAppEnvironmentWorkloadProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentWorkloadProfileList",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentWorkloadProfileList",
 		reflect.TypeOf((*ContainerAppEnvironmentWorkloadProfileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -241,7 +241,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentWorkloadProfileOutputReference",
+		"@cdktn/provider-azurerm.containerAppEnvironment.ContainerAppEnvironmentWorkloadProfileOutputReference",
 		reflect.TypeOf((*ContainerAppEnvironmentWorkloadProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitorscheduledqueryrulesalertv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitorscheduledqueryrulesalertv2/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitorscheduledqueryrulesalertv2/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_alert_v2 azurerm_monitor_scheduled_query_rules_alert_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_alert_v2 azurerm_monitor_scheduled_query_rules_alert_v2}.
 type MonitorScheduledQueryRulesAlertV2 interface {
 	cdktf.TerraformResource
 	Action() MonitorScheduledQueryRulesAlertV2ActionOutputReference
@@ -839,7 +839,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2) WorkspaceAlertsStorageEnab
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_alert_v2 azurerm_monitor_scheduled_query_rules_alert_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_alert_v2 azurerm_monitor_scheduled_query_rules_alert_v2} Resource.
 func NewMonitorScheduledQueryRulesAlertV2(scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesAlertV2Config) MonitorScheduledQueryRulesAlertV2 {
 	_init_.Initialize()
 
@@ -849,7 +849,7 @@ func NewMonitorScheduledQueryRulesAlertV2(scope constructs.Construct, id *string
 	j := jsiiProxy_MonitorScheduledQueryRulesAlertV2{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -857,12 +857,12 @@ func NewMonitorScheduledQueryRulesAlertV2(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_alert_v2 azurerm_monitor_scheduled_query_rules_alert_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_alert_v2 azurerm_monitor_scheduled_query_rules_alert_v2} Resource.
 func NewMonitorScheduledQueryRulesAlertV2_Override(m MonitorScheduledQueryRulesAlertV2, scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesAlertV2Config) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1144,7 +1144,7 @@ func MonitorScheduledQueryRulesAlertV2_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1179,7 +1179,7 @@ func MonitorScheduledQueryRulesAlertV2_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1198,7 +1198,7 @@ func MonitorScheduledQueryRulesAlertV2_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1217,7 +1217,7 @@ func MonitorScheduledQueryRulesAlertV2_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1230,7 +1230,7 @@ func MonitorScheduledQueryRulesAlertV2_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlertV2.MonitorScheduledQueryRulesAlertV2",
 		"tfResourceType",
 		&returns,
 	)

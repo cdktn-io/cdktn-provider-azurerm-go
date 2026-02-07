@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationvariableint
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationVariableInt.AutomationVariableInt",
+		"@cdktn/provider-azurerm.automationVariableInt.AutomationVariableInt",
 		reflect.TypeOf((*AutomationVariableInt)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationVariableInt.AutomationVariableIntConfig",
+		"@cdktn/provider-azurerm.automationVariableInt.AutomationVariableIntConfig",
 		reflect.TypeOf((*AutomationVariableIntConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationVariableInt.AutomationVariableIntTimeouts",
+		"@cdktn/provider-azurerm.automationVariableInt.AutomationVariableIntTimeouts",
 		reflect.TypeOf((*AutomationVariableIntTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationVariableInt.AutomationVariableIntTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationVariableInt.AutomationVariableIntTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationVariableIntTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

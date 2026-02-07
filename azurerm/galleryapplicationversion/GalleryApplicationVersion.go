@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package galleryapplicationversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/galleryapplicationversion/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/galleryapplicationversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/gallery_application_version azurerm_gallery_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/gallery_application_version azurerm_gallery_application_version}.
 type GalleryApplicationVersion interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -616,7 +616,7 @@ func (j *jsiiProxy_GalleryApplicationVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/gallery_application_version azurerm_gallery_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/gallery_application_version azurerm_gallery_application_version} Resource.
 func NewGalleryApplicationVersion(scope constructs.Construct, id *string, config *GalleryApplicationVersionConfig) GalleryApplicationVersion {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewGalleryApplicationVersion(scope constructs.Construct, id *string, config
 	j := jsiiProxy_GalleryApplicationVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -634,12 +634,12 @@ func NewGalleryApplicationVersion(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/gallery_application_version azurerm_gallery_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/gallery_application_version azurerm_gallery_application_version} Resource.
 func NewGalleryApplicationVersion_Override(g GalleryApplicationVersion, scope constructs.Construct, id *string, config *GalleryApplicationVersionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -833,7 +833,7 @@ func GalleryApplicationVersion_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -868,7 +868,7 @@ func GalleryApplicationVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -887,7 +887,7 @@ func GalleryApplicationVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -906,7 +906,7 @@ func GalleryApplicationVersion_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -919,7 +919,7 @@ func GalleryApplicationVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappAccount.NetappAccount",
+		"@cdktn/provider-azurerm.netappAccount.NetappAccount",
 		reflect.TypeOf((*NetappAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -87,11 +87,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappAccount.NetappAccountActiveDirectory",
+		"@cdktn/provider-azurerm.netappAccount.NetappAccountActiveDirectory",
 		reflect.TypeOf((*NetappAccountActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappAccount.NetappAccountActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.netappAccount.NetappAccountActiveDirectoryOutputReference",
 		reflect.TypeOf((*NetappAccountActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aesEncryptionEnabled", GoGetter: "AesEncryptionEnabled"},
@@ -160,15 +160,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappAccount.NetappAccountConfig",
+		"@cdktn/provider-azurerm.netappAccount.NetappAccountConfig",
 		reflect.TypeOf((*NetappAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappAccount.NetappAccountIdentity",
+		"@cdktn/provider-azurerm.netappAccount.NetappAccountIdentity",
 		reflect.TypeOf((*NetappAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappAccount.NetappAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.netappAccount.NetappAccountIdentityOutputReference",
 		reflect.TypeOf((*NetappAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -207,11 +207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappAccount.NetappAccountTimeouts",
+		"@cdktn/provider-azurerm.netappAccount.NetappAccountTimeouts",
 		reflect.TypeOf((*NetappAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappAccount.NetappAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.netappAccount.NetappAccountTimeoutsOutputReference",
 		reflect.TypeOf((*NetappAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

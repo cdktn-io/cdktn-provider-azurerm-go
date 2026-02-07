@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelwatchlistitem
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelWatchlistItem.SentinelWatchlistItem",
+		"@cdktn/provider-azurerm.sentinelWatchlistItem.SentinelWatchlistItem",
 		reflect.TypeOf((*SentinelWatchlistItem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelWatchlistItem.SentinelWatchlistItemConfig",
+		"@cdktn/provider-azurerm.sentinelWatchlistItem.SentinelWatchlistItemConfig",
 		reflect.TypeOf((*SentinelWatchlistItemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelWatchlistItem.SentinelWatchlistItemTimeouts",
+		"@cdktn/provider-azurerm.sentinelWatchlistItem.SentinelWatchlistItemTimeouts",
 		reflect.TypeOf((*SentinelWatchlistItemTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelWatchlistItem.SentinelWatchlistItemTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sentinelWatchlistItem.SentinelWatchlistItemTimeoutsOutputReference",
 		reflect.TypeOf((*SentinelWatchlistItemTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

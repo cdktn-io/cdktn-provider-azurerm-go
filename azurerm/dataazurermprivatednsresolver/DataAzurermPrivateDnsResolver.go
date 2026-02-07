@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermprivatednsresolver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermprivatednsresolver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermprivatednsresolver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver}.
 type DataAzurermPrivateDnsResolver interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolver) VirtualNetworkId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver} Data Source.
 func NewDataAzurermPrivateDnsResolver(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverConfig) DataAzurermPrivateDnsResolver {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewDataAzurermPrivateDnsResolver(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAzurermPrivateDnsResolver{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
+		"@cdktn/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewDataAzurermPrivateDnsResolver(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver} Data Source.
 func NewDataAzurermPrivateDnsResolver_Override(d DataAzurermPrivateDnsResolver, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
+		"@cdktn/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -486,7 +486,7 @@ func DataAzurermPrivateDnsResolver_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
+		"@cdktn/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func DataAzurermPrivateDnsResolver_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
+		"@cdktn/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func DataAzurermPrivateDnsResolver_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
+		"@cdktn/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAzurermPrivateDnsResolver_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
+		"@cdktn/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func DataAzurermPrivateDnsResolver_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
+		"@cdktn/provider-azurerm.dataAzurermPrivateDnsResolver.DataAzurermPrivateDnsResolver",
 		"tfResourceType",
 		&returns,
 	)

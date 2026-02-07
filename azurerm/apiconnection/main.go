@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apiconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnection",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnection",
 		reflect.TypeOf((*ApiConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnectionConfig",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnectionConfig",
 		reflect.TypeOf((*ApiConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnectionTimeouts",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnectionTimeouts",
 		reflect.TypeOf((*ApiConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*ApiConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

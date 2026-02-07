@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustoiothubdataconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kustoiothubdataconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustoiothubdataconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -49,6 +49,9 @@ type KustoIothubDataConnectionTimeoutsOutputReference interface {
 	TerraformResource() cdktf.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktf.IInterpolatingParent)
+	Update() *string
+	SetUpdate(val *string)
+	UpdateInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -76,6 +79,7 @@ type KustoIothubDataConnectionTimeoutsOutputReference interface {
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
+	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -221,6 +225,26 @@ func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) TerraformRe
 	return returns
 }
 
+func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) Update() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"update",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) UpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewKustoIothubDataConnectionTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KustoIothubDataConnectionTimeoutsOutputReference {
 	_init_.Initialize()
@@ -231,7 +255,7 @@ func NewKustoIothubDataConnectionTimeoutsOutputReference(terraformResource cdktf
 	j := jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +267,7 @@ func NewKustoIothubDataConnectionTimeoutsOutputReference_Override(k KustoIothubD
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)
@@ -333,6 +357,17 @@ func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference)SetTerraform
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference)SetUpdate(val *string) {
+	if err := j.validateSetUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"update",
 		val,
 	)
 }
@@ -543,6 +578,14 @@ func (k *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) ResetRead()
 	_jsii_.InvokeVoid(
 		k,
 		"resetRead",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetUpdate",
 		nil, // no parameters
 	)
 }

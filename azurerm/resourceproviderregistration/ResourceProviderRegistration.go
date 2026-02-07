@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourceproviderregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourceproviderregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourceproviderregistration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_provider_registration azurerm_resource_provider_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_provider_registration azurerm_resource_provider_registration}.
 type ResourceProviderRegistration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_ResourceProviderRegistration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_provider_registration azurerm_resource_provider_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_provider_registration azurerm_resource_provider_registration} Resource.
 func NewResourceProviderRegistration(scope constructs.Construct, id *string, config *ResourceProviderRegistrationConfig) ResourceProviderRegistration {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewResourceProviderRegistration(scope constructs.Construct, id *string, con
 	j := jsiiProxy_ResourceProviderRegistration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewResourceProviderRegistration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_provider_registration azurerm_resource_provider_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_provider_registration azurerm_resource_provider_registration} Resource.
 func NewResourceProviderRegistration_Override(r ResourceProviderRegistration, scope constructs.Construct, id *string, config *ResourceProviderRegistrationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -510,7 +510,7 @@ func ResourceProviderRegistration_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func ResourceProviderRegistration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func ResourceProviderRegistration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func ResourceProviderRegistration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func ResourceProviderRegistration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
 		"tfResourceType",
 		&returns,
 	)

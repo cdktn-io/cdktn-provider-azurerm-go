@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package tenanttemplatedeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.tenantTemplateDeployment.TenantTemplateDeployment",
+		"@cdktn/provider-azurerm.tenantTemplateDeployment.TenantTemplateDeployment",
 		reflect.TypeOf((*TenantTemplateDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.tenantTemplateDeployment.TenantTemplateDeploymentConfig",
+		"@cdktn/provider-azurerm.tenantTemplateDeployment.TenantTemplateDeploymentConfig",
 		reflect.TypeOf((*TenantTemplateDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.tenantTemplateDeployment.TenantTemplateDeploymentTimeouts",
+		"@cdktn/provider-azurerm.tenantTemplateDeployment.TenantTemplateDeploymentTimeouts",
 		reflect.TypeOf((*TenantTemplateDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.tenantTemplateDeployment.TenantTemplateDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.tenantTemplateDeployment.TenantTemplateDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*TenantTemplateDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

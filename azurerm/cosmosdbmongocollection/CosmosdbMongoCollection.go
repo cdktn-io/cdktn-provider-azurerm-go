@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbmongocollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbmongocollection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbmongocollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_mongo_collection azurerm_cosmosdb_mongo_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_mongo_collection azurerm_cosmosdb_mongo_collection}.
 type CosmosdbMongoCollection interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -581,7 +581,7 @@ func (j *jsiiProxy_CosmosdbMongoCollection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_mongo_collection azurerm_cosmosdb_mongo_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_mongo_collection azurerm_cosmosdb_mongo_collection} Resource.
 func NewCosmosdbMongoCollection(scope constructs.Construct, id *string, config *CosmosdbMongoCollectionConfig) CosmosdbMongoCollection {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewCosmosdbMongoCollection(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_CosmosdbMongoCollection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -599,12 +599,12 @@ func NewCosmosdbMongoCollection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_mongo_collection azurerm_cosmosdb_mongo_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_mongo_collection azurerm_cosmosdb_mongo_collection} Resource.
 func NewCosmosdbMongoCollection_Override(c CosmosdbMongoCollection, scope constructs.Construct, id *string, config *CosmosdbMongoCollectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -787,7 +787,7 @@ func CosmosdbMongoCollection_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -822,7 +822,7 @@ func CosmosdbMongoCollection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -841,7 +841,7 @@ func CosmosdbMongoCollection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -860,7 +860,7 @@ func CosmosdbMongoCollection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func CosmosdbMongoCollection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
+		"@cdktn/provider-azurerm.cosmosdbMongoCollection.CosmosdbMongoCollection",
 		"tfResourceType",
 		&returns,
 	)

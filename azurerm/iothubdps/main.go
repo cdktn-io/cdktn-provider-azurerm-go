@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubdps
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubDps.IothubDps",
+		"@cdktn/provider-azurerm.iothubDps.IothubDps",
 		reflect.TypeOf((*IothubDps)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsConfig",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsConfig",
 		reflect.TypeOf((*IothubDpsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsIpFilterRule",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsIpFilterRule",
 		reflect.TypeOf((*IothubDpsIpFilterRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsIpFilterRuleList",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsIpFilterRuleList",
 		reflect.TypeOf((*IothubDpsIpFilterRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsIpFilterRuleOutputReference",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsIpFilterRuleOutputReference",
 		reflect.TypeOf((*IothubDpsIpFilterRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -173,11 +173,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsLinkedHub",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsLinkedHub",
 		reflect.TypeOf((*IothubDpsLinkedHub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsLinkedHubList",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsLinkedHubList",
 		reflect.TypeOf((*IothubDpsLinkedHubList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -199,7 +199,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsLinkedHubOutputReference",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsLinkedHubOutputReference",
 		reflect.TypeOf((*IothubDpsLinkedHubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationWeight", GoGetter: "AllocationWeight"},
@@ -242,11 +242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsSku",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsSku",
 		reflect.TypeOf((*IothubDpsSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsSkuOutputReference",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsSkuOutputReference",
 		reflect.TypeOf((*IothubDpsSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -282,11 +282,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsTimeouts",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsTimeouts",
 		reflect.TypeOf((*IothubDpsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubDps.IothubDpsTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.iothubDps.IothubDpsTimeoutsOutputReference",
 		reflect.TypeOf((*IothubDpsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

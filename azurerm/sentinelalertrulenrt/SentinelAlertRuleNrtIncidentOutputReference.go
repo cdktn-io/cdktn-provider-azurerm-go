@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelalertrulenrt
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sentinelalertrulenrt/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelalertrulenrt/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewSentinelAlertRuleNrtIncidentOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_SentinelAlertRuleNrtIncidentOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrtIncidentOutputReference",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrtIncidentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewSentinelAlertRuleNrtIncidentOutputReference_Override(s SentinelAlertRule
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrtIncidentOutputReference",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrtIncidentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

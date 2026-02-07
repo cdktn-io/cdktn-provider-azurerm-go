@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcarefhirservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirService",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirService",
 		reflect.TypeOf((*HealthcareFhirService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicyObjectIds", GoGetter: "AccessPolicyObjectIds"},
@@ -109,11 +109,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceAuthentication",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceAuthentication",
 		reflect.TypeOf((*HealthcareFhirServiceAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceAuthenticationOutputReference",
 		reflect.TypeOf((*HealthcareFhirServiceAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audience", GoGetter: "Audience"},
@@ -152,15 +152,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceConfig",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceConfig",
 		reflect.TypeOf((*HealthcareFhirServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceCors",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceCors",
 		reflect.TypeOf((*HealthcareFhirServiceCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceCorsOutputReference",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceCorsOutputReference",
 		reflect.TypeOf((*HealthcareFhirServiceCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceIdentity",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceIdentity",
 		reflect.TypeOf((*HealthcareFhirServiceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceIdentityOutputReference",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceIdentityOutputReference",
 		reflect.TypeOf((*HealthcareFhirServiceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -247,11 +247,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceOciArtifact",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceOciArtifact",
 		reflect.TypeOf((*HealthcareFhirServiceOciArtifact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceOciArtifactList",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceOciArtifactList",
 		reflect.TypeOf((*HealthcareFhirServiceOciArtifactList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -273,7 +273,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceOciArtifactOutputReference",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceOciArtifactOutputReference",
 		reflect.TypeOf((*HealthcareFhirServiceOciArtifactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -313,11 +313,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceTimeouts",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceTimeouts",
 		reflect.TypeOf((*HealthcareFhirServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceTimeoutsOutputReference",
 		reflect.TypeOf((*HealthcareFhirServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

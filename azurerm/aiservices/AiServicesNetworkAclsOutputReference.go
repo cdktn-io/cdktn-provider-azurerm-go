@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package aiservices
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/aiservices/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/aiservices/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewAiServicesNetworkAclsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_AiServicesNetworkAclsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.aiServices.AiServicesNetworkAclsOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesNetworkAclsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewAiServicesNetworkAclsOutputReference_Override(a AiServicesNetworkAclsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.aiServices.AiServicesNetworkAclsOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesNetworkAclsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

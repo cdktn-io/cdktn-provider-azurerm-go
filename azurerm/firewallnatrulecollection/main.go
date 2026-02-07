@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firewallnatrulecollection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollection",
+		"@cdktn/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollection",
 		reflect.TypeOf((*FirewallNatRuleCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionConfig",
+		"@cdktn/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionConfig",
 		reflect.TypeOf((*FirewallNatRuleCollectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionRule",
+		"@cdktn/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionRule",
 		reflect.TypeOf((*FirewallNatRuleCollectionRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionRuleList",
+		"@cdktn/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionRuleList",
 		reflect.TypeOf((*FirewallNatRuleCollectionRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionRuleOutputReference",
+		"@cdktn/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionRuleOutputReference",
 		reflect.TypeOf((*FirewallNatRuleCollectionRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -166,11 +166,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionTimeouts",
+		"@cdktn/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionTimeouts",
 		reflect.TypeOf((*FirewallNatRuleCollectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.firewallNatRuleCollection.FirewallNatRuleCollectionTimeoutsOutputReference",
 		reflect.TypeOf((*FirewallNatRuleCollectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanageradminrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRule",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRule",
 		reflect.TypeOf((*NetworkManagerAdminRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleConfig",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleConfig",
 		reflect.TypeOf((*NetworkManagerAdminRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleDestination",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleDestination",
 		reflect.TypeOf((*NetworkManagerAdminRuleDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleDestinationList",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleDestinationList",
 		reflect.TypeOf((*NetworkManagerAdminRuleDestinationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleDestinationOutputReference",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleDestinationOutputReference",
 		reflect.TypeOf((*NetworkManagerAdminRuleDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressPrefix", GoGetter: "AddressPrefix"},
@@ -165,11 +165,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleSource",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleSource",
 		reflect.TypeOf((*NetworkManagerAdminRuleSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleSourceList",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleSourceList",
 		reflect.TypeOf((*NetworkManagerAdminRuleSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -191,7 +191,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleSourceOutputReference",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleSourceOutputReference",
 		reflect.TypeOf((*NetworkManagerAdminRuleSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressPrefix", GoGetter: "AddressPrefix"},
@@ -227,11 +227,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleTimeouts",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleTimeouts",
 		reflect.TypeOf((*NetworkManagerAdminRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkManagerAdminRule.NetworkManagerAdminRuleTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkManagerAdminRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

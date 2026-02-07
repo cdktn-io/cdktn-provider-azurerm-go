@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycenterstoragedefender
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
 		reflect.TypeOf((*SecurityCenterStorageDefender)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefenderConfig",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefenderConfig",
 		reflect.TypeOf((*SecurityCenterStorageDefenderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefenderTimeouts",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefenderTimeouts",
 		reflect.TypeOf((*SecurityCenterStorageDefenderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefenderTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefenderTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityCenterStorageDefenderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

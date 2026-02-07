@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbpostgresqlrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbpostgresqlrole/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbpostgresqlrole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role}.
 type CosmosdbPostgresqlRole interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlRole) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role} Resource.
 func NewCosmosdbPostgresqlRole(scope constructs.Construct, id *string, config *CosmosdbPostgresqlRoleConfig) CosmosdbPostgresqlRole {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewCosmosdbPostgresqlRole(scope constructs.Construct, id *string, config *C
 	j := jsiiProxy_CosmosdbPostgresqlRole{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewCosmosdbPostgresqlRole(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role} Resource.
 func NewCosmosdbPostgresqlRole_Override(c CosmosdbPostgresqlRole, scope constructs.Construct, id *string, config *CosmosdbPostgresqlRoleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -554,7 +554,7 @@ func CosmosdbPostgresqlRole_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func CosmosdbPostgresqlRole_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func CosmosdbPostgresqlRole_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func CosmosdbPostgresqlRole_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func CosmosdbPostgresqlRole_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationconnectiontype
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationConnectionType.AutomationConnectionType",
+		"@cdktn/provider-azurerm.automationConnectionType.AutomationConnectionType",
 		reflect.TypeOf((*AutomationConnectionType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationConnectionType.AutomationConnectionTypeConfig",
+		"@cdktn/provider-azurerm.automationConnectionType.AutomationConnectionTypeConfig",
 		reflect.TypeOf((*AutomationConnectionTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationConnectionType.AutomationConnectionTypeField",
+		"@cdktn/provider-azurerm.automationConnectionType.AutomationConnectionTypeField",
 		reflect.TypeOf((*AutomationConnectionTypeField)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationConnectionType.AutomationConnectionTypeFieldList",
+		"@cdktn/provider-azurerm.automationConnectionType.AutomationConnectionTypeFieldList",
 		reflect.TypeOf((*AutomationConnectionTypeFieldList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationConnectionType.AutomationConnectionTypeFieldOutputReference",
+		"@cdktn/provider-azurerm.automationConnectionType.AutomationConnectionTypeFieldOutputReference",
 		reflect.TypeOf((*AutomationConnectionTypeFieldOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationConnectionType.AutomationConnectionTypeTimeouts",
+		"@cdktn/provider-azurerm.automationConnectionType.AutomationConnectionTypeTimeouts",
 		reflect.TypeOf((*AutomationConnectionTypeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationConnectionType.AutomationConnectionTypeTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationConnectionType.AutomationConnectionTypeTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationConnectionTypeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

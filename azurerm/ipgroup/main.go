@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ipgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.ipGroup.IpGroup",
+		"@cdktn/provider-azurerm.ipGroup.IpGroup",
 		reflect.TypeOf((*IpGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.ipGroup.IpGroupConfig",
+		"@cdktn/provider-azurerm.ipGroup.IpGroupConfig",
 		reflect.TypeOf((*IpGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.ipGroup.IpGroupTimeouts",
+		"@cdktn/provider-azurerm.ipGroup.IpGroupTimeouts",
 		reflect.TypeOf((*IpGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.ipGroup.IpGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.ipGroup.IpGroupTimeoutsOutputReference",
 		reflect.TypeOf((*IpGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

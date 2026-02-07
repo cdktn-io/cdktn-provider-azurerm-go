@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoralertprometheusrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitoralertprometheusrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitoralertprometheusrulegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMonitorAlertPrometheusRuleGroupRuleList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_MonitorAlertPrometheusRuleGroupRuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorAlertPrometheusRuleGroup.MonitorAlertPrometheusRuleGroupRuleList",
+		"@cdktn/provider-azurerm.monitorAlertPrometheusRuleGroup.MonitorAlertPrometheusRuleGroupRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMonitorAlertPrometheusRuleGroupRuleList_Override(m MonitorAlertPrometheu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorAlertPrometheusRuleGroup.MonitorAlertPrometheusRuleGroupRuleList",
+		"@cdktn/provider-azurerm.monitorAlertPrometheusRuleGroup.MonitorAlertPrometheusRuleGroupRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

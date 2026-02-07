@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package qumulofilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/qumulofilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/qumulofilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewQumuloFileSystemTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_QumuloFileSystemTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystemTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewQumuloFileSystemTimeoutsOutputReference_Override(q QumuloFileSystemTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystemTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
 	)

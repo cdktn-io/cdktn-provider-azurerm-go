@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapseworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/synapseworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/synapseworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_workspace azurerm_synapse_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_workspace azurerm_synapse_workspace}.
 type SynapseWorkspace interface {
 	cdktf.TerraformResource
 	AzureadAuthenticationOnly() interface{}
@@ -821,7 +821,7 @@ func (j *jsiiProxy_SynapseWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_workspace azurerm_synapse_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_workspace azurerm_synapse_workspace} Resource.
 func NewSynapseWorkspace(scope constructs.Construct, id *string, config *SynapseWorkspaceConfig) SynapseWorkspace {
 	_init_.Initialize()
 
@@ -831,7 +831,7 @@ func NewSynapseWorkspace(scope constructs.Construct, id *string, config *Synapse
 	j := jsiiProxy_SynapseWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspace",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -839,12 +839,12 @@ func NewSynapseWorkspace(scope constructs.Construct, id *string, config *Synapse
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_workspace azurerm_synapse_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_workspace azurerm_synapse_workspace} Resource.
 func NewSynapseWorkspace_Override(s SynapseWorkspace, scope constructs.Construct, id *string, config *SynapseWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspace",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1115,7 +1115,7 @@ func SynapseWorkspace_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspace",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1150,7 +1150,7 @@ func SynapseWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspace",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1169,7 +1169,7 @@ func SynapseWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspace",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1188,7 +1188,7 @@ func SynapseWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspace",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1201,7 +1201,7 @@ func SynapseWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspace",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
 		"tfResourceType",
 		&returns,
 	)

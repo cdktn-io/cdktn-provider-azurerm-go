@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devtestschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/devtestschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devtestschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewDevTestScheduleNotificationSettingsOutputReference(terraformResource cdk
 	j := jsiiProxy_DevTestScheduleNotificationSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleNotificationSettingsOutputReference",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleNotificationSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewDevTestScheduleNotificationSettingsOutputReference_Override(d DevTestSch
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleNotificationSettingsOutputReference",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleNotificationSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

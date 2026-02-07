@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultmanagedstorageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/keyvaultmanagedstorageaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultmanagedstorageaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account}.
 type KeyVaultManagedStorageAccount interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
 func NewKeyVaultManagedStorageAccount(scope constructs.Construct, id *string, config *KeyVaultManagedStorageAccountConfig) KeyVaultManagedStorageAccount {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewKeyVaultManagedStorageAccount(scope constructs.Construct, id *string, co
 	j := jsiiProxy_KeyVaultManagedStorageAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewKeyVaultManagedStorageAccount(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
 func NewKeyVaultManagedStorageAccount_Override(k KeyVaultManagedStorageAccount, scope constructs.Construct, id *string, config *KeyVaultManagedStorageAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -693,7 +693,7 @@ func KeyVaultManagedStorageAccount_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func KeyVaultManagedStorageAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func KeyVaultManagedStorageAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func KeyVaultManagedStorageAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func KeyVaultManagedStorageAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
 		"tfResourceType",
 		&returns,
 	)

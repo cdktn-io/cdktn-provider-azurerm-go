@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcarefhirservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/healthcarefhirservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcarefhirservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewHealthcareFhirServiceTimeoutsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_HealthcareFhirServiceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewHealthcareFhirServiceTimeoutsOutputReference_Override(h HealthcareFhirSe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirServiceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		h,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationmodule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationModule.AutomationModule",
+		"@cdktn/provider-azurerm.automationModule.AutomationModule",
 		reflect.TypeOf((*AutomationModule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,19 +79,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationModule.AutomationModuleConfig",
+		"@cdktn/provider-azurerm.automationModule.AutomationModuleConfig",
 		reflect.TypeOf((*AutomationModuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationModule.AutomationModuleModuleLink",
+		"@cdktn/provider-azurerm.automationModule.AutomationModuleModuleLink",
 		reflect.TypeOf((*AutomationModuleModuleLink)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationModule.AutomationModuleModuleLinkHash",
+		"@cdktn/provider-azurerm.automationModule.AutomationModuleModuleLinkHash",
 		reflect.TypeOf((*AutomationModuleModuleLinkHash)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationModule.AutomationModuleModuleLinkHashOutputReference",
+		"@cdktn/provider-azurerm.automationModule.AutomationModuleModuleLinkHashOutputReference",
 		reflect.TypeOf((*AutomationModuleModuleLinkHashOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationModule.AutomationModuleModuleLinkOutputReference",
+		"@cdktn/provider-azurerm.automationModule.AutomationModuleModuleLinkOutputReference",
 		reflect.TypeOf((*AutomationModuleModuleLinkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,11 +165,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationModule.AutomationModuleTimeouts",
+		"@cdktn/provider-azurerm.automationModule.AutomationModuleTimeouts",
 		reflect.TypeOf((*AutomationModuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationModule.AutomationModuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationModule.AutomationModuleTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationModuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

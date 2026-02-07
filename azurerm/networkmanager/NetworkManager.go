@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanager/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager azurerm_network_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager azurerm_network_manager}.
 type NetworkManager interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_NetworkManager) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager azurerm_network_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager azurerm_network_manager} Resource.
 func NewNetworkManager(scope constructs.Construct, id *string, config *NetworkManagerConfig) NetworkManager {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewNetworkManager(scope constructs.Construct, id *string, config *NetworkMa
 	j := jsiiProxy_NetworkManager{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManager.NetworkManager",
+		"@cdktn/provider-azurerm.networkManager.NetworkManager",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewNetworkManager(scope constructs.Construct, id *string, config *NetworkMa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager azurerm_network_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager azurerm_network_manager} Resource.
 func NewNetworkManager_Override(n NetworkManager, scope constructs.Construct, id *string, config *NetworkManagerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManager.NetworkManager",
+		"@cdktn/provider-azurerm.networkManager.NetworkManager",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -693,7 +693,7 @@ func NetworkManager_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManager.NetworkManager",
+		"@cdktn/provider-azurerm.networkManager.NetworkManager",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func NetworkManager_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManager.NetworkManager",
+		"@cdktn/provider-azurerm.networkManager.NetworkManager",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func NetworkManager_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManager.NetworkManager",
+		"@cdktn/provider-azurerm.networkManager.NetworkManager",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func NetworkManager_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManager.NetworkManager",
+		"@cdktn/provider-azurerm.networkManager.NetworkManager",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func NetworkManager_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManager.NetworkManager",
+		"@cdktn/provider-azurerm.networkManager.NetworkManager",
 		"tfResourceType",
 		&returns,
 	)

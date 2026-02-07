@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapsesparkpool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPool",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPool",
 		reflect.TypeOf((*SynapseSparkPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -126,11 +126,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolAutoPause",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolAutoPause",
 		reflect.TypeOf((*SynapseSparkPoolAutoPause)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolAutoPauseOutputReference",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolAutoPauseOutputReference",
 		reflect.TypeOf((*SynapseSparkPoolAutoPauseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolAutoScale",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolAutoScale",
 		reflect.TypeOf((*SynapseSparkPoolAutoScale)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolAutoScaleOutputReference",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolAutoScaleOutputReference",
 		reflect.TypeOf((*SynapseSparkPoolAutoScaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,15 +204,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolConfig",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolConfig",
 		reflect.TypeOf((*SynapseSparkPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolLibraryRequirement",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolLibraryRequirement",
 		reflect.TypeOf((*SynapseSparkPoolLibraryRequirement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolLibraryRequirementOutputReference",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolLibraryRequirementOutputReference",
 		reflect.TypeOf((*SynapseSparkPoolLibraryRequirementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolSparkConfig",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolSparkConfig",
 		reflect.TypeOf((*SynapseSparkPoolSparkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolSparkConfigOutputReference",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolSparkConfigOutputReference",
 		reflect.TypeOf((*SynapseSparkPoolSparkConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -288,11 +288,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolTimeouts",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolTimeouts",
 		reflect.TypeOf((*SynapseSparkPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseSparkPool.SynapseSparkPoolTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.synapseSparkPool.SynapseSparkPoolTimeoutsOutputReference",
 		reflect.TypeOf((*SynapseSparkPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

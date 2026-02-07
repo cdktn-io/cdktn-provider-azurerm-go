@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressroutecircuitauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/expressroutecircuitauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/expressroutecircuitauthorization/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization}.
 type ExpressRouteCircuitAuthorization interface {
 	cdktf.TerraformResource
 	AuthorizationKey() *string
@@ -425,7 +425,7 @@ func (j *jsiiProxy_ExpressRouteCircuitAuthorization) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization} Resource.
 func NewExpressRouteCircuitAuthorization(scope constructs.Construct, id *string, config *ExpressRouteCircuitAuthorizationConfig) ExpressRouteCircuitAuthorization {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewExpressRouteCircuitAuthorization(scope constructs.Construct, id *string,
 	j := jsiiProxy_ExpressRouteCircuitAuthorization{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
+		"@cdktn/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewExpressRouteCircuitAuthorization(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization} Resource.
 func NewExpressRouteCircuitAuthorization_Override(e ExpressRouteCircuitAuthorization, scope constructs.Construct, id *string, config *ExpressRouteCircuitAuthorizationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
+		"@cdktn/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -576,7 +576,7 @@ func ExpressRouteCircuitAuthorization_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
+		"@cdktn/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func ExpressRouteCircuitAuthorization_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
+		"@cdktn/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func ExpressRouteCircuitAuthorization_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
+		"@cdktn/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func ExpressRouteCircuitAuthorization_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
+		"@cdktn/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func ExpressRouteCircuitAuthorization_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
+		"@cdktn/provider-azurerm.expressRouteCircuitAuthorization.ExpressRouteCircuitAuthorization",
 		"tfResourceType",
 		&returns,
 	)

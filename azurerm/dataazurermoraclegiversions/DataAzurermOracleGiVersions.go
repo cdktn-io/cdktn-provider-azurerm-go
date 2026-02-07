@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermoraclegiversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermoraclegiversions/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoraclegiversions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions}.
 type DataAzurermOracleGiVersions interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -371,7 +371,7 @@ func (j *jsiiProxy_DataAzurermOracleGiVersions) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions} Data Source.
 func NewDataAzurermOracleGiVersions(scope constructs.Construct, id *string, config *DataAzurermOracleGiVersionsConfig) DataAzurermOracleGiVersions {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAzurermOracleGiVersions(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAzurermOracleGiVersions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
+		"@cdktn/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -389,12 +389,12 @@ func NewDataAzurermOracleGiVersions(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions} Data Source.
 func NewDataAzurermOracleGiVersions_Override(d DataAzurermOracleGiVersions, scope constructs.Construct, id *string, config *DataAzurermOracleGiVersionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
+		"@cdktn/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -500,7 +500,7 @@ func DataAzurermOracleGiVersions_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
+		"@cdktn/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -535,7 +535,7 @@ func DataAzurermOracleGiVersions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
+		"@cdktn/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -554,7 +554,7 @@ func DataAzurermOracleGiVersions_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
+		"@cdktn/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataAzurermOracleGiVersions_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
+		"@cdktn/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func DataAzurermOracleGiVersions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
+		"@cdktn/provider-azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersions",
 		"tfResourceType",
 		&returns,
 	)

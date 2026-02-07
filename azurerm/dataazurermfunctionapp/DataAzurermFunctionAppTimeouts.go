@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermfunctionapp
 
 
 type DataAzurermFunctionAppTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/function_app#read DataAzurermFunctionApp#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/function_app#read DataAzurermFunctionApp#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

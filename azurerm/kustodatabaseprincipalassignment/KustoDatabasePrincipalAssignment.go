@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustodatabaseprincipalassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kustodatabaseprincipalassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustodatabaseprincipalassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment}.
 type KustoDatabasePrincipalAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -540,7 +540,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
 func NewKustoDatabasePrincipalAssignment(scope constructs.Construct, id *string, config *KustoDatabasePrincipalAssignmentConfig) KustoDatabasePrincipalAssignment {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewKustoDatabasePrincipalAssignment(scope constructs.Construct, id *string,
 	j := jsiiProxy_KustoDatabasePrincipalAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
+		"@cdktn/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -558,12 +558,12 @@ func NewKustoDatabasePrincipalAssignment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
 func NewKustoDatabasePrincipalAssignment_Override(k KustoDatabasePrincipalAssignment, scope constructs.Construct, id *string, config *KustoDatabasePrincipalAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
+		"@cdktn/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -746,7 +746,7 @@ func KustoDatabasePrincipalAssignment_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
+		"@cdktn/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -781,7 +781,7 @@ func KustoDatabasePrincipalAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
+		"@cdktn/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func KustoDatabasePrincipalAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
+		"@cdktn/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -819,7 +819,7 @@ func KustoDatabasePrincipalAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
+		"@cdktn/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -832,7 +832,7 @@ func KustoDatabasePrincipalAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
+		"@cdktn/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
 		"tfResourceType",
 		&returns,
 	)

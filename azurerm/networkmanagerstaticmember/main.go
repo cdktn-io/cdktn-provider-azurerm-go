@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerstaticmember
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
 		reflect.TypeOf((*NetworkManagerStaticMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMemberConfig",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMemberConfig",
 		reflect.TypeOf((*NetworkManagerStaticMemberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMemberTimeouts",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMemberTimeouts",
 		reflect.TypeOf((*NetworkManagerStaticMemberTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMemberTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMemberTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkManagerStaticMemberTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

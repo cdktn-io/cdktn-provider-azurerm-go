@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsearchservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermsearchservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsearchservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/search_service azurerm_search_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/search_service azurerm_search_service}.
 type DataAzurermSearchService interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataAzurermSearchService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/search_service azurerm_search_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/search_service azurerm_search_service} Data Source.
 func NewDataAzurermSearchService(scope constructs.Construct, id *string, config *DataAzurermSearchServiceConfig) DataAzurermSearchService {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewDataAzurermSearchService(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAzurermSearchService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
+		"@cdktn/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -452,12 +452,12 @@ func NewDataAzurermSearchService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/search_service azurerm_search_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/search_service azurerm_search_service} Data Source.
 func NewDataAzurermSearchService_Override(d DataAzurermSearchService, scope constructs.Construct, id *string, config *DataAzurermSearchServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
+		"@cdktn/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -552,7 +552,7 @@ func DataAzurermSearchService_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
+		"@cdktn/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -587,7 +587,7 @@ func DataAzurermSearchService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
+		"@cdktn/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAzurermSearchService_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
+		"@cdktn/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func DataAzurermSearchService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
+		"@cdktn/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func DataAzurermSearchService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
+		"@cdktn/provider-azurerm.dataAzurermSearchService.DataAzurermSearchService",
 		"tfResourceType",
 		&returns,
 	)

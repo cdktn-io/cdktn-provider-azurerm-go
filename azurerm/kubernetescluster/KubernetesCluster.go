@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_cluster azurerm_kubernetes_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_cluster azurerm_kubernetes_cluster}.
 type KubernetesCluster interface {
 	cdktf.TerraformResource
 	AciConnectorLinux() KubernetesClusterAciConnectorLinuxOutputReference
@@ -146,6 +146,8 @@ type KubernetesCluster interface {
 	NodeOsUpgradeChannel() *string
 	SetNodeOsUpgradeChannel(val *string)
 	NodeOsUpgradeChannelInput() *string
+	NodeProvisioningProfile() KubernetesClusterNodeProvisioningProfileOutputReference
+	NodeProvisioningProfileInput() *KubernetesClusterNodeProvisioningProfile
 	NodeResourceGroup() *string
 	SetNodeResourceGroup(val *string)
 	NodeResourceGroupId() *string
@@ -286,6 +288,7 @@ type KubernetesCluster interface {
 	PutMicrosoftDefender(value *KubernetesClusterMicrosoftDefender)
 	PutMonitorMetrics(value *KubernetesClusterMonitorMetrics)
 	PutNetworkProfile(value *KubernetesClusterNetworkProfile)
+	PutNodeProvisioningProfile(value *KubernetesClusterNodeProvisioningProfile)
 	PutOmsAgent(value *KubernetesClusterOmsAgent)
 	PutServiceMeshProfile(value *KubernetesClusterServiceMeshProfile)
 	PutServicePrincipal(value *KubernetesClusterServicePrincipal)
@@ -330,6 +333,7 @@ type KubernetesCluster interface {
 	ResetMonitorMetrics()
 	ResetNetworkProfile()
 	ResetNodeOsUpgradeChannel()
+	ResetNodeProvisioningProfile()
 	ResetNodeResourceGroup()
 	ResetOidcIssuerEnabled()
 	ResetOmsAgent()
@@ -1302,6 +1306,26 @@ func (j *jsiiProxy_KubernetesCluster) NodeOsUpgradeChannelInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_KubernetesCluster) NodeProvisioningProfile() KubernetesClusterNodeProvisioningProfileOutputReference {
+	var returns KubernetesClusterNodeProvisioningProfileOutputReference
+	_jsii_.Get(
+		j,
+		"nodeProvisioningProfile",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KubernetesCluster) NodeProvisioningProfileInput() *KubernetesClusterNodeProvisioningProfile {
+	var returns *KubernetesClusterNodeProvisioningProfile
+	_jsii_.Get(
+		j,
+		"nodeProvisioningProfileInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_KubernetesCluster) NodeResourceGroup() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1843,7 +1867,7 @@ func (j *jsiiProxy_KubernetesCluster) WorkloadIdentityEnabledInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_cluster azurerm_kubernetes_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_cluster azurerm_kubernetes_cluster} Resource.
 func NewKubernetesCluster(scope constructs.Construct, id *string, config *KubernetesClusterConfig) KubernetesCluster {
 	_init_.Initialize()
 
@@ -1853,7 +1877,7 @@ func NewKubernetesCluster(scope constructs.Construct, id *string, config *Kubern
 	j := jsiiProxy_KubernetesCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesCluster",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1861,12 +1885,12 @@ func NewKubernetesCluster(scope constructs.Construct, id *string, config *Kubern
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_cluster azurerm_kubernetes_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_cluster azurerm_kubernetes_cluster} Resource.
 func NewKubernetesCluster_Override(k KubernetesCluster, scope constructs.Construct, id *string, config *KubernetesClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesCluster",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesCluster",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -2291,7 +2315,7 @@ func KubernetesCluster_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesCluster",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -2326,7 +2350,7 @@ func KubernetesCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesCluster",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2345,7 +2369,7 @@ func KubernetesCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesCluster",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -2364,7 +2388,7 @@ func KubernetesCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesCluster",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -2377,7 +2401,7 @@ func KubernetesCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesCluster",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesCluster",
 		"tfResourceType",
 		&returns,
 	)
@@ -2854,6 +2878,17 @@ func (k *jsiiProxy_KubernetesCluster) PutNetworkProfile(value *KubernetesCluster
 	)
 }
 
+func (k *jsiiProxy_KubernetesCluster) PutNodeProvisioningProfile(value *KubernetesClusterNodeProvisioningProfile) {
+	if err := k.validatePutNodeProvisioningProfileParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		k,
+		"putNodeProvisioningProfile",
+		[]interface{}{value},
+	)
+}
+
 func (k *jsiiProxy_KubernetesCluster) PutOmsAgent(value *KubernetesClusterOmsAgent) {
 	if err := k.validatePutOmsAgentParameters(value); err != nil {
 		panic(err)
@@ -3229,6 +3264,14 @@ func (k *jsiiProxy_KubernetesCluster) ResetNodeOsUpgradeChannel() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetNodeOsUpgradeChannel",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KubernetesCluster) ResetNodeProvisioningProfile() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetNodeProvisioningProfile",
 		nil, // no parameters
 	)
 }

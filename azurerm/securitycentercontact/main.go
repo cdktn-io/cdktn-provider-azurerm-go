@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycentercontact
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContact",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContact",
 		reflect.TypeOf((*SecurityCenterContact)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContactConfig",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContactConfig",
 		reflect.TypeOf((*SecurityCenterContactConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContactTimeouts",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContactTimeouts",
 		reflect.TypeOf((*SecurityCenterContactTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContactTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContactTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityCenterContactTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

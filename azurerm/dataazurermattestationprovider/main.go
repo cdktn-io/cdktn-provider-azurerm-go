@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermattestationprovider
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
 		reflect.TypeOf((*DataAzurermAttestationProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,15 +70,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProviderConfig",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProviderConfig",
 		reflect.TypeOf((*DataAzurermAttestationProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProviderTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProviderTimeouts",
 		reflect.TypeOf((*DataAzurermAttestationProviderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProviderTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProviderTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermAttestationProviderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

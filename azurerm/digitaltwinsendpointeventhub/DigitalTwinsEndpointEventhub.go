@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package digitaltwinsendpointeventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/digitaltwinsendpointeventhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/digitaltwinsendpointeventhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_endpoint_eventhub azurerm_digital_twins_endpoint_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_endpoint_eventhub azurerm_digital_twins_endpoint_eventhub}.
 type DigitalTwinsEndpointEventhub interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_DigitalTwinsEndpointEventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_endpoint_eventhub azurerm_digital_twins_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_endpoint_eventhub azurerm_digital_twins_endpoint_eventhub} Resource.
 func NewDigitalTwinsEndpointEventhub(scope constructs.Construct, id *string, config *DigitalTwinsEndpointEventhubConfig) DigitalTwinsEndpointEventhub {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewDigitalTwinsEndpointEventhub(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DigitalTwinsEndpointEventhub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewDigitalTwinsEndpointEventhub(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_endpoint_eventhub azurerm_digital_twins_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_endpoint_eventhub azurerm_digital_twins_endpoint_eventhub} Resource.
 func NewDigitalTwinsEndpointEventhub_Override(d DigitalTwinsEndpointEventhub, scope constructs.Construct, id *string, config *DigitalTwinsEndpointEventhubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -623,7 +623,7 @@ func DigitalTwinsEndpointEventhub_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func DigitalTwinsEndpointEventhub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func DigitalTwinsEndpointEventhub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func DigitalTwinsEndpointEventhub_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func DigitalTwinsEndpointEventhub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointEventhub.DigitalTwinsEndpointEventhub",
 		"tfResourceType",
 		&returns,
 	)

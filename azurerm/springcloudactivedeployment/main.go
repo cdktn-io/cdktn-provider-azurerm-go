@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudactivedeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudActiveDeployment.SpringCloudActiveDeployment",
+		"@cdktn/provider-azurerm.springCloudActiveDeployment.SpringCloudActiveDeployment",
 		reflect.TypeOf((*SpringCloudActiveDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudActiveDeployment.SpringCloudActiveDeploymentConfig",
+		"@cdktn/provider-azurerm.springCloudActiveDeployment.SpringCloudActiveDeploymentConfig",
 		reflect.TypeOf((*SpringCloudActiveDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudActiveDeployment.SpringCloudActiveDeploymentTimeouts",
+		"@cdktn/provider-azurerm.springCloudActiveDeployment.SpringCloudActiveDeploymentTimeouts",
 		reflect.TypeOf((*SpringCloudActiveDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudActiveDeployment.SpringCloudActiveDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudActiveDeployment.SpringCloudActiveDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudActiveDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

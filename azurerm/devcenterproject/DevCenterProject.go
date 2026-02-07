@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devcenterproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/devcenterproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devcenterproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project azurerm_dev_center_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project azurerm_dev_center_project}.
 type DevCenterProject interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_DevCenterProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project azurerm_dev_center_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project azurerm_dev_center_project} Resource.
 func NewDevCenterProject(scope constructs.Construct, id *string, config *DevCenterProjectConfig) DevCenterProject {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewDevCenterProject(scope constructs.Construct, id *string, config *DevCent
 	j := jsiiProxy_DevCenterProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProject",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -551,12 +551,12 @@ func NewDevCenterProject(scope constructs.Construct, id *string, config *DevCent
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project azurerm_dev_center_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project azurerm_dev_center_project} Resource.
 func NewDevCenterProject_Override(d DevCenterProject, scope constructs.Construct, id *string, config *DevCenterProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProject",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProject",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -728,7 +728,7 @@ func DevCenterProject_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProject",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -763,7 +763,7 @@ func DevCenterProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProject",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func DevCenterProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProject",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func DevCenterProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProject",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func DevCenterProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProject",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProject",
 		"tfResourceType",
 		&returns,
 	)

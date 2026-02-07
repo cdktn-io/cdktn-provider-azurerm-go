@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package purviewaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccount",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccount",
 		reflect.TypeOf((*PurviewAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountConfig",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountConfig",
 		reflect.TypeOf((*PurviewAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountIdentity",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountIdentity",
 		reflect.TypeOf((*PurviewAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountIdentityOutputReference",
 		reflect.TypeOf((*PurviewAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountManagedResources",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountManagedResources",
 		reflect.TypeOf((*PurviewAccountManagedResources)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountManagedResourcesList",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountManagedResourcesList",
 		reflect.TypeOf((*PurviewAccountManagedResourcesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -170,7 +170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountManagedResourcesOutputReference",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountManagedResourcesOutputReference",
 		reflect.TypeOf((*PurviewAccountManagedResourcesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,11 +205,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountTimeouts",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountTimeouts",
 		reflect.TypeOf((*PurviewAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountTimeoutsOutputReference",
 		reflect.TypeOf((*PurviewAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sharedimagegallery
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImageGallery.SharedImageGallery",
+		"@cdktn/provider-azurerm.sharedImageGallery.SharedImageGallery",
 		reflect.TypeOf((*SharedImageGallery)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,19 +87,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImageGallery.SharedImageGalleryConfig",
+		"@cdktn/provider-azurerm.sharedImageGallery.SharedImageGalleryConfig",
 		reflect.TypeOf((*SharedImageGalleryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImageGallery.SharedImageGallerySharing",
+		"@cdktn/provider-azurerm.sharedImageGallery.SharedImageGallerySharing",
 		reflect.TypeOf((*SharedImageGallerySharing)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImageGallery.SharedImageGallerySharingCommunityGallery",
+		"@cdktn/provider-azurerm.sharedImageGallery.SharedImageGallerySharingCommunityGallery",
 		reflect.TypeOf((*SharedImageGallerySharingCommunityGallery)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImageGallery.SharedImageGallerySharingCommunityGalleryOutputReference",
+		"@cdktn/provider-azurerm.sharedImageGallery.SharedImageGallerySharingCommunityGalleryOutputReference",
 		reflect.TypeOf((*SharedImageGallerySharingCommunityGalleryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImageGallery.SharedImageGallerySharingOutputReference",
+		"@cdktn/provider-azurerm.sharedImageGallery.SharedImageGallerySharingOutputReference",
 		reflect.TypeOf((*SharedImageGallerySharingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "communityGallery", GoGetter: "CommunityGallery"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImageGallery.SharedImageGalleryTimeouts",
+		"@cdktn/provider-azurerm.sharedImageGallery.SharedImageGalleryTimeouts",
 		reflect.TypeOf((*SharedImageGalleryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImageGallery.SharedImageGalleryTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sharedImageGallery.SharedImageGalleryTimeoutsOutputReference",
 		reflect.TypeOf((*SharedImageGalleryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

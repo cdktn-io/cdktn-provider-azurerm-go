@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudconfigurationservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudconfigurationservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudconfigurationservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_configuration_service azurerm_spring_cloud_configuration_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_configuration_service azurerm_spring_cloud_configuration_service}.
 type SpringCloudConfigurationService interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -452,7 +452,7 @@ func (j *jsiiProxy_SpringCloudConfigurationService) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_configuration_service azurerm_spring_cloud_configuration_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_configuration_service azurerm_spring_cloud_configuration_service} Resource.
 func NewSpringCloudConfigurationService(scope constructs.Construct, id *string, config *SpringCloudConfigurationServiceConfig) SpringCloudConfigurationService {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewSpringCloudConfigurationService(scope constructs.Construct, id *string, 
 	j := jsiiProxy_SpringCloudConfigurationService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewSpringCloudConfigurationService(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_configuration_service azurerm_spring_cloud_configuration_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_configuration_service azurerm_spring_cloud_configuration_service} Resource.
 func NewSpringCloudConfigurationService_Override(s SpringCloudConfigurationService, scope constructs.Construct, id *string, config *SpringCloudConfigurationServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -614,7 +614,7 @@ func SpringCloudConfigurationService_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -649,7 +649,7 @@ func SpringCloudConfigurationService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -668,7 +668,7 @@ func SpringCloudConfigurationService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func SpringCloudConfigurationService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -700,7 +700,7 @@ func SpringCloudConfigurationService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
+		"@cdktn/provider-azurerm.springCloudConfigurationService.SpringCloudConfigurationService",
 		"tfResourceType",
 		&returns,
 	)

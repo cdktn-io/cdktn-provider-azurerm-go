@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devcenter
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenter.DevCenter",
+		"@cdktn/provider-azurerm.devCenter.DevCenter",
 		reflect.TypeOf((*DevCenter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenter.DevCenterConfig",
+		"@cdktn/provider-azurerm.devCenter.DevCenterConfig",
 		reflect.TypeOf((*DevCenterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenter.DevCenterIdentity",
+		"@cdktn/provider-azurerm.devCenter.DevCenterIdentity",
 		reflect.TypeOf((*DevCenterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenter.DevCenterIdentityOutputReference",
+		"@cdktn/provider-azurerm.devCenter.DevCenterIdentityOutputReference",
 		reflect.TypeOf((*DevCenterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,11 +134,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenter.DevCenterTimeouts",
+		"@cdktn/provider-azurerm.devCenter.DevCenterTimeouts",
 		reflect.TypeOf((*DevCenterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenter.DevCenterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.devCenter.DevCenterTimeoutsOutputReference",
 		reflect.TypeOf((*DevCenterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

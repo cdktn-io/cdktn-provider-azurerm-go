@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmanagedapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermmanagedapi/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmanagedapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/managed_api azurerm_managed_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/managed_api azurerm_managed_api}.
 type DataAzurermManagedApi interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataAzurermManagedApi) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
 func NewDataAzurermManagedApi(scope constructs.Construct, id *string, config *DataAzurermManagedApiConfig) DataAzurermManagedApi {
 	_init_.Initialize()
 
@@ -356,7 +356,7 @@ func NewDataAzurermManagedApi(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAzurermManagedApi{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
+		"@cdktn/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -364,12 +364,12 @@ func NewDataAzurermManagedApi(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
 func NewDataAzurermManagedApi_Override(d DataAzurermManagedApi, scope constructs.Construct, id *string, config *DataAzurermManagedApiConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
+		"@cdktn/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -464,7 +464,7 @@ func DataAzurermManagedApi_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
+		"@cdktn/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -499,7 +499,7 @@ func DataAzurermManagedApi_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
+		"@cdktn/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -518,7 +518,7 @@ func DataAzurermManagedApi_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
+		"@cdktn/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -537,7 +537,7 @@ func DataAzurermManagedApi_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
+		"@cdktn/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataAzurermManagedApi_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
+		"@cdktn/provider-azurerm.dataAzurermManagedApi.DataAzurermManagedApi",
 		"tfResourceType",
 		&returns,
 	)

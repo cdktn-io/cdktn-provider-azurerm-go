@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressrouteport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/expressrouteport/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/expressrouteport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -345,7 +345,7 @@ func NewExpressRoutePortLink2OutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_ExpressRoutePortLink2OutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortLink2OutputReference",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortLink2OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -357,7 +357,7 @@ func NewExpressRoutePortLink2OutputReference_Override(e ExpressRoutePortLink2Out
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortLink2OutputReference",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortLink2OutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

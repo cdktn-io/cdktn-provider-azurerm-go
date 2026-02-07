@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustoeventhubdataconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
 		reflect.TypeOf((*KustoEventhubDataConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,10 +80,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetIdentityId", GoMethod: "ResetIdentityId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMappingRuleName", GoMethod: "ResetMappingRuleName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRetrievalStartDate", GoMethod: "ResetRetrievalStartDate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTableName", GoMethod: "ResetTableName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupNameInput", GoGetter: "ResourceGroupNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "retrievalStartDate", GoGetter: "RetrievalStartDate"},
+			_jsii_.MemberProperty{JsiiProperty: "retrievalStartDateInput", GoGetter: "RetrievalStartDateInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tableName", GoGetter: "TableName"},
@@ -105,15 +108,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnectionConfig",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnectionConfig",
 		reflect.TypeOf((*KustoEventhubDataConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnectionTimeouts",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnectionTimeouts",
 		reflect.TypeOf((*KustoEventhubDataConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*KustoEventhubDataConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

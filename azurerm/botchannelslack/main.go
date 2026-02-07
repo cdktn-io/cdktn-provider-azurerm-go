@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelslack
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelSlack.BotChannelSlack",
+		"@cdktn/provider-azurerm.botChannelSlack.BotChannelSlack",
 		reflect.TypeOf((*BotChannelSlack)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelSlack.BotChannelSlackConfig",
+		"@cdktn/provider-azurerm.botChannelSlack.BotChannelSlackConfig",
 		reflect.TypeOf((*BotChannelSlackConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelSlack.BotChannelSlackTimeouts",
+		"@cdktn/provider-azurerm.botChannelSlack.BotChannelSlackTimeouts",
 		reflect.TypeOf((*BotChannelSlackTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelSlack.BotChannelSlackTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botChannelSlack.BotChannelSlackTimeoutsOutputReference",
 		reflect.TypeOf((*BotChannelSlackTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

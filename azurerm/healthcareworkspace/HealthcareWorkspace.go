@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcareworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/healthcareworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcareworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace}.
 type HealthcareWorkspace interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_HealthcareWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace} Resource.
 func NewHealthcareWorkspace(scope constructs.Construct, id *string, config *HealthcareWorkspaceConfig) HealthcareWorkspace {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewHealthcareWorkspace(scope constructs.Construct, id *string, config *Heal
 	j := jsiiProxy_HealthcareWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewHealthcareWorkspace(scope constructs.Construct, id *string, config *Heal
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_workspace azurerm_healthcare_workspace} Resource.
 func NewHealthcareWorkspace_Override(h HealthcareWorkspace, scope constructs.Construct, id *string, config *HealthcareWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -600,7 +600,7 @@ func HealthcareWorkspace_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func HealthcareWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func HealthcareWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func HealthcareWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func HealthcareWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
 		"tfResourceType",
 		&returns,
 	)

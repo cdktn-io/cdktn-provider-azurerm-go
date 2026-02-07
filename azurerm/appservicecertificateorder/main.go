@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservicecertificateorder
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrder",
+		"@cdktn/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrder",
 		reflect.TypeOf((*AppServiceCertificateOrder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,11 +106,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderCertificates",
+		"@cdktn/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderCertificates",
 		reflect.TypeOf((*AppServiceCertificateOrderCertificates)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderCertificatesList",
+		"@cdktn/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderCertificatesList",
 		reflect.TypeOf((*AppServiceCertificateOrderCertificatesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderCertificatesOutputReference",
+		"@cdktn/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderCertificatesOutputReference",
 		reflect.TypeOf((*AppServiceCertificateOrderCertificatesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateName", GoGetter: "CertificateName"},
@@ -167,15 +167,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderConfig",
+		"@cdktn/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderConfig",
 		reflect.TypeOf((*AppServiceCertificateOrderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderTimeouts",
+		"@cdktn/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderTimeouts",
 		reflect.TypeOf((*AppServiceCertificateOrderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appServiceCertificateOrder.AppServiceCertificateOrderTimeoutsOutputReference",
 		reflect.TypeOf((*AppServiceCertificateOrderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

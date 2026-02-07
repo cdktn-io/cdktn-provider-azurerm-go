@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package policysetdefinition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinition",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinition",
 		reflect.TypeOf((*PolicySetDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionConfig",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionConfig",
 		reflect.TypeOf((*PolicySetDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionGroup",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionGroup",
 		reflect.TypeOf((*PolicySetDefinitionPolicyDefinitionGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionGroupList",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionGroupList",
 		reflect.TypeOf((*PolicySetDefinitionPolicyDefinitionGroupList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionGroupOutputReference",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionGroupOutputReference",
 		reflect.TypeOf((*PolicySetDefinitionPolicyDefinitionGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalMetadataResourceId", GoGetter: "AdditionalMetadataResourceId"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionReference",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionReference",
 		reflect.TypeOf((*PolicySetDefinitionPolicyDefinitionReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionReferenceList",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionReferenceList",
 		reflect.TypeOf((*PolicySetDefinitionPolicyDefinitionReferenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -197,7 +197,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionReferenceOutputReference",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionReferenceOutputReference",
 		reflect.TypeOf((*PolicySetDefinitionPolicyDefinitionReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -243,11 +243,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionTimeouts",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionTimeouts",
 		reflect.TypeOf((*PolicySetDefinitionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.policySetDefinition.PolicySetDefinitionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.policySetDefinition.PolicySetDefinitionTimeoutsOutputReference",
 		reflect.TypeOf((*PolicySetDefinitionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

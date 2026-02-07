@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/botconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/botconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_connection azurerm_bot_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_connection azurerm_bot_connection}.
 type BotConnection interface {
 	cdktf.TerraformResource
 	BotName() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_BotConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_connection azurerm_bot_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_connection azurerm_bot_connection} Resource.
 func NewBotConnection(scope constructs.Construct, id *string, config *BotConnectionConfig) BotConnection {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewBotConnection(scope constructs.Construct, id *string, config *BotConnect
 	j := jsiiProxy_BotConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botConnection.BotConnection",
+		"@cdktn/provider-azurerm.botConnection.BotConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -561,12 +561,12 @@ func NewBotConnection(scope constructs.Construct, id *string, config *BotConnect
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_connection azurerm_bot_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_connection azurerm_bot_connection} Resource.
 func NewBotConnection_Override(b BotConnection, scope constructs.Construct, id *string, config *BotConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botConnection.BotConnection",
+		"@cdktn/provider-azurerm.botConnection.BotConnection",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -760,7 +760,7 @@ func BotConnection_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botConnection.BotConnection",
+		"@cdktn/provider-azurerm.botConnection.BotConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -795,7 +795,7 @@ func BotConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botConnection.BotConnection",
+		"@cdktn/provider-azurerm.botConnection.BotConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func BotConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botConnection.BotConnection",
+		"@cdktn/provider-azurerm.botConnection.BotConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -833,7 +833,7 @@ func BotConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botConnection.BotConnection",
+		"@cdktn/provider-azurerm.botConnection.BotConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -846,7 +846,7 @@ func BotConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.botConnection.BotConnection",
+		"@cdktn/provider-azurerm.botConnection.BotConnection",
 		"tfResourceType",
 		&returns,
 	)

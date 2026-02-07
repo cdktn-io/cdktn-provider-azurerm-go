@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datadogmonitortagrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
 		reflect.TypeOf((*DatadogMonitorTagRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,19 +83,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleConfig",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleConfig",
 		reflect.TypeOf((*DatadogMonitorTagRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLog",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLog",
 		reflect.TypeOf((*DatadogMonitorTagRuleLog)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogFilter",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogFilter",
 		reflect.TypeOf((*DatadogMonitorTagRuleLogFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogFilterList",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogFilterList",
 		reflect.TypeOf((*DatadogMonitorTagRuleLogFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogFilterOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogFilterOutputReference",
 		reflect.TypeOf((*DatadogMonitorTagRuleLogFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -155,7 +155,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogList",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogList",
 		reflect.TypeOf((*DatadogMonitorTagRuleLogList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -177,7 +177,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogOutputReference",
 		reflect.TypeOf((*DatadogMonitorTagRuleLogOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aadLogEnabled", GoGetter: "AadLogEnabled"},
@@ -222,15 +222,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetric",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetric",
 		reflect.TypeOf((*DatadogMonitorTagRuleMetric)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricFilter",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricFilter",
 		reflect.TypeOf((*DatadogMonitorTagRuleMetricFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricFilterList",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricFilterList",
 		reflect.TypeOf((*DatadogMonitorTagRuleMetricFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -252,7 +252,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricFilterOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricFilterOutputReference",
 		reflect.TypeOf((*DatadogMonitorTagRuleMetricFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -290,7 +290,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricList",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricList",
 		reflect.TypeOf((*DatadogMonitorTagRuleMetricList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -312,7 +312,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleMetricOutputReference",
 		reflect.TypeOf((*DatadogMonitorTagRuleMetricOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -348,11 +348,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleTimeouts",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleTimeouts",
 		reflect.TypeOf((*DatadogMonitorTagRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleTimeoutsOutputReference",
 		reflect.TypeOf((*DatadogMonitorTagRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

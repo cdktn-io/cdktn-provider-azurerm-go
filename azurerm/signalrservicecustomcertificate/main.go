@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package signalrservicecustomcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
 		reflect.TypeOf((*SignalrServiceCustomCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificateConfig",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificateConfig",
 		reflect.TypeOf((*SignalrServiceCustomCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificateTimeouts",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificateTimeouts",
 		reflect.TypeOf((*SignalrServiceCustomCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*SignalrServiceCustomCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

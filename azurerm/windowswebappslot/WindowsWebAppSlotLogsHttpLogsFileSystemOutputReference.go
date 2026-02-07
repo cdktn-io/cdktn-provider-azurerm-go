@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewWindowsWebAppSlotLogsHttpLogsFileSystemOutputReference(terraformResource
 	j := jsiiProxy_WindowsWebAppSlotLogsHttpLogsFileSystemOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsHttpLogsFileSystemOutputReference",
+		"@cdktn/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsHttpLogsFileSystemOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewWindowsWebAppSlotLogsHttpLogsFileSystemOutputReference_Override(w Window
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsHttpLogsFileSystemOutputReference",
+		"@cdktn/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsHttpLogsFileSystemOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

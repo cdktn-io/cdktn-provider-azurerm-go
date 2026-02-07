@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmonitoractiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermmonitoractiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmonitoractiongroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group}.
 type DataAzurermMonitorActionGroup interface {
 	cdktf.TerraformDataSource
 	ArmRoleReceiver() DataAzurermMonitorActionGroupArmRoleReceiverList
@@ -478,7 +478,7 @@ func (j *jsiiProxy_DataAzurermMonitorActionGroup) WebhookReceiver() DataAzurermM
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group} Data Source.
 func NewDataAzurermMonitorActionGroup(scope constructs.Construct, id *string, config *DataAzurermMonitorActionGroupConfig) DataAzurermMonitorActionGroup {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewDataAzurermMonitorActionGroup(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAzurermMonitorActionGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
+		"@cdktn/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -496,12 +496,12 @@ func NewDataAzurermMonitorActionGroup(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group} Data Source.
 func NewDataAzurermMonitorActionGroup_Override(d DataAzurermMonitorActionGroup, scope constructs.Construct, id *string, config *DataAzurermMonitorActionGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
+		"@cdktn/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -596,7 +596,7 @@ func DataAzurermMonitorActionGroup_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
+		"@cdktn/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -631,7 +631,7 @@ func DataAzurermMonitorActionGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
+		"@cdktn/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func DataAzurermMonitorActionGroup_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
+		"@cdktn/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -669,7 +669,7 @@ func DataAzurermMonitorActionGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
+		"@cdktn/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -682,7 +682,7 @@ func DataAzurermMonitorActionGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
+		"@cdktn/provider-azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationdscnodeconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationdscnodeconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationdscnodeconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_dsc_nodeconfiguration azurerm_automation_dsc_nodeconfiguration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_dsc_nodeconfiguration azurerm_automation_dsc_nodeconfiguration}.
 type AutomationDscNodeconfiguration interface {
 	cdktf.TerraformResource
 	AutomationAccountName() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_AutomationDscNodeconfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_dsc_nodeconfiguration azurerm_automation_dsc_nodeconfiguration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_dsc_nodeconfiguration azurerm_automation_dsc_nodeconfiguration} Resource.
 func NewAutomationDscNodeconfiguration(scope constructs.Construct, id *string, config *AutomationDscNodeconfigurationConfig) AutomationDscNodeconfiguration {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewAutomationDscNodeconfiguration(scope constructs.Construct, id *string, c
 	j := jsiiProxy_AutomationDscNodeconfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -455,12 +455,12 @@ func NewAutomationDscNodeconfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_dsc_nodeconfiguration azurerm_automation_dsc_nodeconfiguration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_dsc_nodeconfiguration azurerm_automation_dsc_nodeconfiguration} Resource.
 func NewAutomationDscNodeconfiguration_Override(a AutomationDscNodeconfiguration, scope constructs.Construct, id *string, config *AutomationDscNodeconfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -599,7 +599,7 @@ func AutomationDscNodeconfiguration_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -634,7 +634,7 @@ func AutomationDscNodeconfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func AutomationDscNodeconfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func AutomationDscNodeconfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func AutomationDscNodeconfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
+		"@cdktn/provider-azurerm.automationDscNodeconfiguration.AutomationDscNodeconfiguration",
 		"tfResourceType",
 		&returns,
 	)

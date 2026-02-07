@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticsoutputeventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/streamanalyticsoutputeventhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsoutputeventhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub}.
 type StreamAnalyticsOutputEventhub interface {
 	cdktf.TerraformResource
 	AuthenticationMode() *string
@@ -592,7 +592,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputEventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub} Resource.
 func NewStreamAnalyticsOutputEventhub(scope constructs.Construct, id *string, config *StreamAnalyticsOutputEventhubConfig) StreamAnalyticsOutputEventhub {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewStreamAnalyticsOutputEventhub(scope constructs.Construct, id *string, co
 	j := jsiiProxy_StreamAnalyticsOutputEventhub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -610,12 +610,12 @@ func NewStreamAnalyticsOutputEventhub(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub} Resource.
 func NewStreamAnalyticsOutputEventhub_Override(s StreamAnalyticsOutputEventhub, scope constructs.Construct, id *string, config *StreamAnalyticsOutputEventhubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -820,7 +820,7 @@ func StreamAnalyticsOutputEventhub_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -855,7 +855,7 @@ func StreamAnalyticsOutputEventhub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -874,7 +874,7 @@ func StreamAnalyticsOutputEventhub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -893,7 +893,7 @@ func StreamAnalyticsOutputEventhub_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -906,7 +906,7 @@ func StreamAnalyticsOutputEventhub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputEventhub.StreamAnalyticsOutputEventhub",
 		"tfResourceType",
 		&returns,
 	)

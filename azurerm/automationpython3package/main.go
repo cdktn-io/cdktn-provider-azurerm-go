@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationpython3package
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationPython3Package.AutomationPython3Package",
+		"@cdktn/provider-azurerm.automationPython3Package.AutomationPython3Package",
 		reflect.TypeOf((*AutomationPython3Package)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationPython3Package.AutomationPython3PackageConfig",
+		"@cdktn/provider-azurerm.automationPython3Package.AutomationPython3PackageConfig",
 		reflect.TypeOf((*AutomationPython3PackageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationPython3Package.AutomationPython3PackageTimeouts",
+		"@cdktn/provider-azurerm.automationPython3Package.AutomationPython3PackageTimeouts",
 		reflect.TypeOf((*AutomationPython3PackageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationPython3Package.AutomationPython3PackageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationPython3Package.AutomationPython3PackageTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationPython3PackageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventgrideventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/eventgrideventsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgrideventsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription}.
 type EventgridEventSubscription interface {
 	cdktf.TerraformResource
 	AdvancedFilter() EventgridEventSubscriptionAdvancedFilterOutputReference
@@ -836,7 +836,7 @@ func (j *jsiiProxy_EventgridEventSubscription) WebhookEndpointInput() *Eventgrid
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
 func NewEventgridEventSubscription(scope constructs.Construct, id *string, config *EventgridEventSubscriptionConfig) EventgridEventSubscription {
 	_init_.Initialize()
 
@@ -846,7 +846,7 @@ func NewEventgridEventSubscription(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_EventgridEventSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
+		"@cdktn/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -854,12 +854,12 @@ func NewEventgridEventSubscription(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.
 func NewEventgridEventSubscription_Override(e EventgridEventSubscription, scope constructs.Construct, id *string, config *EventgridEventSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
+		"@cdktn/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -1075,7 +1075,7 @@ func EventgridEventSubscription_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
+		"@cdktn/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1110,7 +1110,7 @@ func EventgridEventSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
+		"@cdktn/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1129,7 +1129,7 @@ func EventgridEventSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
+		"@cdktn/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1148,7 +1148,7 @@ func EventgridEventSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
+		"@cdktn/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1161,7 +1161,7 @@ func EventgridEventSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
+		"@cdktn/provider-azurerm.eventgridEventSubscription.EventgridEventSubscription",
 		"tfResourceType",
 		&returns,
 	)

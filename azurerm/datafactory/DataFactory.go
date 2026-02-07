@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactory/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory azurerm_data_factory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory azurerm_data_factory}.
 type DataFactory interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -643,7 +643,7 @@ func (j *jsiiProxy_DataFactory) VstsConfigurationInput() *DataFactoryVstsConfigu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory azurerm_data_factory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory azurerm_data_factory} Resource.
 func NewDataFactory(scope constructs.Construct, id *string, config *DataFactoryConfig) DataFactory {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewDataFactory(scope constructs.Construct, id *string, config *DataFactoryC
 	j := jsiiProxy_DataFactory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactory.DataFactory",
+		"@cdktn/provider-azurerm.dataFactory.DataFactory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -661,12 +661,12 @@ func NewDataFactory(scope constructs.Construct, id *string, config *DataFactoryC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory azurerm_data_factory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory azurerm_data_factory} Resource.
 func NewDataFactory_Override(d DataFactory, scope constructs.Construct, id *string, config *DataFactoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactory.DataFactory",
+		"@cdktn/provider-azurerm.dataFactory.DataFactory",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -860,7 +860,7 @@ func DataFactory_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactory.DataFactory",
+		"@cdktn/provider-azurerm.dataFactory.DataFactory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -895,7 +895,7 @@ func DataFactory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactory.DataFactory",
+		"@cdktn/provider-azurerm.dataFactory.DataFactory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -914,7 +914,7 @@ func DataFactory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactory.DataFactory",
+		"@cdktn/provider-azurerm.dataFactory.DataFactory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -933,7 +933,7 @@ func DataFactory_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactory.DataFactory",
+		"@cdktn/provider-azurerm.dataFactory.DataFactory",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -946,7 +946,7 @@ func DataFactory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactory.DataFactory",
+		"@cdktn/provider-azurerm.dataFactory.DataFactory",
 		"tfResourceType",
 		&returns,
 	)

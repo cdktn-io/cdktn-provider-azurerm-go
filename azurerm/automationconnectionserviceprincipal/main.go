@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationconnectionserviceprincipal
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
 		reflect.TypeOf((*AutomationConnectionServicePrincipal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipalConfig",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipalConfig",
 		reflect.TypeOf((*AutomationConnectionServicePrincipalConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipalTimeouts",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipalTimeouts",
 		reflect.TypeOf((*AutomationConnectionServicePrincipalTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipalTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipalTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationConnectionServicePrincipalTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

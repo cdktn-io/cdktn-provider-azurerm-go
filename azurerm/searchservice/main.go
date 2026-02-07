@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package searchservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.searchService.SearchService",
+		"@cdktn/provider-azurerm.searchService.SearchService",
 		reflect.TypeOf((*SearchService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -119,15 +119,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.searchService.SearchServiceConfig",
+		"@cdktn/provider-azurerm.searchService.SearchServiceConfig",
 		reflect.TypeOf((*SearchServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.searchService.SearchServiceIdentity",
+		"@cdktn/provider-azurerm.searchService.SearchServiceIdentity",
 		reflect.TypeOf((*SearchServiceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.searchService.SearchServiceIdentityOutputReference",
+		"@cdktn/provider-azurerm.searchService.SearchServiceIdentityOutputReference",
 		reflect.TypeOf((*SearchServiceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -166,11 +166,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.searchService.SearchServiceQueryKeys",
+		"@cdktn/provider-azurerm.searchService.SearchServiceQueryKeys",
 		reflect.TypeOf((*SearchServiceQueryKeys)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.searchService.SearchServiceQueryKeysList",
+		"@cdktn/provider-azurerm.searchService.SearchServiceQueryKeysList",
 		reflect.TypeOf((*SearchServiceQueryKeysList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -191,7 +191,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.searchService.SearchServiceQueryKeysOutputReference",
+		"@cdktn/provider-azurerm.searchService.SearchServiceQueryKeysOutputReference",
 		reflect.TypeOf((*SearchServiceQueryKeysOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -225,11 +225,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.searchService.SearchServiceTimeouts",
+		"@cdktn/provider-azurerm.searchService.SearchServiceTimeouts",
 		reflect.TypeOf((*SearchServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.searchService.SearchServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.searchService.SearchServiceTimeoutsOutputReference",
 		reflect.TypeOf((*SearchServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

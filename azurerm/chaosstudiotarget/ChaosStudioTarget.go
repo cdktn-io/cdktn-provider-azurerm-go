@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chaosstudiotarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/chaosstudiotarget/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/chaosstudiotarget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/chaos_studio_target azurerm_chaos_studio_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/chaos_studio_target azurerm_chaos_studio_target}.
 type ChaosStudioTarget interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_ChaosStudioTarget) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/chaos_studio_target azurerm_chaos_studio_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/chaos_studio_target azurerm_chaos_studio_target} Resource.
 func NewChaosStudioTarget(scope constructs.Construct, id *string, config *ChaosStudioTargetConfig) ChaosStudioTarget {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewChaosStudioTarget(scope constructs.Construct, id *string, config *ChaosS
 	j := jsiiProxy_ChaosStudioTarget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewChaosStudioTarget(scope constructs.Construct, id *string, config *ChaosS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/chaos_studio_target azurerm_chaos_studio_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/chaos_studio_target azurerm_chaos_studio_target} Resource.
 func NewChaosStudioTarget_Override(c ChaosStudioTarget, scope constructs.Construct, id *string, config *ChaosStudioTargetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -554,7 +554,7 @@ func ChaosStudioTarget_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func ChaosStudioTarget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func ChaosStudioTarget_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func ChaosStudioTarget_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func ChaosStudioTarget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
 		"tfResourceType",
 		&returns,
 	)

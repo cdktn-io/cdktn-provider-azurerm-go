@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chaosstudioexperiment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/chaosstudioexperiment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/chaosstudioexperiment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment}.
 type ChaosStudioExperiment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ChaosStudioExperiment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment} Resource.
 func NewChaosStudioExperiment(scope constructs.Construct, id *string, config *ChaosStudioExperimentConfig) ChaosStudioExperiment {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewChaosStudioExperiment(scope constructs.Construct, id *string, config *Ch
 	j := jsiiProxy_ChaosStudioExperiment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewChaosStudioExperiment(scope constructs.Construct, id *string, config *Ch
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment} Resource.
 func NewChaosStudioExperiment_Override(c ChaosStudioExperiment, scope constructs.Construct, id *string, config *ChaosStudioExperimentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -624,7 +624,7 @@ func ChaosStudioExperiment_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func ChaosStudioExperiment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func ChaosStudioExperiment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func ChaosStudioExperiment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func ChaosStudioExperiment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
 		"tfResourceType",
 		&returns,
 	)

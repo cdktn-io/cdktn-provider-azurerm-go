@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subscriptiontemplatedeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeployment",
+		"@cdktn/provider-azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeployment",
 		reflect.TypeOf((*SubscriptionTemplateDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeploymentConfig",
+		"@cdktn/provider-azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeploymentConfig",
 		reflect.TypeOf((*SubscriptionTemplateDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeploymentTimeouts",
+		"@cdktn/provider-azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeploymentTimeouts",
 		reflect.TypeOf((*SubscriptionTemplateDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*SubscriptionTemplateDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.provider.AzurermProvider",
+		"@cdktn/provider-azurerm.provider.AzurermProvider",
 		reflect.TypeOf((*AzurermProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -137,87 +137,87 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderConfig",
+		"@cdktn/provider-azurerm.provider.AzurermProviderConfig",
 		reflect.TypeOf((*AzurermProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeatures",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeatures",
 		reflect.TypeOf((*AzurermProviderFeatures)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesApiManagement",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesApiManagement",
 		reflect.TypeOf((*AzurermProviderFeaturesApiManagement)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesAppConfiguration",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesAppConfiguration",
 		reflect.TypeOf((*AzurermProviderFeaturesAppConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesApplicationInsights",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesApplicationInsights",
 		reflect.TypeOf((*AzurermProviderFeaturesApplicationInsights)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesCognitiveAccount",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesCognitiveAccount",
 		reflect.TypeOf((*AzurermProviderFeaturesCognitiveAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesDatabricksWorkspace",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesDatabricksWorkspace",
 		reflect.TypeOf((*AzurermProviderFeaturesDatabricksWorkspace)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesKeyVault",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesKeyVault",
 		reflect.TypeOf((*AzurermProviderFeaturesKeyVault)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesLogAnalyticsWorkspace",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesLogAnalyticsWorkspace",
 		reflect.TypeOf((*AzurermProviderFeaturesLogAnalyticsWorkspace)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesMachineLearning",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesMachineLearning",
 		reflect.TypeOf((*AzurermProviderFeaturesMachineLearning)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesManagedDisk",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesManagedDisk",
 		reflect.TypeOf((*AzurermProviderFeaturesManagedDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesNetapp",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesNetapp",
 		reflect.TypeOf((*AzurermProviderFeaturesNetapp)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesPostgresqlFlexibleServer",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesPostgresqlFlexibleServer",
 		reflect.TypeOf((*AzurermProviderFeaturesPostgresqlFlexibleServer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesRecoveryService",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesRecoveryService",
 		reflect.TypeOf((*AzurermProviderFeaturesRecoveryService)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesRecoveryServicesVaults",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesRecoveryServicesVaults",
 		reflect.TypeOf((*AzurermProviderFeaturesRecoveryServicesVaults)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesResourceGroup",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesResourceGroup",
 		reflect.TypeOf((*AzurermProviderFeaturesResourceGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesStorage",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesStorage",
 		reflect.TypeOf((*AzurermProviderFeaturesStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesSubscription",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesSubscription",
 		reflect.TypeOf((*AzurermProviderFeaturesSubscription)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesTemplateDeployment",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesTemplateDeployment",
 		reflect.TypeOf((*AzurermProviderFeaturesTemplateDeployment)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesVirtualMachine",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesVirtualMachine",
 		reflect.TypeOf((*AzurermProviderFeaturesVirtualMachine)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.provider.AzurermProviderFeaturesVirtualMachineScaleSet",
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesVirtualMachineScaleSet",
 		reflect.TypeOf((*AzurermProviderFeaturesVirtualMachineScaleSet)(nil)).Elem(),
 	)
 }

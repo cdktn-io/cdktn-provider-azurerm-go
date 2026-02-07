@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package signalrservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrService",
+		"@cdktn/provider-azurerm.signalrService.SignalrService",
 		reflect.TypeOf((*SignalrService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aadAuthEnabled", GoGetter: "AadAuthEnabled"},
@@ -136,15 +136,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceConfig",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceConfig",
 		reflect.TypeOf((*SignalrServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceCors",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceCors",
 		reflect.TypeOf((*SignalrServiceCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceCorsList",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceCorsList",
 		reflect.TypeOf((*SignalrServiceCorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceCorsOutputReference",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceCorsOutputReference",
 		reflect.TypeOf((*SignalrServiceCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceIdentity",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceIdentity",
 		reflect.TypeOf((*SignalrServiceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceIdentityOutputReference",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceIdentityOutputReference",
 		reflect.TypeOf((*SignalrServiceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -243,11 +243,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceLiveTrace",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceLiveTrace",
 		reflect.TypeOf((*SignalrServiceLiveTrace)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceLiveTraceOutputReference",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceLiveTraceOutputReference",
 		reflect.TypeOf((*SignalrServiceLiveTraceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -291,11 +291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceSku",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceSku",
 		reflect.TypeOf((*SignalrServiceSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceSkuOutputReference",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceSkuOutputReference",
 		reflect.TypeOf((*SignalrServiceSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -331,11 +331,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceTimeouts",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceTimeouts",
 		reflect.TypeOf((*SignalrServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceTimeoutsOutputReference",
 		reflect.TypeOf((*SignalrServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -379,11 +379,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceUpstreamEndpoint",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceUpstreamEndpoint",
 		reflect.TypeOf((*SignalrServiceUpstreamEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceUpstreamEndpointList",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceUpstreamEndpointList",
 		reflect.TypeOf((*SignalrServiceUpstreamEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -405,7 +405,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceUpstreamEndpointOutputReference",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceUpstreamEndpointOutputReference",
 		reflect.TypeOf((*SignalrServiceUpstreamEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "categoryPattern", GoGetter: "CategoryPattern"},

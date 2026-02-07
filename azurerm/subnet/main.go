@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subnet
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subnet.Subnet",
+		"@cdktn/provider-azurerm.subnet.Subnet",
 		reflect.TypeOf((*Subnet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subnet.SubnetConfig",
+		"@cdktn/provider-azurerm.subnet.SubnetConfig",
 		reflect.TypeOf((*SubnetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subnet.SubnetDelegation",
+		"@cdktn/provider-azurerm.subnet.SubnetDelegation",
 		reflect.TypeOf((*SubnetDelegation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subnet.SubnetDelegationList",
+		"@cdktn/provider-azurerm.subnet.SubnetDelegationList",
 		reflect.TypeOf((*SubnetDelegationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -135,7 +135,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subnet.SubnetDelegationOutputReference",
+		"@cdktn/provider-azurerm.subnet.SubnetDelegationOutputReference",
 		reflect.TypeOf((*SubnetDelegationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -172,11 +172,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subnet.SubnetDelegationServiceDelegation",
+		"@cdktn/provider-azurerm.subnet.SubnetDelegationServiceDelegation",
 		reflect.TypeOf((*SubnetDelegationServiceDelegation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subnet.SubnetDelegationServiceDelegationOutputReference",
+		"@cdktn/provider-azurerm.subnet.SubnetDelegationServiceDelegationOutputReference",
 		reflect.TypeOf((*SubnetDelegationServiceDelegationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subnet.SubnetIpAddressPool",
+		"@cdktn/provider-azurerm.subnet.SubnetIpAddressPool",
 		reflect.TypeOf((*SubnetIpAddressPool)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subnet.SubnetIpAddressPoolOutputReference",
+		"@cdktn/provider-azurerm.subnet.SubnetIpAddressPoolOutputReference",
 		reflect.TypeOf((*SubnetIpAddressPoolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocatedIpAddressPrefixes", GoGetter: "AllocatedIpAddressPrefixes"},
@@ -254,11 +254,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subnet.SubnetTimeouts",
+		"@cdktn/provider-azurerm.subnet.SubnetTimeouts",
 		reflect.TypeOf((*SubnetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subnet.SubnetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.subnet.SubnetTimeoutsOutputReference",
 		reflect.TypeOf((*SubnetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

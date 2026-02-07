@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsub",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsub",
 		reflect.TypeOf((*WebPubsub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aadAuthEnabled", GoGetter: "AadAuthEnabled"},
@@ -113,15 +113,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsubConfig",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsubConfig",
 		reflect.TypeOf((*WebPubsubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsubIdentity",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsubIdentity",
 		reflect.TypeOf((*WebPubsubIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsubIdentityOutputReference",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsubIdentityOutputReference",
 		reflect.TypeOf((*WebPubsubIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsubLiveTrace",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsubLiveTrace",
 		reflect.TypeOf((*WebPubsubLiveTrace)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsubLiveTraceOutputReference",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsubLiveTraceOutputReference",
 		reflect.TypeOf((*WebPubsubLiveTraceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,11 +208,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsubTimeouts",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsubTimeouts",
 		reflect.TypeOf((*WebPubsubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsubTimeoutsOutputReference",
 		reflect.TypeOf((*WebPubsubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

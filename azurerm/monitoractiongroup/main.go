@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoractiongroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroup",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroup",
 		reflect.TypeOf((*MonitorActionGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupArmRoleReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupArmRoleReceiver",
 		reflect.TypeOf((*MonitorActionGroupArmRoleReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupArmRoleReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupArmRoleReceiverList",
 		reflect.TypeOf((*MonitorActionGroupArmRoleReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -155,7 +155,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupArmRoleReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupArmRoleReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupArmRoleReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAutomationRunbookReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAutomationRunbookReceiver",
 		reflect.TypeOf((*MonitorActionGroupAutomationRunbookReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAutomationRunbookReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAutomationRunbookReceiverList",
 		reflect.TypeOf((*MonitorActionGroupAutomationRunbookReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -220,7 +220,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAutomationRunbookReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAutomationRunbookReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupAutomationRunbookReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "automationAccountId", GoGetter: "AutomationAccountId"},
@@ -267,11 +267,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureAppPushReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureAppPushReceiver",
 		reflect.TypeOf((*MonitorActionGroupAzureAppPushReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureAppPushReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureAppPushReceiverList",
 		reflect.TypeOf((*MonitorActionGroupAzureAppPushReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -293,7 +293,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureAppPushReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureAppPushReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupAzureAppPushReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -329,11 +329,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureFunctionReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureFunctionReceiver",
 		reflect.TypeOf((*MonitorActionGroupAzureFunctionReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureFunctionReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureFunctionReceiverList",
 		reflect.TypeOf((*MonitorActionGroupAzureFunctionReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -355,7 +355,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureFunctionReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupAzureFunctionReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupAzureFunctionReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -398,15 +398,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupConfig",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupConfig",
 		reflect.TypeOf((*MonitorActionGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupEmailReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupEmailReceiver",
 		reflect.TypeOf((*MonitorActionGroupEmailReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupEmailReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupEmailReceiverList",
 		reflect.TypeOf((*MonitorActionGroupEmailReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -428,7 +428,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupEmailReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupEmailReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupEmailReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -467,11 +467,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupEventHubReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupEventHubReceiver",
 		reflect.TypeOf((*MonitorActionGroupEventHubReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupEventHubReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupEventHubReceiverList",
 		reflect.TypeOf((*MonitorActionGroupEventHubReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -493,7 +493,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupEventHubReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupEventHubReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupEventHubReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -540,11 +540,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupItsmReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupItsmReceiver",
 		reflect.TypeOf((*MonitorActionGroupItsmReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupItsmReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupItsmReceiverList",
 		reflect.TypeOf((*MonitorActionGroupItsmReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -566,7 +566,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupItsmReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupItsmReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupItsmReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -608,11 +608,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupLogicAppReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupLogicAppReceiver",
 		reflect.TypeOf((*MonitorActionGroupLogicAppReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupLogicAppReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupLogicAppReceiverList",
 		reflect.TypeOf((*MonitorActionGroupLogicAppReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -634,7 +634,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupLogicAppReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupLogicAppReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupLogicAppReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "callbackUrl", GoGetter: "CallbackUrl"},
@@ -675,11 +675,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupSmsReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupSmsReceiver",
 		reflect.TypeOf((*MonitorActionGroupSmsReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupSmsReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupSmsReceiverList",
 		reflect.TypeOf((*MonitorActionGroupSmsReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -701,7 +701,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupSmsReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupSmsReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupSmsReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -739,11 +739,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupTimeouts",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupTimeouts",
 		reflect.TypeOf((*MonitorActionGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupTimeoutsOutputReference",
 		reflect.TypeOf((*MonitorActionGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -787,11 +787,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupVoiceReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupVoiceReceiver",
 		reflect.TypeOf((*MonitorActionGroupVoiceReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupVoiceReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupVoiceReceiverList",
 		reflect.TypeOf((*MonitorActionGroupVoiceReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -813,7 +813,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupVoiceReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupVoiceReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupVoiceReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -851,15 +851,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiver",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiver",
 		reflect.TypeOf((*MonitorActionGroupWebhookReceiver)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverAadAuth",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverAadAuth",
 		reflect.TypeOf((*MonitorActionGroupWebhookReceiverAadAuth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverAadAuthOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverAadAuthOutputReference",
 		reflect.TypeOf((*MonitorActionGroupWebhookReceiverAadAuthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -899,7 +899,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverList",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverList",
 		reflect.TypeOf((*MonitorActionGroupWebhookReceiverList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -921,7 +921,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverOutputReference",
+		"@cdktn/provider-azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverOutputReference",
 		reflect.TypeOf((*MonitorActionGroupWebhookReceiverOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aadAuth", GoGetter: "AadAuth"},

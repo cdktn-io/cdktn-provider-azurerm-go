@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkconnectionmonitor
@@ -7,9 +7,9 @@ package networkconnectionmonitor
 type NetworkConnectionMonitorEndpointFilter struct {
 	// item block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_connection_monitor#item NetworkConnectionMonitor#item}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_connection_monitor#item NetworkConnectionMonitor#item}
 	Item interface{} `field:"optional" json:"item" yaml:"item"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_connection_monitor#type NetworkConnectionMonitor#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_connection_monitor#type NetworkConnectionMonitor#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

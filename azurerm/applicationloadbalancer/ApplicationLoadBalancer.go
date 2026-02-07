@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationloadbalancer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/applicationloadbalancer/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationloadbalancer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_load_balancer azurerm_application_load_balancer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_load_balancer azurerm_application_load_balancer}.
 type ApplicationLoadBalancer interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_ApplicationLoadBalancer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
 func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *ApplicationLoadBalancerConfig) ApplicationLoadBalancer {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ApplicationLoadBalancer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
 func NewApplicationLoadBalancer_Override(a ApplicationLoadBalancer, scope constructs.Construct, id *string, config *ApplicationLoadBalancerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -600,7 +600,7 @@ func ApplicationLoadBalancer_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func ApplicationLoadBalancer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func ApplicationLoadBalancer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func ApplicationLoadBalancer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func ApplicationLoadBalancer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
 		"tfResourceType",
 		&returns,
 	)

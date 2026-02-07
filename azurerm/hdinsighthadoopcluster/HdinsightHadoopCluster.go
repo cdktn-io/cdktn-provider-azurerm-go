@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hdinsighthadoopcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/hdinsighthadoopcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsighthadoopcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster}.
 type HdinsightHadoopCluster interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -828,7 +828,7 @@ func (j *jsiiProxy_HdinsightHadoopCluster) TlsMinVersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster} Resource.
 func NewHdinsightHadoopCluster(scope constructs.Construct, id *string, config *HdinsightHadoopClusterConfig) HdinsightHadoopCluster {
 	_init_.Initialize()
 
@@ -838,7 +838,7 @@ func NewHdinsightHadoopCluster(scope constructs.Construct, id *string, config *H
 	j := jsiiProxy_HdinsightHadoopCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
+		"@cdktn/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -846,12 +846,12 @@ func NewHdinsightHadoopCluster(scope constructs.Construct, id *string, config *H
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_hadoop_cluster azurerm_hdinsight_hadoop_cluster} Resource.
 func NewHdinsightHadoopCluster_Override(h HdinsightHadoopCluster, scope constructs.Construct, id *string, config *HdinsightHadoopClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
+		"@cdktn/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -1023,7 +1023,7 @@ func HdinsightHadoopCluster_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
+		"@cdktn/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1058,7 +1058,7 @@ func HdinsightHadoopCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
+		"@cdktn/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1077,7 +1077,7 @@ func HdinsightHadoopCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
+		"@cdktn/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1096,7 +1096,7 @@ func HdinsightHadoopCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
+		"@cdktn/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1109,7 +1109,7 @@ func HdinsightHadoopCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
+		"@cdktn/provider-azurerm.hdinsightHadoopCluster.HdinsightHadoopCluster",
 		"tfResourceType",
 		&returns,
 	)

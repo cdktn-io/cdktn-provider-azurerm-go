@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermstackhcicluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciCluster",
+		"@cdktn/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciCluster",
 		reflect.TypeOf((*DataAzurermStackHciCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterConfig",
+		"@cdktn/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterConfig",
 		reflect.TypeOf((*DataAzurermStackHciClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterIdentity",
+		"@cdktn/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterIdentity",
 		reflect.TypeOf((*DataAzurermStackHciClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterIdentityList",
 		reflect.TypeOf((*DataAzurermStackHciClusterIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermStackHciClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterTimeouts",
 		reflect.TypeOf((*DataAzurermStackHciClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermStackHciClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

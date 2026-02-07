@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpngateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewVpnGatewayIpConfigurationOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_VpnGatewayIpConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayIpConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewVpnGatewayIpConfigurationOutputReference_Override(v VpnGatewayIpConfigur
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnGateway.VpnGatewayIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.vpnGateway.VpnGatewayIpConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		v,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnfrontdoorfirewallpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorfirewallpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_firewall_policy azurerm_cdn_frontdoor_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_firewall_policy azurerm_cdn_frontdoor_firewall_policy}.
 type CdnFrontdoorFirewallPolicy interface {
 	cdktf.TerraformResource
 	CaptchaCookieExpirationInMinutes() *float64
@@ -701,7 +701,7 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_firewall_policy azurerm_cdn_frontdoor_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_firewall_policy azurerm_cdn_frontdoor_firewall_policy} Resource.
 func NewCdnFrontdoorFirewallPolicy(scope constructs.Construct, id *string, config *CdnFrontdoorFirewallPolicyConfig) CdnFrontdoorFirewallPolicy {
 	_init_.Initialize()
 
@@ -711,7 +711,7 @@ func NewCdnFrontdoorFirewallPolicy(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_CdnFrontdoorFirewallPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
+		"@cdktn/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -719,12 +719,12 @@ func NewCdnFrontdoorFirewallPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_firewall_policy azurerm_cdn_frontdoor_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_firewall_policy azurerm_cdn_frontdoor_firewall_policy} Resource.
 func NewCdnFrontdoorFirewallPolicy_Override(c CdnFrontdoorFirewallPolicy, scope constructs.Construct, id *string, config *CdnFrontdoorFirewallPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
+		"@cdktn/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -951,7 +951,7 @@ func CdnFrontdoorFirewallPolicy_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
+		"@cdktn/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -986,7 +986,7 @@ func CdnFrontdoorFirewallPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
+		"@cdktn/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1005,7 +1005,7 @@ func CdnFrontdoorFirewallPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
+		"@cdktn/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1024,7 +1024,7 @@ func CdnFrontdoorFirewallPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
+		"@cdktn/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1037,7 +1037,7 @@ func CdnFrontdoorFirewallPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
+		"@cdktn/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
 		"tfResourceType",
 		&returns,
 	)

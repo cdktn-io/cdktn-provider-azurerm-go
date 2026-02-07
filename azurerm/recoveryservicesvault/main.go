@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package recoveryservicesvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVault",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVault",
 		reflect.TypeOf((*RecoveryServicesVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -111,15 +111,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultConfig",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultConfig",
 		reflect.TypeOf((*RecoveryServicesVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultEncryption",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultEncryption",
 		reflect.TypeOf((*RecoveryServicesVaultEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultEncryptionOutputReference",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultEncryptionOutputReference",
 		reflect.TypeOf((*RecoveryServicesVaultEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultIdentity",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultIdentity",
 		reflect.TypeOf((*RecoveryServicesVaultIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultIdentityOutputReference",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultIdentityOutputReference",
 		reflect.TypeOf((*RecoveryServicesVaultIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultMonitoring",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultMonitoring",
 		reflect.TypeOf((*RecoveryServicesVaultMonitoring)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultMonitoringOutputReference",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultMonitoringOutputReference",
 		reflect.TypeOf((*RecoveryServicesVaultMonitoringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alertsForAllJobFailuresEnabled", GoGetter: "AlertsForAllJobFailuresEnabled"},
@@ -246,11 +246,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultTimeouts",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultTimeouts",
 		reflect.TypeOf((*RecoveryServicesVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVaultTimeoutsOutputReference",
 		reflect.TypeOf((*RecoveryServicesVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

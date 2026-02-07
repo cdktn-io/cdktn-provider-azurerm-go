@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chaosstudioexperiment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperiment",
 		reflect.TypeOf((*ChaosStudioExperiment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentConfig",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentConfig",
 		reflect.TypeOf((*ChaosStudioExperimentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentIdentity",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentIdentity",
 		reflect.TypeOf((*ChaosStudioExperimentIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentIdentityOutputReference",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentIdentityOutputReference",
 		reflect.TypeOf((*ChaosStudioExperimentIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,11 +133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentSelectors",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentSelectors",
 		reflect.TypeOf((*ChaosStudioExperimentSelectors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentSelectorsList",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentSelectorsList",
 		reflect.TypeOf((*ChaosStudioExperimentSelectorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -159,7 +159,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentSelectorsOutputReference",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentSelectorsOutputReference",
 		reflect.TypeOf((*ChaosStudioExperimentSelectorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "chaosStudioTargetIds", GoGetter: "ChaosStudioTargetIds"},
@@ -195,19 +195,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentSteps",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentSteps",
 		reflect.TypeOf((*ChaosStudioExperimentSteps)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranch",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranch",
 		reflect.TypeOf((*ChaosStudioExperimentStepsBranch)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActions",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActions",
 		reflect.TypeOf((*ChaosStudioExperimentStepsBranchActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActionsList",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActionsList",
 		reflect.TypeOf((*ChaosStudioExperimentStepsBranchActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -229,7 +229,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActionsOutputReference",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActionsOutputReference",
 		reflect.TypeOf((*ChaosStudioExperimentStepsBranchActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionType", GoGetter: "ActionType"},
@@ -275,7 +275,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchList",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchList",
 		reflect.TypeOf((*ChaosStudioExperimentStepsBranchList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -297,7 +297,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchOutputReference",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchOutputReference",
 		reflect.TypeOf((*ChaosStudioExperimentStepsBranchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -334,7 +334,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsList",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsList",
 		reflect.TypeOf((*ChaosStudioExperimentStepsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -356,7 +356,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsOutputReference",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsOutputReference",
 		reflect.TypeOf((*ChaosStudioExperimentStepsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branch", GoGetter: "Branch"},
@@ -393,11 +393,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentTimeouts",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentTimeouts",
 		reflect.TypeOf((*ChaosStudioExperimentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.chaosStudioExperiment.ChaosStudioExperimentTimeoutsOutputReference",
 		reflect.TypeOf((*ChaosStudioExperimentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package confidentialledger
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedger",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedger",
 		reflect.TypeOf((*ConfidentialLedger)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,11 +90,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerAzureadBasedServicePrincipal",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerAzureadBasedServicePrincipal",
 		reflect.TypeOf((*ConfidentialLedgerAzureadBasedServicePrincipal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerAzureadBasedServicePrincipalList",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerAzureadBasedServicePrincipalList",
 		reflect.TypeOf((*ConfidentialLedgerAzureadBasedServicePrincipalList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerAzureadBasedServicePrincipalOutputReference",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerAzureadBasedServicePrincipalOutputReference",
 		reflect.TypeOf((*ConfidentialLedgerAzureadBasedServicePrincipalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerCertificateBasedSecurityPrincipal",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerCertificateBasedSecurityPrincipal",
 		reflect.TypeOf((*ConfidentialLedgerCertificateBasedSecurityPrincipal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerCertificateBasedSecurityPrincipalList",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerCertificateBasedSecurityPrincipalList",
 		reflect.TypeOf((*ConfidentialLedgerCertificateBasedSecurityPrincipalList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -180,7 +180,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerCertificateBasedSecurityPrincipalOutputReference",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerCertificateBasedSecurityPrincipalOutputReference",
 		reflect.TypeOf((*ConfidentialLedgerCertificateBasedSecurityPrincipalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -216,15 +216,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerConfig",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerConfig",
 		reflect.TypeOf((*ConfidentialLedgerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerTimeouts",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerTimeouts",
 		reflect.TypeOf((*ConfidentialLedgerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.confidentialLedger.ConfidentialLedgerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.confidentialLedger.ConfidentialLedgerTimeoutsOutputReference",
 		reflect.TypeOf((*ConfidentialLedgerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

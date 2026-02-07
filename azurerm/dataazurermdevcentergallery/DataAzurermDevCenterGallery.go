@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdevcentergallery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdevcentergallery/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdevcentergallery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dev_center_gallery azurerm_dev_center_gallery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dev_center_gallery azurerm_dev_center_gallery}.
 type DataAzurermDevCenterGallery interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataAzurermDevCenterGallery) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dev_center_gallery azurerm_dev_center_gallery} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dev_center_gallery azurerm_dev_center_gallery} Data Source.
 func NewDataAzurermDevCenterGallery(scope constructs.Construct, id *string, config *DataAzurermDevCenterGalleryConfig) DataAzurermDevCenterGallery {
 	_init_.Initialize()
 
@@ -356,7 +356,7 @@ func NewDataAzurermDevCenterGallery(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAzurermDevCenterGallery{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -364,12 +364,12 @@ func NewDataAzurermDevCenterGallery(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dev_center_gallery azurerm_dev_center_gallery} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dev_center_gallery azurerm_dev_center_gallery} Data Source.
 func NewDataAzurermDevCenterGallery_Override(d DataAzurermDevCenterGallery, scope constructs.Construct, id *string, config *DataAzurermDevCenterGalleryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -464,7 +464,7 @@ func DataAzurermDevCenterGallery_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -499,7 +499,7 @@ func DataAzurermDevCenterGallery_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -518,7 +518,7 @@ func DataAzurermDevCenterGallery_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -537,7 +537,7 @@ func DataAzurermDevCenterGallery_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataAzurermDevCenterGallery_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
 		"tfResourceType",
 		&returns,
 	)

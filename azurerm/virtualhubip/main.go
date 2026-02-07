@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualhubip
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIp",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIp",
 		reflect.TypeOf((*VirtualHubIp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIpConfig",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIpConfig",
 		reflect.TypeOf((*VirtualHubIpConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIpTimeouts",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIpTimeouts",
 		reflect.TypeOf((*VirtualHubIpTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIpTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIpTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualHubIpTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

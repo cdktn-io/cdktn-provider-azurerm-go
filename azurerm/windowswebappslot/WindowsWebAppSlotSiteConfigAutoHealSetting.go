@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowswebappslot
@@ -7,11 +7,11 @@ package windowswebappslot
 type WindowsWebAppSlotSiteConfigAutoHealSetting struct {
 	// action block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/windows_web_app_slot#action WindowsWebAppSlot#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/windows_web_app_slot#action WindowsWebAppSlot#action}
 	Action *WindowsWebAppSlotSiteConfigAutoHealSettingAction `field:"required" json:"action" yaml:"action"`
 	// trigger block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/windows_web_app_slot#trigger WindowsWebAppSlot#trigger}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/windows_web_app_slot#trigger WindowsWebAppSlot#trigger}
 	Trigger *WindowsWebAppSlotSiteConfigAutoHealSettingTrigger `field:"required" json:"trigger" yaml:"trigger"`
 }
 

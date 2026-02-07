@@ -1,19 +1,19 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package maintenanceconfiguration
 
 
 type MaintenanceConfigurationWindow struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maintenance_configuration#start_date_time MaintenanceConfiguration#start_date_time}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maintenance_configuration#start_date_time MaintenanceConfiguration#start_date_time}.
 	StartDateTime *string `field:"required" json:"startDateTime" yaml:"startDateTime"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maintenance_configuration#time_zone MaintenanceConfiguration#time_zone}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maintenance_configuration#time_zone MaintenanceConfiguration#time_zone}.
 	TimeZone *string `field:"required" json:"timeZone" yaml:"timeZone"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maintenance_configuration#duration MaintenanceConfiguration#duration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maintenance_configuration#duration MaintenanceConfiguration#duration}.
 	Duration *string `field:"optional" json:"duration" yaml:"duration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maintenance_configuration#expiration_date_time MaintenanceConfiguration#expiration_date_time}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maintenance_configuration#expiration_date_time MaintenanceConfiguration#expiration_date_time}.
 	ExpirationDateTime *string `field:"optional" json:"expirationDateTime" yaml:"expirationDateTime"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maintenance_configuration#recur_every MaintenanceConfiguration#recur_every}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maintenance_configuration#recur_every MaintenanceConfiguration#recur_every}.
 	RecurEvery *string `field:"optional" json:"recurEvery" yaml:"recurEvery"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermstorageaccountblobcontainersas
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermstorageaccountblobcontainersas/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermstorageaccountblobcontainersas/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas}.
 type DataAzurermStorageAccountBlobContainerSas interface {
 	cdktf.TerraformDataSource
 	CacheControl() *string
@@ -583,7 +583,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas} Data Source.
 func NewDataAzurermStorageAccountBlobContainerSas(scope constructs.Construct, id *string, config *DataAzurermStorageAccountBlobContainerSasConfig) DataAzurermStorageAccountBlobContainerSas {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewDataAzurermStorageAccountBlobContainerSas(scope constructs.Construct, id
 	j := jsiiProxy_DataAzurermStorageAccountBlobContainerSas{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
+		"@cdktn/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -601,12 +601,12 @@ func NewDataAzurermStorageAccountBlobContainerSas(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas} Data Source.
 func NewDataAzurermStorageAccountBlobContainerSas_Override(d DataAzurermStorageAccountBlobContainerSas, scope constructs.Construct, id *string, config *DataAzurermStorageAccountBlobContainerSasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
+		"@cdktn/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -800,7 +800,7 @@ func DataAzurermStorageAccountBlobContainerSas_GenerateConfigForImport(scope con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
+		"@cdktn/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -835,7 +835,7 @@ func DataAzurermStorageAccountBlobContainerSas_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
+		"@cdktn/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -854,7 +854,7 @@ func DataAzurermStorageAccountBlobContainerSas_IsTerraformDataSource(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
+		"@cdktn/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func DataAzurermStorageAccountBlobContainerSas_IsTerraformElement(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
+		"@cdktn/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func DataAzurermStorageAccountBlobContainerSas_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
+		"@cdktn/provider-azurerm.dataAzurermStorageAccountBlobContainerSas.DataAzurermStorageAccountBlobContainerSas",
 		"tfResourceType",
 		&returns,
 	)

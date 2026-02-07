@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcepolicyassignment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignment",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignment",
 		reflect.TypeOf((*ResourcePolicyAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -113,15 +113,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentConfig",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentConfig",
 		reflect.TypeOf((*ResourcePolicyAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentIdentity",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentIdentity",
 		reflect.TypeOf((*ResourcePolicyAssignmentIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentIdentityOutputReference",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentIdentityOutputReference",
 		reflect.TypeOf((*ResourcePolicyAssignmentIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentNonComplianceMessage",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentNonComplianceMessage",
 		reflect.TypeOf((*ResourcePolicyAssignmentNonComplianceMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentNonComplianceMessageList",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentNonComplianceMessageList",
 		reflect.TypeOf((*ResourcePolicyAssignmentNonComplianceMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -186,7 +186,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentNonComplianceMessageOutputReference",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentNonComplianceMessageOutputReference",
 		reflect.TypeOf((*ResourcePolicyAssignmentNonComplianceMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -223,11 +223,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverrides",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverrides",
 		reflect.TypeOf((*ResourcePolicyAssignmentOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesList",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesList",
 		reflect.TypeOf((*ResourcePolicyAssignmentOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -249,7 +249,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesOutputReference",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesOutputReference",
 		reflect.TypeOf((*ResourcePolicyAssignmentOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -287,11 +287,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesSelectors",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesSelectors",
 		reflect.TypeOf((*ResourcePolicyAssignmentOverridesSelectors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesSelectorsList",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesSelectorsList",
 		reflect.TypeOf((*ResourcePolicyAssignmentOverridesSelectorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -313,7 +313,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesSelectorsOutputReference",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesSelectorsOutputReference",
 		reflect.TypeOf((*ResourcePolicyAssignmentOverridesSelectorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -354,11 +354,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectors",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectors",
 		reflect.TypeOf((*ResourcePolicyAssignmentResourceSelectors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsList",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsList",
 		reflect.TypeOf((*ResourcePolicyAssignmentResourceSelectorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -380,7 +380,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsOutputReference",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsOutputReference",
 		reflect.TypeOf((*ResourcePolicyAssignmentResourceSelectorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -418,11 +418,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsSelectors",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsSelectors",
 		reflect.TypeOf((*ResourcePolicyAssignmentResourceSelectorsSelectors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsSelectorsList",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsSelectorsList",
 		reflect.TypeOf((*ResourcePolicyAssignmentResourceSelectorsSelectorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -444,7 +444,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsSelectorsOutputReference",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentResourceSelectorsSelectorsOutputReference",
 		reflect.TypeOf((*ResourcePolicyAssignmentResourceSelectorsSelectorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -484,11 +484,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentTimeouts",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentTimeouts",
 		reflect.TypeOf((*ResourcePolicyAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*ResourcePolicyAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

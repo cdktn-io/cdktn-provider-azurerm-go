@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagedatalakegen2filesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagedatalakegen2filesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagedatalakegen2filesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewStorageDataLakeGen2FilesystemAceList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_StorageDataLakeGen2FilesystemAceList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2FilesystemAceList",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2FilesystemAceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewStorageDataLakeGen2FilesystemAceList_Override(s StorageDataLakeGen2Files
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2FilesystemAceList",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2FilesystemAceList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

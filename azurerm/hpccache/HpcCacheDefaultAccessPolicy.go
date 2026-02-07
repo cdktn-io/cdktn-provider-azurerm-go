@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccache
@@ -7,7 +7,7 @@ package hpccache
 type HpcCacheDefaultAccessPolicy struct {
 	// access_rule block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache#access_rule HpcCache#access_rule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache#access_rule HpcCache#access_rule}
 	AccessRule interface{} `field:"required" json:"accessRule" yaml:"accessRule"`
 }
 

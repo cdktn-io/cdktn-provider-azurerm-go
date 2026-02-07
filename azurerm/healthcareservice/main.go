@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcareservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareService",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
 		reflect.TypeOf((*HealthcareService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicyObjectIds", GoGetter: "AccessPolicyObjectIds"},
@@ -109,11 +109,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceAuthenticationConfiguration",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceAuthenticationConfiguration",
 		reflect.TypeOf((*HealthcareServiceAuthenticationConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceAuthenticationConfigurationOutputReference",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceAuthenticationConfigurationOutputReference",
 		reflect.TypeOf((*HealthcareServiceAuthenticationConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audience", GoGetter: "Audience"},
@@ -154,15 +154,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceConfig",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceConfig",
 		reflect.TypeOf((*HealthcareServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceCorsConfiguration",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceCorsConfiguration",
 		reflect.TypeOf((*HealthcareServiceCorsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceCorsConfigurationOutputReference",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceCorsConfigurationOutputReference",
 		reflect.TypeOf((*HealthcareServiceCorsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowCredentials", GoGetter: "AllowCredentials"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceIdentity",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceIdentity",
 		reflect.TypeOf((*HealthcareServiceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceIdentityOutputReference",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceIdentityOutputReference",
 		reflect.TypeOf((*HealthcareServiceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,11 +249,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceTimeouts",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceTimeouts",
 		reflect.TypeOf((*HealthcareServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareServiceTimeoutsOutputReference",
 		reflect.TypeOf((*HealthcareServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

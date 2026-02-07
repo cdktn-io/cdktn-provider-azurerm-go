@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachineextension
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
 		reflect.TypeOf((*VirtualMachineExtension)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionConfig",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionConfig",
 		reflect.TypeOf((*VirtualMachineExtensionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionProtectedSettingsFromKeyVault",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionProtectedSettingsFromKeyVault",
 		reflect.TypeOf((*VirtualMachineExtensionProtectedSettingsFromKeyVault)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReference",
 		reflect.TypeOf((*VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionTimeouts",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionTimeouts",
 		reflect.TypeOf((*VirtualMachineExtensionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtensionTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualMachineExtensionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

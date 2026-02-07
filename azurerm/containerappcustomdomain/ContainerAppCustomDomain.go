@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerappcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/containerappcustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerappcustomdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_custom_domain azurerm_container_app_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_custom_domain azurerm_container_app_custom_domain}.
 type ContainerAppCustomDomain interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_ContainerAppCustomDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_custom_domain azurerm_container_app_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_custom_domain azurerm_container_app_custom_domain} Resource.
 func NewContainerAppCustomDomain(scope constructs.Construct, id *string, config *ContainerAppCustomDomainConfig) ContainerAppCustomDomain {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewContainerAppCustomDomain(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_ContainerAppCustomDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewContainerAppCustomDomain(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_custom_domain azurerm_container_app_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_custom_domain azurerm_container_app_custom_domain} Resource.
 func NewContainerAppCustomDomain_Override(c ContainerAppCustomDomain, scope constructs.Construct, id *string, config *ContainerAppCustomDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -601,7 +601,7 @@ func ContainerAppCustomDomain_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func ContainerAppCustomDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func ContainerAppCustomDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ContainerAppCustomDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func ContainerAppCustomDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
 		"tfResourceType",
 		&returns,
 	)

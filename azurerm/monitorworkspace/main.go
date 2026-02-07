@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitorworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspace",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspace",
 		reflect.TypeOf((*MonitorWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspaceConfig",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspaceConfig",
 		reflect.TypeOf((*MonitorWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspaceTimeouts",
 		reflect.TypeOf((*MonitorWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*MonitorWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

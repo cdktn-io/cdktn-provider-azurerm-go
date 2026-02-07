@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwarecluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareCluster",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareCluster",
 		reflect.TypeOf((*VmwareCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareClusterConfig",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareClusterConfig",
 		reflect.TypeOf((*VmwareClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareClusterTimeouts",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareClusterTimeouts",
 		reflect.TypeOf((*VmwareClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwareCluster.VmwareClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.vmwareCluster.VmwareClusterTimeoutsOutputReference",
 		reflect.TypeOf((*VmwareClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

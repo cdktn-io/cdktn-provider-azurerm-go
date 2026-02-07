@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorylinkedservicecosmosdb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorylinkedservicecosmosdb/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedservicecosmosdb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_cosmosdb azurerm_data_factory_linked_service_cosmosdb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_cosmosdb azurerm_data_factory_linked_service_cosmosdb}.
 type DataFactoryLinkedServiceCosmosdb interface {
 	cdktf.TerraformResource
 	AccountEndpoint() *string
@@ -596,7 +596,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceCosmosdb) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_cosmosdb azurerm_data_factory_linked_service_cosmosdb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_cosmosdb azurerm_data_factory_linked_service_cosmosdb} Resource.
 func NewDataFactoryLinkedServiceCosmosdb(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceCosmosdbConfig) DataFactoryLinkedServiceCosmosdb {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewDataFactoryLinkedServiceCosmosdb(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataFactoryLinkedServiceCosmosdb{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -614,12 +614,12 @@ func NewDataFactoryLinkedServiceCosmosdb(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_cosmosdb azurerm_data_factory_linked_service_cosmosdb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_cosmosdb azurerm_data_factory_linked_service_cosmosdb} Resource.
 func NewDataFactoryLinkedServiceCosmosdb_Override(d DataFactoryLinkedServiceCosmosdb, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceCosmosdbConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -835,7 +835,7 @@ func DataFactoryLinkedServiceCosmosdb_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -870,7 +870,7 @@ func DataFactoryLinkedServiceCosmosdb_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -889,7 +889,7 @@ func DataFactoryLinkedServiceCosmosdb_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +908,7 @@ func DataFactoryLinkedServiceCosmosdb_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func DataFactoryLinkedServiceCosmosdb_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceCosmosdb.DataFactoryLinkedServiceCosmosdb",
 		"tfResourceType",
 		&returns,
 	)

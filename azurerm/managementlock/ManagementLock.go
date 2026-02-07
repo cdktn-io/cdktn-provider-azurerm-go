@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managementlock
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/managementlock/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managementlock/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_lock azurerm_management_lock}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_lock azurerm_management_lock}.
 type ManagementLock interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_ManagementLock) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_lock azurerm_management_lock} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_lock azurerm_management_lock} Resource.
 func NewManagementLock(scope constructs.Construct, id *string, config *ManagementLockConfig) ManagementLock {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewManagementLock(scope constructs.Construct, id *string, config *Managemen
 	j := jsiiProxy_ManagementLock{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managementLock.ManagementLock",
+		"@cdktn/provider-azurerm.managementLock.ManagementLock",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewManagementLock(scope constructs.Construct, id *string, config *Managemen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_lock azurerm_management_lock} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_lock azurerm_management_lock} Resource.
 func NewManagementLock_Override(m ManagementLock, scope constructs.Construct, id *string, config *ManagementLockConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managementLock.ManagementLock",
+		"@cdktn/provider-azurerm.managementLock.ManagementLock",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -589,7 +589,7 @@ func ManagementLock_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementLock.ManagementLock",
+		"@cdktn/provider-azurerm.managementLock.ManagementLock",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func ManagementLock_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementLock.ManagementLock",
+		"@cdktn/provider-azurerm.managementLock.ManagementLock",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func ManagementLock_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementLock.ManagementLock",
+		"@cdktn/provider-azurerm.managementLock.ManagementLock",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func ManagementLock_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementLock.ManagementLock",
+		"@cdktn/provider-azurerm.managementLock.ManagementLock",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func ManagementLock_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.managementLock.ManagementLock",
+		"@cdktn/provider-azurerm.managementLock.ManagementLock",
 		"tfResourceType",
 		&returns,
 	)

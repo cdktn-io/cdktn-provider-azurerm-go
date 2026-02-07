@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emailcommunicationservicedomainsenderusername
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/emailcommunicationservicedomainsenderusername/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/emailcommunicationservicedomainsenderusername/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/email_communication_service_domain_sender_username azurerm_email_communication_service_domain_sender_username}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/email_communication_service_domain_sender_username azurerm_email_communication_service_domain_sender_username}.
 type EmailCommunicationServiceDomainSenderUsername interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainSenderUsername) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/email_communication_service_domain_sender_username azurerm_email_communication_service_domain_sender_username} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/email_communication_service_domain_sender_username azurerm_email_communication_service_domain_sender_username} Resource.
 func NewEmailCommunicationServiceDomainSenderUsername(scope constructs.Construct, id *string, config *EmailCommunicationServiceDomainSenderUsernameConfig) EmailCommunicationServiceDomainSenderUsername {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewEmailCommunicationServiceDomainSenderUsername(scope constructs.Construct
 	j := jsiiProxy_EmailCommunicationServiceDomainSenderUsername{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
+		"@cdktn/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewEmailCommunicationServiceDomainSenderUsername(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/email_communication_service_domain_sender_username azurerm_email_communication_service_domain_sender_username} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/email_communication_service_domain_sender_username azurerm_email_communication_service_domain_sender_username} Resource.
 func NewEmailCommunicationServiceDomainSenderUsername_Override(e EmailCommunicationServiceDomainSenderUsername, scope constructs.Construct, id *string, config *EmailCommunicationServiceDomainSenderUsernameConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
+		"@cdktn/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -555,7 +555,7 @@ func EmailCommunicationServiceDomainSenderUsername_GenerateConfigForImport(scope
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
+		"@cdktn/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func EmailCommunicationServiceDomainSenderUsername_IsConstruct(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
+		"@cdktn/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func EmailCommunicationServiceDomainSenderUsername_IsTerraformElement(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
+		"@cdktn/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func EmailCommunicationServiceDomainSenderUsername_IsTerraformResource(x interfa
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
+		"@cdktn/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func EmailCommunicationServiceDomainSenderUsername_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
+		"@cdktn/provider-azurerm.emailCommunicationServiceDomainSenderUsername.EmailCommunicationServiceDomainSenderUsername",
 		"tfResourceType",
 		&returns,
 	)

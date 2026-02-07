@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package purviewaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/purviewaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/purviewaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewPurviewAccountManagedResourcesOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_PurviewAccountManagedResourcesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountManagedResourcesOutputReference",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountManagedResourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewPurviewAccountManagedResourcesOutputReference_Override(p PurviewAccountM
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.purviewAccount.PurviewAccountManagedResourcesOutputReference",
+		"@cdktn/provider-azurerm.purviewAccount.PurviewAccountManagedResourcesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		p,
 	)

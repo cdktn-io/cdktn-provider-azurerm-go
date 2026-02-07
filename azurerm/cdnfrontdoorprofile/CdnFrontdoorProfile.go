@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnfrontdoorprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile}.
 type CdnFrontdoorProfile interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_CdnFrontdoorProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile} Resource.
 func NewCdnFrontdoorProfile(scope constructs.Construct, id *string, config *CdnFrontdoorProfileConfig) CdnFrontdoorProfile {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewCdnFrontdoorProfile(scope constructs.Construct, id *string, config *CdnF
 	j := jsiiProxy_CdnFrontdoorProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewCdnFrontdoorProfile(scope constructs.Construct, id *string, config *CdnF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_profile azurerm_cdn_frontdoor_profile} Resource.
 func NewCdnFrontdoorProfile_Override(c CdnFrontdoorProfile, scope constructs.Construct, id *string, config *CdnFrontdoorProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -683,7 +683,7 @@ func CdnFrontdoorProfile_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func CdnFrontdoorProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func CdnFrontdoorProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func CdnFrontdoorProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func CdnFrontdoorProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
 		"tfResourceType",
 		&returns,
 	)

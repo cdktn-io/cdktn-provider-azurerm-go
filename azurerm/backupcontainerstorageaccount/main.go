@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backupcontainerstorageaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupContainerStorageAccount.BackupContainerStorageAccount",
+		"@cdktn/provider-azurerm.backupContainerStorageAccount.BackupContainerStorageAccount",
 		reflect.TypeOf((*BackupContainerStorageAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupContainerStorageAccount.BackupContainerStorageAccountConfig",
+		"@cdktn/provider-azurerm.backupContainerStorageAccount.BackupContainerStorageAccountConfig",
 		reflect.TypeOf((*BackupContainerStorageAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupContainerStorageAccount.BackupContainerStorageAccountTimeouts",
+		"@cdktn/provider-azurerm.backupContainerStorageAccount.BackupContainerStorageAccountTimeouts",
 		reflect.TypeOf((*BackupContainerStorageAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupContainerStorageAccount.BackupContainerStorageAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.backupContainerStorageAccount.BackupContainerStorageAccountTimeoutsOutputReference",
 		reflect.TypeOf((*BackupContainerStorageAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

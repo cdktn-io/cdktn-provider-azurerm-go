@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devcentercatalog
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterCatalog.DevCenterCatalog",
+		"@cdktn/provider-azurerm.devCenterCatalog.DevCenterCatalog",
 		reflect.TypeOf((*DevCenterCatalog)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,11 +84,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterCatalog.DevCenterCatalogCatalogAdogit",
+		"@cdktn/provider-azurerm.devCenterCatalog.DevCenterCatalogCatalogAdogit",
 		reflect.TypeOf((*DevCenterCatalogCatalogAdogit)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterCatalog.DevCenterCatalogCatalogAdogitOutputReference",
+		"@cdktn/provider-azurerm.devCenterCatalog.DevCenterCatalogCatalogAdogitOutputReference",
 		reflect.TypeOf((*DevCenterCatalogCatalogAdogitOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branch", GoGetter: "Branch"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterCatalog.DevCenterCatalogCatalogGithub",
+		"@cdktn/provider-azurerm.devCenterCatalog.DevCenterCatalogCatalogGithub",
 		reflect.TypeOf((*DevCenterCatalogCatalogGithub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterCatalog.DevCenterCatalogCatalogGithubOutputReference",
+		"@cdktn/provider-azurerm.devCenterCatalog.DevCenterCatalogCatalogGithubOutputReference",
 		reflect.TypeOf((*DevCenterCatalogCatalogGithubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branch", GoGetter: "Branch"},
@@ -172,15 +172,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterCatalog.DevCenterCatalogConfig",
+		"@cdktn/provider-azurerm.devCenterCatalog.DevCenterCatalogConfig",
 		reflect.TypeOf((*DevCenterCatalogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterCatalog.DevCenterCatalogTimeouts",
+		"@cdktn/provider-azurerm.devCenterCatalog.DevCenterCatalogTimeouts",
 		reflect.TypeOf((*DevCenterCatalogTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterCatalog.DevCenterCatalogTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.devCenterCatalog.DevCenterCatalogTimeoutsOutputReference",
 		reflect.TypeOf((*DevCenterCatalogTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

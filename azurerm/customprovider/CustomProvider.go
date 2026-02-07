@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package customprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/customprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/customprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/custom_provider azurerm_custom_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/custom_provider azurerm_custom_provider}.
 type CustomProvider interface {
 	cdktf.TerraformResource
 	Action() CustomProviderActionList
@@ -499,7 +499,7 @@ func (j *jsiiProxy_CustomProvider) ValidationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/custom_provider azurerm_custom_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/custom_provider azurerm_custom_provider} Resource.
 func NewCustomProvider(scope constructs.Construct, id *string, config *CustomProviderConfig) CustomProvider {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewCustomProvider(scope constructs.Construct, id *string, config *CustomPro
 	j := jsiiProxy_CustomProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.customProvider.CustomProvider",
+		"@cdktn/provider-azurerm.customProvider.CustomProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,12 +517,12 @@ func NewCustomProvider(scope constructs.Construct, id *string, config *CustomPro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/custom_provider azurerm_custom_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/custom_provider azurerm_custom_provider} Resource.
 func NewCustomProvider_Override(c CustomProvider, scope constructs.Construct, id *string, config *CustomProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.customProvider.CustomProvider",
+		"@cdktn/provider-azurerm.customProvider.CustomProvider",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -661,7 +661,7 @@ func CustomProvider_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.customProvider.CustomProvider",
+		"@cdktn/provider-azurerm.customProvider.CustomProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -696,7 +696,7 @@ func CustomProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.customProvider.CustomProvider",
+		"@cdktn/provider-azurerm.customProvider.CustomProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -715,7 +715,7 @@ func CustomProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.customProvider.CustomProvider",
+		"@cdktn/provider-azurerm.customProvider.CustomProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func CustomProvider_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.customProvider.CustomProvider",
+		"@cdktn/provider-azurerm.customProvider.CustomProvider",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func CustomProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.customProvider.CustomProvider",
+		"@cdktn/provider-azurerm.customProvider.CustomProvider",
 		"tfResourceType",
 		&returns,
 	)

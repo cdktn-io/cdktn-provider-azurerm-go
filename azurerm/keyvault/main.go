@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVault.KeyVault",
+		"@cdktn/provider-azurerm.keyVault.KeyVault",
 		reflect.TypeOf((*KeyVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicy", GoGetter: "AccessPolicy"},
@@ -120,11 +120,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultAccessPolicy",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultAccessPolicy",
 		reflect.TypeOf((*KeyVaultAccessPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultAccessPolicyList",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultAccessPolicyList",
 		reflect.TypeOf((*KeyVaultAccessPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultAccessPolicyOutputReference",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultAccessPolicyOutputReference",
 		reflect.TypeOf((*KeyVaultAccessPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationId", GoGetter: "ApplicationId"},
@@ -199,15 +199,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultConfig",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultConfig",
 		reflect.TypeOf((*KeyVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultContact",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultContact",
 		reflect.TypeOf((*KeyVaultContact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultContactList",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultContactList",
 		reflect.TypeOf((*KeyVaultContactList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -229,7 +229,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultContactOutputReference",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultContactOutputReference",
 		reflect.TypeOf((*KeyVaultContactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -269,11 +269,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultNetworkAcls",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultNetworkAcls",
 		reflect.TypeOf((*KeyVaultNetworkAcls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultNetworkAclsOutputReference",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultNetworkAclsOutputReference",
 		reflect.TypeOf((*KeyVaultNetworkAclsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bypass", GoGetter: "Bypass"},
@@ -315,11 +315,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultTimeouts",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultTimeouts",
 		reflect.TypeOf((*KeyVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVault.KeyVaultTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.keyVault.KeyVaultTimeoutsOutputReference",
 		reflect.TypeOf((*KeyVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

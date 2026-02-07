@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermexpressroutecircuitpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermexpressroutecircuitpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermexpressroutecircuitpeering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering}.
 type DataAzurermExpressRouteCircuitPeering interface {
 	cdktf.TerraformDataSource
 	AzureAsn() *float64
@@ -479,7 +479,7 @@ func (j *jsiiProxy_DataAzurermExpressRouteCircuitPeering) VlanId() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering} Data Source.
 func NewDataAzurermExpressRouteCircuitPeering(scope constructs.Construct, id *string, config *DataAzurermExpressRouteCircuitPeeringConfig) DataAzurermExpressRouteCircuitPeering {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewDataAzurermExpressRouteCircuitPeering(scope constructs.Construct, id *st
 	j := jsiiProxy_DataAzurermExpressRouteCircuitPeering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -497,12 +497,12 @@ func NewDataAzurermExpressRouteCircuitPeering(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/express_route_circuit_peering azurerm_express_route_circuit_peering} Data Source.
 func NewDataAzurermExpressRouteCircuitPeering_Override(d DataAzurermExpressRouteCircuitPeering, scope constructs.Construct, id *string, config *DataAzurermExpressRouteCircuitPeeringConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -608,7 +608,7 @@ func DataAzurermExpressRouteCircuitPeering_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -643,7 +643,7 @@ func DataAzurermExpressRouteCircuitPeering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func DataAzurermExpressRouteCircuitPeering_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -681,7 +681,7 @@ func DataAzurermExpressRouteCircuitPeering_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func DataAzurermExpressRouteCircuitPeering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuitPeering.DataAzurermExpressRouteCircuitPeering",
 		"tfResourceType",
 		&returns,
 	)

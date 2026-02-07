@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mysqlflexibleserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServer",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServer",
 		reflect.TypeOf((*MysqlFlexibleServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerConfig",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerConfig",
 		reflect.TypeOf((*MysqlFlexibleServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerCustomerManagedKey",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerCustomerManagedKey",
 		reflect.TypeOf((*MysqlFlexibleServerCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*MysqlFlexibleServerCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -205,11 +205,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerHighAvailability",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerHighAvailability",
 		reflect.TypeOf((*MysqlFlexibleServerHighAvailability)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerHighAvailabilityOutputReference",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerHighAvailabilityOutputReference",
 		reflect.TypeOf((*MysqlFlexibleServerHighAvailabilityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -246,11 +246,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerIdentity",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerIdentity",
 		reflect.TypeOf((*MysqlFlexibleServerIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerIdentityOutputReference",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerIdentityOutputReference",
 		reflect.TypeOf((*MysqlFlexibleServerIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -286,11 +286,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerMaintenanceWindow",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerMaintenanceWindow",
 		reflect.TypeOf((*MysqlFlexibleServerMaintenanceWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerMaintenanceWindowOutputReference",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerMaintenanceWindowOutputReference",
 		reflect.TypeOf((*MysqlFlexibleServerMaintenanceWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -331,11 +331,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerStorage",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerStorage",
 		reflect.TypeOf((*MysqlFlexibleServerStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerStorageOutputReference",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerStorageOutputReference",
 		reflect.TypeOf((*MysqlFlexibleServerStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoGrowEnabled", GoGetter: "AutoGrowEnabled"},
@@ -382,11 +382,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerTimeouts",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerTimeouts",
 		reflect.TypeOf((*MysqlFlexibleServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServerTimeoutsOutputReference",
 		reflect.TypeOf((*MysqlFlexibleServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

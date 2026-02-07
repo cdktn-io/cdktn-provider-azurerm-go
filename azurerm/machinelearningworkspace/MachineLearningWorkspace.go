@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearningworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/machinelearningworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/machinelearningworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace}.
 type MachineLearningWorkspace interface {
 	cdktf.TerraformResource
 	ApplicationInsightsId() *string
@@ -901,7 +901,7 @@ func (j *jsiiProxy_MachineLearningWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace} Resource.
 func NewMachineLearningWorkspace(scope constructs.Construct, id *string, config *MachineLearningWorkspaceConfig) MachineLearningWorkspace {
 	_init_.Initialize()
 
@@ -911,7 +911,7 @@ func NewMachineLearningWorkspace(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_MachineLearningWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -919,12 +919,12 @@ func NewMachineLearningWorkspace(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace} Resource.
 func NewMachineLearningWorkspace_Override(m MachineLearningWorkspace, scope constructs.Construct, id *string, config *MachineLearningWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1217,7 +1217,7 @@ func MachineLearningWorkspace_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1252,7 +1252,7 @@ func MachineLearningWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1271,7 +1271,7 @@ func MachineLearningWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1290,7 +1290,7 @@ func MachineLearningWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1303,7 +1303,7 @@ func MachineLearningWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
 		"tfResourceType",
 		&returns,
 	)

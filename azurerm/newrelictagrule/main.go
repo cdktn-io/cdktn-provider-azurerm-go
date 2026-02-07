@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package newrelictagrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRule",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
 		reflect.TypeOf((*NewRelicTagRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activityLogEnabled", GoGetter: "ActivityLogEnabled"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleConfig",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleConfig",
 		reflect.TypeOf((*NewRelicTagRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleLogTagFilter",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleLogTagFilter",
 		reflect.TypeOf((*NewRelicTagRuleLogTagFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleLogTagFilterList",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleLogTagFilterList",
 		reflect.TypeOf((*NewRelicTagRuleLogTagFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleLogTagFilterOutputReference",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleLogTagFilterOutputReference",
 		reflect.TypeOf((*NewRelicTagRuleLogTagFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleMetricTagFilter",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleMetricTagFilter",
 		reflect.TypeOf((*NewRelicTagRuleMetricTagFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleMetricTagFilterList",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleMetricTagFilterList",
 		reflect.TypeOf((*NewRelicTagRuleMetricTagFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -186,7 +186,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleMetricTagFilterOutputReference",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleMetricTagFilterOutputReference",
 		reflect.TypeOf((*NewRelicTagRuleMetricTagFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -224,11 +224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleTimeouts",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleTimeouts",
 		reflect.TypeOf((*NewRelicTagRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicTagRule.NewRelicTagRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRuleTimeoutsOutputReference",
 		reflect.TypeOf((*NewRelicTagRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

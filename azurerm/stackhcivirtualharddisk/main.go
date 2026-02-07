@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcivirtualharddisk
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
 		reflect.TypeOf((*StackHciVirtualHardDisk)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDiskConfig",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDiskConfig",
 		reflect.TypeOf((*StackHciVirtualHardDiskConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDiskTimeouts",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDiskTimeouts",
 		reflect.TypeOf((*StackHciVirtualHardDiskTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDiskTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDiskTimeoutsOutputReference",
 		reflect.TypeOf((*StackHciVirtualHardDiskTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

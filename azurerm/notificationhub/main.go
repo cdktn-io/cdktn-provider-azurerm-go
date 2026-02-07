@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationhub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHub",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHub",
 		reflect.TypeOf((*NotificationHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,11 +93,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubApnsCredential",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubApnsCredential",
 		reflect.TypeOf((*NotificationHubApnsCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubApnsCredentialOutputReference",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubApnsCredentialOutputReference",
 		reflect.TypeOf((*NotificationHubApnsCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationMode", GoGetter: "ApplicationMode"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubBrowserCredential",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubBrowserCredential",
 		reflect.TypeOf((*NotificationHubBrowserCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubBrowserCredentialOutputReference",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubBrowserCredentialOutputReference",
 		reflect.TypeOf((*NotificationHubBrowserCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,15 +181,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubConfig",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubConfig",
 		reflect.TypeOf((*NotificationHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubGcmCredential",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubGcmCredential",
 		reflect.TypeOf((*NotificationHubGcmCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubGcmCredentialOutputReference",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubGcmCredentialOutputReference",
 		reflect.TypeOf((*NotificationHubGcmCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
@@ -223,11 +223,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubTimeouts",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubTimeouts",
 		reflect.TypeOf((*NotificationHubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHubTimeoutsOutputReference",
 		reflect.TypeOf((*NotificationHubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

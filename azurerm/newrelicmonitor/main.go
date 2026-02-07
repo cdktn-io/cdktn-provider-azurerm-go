@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package newrelicmonitor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitor",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitor",
 		reflect.TypeOf((*NewRelicMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountCreationSource", GoGetter: "AccountCreationSource"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorConfig",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorConfig",
 		reflect.TypeOf((*NewRelicMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorIdentity",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorIdentity",
 		reflect.TypeOf((*NewRelicMonitorIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorIdentityOutputReference",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorIdentityOutputReference",
 		reflect.TypeOf((*NewRelicMonitorIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorPlan",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorPlan",
 		reflect.TypeOf((*NewRelicMonitorPlan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorPlanOutputReference",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorPlanOutputReference",
 		reflect.TypeOf((*NewRelicMonitorPlanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "billingCycle", GoGetter: "BillingCycle"},
@@ -195,11 +195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorTimeouts",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorTimeouts",
 		reflect.TypeOf((*NewRelicMonitorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorTimeoutsOutputReference",
 		reflect.TypeOf((*NewRelicMonitorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -240,11 +240,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorUser",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorUser",
 		reflect.TypeOf((*NewRelicMonitorUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorUserOutputReference",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorUserOutputReference",
 		reflect.TypeOf((*NewRelicMonitorUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

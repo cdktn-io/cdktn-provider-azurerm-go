@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package snapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/snapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/snapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/snapshot azurerm_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/snapshot azurerm_snapshot}.
 type Snapshot interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -677,7 +677,7 @@ func (j *jsiiProxy_Snapshot) TrustedLaunchEnabled() cdktf.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/snapshot azurerm_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/snapshot azurerm_snapshot} Resource.
 func NewSnapshot(scope constructs.Construct, id *string, config *SnapshotConfig) Snapshot {
 	_init_.Initialize()
 
@@ -687,7 +687,7 @@ func NewSnapshot(scope constructs.Construct, id *string, config *SnapshotConfig)
 	j := jsiiProxy_Snapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.snapshot.Snapshot",
+		"@cdktn/provider-azurerm.snapshot.Snapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -695,12 +695,12 @@ func NewSnapshot(scope constructs.Construct, id *string, config *SnapshotConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/snapshot azurerm_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/snapshot azurerm_snapshot} Resource.
 func NewSnapshot_Override(s Snapshot, scope constructs.Construct, id *string, config *SnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.snapshot.Snapshot",
+		"@cdktn/provider-azurerm.snapshot.Snapshot",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -938,7 +938,7 @@ func Snapshot_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.snapshot.Snapshot",
+		"@cdktn/provider-azurerm.snapshot.Snapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -973,7 +973,7 @@ func Snapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.snapshot.Snapshot",
+		"@cdktn/provider-azurerm.snapshot.Snapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -992,7 +992,7 @@ func Snapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.snapshot.Snapshot",
+		"@cdktn/provider-azurerm.snapshot.Snapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1011,7 +1011,7 @@ func Snapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.snapshot.Snapshot",
+		"@cdktn/provider-azurerm.snapshot.Snapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1024,7 +1024,7 @@ func Snapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.snapshot.Snapshot",
+		"@cdktn/provider-azurerm.snapshot.Snapshot",
 		"tfResourceType",
 		&returns,
 	)

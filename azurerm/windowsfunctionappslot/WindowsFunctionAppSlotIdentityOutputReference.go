@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowsfunctionappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/windowsfunctionappslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsfunctionappslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewWindowsFunctionAppSlotIdentityOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_WindowsFunctionAppSlotIdentityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsFunctionAppSlot.WindowsFunctionAppSlotIdentityOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionAppSlot.WindowsFunctionAppSlotIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewWindowsFunctionAppSlotIdentityOutputReference_Override(w WindowsFunction
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsFunctionAppSlot.WindowsFunctionAppSlotIdentityOutputReference",
+		"@cdktn/provider-azurerm.windowsFunctionAppSlot.WindowsFunctionAppSlotIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

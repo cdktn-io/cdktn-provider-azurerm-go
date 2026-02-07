@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsourcecontroltoken
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlToken",
+		"@cdktn/provider-azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlToken",
 		reflect.TypeOf((*DataAzurermSourceControlToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlTokenConfig",
+		"@cdktn/provider-azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlTokenConfig",
 		reflect.TypeOf((*DataAzurermSourceControlTokenConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlTokenTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlTokenTimeouts",
 		reflect.TypeOf((*DataAzurermSourceControlTokenTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlTokenTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlTokenTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermSourceControlTokenTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

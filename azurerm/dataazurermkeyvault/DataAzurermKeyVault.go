@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermkeyvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermkeyvault/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkeyvault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault azurerm_key_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault azurerm_key_vault}.
 type DataAzurermKeyVault interface {
 	cdktf.TerraformDataSource
 	AccessPolicy() DataAzurermKeyVaultAccessPolicyList
@@ -489,7 +489,7 @@ func (j *jsiiProxy_DataAzurermKeyVault) VaultUri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault azurerm_key_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault azurerm_key_vault} Data Source.
 func NewDataAzurermKeyVault(scope constructs.Construct, id *string, config *DataAzurermKeyVaultConfig) DataAzurermKeyVault {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewDataAzurermKeyVault(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAzurermKeyVault{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -507,12 +507,12 @@ func NewDataAzurermKeyVault(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault azurerm_key_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault azurerm_key_vault} Data Source.
 func NewDataAzurermKeyVault_Override(d DataAzurermKeyVault, scope constructs.Construct, id *string, config *DataAzurermKeyVaultConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -607,7 +607,7 @@ func DataAzurermKeyVault_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -642,7 +642,7 @@ func DataAzurermKeyVault_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func DataAzurermKeyVault_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func DataAzurermKeyVault_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -693,7 +693,7 @@ func DataAzurermKeyVault_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
+		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
 		"tfResourceType",
 		&returns,
 	)

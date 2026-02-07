@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcepolicyremediation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourcepolicyremediation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcepolicyremediation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation}.
 type ResourcePolicyRemediation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -547,7 +547,7 @@ func (j *jsiiProxy_ResourcePolicyRemediation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation} Resource.
 func NewResourcePolicyRemediation(scope constructs.Construct, id *string, config *ResourcePolicyRemediationConfig) ResourcePolicyRemediation {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewResourcePolicyRemediation(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ResourcePolicyRemediation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
+		"@cdktn/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -565,12 +565,12 @@ func NewResourcePolicyRemediation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation} Resource.
 func NewResourcePolicyRemediation_Override(r ResourcePolicyRemediation, scope constructs.Construct, id *string, config *ResourcePolicyRemediationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
+		"@cdktn/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -764,7 +764,7 @@ func ResourcePolicyRemediation_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
+		"@cdktn/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func ResourcePolicyRemediation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
+		"@cdktn/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func ResourcePolicyRemediation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
+		"@cdktn/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func ResourcePolicyRemediation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
+		"@cdktn/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func ResourcePolicyRemediation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
+		"@cdktn/provider-azurerm.resourcePolicyRemediation.ResourcePolicyRemediation",
 		"tfResourceType",
 		&returns,
 	)

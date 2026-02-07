@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apiconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apiconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apiconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_connection azurerm_api_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_connection azurerm_api_connection}.
 type ApiConnection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -475,7 +475,7 @@ func (j *jsiiProxy_ApiConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_connection azurerm_api_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_connection azurerm_api_connection} Resource.
 func NewApiConnection(scope constructs.Construct, id *string, config *ApiConnectionConfig) ApiConnection {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewApiConnection(scope constructs.Construct, id *string, config *ApiConnect
 	j := jsiiProxy_ApiConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnection",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewApiConnection(scope constructs.Construct, id *string, config *ApiConnect
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_connection azurerm_api_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_connection azurerm_api_connection} Resource.
 func NewApiConnection_Override(a ApiConnection, scope constructs.Construct, id *string, config *ApiConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnection",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnection",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -659,7 +659,7 @@ func ApiConnection_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnection",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func ApiConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnection",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func ApiConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnection",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func ApiConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnection",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func ApiConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiConnection.ApiConnection",
+		"@cdktn/provider-azurerm.apiConnection.ApiConnection",
 		"tfResourceType",
 		&returns,
 	)

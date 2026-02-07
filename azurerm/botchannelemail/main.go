@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelemail
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmail",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmail",
 		reflect.TypeOf((*BotChannelEmail)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmailConfig",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmailConfig",
 		reflect.TypeOf((*BotChannelEmailConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmailTimeouts",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmailTimeouts",
 		reflect.TypeOf((*BotChannelEmailTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmailTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmailTimeoutsOutputReference",
 		reflect.TypeOf((*BotChannelEmailTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

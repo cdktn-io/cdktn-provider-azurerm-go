@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdatafactory
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactory",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactory",
 		reflect.TypeOf((*DataAzurermDataFactory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryConfig",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryConfig",
 		reflect.TypeOf((*DataAzurermDataFactoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryGithubConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryGithubConfiguration",
 		reflect.TypeOf((*DataAzurermDataFactoryGithubConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryGithubConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryGithubConfigurationList",
 		reflect.TypeOf((*DataAzurermDataFactoryGithubConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryGithubConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryGithubConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermDataFactoryGithubConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryIdentity",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryIdentity",
 		reflect.TypeOf((*DataAzurermDataFactoryIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryIdentityList",
 		reflect.TypeOf((*DataAzurermDataFactoryIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermDataFactoryIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,11 +198,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryTimeouts",
 		reflect.TypeOf((*DataAzurermDataFactoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermDataFactoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -237,11 +237,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryVstsConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryVstsConfiguration",
 		reflect.TypeOf((*DataAzurermDataFactoryVstsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryVstsConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryVstsConfigurationList",
 		reflect.TypeOf((*DataAzurermDataFactoryVstsConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -262,7 +262,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryVstsConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDataFactory.DataAzurermDataFactoryVstsConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermDataFactoryVstsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},

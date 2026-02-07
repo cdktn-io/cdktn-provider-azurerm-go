@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelmetadata
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadata",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadata",
 		reflect.TypeOf((*SentinelMetadata)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataAuthor",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataAuthor",
 		reflect.TypeOf((*SentinelMetadataAuthor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataAuthorOutputReference",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataAuthorOutputReference",
 		reflect.TypeOf((*SentinelMetadataAuthorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -177,11 +177,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataCategory",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataCategory",
 		reflect.TypeOf((*SentinelMetadataCategory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataCategoryOutputReference",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataCategoryOutputReference",
 		reflect.TypeOf((*SentinelMetadataCategoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -219,15 +219,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataConfig",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataConfig",
 		reflect.TypeOf((*SentinelMetadataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataSource",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataSource",
 		reflect.TypeOf((*SentinelMetadataSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataSourceOutputReference",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataSourceOutputReference",
 		reflect.TypeOf((*SentinelMetadataSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -267,11 +267,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataSupport",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataSupport",
 		reflect.TypeOf((*SentinelMetadataSupport)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataSupportOutputReference",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataSupportOutputReference",
 		reflect.TypeOf((*SentinelMetadataSupportOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -314,11 +314,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataTimeouts",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataTimeouts",
 		reflect.TypeOf((*SentinelMetadataTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataTimeoutsOutputReference",
 		reflect.TypeOf((*SentinelMetadataTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

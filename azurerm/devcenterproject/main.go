@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devcenterproject
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProject",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProject",
 		reflect.TypeOf((*DevCenterProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProjectConfig",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProjectConfig",
 		reflect.TypeOf((*DevCenterProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProjectIdentity",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProjectIdentity",
 		reflect.TypeOf((*DevCenterProjectIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProjectIdentityOutputReference",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProjectIdentityOutputReference",
 		reflect.TypeOf((*DevCenterProjectIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProjectTimeouts",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProjectTimeouts",
 		reflect.TypeOf((*DevCenterProjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devCenterProject.DevCenterProjectTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.devCenterProject.DevCenterProjectTimeoutsOutputReference",
 		reflect.TypeOf((*DevCenterProjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

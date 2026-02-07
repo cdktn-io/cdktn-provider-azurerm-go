@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datadogmonitortagrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datadogmonitortagrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datadogmonitortagrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/datadog_monitor_tag_rule azurerm_datadog_monitor_tag_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/datadog_monitor_tag_rule azurerm_datadog_monitor_tag_rule}.
 type DatadogMonitorTagRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DatadogMonitorTagRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/datadog_monitor_tag_rule azurerm_datadog_monitor_tag_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/datadog_monitor_tag_rule azurerm_datadog_monitor_tag_rule} Resource.
 func NewDatadogMonitorTagRule(scope constructs.Construct, id *string, config *DatadogMonitorTagRuleConfig) DatadogMonitorTagRule {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDatadogMonitorTagRule(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DatadogMonitorTagRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewDatadogMonitorTagRule(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/datadog_monitor_tag_rule azurerm_datadog_monitor_tag_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/datadog_monitor_tag_rule azurerm_datadog_monitor_tag_rule} Resource.
 func NewDatadogMonitorTagRule_Override(d DatadogMonitorTagRule, scope constructs.Construct, id *string, config *DatadogMonitorTagRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -569,7 +569,7 @@ func DatadogMonitorTagRule_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -604,7 +604,7 @@ func DatadogMonitorTagRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -623,7 +623,7 @@ func DatadogMonitorTagRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func DatadogMonitorTagRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func DatadogMonitorTagRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
+		"@cdktn/provider-azurerm.datadogMonitorTagRule.DatadogMonitorTagRule",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycentersetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/securitycentersetting/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/securitycentersetting/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_setting azurerm_security_center_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_setting azurerm_security_center_setting}.
 type SecurityCenterSetting interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SecurityCenterSetting) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_setting azurerm_security_center_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_setting azurerm_security_center_setting} Resource.
 func NewSecurityCenterSetting(scope constructs.Construct, id *string, config *SecurityCenterSettingConfig) SecurityCenterSetting {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSecurityCenterSetting(scope constructs.Construct, id *string, config *Se
 	j := jsiiProxy_SecurityCenterSetting{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
+		"@cdktn/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSecurityCenterSetting(scope constructs.Construct, id *string, config *Se
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_setting azurerm_security_center_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_setting azurerm_security_center_setting} Resource.
 func NewSecurityCenterSetting_Override(s SecurityCenterSetting, scope constructs.Construct, id *string, config *SecurityCenterSettingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
+		"@cdktn/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -520,7 +520,7 @@ func SecurityCenterSetting_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
+		"@cdktn/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func SecurityCenterSetting_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
+		"@cdktn/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func SecurityCenterSetting_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
+		"@cdktn/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func SecurityCenterSetting_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
+		"@cdktn/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func SecurityCenterSetting_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
+		"@cdktn/provider-azurerm.securityCenterSetting.SecurityCenterSetting",
 		"tfResourceType",
 		&returns,
 	)

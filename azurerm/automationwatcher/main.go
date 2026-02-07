@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationwatcher
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcher",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcher",
 		reflect.TypeOf((*AutomationWatcher)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcherConfig",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcherConfig",
 		reflect.TypeOf((*AutomationWatcherConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcherTimeouts",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcherTimeouts",
 		reflect.TypeOf((*AutomationWatcherTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcherTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcherTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationWatcherTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

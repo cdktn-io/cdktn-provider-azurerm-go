@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermvpnserverconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermvpnserverconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvpnserverconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/vpn_server_configuration azurerm_vpn_server_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/vpn_server_configuration azurerm_vpn_server_configuration}.
 type DataAzurermVpnServerConfiguration interface {
 	cdktf.TerraformDataSource
 	AzureActiveDirectoryAuthentication() DataAzurermVpnServerConfigurationAzureActiveDirectoryAuthenticationList
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataAzurermVpnServerConfiguration) VpnProtocols() *[]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/vpn_server_configuration azurerm_vpn_server_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/vpn_server_configuration azurerm_vpn_server_configuration} Data Source.
 func NewDataAzurermVpnServerConfiguration(scope constructs.Construct, id *string, config *DataAzurermVpnServerConfigurationConfig) DataAzurermVpnServerConfiguration {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewDataAzurermVpnServerConfiguration(scope constructs.Construct, id *string
 	j := jsiiProxy_DataAzurermVpnServerConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -452,12 +452,12 @@ func NewDataAzurermVpnServerConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/vpn_server_configuration azurerm_vpn_server_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/vpn_server_configuration azurerm_vpn_server_configuration} Data Source.
 func NewDataAzurermVpnServerConfiguration_Override(d DataAzurermVpnServerConfiguration, scope constructs.Construct, id *string, config *DataAzurermVpnServerConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -552,7 +552,7 @@ func DataAzurermVpnServerConfiguration_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -587,7 +587,7 @@ func DataAzurermVpnServerConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAzurermVpnServerConfiguration_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func DataAzurermVpnServerConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func DataAzurermVpnServerConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfiguration",
 		"tfResourceType",
 		&returns,
 	)

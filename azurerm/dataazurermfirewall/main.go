@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermfirewall
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewall",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewall",
 		reflect.TypeOf((*DataAzurermFirewall)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallConfig",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallConfig",
 		reflect.TypeOf((*DataAzurermFirewallConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallIpConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallIpConfiguration",
 		reflect.TypeOf((*DataAzurermFirewallIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallIpConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallIpConfigurationList",
 		reflect.TypeOf((*DataAzurermFirewallIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallIpConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermFirewallIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallManagementIpConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallManagementIpConfiguration",
 		reflect.TypeOf((*DataAzurermFirewallManagementIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallManagementIpConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallManagementIpConfigurationList",
 		reflect.TypeOf((*DataAzurermFirewallManagementIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -170,7 +170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallManagementIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallManagementIpConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermFirewallManagementIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -206,11 +206,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallTimeouts",
 		reflect.TypeOf((*DataAzurermFirewallTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermFirewallTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -245,11 +245,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallVirtualHub",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallVirtualHub",
 		reflect.TypeOf((*DataAzurermFirewallVirtualHub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallVirtualHubList",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallVirtualHubList",
 		reflect.TypeOf((*DataAzurermFirewallVirtualHubList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -270,7 +270,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallVirtualHubOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermFirewall.DataAzurermFirewallVirtualHubOutputReference",
 		reflect.TypeOf((*DataAzurermFirewallVirtualHubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

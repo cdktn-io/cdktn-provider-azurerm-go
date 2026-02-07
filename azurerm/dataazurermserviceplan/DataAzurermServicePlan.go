@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermserviceplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermserviceplan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermserviceplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/service_plan azurerm_service_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/service_plan azurerm_service_plan}.
 type DataAzurermServicePlan interface {
 	cdktf.TerraformDataSource
 	AppServiceEnvironmentId() *string
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAzurermServicePlan) ZoneBalancingEnabled() cdktf.IResolva
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
 func NewDataAzurermServicePlan(scope constructs.Construct, id *string, config *DataAzurermServicePlanConfig) DataAzurermServicePlan {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewDataAzurermServicePlan(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAzurermServicePlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
+		"@cdktn/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -474,12 +474,12 @@ func NewDataAzurermServicePlan(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
 func NewDataAzurermServicePlan_Override(d DataAzurermServicePlan, scope constructs.Construct, id *string, config *DataAzurermServicePlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
+		"@cdktn/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -574,7 +574,7 @@ func DataAzurermServicePlan_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
+		"@cdktn/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -609,7 +609,7 @@ func DataAzurermServicePlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
+		"@cdktn/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func DataAzurermServicePlan_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
+		"@cdktn/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -647,7 +647,7 @@ func DataAzurermServicePlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
+		"@cdktn/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func DataAzurermServicePlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
+		"@cdktn/provider-azurerm.dataAzurermServicePlan.DataAzurermServicePlan",
 		"tfResourceType",
 		&returns,
 	)

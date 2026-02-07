@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedapplicationdefinition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
 		reflect.TypeOf((*ManagedApplicationDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,11 +102,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionAuthorization",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionAuthorization",
 		reflect.TypeOf((*ManagedApplicationDefinitionAuthorization)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionAuthorizationList",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionAuthorizationList",
 		reflect.TypeOf((*ManagedApplicationDefinitionAuthorizationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionAuthorizationOutputReference",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionAuthorizationOutputReference",
 		reflect.TypeOf((*ManagedApplicationDefinitionAuthorizationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,15 +164,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionConfig",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionConfig",
 		reflect.TypeOf((*ManagedApplicationDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionTimeouts",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionTimeouts",
 		reflect.TypeOf((*ManagedApplicationDefinitionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinitionTimeoutsOutputReference",
 		reflect.TypeOf((*ManagedApplicationDefinitionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

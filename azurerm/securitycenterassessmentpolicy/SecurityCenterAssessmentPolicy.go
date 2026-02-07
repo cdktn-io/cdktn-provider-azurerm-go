@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycenterassessmentpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/securitycenterassessmentpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/securitycenterassessmentpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy}.
 type SecurityCenterAssessmentPolicy interface {
 	cdktf.TerraformResource
 	Categories() *[]*string
@@ -535,7 +535,7 @@ func (j *jsiiProxy_SecurityCenterAssessmentPolicy) UserImpactInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy} Resource.
 func NewSecurityCenterAssessmentPolicy(scope constructs.Construct, id *string, config *SecurityCenterAssessmentPolicyConfig) SecurityCenterAssessmentPolicy {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewSecurityCenterAssessmentPolicy(scope constructs.Construct, id *string, c
 	j := jsiiProxy_SecurityCenterAssessmentPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
+		"@cdktn/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -553,12 +553,12 @@ func NewSecurityCenterAssessmentPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy} Resource.
 func NewSecurityCenterAssessmentPolicy_Override(s SecurityCenterAssessmentPolicy, scope constructs.Construct, id *string, config *SecurityCenterAssessmentPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
+		"@cdktn/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -741,7 +741,7 @@ func SecurityCenterAssessmentPolicy_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
+		"@cdktn/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -776,7 +776,7 @@ func SecurityCenterAssessmentPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
+		"@cdktn/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -795,7 +795,7 @@ func SecurityCenterAssessmentPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
+		"@cdktn/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func SecurityCenterAssessmentPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
+		"@cdktn/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func SecurityCenterAssessmentPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
+		"@cdktn/provider-azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicy",
 		"tfResourceType",
 		&returns,
 	)

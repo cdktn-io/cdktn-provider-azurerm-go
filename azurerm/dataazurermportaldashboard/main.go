@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermportaldashboard
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
 		reflect.TypeOf((*DataAzurermPortalDashboard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboardConfig",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboardConfig",
 		reflect.TypeOf((*DataAzurermPortalDashboardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboardTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboardTimeouts",
 		reflect.TypeOf((*DataAzurermPortalDashboardTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboardTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboardTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermPortalDashboardTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

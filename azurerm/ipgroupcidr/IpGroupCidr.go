@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ipgroupcidr
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/ipgroupcidr/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/ipgroupcidr/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr}.
 type IpGroupCidr interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_IpGroupCidr) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr} Resource.
 func NewIpGroupCidr(scope constructs.Construct, id *string, config *IpGroupCidrConfig) IpGroupCidr {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewIpGroupCidr(scope constructs.Construct, id *string, config *IpGroupCidrC
 	j := jsiiProxy_IpGroupCidr{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidr",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidr",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewIpGroupCidr(scope constructs.Construct, id *string, config *IpGroupCidrC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr} Resource.
 func NewIpGroupCidr_Override(i IpGroupCidr, scope constructs.Construct, id *string, config *IpGroupCidrConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidr",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidr",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -520,7 +520,7 @@ func IpGroupCidr_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidr",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidr",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func IpGroupCidr_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidr",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidr",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func IpGroupCidr_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidr",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidr",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func IpGroupCidr_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidr",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidr",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func IpGroupCidr_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidr",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidr",
 		"tfResourceType",
 		&returns,
 	)

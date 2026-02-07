@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcideploymentsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/stackhcideploymentsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/stackhcideploymentsetting/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -274,7 +274,7 @@ func NewStackHciDeploymentSettingScaleUnitClusterOutputReference(terraformResour
 	j := jsiiProxy_StackHciDeploymentSettingScaleUnitClusterOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitClusterOutputReference",
+		"@cdktn/provider-azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -286,7 +286,7 @@ func NewStackHciDeploymentSettingScaleUnitClusterOutputReference_Override(s Stac
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitClusterOutputReference",
+		"@cdktn/provider-azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitClusterOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

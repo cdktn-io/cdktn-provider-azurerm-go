@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressrouteportauthorization
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRoutePortAuthorization.ExpressRoutePortAuthorization",
+		"@cdktn/provider-azurerm.expressRoutePortAuthorization.ExpressRoutePortAuthorization",
 		reflect.TypeOf((*ExpressRoutePortAuthorization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRoutePortAuthorization.ExpressRoutePortAuthorizationConfig",
+		"@cdktn/provider-azurerm.expressRoutePortAuthorization.ExpressRoutePortAuthorizationConfig",
 		reflect.TypeOf((*ExpressRoutePortAuthorizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRoutePortAuthorization.ExpressRoutePortAuthorizationTimeouts",
+		"@cdktn/provider-azurerm.expressRoutePortAuthorization.ExpressRoutePortAuthorizationTimeouts",
 		reflect.TypeOf((*ExpressRoutePortAuthorizationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRoutePortAuthorization.ExpressRoutePortAuthorizationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.expressRoutePortAuthorization.ExpressRoutePortAuthorizationTimeoutsOutputReference",
 		reflect.TypeOf((*ExpressRoutePortAuthorizationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

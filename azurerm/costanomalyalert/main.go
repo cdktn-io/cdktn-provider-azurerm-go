@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package costanomalyalert
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
 		reflect.TypeOf((*CostAnomalyAlert)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlertConfig",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlertConfig",
 		reflect.TypeOf((*CostAnomalyAlertConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlertTimeouts",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlertTimeouts",
 		reflect.TypeOf((*CostAnomalyAlertTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlertTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlertTimeoutsOutputReference",
 		reflect.TypeOf((*CostAnomalyAlertTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

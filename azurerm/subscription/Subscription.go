@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/subscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription azurerm_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription azurerm_subscription}.
 type Subscription interface {
 	cdktf.TerraformResource
 	Alias() *string
@@ -488,7 +488,7 @@ func (j *jsiiProxy_Subscription) WorkloadInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription azurerm_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription azurerm_subscription} Resource.
 func NewSubscription(scope constructs.Construct, id *string, config *SubscriptionConfig) Subscription {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewSubscription(scope constructs.Construct, id *string, config *Subscriptio
 	j := jsiiProxy_Subscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscription.Subscription",
+		"@cdktn/provider-azurerm.subscription.Subscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -506,12 +506,12 @@ func NewSubscription(scope constructs.Construct, id *string, config *Subscriptio
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription azurerm_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription azurerm_subscription} Resource.
 func NewSubscription_Override(s Subscription, scope constructs.Construct, id *string, config *SubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscription.Subscription",
+		"@cdktn/provider-azurerm.subscription.Subscription",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -672,7 +672,7 @@ func Subscription_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscription.Subscription",
+		"@cdktn/provider-azurerm.subscription.Subscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func Subscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscription.Subscription",
+		"@cdktn/provider-azurerm.subscription.Subscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func Subscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscription.Subscription",
+		"@cdktn/provider-azurerm.subscription.Subscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func Subscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscription.Subscription",
+		"@cdktn/provider-azurerm.subscription.Subscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func Subscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.subscription.Subscription",
+		"@cdktn/provider-azurerm.subscription.Subscription",
 		"tfResourceType",
 		&returns,
 	)

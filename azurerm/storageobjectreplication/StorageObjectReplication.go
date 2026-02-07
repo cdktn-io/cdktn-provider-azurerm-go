@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageobjectreplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageobjectreplication/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageobjectreplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_object_replication azurerm_storage_object_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_object_replication azurerm_storage_object_replication}.
 type StorageObjectReplication interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_StorageObjectReplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
 func NewStorageObjectReplication(scope constructs.Construct, id *string, config *StorageObjectReplicationConfig) StorageObjectReplication {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewStorageObjectReplication(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_StorageObjectReplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplication",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewStorageObjectReplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
 func NewStorageObjectReplication_Override(s StorageObjectReplication, scope constructs.Construct, id *string, config *StorageObjectReplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplication",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplication",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -565,7 +565,7 @@ func StorageObjectReplication_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplication",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func StorageObjectReplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplication",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func StorageObjectReplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplication",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func StorageObjectReplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplication",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func StorageObjectReplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplication",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplication",
 		"tfResourceType",
 		&returns,
 	)

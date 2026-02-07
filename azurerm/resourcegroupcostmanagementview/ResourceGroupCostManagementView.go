@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegroupcostmanagementview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourcegroupcostmanagementview/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegroupcostmanagementview/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_cost_management_view azurerm_resource_group_cost_management_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_cost_management_view azurerm_resource_group_cost_management_view}.
 type ResourceGroupCostManagementView interface {
 	cdktf.TerraformResource
 	Accumulated() interface{}
@@ -566,7 +566,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementView) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_cost_management_view azurerm_resource_group_cost_management_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_cost_management_view azurerm_resource_group_cost_management_view} Resource.
 func NewResourceGroupCostManagementView(scope constructs.Construct, id *string, config *ResourceGroupCostManagementViewConfig) ResourceGroupCostManagementView {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewResourceGroupCostManagementView(scope constructs.Construct, id *string, 
 	j := jsiiProxy_ResourceGroupCostManagementView{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -584,12 +584,12 @@ func NewResourceGroupCostManagementView(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_cost_management_view azurerm_resource_group_cost_management_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_cost_management_view azurerm_resource_group_cost_management_view} Resource.
 func NewResourceGroupCostManagementView_Override(r ResourceGroupCostManagementView, scope constructs.Construct, id *string, config *ResourceGroupCostManagementViewConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -761,7 +761,7 @@ func ResourceGroupCostManagementView_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -796,7 +796,7 @@ func ResourceGroupCostManagementView_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func ResourceGroupCostManagementView_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -834,7 +834,7 @@ func ResourceGroupCostManagementView_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func ResourceGroupCostManagementView_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementView",
 		"tfResourceType",
 		&returns,
 	)

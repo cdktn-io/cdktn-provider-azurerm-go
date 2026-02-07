@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlvirtualmachine
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachine",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachine",
 		reflect.TypeOf((*MssqlVirtualMachine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -124,11 +124,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAssessment",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAssessment",
 		reflect.TypeOf((*MssqlVirtualMachineAssessment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAssessmentOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAssessmentOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineAssessmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAssessmentSchedule",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAssessmentSchedule",
 		reflect.TypeOf((*MssqlVirtualMachineAssessmentSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAssessmentScheduleOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAssessmentScheduleOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineAssessmentScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -216,15 +216,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoBackup",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoBackup",
 		reflect.TypeOf((*MssqlVirtualMachineAutoBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoBackupManualSchedule",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoBackupManualSchedule",
 		reflect.TypeOf((*MssqlVirtualMachineAutoBackupManualSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoBackupManualScheduleOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoBackupManualScheduleOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineAutoBackupManualScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -267,7 +267,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoBackupOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoBackupOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineAutoBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -318,11 +318,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoPatching",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoPatching",
 		reflect.TypeOf((*MssqlVirtualMachineAutoPatching)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoPatchingOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoPatchingOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineAutoPatchingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -360,15 +360,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineConfig",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineConfig",
 		reflect.TypeOf((*MssqlVirtualMachineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineKeyVaultCredential",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineKeyVaultCredential",
 		reflect.TypeOf((*MssqlVirtualMachineKeyVaultCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineKeyVaultCredentialOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineKeyVaultCredentialOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineKeyVaultCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -408,11 +408,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineSqlInstance",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineSqlInstance",
 		reflect.TypeOf((*MssqlVirtualMachineSqlInstance)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineSqlInstanceOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineSqlInstanceOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineSqlInstanceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adhocWorkloadsOptimizationEnabled", GoGetter: "AdhocWorkloadsOptimizationEnabled"},
@@ -465,15 +465,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfiguration",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfiguration",
 		reflect.TypeOf((*MssqlVirtualMachineStorageConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationDataSettings",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationDataSettings",
 		reflect.TypeOf((*MssqlVirtualMachineStorageConfigurationDataSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationDataSettingsOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationDataSettingsOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineStorageConfigurationDataSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -509,11 +509,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationLogSettings",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationLogSettings",
 		reflect.TypeOf((*MssqlVirtualMachineStorageConfigurationLogSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationLogSettingsOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationLogSettingsOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineStorageConfigurationLogSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -549,7 +549,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineStorageConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -600,11 +600,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationTempDbSettings",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationTempDbSettings",
 		reflect.TypeOf((*MssqlVirtualMachineStorageConfigurationTempDbSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationTempDbSettingsOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationTempDbSettingsOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineStorageConfigurationTempDbSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -655,11 +655,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineTimeouts",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineTimeouts",
 		reflect.TypeOf((*MssqlVirtualMachineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -703,11 +703,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineWsfcDomainCredential",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineWsfcDomainCredential",
 		reflect.TypeOf((*MssqlVirtualMachineWsfcDomainCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineWsfcDomainCredentialOutputReference",
+		"@cdktn/provider-azurerm.mssqlVirtualMachine.MssqlVirtualMachineWsfcDomainCredentialOutputReference",
 		reflect.TypeOf((*MssqlVirtualMachineWsfcDomainCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterBootstrapAccountPassword", GoGetter: "ClusterBootstrapAccountPassword"},

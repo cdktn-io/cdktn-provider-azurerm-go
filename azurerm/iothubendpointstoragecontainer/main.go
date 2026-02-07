@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubendpointstoragecontainer
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubEndpointStorageContainer.IothubEndpointStorageContainer",
+		"@cdktn/provider-azurerm.iothubEndpointStorageContainer.IothubEndpointStorageContainer",
 		reflect.TypeOf((*IothubEndpointStorageContainer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubEndpointStorageContainer.IothubEndpointStorageContainerConfig",
+		"@cdktn/provider-azurerm.iothubEndpointStorageContainer.IothubEndpointStorageContainerConfig",
 		reflect.TypeOf((*IothubEndpointStorageContainerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubEndpointStorageContainer.IothubEndpointStorageContainerTimeouts",
+		"@cdktn/provider-azurerm.iothubEndpointStorageContainer.IothubEndpointStorageContainerTimeouts",
 		reflect.TypeOf((*IothubEndpointStorageContainerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubEndpointStorageContainer.IothubEndpointStorageContainerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.iothubEndpointStorageContainer.IothubEndpointStorageContainerTimeoutsOutputReference",
 		reflect.TypeOf((*IothubEndpointStorageContainerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

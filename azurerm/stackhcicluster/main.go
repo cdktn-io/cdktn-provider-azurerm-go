@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcicluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciCluster.StackHciCluster",
+		"@cdktn/provider-azurerm.stackHciCluster.StackHciCluster",
 		reflect.TypeOf((*StackHciCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciCluster.StackHciClusterConfig",
+		"@cdktn/provider-azurerm.stackHciCluster.StackHciClusterConfig",
 		reflect.TypeOf((*StackHciClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciCluster.StackHciClusterIdentity",
+		"@cdktn/provider-azurerm.stackHciCluster.StackHciClusterIdentity",
 		reflect.TypeOf((*StackHciClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciCluster.StackHciClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.stackHciCluster.StackHciClusterIdentityOutputReference",
 		reflect.TypeOf((*StackHciClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciCluster.StackHciClusterTimeouts",
+		"@cdktn/provider-azurerm.stackHciCluster.StackHciClusterTimeouts",
 		reflect.TypeOf((*StackHciClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciCluster.StackHciClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.stackHciCluster.StackHciClusterTimeoutsOutputReference",
 		reflect.TypeOf((*StackHciClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

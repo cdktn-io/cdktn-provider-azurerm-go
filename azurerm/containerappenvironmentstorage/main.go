@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerappenvironmentstorage
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
 		reflect.TypeOf((*ContainerAppEnvironmentStorage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorageConfig",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorageConfig",
 		reflect.TypeOf((*ContainerAppEnvironmentStorageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorageTimeouts",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorageTimeouts",
 		reflect.TypeOf((*ContainerAppEnvironmentStorageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorageTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerAppEnvironmentStorageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

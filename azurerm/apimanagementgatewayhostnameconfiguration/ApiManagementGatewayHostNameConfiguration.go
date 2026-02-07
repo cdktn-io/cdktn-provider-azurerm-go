@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementgatewayhostnameconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementgatewayhostnameconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementgatewayhostnameconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration}.
 type ApiManagementGatewayHostNameConfiguration interface {
 	cdktf.TerraformResource
 	ApiManagementId() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_ApiManagementGatewayHostNameConfiguration) Tls11EnabledInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration} Resource.
 func NewApiManagementGatewayHostNameConfiguration(scope constructs.Construct, id *string, config *ApiManagementGatewayHostNameConfigurationConfig) ApiManagementGatewayHostNameConfiguration {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewApiManagementGatewayHostNameConfiguration(scope constructs.Construct, id
 	j := jsiiProxy_ApiManagementGatewayHostNameConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
+		"@cdktn/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewApiManagementGatewayHostNameConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration} Resource.
 func NewApiManagementGatewayHostNameConfiguration_Override(a ApiManagementGatewayHostNameConfiguration, scope constructs.Construct, id *string, config *ApiManagementGatewayHostNameConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
+		"@cdktn/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -762,7 +762,7 @@ func ApiManagementGatewayHostNameConfiguration_GenerateConfigForImport(scope con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
+		"@cdktn/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -797,7 +797,7 @@ func ApiManagementGatewayHostNameConfiguration_IsConstruct(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
+		"@cdktn/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -816,7 +816,7 @@ func ApiManagementGatewayHostNameConfiguration_IsTerraformElement(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
+		"@cdktn/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -835,7 +835,7 @@ func ApiManagementGatewayHostNameConfiguration_IsTerraformResource(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
+		"@cdktn/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func ApiManagementGatewayHostNameConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
+		"@cdktn/provider-azurerm.apiManagementGatewayHostNameConfiguration.ApiManagementGatewayHostNameConfiguration",
 		"tfResourceType",
 		&returns,
 	)

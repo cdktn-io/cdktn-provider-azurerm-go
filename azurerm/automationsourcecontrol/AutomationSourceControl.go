@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationsourcecontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationsourcecontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationsourcecontrol/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_source_control azurerm_automation_source_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_source_control azurerm_automation_source_control}.
 type AutomationSourceControl interface {
 	cdktf.TerraformResource
 	AutomaticSync() interface{}
@@ -568,7 +568,7 @@ func (j *jsiiProxy_AutomationSourceControl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_source_control azurerm_automation_source_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_source_control azurerm_automation_source_control} Resource.
 func NewAutomationSourceControl(scope constructs.Construct, id *string, config *AutomationSourceControlConfig) AutomationSourceControl {
 	_init_.Initialize()
 
@@ -578,7 +578,7 @@ func NewAutomationSourceControl(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_AutomationSourceControl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControl",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -586,12 +586,12 @@ func NewAutomationSourceControl(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_source_control azurerm_automation_source_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_source_control azurerm_automation_source_control} Resource.
 func NewAutomationSourceControl_Override(a AutomationSourceControl, scope constructs.Construct, id *string, config *AutomationSourceControlConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControl",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControl",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -785,7 +785,7 @@ func AutomationSourceControl_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControl",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -820,7 +820,7 @@ func AutomationSourceControl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControl",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -839,7 +839,7 @@ func AutomationSourceControl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControl",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -858,7 +858,7 @@ func AutomationSourceControl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControl",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func AutomationSourceControl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControl",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControl",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_gateway azurerm_spring_cloud_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_gateway azurerm_spring_cloud_gateway}.
 type SpringCloudGateway interface {
 	cdktf.TerraformResource
 	ApiMetadata() SpringCloudGatewayApiMetadataOutputReference
@@ -727,7 +727,7 @@ func (j *jsiiProxy_SpringCloudGateway) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_gateway azurerm_spring_cloud_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_gateway azurerm_spring_cloud_gateway} Resource.
 func NewSpringCloudGateway(scope constructs.Construct, id *string, config *SpringCloudGatewayConfig) SpringCloudGateway {
 	_init_.Initialize()
 
@@ -737,7 +737,7 @@ func NewSpringCloudGateway(scope constructs.Construct, id *string, config *Sprin
 	j := jsiiProxy_SpringCloudGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGateway",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -745,12 +745,12 @@ func NewSpringCloudGateway(scope constructs.Construct, id *string, config *Sprin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_gateway azurerm_spring_cloud_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_gateway azurerm_spring_cloud_gateway} Resource.
 func NewSpringCloudGateway_Override(s SpringCloudGateway, scope constructs.Construct, id *string, config *SpringCloudGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGateway",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGateway",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -944,7 +944,7 @@ func SpringCloudGateway_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGateway",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -979,7 +979,7 @@ func SpringCloudGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGateway",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -998,7 +998,7 @@ func SpringCloudGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGateway",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1017,7 +1017,7 @@ func SpringCloudGateway_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGateway",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGateway",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1030,7 +1030,7 @@ func SpringCloudGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGateway",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGateway",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitorprivatelinkscopedservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitorprivatelinkscopedservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitorprivatelinkscopedservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service}.
 type MonitorPrivateLinkScopedService interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_MonitorPrivateLinkScopedService) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service} Resource.
 func NewMonitorPrivateLinkScopedService(scope constructs.Construct, id *string, config *MonitorPrivateLinkScopedServiceConfig) MonitorPrivateLinkScopedService {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewMonitorPrivateLinkScopedService(scope constructs.Construct, id *string, 
 	j := jsiiProxy_MonitorPrivateLinkScopedService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewMonitorPrivateLinkScopedService(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service} Resource.
 func NewMonitorPrivateLinkScopedService_Override(m MonitorPrivateLinkScopedService, scope constructs.Construct, id *string, config *MonitorPrivateLinkScopedServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -588,7 +588,7 @@ func MonitorPrivateLinkScopedService_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func MonitorPrivateLinkScopedService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func MonitorPrivateLinkScopedService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func MonitorPrivateLinkScopedService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func MonitorPrivateLinkScopedService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
+		"@cdktn/provider-azurerm.monitorPrivateLinkScopedService.MonitorPrivateLinkScopedService",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package galleryapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/galleryapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/galleryapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/gallery_application azurerm_gallery_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/gallery_application azurerm_gallery_application}.
 type GalleryApplication interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -570,7 +570,7 @@ func (j *jsiiProxy_GalleryApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/gallery_application azurerm_gallery_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/gallery_application azurerm_gallery_application} Resource.
 func NewGalleryApplication(scope constructs.Construct, id *string, config *GalleryApplicationConfig) GalleryApplication {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewGalleryApplication(scope constructs.Construct, id *string, config *Galle
 	j := jsiiProxy_GalleryApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplication",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -588,12 +588,12 @@ func NewGalleryApplication(scope constructs.Construct, id *string, config *Galle
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/gallery_application azurerm_gallery_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/gallery_application azurerm_gallery_application} Resource.
 func NewGalleryApplication_Override(g GalleryApplication, scope constructs.Construct, id *string, config *GalleryApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplication",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplication",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -798,7 +798,7 @@ func GalleryApplication_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplication",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +833,7 @@ func GalleryApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplication",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func GalleryApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplication",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func GalleryApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplication",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func GalleryApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.galleryApplication.GalleryApplication",
+		"@cdktn/provider-azurerm.galleryApplication.GalleryApplication",
 		"tfResourceType",
 		&returns,
 	)

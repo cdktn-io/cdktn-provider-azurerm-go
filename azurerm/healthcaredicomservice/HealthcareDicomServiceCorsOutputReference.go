@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredicomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/healthcaredicomservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcaredicomservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewHealthcareDicomServiceCorsOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_HealthcareDicomServiceCorsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomServiceCorsOutputReference",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomServiceCorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewHealthcareDicomServiceCorsOutputReference_Override(h HealthcareDicomServ
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomServiceCorsOutputReference",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomServiceCorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		h,
 	)

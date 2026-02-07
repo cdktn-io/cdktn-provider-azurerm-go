@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticsanvolumegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/elasticsanvolumegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/elasticsanvolumegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group}.
 type ElasticSanVolumeGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -500,7 +500,7 @@ func (j *jsiiProxy_ElasticSanVolumeGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group} Resource.
 func NewElasticSanVolumeGroup(scope constructs.Construct, id *string, config *ElasticSanVolumeGroupConfig) ElasticSanVolumeGroup {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewElasticSanVolumeGroup(scope constructs.Construct, id *string, config *El
 	j := jsiiProxy_ElasticSanVolumeGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,12 +518,12 @@ func NewElasticSanVolumeGroup(scope constructs.Construct, id *string, config *El
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/elastic_san_volume_group azurerm_elastic_san_volume_group} Resource.
 func NewElasticSanVolumeGroup_Override(e ElasticSanVolumeGroup, scope constructs.Construct, id *string, config *ElasticSanVolumeGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -662,7 +662,7 @@ func ElasticSanVolumeGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -697,7 +697,7 @@ func ElasticSanVolumeGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -716,7 +716,7 @@ func ElasticSanVolumeGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func ElasticSanVolumeGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func ElasticSanVolumeGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
 		"tfResourceType",
 		&returns,
 	)

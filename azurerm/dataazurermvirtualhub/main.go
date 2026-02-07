@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermvirtualhub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermVirtualHub.DataAzurermVirtualHub",
+		"@cdktn/provider-azurerm.dataAzurermVirtualHub.DataAzurermVirtualHub",
 		reflect.TypeOf((*DataAzurermVirtualHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermVirtualHub.DataAzurermVirtualHubConfig",
+		"@cdktn/provider-azurerm.dataAzurermVirtualHub.DataAzurermVirtualHubConfig",
 		reflect.TypeOf((*DataAzurermVirtualHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermVirtualHub.DataAzurermVirtualHubTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermVirtualHub.DataAzurermVirtualHubTimeouts",
 		reflect.TypeOf((*DataAzurermVirtualHubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermVirtualHub.DataAzurermVirtualHubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermVirtualHub.DataAzurermVirtualHubTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermVirtualHubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

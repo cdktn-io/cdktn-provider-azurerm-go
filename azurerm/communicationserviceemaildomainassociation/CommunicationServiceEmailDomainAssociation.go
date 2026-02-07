@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package communicationserviceemaildomainassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/communicationserviceemaildomainassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/communicationserviceemaildomainassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association}.
 type CommunicationServiceEmailDomainAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_CommunicationServiceEmailDomainAssociation) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association} Resource.
 func NewCommunicationServiceEmailDomainAssociation(scope constructs.Construct, id *string, config *CommunicationServiceEmailDomainAssociationConfig) CommunicationServiceEmailDomainAssociation {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewCommunicationServiceEmailDomainAssociation(scope constructs.Construct, i
 	j := jsiiProxy_CommunicationServiceEmailDomainAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
+		"@cdktn/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewCommunicationServiceEmailDomainAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association} Resource.
 func NewCommunicationServiceEmailDomainAssociation_Override(c CommunicationServiceEmailDomainAssociation, scope constructs.Construct, id *string, config *CommunicationServiceEmailDomainAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
+		"@cdktn/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -520,7 +520,7 @@ func CommunicationServiceEmailDomainAssociation_GenerateConfigForImport(scope co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
+		"@cdktn/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func CommunicationServiceEmailDomainAssociation_IsConstruct(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
+		"@cdktn/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func CommunicationServiceEmailDomainAssociation_IsTerraformElement(x interface{}
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
+		"@cdktn/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func CommunicationServiceEmailDomainAssociation_IsTerraformResource(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
+		"@cdktn/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func CommunicationServiceEmailDomainAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
+		"@cdktn/provider-azurerm.communicationServiceEmailDomainAssociation.CommunicationServiceEmailDomainAssociation",
 		"tfResourceType",
 		&returns,
 	)

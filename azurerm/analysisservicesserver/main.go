@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package analysisservicesserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.analysisServicesServer.AnalysisServicesServer",
+		"@cdktn/provider-azurerm.analysisServicesServer.AnalysisServicesServer",
 		reflect.TypeOf((*AnalysisServicesServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.analysisServicesServer.AnalysisServicesServerConfig",
+		"@cdktn/provider-azurerm.analysisServicesServer.AnalysisServicesServerConfig",
 		reflect.TypeOf((*AnalysisServicesServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.analysisServicesServer.AnalysisServicesServerIpv4FirewallRule",
+		"@cdktn/provider-azurerm.analysisServicesServer.AnalysisServicesServerIpv4FirewallRule",
 		reflect.TypeOf((*AnalysisServicesServerIpv4FirewallRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.analysisServicesServer.AnalysisServicesServerIpv4FirewallRuleList",
+		"@cdktn/provider-azurerm.analysisServicesServer.AnalysisServicesServerIpv4FirewallRuleList",
 		reflect.TypeOf((*AnalysisServicesServerIpv4FirewallRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.analysisServicesServer.AnalysisServicesServerIpv4FirewallRuleOutputReference",
+		"@cdktn/provider-azurerm.analysisServicesServer.AnalysisServicesServerIpv4FirewallRuleOutputReference",
 		reflect.TypeOf((*AnalysisServicesServerIpv4FirewallRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -166,11 +166,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.analysisServicesServer.AnalysisServicesServerTimeouts",
+		"@cdktn/provider-azurerm.analysisServicesServer.AnalysisServicesServerTimeouts",
 		reflect.TypeOf((*AnalysisServicesServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.analysisServicesServer.AnalysisServicesServerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.analysisServicesServer.AnalysisServicesServerTimeoutsOutputReference",
 		reflect.TypeOf((*AnalysisServicesServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

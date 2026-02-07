@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressrouteconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
 		reflect.TypeOf((*ExpressRouteConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnectionConfig",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnectionConfig",
 		reflect.TypeOf((*ExpressRouteConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnectionRouting",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnectionRouting",
 		reflect.TypeOf((*ExpressRouteConnectionRouting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnectionRoutingOutputReference",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnectionRoutingOutputReference",
 		reflect.TypeOf((*ExpressRouteConnectionRoutingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "associatedRouteTableId", GoGetter: "AssociatedRouteTableId"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnectionRoutingPropagatedRouteTable",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnectionRoutingPropagatedRouteTable",
 		reflect.TypeOf((*ExpressRouteConnectionRoutingPropagatedRouteTable)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnectionRoutingPropagatedRouteTableOutputReference",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnectionRoutingPropagatedRouteTableOutputReference",
 		reflect.TypeOf((*ExpressRouteConnectionRoutingPropagatedRouteTableOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -190,11 +190,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnectionTimeouts",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnectionTimeouts",
 		reflect.TypeOf((*ExpressRouteConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteConnection.ExpressRouteConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*ExpressRouteConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

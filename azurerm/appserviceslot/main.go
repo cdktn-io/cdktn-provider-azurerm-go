@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appserviceslot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlot",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlot",
 		reflect.TypeOf((*AppServiceSlot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -124,15 +124,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettings",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettings",
 		reflect.TypeOf((*AppServiceSlotAuthSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsActiveDirectory",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsActiveDirectory",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsActiveDirectoryOutputReference",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -172,11 +172,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsFacebook",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsFacebook",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsFacebook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsFacebookOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsFacebookOutputReference",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsFacebookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appId", GoGetter: "AppId"},
@@ -215,11 +215,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsGoogle",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsGoogle",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsGoogle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsGoogleOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsGoogleOutputReference",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsGoogleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -258,11 +258,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsMicrosoft",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsMicrosoft",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsMicrosoft)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsMicrosoftOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsMicrosoftOutputReference",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsMicrosoftOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -301,7 +301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsOutputReference",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -379,11 +379,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsTwitter",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsTwitter",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsTwitter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsTwitterOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotAuthSettingsTwitterOutputReference",
 		reflect.TypeOf((*AppServiceSlotAuthSettingsTwitterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -419,15 +419,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotConfig",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotConfig",
 		reflect.TypeOf((*AppServiceSlotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotConnectionString",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotConnectionString",
 		reflect.TypeOf((*AppServiceSlotConnectionString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotConnectionStringList",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotConnectionStringList",
 		reflect.TypeOf((*AppServiceSlotConnectionStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -449,7 +449,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotConnectionStringOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotConnectionStringOutputReference",
 		reflect.TypeOf((*AppServiceSlotConnectionStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -487,11 +487,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotIdentity",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotIdentity",
 		reflect.TypeOf((*AppServiceSlotIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotIdentityOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotIdentityOutputReference",
 		reflect.TypeOf((*AppServiceSlotIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -530,19 +530,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogs",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogs",
 		reflect.TypeOf((*AppServiceSlotLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogs",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogs",
 		reflect.TypeOf((*AppServiceSlotLogsApplicationLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogsAzureBlobStorage",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogsAzureBlobStorage",
 		reflect.TypeOf((*AppServiceSlotLogsApplicationLogsAzureBlobStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogsAzureBlobStorageOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogsAzureBlobStorageOutputReference",
 		reflect.TypeOf((*AppServiceSlotLogsApplicationLogsAzureBlobStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -580,7 +580,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogsOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogsOutputReference",
 		reflect.TypeOf((*AppServiceSlotLogsApplicationLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureBlobStorage", GoGetter: "AzureBlobStorage"},
@@ -619,15 +619,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogs",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogs",
 		reflect.TypeOf((*AppServiceSlotLogsHttpLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsAzureBlobStorage",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsAzureBlobStorage",
 		reflect.TypeOf((*AppServiceSlotLogsHttpLogsAzureBlobStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsAzureBlobStorageOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsAzureBlobStorageOutputReference",
 		reflect.TypeOf((*AppServiceSlotLogsHttpLogsAzureBlobStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -663,11 +663,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsFileSystem",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsFileSystem",
 		reflect.TypeOf((*AppServiceSlotLogsHttpLogsFileSystem)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsFileSystemOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsFileSystemOutputReference",
 		reflect.TypeOf((*AppServiceSlotLogsHttpLogsFileSystemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -703,7 +703,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsOutputReference",
 		reflect.TypeOf((*AppServiceSlotLogsHttpLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureBlobStorage", GoGetter: "AzureBlobStorage"},
@@ -743,7 +743,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotLogsOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotLogsOutputReference",
 		reflect.TypeOf((*AppServiceSlotLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationLogs", GoGetter: "ApplicationLogs"},
@@ -789,15 +789,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfig",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfig",
 		reflect.TypeOf((*AppServiceSlotSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigCors",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigCors",
 		reflect.TypeOf((*AppServiceSlotSiteConfigCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigCorsOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigCorsOutputReference",
 		reflect.TypeOf((*AppServiceSlotSiteConfigCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
@@ -834,15 +834,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestriction",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestriction",
 		reflect.TypeOf((*AppServiceSlotSiteConfigIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionHeaders",
 		reflect.TypeOf((*AppServiceSlotSiteConfigIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionHeadersList",
 		reflect.TypeOf((*AppServiceSlotSiteConfigIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -864,7 +864,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*AppServiceSlotSiteConfigIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -908,7 +908,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionList",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionList",
 		reflect.TypeOf((*AppServiceSlotSiteConfigIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -930,7 +930,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigIpRestrictionOutputReference",
 		reflect.TypeOf((*AppServiceSlotSiteConfigIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -984,7 +984,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigOutputReference",
 		reflect.TypeOf((*AppServiceSlotSiteConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acrUseManagedIdentityCredentials", GoGetter: "AcrUseManagedIdentityCredentials"},
@@ -1112,15 +1112,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestriction",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestriction",
 		reflect.TypeOf((*AppServiceSlotSiteConfigScmIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionHeaders",
 		reflect.TypeOf((*AppServiceSlotSiteConfigScmIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionHeadersList",
 		reflect.TypeOf((*AppServiceSlotSiteConfigScmIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1142,7 +1142,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*AppServiceSlotSiteConfigScmIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1186,7 +1186,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionList",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionList",
 		reflect.TypeOf((*AppServiceSlotSiteConfigScmIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1208,7 +1208,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionOutputReference",
 		reflect.TypeOf((*AppServiceSlotSiteConfigScmIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1262,11 +1262,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteCredential",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteCredential",
 		reflect.TypeOf((*AppServiceSlotSiteCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteCredentialList",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteCredentialList",
 		reflect.TypeOf((*AppServiceSlotSiteCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1287,7 +1287,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotSiteCredentialOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotSiteCredentialOutputReference",
 		reflect.TypeOf((*AppServiceSlotSiteCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1321,11 +1321,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotStorageAccount",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotStorageAccount",
 		reflect.TypeOf((*AppServiceSlotStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotStorageAccountList",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotStorageAccountList",
 		reflect.TypeOf((*AppServiceSlotStorageAccountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1347,7 +1347,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotStorageAccountOutputReference",
 		reflect.TypeOf((*AppServiceSlotStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
@@ -1392,11 +1392,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotTimeouts",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotTimeouts",
 		reflect.TypeOf((*AppServiceSlotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlotTimeoutsOutputReference",
 		reflect.TypeOf((*AppServiceSlotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

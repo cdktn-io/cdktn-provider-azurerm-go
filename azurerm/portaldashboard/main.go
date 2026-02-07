@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package portaldashboard
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboard",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboard",
 		reflect.TypeOf((*PortalDashboard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboardConfig",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboardConfig",
 		reflect.TypeOf((*PortalDashboardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboardTimeouts",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboardTimeouts",
 		reflect.TypeOf((*PortalDashboardTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboardTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboardTimeoutsOutputReference",
 		reflect.TypeOf((*PortalDashboardTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

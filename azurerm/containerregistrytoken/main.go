@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerregistrytoken
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryToken.ContainerRegistryToken",
+		"@cdktn/provider-azurerm.containerRegistryToken.ContainerRegistryToken",
 		reflect.TypeOf((*ContainerRegistryToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryToken.ContainerRegistryTokenConfig",
+		"@cdktn/provider-azurerm.containerRegistryToken.ContainerRegistryTokenConfig",
 		reflect.TypeOf((*ContainerRegistryTokenConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryToken.ContainerRegistryTokenTimeouts",
+		"@cdktn/provider-azurerm.containerRegistryToken.ContainerRegistryTokenTimeouts",
 		reflect.TypeOf((*ContainerRegistryTokenTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryToken.ContainerRegistryTokenTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryToken.ContainerRegistryTokenTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerRegistryTokenTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package routefilter
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilter",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilter",
 		reflect.TypeOf((*RouteFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilterConfig",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilterConfig",
 		reflect.TypeOf((*RouteFilterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilterRule",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilterRule",
 		reflect.TypeOf((*RouteFilterRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilterRuleList",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilterRuleList",
 		reflect.TypeOf((*RouteFilterRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilterRuleOutputReference",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilterRuleOutputReference",
 		reflect.TypeOf((*RouteFilterRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilterTimeouts",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilterTimeouts",
 		reflect.TypeOf((*RouteFilterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilterTimeoutsOutputReference",
 		reflect.TypeOf((*RouteFilterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

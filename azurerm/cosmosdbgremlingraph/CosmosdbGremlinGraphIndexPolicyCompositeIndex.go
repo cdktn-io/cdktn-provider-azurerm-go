@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbgremlingraph
@@ -7,7 +7,7 @@ package cosmosdbgremlingraph
 type CosmosdbGremlinGraphIndexPolicyCompositeIndex struct {
 	// index block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_gremlin_graph#index CosmosdbGremlinGraph#index}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_gremlin_graph#index CosmosdbGremlinGraph#index}
 	Index interface{} `field:"required" json:"index" yaml:"index"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnfrontdoorsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorsecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret}.
 type CdnFrontdoorSecret interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_CdnFrontdoorSecret) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret} Resource.
 func NewCdnFrontdoorSecret(scope constructs.Construct, id *string, config *CdnFrontdoorSecretConfig) CdnFrontdoorSecret {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewCdnFrontdoorSecret(scope constructs.Construct, id *string, config *CdnFr
 	j := jsiiProxy_CdnFrontdoorSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
+		"@cdktn/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewCdnFrontdoorSecret(scope constructs.Construct, id *string, config *CdnFr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_secret azurerm_cdn_frontdoor_secret} Resource.
 func NewCdnFrontdoorSecret_Override(c CdnFrontdoorSecret, scope constructs.Construct, id *string, config *CdnFrontdoorSecretConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
+		"@cdktn/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -554,7 +554,7 @@ func CdnFrontdoorSecret_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
+		"@cdktn/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func CdnFrontdoorSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
+		"@cdktn/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func CdnFrontdoorSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
+		"@cdktn/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func CdnFrontdoorSecret_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
+		"@cdktn/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func CdnFrontdoorSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
+		"@cdktn/provider-azurerm.cdnFrontdoorSecret.CdnFrontdoorSecret",
 		"tfResourceType",
 		&returns,
 	)

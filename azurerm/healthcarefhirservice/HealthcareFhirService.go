@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcarefhirservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/healthcarefhirservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcarefhirservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service}.
 type HealthcareFhirService interface {
 	cdktf.TerraformResource
 	AccessPolicyObjectIds() *[]*string
@@ -652,7 +652,7 @@ func (j *jsiiProxy_HealthcareFhirService) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service} Resource.
 func NewHealthcareFhirService(scope constructs.Construct, id *string, config *HealthcareFhirServiceConfig) HealthcareFhirService {
 	_init_.Initialize()
 
@@ -662,7 +662,7 @@ func NewHealthcareFhirService(scope constructs.Construct, id *string, config *He
 	j := jsiiProxy_HealthcareFhirService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirService",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -670,12 +670,12 @@ func NewHealthcareFhirService(scope constructs.Construct, id *string, config *He
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service} Resource.
 func NewHealthcareFhirService_Override(h HealthcareFhirService, scope constructs.Construct, id *string, config *HealthcareFhirServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirService",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirService",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -869,7 +869,7 @@ func HealthcareFhirService_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirService",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -904,7 +904,7 @@ func HealthcareFhirService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirService",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -923,7 +923,7 @@ func HealthcareFhirService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirService",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -942,7 +942,7 @@ func HealthcareFhirService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirService",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -955,7 +955,7 @@ func HealthcareFhirService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.healthcareFhirService.HealthcareFhirService",
+		"@cdktn/provider-azurerm.healthcareFhirService.HealthcareFhirService",
 		"tfResourceType",
 		&returns,
 	)

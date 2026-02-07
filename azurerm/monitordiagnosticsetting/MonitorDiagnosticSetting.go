@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitordiagnosticsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitordiagnosticsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitordiagnosticsetting/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting}.
 type MonitorDiagnosticSetting interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -596,7 +596,7 @@ func (j *jsiiProxy_MonitorDiagnosticSetting) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
 func NewMonitorDiagnosticSetting(scope constructs.Construct, id *string, config *MonitorDiagnosticSettingConfig) MonitorDiagnosticSetting {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewMonitorDiagnosticSetting(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_MonitorDiagnosticSetting{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
+		"@cdktn/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -614,12 +614,12 @@ func NewMonitorDiagnosticSetting(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_diagnostic_setting azurerm_monitor_diagnostic_setting} Resource.
 func NewMonitorDiagnosticSetting_Override(m MonitorDiagnosticSetting, scope constructs.Construct, id *string, config *MonitorDiagnosticSettingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
+		"@cdktn/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -802,7 +802,7 @@ func MonitorDiagnosticSetting_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
+		"@cdktn/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -837,7 +837,7 @@ func MonitorDiagnosticSetting_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
+		"@cdktn/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -856,7 +856,7 @@ func MonitorDiagnosticSetting_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
+		"@cdktn/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -875,7 +875,7 @@ func MonitorDiagnosticSetting_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
+		"@cdktn/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -888,7 +888,7 @@ func MonitorDiagnosticSetting_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
+		"@cdktn/provider-azurerm.monitorDiagnosticSetting.MonitorDiagnosticSetting",
 		"tfResourceType",
 		&returns,
 	)

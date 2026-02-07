@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitordatacollectionendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitordatacollectionendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitordatacollectionendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint}.
 type MonitorDataCollectionEndpoint interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_MonitorDataCollectionEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint} Resource.
 func NewMonitorDataCollectionEndpoint(scope constructs.Construct, id *string, config *MonitorDataCollectionEndpointConfig) MonitorDataCollectionEndpoint {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewMonitorDataCollectionEndpoint(scope constructs.Construct, id *string, co
 	j := jsiiProxy_MonitorDataCollectionEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
+		"@cdktn/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -561,12 +561,12 @@ func NewMonitorDataCollectionEndpoint(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint} Resource.
 func NewMonitorDataCollectionEndpoint_Override(m MonitorDataCollectionEndpoint, scope constructs.Construct, id *string, config *MonitorDataCollectionEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
+		"@cdktn/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -738,7 +738,7 @@ func MonitorDataCollectionEndpoint_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
+		"@cdktn/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -773,7 +773,7 @@ func MonitorDataCollectionEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
+		"@cdktn/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func MonitorDataCollectionEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
+		"@cdktn/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func MonitorDataCollectionEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
+		"@cdktn/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func MonitorDataCollectionEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
+		"@cdktn/provider-azurerm.monitorDataCollectionEndpoint.MonitorDataCollectionEndpoint",
 		"tfResourceType",
 		&returns,
 	)

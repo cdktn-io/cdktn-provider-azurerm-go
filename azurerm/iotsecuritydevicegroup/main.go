@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotsecuritydevicegroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
 		reflect.TypeOf((*IotSecurityDeviceGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,11 +82,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupAllowRule",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupAllowRule",
 		reflect.TypeOf((*IotSecurityDeviceGroupAllowRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupAllowRuleOutputReference",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupAllowRuleOutputReference",
 		reflect.TypeOf((*IotSecurityDeviceGroupAllowRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,15 +130,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupConfig",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupConfig",
 		reflect.TypeOf((*IotSecurityDeviceGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupRangeRule",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupRangeRule",
 		reflect.TypeOf((*IotSecurityDeviceGroupRangeRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupRangeRuleList",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupRangeRuleList",
 		reflect.TypeOf((*IotSecurityDeviceGroupRangeRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -160,7 +160,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupRangeRuleOutputReference",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupRangeRuleOutputReference",
 		reflect.TypeOf((*IotSecurityDeviceGroupRangeRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupTimeouts",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupTimeouts",
 		reflect.TypeOf((*IotSecurityDeviceGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupTimeoutsOutputReference",
 		reflect.TypeOf((*IotSecurityDeviceGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

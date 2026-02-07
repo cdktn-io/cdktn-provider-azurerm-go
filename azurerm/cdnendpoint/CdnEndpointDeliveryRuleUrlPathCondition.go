@@ -1,17 +1,17 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnendpoint
 
 
 type CdnEndpointDeliveryRuleUrlPathCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_endpoint#operator CdnEndpoint#operator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_endpoint#operator CdnEndpoint#operator}.
 	Operator *string `field:"required" json:"operator" yaml:"operator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_endpoint#match_values CdnEndpoint#match_values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_endpoint#match_values CdnEndpoint#match_values}.
 	MatchValues *[]*string `field:"optional" json:"matchValues" yaml:"matchValues"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_endpoint#negate_condition CdnEndpoint#negate_condition}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_endpoint#negate_condition CdnEndpoint#negate_condition}.
 	NegateCondition interface{} `field:"optional" json:"negateCondition" yaml:"negateCondition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_endpoint#transforms CdnEndpoint#transforms}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_endpoint#transforms CdnEndpoint#transforms}.
 	Transforms *[]*string `field:"optional" json:"transforms" yaml:"transforms"`
 }
 

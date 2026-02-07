@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelalexa
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/botchannelalexa/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/botchannelalexa/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa}.
 type BotChannelAlexa interface {
 	cdktf.TerraformResource
 	BotName() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_BotChannelAlexa) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa} Resource.
 func NewBotChannelAlexa(scope constructs.Construct, id *string, config *BotChannelAlexaConfig) BotChannelAlexa {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewBotChannelAlexa(scope constructs.Construct, id *string, config *BotChann
 	j := jsiiProxy_BotChannelAlexa{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botChannelAlexa.BotChannelAlexa",
+		"@cdktn/provider-azurerm.botChannelAlexa.BotChannelAlexa",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewBotChannelAlexa(scope constructs.Construct, id *string, config *BotChann
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_alexa azurerm_bot_channel_alexa} Resource.
 func NewBotChannelAlexa_Override(b BotChannelAlexa, scope constructs.Construct, id *string, config *BotChannelAlexaConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botChannelAlexa.BotChannelAlexa",
+		"@cdktn/provider-azurerm.botChannelAlexa.BotChannelAlexa",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -588,7 +588,7 @@ func BotChannelAlexa_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelAlexa.BotChannelAlexa",
+		"@cdktn/provider-azurerm.botChannelAlexa.BotChannelAlexa",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func BotChannelAlexa_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelAlexa.BotChannelAlexa",
+		"@cdktn/provider-azurerm.botChannelAlexa.BotChannelAlexa",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func BotChannelAlexa_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelAlexa.BotChannelAlexa",
+		"@cdktn/provider-azurerm.botChannelAlexa.BotChannelAlexa",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func BotChannelAlexa_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelAlexa.BotChannelAlexa",
+		"@cdktn/provider-azurerm.botChannelAlexa.BotChannelAlexa",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func BotChannelAlexa_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.botChannelAlexa.BotChannelAlexa",
+		"@cdktn/provider-azurerm.botChannelAlexa.BotChannelAlexa",
 		"tfResourceType",
 		&returns,
 	)

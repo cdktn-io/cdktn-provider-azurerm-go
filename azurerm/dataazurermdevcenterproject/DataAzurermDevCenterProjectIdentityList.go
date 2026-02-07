@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdevcenterproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdevcenterproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdevcenterproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAzurermDevCenterProjectIdentityList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataAzurermDevCenterProjectIdentityList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterProject.DataAzurermDevCenterProjectIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterProject.DataAzurermDevCenterProjectIdentityList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAzurermDevCenterProjectIdentityList_Override(d DataAzurermDevCenterP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterProject.DataAzurermDevCenterProjectIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterProject.DataAzurermDevCenterProjectIdentityList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

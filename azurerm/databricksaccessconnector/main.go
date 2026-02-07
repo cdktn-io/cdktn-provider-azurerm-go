@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databricksaccessconnector
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
 		reflect.TypeOf((*DatabricksAccessConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorConfig",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorConfig",
 		reflect.TypeOf((*DatabricksAccessConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorIdentity",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorIdentity",
 		reflect.TypeOf((*DatabricksAccessConnectorIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorIdentityOutputReference",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorIdentityOutputReference",
 		reflect.TypeOf((*DatabricksAccessConnectorIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorTimeouts",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorTimeouts",
 		reflect.TypeOf((*DatabricksAccessConnectorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnectorTimeoutsOutputReference",
 		reflect.TypeOf((*DatabricksAccessConnectorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package aiservices
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServices",
+		"@cdktn/provider-azurerm.aiServices.AiServices",
 		reflect.TypeOf((*AiServices)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -115,15 +115,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiServices.AiServicesConfig",
+		"@cdktn/provider-azurerm.aiServices.AiServicesConfig",
 		reflect.TypeOf((*AiServicesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiServices.AiServicesCustomerManagedKey",
+		"@cdktn/provider-azurerm.aiServices.AiServicesCustomerManagedKey",
 		reflect.TypeOf((*AiServicesCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServicesCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*AiServicesCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiServices.AiServicesIdentity",
+		"@cdktn/provider-azurerm.aiServices.AiServicesIdentity",
 		reflect.TypeOf((*AiServicesIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServicesIdentityOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesIdentityOutputReference",
 		reflect.TypeOf((*AiServicesIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -207,11 +207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiServices.AiServicesNetworkAcls",
+		"@cdktn/provider-azurerm.aiServices.AiServicesNetworkAcls",
 		reflect.TypeOf((*AiServicesNetworkAcls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServicesNetworkAclsOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesNetworkAclsOutputReference",
 		reflect.TypeOf((*AiServicesNetworkAclsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bypass", GoGetter: "Bypass"},
@@ -255,11 +255,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiServices.AiServicesNetworkAclsVirtualNetworkRules",
+		"@cdktn/provider-azurerm.aiServices.AiServicesNetworkAclsVirtualNetworkRules",
 		reflect.TypeOf((*AiServicesNetworkAclsVirtualNetworkRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServicesNetworkAclsVirtualNetworkRulesList",
+		"@cdktn/provider-azurerm.aiServices.AiServicesNetworkAclsVirtualNetworkRulesList",
 		reflect.TypeOf((*AiServicesNetworkAclsVirtualNetworkRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -281,7 +281,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServicesNetworkAclsVirtualNetworkRulesOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesNetworkAclsVirtualNetworkRulesOutputReference",
 		reflect.TypeOf((*AiServicesNetworkAclsVirtualNetworkRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -318,11 +318,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiServices.AiServicesStorage",
+		"@cdktn/provider-azurerm.aiServices.AiServicesStorage",
 		reflect.TypeOf((*AiServicesStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServicesStorageList",
+		"@cdktn/provider-azurerm.aiServices.AiServicesStorageList",
 		reflect.TypeOf((*AiServicesStorageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -344,7 +344,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServicesStorageOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesStorageOutputReference",
 		reflect.TypeOf((*AiServicesStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -381,11 +381,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiServices.AiServicesTimeouts",
+		"@cdktn/provider-azurerm.aiServices.AiServicesTimeouts",
 		reflect.TypeOf((*AiServicesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiServices.AiServicesTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesTimeoutsOutputReference",
 		reflect.TypeOf((*AiServicesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlmanagedinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
 		reflect.TypeOf((*MssqlManagedInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceAzureActiveDirectoryAdministrator",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceAzureActiveDirectoryAdministrator",
 		reflect.TypeOf((*MssqlManagedInstanceAzureActiveDirectoryAdministrator)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReference",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReference",
 		reflect.TypeOf((*MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureadAuthenticationOnlyEnabled", GoGetter: "AzureadAuthenticationOnlyEnabled"},
@@ -189,15 +189,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceConfig",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceConfig",
 		reflect.TypeOf((*MssqlManagedInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceIdentity",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceIdentity",
 		reflect.TypeOf((*MssqlManagedInstanceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceIdentityOutputReference",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceIdentityOutputReference",
 		reflect.TypeOf((*MssqlManagedInstanceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -236,11 +236,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceTimeouts",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceTimeouts",
 		reflect.TypeOf((*MssqlManagedInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlManagedInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

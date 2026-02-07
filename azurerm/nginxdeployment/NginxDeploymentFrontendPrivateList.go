@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nginxdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/nginxdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/nginxdeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewNginxDeploymentFrontendPrivateList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_NginxDeploymentFrontendPrivateList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivateList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewNginxDeploymentFrontendPrivateList_Override(n NginxDeploymentFrontendPri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivateList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivateList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
 	)

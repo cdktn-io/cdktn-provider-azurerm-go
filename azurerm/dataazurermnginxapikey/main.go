@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnginxapikey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKey",
+		"@cdktn/provider-azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKey",
 		reflect.TypeOf((*DataAzurermNginxApiKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyConfig",
+		"@cdktn/provider-azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyConfig",
 		reflect.TypeOf((*DataAzurermNginxApiKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyTimeouts",
 		reflect.TypeOf((*DataAzurermNginxApiKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermNginxApiKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

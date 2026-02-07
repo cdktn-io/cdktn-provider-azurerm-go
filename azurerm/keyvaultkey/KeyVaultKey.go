@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/keyvaultkey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_key azurerm_key_vault_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_key azurerm_key_vault_key}.
 type KeyVaultKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -680,7 +680,7 @@ func (j *jsiiProxy_KeyVaultKey) Y() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
 func NewKeyVaultKey(scope constructs.Construct, id *string, config *KeyVaultKeyConfig) KeyVaultKey {
 	_init_.Initialize()
 
@@ -690,7 +690,7 @@ func NewKeyVaultKey(scope constructs.Construct, id *string, config *KeyVaultKeyC
 	j := jsiiProxy_KeyVaultKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKey",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -698,12 +698,12 @@ func NewKeyVaultKey(scope constructs.Construct, id *string, config *KeyVaultKeyC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
 func NewKeyVaultKey_Override(k KeyVaultKey, scope constructs.Construct, id *string, config *KeyVaultKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKey",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKey",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -897,7 +897,7 @@ func KeyVaultKey_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKey",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -932,7 +932,7 @@ func KeyVaultKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKey",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -951,7 +951,7 @@ func KeyVaultKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKey",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -970,7 +970,7 @@ func KeyVaultKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKey",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -983,7 +983,7 @@ func KeyVaultKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.keyVaultKey.KeyVaultKey",
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKey",
 		"tfResourceType",
 		&returns,
 	)

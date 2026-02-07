@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdnsmxrecord
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecord",
 		reflect.TypeOf((*DataAzurermDnsMxRecord)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordConfig",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordConfig",
 		reflect.TypeOf((*DataAzurermDnsMxRecordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecord",
 		reflect.TypeOf((*DataAzurermDnsMxRecordRecord)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecordList",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecordList",
 		reflect.TypeOf((*DataAzurermDnsMxRecordRecordList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecordOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecordOutputReference",
 		reflect.TypeOf((*DataAzurermDnsMxRecordRecordOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordTimeouts",
 		reflect.TypeOf((*DataAzurermDnsMxRecordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermDnsMxRecordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

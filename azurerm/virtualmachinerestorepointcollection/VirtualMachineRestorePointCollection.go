@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachinerestorepointcollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualmachinerestorepointcollection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachinerestorepointcollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_restore_point_collection azurerm_virtual_machine_restore_point_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_restore_point_collection azurerm_virtual_machine_restore_point_collection}.
 type VirtualMachineRestorePointCollection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_VirtualMachineRestorePointCollection) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_restore_point_collection azurerm_virtual_machine_restore_point_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_restore_point_collection azurerm_virtual_machine_restore_point_collection} Resource.
 func NewVirtualMachineRestorePointCollection(scope constructs.Construct, id *string, config *VirtualMachineRestorePointCollectionConfig) VirtualMachineRestorePointCollection {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewVirtualMachineRestorePointCollection(scope constructs.Construct, id *str
 	j := jsiiProxy_VirtualMachineRestorePointCollection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
+		"@cdktn/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewVirtualMachineRestorePointCollection(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_restore_point_collection azurerm_virtual_machine_restore_point_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_restore_point_collection azurerm_virtual_machine_restore_point_collection} Resource.
 func NewVirtualMachineRestorePointCollection_Override(v VirtualMachineRestorePointCollection, scope constructs.Construct, id *string, config *VirtualMachineRestorePointCollectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
+		"@cdktn/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -623,7 +623,7 @@ func VirtualMachineRestorePointCollection_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
+		"@cdktn/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func VirtualMachineRestorePointCollection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
+		"@cdktn/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func VirtualMachineRestorePointCollection_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
+		"@cdktn/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func VirtualMachineRestorePointCollection_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
+		"@cdktn/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func VirtualMachineRestorePointCollection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
+		"@cdktn/provider-azurerm.virtualMachineRestorePointCollection.VirtualMachineRestorePointCollection",
 		"tfResourceType",
 		&returns,
 	)

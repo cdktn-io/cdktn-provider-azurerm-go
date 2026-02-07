@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagecontainer
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageContainer.StorageContainer",
+		"@cdktn/provider-azurerm.storageContainer.StorageContainer",
 		reflect.TypeOf((*StorageContainer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageContainer.StorageContainerConfig",
+		"@cdktn/provider-azurerm.storageContainer.StorageContainerConfig",
 		reflect.TypeOf((*StorageContainerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageContainer.StorageContainerTimeouts",
+		"@cdktn/provider-azurerm.storageContainer.StorageContainerTimeouts",
 		reflect.TypeOf((*StorageContainerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageContainer.StorageContainerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageContainer.StorageContainerTimeoutsOutputReference",
 		reflect.TypeOf((*StorageContainerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

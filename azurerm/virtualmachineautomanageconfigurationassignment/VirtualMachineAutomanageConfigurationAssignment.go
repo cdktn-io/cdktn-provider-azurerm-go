@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachineautomanageconfigurationassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualmachineautomanageconfigurationassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachineautomanageconfigurationassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment}.
 type VirtualMachineAutomanageConfigurationAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignment) VirtualMachi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment} Resource.
 func NewVirtualMachineAutomanageConfigurationAssignment(scope constructs.Construct, id *string, config *VirtualMachineAutomanageConfigurationAssignmentConfig) VirtualMachineAutomanageConfigurationAssignment {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewVirtualMachineAutomanageConfigurationAssignment(scope constructs.Constru
 	j := jsiiProxy_VirtualMachineAutomanageConfigurationAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
+		"@cdktn/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewVirtualMachineAutomanageConfigurationAssignment(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_automanage_configuration_assignment azurerm_virtual_machine_automanage_configuration_assignment} Resource.
 func NewVirtualMachineAutomanageConfigurationAssignment_Override(v VirtualMachineAutomanageConfigurationAssignment, scope constructs.Construct, id *string, config *VirtualMachineAutomanageConfigurationAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
+		"@cdktn/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -520,7 +520,7 @@ func VirtualMachineAutomanageConfigurationAssignment_GenerateConfigForImport(sco
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
+		"@cdktn/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func VirtualMachineAutomanageConfigurationAssignment_IsConstruct(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
+		"@cdktn/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func VirtualMachineAutomanageConfigurationAssignment_IsTerraformElement(x interf
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
+		"@cdktn/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func VirtualMachineAutomanageConfigurationAssignment_IsTerraformResource(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
+		"@cdktn/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func VirtualMachineAutomanageConfigurationAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
+		"@cdktn/provider-azurerm.virtualMachineAutomanageConfigurationAssignment.VirtualMachineAutomanageConfigurationAssignment",
 		"tfResourceType",
 		&returns,
 	)

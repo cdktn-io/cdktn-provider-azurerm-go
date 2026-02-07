@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationinsightsapikey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/applicationinsightsapikey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationinsightsapikey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key}.
 type ApplicationInsightsApiKey interface {
 	cdktf.TerraformResource
 	ApiKey() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_ApplicationInsightsApiKey) WritePermissionsInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
 func NewApplicationInsightsApiKey(scope constructs.Construct, id *string, config *ApplicationInsightsApiKeyConfig) ApplicationInsightsApiKey {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewApplicationInsightsApiKey(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ApplicationInsightsApiKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -457,12 +457,12 @@ func NewApplicationInsightsApiKey(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
 func NewApplicationInsightsApiKey_Override(a ApplicationInsightsApiKey, scope constructs.Construct, id *string, config *ApplicationInsightsApiKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -601,7 +601,7 @@ func ApplicationInsightsApiKey_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -636,7 +636,7 @@ func ApplicationInsightsApiKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func ApplicationInsightsApiKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ApplicationInsightsApiKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -687,7 +687,7 @@ func ApplicationInsightsApiKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
+		"@cdktn/provider-azurerm.applicationInsightsApiKey.ApplicationInsightsApiKey",
 		"tfResourceType",
 		&returns,
 	)

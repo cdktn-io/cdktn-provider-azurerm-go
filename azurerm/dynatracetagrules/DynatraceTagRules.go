@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dynatracetagrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dynatracetagrules/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dynatracetagrules/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules}.
 type DynatraceTagRules interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -428,7 +428,7 @@ func (j *jsiiProxy_DynatraceTagRules) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules} Resource.
 func NewDynatraceTagRules(scope constructs.Construct, id *string, config *DynatraceTagRulesConfig) DynatraceTagRules {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewDynatraceTagRules(scope constructs.Construct, id *string, config *Dynatr
 	j := jsiiProxy_DynatraceTagRules{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewDynatraceTagRules(scope constructs.Construct, id *string, config *Dynatr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules} Resource.
 func NewDynatraceTagRules_Override(d DynatraceTagRules, scope constructs.Construct, id *string, config *DynatraceTagRulesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -568,7 +568,7 @@ func DynatraceTagRules_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -603,7 +603,7 @@ func DynatraceTagRules_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -622,7 +622,7 @@ func DynatraceTagRules_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func DynatraceTagRules_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func DynatraceTagRules_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
+		"@cdktn/provider-azurerm.dynatraceTagRules.DynatraceTagRules",
 		"tfResourceType",
 		&returns,
 	)

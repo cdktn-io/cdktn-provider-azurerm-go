@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package consumptionbudgetsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/consumptionbudgetsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/consumptionbudgetsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription}.
 type ConsumptionBudgetSubscription interface {
 	cdktf.TerraformResource
 	Amount() *float64
@@ -521,7 +521,7 @@ func (j *jsiiProxy_ConsumptionBudgetSubscription) TimePeriodInput() *Consumption
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription} Resource.
 func NewConsumptionBudgetSubscription(scope constructs.Construct, id *string, config *ConsumptionBudgetSubscriptionConfig) ConsumptionBudgetSubscription {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewConsumptionBudgetSubscription(scope constructs.Construct, id *string, co
 	j := jsiiProxy_ConsumptionBudgetSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
+		"@cdktn/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewConsumptionBudgetSubscription(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/consumption_budget_subscription azurerm_consumption_budget_subscription} Resource.
 func NewConsumptionBudgetSubscription_Override(c ConsumptionBudgetSubscription, scope constructs.Construct, id *string, config *ConsumptionBudgetSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
+		"@cdktn/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -694,7 +694,7 @@ func ConsumptionBudgetSubscription_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
+		"@cdktn/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -729,7 +729,7 @@ func ConsumptionBudgetSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
+		"@cdktn/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func ConsumptionBudgetSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
+		"@cdktn/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func ConsumptionBudgetSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
+		"@cdktn/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func ConsumptionBudgetSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
+		"@cdktn/provider-azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscription",
 		"tfResourceType",
 		&returns,
 	)

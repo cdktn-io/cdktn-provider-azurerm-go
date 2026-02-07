@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cognitivedeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveDeployment.CognitiveDeployment",
+		"@cdktn/provider-azurerm.cognitiveDeployment.CognitiveDeployment",
 		reflect.TypeOf((*CognitiveDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveDeployment.CognitiveDeploymentConfig",
+		"@cdktn/provider-azurerm.cognitiveDeployment.CognitiveDeploymentConfig",
 		reflect.TypeOf((*CognitiveDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveDeployment.CognitiveDeploymentModel",
+		"@cdktn/provider-azurerm.cognitiveDeployment.CognitiveDeploymentModel",
 		reflect.TypeOf((*CognitiveDeploymentModel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveDeployment.CognitiveDeploymentModelOutputReference",
+		"@cdktn/provider-azurerm.cognitiveDeployment.CognitiveDeploymentModelOutputReference",
 		reflect.TypeOf((*CognitiveDeploymentModelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveDeployment.CognitiveDeploymentSku",
+		"@cdktn/provider-azurerm.cognitiveDeployment.CognitiveDeploymentSku",
 		reflect.TypeOf((*CognitiveDeploymentSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveDeployment.CognitiveDeploymentSkuOutputReference",
+		"@cdktn/provider-azurerm.cognitiveDeployment.CognitiveDeploymentSkuOutputReference",
 		reflect.TypeOf((*CognitiveDeploymentSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveDeployment.CognitiveDeploymentTimeouts",
+		"@cdktn/provider-azurerm.cognitiveDeployment.CognitiveDeploymentTimeouts",
 		reflect.TypeOf((*CognitiveDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveDeployment.CognitiveDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cognitiveDeployment.CognitiveDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*CognitiveDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

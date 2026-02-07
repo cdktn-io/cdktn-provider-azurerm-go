@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotsecuritysolution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iotsecuritysolution/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iotsecuritysolution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.
 type IotSecuritySolution interface {
 	cdktf.TerraformResource
 	AdditionalWorkspace() IotSecuritySolutionAdditionalWorkspaceList
@@ -689,7 +689,7 @@ func (j *jsiiProxy_IotSecuritySolution) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
 func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotSecuritySolutionConfig) IotSecuritySolution {
 	_init_.Initialize()
 
@@ -699,7 +699,7 @@ func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotS
 	j := jsiiProxy_IotSecuritySolution{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -707,12 +707,12 @@ func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
 func NewIotSecuritySolution_Override(i IotSecuritySolution, scope constructs.Construct, id *string, config *IotSecuritySolutionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -950,7 +950,7 @@ func IotSecuritySolution_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -985,7 +985,7 @@ func IotSecuritySolution_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1004,7 +1004,7 @@ func IotSecuritySolution_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1023,7 +1023,7 @@ func IotSecuritySolution_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1036,7 +1036,7 @@ func IotSecuritySolution_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
 		"tfResourceType",
 		&returns,
 	)

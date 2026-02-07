@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermvirtualwan
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermVirtualWan.DataAzurermVirtualWan",
+		"@cdktn/provider-azurerm.dataAzurermVirtualWan.DataAzurermVirtualWan",
 		reflect.TypeOf((*DataAzurermVirtualWan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanConfig",
+		"@cdktn/provider-azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanConfig",
 		reflect.TypeOf((*DataAzurermVirtualWanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanTimeouts",
 		reflect.TypeOf((*DataAzurermVirtualWanTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermVirtualWanTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

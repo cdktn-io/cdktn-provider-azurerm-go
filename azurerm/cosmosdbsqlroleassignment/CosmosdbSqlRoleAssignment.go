@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbsqlroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbsqlroleassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbsqlroleassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment}.
 type CosmosdbSqlRoleAssignment interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_CosmosdbSqlRoleAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment} Resource.
 func NewCosmosdbSqlRoleAssignment(scope constructs.Construct, id *string, config *CosmosdbSqlRoleAssignmentConfig) CosmosdbSqlRoleAssignment {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewCosmosdbSqlRoleAssignment(scope constructs.Construct, id *string, config
 	j := jsiiProxy_CosmosdbSqlRoleAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
+		"@cdktn/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewCosmosdbSqlRoleAssignment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_role_assignment azurerm_cosmosdb_sql_role_assignment} Resource.
 func NewCosmosdbSqlRoleAssignment_Override(c CosmosdbSqlRoleAssignment, scope constructs.Construct, id *string, config *CosmosdbSqlRoleAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
+		"@cdktn/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -657,7 +657,7 @@ func CosmosdbSqlRoleAssignment_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
+		"@cdktn/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func CosmosdbSqlRoleAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
+		"@cdktn/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func CosmosdbSqlRoleAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
+		"@cdktn/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func CosmosdbSqlRoleAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
+		"@cdktn/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func CosmosdbSqlRoleAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
+		"@cdktn/provider-azurerm.cosmosdbSqlRoleAssignment.CosmosdbSqlRoleAssignment",
 		"tfResourceType",
 		&returns,
 	)

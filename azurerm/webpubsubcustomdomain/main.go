@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubcustomdomain
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
 		reflect.TypeOf((*WebPubsubCustomDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomainConfig",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomainConfig",
 		reflect.TypeOf((*WebPubsubCustomDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomainTimeouts",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomainTimeouts",
 		reflect.TypeOf((*WebPubsubCustomDomainTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomainTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomainTimeoutsOutputReference",
 		reflect.TypeOf((*WebPubsubCustomDomainTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

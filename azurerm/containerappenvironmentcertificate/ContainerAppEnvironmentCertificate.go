@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerappenvironmentcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/containerappenvironmentcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerappenvironmentcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate}.
 type ContainerAppEnvironmentCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentCertificate) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate} Resource.
 func NewContainerAppEnvironmentCertificate(scope constructs.Construct, id *string, config *ContainerAppEnvironmentCertificateConfig) ContainerAppEnvironmentCertificate {
 	_init_.Initialize()
 
@@ -541,7 +541,7 @@ func NewContainerAppEnvironmentCertificate(scope constructs.Construct, id *strin
 	j := jsiiProxy_ContainerAppEnvironmentCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
+		"@cdktn/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -549,12 +549,12 @@ func NewContainerAppEnvironmentCertificate(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_environment_certificate azurerm_container_app_environment_certificate} Resource.
 func NewContainerAppEnvironmentCertificate_Override(c ContainerAppEnvironmentCertificate, scope constructs.Construct, id *string, config *ContainerAppEnvironmentCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
+		"@cdktn/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -704,7 +704,7 @@ func ContainerAppEnvironmentCertificate_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
+		"@cdktn/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func ContainerAppEnvironmentCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
+		"@cdktn/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func ContainerAppEnvironmentCertificate_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
+		"@cdktn/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func ContainerAppEnvironmentCertificate_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
+		"@cdktn/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func ContainerAppEnvironmentCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
+		"@cdktn/provider-azurerm.containerAppEnvironmentCertificate.ContainerAppEnvironmentCertificate",
 		"tfResourceType",
 		&returns,
 	)

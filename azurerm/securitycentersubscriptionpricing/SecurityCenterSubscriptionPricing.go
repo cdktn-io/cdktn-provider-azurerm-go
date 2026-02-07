@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycentersubscriptionpricing
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/securitycentersubscriptionpricing/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/securitycentersubscriptionpricing/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_subscription_pricing azurerm_security_center_subscription_pricing}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_subscription_pricing azurerm_security_center_subscription_pricing}.
 type SecurityCenterSubscriptionPricing interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_SecurityCenterSubscriptionPricing) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_subscription_pricing azurerm_security_center_subscription_pricing} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_subscription_pricing azurerm_security_center_subscription_pricing} Resource.
 func NewSecurityCenterSubscriptionPricing(scope constructs.Construct, id *string, config *SecurityCenterSubscriptionPricingConfig) SecurityCenterSubscriptionPricing {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewSecurityCenterSubscriptionPricing(scope constructs.Construct, id *string
 	j := jsiiProxy_SecurityCenterSubscriptionPricing{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
+		"@cdktn/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewSecurityCenterSubscriptionPricing(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_subscription_pricing azurerm_security_center_subscription_pricing} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_subscription_pricing azurerm_security_center_subscription_pricing} Resource.
 func NewSecurityCenterSubscriptionPricing_Override(s SecurityCenterSubscriptionPricing, scope constructs.Construct, id *string, config *SecurityCenterSubscriptionPricingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
+		"@cdktn/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -580,7 +580,7 @@ func SecurityCenterSubscriptionPricing_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
+		"@cdktn/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -615,7 +615,7 @@ func SecurityCenterSubscriptionPricing_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
+		"@cdktn/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -634,7 +634,7 @@ func SecurityCenterSubscriptionPricing_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
+		"@cdktn/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func SecurityCenterSubscriptionPricing_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
+		"@cdktn/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func SecurityCenterSubscriptionPricing_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
+		"@cdktn/provider-azurerm.securityCenterSubscriptionPricing.SecurityCenterSubscriptionPricing",
 		"tfResourceType",
 		&returns,
 	)

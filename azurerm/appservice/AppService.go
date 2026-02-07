@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service azurerm_app_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service azurerm_app_service}.
 type AppService interface {
 	cdktf.TerraformResource
 	AppServicePlanId() *string
@@ -887,7 +887,7 @@ func (j *jsiiProxy_AppService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service azurerm_app_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service azurerm_app_service} Resource.
 func NewAppService(scope constructs.Construct, id *string, config *AppServiceConfig) AppService {
 	_init_.Initialize()
 
@@ -897,7 +897,7 @@ func NewAppService(scope constructs.Construct, id *string, config *AppServiceCon
 	j := jsiiProxy_AppService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appService.AppService",
+		"@cdktn/provider-azurerm.appService.AppService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -905,12 +905,12 @@ func NewAppService(scope constructs.Construct, id *string, config *AppServiceCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service azurerm_app_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service azurerm_app_service} Resource.
 func NewAppService_Override(a AppService, scope constructs.Construct, id *string, config *AppServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appService.AppService",
+		"@cdktn/provider-azurerm.appService.AppService",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1137,7 +1137,7 @@ func AppService_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appService.AppService",
+		"@cdktn/provider-azurerm.appService.AppService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1172,7 +1172,7 @@ func AppService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appService.AppService",
+		"@cdktn/provider-azurerm.appService.AppService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1191,7 +1191,7 @@ func AppService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appService.AppService",
+		"@cdktn/provider-azurerm.appService.AppService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1210,7 +1210,7 @@ func AppService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appService.AppService",
+		"@cdktn/provider-azurerm.appService.AppService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1223,7 +1223,7 @@ func AppService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appService.AppService",
+		"@cdktn/provider-azurerm.appService.AppService",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudjavadeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudjavadeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudjavadeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment}.
 type SpringCloudJavaDeployment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -500,7 +500,7 @@ func (j *jsiiProxy_SpringCloudJavaDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment} Resource.
 func NewSpringCloudJavaDeployment(scope constructs.Construct, id *string, config *SpringCloudJavaDeploymentConfig) SpringCloudJavaDeployment {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewSpringCloudJavaDeployment(scope constructs.Construct, id *string, config
 	j := jsiiProxy_SpringCloudJavaDeployment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,12 +518,12 @@ func NewSpringCloudJavaDeployment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment} Resource.
 func NewSpringCloudJavaDeployment_Override(s SpringCloudJavaDeployment, scope constructs.Construct, id *string, config *SpringCloudJavaDeploymentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -684,7 +684,7 @@ func SpringCloudJavaDeployment_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -719,7 +719,7 @@ func SpringCloudJavaDeployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -738,7 +738,7 @@ func SpringCloudJavaDeployment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func SpringCloudJavaDeployment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func SpringCloudJavaDeployment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
+		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
 		"tfResourceType",
 		&returns,
 	)

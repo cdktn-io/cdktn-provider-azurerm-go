@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermpostgresqlserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermpostgresqlserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermpostgresqlserver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/postgresql_server azurerm_postgresql_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/postgresql_server azurerm_postgresql_server}.
 type DataAzurermPostgresqlServer interface {
 	cdktf.TerraformDataSource
 	AdministratorLogin() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAzurermPostgresqlServer) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/postgresql_server azurerm_postgresql_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/postgresql_server azurerm_postgresql_server} Data Source.
 func NewDataAzurermPostgresqlServer(scope constructs.Construct, id *string, config *DataAzurermPostgresqlServerConfig) DataAzurermPostgresqlServer {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewDataAzurermPostgresqlServer(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAzurermPostgresqlServer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -430,12 +430,12 @@ func NewDataAzurermPostgresqlServer(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/postgresql_server azurerm_postgresql_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/postgresql_server azurerm_postgresql_server} Data Source.
 func NewDataAzurermPostgresqlServer_Override(d DataAzurermPostgresqlServer, scope constructs.Construct, id *string, config *DataAzurermPostgresqlServerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -530,7 +530,7 @@ func DataAzurermPostgresqlServer_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func DataAzurermPostgresqlServer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAzurermPostgresqlServer_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func DataAzurermPostgresqlServer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func DataAzurermPostgresqlServer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
 		"tfResourceType",
 		&returns,
 	)

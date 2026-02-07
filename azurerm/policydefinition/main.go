@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package policydefinition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinition",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinition",
 		reflect.TypeOf((*PolicyDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinitionConfig",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinitionConfig",
 		reflect.TypeOf((*PolicyDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinitionTimeouts",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinitionTimeouts",
 		reflect.TypeOf((*PolicyDefinitionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinitionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinitionTimeoutsOutputReference",
 		reflect.TypeOf((*PolicyDefinitionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

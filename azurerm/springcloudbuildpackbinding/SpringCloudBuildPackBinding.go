@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudbuildpackbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudbuildpackbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudbuildpackbinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_build_pack_binding azurerm_spring_cloud_build_pack_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_build_pack_binding azurerm_spring_cloud_build_pack_binding}.
 type SpringCloudBuildPackBinding interface {
 	cdktf.TerraformResource
 	BindingType() *string
@@ -428,7 +428,7 @@ func (j *jsiiProxy_SpringCloudBuildPackBinding) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_build_pack_binding azurerm_spring_cloud_build_pack_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_build_pack_binding azurerm_spring_cloud_build_pack_binding} Resource.
 func NewSpringCloudBuildPackBinding(scope constructs.Construct, id *string, config *SpringCloudBuildPackBindingConfig) SpringCloudBuildPackBinding {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewSpringCloudBuildPackBinding(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_SpringCloudBuildPackBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewSpringCloudBuildPackBinding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_build_pack_binding azurerm_spring_cloud_build_pack_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_build_pack_binding azurerm_spring_cloud_build_pack_binding} Resource.
 func NewSpringCloudBuildPackBinding_Override(s SpringCloudBuildPackBinding, scope constructs.Construct, id *string, config *SpringCloudBuildPackBindingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -579,7 +579,7 @@ func SpringCloudBuildPackBinding_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -614,7 +614,7 @@ func SpringCloudBuildPackBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -633,7 +633,7 @@ func SpringCloudBuildPackBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func SpringCloudBuildPackBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -665,7 +665,7 @@ func SpringCloudBuildPackBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
+		"@cdktn/provider-azurerm.springCloudBuildPackBinding.SpringCloudBuildPackBinding",
 		"tfResourceType",
 		&returns,
 	)

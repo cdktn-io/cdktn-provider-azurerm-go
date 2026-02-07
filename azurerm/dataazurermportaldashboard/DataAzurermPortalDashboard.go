@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermportaldashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermportaldashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermportaldashboard/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard}.
 type DataAzurermPortalDashboard interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -406,7 +406,7 @@ func (j *jsiiProxy_DataAzurermPortalDashboard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard} Data Source.
 func NewDataAzurermPortalDashboard(scope constructs.Construct, id *string, config *DataAzurermPortalDashboardConfig) DataAzurermPortalDashboard {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewDataAzurermPortalDashboard(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAzurermPortalDashboard{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -424,12 +424,12 @@ func NewDataAzurermPortalDashboard(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/portal_dashboard azurerm_portal_dashboard} Data Source.
 func NewDataAzurermPortalDashboard_Override(d DataAzurermPortalDashboard, scope constructs.Construct, id *string, config *DataAzurermPortalDashboardConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -546,7 +546,7 @@ func DataAzurermPortalDashboard_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -581,7 +581,7 @@ func DataAzurermPortalDashboard_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -600,7 +600,7 @@ func DataAzurermPortalDashboard_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func DataAzurermPortalDashboard_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -632,7 +632,7 @@ func DataAzurermPortalDashboard_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
+		"@cdktn/provider-azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboard",
 		"tfResourceType",
 		&returns,
 	)

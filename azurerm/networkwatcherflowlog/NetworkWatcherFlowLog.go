@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkwatcherflowlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkwatcherflowlog/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkwatcherflowlog/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log}.
 type NetworkWatcherFlowLog interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -616,7 +616,7 @@ func (j *jsiiProxy_NetworkWatcherFlowLog) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
 func NewNetworkWatcherFlowLog(scope constructs.Construct, id *string, config *NetworkWatcherFlowLogConfig) NetworkWatcherFlowLog {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewNetworkWatcherFlowLog(scope constructs.Construct, id *string, config *Ne
 	j := jsiiProxy_NetworkWatcherFlowLog{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -634,12 +634,12 @@ func NewNetworkWatcherFlowLog(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
 func NewNetworkWatcherFlowLog_Override(n NetworkWatcherFlowLog, scope constructs.Construct, id *string, config *NetworkWatcherFlowLogConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -844,7 +844,7 @@ func NetworkWatcherFlowLog_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -879,7 +879,7 @@ func NetworkWatcherFlowLog_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -898,7 +898,7 @@ func NetworkWatcherFlowLog_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func NetworkWatcherFlowLog_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -930,7 +930,7 @@ func NetworkWatcherFlowLog_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
+		"@cdktn/provider-azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog",
 		"tfResourceType",
 		&returns,
 	)

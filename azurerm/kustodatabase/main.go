@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustodatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabase",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabase",
 		reflect.TypeOf((*KustoDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabaseConfig",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabaseConfig",
 		reflect.TypeOf((*KustoDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabaseTimeouts",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabaseTimeouts",
 		reflect.TypeOf((*KustoDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*KustoDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hdinsighthadoopcluster
@@ -7,15 +7,15 @@ package hdinsighthadoopcluster
 type HdinsightHadoopClusterMetastores struct {
 	// ambari block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_hadoop_cluster#ambari HdinsightHadoopCluster#ambari}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_hadoop_cluster#ambari HdinsightHadoopCluster#ambari}
 	Ambari *HdinsightHadoopClusterMetastoresAmbari `field:"optional" json:"ambari" yaml:"ambari"`
 	// hive block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_hadoop_cluster#hive HdinsightHadoopCluster#hive}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_hadoop_cluster#hive HdinsightHadoopCluster#hive}
 	Hive *HdinsightHadoopClusterMetastoresHive `field:"optional" json:"hive" yaml:"hive"`
 	// oozie block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_hadoop_cluster#oozie HdinsightHadoopCluster#oozie}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_hadoop_cluster#oozie HdinsightHadoopCluster#oozie}
 	Oozie *HdinsightHadoopClusterMetastoresOozie `field:"optional" json:"oozie" yaml:"oozie"`
 }
 

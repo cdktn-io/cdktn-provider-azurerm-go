@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mongocluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mongocluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mongocluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mongo_cluster azurerm_mongo_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mongo_cluster azurerm_mongo_cluster}.
 type MongoCluster interface {
 	cdktf.TerraformResource
 	AdministratorPassword() *string
@@ -870,7 +870,7 @@ func (j *jsiiProxy_MongoCluster) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
 func NewMongoCluster(scope constructs.Construct, id *string, config *MongoClusterConfig) MongoCluster {
 	_init_.Initialize()
 
@@ -880,7 +880,7 @@ func NewMongoCluster(scope constructs.Construct, id *string, config *MongoCluste
 	j := jsiiProxy_MongoCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mongoCluster.MongoCluster",
+		"@cdktn/provider-azurerm.mongoCluster.MongoCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -888,12 +888,12 @@ func NewMongoCluster(scope constructs.Construct, id *string, config *MongoCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
 func NewMongoCluster_Override(m MongoCluster, scope constructs.Construct, id *string, config *MongoClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mongoCluster.MongoCluster",
+		"@cdktn/provider-azurerm.mongoCluster.MongoCluster",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1197,7 +1197,7 @@ func MongoCluster_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mongoCluster.MongoCluster",
+		"@cdktn/provider-azurerm.mongoCluster.MongoCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1232,7 +1232,7 @@ func MongoCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mongoCluster.MongoCluster",
+		"@cdktn/provider-azurerm.mongoCluster.MongoCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1251,7 +1251,7 @@ func MongoCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mongoCluster.MongoCluster",
+		"@cdktn/provider-azurerm.mongoCluster.MongoCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1270,7 +1270,7 @@ func MongoCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mongoCluster.MongoCluster",
+		"@cdktn/provider-azurerm.mongoCluster.MongoCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1283,7 +1283,7 @@ func MongoCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mongoCluster.MongoCluster",
+		"@cdktn/provider-azurerm.mongoCluster.MongoCluster",
 		"tfResourceType",
 		&returns,
 	)

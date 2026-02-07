@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchpool
 
 
 type BatchPoolStartTaskUserIdentityAutoUser struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_pool#elevation_level BatchPool#elevation_level}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_pool#elevation_level BatchPool#elevation_level}.
 	ElevationLevel *string `field:"optional" json:"elevationLevel" yaml:"elevationLevel"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_pool#scope BatchPool#scope}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_pool#scope BatchPool#scope}.
 	Scope *string `field:"optional" json:"scope" yaml:"scope"`
 }
 

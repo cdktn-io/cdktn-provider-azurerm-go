@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationinsightswebtest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/applicationinsightswebtest/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationinsightswebtest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_web_test azurerm_application_insights_web_test}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_web_test azurerm_application_insights_web_test}.
 type ApplicationInsightsWebTest interface {
 	cdktf.TerraformResource
 	ApplicationInsightsId() *string
@@ -650,7 +650,7 @@ func (j *jsiiProxy_ApplicationInsightsWebTest) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_web_test azurerm_application_insights_web_test} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_web_test azurerm_application_insights_web_test} Resource.
 func NewApplicationInsightsWebTest(scope constructs.Construct, id *string, config *ApplicationInsightsWebTestConfig) ApplicationInsightsWebTest {
 	_init_.Initialize()
 
@@ -660,7 +660,7 @@ func NewApplicationInsightsWebTest(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_ApplicationInsightsWebTest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -668,12 +668,12 @@ func NewApplicationInsightsWebTest(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_web_test azurerm_application_insights_web_test} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_web_test azurerm_application_insights_web_test} Resource.
 func NewApplicationInsightsWebTest_Override(a ApplicationInsightsWebTest, scope constructs.Construct, id *string, config *ApplicationInsightsWebTestConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -911,7 +911,7 @@ func ApplicationInsightsWebTest_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -946,7 +946,7 @@ func ApplicationInsightsWebTest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -965,7 +965,7 @@ func ApplicationInsightsWebTest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -984,7 +984,7 @@ func ApplicationInsightsWebTest_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -997,7 +997,7 @@ func ApplicationInsightsWebTest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
 		"tfResourceType",
 		&returns,
 	)

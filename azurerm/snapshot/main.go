@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package snapshot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.snapshot.Snapshot",
+		"@cdktn/provider-azurerm.snapshot.Snapshot",
 		reflect.TypeOf((*Snapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,19 +110,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.snapshot.SnapshotConfig",
+		"@cdktn/provider-azurerm.snapshot.SnapshotConfig",
 		reflect.TypeOf((*SnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.snapshot.SnapshotEncryptionSettings",
+		"@cdktn/provider-azurerm.snapshot.SnapshotEncryptionSettings",
 		reflect.TypeOf((*SnapshotEncryptionSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.snapshot.SnapshotEncryptionSettingsDiskEncryptionKey",
+		"@cdktn/provider-azurerm.snapshot.SnapshotEncryptionSettingsDiskEncryptionKey",
 		reflect.TypeOf((*SnapshotEncryptionSettingsDiskEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.snapshot.SnapshotEncryptionSettingsDiskEncryptionKeyOutputReference",
+		"@cdktn/provider-azurerm.snapshot.SnapshotEncryptionSettingsDiskEncryptionKeyOutputReference",
 		reflect.TypeOf((*SnapshotEncryptionSettingsDiskEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.snapshot.SnapshotEncryptionSettingsKeyEncryptionKey",
+		"@cdktn/provider-azurerm.snapshot.SnapshotEncryptionSettingsKeyEncryptionKey",
 		reflect.TypeOf((*SnapshotEncryptionSettingsKeyEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.snapshot.SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference",
+		"@cdktn/provider-azurerm.snapshot.SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference",
 		reflect.TypeOf((*SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,7 +198,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.snapshot.SnapshotEncryptionSettingsOutputReference",
+		"@cdktn/provider-azurerm.snapshot.SnapshotEncryptionSettingsOutputReference",
 		reflect.TypeOf((*SnapshotEncryptionSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -237,11 +237,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.snapshot.SnapshotTimeouts",
+		"@cdktn/provider-azurerm.snapshot.SnapshotTimeouts",
 		reflect.TypeOf((*SnapshotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.snapshot.SnapshotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.snapshot.SnapshotTimeoutsOutputReference",
 		reflect.TypeOf((*SnapshotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermexpressroutecircuit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermexpressroutecircuit/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermexpressroutecircuit/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/express_route_circuit azurerm_express_route_circuit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/express_route_circuit azurerm_express_route_circuit}.
 type DataAzurermExpressRouteCircuit interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAzurermExpressRouteCircuit) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/express_route_circuit azurerm_express_route_circuit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/express_route_circuit azurerm_express_route_circuit} Data Source.
 func NewDataAzurermExpressRouteCircuit(scope constructs.Construct, id *string, config *DataAzurermExpressRouteCircuitConfig) DataAzurermExpressRouteCircuit {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataAzurermExpressRouteCircuit(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAzurermExpressRouteCircuit{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewDataAzurermExpressRouteCircuit(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/express_route_circuit azurerm_express_route_circuit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/express_route_circuit azurerm_express_route_circuit} Data Source.
 func NewDataAzurermExpressRouteCircuit_Override(d DataAzurermExpressRouteCircuit, scope constructs.Construct, id *string, config *DataAzurermExpressRouteCircuitConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -519,7 +519,7 @@ func DataAzurermExpressRouteCircuit_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func DataAzurermExpressRouteCircuit_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataAzurermExpressRouteCircuit_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func DataAzurermExpressRouteCircuit_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func DataAzurermExpressRouteCircuit_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
+		"@cdktn/provider-azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuit",
 		"tfResourceType",
 		&returns,
 	)

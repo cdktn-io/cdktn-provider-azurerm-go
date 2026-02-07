@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerappcustomdomain
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomain",
 		reflect.TypeOf((*ContainerAppCustomDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomainConfig",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomainConfig",
 		reflect.TypeOf((*ContainerAppCustomDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomainTimeouts",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomainTimeouts",
 		reflect.TypeOf((*ContainerAppCustomDomainTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomainTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.containerAppCustomDomain.ContainerAppCustomDomainTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerAppCustomDomainTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

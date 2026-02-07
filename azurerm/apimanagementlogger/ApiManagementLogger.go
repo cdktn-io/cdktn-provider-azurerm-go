@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementlogger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementlogger/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementlogger/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_logger azurerm_api_management_logger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_logger azurerm_api_management_logger}.
 type ApiManagementLogger interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -523,7 +523,7 @@ func (j *jsiiProxy_ApiManagementLogger) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_logger azurerm_api_management_logger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_logger azurerm_api_management_logger} Resource.
 func NewApiManagementLogger(scope constructs.Construct, id *string, config *ApiManagementLoggerConfig) ApiManagementLogger {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewApiManagementLogger(scope constructs.Construct, id *string, config *ApiM
 	j := jsiiProxy_ApiManagementLogger{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLogger",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,12 +541,12 @@ func NewApiManagementLogger(scope constructs.Construct, id *string, config *ApiM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_logger azurerm_api_management_logger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_logger azurerm_api_management_logger} Resource.
 func NewApiManagementLogger_Override(a ApiManagementLogger, scope constructs.Construct, id *string, config *ApiManagementLoggerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLogger",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -707,7 +707,7 @@ func ApiManagementLogger_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLogger",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -742,7 +742,7 @@ func ApiManagementLogger_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLogger",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +761,7 @@ func ApiManagementLogger_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLogger",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func ApiManagementLogger_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLogger",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +793,7 @@ func ApiManagementLogger_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLogger",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
 		"tfResourceType",
 		&returns,
 	)

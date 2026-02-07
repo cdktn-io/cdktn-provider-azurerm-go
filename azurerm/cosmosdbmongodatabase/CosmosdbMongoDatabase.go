@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbmongodatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbmongodatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbmongodatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database}.
 type CosmosdbMongoDatabase interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_CosmosdbMongoDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database} Resource.
 func NewCosmosdbMongoDatabase(scope constructs.Construct, id *string, config *CosmosdbMongoDatabaseConfig) CosmosdbMongoDatabase {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewCosmosdbMongoDatabase(scope constructs.Construct, id *string, config *Co
 	j := jsiiProxy_CosmosdbMongoDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
+		"@cdktn/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewCosmosdbMongoDatabase(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_mongo_database azurerm_cosmosdb_mongo_database} Resource.
 func NewCosmosdbMongoDatabase_Override(c CosmosdbMongoDatabase, scope constructs.Construct, id *string, config *CosmosdbMongoDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
+		"@cdktn/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -613,7 +613,7 @@ func CosmosdbMongoDatabase_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
+		"@cdktn/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func CosmosdbMongoDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
+		"@cdktn/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func CosmosdbMongoDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
+		"@cdktn/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func CosmosdbMongoDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
+		"@cdktn/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func CosmosdbMongoDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
+		"@cdktn/provider-azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabase",
 		"tfResourceType",
 		&returns,
 	)

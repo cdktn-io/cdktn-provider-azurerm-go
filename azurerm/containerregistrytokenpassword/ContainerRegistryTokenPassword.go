@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerregistrytokenpassword
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/containerregistrytokenpassword/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerregistrytokenpassword/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_token_password azurerm_container_registry_token_password}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_token_password azurerm_container_registry_token_password}.
 type ContainerRegistryTokenPassword interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_ContainerRegistryTokenPassword) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_token_password azurerm_container_registry_token_password} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_token_password azurerm_container_registry_token_password} Resource.
 func NewContainerRegistryTokenPassword(scope constructs.Construct, id *string, config *ContainerRegistryTokenPasswordConfig) ContainerRegistryTokenPassword {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewContainerRegistryTokenPassword(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ContainerRegistryTokenPassword{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewContainerRegistryTokenPassword(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_token_password azurerm_container_registry_token_password} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_token_password azurerm_container_registry_token_password} Resource.
 func NewContainerRegistryTokenPassword_Override(c ContainerRegistryTokenPassword, scope constructs.Construct, id *string, config *ContainerRegistryTokenPasswordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -533,7 +533,7 @@ func ContainerRegistryTokenPassword_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -568,7 +568,7 @@ func ContainerRegistryTokenPassword_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -587,7 +587,7 @@ func ContainerRegistryTokenPassword_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func ContainerRegistryTokenPassword_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func ContainerRegistryTokenPassword_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
 		"tfResourceType",
 		&returns,
 	)

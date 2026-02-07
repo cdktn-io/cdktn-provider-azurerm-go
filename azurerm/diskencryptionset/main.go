@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package diskencryptionset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
 		reflect.TypeOf((*DiskEncryptionSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSetConfig",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSetConfig",
 		reflect.TypeOf((*DiskEncryptionSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSetIdentity",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSetIdentity",
 		reflect.TypeOf((*DiskEncryptionSetIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSetIdentityOutputReference",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSetIdentityOutputReference",
 		reflect.TypeOf((*DiskEncryptionSetIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSetTimeouts",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSetTimeouts",
 		reflect.TypeOf((*DiskEncryptionSetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSetTimeoutsOutputReference",
 		reflect.TypeOf((*DiskEncryptionSetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

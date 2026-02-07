@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticsstorageinsights
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/loganalyticsstorageinsights/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loganalyticsstorageinsights/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights}.
 type LogAnalyticsStorageInsights interface {
 	cdktf.TerraformResource
 	BlobContainerNames() *[]*string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_LogAnalyticsStorageInsights) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
 func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, config *LogAnalyticsStorageInsightsConfig) LogAnalyticsStorageInsights {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_LogAnalyticsStorageInsights{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
 func NewLogAnalyticsStorageInsights_Override(l LogAnalyticsStorageInsights, scope constructs.Construct, id *string, config *LogAnalyticsStorageInsightsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -692,7 +692,7 @@ func LogAnalyticsStorageInsights_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -727,7 +727,7 @@ func LogAnalyticsStorageInsights_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func LogAnalyticsStorageInsights_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func LogAnalyticsStorageInsights_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func LogAnalyticsStorageInsights_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
 		"tfResourceType",
 		&returns,
 	)

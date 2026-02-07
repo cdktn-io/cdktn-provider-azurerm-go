@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/managementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managementgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_group azurerm_management_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_group azurerm_management_group}.
 type ManagementGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -441,7 +441,7 @@ func (j *jsiiProxy_ManagementGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_group azurerm_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_group azurerm_management_group} Resource.
 func NewManagementGroup(scope constructs.Construct, id *string, config *ManagementGroupConfig) ManagementGroup {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewManagementGroup(scope constructs.Construct, id *string, config *Manageme
 	j := jsiiProxy_ManagementGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroup",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -459,12 +459,12 @@ func NewManagementGroup(scope constructs.Construct, id *string, config *Manageme
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_group azurerm_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_group azurerm_management_group} Resource.
 func NewManagementGroup_Override(m ManagementGroup, scope constructs.Construct, id *string, config *ManagementGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroup",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroup",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -603,7 +603,7 @@ func ManagementGroup_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroup",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -638,7 +638,7 @@ func ManagementGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroup",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -657,7 +657,7 @@ func ManagementGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroup",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func ManagementGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroup",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func ManagementGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.managementGroup.ManagementGroup",
+		"@cdktn/provider-azurerm.managementGroup.ManagementGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventhub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhub.Eventhub",
+		"@cdktn/provider-azurerm.eventhub.Eventhub",
 		reflect.TypeOf((*Eventhub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhub.EventhubCaptureDescription",
+		"@cdktn/provider-azurerm.eventhub.EventhubCaptureDescription",
 		reflect.TypeOf((*EventhubCaptureDescription)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhub.EventhubCaptureDescriptionDestination",
+		"@cdktn/provider-azurerm.eventhub.EventhubCaptureDescriptionDestination",
 		reflect.TypeOf((*EventhubCaptureDescriptionDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhub.EventhubCaptureDescriptionDestinationOutputReference",
+		"@cdktn/provider-azurerm.eventhub.EventhubCaptureDescriptionDestinationOutputReference",
 		reflect.TypeOf((*EventhubCaptureDescriptionDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveNameFormat", GoGetter: "ArchiveNameFormat"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhub.EventhubCaptureDescriptionOutputReference",
+		"@cdktn/provider-azurerm.eventhub.EventhubCaptureDescriptionOutputReference",
 		reflect.TypeOf((*EventhubCaptureDescriptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -194,15 +194,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhub.EventhubConfig",
+		"@cdktn/provider-azurerm.eventhub.EventhubConfig",
 		reflect.TypeOf((*EventhubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhub.EventhubRetentionDescription",
+		"@cdktn/provider-azurerm.eventhub.EventhubRetentionDescription",
 		reflect.TypeOf((*EventhubRetentionDescription)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhub.EventhubRetentionDescriptionOutputReference",
+		"@cdktn/provider-azurerm.eventhub.EventhubRetentionDescriptionOutputReference",
 		reflect.TypeOf((*EventhubRetentionDescriptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cleanupPolicy", GoGetter: "CleanupPolicy"},
@@ -242,11 +242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhub.EventhubTimeouts",
+		"@cdktn/provider-azurerm.eventhub.EventhubTimeouts",
 		reflect.TypeOf((*EventhubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhub.EventhubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventhub.EventhubTimeoutsOutputReference",
 		reflect.TypeOf((*EventhubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

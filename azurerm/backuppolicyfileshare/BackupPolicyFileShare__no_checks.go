@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -115,6 +115,10 @@ func validateBackupPolicyFileShare_IsTerraformResourceParameters(x interface{}) 
 	return nil
 }
 
+func (j *jsiiProxy_BackupPolicyFileShare) validateSetBackupTierParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BackupPolicyFileShare) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -144,6 +148,10 @@ func (j *jsiiProxy_BackupPolicyFileShare) validateSetRecoveryVaultNameParameters
 }
 
 func (j *jsiiProxy_BackupPolicyFileShare) validateSetResourceGroupNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BackupPolicyFileShare) validateSetSnapshotRetentionInDaysParameters(val *float64) error {
 	return nil
 }
 

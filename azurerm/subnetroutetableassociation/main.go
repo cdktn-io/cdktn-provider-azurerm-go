@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subnetroutetableassociation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subnetRouteTableAssociation.SubnetRouteTableAssociation",
+		"@cdktn/provider-azurerm.subnetRouteTableAssociation.SubnetRouteTableAssociation",
 		reflect.TypeOf((*SubnetRouteTableAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subnetRouteTableAssociation.SubnetRouteTableAssociationConfig",
+		"@cdktn/provider-azurerm.subnetRouteTableAssociation.SubnetRouteTableAssociationConfig",
 		reflect.TypeOf((*SubnetRouteTableAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subnetRouteTableAssociation.SubnetRouteTableAssociationTimeouts",
+		"@cdktn/provider-azurerm.subnetRouteTableAssociation.SubnetRouteTableAssociationTimeouts",
 		reflect.TypeOf((*SubnetRouteTableAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subnetRouteTableAssociation.SubnetRouteTableAssociationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.subnetRouteTableAssociation.SubnetRouteTableAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*SubnetRouteTableAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

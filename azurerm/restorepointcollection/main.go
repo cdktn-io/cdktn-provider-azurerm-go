@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package restorepointcollection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.restorePointCollection.RestorePointCollection",
+		"@cdktn/provider-azurerm.restorePointCollection.RestorePointCollection",
 		reflect.TypeOf((*RestorePointCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.restorePointCollection.RestorePointCollectionConfig",
+		"@cdktn/provider-azurerm.restorePointCollection.RestorePointCollectionConfig",
 		reflect.TypeOf((*RestorePointCollectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.restorePointCollection.RestorePointCollectionTimeouts",
+		"@cdktn/provider-azurerm.restorePointCollection.RestorePointCollectionTimeouts",
 		reflect.TypeOf((*RestorePointCollectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.restorePointCollection.RestorePointCollectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.restorePointCollection.RestorePointCollectionTimeoutsOutputReference",
 		reflect.TypeOf((*RestorePointCollectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

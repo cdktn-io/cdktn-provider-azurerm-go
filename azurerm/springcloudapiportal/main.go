@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudapiportal
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApiPortal.SpringCloudApiPortal",
+		"@cdktn/provider-azurerm.springCloudApiPortal.SpringCloudApiPortal",
 		reflect.TypeOf((*SpringCloudApiPortal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalConfig",
+		"@cdktn/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalConfig",
 		reflect.TypeOf((*SpringCloudApiPortalConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalSso",
+		"@cdktn/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalSso",
 		reflect.TypeOf((*SpringCloudApiPortalSso)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalSsoOutputReference",
+		"@cdktn/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalSsoOutputReference",
 		reflect.TypeOf((*SpringCloudApiPortalSsoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalTimeouts",
+		"@cdktn/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalTimeouts",
 		reflect.TypeOf((*SpringCloudApiPortalTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudApiPortal.SpringCloudApiPortalTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudApiPortalTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

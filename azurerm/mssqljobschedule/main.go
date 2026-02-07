@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljobschedule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobSchedule",
 		reflect.TypeOf((*MssqlJobSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobScheduleConfig",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobScheduleConfig",
 		reflect.TypeOf((*MssqlJobScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobScheduleTimeouts",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobScheduleTimeouts",
 		reflect.TypeOf((*MssqlJobScheduleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobSchedule.MssqlJobScheduleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlJobSchedule.MssqlJobScheduleTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlJobScheduleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolume
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolume",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolume",
 		reflect.TypeOf((*NetappVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptGrowCapacityPoolForShortTermCloneSplit", GoGetter: "AcceptGrowCapacityPoolForShortTermCloneSplit"},
@@ -163,15 +163,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeConfig",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeConfig",
 		reflect.TypeOf((*NetappVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeCoolAccess",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeCoolAccess",
 		reflect.TypeOf((*NetappVolumeCoolAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeCoolAccessOutputReference",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeCoolAccessOutputReference",
 		reflect.TypeOf((*NetappVolumeCoolAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeDataProtectionBackupPolicy",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeDataProtectionBackupPolicy",
 		reflect.TypeOf((*NetappVolumeDataProtectionBackupPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeDataProtectionBackupPolicyOutputReference",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeDataProtectionBackupPolicyOutputReference",
 		reflect.TypeOf((*NetappVolumeDataProtectionBackupPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backupPolicyId", GoGetter: "BackupPolicyId"},
@@ -252,11 +252,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeDataProtectionReplication",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeDataProtectionReplication",
 		reflect.TypeOf((*NetappVolumeDataProtectionReplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeDataProtectionReplicationOutputReference",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeDataProtectionReplicationOutputReference",
 		reflect.TypeOf((*NetappVolumeDataProtectionReplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -297,11 +297,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicy",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicy",
 		reflect.TypeOf((*NetappVolumeDataProtectionSnapshotPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicyOutputReference",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicyOutputReference",
 		reflect.TypeOf((*NetappVolumeDataProtectionSnapshotPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -335,11 +335,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeExportPolicyRule",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeExportPolicyRule",
 		reflect.TypeOf((*NetappVolumeExportPolicyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeExportPolicyRuleList",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeExportPolicyRuleList",
 		reflect.TypeOf((*NetappVolumeExportPolicyRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -361,7 +361,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeExportPolicyRuleOutputReference",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeExportPolicyRuleOutputReference",
 		reflect.TypeOf((*NetappVolumeExportPolicyRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedClients", GoGetter: "AllowedClients"},
@@ -430,11 +430,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeTimeouts",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeTimeouts",
 		reflect.TypeOf((*NetappVolumeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeTimeoutsOutputReference",
 		reflect.TypeOf((*NetappVolumeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

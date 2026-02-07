@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationsourcecontrol
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControl",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControl",
 		reflect.TypeOf((*AutomationSourceControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControlConfig",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControlConfig",
 		reflect.TypeOf((*AutomationSourceControlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControlSecurity",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControlSecurity",
 		reflect.TypeOf((*AutomationSourceControlSecurity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControlSecurityOutputReference",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControlSecurityOutputReference",
 		reflect.TypeOf((*AutomationSourceControlSecurityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControlTimeouts",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControlTimeouts",
 		reflect.TypeOf((*AutomationSourceControlTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationSourceControl.AutomationSourceControlTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationSourceControl.AutomationSourceControlTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationSourceControlTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

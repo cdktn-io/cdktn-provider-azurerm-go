@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package federatedidentitycredential
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/federatedidentitycredential/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/federatedidentitycredential/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential}.
 type FederatedIdentityCredential interface {
 	cdktf.TerraformResource
 	Audience() *[]*string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_FederatedIdentityCredential) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
 func NewFederatedIdentityCredential(scope constructs.Construct, id *string, config *FederatedIdentityCredentialConfig) FederatedIdentityCredential {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewFederatedIdentityCredential(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_FederatedIdentityCredential{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
+		"@cdktn/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -490,12 +490,12 @@ func NewFederatedIdentityCredential(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
 func NewFederatedIdentityCredential_Override(f FederatedIdentityCredential, scope constructs.Construct, id *string, config *FederatedIdentityCredentialConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
+		"@cdktn/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -656,7 +656,7 @@ func FederatedIdentityCredential_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
+		"@cdktn/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -691,7 +691,7 @@ func FederatedIdentityCredential_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
+		"@cdktn/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func FederatedIdentityCredential_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
+		"@cdktn/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func FederatedIdentityCredential_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
+		"@cdktn/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func FederatedIdentityCredential_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
+		"@cdktn/provider-azurerm.federatedIdentityCredential.FederatedIdentityCredential",
 		"tfResourceType",
 		&returns,
 	)

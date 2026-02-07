@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devtestvirtualnetwork
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
 		reflect.TypeOf((*DevTestVirtualNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkConfig",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkConfig",
 		reflect.TypeOf((*DevTestVirtualNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnet",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnet",
 		reflect.TypeOf((*DevTestVirtualNetworkSubnet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetOutputReference",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetOutputReference",
 		reflect.TypeOf((*DevTestVirtualNetworkSubnetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,15 +138,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddress",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddress",
 		reflect.TypeOf((*DevTestVirtualNetworkSubnetSharedPublicIpAddress)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPorts",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPorts",
 		reflect.TypeOf((*DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPorts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsList",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsList",
 		reflect.TypeOf((*DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -168,7 +168,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference",
 		reflect.TypeOf((*DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendPort", GoGetter: "BackendPort"},
@@ -206,7 +206,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddressOutputReference",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddressOutputReference",
 		reflect.TypeOf((*DevTestVirtualNetworkSubnetSharedPublicIpAddressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedPorts", GoGetter: "AllowedPorts"},
@@ -242,11 +242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkTimeouts",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkTimeouts",
 		reflect.TypeOf((*DevTestVirtualNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*DevTestVirtualNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

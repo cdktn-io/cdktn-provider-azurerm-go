@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package localnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/localnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/localnetworkgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/local_network_gateway azurerm_local_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/local_network_gateway azurerm_local_network_gateway}.
 type LocalNetworkGateway interface {
 	cdktf.TerraformResource
 	AddressSpace() *[]*string
@@ -523,7 +523,7 @@ func (j *jsiiProxy_LocalNetworkGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
 func NewLocalNetworkGateway(scope constructs.Construct, id *string, config *LocalNetworkGatewayConfig) LocalNetworkGateway {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewLocalNetworkGateway(scope constructs.Construct, id *string, config *Loca
 	j := jsiiProxy_LocalNetworkGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,12 +541,12 @@ func NewLocalNetworkGateway(scope constructs.Construct, id *string, config *Loca
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
 func NewLocalNetworkGateway_Override(l LocalNetworkGateway, scope constructs.Construct, id *string, config *LocalNetworkGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -718,7 +718,7 @@ func LocalNetworkGateway_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -753,7 +753,7 @@ func LocalNetworkGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -772,7 +772,7 @@ func LocalNetworkGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func LocalNetworkGateway_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -804,7 +804,7 @@ func LocalNetworkGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
 		"tfResourceType",
 		&returns,
 	)

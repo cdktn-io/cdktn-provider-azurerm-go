@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualnetworkgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway}.
 type VirtualNetworkGateway interface {
 	cdktf.TerraformResource
 	ActiveActive() interface{}
@@ -880,7 +880,7 @@ func (j *jsiiProxy_VirtualNetworkGateway) VpnTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
 func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *VirtualNetworkGatewayConfig) VirtualNetworkGateway {
 	_init_.Initialize()
 
@@ -890,7 +890,7 @@ func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *Vi
 	j := jsiiProxy_VirtualNetworkGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
+		"@cdktn/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -898,12 +898,12 @@ func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *Vi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
 func NewVirtualNetworkGateway_Override(v VirtualNetworkGateway, scope constructs.Construct, id *string, config *VirtualNetworkGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
+		"@cdktn/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -1196,7 +1196,7 @@ func VirtualNetworkGateway_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
+		"@cdktn/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1231,7 +1231,7 @@ func VirtualNetworkGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
+		"@cdktn/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1250,7 +1250,7 @@ func VirtualNetworkGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
+		"@cdktn/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1269,7 +1269,7 @@ func VirtualNetworkGateway_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
+		"@cdktn/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1282,7 +1282,7 @@ func VirtualNetworkGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
+		"@cdktn/provider-azurerm.virtualNetworkGateway.VirtualNetworkGateway",
 		"tfResourceType",
 		&returns,
 	)

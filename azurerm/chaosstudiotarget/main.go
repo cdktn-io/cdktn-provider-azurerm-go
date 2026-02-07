@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package chaosstudiotarget
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTarget",
 		reflect.TypeOf((*ChaosStudioTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTargetConfig",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTargetConfig",
 		reflect.TypeOf((*ChaosStudioTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTargetTimeouts",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTargetTimeouts",
 		reflect.TypeOf((*ChaosStudioTargetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.chaosStudioTarget.ChaosStudioTargetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.chaosStudioTarget.ChaosStudioTargetTimeoutsOutputReference",
 		reflect.TypeOf((*ChaosStudioTargetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerroutingrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRule",
+		"@cdktn/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRule",
 		reflect.TypeOf((*NetworkManagerRoutingRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleConfig",
+		"@cdktn/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleConfig",
 		reflect.TypeOf((*NetworkManagerRoutingRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleDestination",
+		"@cdktn/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleDestination",
 		reflect.TypeOf((*NetworkManagerRoutingRuleDestination)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleDestinationOutputReference",
+		"@cdktn/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleDestinationOutputReference",
 		reflect.TypeOf((*NetworkManagerRoutingRuleDestinationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleNextHop",
+		"@cdktn/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleNextHop",
 		reflect.TypeOf((*NetworkManagerRoutingRuleNextHop)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleNextHopOutputReference",
+		"@cdktn/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleNextHopOutputReference",
 		reflect.TypeOf((*NetworkManagerRoutingRuleNextHopOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleTimeouts",
+		"@cdktn/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleTimeouts",
 		reflect.TypeOf((*NetworkManagerRoutingRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkManagerRoutingRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

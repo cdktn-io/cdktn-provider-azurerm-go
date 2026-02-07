@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package newrelicmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/newrelicmonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/newrelicmonitor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -251,7 +251,7 @@ func NewNewRelicMonitorUserOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_NewRelicMonitorUserOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorUserOutputReference",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorUserOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -263,7 +263,7 @@ func NewNewRelicMonitorUserOutputReference_Override(n NewRelicMonitorUserOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitorUserOutputReference",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitorUserOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

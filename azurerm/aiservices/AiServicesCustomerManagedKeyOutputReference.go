@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package aiservices
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/aiservices/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/aiservices/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewAiServicesCustomerManagedKeyOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_AiServicesCustomerManagedKeyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.aiServices.AiServicesCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesCustomerManagedKeyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewAiServicesCustomerManagedKeyOutputReference_Override(a AiServicesCustome
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.aiServices.AiServicesCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.aiServices.AiServicesCustomerManagedKeyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

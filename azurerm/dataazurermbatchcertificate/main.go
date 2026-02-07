@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermbatchcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificate",
+		"@cdktn/provider-azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificate",
 		reflect.TypeOf((*DataAzurermBatchCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificateConfig",
+		"@cdktn/provider-azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificateConfig",
 		reflect.TypeOf((*DataAzurermBatchCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificateTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificateTimeouts",
 		reflect.TypeOf((*DataAzurermBatchCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermBatchCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

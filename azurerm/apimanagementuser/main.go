@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementuser
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementUser.ApiManagementUser",
+		"@cdktn/provider-azurerm.apiManagementUser.ApiManagementUser",
 		reflect.TypeOf((*ApiManagementUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementUser.ApiManagementUserConfig",
+		"@cdktn/provider-azurerm.apiManagementUser.ApiManagementUserConfig",
 		reflect.TypeOf((*ApiManagementUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementUser.ApiManagementUserTimeouts",
+		"@cdktn/provider-azurerm.apiManagementUser.ApiManagementUserTimeouts",
 		reflect.TypeOf((*ApiManagementUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementUser.ApiManagementUserTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementUser.ApiManagementUserTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

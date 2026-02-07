@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermoracledbservers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermoracledbservers/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracledbservers/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_db_servers azurerm_oracle_db_servers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_db_servers azurerm_oracle_db_servers}.
 type DataAzurermOracleDbServers interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataAzurermOracleDbServers) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_db_servers azurerm_oracle_db_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_db_servers azurerm_oracle_db_servers} Data Source.
 func NewDataAzurermOracleDbServers(scope constructs.Construct, id *string, config *DataAzurermOracleDbServersConfig) DataAzurermOracleDbServers {
 	_init_.Initialize()
 
@@ -356,7 +356,7 @@ func NewDataAzurermOracleDbServers(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataAzurermOracleDbServers{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -364,12 +364,12 @@ func NewDataAzurermOracleDbServers(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_db_servers azurerm_oracle_db_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_db_servers azurerm_oracle_db_servers} Data Source.
 func NewDataAzurermOracleDbServers_Override(d DataAzurermOracleDbServers, scope constructs.Construct, id *string, config *DataAzurermOracleDbServersConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -464,7 +464,7 @@ func DataAzurermOracleDbServers_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -499,7 +499,7 @@ func DataAzurermOracleDbServers_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -518,7 +518,7 @@ func DataAzurermOracleDbServers_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -537,7 +537,7 @@ func DataAzurermOracleDbServers_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataAzurermOracleDbServers_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbServers.DataAzurermOracleDbServers",
 		"tfResourceType",
 		&returns,
 	)

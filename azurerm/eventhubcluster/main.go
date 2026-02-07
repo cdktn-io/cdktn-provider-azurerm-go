@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventhubcluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubCluster",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubCluster",
 		reflect.TypeOf((*EventhubCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubClusterConfig",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubClusterConfig",
 		reflect.TypeOf((*EventhubClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubClusterTimeouts",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubClusterTimeouts",
 		reflect.TypeOf((*EventhubClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubClusterTimeoutsOutputReference",
 		reflect.TypeOf((*EventhubClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

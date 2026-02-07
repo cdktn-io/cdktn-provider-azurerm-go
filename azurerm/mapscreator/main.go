@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mapscreator
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mapsCreator.MapsCreator",
+		"@cdktn/provider-azurerm.mapsCreator.MapsCreator",
 		reflect.TypeOf((*MapsCreator)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mapsCreator.MapsCreatorConfig",
+		"@cdktn/provider-azurerm.mapsCreator.MapsCreatorConfig",
 		reflect.TypeOf((*MapsCreatorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mapsCreator.MapsCreatorTimeouts",
+		"@cdktn/provider-azurerm.mapsCreator.MapsCreatorTimeouts",
 		reflect.TypeOf((*MapsCreatorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mapsCreator.MapsCreatorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mapsCreator.MapsCreatorTimeoutsOutputReference",
 		reflect.TypeOf((*MapsCreatorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

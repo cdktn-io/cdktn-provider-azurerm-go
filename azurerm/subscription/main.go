@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subscription
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscription.Subscription",
+		"@cdktn/provider-azurerm.subscription.Subscription",
 		reflect.TypeOf((*Subscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscription.SubscriptionConfig",
+		"@cdktn/provider-azurerm.subscription.SubscriptionConfig",
 		reflect.TypeOf((*SubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscription.SubscriptionTimeouts",
+		"@cdktn/provider-azurerm.subscription.SubscriptionTimeouts",
 		reflect.TypeOf((*SubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscription.SubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.subscription.SubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*SubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devtestvirtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/devtestvirtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devtestvirtualnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network}.
 type DevTestVirtualNetwork interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_DevTestVirtualNetwork) UniqueIdentifier() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
 func NewDevTestVirtualNetwork(scope constructs.Construct, id *string, config *DevTestVirtualNetworkConfig) DevTestVirtualNetwork {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewDevTestVirtualNetwork(scope constructs.Construct, id *string, config *De
 	j := jsiiProxy_DevTestVirtualNetwork{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,12 +504,12 @@ func NewDevTestVirtualNetwork(scope constructs.Construct, id *string, config *De
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
 func NewDevTestVirtualNetwork_Override(d DevTestVirtualNetwork, scope constructs.Construct, id *string, config *DevTestVirtualNetworkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -659,7 +659,7 @@ func DevTestVirtualNetwork_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func DevTestVirtualNetwork_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func DevTestVirtualNetwork_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func DevTestVirtualNetwork_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func DevTestVirtualNetwork_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
+		"@cdktn/provider-azurerm.devTestVirtualNetwork.DevTestVirtualNetwork",
 		"tfResourceType",
 		&returns,
 	)

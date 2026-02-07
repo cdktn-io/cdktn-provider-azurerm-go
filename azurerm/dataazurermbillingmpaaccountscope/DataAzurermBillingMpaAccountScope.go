@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermbillingmpaaccountscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermbillingmpaaccountscope/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermbillingmpaaccountscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope}.
 type DataAzurermBillingMpaAccountScope interface {
 	cdktf.TerraformDataSource
 	BillingAccountName() *string
@@ -335,7 +335,7 @@ func (j *jsiiProxy_DataAzurermBillingMpaAccountScope) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
 func NewDataAzurermBillingMpaAccountScope(scope constructs.Construct, id *string, config *DataAzurermBillingMpaAccountScopeConfig) DataAzurermBillingMpaAccountScope {
 	_init_.Initialize()
 
@@ -345,7 +345,7 @@ func NewDataAzurermBillingMpaAccountScope(scope constructs.Construct, id *string
 	j := jsiiProxy_DataAzurermBillingMpaAccountScope{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
+		"@cdktn/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -353,12 +353,12 @@ func NewDataAzurermBillingMpaAccountScope(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
 func NewDataAzurermBillingMpaAccountScope_Override(d DataAzurermBillingMpaAccountScope, scope constructs.Construct, id *string, config *DataAzurermBillingMpaAccountScopeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
+		"@cdktn/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -453,7 +453,7 @@ func DataAzurermBillingMpaAccountScope_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
+		"@cdktn/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -488,7 +488,7 @@ func DataAzurermBillingMpaAccountScope_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
+		"@cdktn/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -507,7 +507,7 @@ func DataAzurermBillingMpaAccountScope_IsTerraformDataSource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
+		"@cdktn/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataAzurermBillingMpaAccountScope_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
+		"@cdktn/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAzurermBillingMpaAccountScope_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
+		"@cdktn/provider-azurerm.dataAzurermBillingMpaAccountScope.DataAzurermBillingMpaAccountScope",
 		"tfResourceType",
 		&returns,
 	)

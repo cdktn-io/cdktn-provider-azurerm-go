@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package proximityplacementgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
 		reflect.TypeOf((*ProximityPlacementGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroupConfig",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroupConfig",
 		reflect.TypeOf((*ProximityPlacementGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroupTimeouts",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroupTimeouts",
 		reflect.TypeOf((*ProximityPlacementGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ProximityPlacementGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

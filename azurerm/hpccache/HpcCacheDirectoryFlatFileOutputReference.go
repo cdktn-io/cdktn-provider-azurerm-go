@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/hpccache/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hpccache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewHpcCacheDirectoryFlatFileOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_HpcCacheDirectoryFlatFileOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryFlatFileOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryFlatFileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewHpcCacheDirectoryFlatFileOutputReference_Override(h HpcCacheDirectoryFla
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryFlatFileOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryFlatFileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		h,
 	)

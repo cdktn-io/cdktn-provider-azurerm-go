@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sharedimageversion
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersion",
 		reflect.TypeOf((*SharedImageVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,15 +110,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersionConfig",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersionConfig",
 		reflect.TypeOf((*SharedImageVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersionTargetRegion",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersionTargetRegion",
 		reflect.TypeOf((*SharedImageVersionTargetRegion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersionTargetRegionList",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersionTargetRegionList",
 		reflect.TypeOf((*SharedImageVersionTargetRegionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersionTargetRegionOutputReference",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersionTargetRegionOutputReference",
 		reflect.TypeOf((*SharedImageVersionTargetRegionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersionTimeouts",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersionTimeouts",
 		reflect.TypeOf((*SharedImageVersionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImageVersion.SharedImageVersionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sharedImageVersion.SharedImageVersionTimeoutsOutputReference",
 		reflect.TypeOf((*SharedImageVersionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

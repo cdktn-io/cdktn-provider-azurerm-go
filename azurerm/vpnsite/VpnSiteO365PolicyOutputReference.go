@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpnsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vpnsite/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpnsite/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewVpnSiteO365PolicyOutputReference(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_VpnSiteO365PolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteO365PolicyOutputReference",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteO365PolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewVpnSiteO365PolicyOutputReference_Override(v VpnSiteO365PolicyOutputRefer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnSite.VpnSiteO365PolicyOutputReference",
+		"@cdktn/provider-azurerm.vpnSite.VpnSiteO365PolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

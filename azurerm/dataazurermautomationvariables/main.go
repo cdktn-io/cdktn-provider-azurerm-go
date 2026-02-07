@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermautomationvariables
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariables",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariables",
 		reflect.TypeOf((*DataAzurermAutomationVariables)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,11 +71,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesBool",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesBool",
 		reflect.TypeOf((*DataAzurermAutomationVariablesBool)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesBoolList",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesBoolList",
 		reflect.TypeOf((*DataAzurermAutomationVariablesBoolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -96,7 +96,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesBoolOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesBoolOutputReference",
 		reflect.TypeOf((*DataAzurermAutomationVariablesBoolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,15 +133,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesConfig",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesConfig",
 		reflect.TypeOf((*DataAzurermAutomationVariablesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesDatetime",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesDatetime",
 		reflect.TypeOf((*DataAzurermAutomationVariablesDatetime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesDatetimeList",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesDatetimeList",
 		reflect.TypeOf((*DataAzurermAutomationVariablesDatetimeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesDatetimeOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesDatetimeOutputReference",
 		reflect.TypeOf((*DataAzurermAutomationVariablesDatetimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,11 +199,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesEncrypted",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesEncrypted",
 		reflect.TypeOf((*DataAzurermAutomationVariablesEncrypted)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesEncryptedList",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesEncryptedList",
 		reflect.TypeOf((*DataAzurermAutomationVariablesEncryptedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -224,7 +224,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesEncryptedOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesEncryptedOutputReference",
 		reflect.TypeOf((*DataAzurermAutomationVariablesEncryptedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -261,11 +261,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesInt",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesInt",
 		reflect.TypeOf((*DataAzurermAutomationVariablesInt)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesIntList",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesIntList",
 		reflect.TypeOf((*DataAzurermAutomationVariablesIntList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -286,7 +286,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesIntOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesIntOutputReference",
 		reflect.TypeOf((*DataAzurermAutomationVariablesIntOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -323,11 +323,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesNull",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesNull",
 		reflect.TypeOf((*DataAzurermAutomationVariablesNull)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesNullList",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesNullList",
 		reflect.TypeOf((*DataAzurermAutomationVariablesNullList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -348,7 +348,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesNullOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesNullOutputReference",
 		reflect.TypeOf((*DataAzurermAutomationVariablesNullOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -385,11 +385,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesObject",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesObject",
 		reflect.TypeOf((*DataAzurermAutomationVariablesObject)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesObjectList",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesObjectList",
 		reflect.TypeOf((*DataAzurermAutomationVariablesObjectList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -410,7 +410,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesObjectOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesObjectOutputReference",
 		reflect.TypeOf((*DataAzurermAutomationVariablesObjectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -447,11 +447,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesString",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesString",
 		reflect.TypeOf((*DataAzurermAutomationVariablesString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesStringList",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesStringList",
 		reflect.TypeOf((*DataAzurermAutomationVariablesStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -472,7 +472,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesStringOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesStringOutputReference",
 		reflect.TypeOf((*DataAzurermAutomationVariablesStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -509,11 +509,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesTimeouts",
 		reflect.TypeOf((*DataAzurermAutomationVariablesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermAutomationVariablesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

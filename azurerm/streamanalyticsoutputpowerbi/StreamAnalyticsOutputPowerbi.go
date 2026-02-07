@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticsoutputpowerbi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/streamanalyticsoutputpowerbi/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsoutputpowerbi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi}.
 type StreamAnalyticsOutputPowerbi interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputPowerbi) TokenUserPrincipalNameInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi} Resource.
 func NewStreamAnalyticsOutputPowerbi(scope constructs.Construct, id *string, config *StreamAnalyticsOutputPowerbiConfig) StreamAnalyticsOutputPowerbi {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewStreamAnalyticsOutputPowerbi(scope constructs.Construct, id *string, con
 	j := jsiiProxy_StreamAnalyticsOutputPowerbi{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewStreamAnalyticsOutputPowerbi(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi} Resource.
 func NewStreamAnalyticsOutputPowerbi_Override(s StreamAnalyticsOutputPowerbi, scope constructs.Construct, id *string, config *StreamAnalyticsOutputPowerbiConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -726,7 +726,7 @@ func StreamAnalyticsOutputPowerbi_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -761,7 +761,7 @@ func StreamAnalyticsOutputPowerbi_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func StreamAnalyticsOutputPowerbi_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -799,7 +799,7 @@ func StreamAnalyticsOutputPowerbi_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func StreamAnalyticsOutputPowerbi_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputPowerbi.StreamAnalyticsOutputPowerbi",
 		"tfResourceType",
 		&returns,
 	)

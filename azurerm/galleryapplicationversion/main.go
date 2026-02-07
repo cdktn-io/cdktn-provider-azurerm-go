@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package galleryapplicationversion
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersion",
 		reflect.TypeOf((*GalleryApplicationVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionConfig",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionConfig",
 		reflect.TypeOf((*GalleryApplicationVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionManageAction",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionManageAction",
 		reflect.TypeOf((*GalleryApplicationVersionManageAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionManageActionOutputReference",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionManageActionOutputReference",
 		reflect.TypeOf((*GalleryApplicationVersionManageActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionSource",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionSource",
 		reflect.TypeOf((*GalleryApplicationVersionSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionSourceOutputReference",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionSourceOutputReference",
 		reflect.TypeOf((*GalleryApplicationVersionSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -191,11 +191,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTargetRegion",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTargetRegion",
 		reflect.TypeOf((*GalleryApplicationVersionTargetRegion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTargetRegionList",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTargetRegionList",
 		reflect.TypeOf((*GalleryApplicationVersionTargetRegionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -217,7 +217,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTargetRegionOutputReference",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTargetRegionOutputReference",
 		reflect.TypeOf((*GalleryApplicationVersionTargetRegionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -259,11 +259,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTimeouts",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTimeouts",
 		reflect.TypeOf((*GalleryApplicationVersionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.galleryApplicationVersion.GalleryApplicationVersionTimeoutsOutputReference",
 		reflect.TypeOf((*GalleryApplicationVersionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

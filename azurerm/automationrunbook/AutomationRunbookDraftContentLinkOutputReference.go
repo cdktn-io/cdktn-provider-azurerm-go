@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationrunbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewAutomationRunbookDraftContentLinkOutputReference(terraformResource cdktf
 	j := jsiiProxy_AutomationRunbookDraftContentLinkOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewAutomationRunbookDraftContentLinkOutputReference_Override(a AutomationRu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkOutputReference",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbookDraftContentLinkOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

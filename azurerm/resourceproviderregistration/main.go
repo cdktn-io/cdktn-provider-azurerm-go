@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourceproviderregistration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistration",
 		reflect.TypeOf((*ResourceProviderRegistration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationConfig",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationConfig",
 		reflect.TypeOf((*ResourceProviderRegistrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationFeature",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationFeature",
 		reflect.TypeOf((*ResourceProviderRegistrationFeature)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationFeatureList",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationFeatureList",
 		reflect.TypeOf((*ResourceProviderRegistrationFeatureList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationFeatureOutputReference",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationFeatureOutputReference",
 		reflect.TypeOf((*ResourceProviderRegistrationFeatureOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationTimeouts",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationTimeouts",
 		reflect.TypeOf((*ResourceProviderRegistrationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.resourceProviderRegistration.ResourceProviderRegistrationTimeoutsOutputReference",
 		reflect.TypeOf((*ResourceProviderRegistrationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

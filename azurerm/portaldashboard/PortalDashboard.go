@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package portaldashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/portaldashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/portaldashboard/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/portal_dashboard azurerm_portal_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/portal_dashboard azurerm_portal_dashboard}.
 type PortalDashboard interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_PortalDashboard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
 func NewPortalDashboard(scope constructs.Construct, id *string, config *PortalDashboardConfig) PortalDashboard {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewPortalDashboard(scope constructs.Construct, id *string, config *PortalDa
 	j := jsiiProxy_PortalDashboard{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboard",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboard",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewPortalDashboard(scope constructs.Construct, id *string, config *PortalDa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
 func NewPortalDashboard_Override(p PortalDashboard, scope constructs.Construct, id *string, config *PortalDashboardConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboard",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboard",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -623,7 +623,7 @@ func PortalDashboard_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboard",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboard",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func PortalDashboard_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboard",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboard",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func PortalDashboard_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboard",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboard",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func PortalDashboard_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboard",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboard",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func PortalDashboard_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.portalDashboard.PortalDashboard",
+		"@cdktn/provider-azurerm.portalDashboard.PortalDashboard",
 		"tfResourceType",
 		&returns,
 	)

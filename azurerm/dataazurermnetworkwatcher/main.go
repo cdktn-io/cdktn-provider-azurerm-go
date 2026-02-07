@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnetworkwatcher
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
 		reflect.TypeOf((*DataAzurermNetworkWatcher)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcherConfig",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcherConfig",
 		reflect.TypeOf((*DataAzurermNetworkWatcherConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcherTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcherTimeouts",
 		reflect.TypeOf((*DataAzurermNetworkWatcherTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcherTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcherTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermNetworkWatcherTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

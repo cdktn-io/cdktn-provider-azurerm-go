@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermwebpubsub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
 		reflect.TypeOf((*DataAzurermWebPubsub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aadAuthEnabled", GoGetter: "AadAuthEnabled"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubConfig",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubConfig",
 		reflect.TypeOf((*DataAzurermWebPubsubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeouts",
 		reflect.TypeOf((*DataAzurermWebPubsubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermWebPubsubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

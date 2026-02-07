@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package communicationservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.communicationService.CommunicationService",
+		"@cdktn/provider-azurerm.communicationService.CommunicationService",
 		reflect.TypeOf((*CommunicationService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.communicationService.CommunicationServiceConfig",
+		"@cdktn/provider-azurerm.communicationService.CommunicationServiceConfig",
 		reflect.TypeOf((*CommunicationServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.communicationService.CommunicationServiceTimeouts",
+		"@cdktn/provider-azurerm.communicationService.CommunicationServiceTimeouts",
 		reflect.TypeOf((*CommunicationServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.communicationService.CommunicationServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.communicationService.CommunicationServiceTimeoutsOutputReference",
 		reflect.TypeOf((*CommunicationServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

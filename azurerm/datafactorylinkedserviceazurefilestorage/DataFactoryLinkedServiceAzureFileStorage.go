@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorylinkedserviceazurefilestorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorylinkedserviceazurefilestorage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedserviceazurefilestorage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_azure_file_storage azurerm_data_factory_linked_service_azure_file_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_azure_file_storage azurerm_data_factory_linked_service_azure_file_storage}.
 type DataFactoryLinkedServiceAzureFileStorage interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -643,7 +643,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureFileStorage) UserIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_azure_file_storage azurerm_data_factory_linked_service_azure_file_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_azure_file_storage azurerm_data_factory_linked_service_azure_file_storage} Resource.
 func NewDataFactoryLinkedServiceAzureFileStorage(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureFileStorageConfig) DataFactoryLinkedServiceAzureFileStorage {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewDataFactoryLinkedServiceAzureFileStorage(scope constructs.Construct, id 
 	j := jsiiProxy_DataFactoryLinkedServiceAzureFileStorage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -661,12 +661,12 @@ func NewDataFactoryLinkedServiceAzureFileStorage(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_azure_file_storage azurerm_data_factory_linked_service_azure_file_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_azure_file_storage azurerm_data_factory_linked_service_azure_file_storage} Resource.
 func NewDataFactoryLinkedServiceAzureFileStorage_Override(d DataFactoryLinkedServiceAzureFileStorage, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureFileStorageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -893,7 +893,7 @@ func DataFactoryLinkedServiceAzureFileStorage_GenerateConfigForImport(scope cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -928,7 +928,7 @@ func DataFactoryLinkedServiceAzureFileStorage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -947,7 +947,7 @@ func DataFactoryLinkedServiceAzureFileStorage_IsTerraformElement(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -966,7 +966,7 @@ func DataFactoryLinkedServiceAzureFileStorage_IsTerraformResource(x interface{})
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -979,7 +979,7 @@ func DataFactoryLinkedServiceAzureFileStorage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureFileStorage.DataFactoryLinkedServiceAzureFileStorage",
 		"tfResourceType",
 		&returns,
 	)

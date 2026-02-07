@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bastionhost
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.bastionHost.BastionHost",
+		"@cdktn/provider-azurerm.bastionHost.BastionHost",
 		reflect.TypeOf((*BastionHost)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -117,15 +117,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.bastionHost.BastionHostConfig",
+		"@cdktn/provider-azurerm.bastionHost.BastionHostConfig",
 		reflect.TypeOf((*BastionHostConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.bastionHost.BastionHostIpConfiguration",
+		"@cdktn/provider-azurerm.bastionHost.BastionHostIpConfiguration",
 		reflect.TypeOf((*BastionHostIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.bastionHost.BastionHostIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.bastionHost.BastionHostIpConfigurationOutputReference",
 		reflect.TypeOf((*BastionHostIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.bastionHost.BastionHostTimeouts",
+		"@cdktn/provider-azurerm.bastionHost.BastionHostTimeouts",
 		reflect.TypeOf((*BastionHostTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.bastionHost.BastionHostTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.bastionHost.BastionHostTimeoutsOutputReference",
 		reflect.TypeOf((*BastionHostTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

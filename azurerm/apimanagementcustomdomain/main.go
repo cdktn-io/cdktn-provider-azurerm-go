@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementcustomdomain
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
 		reflect.TypeOf((*ApiManagementCustomDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainConfig",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainConfig",
 		reflect.TypeOf((*ApiManagementCustomDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainDeveloperPortal",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainDeveloperPortal",
 		reflect.TypeOf((*ApiManagementCustomDomainDeveloperPortal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainDeveloperPortalList",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainDeveloperPortalList",
 		reflect.TypeOf((*ApiManagementCustomDomainDeveloperPortalList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainDeveloperPortalOutputReference",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainDeveloperPortalOutputReference",
 		reflect.TypeOf((*ApiManagementCustomDomainDeveloperPortalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
@@ -179,11 +179,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainGateway",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainGateway",
 		reflect.TypeOf((*ApiManagementCustomDomainGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainGatewayList",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainGatewayList",
 		reflect.TypeOf((*ApiManagementCustomDomainGatewayList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -205,7 +205,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainGatewayOutputReference",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainGatewayOutputReference",
 		reflect.TypeOf((*ApiManagementCustomDomainGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
@@ -265,11 +265,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainManagement",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainManagement",
 		reflect.TypeOf((*ApiManagementCustomDomainManagement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainManagementList",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainManagementList",
 		reflect.TypeOf((*ApiManagementCustomDomainManagementList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -291,7 +291,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainManagementOutputReference",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainManagementOutputReference",
 		reflect.TypeOf((*ApiManagementCustomDomainManagementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
@@ -348,11 +348,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainPortal",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainPortal",
 		reflect.TypeOf((*ApiManagementCustomDomainPortal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainPortalList",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainPortalList",
 		reflect.TypeOf((*ApiManagementCustomDomainPortalList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -374,7 +374,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainPortalOutputReference",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainPortalOutputReference",
 		reflect.TypeOf((*ApiManagementCustomDomainPortalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
@@ -431,11 +431,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainScm",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainScm",
 		reflect.TypeOf((*ApiManagementCustomDomainScm)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainScmList",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainScmList",
 		reflect.TypeOf((*ApiManagementCustomDomainScmList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -457,7 +457,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainScmOutputReference",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainScmOutputReference",
 		reflect.TypeOf((*ApiManagementCustomDomainScmOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
@@ -514,11 +514,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainTimeouts",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainTimeouts",
 		reflect.TypeOf((*ApiManagementCustomDomainTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomainTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementCustomDomainTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

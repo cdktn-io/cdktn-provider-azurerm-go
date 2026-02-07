@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycenterstoragedefender
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/securitycenterstoragedefender/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/securitycenterstoragedefender/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender}.
 type SecurityCenterStorageDefender interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -477,7 +477,7 @@ func (j *jsiiProxy_SecurityCenterStorageDefender) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender} Resource.
 func NewSecurityCenterStorageDefender(scope constructs.Construct, id *string, config *SecurityCenterStorageDefenderConfig) SecurityCenterStorageDefender {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewSecurityCenterStorageDefender(scope constructs.Construct, id *string, co
 	j := jsiiProxy_SecurityCenterStorageDefender{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -495,12 +495,12 @@ func NewSecurityCenterStorageDefender(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender} Resource.
 func NewSecurityCenterStorageDefender_Override(s SecurityCenterStorageDefender, scope constructs.Construct, id *string, config *SecurityCenterStorageDefenderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -661,7 +661,7 @@ func SecurityCenterStorageDefender_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -696,7 +696,7 @@ func SecurityCenterStorageDefender_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -715,7 +715,7 @@ func SecurityCenterStorageDefender_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func SecurityCenterStorageDefender_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func SecurityCenterStorageDefender_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
+		"@cdktn/provider-azurerm.securityCenterStorageDefender.SecurityCenterStorageDefender",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpngatewaynatrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vpngatewaynatrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpngatewaynatrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_gateway_nat_rule azurerm_vpn_gateway_nat_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_gateway_nat_rule azurerm_vpn_gateway_nat_rule}.
 type VpnGatewayNatRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -500,7 +500,7 @@ func (j *jsiiProxy_VpnGatewayNatRule) VpnGatewayIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_gateway_nat_rule azurerm_vpn_gateway_nat_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_gateway_nat_rule azurerm_vpn_gateway_nat_rule} Resource.
 func NewVpnGatewayNatRule(scope constructs.Construct, id *string, config *VpnGatewayNatRuleConfig) VpnGatewayNatRule {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewVpnGatewayNatRule(scope constructs.Construct, id *string, config *VpnGat
 	j := jsiiProxy_VpnGatewayNatRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
+		"@cdktn/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,12 +518,12 @@ func NewVpnGatewayNatRule(scope constructs.Construct, id *string, config *VpnGat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_gateway_nat_rule azurerm_vpn_gateway_nat_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_gateway_nat_rule azurerm_vpn_gateway_nat_rule} Resource.
 func NewVpnGatewayNatRule_Override(v VpnGatewayNatRule, scope constructs.Construct, id *string, config *VpnGatewayNatRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
+		"@cdktn/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -673,7 +673,7 @@ func VpnGatewayNatRule_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
+		"@cdktn/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -708,7 +708,7 @@ func VpnGatewayNatRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
+		"@cdktn/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -727,7 +727,7 @@ func VpnGatewayNatRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
+		"@cdktn/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func VpnGatewayNatRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
+		"@cdktn/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -759,7 +759,7 @@ func VpnGatewayNatRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
+		"@cdktn/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementcustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementcustomdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_custom_domain azurerm_api_management_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_custom_domain azurerm_api_management_custom_domain}.
 type ApiManagementCustomDomain interface {
 	cdktf.TerraformResource
 	ApiManagementId() *string
@@ -477,7 +477,7 @@ func (j *jsiiProxy_ApiManagementCustomDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_custom_domain azurerm_api_management_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_custom_domain azurerm_api_management_custom_domain} Resource.
 func NewApiManagementCustomDomain(scope constructs.Construct, id *string, config *ApiManagementCustomDomainConfig) ApiManagementCustomDomain {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewApiManagementCustomDomain(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ApiManagementCustomDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -495,12 +495,12 @@ func NewApiManagementCustomDomain(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_custom_domain azurerm_api_management_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_custom_domain azurerm_api_management_custom_domain} Resource.
 func NewApiManagementCustomDomain_Override(a ApiManagementCustomDomain, scope constructs.Construct, id *string, config *ApiManagementCustomDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -606,7 +606,7 @@ func ApiManagementCustomDomain_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -641,7 +641,7 @@ func ApiManagementCustomDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func ApiManagementCustomDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func ApiManagementCustomDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -692,7 +692,7 @@ func ApiManagementCustomDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
+		"@cdktn/provider-azurerm.apiManagementCustomDomain.ApiManagementCustomDomain",
 		"tfResourceType",
 		&returns,
 	)

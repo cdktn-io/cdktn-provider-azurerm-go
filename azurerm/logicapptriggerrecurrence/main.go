@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicapptriggerrecurrence
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrence",
 		reflect.TypeOf((*LogicAppTriggerRecurrence)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceConfig",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceConfig",
 		reflect.TypeOf((*LogicAppTriggerRecurrenceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceSchedule",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceSchedule",
 		reflect.TypeOf((*LogicAppTriggerRecurrenceSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceScheduleOutputReference",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceScheduleOutputReference",
 		reflect.TypeOf((*LogicAppTriggerRecurrenceScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "atTheseHours", GoGetter: "AtTheseHours"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceTimeouts",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceTimeouts",
 		reflect.TypeOf((*LogicAppTriggerRecurrenceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logicAppTriggerRecurrence.LogicAppTriggerRecurrenceTimeoutsOutputReference",
 		reflect.TypeOf((*LogicAppTriggerRecurrenceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

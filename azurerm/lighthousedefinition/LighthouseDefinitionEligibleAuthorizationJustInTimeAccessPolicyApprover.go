@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lighthousedefinition
 
 
 type LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApprover struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lighthouse_definition#principal_id LighthouseDefinition#principal_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lighthouse_definition#principal_id LighthouseDefinition#principal_id}.
 	PrincipalId *string `field:"required" json:"principalId" yaml:"principalId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lighthouse_definition#principal_display_name LighthouseDefinition#principal_display_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lighthouse_definition#principal_display_name LighthouseDefinition#principal_display_name}.
 	PrincipalDisplayName *string `field:"optional" json:"principalDisplayName" yaml:"principalDisplayName"`
 }
 

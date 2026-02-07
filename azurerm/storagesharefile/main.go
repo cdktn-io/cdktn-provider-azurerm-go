@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagesharefile
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFile",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFile",
 		reflect.TypeOf((*StorageShareFile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFileConfig",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFileConfig",
 		reflect.TypeOf((*StorageShareFileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFileTimeouts",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFileTimeouts",
 		reflect.TypeOf((*StorageShareFileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFileTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFileTimeoutsOutputReference",
 		reflect.TypeOf((*StorageShareFileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

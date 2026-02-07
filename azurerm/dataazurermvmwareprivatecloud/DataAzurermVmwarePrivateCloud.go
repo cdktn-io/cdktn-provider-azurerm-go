@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermvmwareprivatecloud
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermvmwareprivatecloud/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvmwareprivatecloud/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/vmware_private_cloud azurerm_vmware_private_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/vmware_private_cloud azurerm_vmware_private_cloud}.
 type DataAzurermVmwarePrivateCloud interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -500,7 +500,7 @@ func (j *jsiiProxy_DataAzurermVmwarePrivateCloud) VmotionSubnetCidr() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/vmware_private_cloud azurerm_vmware_private_cloud} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/vmware_private_cloud azurerm_vmware_private_cloud} Data Source.
 func NewDataAzurermVmwarePrivateCloud(scope constructs.Construct, id *string, config *DataAzurermVmwarePrivateCloudConfig) DataAzurermVmwarePrivateCloud {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewDataAzurermVmwarePrivateCloud(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAzurermVmwarePrivateCloud{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
+		"@cdktn/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,12 +518,12 @@ func NewDataAzurermVmwarePrivateCloud(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/vmware_private_cloud azurerm_vmware_private_cloud} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/vmware_private_cloud azurerm_vmware_private_cloud} Data Source.
 func NewDataAzurermVmwarePrivateCloud_Override(d DataAzurermVmwarePrivateCloud, scope constructs.Construct, id *string, config *DataAzurermVmwarePrivateCloudConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
+		"@cdktn/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -618,7 +618,7 @@ func DataAzurermVmwarePrivateCloud_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
+		"@cdktn/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -653,7 +653,7 @@ func DataAzurermVmwarePrivateCloud_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
+		"@cdktn/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func DataAzurermVmwarePrivateCloud_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
+		"@cdktn/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -691,7 +691,7 @@ func DataAzurermVmwarePrivateCloud_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
+		"@cdktn/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -704,7 +704,7 @@ func DataAzurermVmwarePrivateCloud_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
+		"@cdktn/provider-azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloud",
 		"tfResourceType",
 		&returns,
 	)

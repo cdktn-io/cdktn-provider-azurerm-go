@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botConnection.BotConnection",
+		"@cdktn/provider-azurerm.botConnection.BotConnection",
 		reflect.TypeOf((*BotConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botConnection.BotConnectionConfig",
+		"@cdktn/provider-azurerm.botConnection.BotConnectionConfig",
 		reflect.TypeOf((*BotConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botConnection.BotConnectionTimeouts",
+		"@cdktn/provider-azurerm.botConnection.BotConnectionTimeouts",
 		reflect.TypeOf((*BotConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botConnection.BotConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botConnection.BotConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*BotConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

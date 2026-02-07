@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultaccesspolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultAccessPolicy.KeyVaultAccessPolicyA",
+		"@cdktn/provider-azurerm.keyVaultAccessPolicy.KeyVaultAccessPolicyA",
 		reflect.TypeOf((*KeyVaultAccessPolicyA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultAccessPolicy.KeyVaultAccessPolicyAConfig",
+		"@cdktn/provider-azurerm.keyVaultAccessPolicy.KeyVaultAccessPolicyAConfig",
 		reflect.TypeOf((*KeyVaultAccessPolicyAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultAccessPolicy.KeyVaultAccessPolicyTimeouts",
+		"@cdktn/provider-azurerm.keyVaultAccessPolicy.KeyVaultAccessPolicyTimeouts",
 		reflect.TypeOf((*KeyVaultAccessPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultAccessPolicy.KeyVaultAccessPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.keyVaultAccessPolicy.KeyVaultAccessPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*KeyVaultAccessPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

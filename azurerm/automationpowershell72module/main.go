@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationpowershell72module
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72Module",
 		reflect.TypeOf((*AutomationPowershell72Module)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,19 +80,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleConfig",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleConfig",
 		reflect.TypeOf((*AutomationPowershell72ModuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLink",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLink",
 		reflect.TypeOf((*AutomationPowershell72ModuleModuleLink)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkHash",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkHash",
 		reflect.TypeOf((*AutomationPowershell72ModuleModuleLinkHash)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkHashOutputReference",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkHashOutputReference",
 		reflect.TypeOf((*AutomationPowershell72ModuleModuleLinkHashOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},
@@ -128,7 +128,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkOutputReference",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkOutputReference",
 		reflect.TypeOf((*AutomationPowershell72ModuleModuleLinkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -166,11 +166,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleTimeouts",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleTimeouts",
 		reflect.TypeOf((*AutomationPowershell72ModuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationPowershell72Module.AutomationPowershell72ModuleTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationPowershell72ModuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

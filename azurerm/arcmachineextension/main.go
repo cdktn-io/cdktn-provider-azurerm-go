@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arcmachineextension
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtension",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtension",
 		reflect.TypeOf((*ArcMachineExtension)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtensionConfig",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtensionConfig",
 		reflect.TypeOf((*ArcMachineExtensionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtensionTimeouts",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtensionTimeouts",
 		reflect.TypeOf((*ArcMachineExtensionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtensionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtensionTimeoutsOutputReference",
 		reflect.TypeOf((*ArcMachineExtensionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

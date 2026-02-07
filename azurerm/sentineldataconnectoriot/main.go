@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentineldataconnectoriot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelDataConnectorIot.SentinelDataConnectorIot",
+		"@cdktn/provider-azurerm.sentinelDataConnectorIot.SentinelDataConnectorIot",
 		reflect.TypeOf((*SentinelDataConnectorIot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelDataConnectorIot.SentinelDataConnectorIotConfig",
+		"@cdktn/provider-azurerm.sentinelDataConnectorIot.SentinelDataConnectorIotConfig",
 		reflect.TypeOf((*SentinelDataConnectorIotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelDataConnectorIot.SentinelDataConnectorIotTimeouts",
+		"@cdktn/provider-azurerm.sentinelDataConnectorIot.SentinelDataConnectorIotTimeouts",
 		reflect.TypeOf((*SentinelDataConnectorIotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelDataConnectorIot.SentinelDataConnectorIotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sentinelDataConnectorIot.SentinelDataConnectorIotTimeoutsOutputReference",
 		reflect.TypeOf((*SentinelDataConnectorIotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementidentityprovideraadb2c
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementidentityprovideraadb2c/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementidentityprovideraadb2c/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c}.
 type ApiManagementIdentityProviderAadb2C interface {
 	cdktf.TerraformResource
 	AllowedTenant() *string
@@ -613,7 +613,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderAadb2C) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
 func NewApiManagementIdentityProviderAadb2C(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderAadb2CConfig) ApiManagementIdentityProviderAadb2C {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewApiManagementIdentityProviderAadb2C(scope constructs.Construct, id *stri
 	j := jsiiProxy_ApiManagementIdentityProviderAadb2C{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -631,12 +631,12 @@ func NewApiManagementIdentityProviderAadb2C(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
 func NewApiManagementIdentityProviderAadb2C_Override(a ApiManagementIdentityProviderAadb2C, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderAadb2CConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -863,7 +863,7 @@ func ApiManagementIdentityProviderAadb2C_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -898,7 +898,7 @@ func ApiManagementIdentityProviderAadb2C_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func ApiManagementIdentityProviderAadb2C_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -936,7 +936,7 @@ func ApiManagementIdentityProviderAadb2C_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -949,7 +949,7 @@ func ApiManagementIdentityProviderAadb2C_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAadb2C.ApiManagementIdentityProviderAadb2C",
 		"tfResourceType",
 		&returns,
 	)

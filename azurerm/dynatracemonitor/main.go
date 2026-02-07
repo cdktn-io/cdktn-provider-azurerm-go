@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dynatracemonitor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitor",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitor",
 		reflect.TypeOf((*DynatraceMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,19 +97,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorConfig",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorConfig",
 		reflect.TypeOf((*DynatraceMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentProperties",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentProperties",
 		reflect.TypeOf((*DynatraceMonitorEnvironmentProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfo",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfo",
 		reflect.TypeOf((*DynatraceMonitorEnvironmentPropertiesEnvironmentInfo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfoList",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfoList",
 		reflect.TypeOf((*DynatraceMonitorEnvironmentPropertiesEnvironmentInfoList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReference",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReference",
 		reflect.TypeOf((*DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesList",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesList",
 		reflect.TypeOf((*DynatraceMonitorEnvironmentPropertiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -187,7 +187,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesOutputReference",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesOutputReference",
 		reflect.TypeOf((*DynatraceMonitorEnvironmentPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,11 +222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorIdentity",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorIdentity",
 		reflect.TypeOf((*DynatraceMonitorIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorIdentityOutputReference",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorIdentityOutputReference",
 		reflect.TypeOf((*DynatraceMonitorIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -262,11 +262,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorPlan",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorPlan",
 		reflect.TypeOf((*DynatraceMonitorPlan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorPlanOutputReference",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorPlanOutputReference",
 		reflect.TypeOf((*DynatraceMonitorPlanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "billingCycle", GoGetter: "BillingCycle"},
@@ -307,11 +307,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorTimeouts",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorTimeouts",
 		reflect.TypeOf((*DynatraceMonitorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorTimeoutsOutputReference",
 		reflect.TypeOf((*DynatraceMonitorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -355,11 +355,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorUser",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorUser",
 		reflect.TypeOf((*DynatraceMonitorUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorUserOutputReference",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorUserOutputReference",
 		reflect.TypeOf((*DynatraceMonitorUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

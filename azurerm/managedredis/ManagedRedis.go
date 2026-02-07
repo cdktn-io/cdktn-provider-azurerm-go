@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedredis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/managedredis/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managedredis/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_redis azurerm_managed_redis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_redis azurerm_managed_redis}.
 type ManagedRedis interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -581,7 +581,7 @@ func (j *jsiiProxy_ManagedRedis) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_redis azurerm_managed_redis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_redis azurerm_managed_redis} Resource.
 func NewManagedRedis(scope constructs.Construct, id *string, config *ManagedRedisConfig) ManagedRedis {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewManagedRedis(scope constructs.Construct, id *string, config *ManagedRedi
 	j := jsiiProxy_ManagedRedis{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedis",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedis",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -599,12 +599,12 @@ func NewManagedRedis(scope constructs.Construct, id *string, config *ManagedRedi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_redis azurerm_managed_redis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_redis azurerm_managed_redis} Resource.
 func NewManagedRedis_Override(m ManagedRedis, scope constructs.Construct, id *string, config *ManagedRedisConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedis",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedis",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -776,7 +776,7 @@ func ManagedRedis_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedis",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedis",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -811,7 +811,7 @@ func ManagedRedis_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedis",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedis",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -830,7 +830,7 @@ func ManagedRedis_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedis",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedis",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func ManagedRedis_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedis",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedis",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -862,7 +862,7 @@ func ManagedRedis_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.managedRedis.ManagedRedis",
+		"@cdktn/provider-azurerm.managedRedis.ManagedRedis",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orbitalspacecraft
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/orbitalspacecraft/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orbitalspacecraft/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/orbital_spacecraft azurerm_orbital_spacecraft}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/orbital_spacecraft azurerm_orbital_spacecraft}.
 type OrbitalSpacecraft interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_OrbitalSpacecraft) TwoLineElementsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/orbital_spacecraft azurerm_orbital_spacecraft} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/orbital_spacecraft azurerm_orbital_spacecraft} Resource.
 func NewOrbitalSpacecraft(scope constructs.Construct, id *string, config *OrbitalSpacecraftConfig) OrbitalSpacecraft {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewOrbitalSpacecraft(scope constructs.Construct, id *string, config *Orbita
 	j := jsiiProxy_OrbitalSpacecraft{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewOrbitalSpacecraft(scope constructs.Construct, id *string, config *Orbita
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/orbital_spacecraft azurerm_orbital_spacecraft} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/orbital_spacecraft azurerm_orbital_spacecraft} Resource.
 func NewOrbitalSpacecraft_Override(o OrbitalSpacecraft, scope constructs.Construct, id *string, config *OrbitalSpacecraftConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -714,7 +714,7 @@ func OrbitalSpacecraft_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -749,7 +749,7 @@ func OrbitalSpacecraft_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func OrbitalSpacecraft_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -787,7 +787,7 @@ func OrbitalSpacecraft_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func OrbitalSpacecraft_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
 		"tfResourceType",
 		&returns,
 	)

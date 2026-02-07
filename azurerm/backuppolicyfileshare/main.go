@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backuppolicyfileshare
@@ -11,13 +11,15 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
 		reflect.TypeOf((*BackupPolicyFileShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "backup", GoGetter: "Backup"},
 			_jsii_.MemberProperty{JsiiProperty: "backupInput", GoGetter: "BackupInput"},
+			_jsii_.MemberProperty{JsiiProperty: "backupTier", GoGetter: "BackupTier"},
+			_jsii_.MemberProperty{JsiiProperty: "backupTierInput", GoGetter: "BackupTierInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -59,11 +61,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "recoveryVaultName", GoGetter: "RecoveryVaultName"},
 			_jsii_.MemberProperty{JsiiProperty: "recoveryVaultNameInput", GoGetter: "RecoveryVaultNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBackupTier", GoMethod: "ResetBackupTier"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRetentionMonthly", GoMethod: "ResetRetentionMonthly"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRetentionWeekly", GoMethod: "ResetRetentionWeekly"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRetentionYearly", GoMethod: "ResetRetentionYearly"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSnapshotRetentionInDays", GoMethod: "ResetSnapshotRetentionInDays"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimezone", GoMethod: "ResetTimezone"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
@@ -76,6 +80,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "retentionWeeklyInput", GoGetter: "RetentionWeeklyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "retentionYearly", GoGetter: "RetentionYearly"},
 			_jsii_.MemberProperty{JsiiProperty: "retentionYearlyInput", GoGetter: "RetentionYearlyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "snapshotRetentionInDays", GoGetter: "SnapshotRetentionInDays"},
+			_jsii_.MemberProperty{JsiiProperty: "snapshotRetentionInDaysInput", GoGetter: "SnapshotRetentionInDaysInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
@@ -97,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareBackup",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareBackup",
 		reflect.TypeOf((*BackupPolicyFileShareBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareBackupHourly",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareBackupHourly",
 		reflect.TypeOf((*BackupPolicyFileShareBackupHourly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareBackupHourlyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareBackupHourlyOutputReference",
 		reflect.TypeOf((*BackupPolicyFileShareBackupHourlyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,7 +149,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareBackupOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareBackupOutputReference",
 		reflect.TypeOf((*BackupPolicyFileShareBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,15 +190,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareConfig",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareConfig",
 		reflect.TypeOf((*BackupPolicyFileShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionDaily",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionDaily",
 		reflect.TypeOf((*BackupPolicyFileShareRetentionDaily)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionDailyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionDailyOutputReference",
 		reflect.TypeOf((*BackupPolicyFileShareRetentionDailyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -226,11 +232,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionMonthly",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionMonthly",
 		reflect.TypeOf((*BackupPolicyFileShareRetentionMonthly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionMonthlyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionMonthlyOutputReference",
 		reflect.TypeOf((*BackupPolicyFileShareRetentionMonthlyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -276,11 +282,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionWeekly",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionWeekly",
 		reflect.TypeOf((*BackupPolicyFileShareRetentionWeekly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionWeeklyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionWeeklyOutputReference",
 		reflect.TypeOf((*BackupPolicyFileShareRetentionWeeklyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -316,11 +322,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionYearly",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionYearly",
 		reflect.TypeOf((*BackupPolicyFileShareRetentionYearly)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionYearlyOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareRetentionYearlyOutputReference",
 		reflect.TypeOf((*BackupPolicyFileShareRetentionYearlyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -368,11 +374,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareTimeouts",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareTimeouts",
 		reflect.TypeOf((*BackupPolicyFileShareTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShareTimeoutsOutputReference",
 		reflect.TypeOf((*BackupPolicyFileShareTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package aifoundryproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/aifoundryproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/aifoundryproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ai_foundry_project azurerm_ai_foundry_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ai_foundry_project azurerm_ai_foundry_project}.
 type AiFoundryProject interface {
 	cdktf.TerraformResource
 	AiServicesHubId() *string
@@ -558,7 +558,7 @@ func (j *jsiiProxy_AiFoundryProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ai_foundry_project azurerm_ai_foundry_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ai_foundry_project azurerm_ai_foundry_project} Resource.
 func NewAiFoundryProject(scope constructs.Construct, id *string, config *AiFoundryProjectConfig) AiFoundryProject {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewAiFoundryProject(scope constructs.Construct, id *string, config *AiFound
 	j := jsiiProxy_AiFoundryProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.aiFoundryProject.AiFoundryProject",
+		"@cdktn/provider-azurerm.aiFoundryProject.AiFoundryProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -576,12 +576,12 @@ func NewAiFoundryProject(scope constructs.Construct, id *string, config *AiFound
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ai_foundry_project azurerm_ai_foundry_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ai_foundry_project azurerm_ai_foundry_project} Resource.
 func NewAiFoundryProject_Override(a AiFoundryProject, scope constructs.Construct, id *string, config *AiFoundryProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.aiFoundryProject.AiFoundryProject",
+		"@cdktn/provider-azurerm.aiFoundryProject.AiFoundryProject",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -764,7 +764,7 @@ func AiFoundryProject_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.aiFoundryProject.AiFoundryProject",
+		"@cdktn/provider-azurerm.aiFoundryProject.AiFoundryProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func AiFoundryProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.aiFoundryProject.AiFoundryProject",
+		"@cdktn/provider-azurerm.aiFoundryProject.AiFoundryProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func AiFoundryProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.aiFoundryProject.AiFoundryProject",
+		"@cdktn/provider-azurerm.aiFoundryProject.AiFoundryProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func AiFoundryProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.aiFoundryProject.AiFoundryProject",
+		"@cdktn/provider-azurerm.aiFoundryProject.AiFoundryProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func AiFoundryProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.aiFoundryProject.AiFoundryProject",
+		"@cdktn/provider-azurerm.aiFoundryProject.AiFoundryProject",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package availabilityset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.availabilitySet.AvailabilitySet",
+		"@cdktn/provider-azurerm.availabilitySet.AvailabilitySet",
 		reflect.TypeOf((*AvailabilitySet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.availabilitySet.AvailabilitySetConfig",
+		"@cdktn/provider-azurerm.availabilitySet.AvailabilitySetConfig",
 		reflect.TypeOf((*AvailabilitySetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.availabilitySet.AvailabilitySetTimeouts",
+		"@cdktn/provider-azurerm.availabilitySet.AvailabilitySetTimeouts",
 		reflect.TypeOf((*AvailabilitySetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.availabilitySet.AvailabilitySetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.availabilitySet.AvailabilitySetTimeoutsOutputReference",
 		reflect.TypeOf((*AvailabilitySetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

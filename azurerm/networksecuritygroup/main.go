@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networksecuritygroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
 		reflect.TypeOf((*NetworkSecurityGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupConfig",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupConfig",
 		reflect.TypeOf((*NetworkSecurityGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupSecurityRule",
 		reflect.TypeOf((*NetworkSecurityGroupSecurityRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupSecurityRuleList",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupSecurityRuleList",
 		reflect.TypeOf((*NetworkSecurityGroupSecurityRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupSecurityRuleOutputReference",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupSecurityRuleOutputReference",
 		reflect.TypeOf((*NetworkSecurityGroupSecurityRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
@@ -193,11 +193,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupTimeouts",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupTimeouts",
 		reflect.TypeOf((*NetworkSecurityGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroupTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkSecurityGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

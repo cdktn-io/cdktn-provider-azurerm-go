@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package postgresqlfirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/postgresqlfirewallrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/postgresqlfirewallrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule}.
 type PostgresqlFirewallRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_PostgresqlFirewallRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule} Resource.
 func NewPostgresqlFirewallRule(scope constructs.Construct, id *string, config *PostgresqlFirewallRuleConfig) PostgresqlFirewallRule {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewPostgresqlFirewallRule(scope constructs.Construct, id *string, config *P
 	j := jsiiProxy_PostgresqlFirewallRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewPostgresqlFirewallRule(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule} Resource.
 func NewPostgresqlFirewallRule_Override(p PostgresqlFirewallRule, scope constructs.Construct, id *string, config *PostgresqlFirewallRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -622,7 +622,7 @@ func PostgresqlFirewallRule_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func PostgresqlFirewallRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func PostgresqlFirewallRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func PostgresqlFirewallRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func PostgresqlFirewallRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
 		"tfResourceType",
 		&returns,
 	)

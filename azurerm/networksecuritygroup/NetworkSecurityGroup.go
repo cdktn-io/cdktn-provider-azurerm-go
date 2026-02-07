@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networksecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networksecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networksecuritygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_security_group azurerm_network_security_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_group azurerm_network_security_group}.
 type NetworkSecurityGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_NetworkSecurityGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_security_group azurerm_network_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_group azurerm_network_security_group} Resource.
 func NewNetworkSecurityGroup(scope constructs.Construct, id *string, config *NetworkSecurityGroupConfig) NetworkSecurityGroup {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewNetworkSecurityGroup(scope constructs.Construct, id *string, config *Net
 	j := jsiiProxy_NetworkSecurityGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewNetworkSecurityGroup(scope constructs.Construct, id *string, config *Net
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_security_group azurerm_network_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_group azurerm_network_security_group} Resource.
 func NewNetworkSecurityGroup_Override(n NetworkSecurityGroup, scope constructs.Construct, id *string, config *NetworkSecurityGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -613,7 +613,7 @@ func NetworkSecurityGroup_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func NetworkSecurityGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func NetworkSecurityGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func NetworkSecurityGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func NetworkSecurityGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
+		"@cdktn/provider-azurerm.networkSecurityGroup.NetworkSecurityGroup",
 		"tfResourceType",
 		&returns,
 	)

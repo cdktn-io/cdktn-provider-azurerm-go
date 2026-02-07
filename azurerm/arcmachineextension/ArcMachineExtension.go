@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arcmachineextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/arcmachineextension/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arcmachineextension/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension}.
 type ArcMachineExtension interface {
 	cdktf.TerraformResource
 	ArcMachineId() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_ArcMachineExtension) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension} Resource.
 func NewArcMachineExtension(scope constructs.Construct, id *string, config *ArcMachineExtensionConfig) ArcMachineExtension {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewArcMachineExtension(scope constructs.Construct, id *string, config *ArcM
 	j := jsiiProxy_ArcMachineExtension{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtension",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtension",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -611,12 +611,12 @@ func NewArcMachineExtension(scope constructs.Construct, id *string, config *ArcM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension} Resource.
 func NewArcMachineExtension_Override(a ArcMachineExtension, scope constructs.Construct, id *string, config *ArcMachineExtensionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtension",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtension",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -832,7 +832,7 @@ func ArcMachineExtension_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtension",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtension",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -867,7 +867,7 @@ func ArcMachineExtension_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtension",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtension",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func ArcMachineExtension_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtension",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtension",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -905,7 +905,7 @@ func ArcMachineExtension_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtension",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtension",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -918,7 +918,7 @@ func ArcMachineExtension_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtension",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtension",
 		"tfResourceType",
 		&returns,
 	)

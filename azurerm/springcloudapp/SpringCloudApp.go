@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_app azurerm_spring_cloud_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_app azurerm_spring_cloud_app}.
 type SpringCloudApp interface {
 	cdktf.TerraformResource
 	AddonJson() *string
@@ -641,7 +641,7 @@ func (j *jsiiProxy_SpringCloudApp) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_app azurerm_spring_cloud_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_app azurerm_spring_cloud_app} Resource.
 func NewSpringCloudApp(scope constructs.Construct, id *string, config *SpringCloudAppConfig) SpringCloudApp {
 	_init_.Initialize()
 
@@ -651,7 +651,7 @@ func NewSpringCloudApp(scope constructs.Construct, id *string, config *SpringClo
 	j := jsiiProxy_SpringCloudApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudApp",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -659,12 +659,12 @@ func NewSpringCloudApp(scope constructs.Construct, id *string, config *SpringClo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_app azurerm_spring_cloud_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_app azurerm_spring_cloud_app} Resource.
 func NewSpringCloudApp_Override(s SpringCloudApp, scope constructs.Construct, id *string, config *SpringCloudAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudApp",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudApp",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -847,7 +847,7 @@ func SpringCloudApp_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudApp",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -882,7 +882,7 @@ func SpringCloudApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudApp",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -901,7 +901,7 @@ func SpringCloudApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudApp",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func SpringCloudApp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudApp",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudApp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -933,7 +933,7 @@ func SpringCloudApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudApp",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudApp",
 		"tfResourceType",
 		&returns,
 	)

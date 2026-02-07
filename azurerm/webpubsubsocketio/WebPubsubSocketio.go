@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubsocketio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webpubsubsocketio/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubsocketio/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio}.
 type WebPubsubSocketio interface {
 	cdktf.TerraformResource
 	AadAuthEnabled() interface{}
@@ -778,7 +778,7 @@ func (j *jsiiProxy_WebPubsubSocketio) TlsClientCertEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio} Resource.
 func NewWebPubsubSocketio(scope constructs.Construct, id *string, config *WebPubsubSocketioConfig) WebPubsubSocketio {
 	_init_.Initialize()
 
@@ -788,7 +788,7 @@ func NewWebPubsubSocketio(scope constructs.Construct, id *string, config *WebPub
 	j := jsiiProxy_WebPubsubSocketio{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -796,12 +796,12 @@ func NewWebPubsubSocketio(scope constructs.Construct, id *string, config *WebPub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio} Resource.
 func NewWebPubsubSocketio_Override(w WebPubsubSocketio, scope constructs.Construct, id *string, config *WebPubsubSocketioConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -1039,7 +1039,7 @@ func WebPubsubSocketio_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1074,7 +1074,7 @@ func WebPubsubSocketio_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1093,7 +1093,7 @@ func WebPubsubSocketio_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1112,7 +1112,7 @@ func WebPubsubSocketio_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1125,7 +1125,7 @@ func WebPubsubSocketio_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
 		"tfResourceType",
 		&returns,
 	)

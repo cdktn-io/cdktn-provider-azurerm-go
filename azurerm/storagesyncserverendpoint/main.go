@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagesyncserverendpoint
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
 		reflect.TypeOf((*StorageSyncServerEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpointConfig",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpointConfig",
 		reflect.TypeOf((*StorageSyncServerEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpointTimeouts",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpointTimeouts",
 		reflect.TypeOf((*StorageSyncServerEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpointTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*StorageSyncServerEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

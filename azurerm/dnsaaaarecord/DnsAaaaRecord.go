@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsaaaarecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dnsaaaarecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dnsaaaarecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_aaaa_record azurerm_dns_aaaa_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_aaaa_record azurerm_dns_aaaa_record}.
 type DnsAaaaRecord interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_DnsAaaaRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_aaaa_record azurerm_dns_aaaa_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_aaaa_record azurerm_dns_aaaa_record} Resource.
 func NewDnsAaaaRecord(scope constructs.Construct, id *string, config *DnsAaaaRecordConfig) DnsAaaaRecord {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewDnsAaaaRecord(scope constructs.Construct, id *string, config *DnsAaaaRec
 	j := jsiiProxy_DnsAaaaRecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
+		"@cdktn/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewDnsAaaaRecord(scope constructs.Construct, id *string, config *DnsAaaaRec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_aaaa_record azurerm_dns_aaaa_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_aaaa_record azurerm_dns_aaaa_record} Resource.
 func NewDnsAaaaRecord_Override(d DnsAaaaRecord, scope constructs.Construct, id *string, config *DnsAaaaRecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
+		"@cdktn/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -704,7 +704,7 @@ func DnsAaaaRecord_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
+		"@cdktn/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func DnsAaaaRecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
+		"@cdktn/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func DnsAaaaRecord_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
+		"@cdktn/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func DnsAaaaRecord_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
+		"@cdktn/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func DnsAaaaRecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
+		"@cdktn/provider-azurerm.dnsAaaaRecord.DnsAaaaRecord",
 		"tfResourceType",
 		&returns,
 	)

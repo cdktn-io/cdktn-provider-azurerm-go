@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package functionappflexconsumption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/functionappflexconsumption/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionappflexconsumption/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption}.
 type FunctionAppFlexConsumption interface {
 	cdktf.TerraformResource
 	AlwaysReady() FunctionAppFlexConsumptionAlwaysReadyList
@@ -1191,7 +1191,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumption) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption} Resource.
 func NewFunctionAppFlexConsumption(scope constructs.Construct, id *string, config *FunctionAppFlexConsumptionConfig) FunctionAppFlexConsumption {
 	_init_.Initialize()
 
@@ -1201,7 +1201,7 @@ func NewFunctionAppFlexConsumption(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_FunctionAppFlexConsumption{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
+		"@cdktn/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1209,12 +1209,12 @@ func NewFunctionAppFlexConsumption(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app_flex_consumption azurerm_function_app_flex_consumption} Resource.
 func NewFunctionAppFlexConsumption_Override(f FunctionAppFlexConsumption, scope constructs.Construct, id *string, config *FunctionAppFlexConsumptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
+		"@cdktn/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -1584,7 +1584,7 @@ func FunctionAppFlexConsumption_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
+		"@cdktn/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1619,7 +1619,7 @@ func FunctionAppFlexConsumption_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
+		"@cdktn/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1638,7 +1638,7 @@ func FunctionAppFlexConsumption_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
+		"@cdktn/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1657,7 +1657,7 @@ func FunctionAppFlexConsumption_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
+		"@cdktn/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1670,7 +1670,7 @@ func FunctionAppFlexConsumption_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
+		"@cdktn/provider-azurerm.functionAppFlexConsumption.FunctionAppFlexConsumption",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticsworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspace",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspace",
 		reflect.TypeOf((*LogAnalyticsWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -122,15 +122,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceConfig",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceConfig",
 		reflect.TypeOf((*LogAnalyticsWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceIdentity",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceIdentity",
 		reflect.TypeOf((*LogAnalyticsWorkspaceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceIdentityOutputReference",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceIdentityOutputReference",
 		reflect.TypeOf((*LogAnalyticsWorkspaceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -169,11 +169,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceTimeouts",
 		reflect.TypeOf((*LogAnalyticsWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspace.LogAnalyticsWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*LogAnalyticsWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

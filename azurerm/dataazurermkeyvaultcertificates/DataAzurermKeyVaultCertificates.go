@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermkeyvaultcertificates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermkeyvaultcertificates/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkeyvaultcertificates/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault_certificates azurerm_key_vault_certificates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault_certificates azurerm_key_vault_certificates}.
 type DataAzurermKeyVaultCertificates interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -358,7 +358,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultCertificates) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault_certificates azurerm_key_vault_certificates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault_certificates azurerm_key_vault_certificates} Data Source.
 func NewDataAzurermKeyVaultCertificates(scope constructs.Construct, id *string, config *DataAzurermKeyVaultCertificatesConfig) DataAzurermKeyVaultCertificates {
 	_init_.Initialize()
 
@@ -368,7 +368,7 @@ func NewDataAzurermKeyVaultCertificates(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAzurermKeyVaultCertificates{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -376,12 +376,12 @@ func NewDataAzurermKeyVaultCertificates(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/key_vault_certificates azurerm_key_vault_certificates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/key_vault_certificates azurerm_key_vault_certificates} Data Source.
 func NewDataAzurermKeyVaultCertificates_Override(d DataAzurermKeyVaultCertificates, scope constructs.Construct, id *string, config *DataAzurermKeyVaultCertificatesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -476,7 +476,7 @@ func DataAzurermKeyVaultCertificates_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -511,7 +511,7 @@ func DataAzurermKeyVaultCertificates_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -530,7 +530,7 @@ func DataAzurermKeyVaultCertificates_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -549,7 +549,7 @@ func DataAzurermKeyVaultCertificates_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataAzurermKeyVaultCertificates_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
+		"@cdktn/provider-azurerm.dataAzurermKeyVaultCertificates.DataAzurermKeyVaultCertificates",
 		"tfResourceType",
 		&returns,
 	)

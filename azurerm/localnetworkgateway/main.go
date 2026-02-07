@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package localnetworkgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGateway",
 		reflect.TypeOf((*LocalNetworkGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,11 +92,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettings",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettings",
 		reflect.TypeOf((*LocalNetworkGatewayBgpSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettingsOutputReference",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettingsOutputReference",
 		reflect.TypeOf((*LocalNetworkGatewayBgpSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asn", GoGetter: "Asn"},
@@ -135,15 +135,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGatewayConfig",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGatewayConfig",
 		reflect.TypeOf((*LocalNetworkGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGatewayTimeouts",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGatewayTimeouts",
 		reflect.TypeOf((*LocalNetworkGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGatewayTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*LocalNetworkGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

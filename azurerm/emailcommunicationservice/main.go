@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emailcommunicationservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.emailCommunicationService.EmailCommunicationService",
+		"@cdktn/provider-azurerm.emailCommunicationService.EmailCommunicationService",
 		reflect.TypeOf((*EmailCommunicationService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.emailCommunicationService.EmailCommunicationServiceConfig",
+		"@cdktn/provider-azurerm.emailCommunicationService.EmailCommunicationServiceConfig",
 		reflect.TypeOf((*EmailCommunicationServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.emailCommunicationService.EmailCommunicationServiceTimeouts",
+		"@cdktn/provider-azurerm.emailCommunicationService.EmailCommunicationServiceTimeouts",
 		reflect.TypeOf((*EmailCommunicationServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.emailCommunicationService.EmailCommunicationServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.emailCommunicationService.EmailCommunicationServiceTimeoutsOutputReference",
 		reflect.TypeOf((*EmailCommunicationServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

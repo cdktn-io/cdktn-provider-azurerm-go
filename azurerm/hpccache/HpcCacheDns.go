@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccache
 
 
 type HpcCacheDns struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache#servers HpcCache#servers}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache#servers HpcCache#servers}.
 	Servers *[]*string `field:"required" json:"servers" yaml:"servers"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache#search_domain HpcCache#search_domain}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache#search_domain HpcCache#search_domain}.
 	SearchDomain *string `field:"optional" json:"searchDomain" yaml:"searchDomain"`
 }
 

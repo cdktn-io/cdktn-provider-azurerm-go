@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sourcecontroltoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sourcecontroltoken/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sourcecontroltoken/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/source_control_token azurerm_source_control_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/source_control_token azurerm_source_control_token}.
 type SourceControlToken interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_SourceControlToken) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/source_control_token azurerm_source_control_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/source_control_token azurerm_source_control_token} Resource.
 func NewSourceControlToken(scope constructs.Construct, id *string, config *SourceControlTokenConfig) SourceControlToken {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewSourceControlToken(scope constructs.Construct, id *string, config *Sourc
 	j := jsiiProxy_SourceControlToken{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sourceControlToken.SourceControlToken",
+		"@cdktn/provider-azurerm.sourceControlToken.SourceControlToken",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewSourceControlToken(scope constructs.Construct, id *string, config *Sourc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/source_control_token azurerm_source_control_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/source_control_token azurerm_source_control_token} Resource.
 func NewSourceControlToken_Override(s SourceControlToken, scope constructs.Construct, id *string, config *SourceControlTokenConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sourceControlToken.SourceControlToken",
+		"@cdktn/provider-azurerm.sourceControlToken.SourceControlToken",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -555,7 +555,7 @@ func SourceControlToken_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sourceControlToken.SourceControlToken",
+		"@cdktn/provider-azurerm.sourceControlToken.SourceControlToken",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func SourceControlToken_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sourceControlToken.SourceControlToken",
+		"@cdktn/provider-azurerm.sourceControlToken.SourceControlToken",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func SourceControlToken_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sourceControlToken.SourceControlToken",
+		"@cdktn/provider-azurerm.sourceControlToken.SourceControlToken",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func SourceControlToken_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sourceControlToken.SourceControlToken",
+		"@cdktn/provider-azurerm.sourceControlToken.SourceControlToken",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func SourceControlToken_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sourceControlToken.SourceControlToken",
+		"@cdktn/provider-azurerm.sourceControlToken.SourceControlToken",
 		"tfResourceType",
 		&returns,
 	)

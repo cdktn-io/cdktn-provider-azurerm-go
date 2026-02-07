@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycenterworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspace",
 		reflect.TypeOf((*SecurityCenterWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspaceConfig",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspaceConfig",
 		reflect.TypeOf((*SecurityCenterWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspaceTimeouts",
 		reflect.TypeOf((*SecurityCenterWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.securityCenterWorkspace.SecurityCenterWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityCenterWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

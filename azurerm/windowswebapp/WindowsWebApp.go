@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowswebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/windowswebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/windows_web_app azurerm_windows_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/windows_web_app azurerm_windows_web_app}.
 type WindowsWebApp interface {
 	cdktf.TerraformResource
 	AppSettings() *map[string]*string
@@ -1124,7 +1124,7 @@ func (j *jsiiProxy_WindowsWebApp) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/windows_web_app azurerm_windows_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/windows_web_app azurerm_windows_web_app} Resource.
 func NewWindowsWebApp(scope constructs.Construct, id *string, config *WindowsWebAppConfig) WindowsWebApp {
 	_init_.Initialize()
 
@@ -1134,7 +1134,7 @@ func NewWindowsWebApp(scope constructs.Construct, id *string, config *WindowsWeb
 	j := jsiiProxy_WindowsWebApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsWebApp.WindowsWebApp",
+		"@cdktn/provider-azurerm.windowsWebApp.WindowsWebApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1142,12 +1142,12 @@ func NewWindowsWebApp(scope constructs.Construct, id *string, config *WindowsWeb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/windows_web_app azurerm_windows_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/windows_web_app azurerm_windows_web_app} Resource.
 func NewWindowsWebApp_Override(w WindowsWebApp, scope constructs.Construct, id *string, config *WindowsWebAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsWebApp.WindowsWebApp",
+		"@cdktn/provider-azurerm.windowsWebApp.WindowsWebApp",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -1462,7 +1462,7 @@ func WindowsWebApp_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.windowsWebApp.WindowsWebApp",
+		"@cdktn/provider-azurerm.windowsWebApp.WindowsWebApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1497,7 +1497,7 @@ func WindowsWebApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.windowsWebApp.WindowsWebApp",
+		"@cdktn/provider-azurerm.windowsWebApp.WindowsWebApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1516,7 +1516,7 @@ func WindowsWebApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.windowsWebApp.WindowsWebApp",
+		"@cdktn/provider-azurerm.windowsWebApp.WindowsWebApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1535,7 +1535,7 @@ func WindowsWebApp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.windowsWebApp.WindowsWebApp",
+		"@cdktn/provider-azurerm.windowsWebApp.WindowsWebApp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1548,7 +1548,7 @@ func WindowsWebApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.windowsWebApp.WindowsWebApp",
+		"@cdktn/provider-azurerm.windowsWebApp.WindowsWebApp",
 		"tfResourceType",
 		&returns,
 	)

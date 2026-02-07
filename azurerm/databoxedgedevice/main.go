@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databoxedgedevice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
 		reflect.TypeOf((*DataboxEdgeDevice)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceConfig",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceConfig",
 		reflect.TypeOf((*DataboxEdgeDeviceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceDeviceProperties",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceDeviceProperties",
 		reflect.TypeOf((*DataboxEdgeDeviceDeviceProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceDevicePropertiesList",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceDevicePropertiesList",
 		reflect.TypeOf((*DataboxEdgeDeviceDevicePropertiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceDevicePropertiesOutputReference",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceDevicePropertiesOutputReference",
 		reflect.TypeOf((*DataboxEdgeDeviceDevicePropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceTimeouts",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceTimeouts",
 		reflect.TypeOf((*DataboxEdgeDeviceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDeviceTimeoutsOutputReference",
 		reflect.TypeOf((*DataboxEdgeDeviceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package signalrservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/signalrservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/signalrservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewSignalrServiceCorsOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_SignalrServiceCorsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceCorsOutputReference",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceCorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewSignalrServiceCorsOutputReference_Override(s SignalrServiceCorsOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrService.SignalrServiceCorsOutputReference",
+		"@cdktn/provider-azurerm.signalrService.SignalrServiceCorsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

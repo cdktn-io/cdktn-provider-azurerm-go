@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanageradminrulecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanageradminrulecollection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanageradminrulecollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection}.
 type NetworkManagerAdminRuleCollection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_NetworkManagerAdminRuleCollection) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection} Resource.
 func NewNetworkManagerAdminRuleCollection(scope constructs.Construct, id *string, config *NetworkManagerAdminRuleCollectionConfig) NetworkManagerAdminRuleCollection {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewNetworkManagerAdminRuleCollection(scope constructs.Construct, id *string
 	j := jsiiProxy_NetworkManagerAdminRuleCollection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewNetworkManagerAdminRuleCollection(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection} Resource.
 func NewNetworkManagerAdminRuleCollection_Override(n NetworkManagerAdminRuleCollection, scope constructs.Construct, id *string, config *NetworkManagerAdminRuleCollectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -589,7 +589,7 @@ func NetworkManagerAdminRuleCollection_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func NetworkManagerAdminRuleCollection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func NetworkManagerAdminRuleCollection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func NetworkManagerAdminRuleCollection_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func NetworkManagerAdminRuleCollection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerAdminRuleCollection.NetworkManagerAdminRuleCollection",
 		"tfResourceType",
 		&returns,
 	)

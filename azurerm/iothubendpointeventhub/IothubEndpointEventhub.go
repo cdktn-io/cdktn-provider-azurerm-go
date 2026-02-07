@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubendpointeventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothubendpointeventhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubendpointeventhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub}.
 type IothubEndpointEventhub interface {
 	cdktf.TerraformResource
 	AuthenticationType() *string
@@ -547,7 +547,7 @@ func (j *jsiiProxy_IothubEndpointEventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
 func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *IothubEndpointEventhubConfig) IothubEndpointEventhub {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *I
 	j := jsiiProxy_IothubEndpointEventhub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
+		"@cdktn/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -565,12 +565,12 @@ func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
 func NewIothubEndpointEventhub_Override(i IothubEndpointEventhub, scope constructs.Construct, id *string, config *IothubEndpointEventhubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
+		"@cdktn/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -764,7 +764,7 @@ func IothubEndpointEventhub_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
+		"@cdktn/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func IothubEndpointEventhub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
+		"@cdktn/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func IothubEndpointEventhub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
+		"@cdktn/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func IothubEndpointEventhub_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
+		"@cdktn/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func IothubEndpointEventhub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
+		"@cdktn/provider-azurerm.iothubEndpointEventhub.IothubEndpointEventhub",
 		"tfResourceType",
 		&returns,
 	)

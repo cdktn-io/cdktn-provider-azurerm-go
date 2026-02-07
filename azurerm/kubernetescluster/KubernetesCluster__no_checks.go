@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -152,6 +152,10 @@ func (k *jsiiProxy_KubernetesCluster) validatePutMonitorMetricsParameters(value 
 }
 
 func (k *jsiiProxy_KubernetesCluster) validatePutNetworkProfileParameters(value *KubernetesClusterNetworkProfile) error {
+	return nil
+}
+
+func (k *jsiiProxy_KubernetesCluster) validatePutNodeProvisioningProfileParameters(value *KubernetesClusterNodeProvisioningProfile) error {
 	return nil
 }
 

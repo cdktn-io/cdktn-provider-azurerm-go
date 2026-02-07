@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package qumulofilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/qumulofilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/qumulofilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system}.
 type QumuloFileSystem interface {
 	cdktf.TerraformResource
 	AdminPassword() *string
@@ -614,7 +614,7 @@ func (j *jsiiProxy_QumuloFileSystem) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
 func NewQumuloFileSystem(scope constructs.Construct, id *string, config *QumuloFileSystemConfig) QumuloFileSystem {
 	_init_.Initialize()
 
@@ -624,7 +624,7 @@ func NewQumuloFileSystem(scope constructs.Construct, id *string, config *QumuloF
 	j := jsiiProxy_QumuloFileSystem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -632,12 +632,12 @@ func NewQumuloFileSystem(scope constructs.Construct, id *string, config *QumuloF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
 func NewQumuloFileSystem_Override(q QumuloFileSystem, scope constructs.Construct, id *string, config *QumuloFileSystemConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
 		[]interface{}{scope, id, config},
 		q,
 	)
@@ -864,7 +864,7 @@ func QumuloFileSystem_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -899,7 +899,7 @@ func QumuloFileSystem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -918,7 +918,7 @@ func QumuloFileSystem_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -937,7 +937,7 @@ func QumuloFileSystem_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -950,7 +950,7 @@ func QumuloFileSystem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
 		"tfResourceType",
 		&returns,
 	)

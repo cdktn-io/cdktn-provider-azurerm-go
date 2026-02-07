@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegroupcostmanagementexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourcegroupcostmanagementexport/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegroupcostmanagementexport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export}.
 type ResourceGroupCostManagementExport interface {
 	cdktf.TerraformResource
 	Active() interface{}
@@ -543,7 +543,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
 func NewResourceGroupCostManagementExport(scope constructs.Construct, id *string, config *ResourceGroupCostManagementExportConfig) ResourceGroupCostManagementExport {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewResourceGroupCostManagementExport(scope constructs.Construct, id *string
 	j := jsiiProxy_ResourceGroupCostManagementExport{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -561,12 +561,12 @@ func NewResourceGroupCostManagementExport(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
 func NewResourceGroupCostManagementExport_Override(r ResourceGroupCostManagementExport, scope constructs.Construct, id *string, config *ResourceGroupCostManagementExportConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -738,7 +738,7 @@ func ResourceGroupCostManagementExport_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -773,7 +773,7 @@ func ResourceGroupCostManagementExport_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func ResourceGroupCostManagementExport_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func ResourceGroupCostManagementExport_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func ResourceGroupCostManagementExport_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
+		"@cdktn/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
 		"tfResourceType",
 		&returns,
 	)

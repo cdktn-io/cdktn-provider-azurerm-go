@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package routeserverbgpconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeServerBgpConnection.RouteServerBgpConnection",
+		"@cdktn/provider-azurerm.routeServerBgpConnection.RouteServerBgpConnection",
 		reflect.TypeOf((*RouteServerBgpConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeServerBgpConnection.RouteServerBgpConnectionConfig",
+		"@cdktn/provider-azurerm.routeServerBgpConnection.RouteServerBgpConnectionConfig",
 		reflect.TypeOf((*RouteServerBgpConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeServerBgpConnection.RouteServerBgpConnectionTimeouts",
+		"@cdktn/provider-azurerm.routeServerBgpConnection.RouteServerBgpConnectionTimeouts",
 		reflect.TypeOf((*RouteServerBgpConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeServerBgpConnection.RouteServerBgpConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.routeServerBgpConnection.RouteServerBgpConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*RouteServerBgpConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappbackuppolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/netappbackuppolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappbackuppolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy}.
 type NetappBackupPolicy interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_NetappBackupPolicy) WeeklyBackupsToKeepInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy} Resource.
 func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *NetappBackupPolicyConfig) NetappBackupPolicy {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *Netap
 	j := jsiiProxy_NetappBackupPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *Netap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy} Resource.
 func NewNetappBackupPolicy_Override(n NetappBackupPolicy, scope constructs.Construct, id *string, config *NetappBackupPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -763,7 +763,7 @@ func NetappBackupPolicy_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func NetappBackupPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func NetappBackupPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func NetappBackupPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func NetappBackupPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
+		"@cdktn/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
 		"tfResourceType",
 		&returns,
 	)

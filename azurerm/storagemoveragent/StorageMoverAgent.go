@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemoveragent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagemoveragent/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagemoveragent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_agent azurerm_storage_mover_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_agent azurerm_storage_mover_agent}.
 type StorageMoverAgent interface {
 	cdktf.TerraformResource
 	ArcVirtualMachineId() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_StorageMoverAgent) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_agent azurerm_storage_mover_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_agent azurerm_storage_mover_agent} Resource.
 func NewStorageMoverAgent(scope constructs.Construct, id *string, config *StorageMoverAgentConfig) StorageMoverAgent {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewStorageMoverAgent(scope constructs.Construct, id *string, config *Storag
 	j := jsiiProxy_StorageMoverAgent{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgent",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewStorageMoverAgent(scope constructs.Construct, id *string, config *Storag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_agent azurerm_storage_mover_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_agent azurerm_storage_mover_agent} Resource.
 func NewStorageMoverAgent_Override(s StorageMoverAgent, scope constructs.Construct, id *string, config *StorageMoverAgentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgent",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -623,7 +623,7 @@ func StorageMoverAgent_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgent",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func StorageMoverAgent_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgent",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func StorageMoverAgent_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgent",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func StorageMoverAgent_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgent",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func StorageMoverAgent_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgent",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
 		"tfResourceType",
 		&returns,
 	)

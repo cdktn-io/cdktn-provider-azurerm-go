@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package bastionhost
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/bastionhost/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/bastionhost/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bastion_host azurerm_bastion_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bastion_host azurerm_bastion_host}.
 type BastionHost interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -726,7 +726,7 @@ func (j *jsiiProxy_BastionHost) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bastion_host azurerm_bastion_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bastion_host azurerm_bastion_host} Resource.
 func NewBastionHost(scope constructs.Construct, id *string, config *BastionHostConfig) BastionHost {
 	_init_.Initialize()
 
@@ -736,7 +736,7 @@ func NewBastionHost(scope constructs.Construct, id *string, config *BastionHostC
 	j := jsiiProxy_BastionHost{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.bastionHost.BastionHost",
+		"@cdktn/provider-azurerm.bastionHost.BastionHost",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -744,12 +744,12 @@ func NewBastionHost(scope constructs.Construct, id *string, config *BastionHostC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bastion_host azurerm_bastion_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bastion_host azurerm_bastion_host} Resource.
 func NewBastionHost_Override(b BastionHost, scope constructs.Construct, id *string, config *BastionHostConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.bastionHost.BastionHost",
+		"@cdktn/provider-azurerm.bastionHost.BastionHost",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -1009,7 +1009,7 @@ func BastionHost_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.bastionHost.BastionHost",
+		"@cdktn/provider-azurerm.bastionHost.BastionHost",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1044,7 +1044,7 @@ func BastionHost_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.bastionHost.BastionHost",
+		"@cdktn/provider-azurerm.bastionHost.BastionHost",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1063,7 +1063,7 @@ func BastionHost_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.bastionHost.BastionHost",
+		"@cdktn/provider-azurerm.bastionHost.BastionHost",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1082,7 +1082,7 @@ func BastionHost_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.bastionHost.BastionHost",
+		"@cdktn/provider-azurerm.bastionHost.BastionHost",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1095,7 +1095,7 @@ func BastionHost_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.bastionHost.BastionHost",
+		"@cdktn/provider-azurerm.bastionHost.BastionHost",
 		"tfResourceType",
 		&returns,
 	)

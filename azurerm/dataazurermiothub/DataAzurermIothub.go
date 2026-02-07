@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermiothub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermiothub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermiothub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/iothub azurerm_iothub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/iothub azurerm_iothub}.
 type DataAzurermIothub interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAzurermIothub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/iothub azurerm_iothub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/iothub azurerm_iothub} Data Source.
 func NewDataAzurermIothub(scope constructs.Construct, id *string, config *DataAzurermIothubConfig) DataAzurermIothub {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewDataAzurermIothub(scope constructs.Construct, id *string, config *DataAz
 	j := jsiiProxy_DataAzurermIothub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -399,12 +399,12 @@ func NewDataAzurermIothub(scope constructs.Construct, id *string, config *DataAz
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/iothub azurerm_iothub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/iothub azurerm_iothub} Data Source.
 func NewDataAzurermIothub_Override(d DataAzurermIothub, scope constructs.Construct, id *string, config *DataAzurermIothubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -510,7 +510,7 @@ func DataAzurermIothub_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func DataAzurermIothub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func DataAzurermIothub_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataAzurermIothub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func DataAzurermIothub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webapphybridconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webAppHybridConnection.WebAppHybridConnection",
+		"@cdktn/provider-azurerm.webAppHybridConnection.WebAppHybridConnection",
 		reflect.TypeOf((*WebAppHybridConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webAppHybridConnection.WebAppHybridConnectionConfig",
+		"@cdktn/provider-azurerm.webAppHybridConnection.WebAppHybridConnectionConfig",
 		reflect.TypeOf((*WebAppHybridConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webAppHybridConnection.WebAppHybridConnectionTimeouts",
+		"@cdktn/provider-azurerm.webAppHybridConnection.WebAppHybridConnectionTimeouts",
 		reflect.TypeOf((*WebAppHybridConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webAppHybridConnection.WebAppHybridConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.webAppHybridConnection.WebAppHybridConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*WebAppHybridConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

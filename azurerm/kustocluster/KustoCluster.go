@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustocluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kustocluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustocluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_cluster azurerm_kusto_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_cluster azurerm_kusto_cluster}.
 type KustoCluster interface {
 	cdktf.TerraformResource
 	AllowedFqdns() *[]*string
@@ -880,7 +880,7 @@ func (j *jsiiProxy_KustoCluster) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
 func NewKustoCluster(scope constructs.Construct, id *string, config *KustoClusterConfig) KustoCluster {
 	_init_.Initialize()
 
@@ -890,7 +890,7 @@ func NewKustoCluster(scope constructs.Construct, id *string, config *KustoCluste
 	j := jsiiProxy_KustoCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoCluster.KustoCluster",
+		"@cdktn/provider-azurerm.kustoCluster.KustoCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -898,12 +898,12 @@ func NewKustoCluster(scope constructs.Construct, id *string, config *KustoCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
 func NewKustoCluster_Override(k KustoCluster, scope constructs.Construct, id *string, config *KustoClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoCluster.KustoCluster",
+		"@cdktn/provider-azurerm.kustoCluster.KustoCluster",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -1174,7 +1174,7 @@ func KustoCluster_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoCluster.KustoCluster",
+		"@cdktn/provider-azurerm.kustoCluster.KustoCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1209,7 +1209,7 @@ func KustoCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoCluster.KustoCluster",
+		"@cdktn/provider-azurerm.kustoCluster.KustoCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1228,7 +1228,7 @@ func KustoCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoCluster.KustoCluster",
+		"@cdktn/provider-azurerm.kustoCluster.KustoCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1247,7 +1247,7 @@ func KustoCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoCluster.KustoCluster",
+		"@cdktn/provider-azurerm.kustoCluster.KustoCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1260,7 +1260,7 @@ func KustoCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kustoCluster.KustoCluster",
+		"@cdktn/provider-azurerm.kustoCluster.KustoCluster",
 		"tfResourceType",
 		&returns,
 	)

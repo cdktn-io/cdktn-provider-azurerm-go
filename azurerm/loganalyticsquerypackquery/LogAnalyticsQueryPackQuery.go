@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticsquerypackquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/loganalyticsquerypackquery/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loganalyticsquerypackquery/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query}.
 type LogAnalyticsQueryPackQuery interface {
 	cdktf.TerraformResource
 	AdditionalSettingsJson() *string
@@ -571,7 +571,7 @@ func (j *jsiiProxy_LogAnalyticsQueryPackQuery) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
 func NewLogAnalyticsQueryPackQuery(scope constructs.Construct, id *string, config *LogAnalyticsQueryPackQueryConfig) LogAnalyticsQueryPackQuery {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewLogAnalyticsQueryPackQuery(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_LogAnalyticsQueryPackQuery{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
+		"@cdktn/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -589,12 +589,12 @@ func NewLogAnalyticsQueryPackQuery(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
 func NewLogAnalyticsQueryPackQuery_Override(l LogAnalyticsQueryPackQuery, scope constructs.Construct, id *string, config *LogAnalyticsQueryPackQueryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
+		"@cdktn/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -799,7 +799,7 @@ func LogAnalyticsQueryPackQuery_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
+		"@cdktn/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -834,7 +834,7 @@ func LogAnalyticsQueryPackQuery_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
+		"@cdktn/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func LogAnalyticsQueryPackQuery_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
+		"@cdktn/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func LogAnalyticsQueryPackQuery_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
+		"@cdktn/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func LogAnalyticsQueryPackQuery_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
+		"@cdktn/provider-azurerm.logAnalyticsQueryPackQuery.LogAnalyticsQueryPackQuery",
 		"tfResourceType",
 		&returns,
 	)

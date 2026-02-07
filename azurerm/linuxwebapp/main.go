@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxwebapp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebApp",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
 		reflect.TypeOf((*LinuxWebApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -170,15 +170,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettings",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettings",
 		reflect.TypeOf((*LinuxWebAppAuthSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsActiveDirectory",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsActiveDirectory",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsActiveDirectoryOutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -221,11 +221,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsFacebook",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsFacebook",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsFacebook)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsFacebookOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsFacebookOutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsFacebookOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appId", GoGetter: "AppId"},
@@ -268,11 +268,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGithub",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGithub",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsGithub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGithubOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGithubOutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsGithubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -315,11 +315,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGoogle",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGoogle",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsGoogle)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGoogleOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGoogleOutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsGoogleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -362,11 +362,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsMicrosoft",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsMicrosoft",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsMicrosoft)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsMicrosoftOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsMicrosoftOutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsMicrosoftOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -409,7 +409,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsOutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -491,11 +491,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsTwitter",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsTwitter",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsTwitter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsTwitterOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsTwitterOutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsTwitterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -535,15 +535,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2ActiveDirectoryV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2ActiveDirectoryV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2ActiveDirectoryV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2ActiveDirectoryV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2ActiveDirectoryV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2ActiveDirectoryV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedApplications", GoGetter: "AllowedApplications"},
@@ -609,11 +609,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2AppleV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2AppleV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2AppleV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2AppleV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2AppleV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2AppleV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -650,11 +650,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2AzureStaticWebAppV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2AzureStaticWebAppV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2AzureStaticWebAppV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2AzureStaticWebAppV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2AzureStaticWebAppV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2AzureStaticWebAppV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -688,11 +688,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2CustomOidcV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2CustomOidcV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2CustomOidcV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2CustomOidcV2List",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2CustomOidcV2List",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2CustomOidcV2List)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -714,7 +714,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2CustomOidcV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2CustomOidcV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2CustomOidcV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorisationEndpoint", GoGetter: "AuthorisationEndpoint"},
@@ -764,11 +764,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2FacebookV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2FacebookV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2FacebookV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2FacebookV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2FacebookV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2FacebookV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appId", GoGetter: "AppId"},
@@ -810,11 +810,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2GithubV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2GithubV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2GithubV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2GithubV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2GithubV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2GithubV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -853,11 +853,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2GoogleV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2GoogleV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2GoogleV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2GoogleV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2GoogleV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2GoogleV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -899,11 +899,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2Login",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2Login",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2Login)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2LoginOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2LoginOutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2LoginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedExternalRedirectUrls", GoGetter: "AllowedExternalRedirectUrls"},
@@ -968,11 +968,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2MicrosoftV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2MicrosoftV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2MicrosoftV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudiences", GoGetter: "AllowedAudiences"},
@@ -1014,7 +1014,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryV2", GoGetter: "ActiveDirectoryV2"},
@@ -1121,11 +1121,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2TwitterV2",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2TwitterV2",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2TwitterV2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2TwitterV2OutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsV2TwitterV2OutputReference",
 		reflect.TypeOf((*LinuxWebAppAuthSettingsV2TwitterV2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1161,11 +1161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppBackup",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppBackup",
 		reflect.TypeOf((*LinuxWebAppBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppBackupOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppBackupOutputReference",
 		reflect.TypeOf((*LinuxWebAppBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1207,11 +1207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppBackupSchedule",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppBackupSchedule",
 		reflect.TypeOf((*LinuxWebAppBackupSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppBackupScheduleOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppBackupScheduleOutputReference",
 		reflect.TypeOf((*LinuxWebAppBackupScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1257,15 +1257,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppConfig",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppConfig",
 		reflect.TypeOf((*LinuxWebAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppConnectionString",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppConnectionString",
 		reflect.TypeOf((*LinuxWebAppConnectionString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppConnectionStringList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppConnectionStringList",
 		reflect.TypeOf((*LinuxWebAppConnectionStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1287,7 +1287,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppConnectionStringOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppConnectionStringOutputReference",
 		reflect.TypeOf((*LinuxWebAppConnectionStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1325,11 +1325,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppIdentity",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppIdentity",
 		reflect.TypeOf((*LinuxWebAppIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppIdentityOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppIdentityOutputReference",
 		reflect.TypeOf((*LinuxWebAppIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1368,19 +1368,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogs",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogs",
 		reflect.TypeOf((*LinuxWebAppLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogs",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogs",
 		reflect.TypeOf((*LinuxWebAppLogsApplicationLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogsAzureBlobStorage",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogsAzureBlobStorage",
 		reflect.TypeOf((*LinuxWebAppLogsApplicationLogsAzureBlobStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogsAzureBlobStorageOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogsAzureBlobStorageOutputReference",
 		reflect.TypeOf((*LinuxWebAppLogsApplicationLogsAzureBlobStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1418,7 +1418,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogsOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogsOutputReference",
 		reflect.TypeOf((*LinuxWebAppLogsApplicationLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureBlobStorage", GoGetter: "AzureBlobStorage"},
@@ -1456,15 +1456,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogs",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogs",
 		reflect.TypeOf((*LinuxWebAppLogsHttpLogs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsAzureBlobStorage",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsAzureBlobStorage",
 		reflect.TypeOf((*LinuxWebAppLogsHttpLogsAzureBlobStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsAzureBlobStorageOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsAzureBlobStorageOutputReference",
 		reflect.TypeOf((*LinuxWebAppLogsHttpLogsAzureBlobStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1501,11 +1501,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsFileSystem",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsFileSystem",
 		reflect.TypeOf((*LinuxWebAppLogsHttpLogsFileSystem)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsFileSystemOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsFileSystemOutputReference",
 		reflect.TypeOf((*LinuxWebAppLogsHttpLogsFileSystemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1541,7 +1541,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsOutputReference",
 		reflect.TypeOf((*LinuxWebAppLogsHttpLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureBlobStorage", GoGetter: "AzureBlobStorage"},
@@ -1581,7 +1581,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppLogsOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppLogsOutputReference",
 		reflect.TypeOf((*LinuxWebAppLogsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationLogs", GoGetter: "ApplicationLogs"},
@@ -1627,15 +1627,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfig",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfig",
 		reflect.TypeOf((*LinuxWebAppSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigApplicationStack",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigApplicationStack",
 		reflect.TypeOf((*LinuxWebAppSiteConfigApplicationStack)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigApplicationStackOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigApplicationStackOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigApplicationStackOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1706,15 +1706,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSetting",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSetting",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSetting)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingAction",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingAction",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingActionOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingActionOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionType", GoGetter: "ActionType"},
@@ -1751,7 +1751,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1791,11 +1791,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTrigger",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTrigger",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTrigger)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1843,11 +1843,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerRequests",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerRequests",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerRequests)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerRequestsOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerRequestsOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerRequestsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1883,11 +1883,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequest",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequest",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequest)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1925,11 +1925,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPath",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPath",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPath)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathList",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1951,7 +1951,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1992,11 +1992,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCode",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCode",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCodeList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCodeList",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCodeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2018,7 +2018,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCodeOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCodeOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2065,11 +2065,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigCors",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigCors",
 		reflect.TypeOf((*LinuxWebAppSiteConfigCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigCorsOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigCorsOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
@@ -2107,15 +2107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestriction",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestriction",
 		reflect.TypeOf((*LinuxWebAppSiteConfigIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionHeaders",
 		reflect.TypeOf((*LinuxWebAppSiteConfigIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionHeadersList",
 		reflect.TypeOf((*LinuxWebAppSiteConfigIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2137,7 +2137,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2181,7 +2181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionList",
 		reflect.TypeOf((*LinuxWebAppSiteConfigIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2203,7 +2203,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigIpRestrictionOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -2260,7 +2260,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alwaysOn", GoGetter: "AlwaysOn"},
@@ -2390,15 +2390,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestriction",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestriction",
 		reflect.TypeOf((*LinuxWebAppSiteConfigScmIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionHeaders",
 		reflect.TypeOf((*LinuxWebAppSiteConfigScmIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionHeadersList",
 		reflect.TypeOf((*LinuxWebAppSiteConfigScmIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2420,7 +2420,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigScmIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2464,7 +2464,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionList",
 		reflect.TypeOf((*LinuxWebAppSiteConfigScmIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2486,7 +2486,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteConfigScmIpRestrictionOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteConfigScmIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -2543,11 +2543,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteCredential",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteCredential",
 		reflect.TypeOf((*LinuxWebAppSiteCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteCredentialList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteCredentialList",
 		reflect.TypeOf((*LinuxWebAppSiteCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2568,7 +2568,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppSiteCredentialOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppSiteCredentialOutputReference",
 		reflect.TypeOf((*LinuxWebAppSiteCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2602,11 +2602,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppStickySettings",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppStickySettings",
 		reflect.TypeOf((*LinuxWebAppStickySettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppStickySettingsOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppStickySettingsOutputReference",
 		reflect.TypeOf((*LinuxWebAppStickySettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appSettingNames", GoGetter: "AppSettingNames"},
@@ -2644,11 +2644,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppStorageAccount",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppStorageAccount",
 		reflect.TypeOf((*LinuxWebAppStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppStorageAccountList",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppStorageAccountList",
 		reflect.TypeOf((*LinuxWebAppStorageAccountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2670,7 +2670,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppStorageAccountOutputReference",
 		reflect.TypeOf((*LinuxWebAppStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
@@ -2715,11 +2715,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppTimeouts",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppTimeouts",
 		reflect.TypeOf((*LinuxWebAppTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppTimeoutsOutputReference",
 		reflect.TypeOf((*LinuxWebAppTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package frontdoorrulesengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/frontdoorrulesengine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/frontdoorrulesengine/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine}.
 type FrontdoorRulesEngine interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_FrontdoorRulesEngine) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine} Resource.
 func NewFrontdoorRulesEngine(scope constructs.Construct, id *string, config *FrontdoorRulesEngineConfig) FrontdoorRulesEngine {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewFrontdoorRulesEngine(scope constructs.Construct, id *string, config *Fro
 	j := jsiiProxy_FrontdoorRulesEngine{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewFrontdoorRulesEngine(scope constructs.Construct, id *string, config *Fro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine} Resource.
 func NewFrontdoorRulesEngine_Override(f FrontdoorRulesEngine, scope constructs.Construct, id *string, config *FrontdoorRulesEngineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -624,7 +624,7 @@ func FrontdoorRulesEngine_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func FrontdoorRulesEngine_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func FrontdoorRulesEngine_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func FrontdoorRulesEngine_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func FrontdoorRulesEngine_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
+		"@cdktn/provider-azurerm.frontdoorRulesEngine.FrontdoorRulesEngine",
 		"tfResourceType",
 		&returns,
 	)

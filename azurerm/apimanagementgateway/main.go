@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementGateway.ApiManagementGateway",
+		"@cdktn/provider-azurerm.apiManagementGateway.ApiManagementGateway",
 		reflect.TypeOf((*ApiManagementGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementGateway.ApiManagementGatewayConfig",
+		"@cdktn/provider-azurerm.apiManagementGateway.ApiManagementGatewayConfig",
 		reflect.TypeOf((*ApiManagementGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementGateway.ApiManagementGatewayLocationData",
+		"@cdktn/provider-azurerm.apiManagementGateway.ApiManagementGatewayLocationData",
 		reflect.TypeOf((*ApiManagementGatewayLocationData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementGateway.ApiManagementGatewayLocationDataOutputReference",
+		"@cdktn/provider-azurerm.apiManagementGateway.ApiManagementGatewayLocationDataOutputReference",
 		reflect.TypeOf((*ApiManagementGatewayLocationDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "city", GoGetter: "City"},
@@ -131,11 +131,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementGateway.ApiManagementGatewayTimeouts",
+		"@cdktn/provider-azurerm.apiManagementGateway.ApiManagementGatewayTimeouts",
 		reflect.TypeOf((*ApiManagementGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementGateway.ApiManagementGatewayTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementGateway.ApiManagementGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

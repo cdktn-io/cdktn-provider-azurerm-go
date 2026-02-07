@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerconnectedregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/containerconnectedregistry/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerconnectedregistry/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_connected_registry azurerm_container_connected_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_connected_registry azurerm_container_connected_registry}.
 type ContainerConnectedRegistry interface {
 	cdktf.TerraformResource
 	AuditLogEnabled() interface{}
@@ -619,7 +619,7 @@ func (j *jsiiProxy_ContainerConnectedRegistry) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_connected_registry azurerm_container_connected_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_connected_registry azurerm_container_connected_registry} Resource.
 func NewContainerConnectedRegistry(scope constructs.Construct, id *string, config *ContainerConnectedRegistryConfig) ContainerConnectedRegistry {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewContainerConnectedRegistry(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_ContainerConnectedRegistry{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
+		"@cdktn/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -637,12 +637,12 @@ func NewContainerConnectedRegistry(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_connected_registry azurerm_container_connected_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_connected_registry azurerm_container_connected_registry} Resource.
 func NewContainerConnectedRegistry_Override(c ContainerConnectedRegistry, scope constructs.Construct, id *string, config *ContainerConnectedRegistryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
+		"@cdktn/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -858,7 +858,7 @@ func ContainerConnectedRegistry_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
+		"@cdktn/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -893,7 +893,7 @@ func ContainerConnectedRegistry_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
+		"@cdktn/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -912,7 +912,7 @@ func ContainerConnectedRegistry_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
+		"@cdktn/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -931,7 +931,7 @@ func ContainerConnectedRegistry_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
+		"@cdktn/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -944,7 +944,7 @@ func ContainerConnectedRegistry_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
+		"@cdktn/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
 		"tfResourceType",
 		&returns,
 	)

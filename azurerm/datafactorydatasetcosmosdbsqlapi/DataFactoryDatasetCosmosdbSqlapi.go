@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorydatasetcosmosdbsqlapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorydatasetcosmosdbsqlapi/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorydatasetcosmosdbsqlapi/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi}.
 type DataFactoryDatasetCosmosdbSqlapi interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -571,7 +571,7 @@ func (j *jsiiProxy_DataFactoryDatasetCosmosdbSqlapi) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi} Resource.
 func NewDataFactoryDatasetCosmosdbSqlapi(scope constructs.Construct, id *string, config *DataFactoryDatasetCosmosdbSqlapiConfig) DataFactoryDatasetCosmosdbSqlapi {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewDataFactoryDatasetCosmosdbSqlapi(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataFactoryDatasetCosmosdbSqlapi{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
+		"@cdktn/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -589,12 +589,12 @@ func NewDataFactoryDatasetCosmosdbSqlapi(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_dataset_cosmosdb_sqlapi azurerm_data_factory_dataset_cosmosdb_sqlapi} Resource.
 func NewDataFactoryDatasetCosmosdbSqlapi_Override(d DataFactoryDatasetCosmosdbSqlapi, scope constructs.Construct, id *string, config *DataFactoryDatasetCosmosdbSqlapiConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
+		"@cdktn/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -788,7 +788,7 @@ func DataFactoryDatasetCosmosdbSqlapi_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
+		"@cdktn/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -823,7 +823,7 @@ func DataFactoryDatasetCosmosdbSqlapi_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
+		"@cdktn/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -842,7 +842,7 @@ func DataFactoryDatasetCosmosdbSqlapi_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
+		"@cdktn/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -861,7 +861,7 @@ func DataFactoryDatasetCosmosdbSqlapi_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
+		"@cdktn/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -874,7 +874,7 @@ func DataFactoryDatasetCosmosdbSqlapi_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
+		"@cdktn/provider-azurerm.dataFactoryDatasetCosmosdbSqlapi.DataFactoryDatasetCosmosdbSqlapi",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appserviceconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceConnection.AppServiceConnection",
+		"@cdktn/provider-azurerm.appServiceConnection.AppServiceConnection",
 		reflect.TypeOf((*AppServiceConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,11 +89,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceConnection.AppServiceConnectionAuthentication",
+		"@cdktn/provider-azurerm.appServiceConnection.AppServiceConnectionAuthentication",
 		reflect.TypeOf((*AppServiceConnectionAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceConnection.AppServiceConnectionAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.appServiceConnection.AppServiceConnectionAuthenticationOutputReference",
 		reflect.TypeOf((*AppServiceConnectionAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
@@ -145,15 +145,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceConnection.AppServiceConnectionConfig",
+		"@cdktn/provider-azurerm.appServiceConnection.AppServiceConnectionConfig",
 		reflect.TypeOf((*AppServiceConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceConnection.AppServiceConnectionSecretStore",
+		"@cdktn/provider-azurerm.appServiceConnection.AppServiceConnectionSecretStore",
 		reflect.TypeOf((*AppServiceConnectionSecretStore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceConnection.AppServiceConnectionSecretStoreOutputReference",
+		"@cdktn/provider-azurerm.appServiceConnection.AppServiceConnectionSecretStoreOutputReference",
 		reflect.TypeOf((*AppServiceConnectionSecretStoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,11 +187,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceConnection.AppServiceConnectionTimeouts",
+		"@cdktn/provider-azurerm.appServiceConnection.AppServiceConnectionTimeouts",
 		reflect.TypeOf((*AppServiceConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceConnection.AppServiceConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appServiceConnection.AppServiceConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*AppServiceConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

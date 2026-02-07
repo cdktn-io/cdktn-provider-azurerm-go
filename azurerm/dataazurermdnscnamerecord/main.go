@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdnscnamerecord
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecord",
 		reflect.TypeOf((*DataAzurermDnsCnameRecord)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecordConfig",
+		"@cdktn/provider-azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecordConfig",
 		reflect.TypeOf((*DataAzurermDnsCnameRecordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecordTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecordTimeouts",
 		reflect.TypeOf((*DataAzurermDnsCnameRecordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecordTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecordTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermDnsCnameRecordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

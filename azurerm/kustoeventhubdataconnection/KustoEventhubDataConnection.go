@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustoeventhubdataconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kustoeventhubdataconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustoeventhubdataconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_eventhub_data_connection azurerm_kusto_eventhub_data_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_eventhub_data_connection azurerm_kusto_eventhub_data_connection}.
 type KustoEventhubDataConnection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -97,6 +97,9 @@ type KustoEventhubDataConnection interface {
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
+	RetrievalStartDate() *string
+	SetRetrievalStartDate(val *string)
+	RetrievalStartDateInput() *string
 	TableName() *string
 	SetTableName(val *string)
 	TableNameInput() *string
@@ -162,6 +165,7 @@ type KustoEventhubDataConnection interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRetrievalStartDate()
 	ResetTableName()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -592,6 +596,26 @@ func (j *jsiiProxy_KustoEventhubDataConnection) ResourceGroupNameInput() *string
 	return returns
 }
 
+func (j *jsiiProxy_KustoEventhubDataConnection) RetrievalStartDate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"retrievalStartDate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoEventhubDataConnection) RetrievalStartDateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"retrievalStartDateInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_KustoEventhubDataConnection) TableName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -663,7 +687,7 @@ func (j *jsiiProxy_KustoEventhubDataConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_eventhub_data_connection azurerm_kusto_eventhub_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_eventhub_data_connection azurerm_kusto_eventhub_data_connection} Resource.
 func NewKustoEventhubDataConnection(scope constructs.Construct, id *string, config *KustoEventhubDataConnectionConfig) KustoEventhubDataConnection {
 	_init_.Initialize()
 
@@ -673,7 +697,7 @@ func NewKustoEventhubDataConnection(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_KustoEventhubDataConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -681,12 +705,12 @@ func NewKustoEventhubDataConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_eventhub_data_connection azurerm_kusto_eventhub_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_eventhub_data_connection azurerm_kusto_eventhub_data_connection} Resource.
 func NewKustoEventhubDataConnection_Override(k KustoEventhubDataConnection, scope constructs.Construct, id *string, config *KustoEventhubDataConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -914,6 +938,17 @@ func (j *jsiiProxy_KustoEventhubDataConnection)SetResourceGroupName(val *string)
 	)
 }
 
+func (j *jsiiProxy_KustoEventhubDataConnection)SetRetrievalStartDate(val *string) {
+	if err := j.validateSetRetrievalStartDateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"retrievalStartDate",
+		val,
+	)
+}
+
 func (j *jsiiProxy_KustoEventhubDataConnection)SetTableName(val *string) {
 	if err := j.validateSetTableNameParameters(val); err != nil {
 		panic(err)
@@ -935,7 +970,7 @@ func KustoEventhubDataConnection_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -970,7 +1005,7 @@ func KustoEventhubDataConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -989,7 +1024,7 @@ func KustoEventhubDataConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1008,7 +1043,7 @@ func KustoEventhubDataConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1021,7 +1056,7 @@ func KustoEventhubDataConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
+		"@cdktn/provider-azurerm.kustoEventhubDataConnection.KustoEventhubDataConnection",
 		"tfResourceType",
 		&returns,
 	)
@@ -1349,6 +1384,14 @@ func (k *jsiiProxy_KustoEventhubDataConnection) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KustoEventhubDataConnection) ResetRetrievalStartDate() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetRetrievalStartDate",
 		nil, // no parameters
 	)
 }

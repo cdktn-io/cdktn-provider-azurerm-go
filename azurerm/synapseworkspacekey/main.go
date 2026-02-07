@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapseworkspacekey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseWorkspaceKey.SynapseWorkspaceKey",
+		"@cdktn/provider-azurerm.synapseWorkspaceKey.SynapseWorkspaceKey",
 		reflect.TypeOf((*SynapseWorkspaceKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseWorkspaceKey.SynapseWorkspaceKeyConfig",
+		"@cdktn/provider-azurerm.synapseWorkspaceKey.SynapseWorkspaceKeyConfig",
 		reflect.TypeOf((*SynapseWorkspaceKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseWorkspaceKey.SynapseWorkspaceKeyTimeouts",
+		"@cdktn/provider-azurerm.synapseWorkspaceKey.SynapseWorkspaceKeyTimeouts",
 		reflect.TypeOf((*SynapseWorkspaceKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseWorkspaceKey.SynapseWorkspaceKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.synapseWorkspaceKey.SynapseWorkspaceKeyTimeoutsOutputReference",
 		reflect.TypeOf((*SynapseWorkspaceKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

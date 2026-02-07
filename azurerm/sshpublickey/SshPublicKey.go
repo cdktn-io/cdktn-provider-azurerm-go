@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sshpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sshpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sshpublickey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ssh_public_key azurerm_ssh_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ssh_public_key azurerm_ssh_public_key}.
 type SshPublicKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_SshPublicKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ssh_public_key azurerm_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ssh_public_key azurerm_ssh_public_key} Resource.
 func NewSshPublicKey(scope constructs.Construct, id *string, config *SshPublicKeyConfig) SshPublicKey {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewSshPublicKey(scope constructs.Construct, id *string, config *SshPublicKe
 	j := jsiiProxy_SshPublicKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKey",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewSshPublicKey(scope constructs.Construct, id *string, config *SshPublicKe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/ssh_public_key azurerm_ssh_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/ssh_public_key azurerm_ssh_public_key} Resource.
 func NewSshPublicKey_Override(s SshPublicKey, scope constructs.Construct, id *string, config *SshPublicKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKey",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKey",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -623,7 +623,7 @@ func SshPublicKey_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKey",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func SshPublicKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKey",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func SshPublicKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKey",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func SshPublicKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKey",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func SshPublicKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sshPublicKey.SshPublicKey",
+		"@cdktn/provider-azurerm.sshPublicKey.SshPublicKey",
 		"tfResourceType",
 		&returns,
 	)

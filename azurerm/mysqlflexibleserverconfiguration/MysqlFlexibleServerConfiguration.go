@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mysqlflexibleserverconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mysqlflexibleserverconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mysqlflexibleserverconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_server_configuration azurerm_mysql_flexible_server_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_server_configuration azurerm_mysql_flexible_server_configuration}.
 type MysqlFlexibleServerConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_MysqlFlexibleServerConfiguration) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_server_configuration azurerm_mysql_flexible_server_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_server_configuration azurerm_mysql_flexible_server_configuration} Resource.
 func NewMysqlFlexibleServerConfiguration(scope constructs.Construct, id *string, config *MysqlFlexibleServerConfigurationConfig) MysqlFlexibleServerConfiguration {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewMysqlFlexibleServerConfiguration(scope constructs.Construct, id *string,
 	j := jsiiProxy_MysqlFlexibleServerConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewMysqlFlexibleServerConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_server_configuration azurerm_mysql_flexible_server_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_server_configuration azurerm_mysql_flexible_server_configuration} Resource.
 func NewMysqlFlexibleServerConfiguration_Override(m MysqlFlexibleServerConfiguration, scope constructs.Construct, id *string, config *MysqlFlexibleServerConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -588,7 +588,7 @@ func MysqlFlexibleServerConfiguration_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func MysqlFlexibleServerConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func MysqlFlexibleServerConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func MysqlFlexibleServerConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func MysqlFlexibleServerConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerConfiguration.MysqlFlexibleServerConfiguration",
 		"tfResourceType",
 		&returns,
 	)

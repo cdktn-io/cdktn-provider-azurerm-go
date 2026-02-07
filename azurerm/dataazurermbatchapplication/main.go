@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermbatchapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchApplication.DataAzurermBatchApplication",
+		"@cdktn/provider-azurerm.dataAzurermBatchApplication.DataAzurermBatchApplication",
 		reflect.TypeOf((*DataAzurermBatchApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchApplication.DataAzurermBatchApplicationConfig",
+		"@cdktn/provider-azurerm.dataAzurermBatchApplication.DataAzurermBatchApplicationConfig",
 		reflect.TypeOf((*DataAzurermBatchApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchApplication.DataAzurermBatchApplicationTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermBatchApplication.DataAzurermBatchApplicationTimeouts",
 		reflect.TypeOf((*DataAzurermBatchApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchApplication.DataAzurermBatchApplicationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchApplication.DataAzurermBatchApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermBatchApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

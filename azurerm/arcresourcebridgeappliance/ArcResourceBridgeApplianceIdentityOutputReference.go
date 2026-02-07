@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arcresourcebridgeappliance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/arcresourcebridgeappliance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arcresourcebridgeappliance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -204,7 +204,7 @@ func NewArcResourceBridgeApplianceIdentityOutputReference(terraformResource cdkt
 	j := jsiiProxy_ArcResourceBridgeApplianceIdentityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentityOutputReference",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -216,7 +216,7 @@ func NewArcResourceBridgeApplianceIdentityOutputReference_Override(a ArcResource
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentityOutputReference",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

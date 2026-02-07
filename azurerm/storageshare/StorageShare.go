@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageshare/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share azurerm_storage_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share azurerm_storage_share}.
 type StorageShare interface {
 	cdktf.TerraformResource
 	AccessTier() *string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_StorageShare) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share azurerm_storage_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share azurerm_storage_share} Resource.
 func NewStorageShare(scope constructs.Construct, id *string, config *StorageShareConfig) StorageShare {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewStorageShare(scope constructs.Construct, id *string, config *StorageShar
 	j := jsiiProxy_StorageShare{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageShare.StorageShare",
+		"@cdktn/provider-azurerm.storageShare.StorageShare",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewStorageShare(scope constructs.Construct, id *string, config *StorageShar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share azurerm_storage_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share azurerm_storage_share} Resource.
 func NewStorageShare_Override(s StorageShare, scope constructs.Construct, id *string, config *StorageShareConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageShare.StorageShare",
+		"@cdktn/provider-azurerm.storageShare.StorageShare",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -741,7 +741,7 @@ func StorageShare_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShare.StorageShare",
+		"@cdktn/provider-azurerm.storageShare.StorageShare",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -776,7 +776,7 @@ func StorageShare_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShare.StorageShare",
+		"@cdktn/provider-azurerm.storageShare.StorageShare",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -795,7 +795,7 @@ func StorageShare_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShare.StorageShare",
+		"@cdktn/provider-azurerm.storageShare.StorageShare",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func StorageShare_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShare.StorageShare",
+		"@cdktn/provider-azurerm.storageShare.StorageShare",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func StorageShare_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageShare.StorageShare",
+		"@cdktn/provider-azurerm.storageShare.StorageShare",
 		"tfResourceType",
 		&returns,
 	)

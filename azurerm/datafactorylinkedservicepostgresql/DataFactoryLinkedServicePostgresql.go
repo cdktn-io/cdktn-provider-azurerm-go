@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorylinkedservicepostgresql
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorylinkedservicepostgresql/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedservicepostgresql/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql}.
 type DataFactoryLinkedServicePostgresql interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -523,7 +523,7 @@ func (j *jsiiProxy_DataFactoryLinkedServicePostgresql) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql} Resource.
 func NewDataFactoryLinkedServicePostgresql(scope constructs.Construct, id *string, config *DataFactoryLinkedServicePostgresqlConfig) DataFactoryLinkedServicePostgresql {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewDataFactoryLinkedServicePostgresql(scope constructs.Construct, id *strin
 	j := jsiiProxy_DataFactoryLinkedServicePostgresql{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -541,12 +541,12 @@ func NewDataFactoryLinkedServicePostgresql(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql} Resource.
 func NewDataFactoryLinkedServicePostgresql_Override(d DataFactoryLinkedServicePostgresql, scope constructs.Construct, id *string, config *DataFactoryLinkedServicePostgresqlConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -729,7 +729,7 @@ func DataFactoryLinkedServicePostgresql_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -764,7 +764,7 @@ func DataFactoryLinkedServicePostgresql_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -783,7 +783,7 @@ func DataFactoryLinkedServicePostgresql_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func DataFactoryLinkedServicePostgresql_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func DataFactoryLinkedServicePostgresql_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServicePostgresql.DataFactoryLinkedServicePostgresql",
 		"tfResourceType",
 		&returns,
 	)

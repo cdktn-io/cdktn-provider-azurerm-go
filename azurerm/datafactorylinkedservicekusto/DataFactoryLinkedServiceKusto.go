@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorylinkedservicekusto
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorylinkedservicekusto/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedservicekusto/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_kusto azurerm_data_factory_linked_service_kusto}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_kusto azurerm_data_factory_linked_service_kusto}.
 type DataFactoryLinkedServiceKusto interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -642,7 +642,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceKusto) UseManagedIdentityInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_kusto azurerm_data_factory_linked_service_kusto} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_kusto azurerm_data_factory_linked_service_kusto} Resource.
 func NewDataFactoryLinkedServiceKusto(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceKustoConfig) DataFactoryLinkedServiceKusto {
 	_init_.Initialize()
 
@@ -652,7 +652,7 @@ func NewDataFactoryLinkedServiceKusto(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataFactoryLinkedServiceKusto{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -660,12 +660,12 @@ func NewDataFactoryLinkedServiceKusto(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_kusto azurerm_data_factory_linked_service_kusto} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_kusto azurerm_data_factory_linked_service_kusto} Resource.
 func NewDataFactoryLinkedServiceKusto_Override(d DataFactoryLinkedServiceKusto, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceKustoConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -903,7 +903,7 @@ func DataFactoryLinkedServiceKusto_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -938,7 +938,7 @@ func DataFactoryLinkedServiceKusto_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -957,7 +957,7 @@ func DataFactoryLinkedServiceKusto_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -976,7 +976,7 @@ func DataFactoryLinkedServiceKusto_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -989,7 +989,7 @@ func DataFactoryLinkedServiceKusto_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceKusto.DataFactoryLinkedServiceKusto",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package userassignedidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/userassignedidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/userassignedidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/user_assigned_identity azurerm_user_assigned_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/user_assigned_identity azurerm_user_assigned_identity}.
 type UserAssignedIdentity interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -43,6 +43,9 @@ type UserAssignedIdentity interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IsolationScope() *string
+	SetIsolationScope(val *string)
+	IsolationScopeInput() *string
 	// Experimental.
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
@@ -126,6 +129,7 @@ type UserAssignedIdentity interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *UserAssignedIdentityTimeouts)
 	ResetId()
+	ResetIsolationScope()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -254,6 +258,26 @@ func (j *jsiiProxy_UserAssignedIdentity) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_UserAssignedIdentity) IsolationScope() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"isolationScope",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_UserAssignedIdentity) IsolationScopeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"isolationScopeInput",
 		&returns,
 	)
 	return returns
@@ -460,7 +484,7 @@ func (j *jsiiProxy_UserAssignedIdentity) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/user_assigned_identity azurerm_user_assigned_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/user_assigned_identity azurerm_user_assigned_identity} Resource.
 func NewUserAssignedIdentity(scope constructs.Construct, id *string, config *UserAssignedIdentityConfig) UserAssignedIdentity {
 	_init_.Initialize()
 
@@ -470,7 +494,7 @@ func NewUserAssignedIdentity(scope constructs.Construct, id *string, config *Use
 	j := jsiiProxy_UserAssignedIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
+		"@cdktn/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -478,12 +502,12 @@ func NewUserAssignedIdentity(scope constructs.Construct, id *string, config *Use
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/user_assigned_identity azurerm_user_assigned_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/user_assigned_identity azurerm_user_assigned_identity} Resource.
 func NewUserAssignedIdentity_Override(u UserAssignedIdentity, scope constructs.Construct, id *string, config *UserAssignedIdentityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
+		"@cdktn/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
 		[]interface{}{scope, id, config},
 		u,
 	)
@@ -534,6 +558,17 @@ func (j *jsiiProxy_UserAssignedIdentity)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_UserAssignedIdentity)SetIsolationScope(val *string) {
+	if err := j.validateSetIsolationScopeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"isolationScope",
 		val,
 	)
 }
@@ -622,7 +657,7 @@ func UserAssignedIdentity_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
+		"@cdktn/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +692,7 @@ func UserAssignedIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
+		"@cdktn/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +711,7 @@ func UserAssignedIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
+		"@cdktn/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +730,7 @@ func UserAssignedIdentity_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
+		"@cdktn/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +743,7 @@ func UserAssignedIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
+		"@cdktn/provider-azurerm.userAssignedIdentity.UserAssignedIdentity",
 		"tfResourceType",
 		&returns,
 	)
@@ -980,6 +1015,14 @@ func (u *jsiiProxy_UserAssignedIdentity) ResetId() {
 	_jsii_.InvokeVoid(
 		u,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (u *jsiiProxy_UserAssignedIdentity) ResetIsolationScope() {
+	_jsii_.InvokeVoid(
+		u,
+		"resetIsolationScope",
 		nil, // no parameters
 	)
 }

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpnserverconfigurationpolicygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vpnserverconfigurationpolicygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpnserverconfigurationpolicygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_server_configuration_policy_group azurerm_vpn_server_configuration_policy_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_server_configuration_policy_group azurerm_vpn_server_configuration_policy_group}.
 type VpnServerConfigurationPolicyGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) VpnServerConfigurationIdIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_server_configuration_policy_group azurerm_vpn_server_configuration_policy_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_server_configuration_policy_group azurerm_vpn_server_configuration_policy_group} Resource.
 func NewVpnServerConfigurationPolicyGroup(scope constructs.Construct, id *string, config *VpnServerConfigurationPolicyGroupConfig) VpnServerConfigurationPolicyGroup {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewVpnServerConfigurationPolicyGroup(scope constructs.Construct, id *string
 	j := jsiiProxy_VpnServerConfigurationPolicyGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
+		"@cdktn/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewVpnServerConfigurationPolicyGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_server_configuration_policy_group azurerm_vpn_server_configuration_policy_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_server_configuration_policy_group azurerm_vpn_server_configuration_policy_group} Resource.
 func NewVpnServerConfigurationPolicyGroup_Override(v VpnServerConfigurationPolicyGroup, scope constructs.Construct, id *string, config *VpnServerConfigurationPolicyGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
+		"@cdktn/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -613,7 +613,7 @@ func VpnServerConfigurationPolicyGroup_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
+		"@cdktn/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func VpnServerConfigurationPolicyGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
+		"@cdktn/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func VpnServerConfigurationPolicyGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
+		"@cdktn/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func VpnServerConfigurationPolicyGroup_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
+		"@cdktn/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func VpnServerConfigurationPolicyGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
+		"@cdktn/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
 		"tfResourceType",
 		&returns,
 	)

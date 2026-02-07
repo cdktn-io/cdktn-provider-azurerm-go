@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressrouteport
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePort",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePort",
 		reflect.TypeOf((*ExpressRoutePort)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortConfig",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortConfig",
 		reflect.TypeOf((*ExpressRoutePortConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortIdentity",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortIdentity",
 		reflect.TypeOf((*ExpressRoutePortIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortIdentityOutputReference",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortIdentityOutputReference",
 		reflect.TypeOf((*ExpressRoutePortIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortLink1",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortLink1",
 		reflect.TypeOf((*ExpressRoutePortLink1)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortLink1OutputReference",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortLink1OutputReference",
 		reflect.TypeOf((*ExpressRoutePortLink1OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminEnabled", GoGetter: "AdminEnabled"},
@@ -207,11 +207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortLink2",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortLink2",
 		reflect.TypeOf((*ExpressRoutePortLink2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortLink2OutputReference",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortLink2OutputReference",
 		reflect.TypeOf((*ExpressRoutePortLink2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminEnabled", GoGetter: "AdminEnabled"},
@@ -264,11 +264,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortTimeouts",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortTimeouts",
 		reflect.TypeOf((*ExpressRoutePortTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePortTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePortTimeoutsOutputReference",
 		reflect.TypeOf((*ExpressRoutePortTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

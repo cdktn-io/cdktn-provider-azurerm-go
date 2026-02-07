@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermautomationvariabledatetime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermautomationvariabledatetime/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermautomationvariabledatetime/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_variable_datetime azurerm_automation_variable_datetime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_variable_datetime azurerm_automation_variable_datetime}.
 type DataAzurermAutomationVariableDatetime interface {
 	cdktf.TerraformDataSource
 	AutomationAccountName() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAzurermAutomationVariableDatetime) Value() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_variable_datetime azurerm_automation_variable_datetime} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_variable_datetime azurerm_automation_variable_datetime} Data Source.
 func NewDataAzurermAutomationVariableDatetime(scope constructs.Construct, id *string, config *DataAzurermAutomationVariableDatetimeConfig) DataAzurermAutomationVariableDatetime {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewDataAzurermAutomationVariableDatetime(scope constructs.Construct, id *st
 	j := jsiiProxy_DataAzurermAutomationVariableDatetime{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewDataAzurermAutomationVariableDatetime(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_variable_datetime azurerm_automation_variable_datetime} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_variable_datetime azurerm_automation_variable_datetime} Data Source.
 func NewDataAzurermAutomationVariableDatetime_Override(d DataAzurermAutomationVariableDatetime, scope constructs.Construct, id *string, config *DataAzurermAutomationVariableDatetimeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -520,7 +520,7 @@ func DataAzurermAutomationVariableDatetime_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func DataAzurermAutomationVariableDatetime_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataAzurermAutomationVariableDatetime_IsTerraformDataSource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataAzurermAutomationVariableDatetime_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAzurermAutomationVariableDatetime_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableDatetime.DataAzurermAutomationVariableDatetime",
 		"tfResourceType",
 		&returns,
 	)

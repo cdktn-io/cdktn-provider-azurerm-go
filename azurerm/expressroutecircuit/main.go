@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressroutecircuit
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteCircuit.ExpressRouteCircuit",
+		"@cdktn/provider-azurerm.expressRouteCircuit.ExpressRouteCircuit",
 		reflect.TypeOf((*ExpressRouteCircuit)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -108,15 +108,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitConfig",
+		"@cdktn/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitConfig",
 		reflect.TypeOf((*ExpressRouteCircuitConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitSku",
+		"@cdktn/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitSku",
 		reflect.TypeOf((*ExpressRouteCircuitSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitSkuOutputReference",
+		"@cdktn/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitSkuOutputReference",
 		reflect.TypeOf((*ExpressRouteCircuitSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitTimeouts",
+		"@cdktn/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitTimeouts",
 		reflect.TypeOf((*ExpressRouteCircuitTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.expressRouteCircuit.ExpressRouteCircuitTimeoutsOutputReference",
 		reflect.TypeOf((*ExpressRouteCircuitTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

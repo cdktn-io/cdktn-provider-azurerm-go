@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemoverjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagemoverjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagemoverjobdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition}.
 type StorageMoverJobDefinition interface {
 	cdktf.TerraformResource
 	AgentName() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_StorageMoverJobDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
 func NewStorageMoverJobDefinition(scope constructs.Construct, id *string, config *StorageMoverJobDefinitionConfig) StorageMoverJobDefinition {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewStorageMoverJobDefinition(scope constructs.Construct, id *string, config
 	j := jsiiProxy_StorageMoverJobDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewStorageMoverJobDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_job_definition azurerm_storage_mover_job_definition} Resource.
 func NewStorageMoverJobDefinition_Override(s StorageMoverJobDefinition, scope constructs.Construct, id *string, config *StorageMoverJobDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -762,7 +762,7 @@ func StorageMoverJobDefinition_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -797,7 +797,7 @@ func StorageMoverJobDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -816,7 +816,7 @@ func StorageMoverJobDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -835,7 +835,7 @@ func StorageMoverJobDefinition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func StorageMoverJobDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
 		"tfResourceType",
 		&returns,
 	)

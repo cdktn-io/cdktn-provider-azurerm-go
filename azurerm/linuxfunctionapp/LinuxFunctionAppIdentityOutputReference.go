@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/linuxfunctionapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxfunctionapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewLinuxFunctionAppIdentityOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_LinuxFunctionAppIdentityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxFunctionApp.LinuxFunctionAppIdentityOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionApp.LinuxFunctionAppIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewLinuxFunctionAppIdentityOutputReference_Override(l LinuxFunctionAppIdent
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxFunctionApp.LinuxFunctionAppIdentityOutputReference",
+		"@cdktn/provider-azurerm.linuxFunctionApp.LinuxFunctionAppIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

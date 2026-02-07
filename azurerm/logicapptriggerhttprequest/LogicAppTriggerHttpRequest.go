@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicapptriggerhttprequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/logicapptriggerhttprequest/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicapptriggerhttprequest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request}.
 type LogicAppTriggerHttpRequest interface {
 	cdktf.TerraformResource
 	CallbackUrl() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_LogicAppTriggerHttpRequest) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request} Resource.
 func NewLogicAppTriggerHttpRequest(scope constructs.Construct, id *string, config *LogicAppTriggerHttpRequestConfig) LogicAppTriggerHttpRequest {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewLogicAppTriggerHttpRequest(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_LogicAppTriggerHttpRequest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
+		"@cdktn/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewLogicAppTriggerHttpRequest(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request} Resource.
 func NewLogicAppTriggerHttpRequest_Override(l LogicAppTriggerHttpRequest, scope constructs.Construct, id *string, config *LogicAppTriggerHttpRequestConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
+		"@cdktn/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -635,7 +635,7 @@ func LogicAppTriggerHttpRequest_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
+		"@cdktn/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func LogicAppTriggerHttpRequest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
+		"@cdktn/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func LogicAppTriggerHttpRequest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
+		"@cdktn/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func LogicAppTriggerHttpRequest_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
+		"@cdktn/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func LogicAppTriggerHttpRequest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
+		"@cdktn/provider-azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequest",
 		"tfResourceType",
 		&returns,
 	)

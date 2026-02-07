@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package signalrservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/signalrservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/signalrservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service azurerm_signalr_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service azurerm_signalr_service}.
 type SignalrService interface {
 	cdktf.TerraformResource
 	AadAuthEnabled() interface{}
@@ -874,7 +874,7 @@ func (j *jsiiProxy_SignalrService) UpstreamEndpointInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service azurerm_signalr_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service azurerm_signalr_service} Resource.
 func NewSignalrService(scope constructs.Construct, id *string, config *SignalrServiceConfig) SignalrService {
 	_init_.Initialize()
 
@@ -884,7 +884,7 @@ func NewSignalrService(scope constructs.Construct, id *string, config *SignalrSe
 	j := jsiiProxy_SignalrService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrService.SignalrService",
+		"@cdktn/provider-azurerm.signalrService.SignalrService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -892,12 +892,12 @@ func NewSignalrService(scope constructs.Construct, id *string, config *SignalrSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service azurerm_signalr_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service azurerm_signalr_service} Resource.
 func NewSignalrService_Override(s SignalrService, scope constructs.Construct, id *string, config *SignalrServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrService.SignalrService",
+		"@cdktn/provider-azurerm.signalrService.SignalrService",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1146,7 +1146,7 @@ func SignalrService_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrService.SignalrService",
+		"@cdktn/provider-azurerm.signalrService.SignalrService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1181,7 +1181,7 @@ func SignalrService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrService.SignalrService",
+		"@cdktn/provider-azurerm.signalrService.SignalrService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1200,7 +1200,7 @@ func SignalrService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrService.SignalrService",
+		"@cdktn/provider-azurerm.signalrService.SignalrService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1219,7 +1219,7 @@ func SignalrService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrService.SignalrService",
+		"@cdktn/provider-azurerm.signalrService.SignalrService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1232,7 +1232,7 @@ func SignalrService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.signalrService.SignalrService",
+		"@cdktn/provider-azurerm.signalrService.SignalrService",
 		"tfResourceType",
 		&returns,
 	)

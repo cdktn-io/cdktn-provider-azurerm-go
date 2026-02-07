@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subnetnatgatewayassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/subnetnatgatewayassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subnetnatgatewayassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subnet_nat_gateway_association azurerm_subnet_nat_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subnet_nat_gateway_association azurerm_subnet_nat_gateway_association}.
 type SubnetNatGatewayAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SubnetNatGatewayAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subnet_nat_gateway_association azurerm_subnet_nat_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subnet_nat_gateway_association azurerm_subnet_nat_gateway_association} Resource.
 func NewSubnetNatGatewayAssociation(scope constructs.Construct, id *string, config *SubnetNatGatewayAssociationConfig) SubnetNatGatewayAssociation {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSubnetNatGatewayAssociation(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_SubnetNatGatewayAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
+		"@cdktn/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSubnetNatGatewayAssociation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subnet_nat_gateway_association azurerm_subnet_nat_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subnet_nat_gateway_association azurerm_subnet_nat_gateway_association} Resource.
 func NewSubnetNatGatewayAssociation_Override(s SubnetNatGatewayAssociation, scope constructs.Construct, id *string, config *SubnetNatGatewayAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
+		"@cdktn/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -520,7 +520,7 @@ func SubnetNatGatewayAssociation_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
+		"@cdktn/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func SubnetNatGatewayAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
+		"@cdktn/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func SubnetNatGatewayAssociation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
+		"@cdktn/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func SubnetNatGatewayAssociation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
+		"@cdktn/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func SubnetNatGatewayAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
+		"@cdktn/provider-azurerm.subnetNatGatewayAssociation.SubnetNatGatewayAssociation",
 		"tfResourceType",
 		&returns,
 	)

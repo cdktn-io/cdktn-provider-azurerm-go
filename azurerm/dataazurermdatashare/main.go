@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdatashare
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataShare.DataAzurermDataShare",
+		"@cdktn/provider-azurerm.dataAzurermDataShare.DataAzurermDataShare",
 		reflect.TypeOf((*DataAzurermDataShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
@@ -70,15 +70,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareConfig",
+		"@cdktn/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareConfig",
 		reflect.TypeOf((*DataAzurermDataShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareSnapshotSchedule",
+		"@cdktn/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareSnapshotSchedule",
 		reflect.TypeOf((*DataAzurermDataShareSnapshotSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareSnapshotScheduleList",
+		"@cdktn/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareSnapshotScheduleList",
 		reflect.TypeOf((*DataAzurermDataShareSnapshotScheduleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -99,7 +99,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareSnapshotScheduleOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareSnapshotScheduleOutputReference",
 		reflect.TypeOf((*DataAzurermDataShareSnapshotScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -134,11 +134,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareTimeouts",
 		reflect.TypeOf((*DataAzurermDataShareTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDataShare.DataAzurermDataShareTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermDataShareTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

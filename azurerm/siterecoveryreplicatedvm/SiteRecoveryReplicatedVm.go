@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package siterecoveryreplicatedvm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/siterecoveryreplicatedvm/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/siterecoveryreplicatedvm/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_replicated_vm azurerm_site_recovery_replicated_vm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_replicated_vm azurerm_site_recovery_replicated_vm}.
 type SiteRecoveryReplicatedVm interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -900,7 +900,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVm) UnmanagedDiskInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_replicated_vm azurerm_site_recovery_replicated_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_replicated_vm azurerm_site_recovery_replicated_vm} Resource.
 func NewSiteRecoveryReplicatedVm(scope constructs.Construct, id *string, config *SiteRecoveryReplicatedVmConfig) SiteRecoveryReplicatedVm {
 	_init_.Initialize()
 
@@ -910,7 +910,7 @@ func NewSiteRecoveryReplicatedVm(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_SiteRecoveryReplicatedVm{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
+		"@cdktn/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -918,12 +918,12 @@ func NewSiteRecoveryReplicatedVm(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_replicated_vm azurerm_site_recovery_replicated_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_replicated_vm azurerm_site_recovery_replicated_vm} Resource.
 func NewSiteRecoveryReplicatedVm_Override(s SiteRecoveryReplicatedVm, scope constructs.Construct, id *string, config *SiteRecoveryReplicatedVmConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
+		"@cdktn/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1249,7 +1249,7 @@ func SiteRecoveryReplicatedVm_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
+		"@cdktn/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1284,7 +1284,7 @@ func SiteRecoveryReplicatedVm_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
+		"@cdktn/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1303,7 +1303,7 @@ func SiteRecoveryReplicatedVm_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
+		"@cdktn/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1322,7 +1322,7 @@ func SiteRecoveryReplicatedVm_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
+		"@cdktn/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1335,7 +1335,7 @@ func SiteRecoveryReplicatedVm_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
+		"@cdktn/provider-azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVm",
 		"tfResourceType",
 		&returns,
 	)

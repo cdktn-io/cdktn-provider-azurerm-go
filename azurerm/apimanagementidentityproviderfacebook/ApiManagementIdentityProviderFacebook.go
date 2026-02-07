@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementidentityproviderfacebook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementidentityproviderfacebook/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementidentityproviderfacebook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook}.
 type ApiManagementIdentityProviderFacebook interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderFacebook) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook} Resource.
 func NewApiManagementIdentityProviderFacebook(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderFacebookConfig) ApiManagementIdentityProviderFacebook {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewApiManagementIdentityProviderFacebook(scope constructs.Construct, id *st
 	j := jsiiProxy_ApiManagementIdentityProviderFacebook{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewApiManagementIdentityProviderFacebook(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook} Resource.
 func NewApiManagementIdentityProviderFacebook_Override(a ApiManagementIdentityProviderFacebook, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderFacebookConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -588,7 +588,7 @@ func ApiManagementIdentityProviderFacebook_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func ApiManagementIdentityProviderFacebook_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func ApiManagementIdentityProviderFacebook_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func ApiManagementIdentityProviderFacebook_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ApiManagementIdentityProviderFacebook_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderFacebook.ApiManagementIdentityProviderFacebook",
 		"tfResourceType",
 		&returns,
 	)

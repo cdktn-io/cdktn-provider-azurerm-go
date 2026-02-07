@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package extendedcustomlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/extendedcustomlocation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/extendedcustomlocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewExtendedCustomLocationAuthenticationOutputReference(terraformResource cd
 	j := jsiiProxy_ExtendedCustomLocationAuthenticationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationAuthenticationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewExtendedCustomLocationAuthenticationOutputReference_Override(e ExtendedC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocationAuthenticationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

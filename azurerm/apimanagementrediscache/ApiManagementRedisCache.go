@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementrediscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementrediscache/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementrediscache/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_redis_cache azurerm_api_management_redis_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_redis_cache azurerm_api_management_redis_cache}.
 type ApiManagementRedisCache interface {
 	cdktf.TerraformResource
 	ApiManagementId() *string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_ApiManagementRedisCache) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_redis_cache azurerm_api_management_redis_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_redis_cache azurerm_api_management_redis_cache} Resource.
 func NewApiManagementRedisCache(scope constructs.Construct, id *string, config *ApiManagementRedisCacheConfig) ApiManagementRedisCache {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewApiManagementRedisCache(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ApiManagementRedisCache{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
+		"@cdktn/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewApiManagementRedisCache(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_redis_cache azurerm_api_management_redis_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_redis_cache azurerm_api_management_redis_cache} Resource.
 func NewApiManagementRedisCache_Override(a ApiManagementRedisCache, scope constructs.Construct, id *string, config *ApiManagementRedisCacheConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
+		"@cdktn/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -659,7 +659,7 @@ func ApiManagementRedisCache_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
+		"@cdktn/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func ApiManagementRedisCache_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
+		"@cdktn/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func ApiManagementRedisCache_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
+		"@cdktn/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func ApiManagementRedisCache_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
+		"@cdktn/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func ApiManagementRedisCache_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
+		"@cdktn/provider-azurerm.apiManagementRedisCache.ApiManagementRedisCache",
 		"tfResourceType",
 		&returns,
 	)

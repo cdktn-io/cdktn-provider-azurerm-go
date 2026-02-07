@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package routefilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/routefilter/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/routefilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewRouteFilterTimeoutsOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_RouteFilterTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewRouteFilterTimeoutsOutputReference_Override(r RouteFilterTimeoutsOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.routeFilter.RouteFilterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.routeFilter.RouteFilterTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

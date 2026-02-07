@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearningworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspace",
 		reflect.TypeOf((*MachineLearningWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -139,15 +139,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceConfig",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceConfig",
 		reflect.TypeOf((*MachineLearningWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceEncryption",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceEncryption",
 		reflect.TypeOf((*MachineLearningWorkspaceEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceEncryptionOutputReference",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceEncryptionOutputReference",
 		reflect.TypeOf((*MachineLearningWorkspaceEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceFeatureStore",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceFeatureStore",
 		reflect.TypeOf((*MachineLearningWorkspaceFeatureStore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceFeatureStoreOutputReference",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceFeatureStoreOutputReference",
 		reflect.TypeOf((*MachineLearningWorkspaceFeatureStoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -231,11 +231,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceIdentity",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceIdentity",
 		reflect.TypeOf((*MachineLearningWorkspaceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceIdentityOutputReference",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceIdentityOutputReference",
 		reflect.TypeOf((*MachineLearningWorkspaceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -274,11 +274,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceManagedNetwork",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceManagedNetwork",
 		reflect.TypeOf((*MachineLearningWorkspaceManagedNetwork)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceManagedNetworkOutputReference",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceManagedNetworkOutputReference",
 		reflect.TypeOf((*MachineLearningWorkspaceManagedNetworkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -316,11 +316,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceServerlessCompute",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceServerlessCompute",
 		reflect.TypeOf((*MachineLearningWorkspaceServerlessCompute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceServerlessComputeOutputReference",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceServerlessComputeOutputReference",
 		reflect.TypeOf((*MachineLearningWorkspaceServerlessComputeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -358,11 +358,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceTimeouts",
 		reflect.TypeOf((*MachineLearningWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.machineLearningWorkspace.MachineLearningWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*MachineLearningWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

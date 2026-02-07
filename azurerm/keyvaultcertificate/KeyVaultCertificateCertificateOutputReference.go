@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/keyvaultcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewKeyVaultCertificateCertificateOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_KeyVaultCertificateCertificateOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewKeyVaultCertificateCertificateOutputReference_Override(k KeyVaultCertifi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

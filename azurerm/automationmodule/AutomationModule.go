@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationmodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationmodule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationmodule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_module azurerm_automation_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_module azurerm_automation_module}.
 type AutomationModule interface {
 	cdktf.TerraformResource
 	AutomationAccountName() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_AutomationModule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_module azurerm_automation_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_module azurerm_automation_module} Resource.
 func NewAutomationModule(scope constructs.Construct, id *string, config *AutomationModuleConfig) AutomationModule {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewAutomationModule(scope constructs.Construct, id *string, config *Automat
 	j := jsiiProxy_AutomationModule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationModule.AutomationModule",
+		"@cdktn/provider-azurerm.automationModule.AutomationModule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewAutomationModule(scope constructs.Construct, id *string, config *Automat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_module azurerm_automation_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_module azurerm_automation_module} Resource.
 func NewAutomationModule_Override(a AutomationModule, scope constructs.Construct, id *string, config *AutomationModuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationModule.AutomationModule",
+		"@cdktn/provider-azurerm.automationModule.AutomationModule",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -577,7 +577,7 @@ func AutomationModule_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationModule.AutomationModule",
+		"@cdktn/provider-azurerm.automationModule.AutomationModule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func AutomationModule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationModule.AutomationModule",
+		"@cdktn/provider-azurerm.automationModule.AutomationModule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func AutomationModule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationModule.AutomationModule",
+		"@cdktn/provider-azurerm.automationModule.AutomationModule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func AutomationModule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationModule.AutomationModule",
+		"@cdktn/provider-azurerm.automationModule.AutomationModule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func AutomationModule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationModule.AutomationModule",
+		"@cdktn/provider-azurerm.automationModule.AutomationModule",
 		"tfResourceType",
 		&returns,
 	)

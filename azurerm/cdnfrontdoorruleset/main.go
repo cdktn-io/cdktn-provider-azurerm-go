@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorruleset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorRuleSet.CdnFrontdoorRuleSet",
+		"@cdktn/provider-azurerm.cdnFrontdoorRuleSet.CdnFrontdoorRuleSet",
 		reflect.TypeOf((*CdnFrontdoorRuleSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorRuleSet.CdnFrontdoorRuleSetConfig",
+		"@cdktn/provider-azurerm.cdnFrontdoorRuleSet.CdnFrontdoorRuleSetConfig",
 		reflect.TypeOf((*CdnFrontdoorRuleSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorRuleSet.CdnFrontdoorRuleSetTimeouts",
+		"@cdktn/provider-azurerm.cdnFrontdoorRuleSet.CdnFrontdoorRuleSetTimeouts",
 		reflect.TypeOf((*CdnFrontdoorRuleSetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorRuleSet.CdnFrontdoorRuleSetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cdnFrontdoorRuleSet.CdnFrontdoorRuleSetTimeoutsOutputReference",
 		reflect.TypeOf((*CdnFrontdoorRuleSetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

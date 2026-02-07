@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitorautoscalesetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitorautoscalesetting/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitorautoscalesetting/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting}.
 type MonitorAutoscaleSetting interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_MonitorAutoscaleSetting) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting} Resource.
 func NewMonitorAutoscaleSetting(scope constructs.Construct, id *string, config *MonitorAutoscaleSettingConfig) MonitorAutoscaleSetting {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewMonitorAutoscaleSetting(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_MonitorAutoscaleSetting{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
+		"@cdktn/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewMonitorAutoscaleSetting(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting} Resource.
 func NewMonitorAutoscaleSetting_Override(m MonitorAutoscaleSetting, scope constructs.Construct, id *string, config *MonitorAutoscaleSettingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
+		"@cdktn/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -729,7 +729,7 @@ func MonitorAutoscaleSetting_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
+		"@cdktn/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -764,7 +764,7 @@ func MonitorAutoscaleSetting_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
+		"@cdktn/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -783,7 +783,7 @@ func MonitorAutoscaleSetting_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
+		"@cdktn/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func MonitorAutoscaleSetting_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
+		"@cdktn/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func MonitorAutoscaleSetting_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
+		"@cdktn/provider-azurerm.monitorAutoscaleSetting.MonitorAutoscaleSetting",
 		"tfResourceType",
 		&returns,
 	)

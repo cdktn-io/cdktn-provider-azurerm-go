@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificate",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificate",
 		reflect.TypeOf((*BatchCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificateConfig",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificateConfig",
 		reflect.TypeOf((*BatchCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificateTimeouts",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificateTimeouts",
 		reflect.TypeOf((*BatchCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*BatchCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermrediscache
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCache",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCache",
 		reflect.TypeOf((*DataAzurermRedisCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeysAuthenticationEnabled", GoGetter: "AccessKeysAuthenticationEnabled"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheConfig",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheConfig",
 		reflect.TypeOf((*DataAzurermRedisCacheConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCachePatchSchedule",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCachePatchSchedule",
 		reflect.TypeOf((*DataAzurermRedisCachePatchSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCachePatchScheduleList",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCachePatchScheduleList",
 		reflect.TypeOf((*DataAzurermRedisCachePatchScheduleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCachePatchScheduleOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCachePatchScheduleOutputReference",
 		reflect.TypeOf((*DataAzurermRedisCachePatchScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheRedisConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheRedisConfiguration",
 		reflect.TypeOf((*DataAzurermRedisCacheRedisConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheRedisConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheRedisConfigurationList",
 		reflect.TypeOf((*DataAzurermRedisCacheRedisConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheRedisConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheRedisConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermRedisCacheRedisConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryAuthenticationEnabled", GoGetter: "ActiveDirectoryAuthenticationEnabled"},
@@ -225,11 +225,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheTimeouts",
 		reflect.TypeOf((*DataAzurermRedisCacheTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermRedisCache.DataAzurermRedisCacheTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermRedisCacheTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

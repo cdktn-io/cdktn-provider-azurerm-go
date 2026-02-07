@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementapiversionset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementapiversionset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementapiversionset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_version_set azurerm_api_management_api_version_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_version_set azurerm_api_management_api_version_set}.
 type ApiManagementApiVersionSet interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_ApiManagementApiVersionSet) VersionQueryNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_version_set azurerm_api_management_api_version_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_version_set azurerm_api_management_api_version_set} Resource.
 func NewApiManagementApiVersionSet(scope constructs.Construct, id *string, config *ApiManagementApiVersionSetConfig) ApiManagementApiVersionSet {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewApiManagementApiVersionSet(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_ApiManagementApiVersionSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewApiManagementApiVersionSet(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_version_set azurerm_api_management_api_version_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_version_set azurerm_api_management_api_version_set} Resource.
 func NewApiManagementApiVersionSet_Override(a ApiManagementApiVersionSet, scope constructs.Construct, id *string, config *ApiManagementApiVersionSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -727,7 +727,7 @@ func ApiManagementApiVersionSet_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func ApiManagementApiVersionSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func ApiManagementApiVersionSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func ApiManagementApiVersionSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func ApiManagementApiVersionSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
+		"@cdktn/provider-azurerm.apiManagementApiVersionSet.ApiManagementApiVersionSet",
 		"tfResourceType",
 		&returns,
 	)

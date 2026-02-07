@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnscaarecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dnscaarecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dnscaarecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewDnsCaaRecordRecordOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_DnsCaaRecordRecordOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecordOutputReference",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecordOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewDnsCaaRecordRecordOutputReference_Override(d DnsCaaRecordRecordOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecordOutputReference",
+		"@cdktn/provider-azurerm.dnsCaaRecord.DnsCaaRecordRecordOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

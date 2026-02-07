@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubendpointservicebusqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothubendpointservicebusqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubendpointservicebusqueue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue}.
 type IothubEndpointServicebusQueue interface {
 	cdktf.TerraformResource
 	AuthenticationType() *string
@@ -547,7 +547,7 @@ func (j *jsiiProxy_IothubEndpointServicebusQueue) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue} Resource.
 func NewIothubEndpointServicebusQueue(scope constructs.Construct, id *string, config *IothubEndpointServicebusQueueConfig) IothubEndpointServicebusQueue {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewIothubEndpointServicebusQueue(scope constructs.Construct, id *string, co
 	j := jsiiProxy_IothubEndpointServicebusQueue{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -565,12 +565,12 @@ func NewIothubEndpointServicebusQueue(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_endpoint_servicebus_queue azurerm_iothub_endpoint_servicebus_queue} Resource.
 func NewIothubEndpointServicebusQueue_Override(i IothubEndpointServicebusQueue, scope constructs.Construct, id *string, config *IothubEndpointServicebusQueueConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -764,7 +764,7 @@ func IothubEndpointServicebusQueue_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func IothubEndpointServicebusQueue_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func IothubEndpointServicebusQueue_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func IothubEndpointServicebusQueue_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func IothubEndpointServicebusQueue_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusQueue.IothubEndpointServicebusQueue",
 		"tfResourceType",
 		&returns,
 	)

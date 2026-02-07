@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devtestlinuxvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/devtestlinuxvirtualmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devtestlinuxvirtualmachine/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine}.
 type DevTestLinuxVirtualMachine interface {
 	cdktf.TerraformResource
 	AllowClaim() interface{}
@@ -754,7 +754,7 @@ func (j *jsiiProxy_DevTestLinuxVirtualMachine) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
 func NewDevTestLinuxVirtualMachine(scope constructs.Construct, id *string, config *DevTestLinuxVirtualMachineConfig) DevTestLinuxVirtualMachine {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewDevTestLinuxVirtualMachine(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DevTestLinuxVirtualMachine{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
+		"@cdktn/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -772,12 +772,12 @@ func NewDevTestLinuxVirtualMachine(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
 func NewDevTestLinuxVirtualMachine_Override(d DevTestLinuxVirtualMachine, scope constructs.Construct, id *string, config *DevTestLinuxVirtualMachineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
+		"@cdktn/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1037,7 +1037,7 @@ func DevTestLinuxVirtualMachine_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
+		"@cdktn/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1072,7 +1072,7 @@ func DevTestLinuxVirtualMachine_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
+		"@cdktn/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1091,7 +1091,7 @@ func DevTestLinuxVirtualMachine_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
+		"@cdktn/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1110,7 +1110,7 @@ func DevTestLinuxVirtualMachine_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
+		"@cdktn/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1123,7 +1123,7 @@ func DevTestLinuxVirtualMachine_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
+		"@cdktn/provider-azurerm.devTestLinuxVirtualMachine.DevTestLinuxVirtualMachine",
 		"tfResourceType",
 		&returns,
 	)

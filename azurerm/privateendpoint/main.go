@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privateendpoint
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpoint",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpoint",
 		reflect.TypeOf((*PrivateEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointConfig",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointConfig",
 		reflect.TypeOf((*PrivateEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointCustomDnsConfigs",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointCustomDnsConfigs",
 		reflect.TypeOf((*PrivateEndpointCustomDnsConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointCustomDnsConfigsList",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointCustomDnsConfigsList",
 		reflect.TypeOf((*PrivateEndpointCustomDnsConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -127,7 +127,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointCustomDnsConfigsOutputReference",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointCustomDnsConfigsOutputReference",
 		reflect.TypeOf((*PrivateEndpointCustomDnsConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointIpConfiguration",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointIpConfiguration",
 		reflect.TypeOf((*PrivateEndpointIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointIpConfigurationList",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointIpConfigurationList",
 		reflect.TypeOf((*PrivateEndpointIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -187,7 +187,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointIpConfigurationOutputReference",
 		reflect.TypeOf((*PrivateEndpointIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -229,11 +229,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointNetworkInterface",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointNetworkInterface",
 		reflect.TypeOf((*PrivateEndpointNetworkInterface)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointNetworkInterfaceList",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointNetworkInterfaceList",
 		reflect.TypeOf((*PrivateEndpointNetworkInterfaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -254,7 +254,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointNetworkInterfaceOutputReference",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointNetworkInterfaceOutputReference",
 		reflect.TypeOf((*PrivateEndpointNetworkInterfaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -288,11 +288,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigs",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigs",
 		reflect.TypeOf((*PrivateEndpointPrivateDnsZoneConfigs)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsList",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsList",
 		reflect.TypeOf((*PrivateEndpointPrivateDnsZoneConfigsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -313,7 +313,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsOutputReference",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsOutputReference",
 		reflect.TypeOf((*PrivateEndpointPrivateDnsZoneConfigsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -349,11 +349,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsRecordSets",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsRecordSets",
 		reflect.TypeOf((*PrivateEndpointPrivateDnsZoneConfigsRecordSets)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsRecordSetsList",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsRecordSetsList",
 		reflect.TypeOf((*PrivateEndpointPrivateDnsZoneConfigsRecordSetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -374,7 +374,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsRecordSetsOutputReference",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneConfigsRecordSetsOutputReference",
 		reflect.TypeOf((*PrivateEndpointPrivateDnsZoneConfigsRecordSetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -411,11 +411,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneGroup",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneGroup",
 		reflect.TypeOf((*PrivateEndpointPrivateDnsZoneGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneGroupOutputReference",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateDnsZoneGroupOutputReference",
 		reflect.TypeOf((*PrivateEndpointPrivateDnsZoneGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -452,11 +452,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateServiceConnection",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateServiceConnection",
 		reflect.TypeOf((*PrivateEndpointPrivateServiceConnection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointPrivateServiceConnectionOutputReference",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointPrivateServiceConnectionOutputReference",
 		reflect.TypeOf((*PrivateEndpointPrivateServiceConnectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -505,11 +505,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointTimeouts",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointTimeouts",
 		reflect.TypeOf((*PrivateEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpointTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*PrivateEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

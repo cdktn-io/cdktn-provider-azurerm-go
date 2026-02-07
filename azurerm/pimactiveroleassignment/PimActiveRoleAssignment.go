@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pimactiveroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/pimactiveroleassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/pimactiveroleassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/pim_active_role_assignment azurerm_pim_active_role_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/pim_active_role_assignment azurerm_pim_active_role_assignment}.
 type PimActiveRoleAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_PimActiveRoleAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/pim_active_role_assignment azurerm_pim_active_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/pim_active_role_assignment azurerm_pim_active_role_assignment} Resource.
 func NewPimActiveRoleAssignment(scope constructs.Construct, id *string, config *PimActiveRoleAssignmentConfig) PimActiveRoleAssignment {
 	_init_.Initialize()
 
@@ -496,7 +496,7 @@ func NewPimActiveRoleAssignment(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_PimActiveRoleAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -504,12 +504,12 @@ func NewPimActiveRoleAssignment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/pim_active_role_assignment azurerm_pim_active_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/pim_active_role_assignment azurerm_pim_active_role_assignment} Resource.
 func NewPimActiveRoleAssignment_Override(p PimActiveRoleAssignment, scope constructs.Construct, id *string, config *PimActiveRoleAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -648,7 +648,7 @@ func PimActiveRoleAssignment_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func PimActiveRoleAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func PimActiveRoleAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func PimActiveRoleAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func PimActiveRoleAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignment",
 		"tfResourceType",
 		&returns,
 	)

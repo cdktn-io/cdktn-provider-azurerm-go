@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicefabricmanagedcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/servicefabricmanagedcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicefabricmanagedcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster}.
 type ServiceFabricManagedCluster interface {
 	cdktf.TerraformResource
 	Authentication() ServiceFabricManagedClusterAuthenticationOutputReference
@@ -760,7 +760,7 @@ func (j *jsiiProxy_ServiceFabricManagedCluster) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster} Resource.
 func NewServiceFabricManagedCluster(scope constructs.Construct, id *string, config *ServiceFabricManagedClusterConfig) ServiceFabricManagedCluster {
 	_init_.Initialize()
 
@@ -770,7 +770,7 @@ func NewServiceFabricManagedCluster(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ServiceFabricManagedCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
+		"@cdktn/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -778,12 +778,12 @@ func NewServiceFabricManagedCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster} Resource.
 func NewServiceFabricManagedCluster_Override(s ServiceFabricManagedCluster, scope constructs.Construct, id *string, config *ServiceFabricManagedClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
+		"@cdktn/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1032,7 +1032,7 @@ func ServiceFabricManagedCluster_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
+		"@cdktn/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1067,7 +1067,7 @@ func ServiceFabricManagedCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
+		"@cdktn/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1086,7 +1086,7 @@ func ServiceFabricManagedCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
+		"@cdktn/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1105,7 +1105,7 @@ func ServiceFabricManagedCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
+		"@cdktn/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1118,7 +1118,7 @@ func ServiceFabricManagedCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
+		"@cdktn/provider-azurerm.serviceFabricManagedCluster.ServiceFabricManagedCluster",
 		"tfResourceType",
 		&returns,
 	)

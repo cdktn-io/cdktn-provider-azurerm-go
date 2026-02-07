@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearningcomputecluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeCluster",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeCluster",
 		reflect.TypeOf((*MachineLearningComputeCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterConfig",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterConfig",
 		reflect.TypeOf((*MachineLearningComputeClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterIdentity",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterIdentity",
 		reflect.TypeOf((*MachineLearningComputeClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterIdentityOutputReference",
 		reflect.TypeOf((*MachineLearningComputeClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -156,11 +156,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterScaleSettings",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterScaleSettings",
 		reflect.TypeOf((*MachineLearningComputeClusterScaleSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterScaleSettingsOutputReference",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterScaleSettingsOutputReference",
 		reflect.TypeOf((*MachineLearningComputeClusterScaleSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,11 +198,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterSsh",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterSsh",
 		reflect.TypeOf((*MachineLearningComputeClusterSsh)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterSshOutputReference",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterSshOutputReference",
 		reflect.TypeOf((*MachineLearningComputeClusterSshOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminPassword", GoGetter: "AdminPassword"},
@@ -242,11 +242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterTimeouts",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterTimeouts",
 		reflect.TypeOf((*MachineLearningComputeClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.machineLearningComputeCluster.MachineLearningComputeClusterTimeoutsOutputReference",
 		reflect.TypeOf((*MachineLearningComputeClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

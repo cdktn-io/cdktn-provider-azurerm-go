@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappbackupvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVault",
 		reflect.TypeOf((*NetappBackupVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVaultConfig",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVaultConfig",
 		reflect.TypeOf((*NetappBackupVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVaultTimeouts",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVaultTimeouts",
 		reflect.TypeOf((*NetappBackupVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVaultTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVaultTimeoutsOutputReference",
 		reflect.TypeOf((*NetappBackupVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermroledefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermroledefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermroledefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/role_definition azurerm_role_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/role_definition azurerm_role_definition}.
 type DataAzurermRoleDefinition interface {
 	cdktf.TerraformDataSource
 	AssignableScopes() *[]*string
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DataAzurermRoleDefinition) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/role_definition azurerm_role_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/role_definition azurerm_role_definition} Data Source.
 func NewDataAzurermRoleDefinition(scope constructs.Construct, id *string, config *DataAzurermRoleDefinitionConfig) DataAzurermRoleDefinition {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewDataAzurermRoleDefinition(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAzurermRoleDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
+		"@cdktn/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewDataAzurermRoleDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/role_definition azurerm_role_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/role_definition azurerm_role_definition} Data Source.
 func NewDataAzurermRoleDefinition_Override(d DataAzurermRoleDefinition, scope constructs.Construct, id *string, config *DataAzurermRoleDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
+		"@cdktn/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -534,7 +534,7 @@ func DataAzurermRoleDefinition_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
+		"@cdktn/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -569,7 +569,7 @@ func DataAzurermRoleDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
+		"@cdktn/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -588,7 +588,7 @@ func DataAzurermRoleDefinition_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
+		"@cdktn/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func DataAzurermRoleDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
+		"@cdktn/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func DataAzurermRoleDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
+		"@cdktn/provider-azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinition",
 		"tfResourceType",
 		&returns,
 	)

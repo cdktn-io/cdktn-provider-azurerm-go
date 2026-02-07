@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementWorkspace.ApiManagementWorkspace",
+		"@cdktn/provider-azurerm.apiManagementWorkspace.ApiManagementWorkspace",
 		reflect.TypeOf((*ApiManagementWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementWorkspace.ApiManagementWorkspaceConfig",
+		"@cdktn/provider-azurerm.apiManagementWorkspace.ApiManagementWorkspaceConfig",
 		reflect.TypeOf((*ApiManagementWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementWorkspace.ApiManagementWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.apiManagementWorkspace.ApiManagementWorkspaceTimeouts",
 		reflect.TypeOf((*ApiManagementWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementWorkspace.ApiManagementWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementWorkspace.ApiManagementWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

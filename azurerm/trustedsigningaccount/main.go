@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package trustedsigningaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.trustedSigningAccount.TrustedSigningAccount",
+		"@cdktn/provider-azurerm.trustedSigningAccount.TrustedSigningAccount",
 		reflect.TypeOf((*TrustedSigningAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountUri", GoGetter: "AccountUri"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.trustedSigningAccount.TrustedSigningAccountConfig",
+		"@cdktn/provider-azurerm.trustedSigningAccount.TrustedSigningAccountConfig",
 		reflect.TypeOf((*TrustedSigningAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.trustedSigningAccount.TrustedSigningAccountTimeouts",
+		"@cdktn/provider-azurerm.trustedSigningAccount.TrustedSigningAccountTimeouts",
 		reflect.TypeOf((*TrustedSigningAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.trustedSigningAccount.TrustedSigningAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.trustedSigningAccount.TrustedSigningAccountTimeoutsOutputReference",
 		reflect.TypeOf((*TrustedSigningAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

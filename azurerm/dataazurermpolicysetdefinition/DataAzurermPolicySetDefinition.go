@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermpolicysetdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermpolicysetdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermpolicysetdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/policy_set_definition azurerm_policy_set_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/policy_set_definition azurerm_policy_set_definition}.
 type DataAzurermPolicySetDefinition interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_DataAzurermPolicySetDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/policy_set_definition azurerm_policy_set_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/policy_set_definition azurerm_policy_set_definition} Data Source.
 func NewDataAzurermPolicySetDefinition(scope constructs.Construct, id *string, config *DataAzurermPolicySetDefinitionConfig) DataAzurermPolicySetDefinition {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewDataAzurermPolicySetDefinition(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAzurermPolicySetDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
+		"@cdktn/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewDataAzurermPolicySetDefinition(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/policy_set_definition azurerm_policy_set_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/policy_set_definition azurerm_policy_set_definition} Data Source.
 func NewDataAzurermPolicySetDefinition_Override(d DataAzurermPolicySetDefinition, scope constructs.Construct, id *string, config *DataAzurermPolicySetDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
+		"@cdktn/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -567,7 +567,7 @@ func DataAzurermPolicySetDefinition_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
+		"@cdktn/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -602,7 +602,7 @@ func DataAzurermPolicySetDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
+		"@cdktn/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -621,7 +621,7 @@ func DataAzurermPolicySetDefinition_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
+		"@cdktn/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func DataAzurermPolicySetDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
+		"@cdktn/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func DataAzurermPolicySetDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
+		"@cdktn/provider-azurerm.dataAzurermPolicySetDefinition.DataAzurermPolicySetDefinition",
 		"tfResourceType",
 		&returns,
 	)

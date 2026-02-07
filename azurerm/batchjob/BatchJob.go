@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/batchjob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/batchjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_job azurerm_batch_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_job azurerm_batch_job}.
 type BatchJob interface {
 	cdktf.TerraformResource
 	BatchPoolId() *string
@@ -476,7 +476,7 @@ func (j *jsiiProxy_BatchJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_job azurerm_batch_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_job azurerm_batch_job} Resource.
 func NewBatchJob(scope constructs.Construct, id *string, config *BatchJobConfig) BatchJob {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewBatchJob(scope constructs.Construct, id *string, config *BatchJobConfig)
 	j := jsiiProxy_BatchJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.batchJob.BatchJob",
+		"@cdktn/provider-azurerm.batchJob.BatchJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewBatchJob(scope constructs.Construct, id *string, config *BatchJobConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_job azurerm_batch_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_job azurerm_batch_job} Resource.
 func NewBatchJob_Override(b BatchJob, scope constructs.Construct, id *string, config *BatchJobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.batchJob.BatchJob",
+		"@cdktn/provider-azurerm.batchJob.BatchJob",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -660,7 +660,7 @@ func BatchJob_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchJob.BatchJob",
+		"@cdktn/provider-azurerm.batchJob.BatchJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func BatchJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchJob.BatchJob",
+		"@cdktn/provider-azurerm.batchJob.BatchJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func BatchJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchJob.BatchJob",
+		"@cdktn/provider-azurerm.batchJob.BatchJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func BatchJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchJob.BatchJob",
+		"@cdktn/provider-azurerm.batchJob.BatchJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func BatchJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.batchJob.BatchJob",
+		"@cdktn/provider-azurerm.batchJob.BatchJob",
 		"tfResourceType",
 		&returns,
 	)

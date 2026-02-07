@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backupprotectedfileshare
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
 		reflect.TypeOf((*BackupProtectedFileShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShareConfig",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShareConfig",
 		reflect.TypeOf((*BackupProtectedFileShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShareTimeouts",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShareTimeouts",
 		reflect.TypeOf((*BackupProtectedFileShareTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShareTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShareTimeoutsOutputReference",
 		reflect.TypeOf((*BackupProtectedFileShareTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lbrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/lbrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/lbrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_rule azurerm_lb_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_rule azurerm_lb_rule}.
 type LbRule interface {
 	cdktf.TerraformResource
 	BackendAddressPoolIds() *[]*string
@@ -699,7 +699,7 @@ func (j *jsiiProxy_LbRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_rule azurerm_lb_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_rule azurerm_lb_rule} Resource.
 func NewLbRule(scope constructs.Construct, id *string, config *LbRuleConfig) LbRule {
 	_init_.Initialize()
 
@@ -709,7 +709,7 @@ func NewLbRule(scope constructs.Construct, id *string, config *LbRuleConfig) LbR
 	j := jsiiProxy_LbRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lbRule.LbRule",
+		"@cdktn/provider-azurerm.lbRule.LbRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -717,12 +717,12 @@ func NewLbRule(scope constructs.Construct, id *string, config *LbRuleConfig) LbR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_rule azurerm_lb_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_rule azurerm_lb_rule} Resource.
 func NewLbRule_Override(l LbRule, scope constructs.Construct, id *string, config *LbRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lbRule.LbRule",
+		"@cdktn/provider-azurerm.lbRule.LbRule",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -982,7 +982,7 @@ func LbRule_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbRule.LbRule",
+		"@cdktn/provider-azurerm.lbRule.LbRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1017,7 +1017,7 @@ func LbRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbRule.LbRule",
+		"@cdktn/provider-azurerm.lbRule.LbRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1036,7 +1036,7 @@ func LbRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbRule.LbRule",
+		"@cdktn/provider-azurerm.lbRule.LbRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1055,7 +1055,7 @@ func LbRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbRule.LbRule",
+		"@cdktn/provider-azurerm.lbRule.LbRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1068,7 +1068,7 @@ func LbRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.lbRule.LbRule",
+		"@cdktn/provider-azurerm.lbRule.LbRule",
 		"tfResourceType",
 		&returns,
 	)

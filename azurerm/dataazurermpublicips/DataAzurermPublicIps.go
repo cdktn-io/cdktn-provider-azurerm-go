@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermpublicips
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermpublicips/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermpublicips/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/public_ips azurerm_public_ips}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/public_ips azurerm_public_ips}.
 type DataAzurermPublicIps interface {
 	cdktf.TerraformDataSource
 	AllocationType() *string
@@ -395,7 +395,7 @@ func (j *jsiiProxy_DataAzurermPublicIps) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/public_ips azurerm_public_ips} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/public_ips azurerm_public_ips} Data Source.
 func NewDataAzurermPublicIps(scope constructs.Construct, id *string, config *DataAzurermPublicIpsConfig) DataAzurermPublicIps {
 	_init_.Initialize()
 
@@ -405,7 +405,7 @@ func NewDataAzurermPublicIps(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAzurermPublicIps{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -413,12 +413,12 @@ func NewDataAzurermPublicIps(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/public_ips azurerm_public_ips} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/public_ips azurerm_public_ips} Data Source.
 func NewDataAzurermPublicIps_Override(d DataAzurermPublicIps, scope constructs.Construct, id *string, config *DataAzurermPublicIpsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -535,7 +535,7 @@ func DataAzurermPublicIps_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -570,7 +570,7 @@ func DataAzurermPublicIps_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -589,7 +589,7 @@ func DataAzurermPublicIps_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func DataAzurermPublicIps_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -621,7 +621,7 @@ func DataAzurermPublicIps_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
 		"tfResourceType",
 		&returns,
 	)

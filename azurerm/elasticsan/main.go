@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticsan
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSan",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
 		reflect.TypeOf((*ElasticSan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSanConfig",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSanConfig",
 		reflect.TypeOf((*ElasticSanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSanSku",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSanSku",
 		reflect.TypeOf((*ElasticSanSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSanSkuOutputReference",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSanSkuOutputReference",
 		reflect.TypeOf((*ElasticSanSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSanTimeouts",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSanTimeouts",
 		reflect.TypeOf((*ElasticSanTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSanTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSanTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticSanTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

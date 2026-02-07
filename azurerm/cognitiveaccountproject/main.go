@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cognitiveaccountproject
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
 		reflect.TypeOf((*CognitiveAccountProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectConfig",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectConfig",
 		reflect.TypeOf((*CognitiveAccountProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectIdentity",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectIdentity",
 		reflect.TypeOf((*CognitiveAccountProjectIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectIdentityOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectIdentityOutputReference",
 		reflect.TypeOf((*CognitiveAccountProjectIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectTimeouts",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectTimeouts",
 		reflect.TypeOf((*CognitiveAccountProjectTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProjectTimeoutsOutputReference",
 		reflect.TypeOf((*CognitiveAccountProjectTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

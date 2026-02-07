@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkwatcher
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcher",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcher",
 		reflect.TypeOf((*NetworkWatcher)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcherConfig",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcherConfig",
 		reflect.TypeOf((*NetworkWatcherConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcherTimeouts",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcherTimeouts",
 		reflect.TypeOf((*NetworkWatcherTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcherTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcherTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkWatcherTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

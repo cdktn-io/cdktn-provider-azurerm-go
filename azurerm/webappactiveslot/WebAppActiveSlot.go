@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webappactiveslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webappactiveslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webappactiveslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_app_active_slot azurerm_web_app_active_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_app_active_slot azurerm_web_app_active_slot}.
 type WebAppActiveSlot interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -392,7 +392,7 @@ func (j *jsiiProxy_WebAppActiveSlot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_app_active_slot azurerm_web_app_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_app_active_slot azurerm_web_app_active_slot} Resource.
 func NewWebAppActiveSlot(scope constructs.Construct, id *string, config *WebAppActiveSlotConfig) WebAppActiveSlot {
 	_init_.Initialize()
 
@@ -402,7 +402,7 @@ func NewWebAppActiveSlot(scope constructs.Construct, id *string, config *WebAppA
 	j := jsiiProxy_WebAppActiveSlot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -410,12 +410,12 @@ func NewWebAppActiveSlot(scope constructs.Construct, id *string, config *WebAppA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_app_active_slot azurerm_web_app_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_app_active_slot azurerm_web_app_active_slot} Resource.
 func NewWebAppActiveSlot_Override(w WebAppActiveSlot, scope constructs.Construct, id *string, config *WebAppActiveSlotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -532,7 +532,7 @@ func WebAppActiveSlot_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -567,7 +567,7 @@ func WebAppActiveSlot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -586,7 +586,7 @@ func WebAppActiveSlot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func WebAppActiveSlot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -618,7 +618,7 @@ func WebAppActiveSlot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
 		"tfResourceType",
 		&returns,
 	)

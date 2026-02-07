@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlmanagedinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqlmanagedinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlmanagedinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance}.
 type MssqlManagedInstance interface {
 	cdktf.TerraformResource
 	AdministratorLogin() *string
@@ -948,7 +948,7 @@ func (j *jsiiProxy_MssqlManagedInstance) ZoneRedundantEnabledInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
 func NewMssqlManagedInstance(scope constructs.Construct, id *string, config *MssqlManagedInstanceConfig) MssqlManagedInstance {
 	_init_.Initialize()
 
@@ -958,7 +958,7 @@ func NewMssqlManagedInstance(scope constructs.Construct, id *string, config *Mss
 	j := jsiiProxy_MssqlManagedInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -966,12 +966,12 @@ func NewMssqlManagedInstance(scope constructs.Construct, id *string, config *Mss
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
 func NewMssqlManagedInstance_Override(m MssqlManagedInstance, scope constructs.Construct, id *string, config *MssqlManagedInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1319,7 +1319,7 @@ func MssqlManagedInstance_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1354,7 +1354,7 @@ func MssqlManagedInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1373,7 +1373,7 @@ func MssqlManagedInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1392,7 +1392,7 @@ func MssqlManagedInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1405,7 +1405,7 @@ func MssqlManagedInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
+		"@cdktn/provider-azurerm.mssqlManagedInstance.MssqlManagedInstance",
 		"tfResourceType",
 		&returns,
 	)

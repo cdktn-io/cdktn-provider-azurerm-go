@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubdeviceupdateinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothubdeviceupdateinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubdeviceupdateinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_device_update_instance azurerm_iothub_device_update_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_device_update_instance azurerm_iothub_device_update_instance}.
 type IothubDeviceUpdateInstance interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -475,7 +475,7 @@ func (j *jsiiProxy_IothubDeviceUpdateInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_device_update_instance azurerm_iothub_device_update_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_device_update_instance azurerm_iothub_device_update_instance} Resource.
 func NewIothubDeviceUpdateInstance(scope constructs.Construct, id *string, config *IothubDeviceUpdateInstanceConfig) IothubDeviceUpdateInstance {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewIothubDeviceUpdateInstance(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_IothubDeviceUpdateInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
+		"@cdktn/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewIothubDeviceUpdateInstance(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_device_update_instance azurerm_iothub_device_update_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_device_update_instance azurerm_iothub_device_update_instance} Resource.
 func NewIothubDeviceUpdateInstance_Override(i IothubDeviceUpdateInstance, scope constructs.Construct, id *string, config *IothubDeviceUpdateInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
+		"@cdktn/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -648,7 +648,7 @@ func IothubDeviceUpdateInstance_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
+		"@cdktn/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func IothubDeviceUpdateInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
+		"@cdktn/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func IothubDeviceUpdateInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
+		"@cdktn/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func IothubDeviceUpdateInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
+		"@cdktn/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func IothubDeviceUpdateInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
+		"@cdktn/provider-azurerm.iothubDeviceUpdateInstance.IothubDeviceUpdateInstance",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermpublicips
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIps",
 		reflect.TypeOf((*DataAzurermPublicIps)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsConfig",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsConfig",
 		reflect.TypeOf((*DataAzurermPublicIpsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsPublicIps",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsPublicIps",
 		reflect.TypeOf((*DataAzurermPublicIpsPublicIps)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsPublicIpsList",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsPublicIpsList",
 		reflect.TypeOf((*DataAzurermPublicIpsPublicIpsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsPublicIpsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsPublicIpsOutputReference",
 		reflect.TypeOf((*DataAzurermPublicIpsPublicIpsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsTimeouts",
 		reflect.TypeOf((*DataAzurermPublicIpsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPublicIps.DataAzurermPublicIpsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermPublicIpsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

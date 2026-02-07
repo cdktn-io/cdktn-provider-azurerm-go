@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewAppConfigurationPrimaryWriteKeyList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_AppConfigurationPrimaryWriteKeyList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKeyList",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKeyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewAppConfigurationPrimaryWriteKeyList_Override(a AppConfigurationPrimaryWr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKeyList",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKeyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

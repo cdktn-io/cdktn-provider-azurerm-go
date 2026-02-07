@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pimactiveroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/pimactiveroleassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/pimactiveroleassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewPimActiveRoleAssignmentScheduleOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_PimActiveRoleAssignmentScheduleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleOutputReference",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewPimActiveRoleAssignmentScheduleOutputReference_Override(p PimActiveRoleA
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleOutputReference",
+		"@cdktn/provider-azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

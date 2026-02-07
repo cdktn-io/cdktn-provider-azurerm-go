@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hdinsightinteractivequerycluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/hdinsightinteractivequerycluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsightinteractivequerycluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster}.
 type HdinsightInteractiveQueryCluster interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -852,7 +852,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryCluster) TlsMinVersionInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster} Resource.
 func NewHdinsightInteractiveQueryCluster(scope constructs.Construct, id *string, config *HdinsightInteractiveQueryClusterConfig) HdinsightInteractiveQueryCluster {
 	_init_.Initialize()
 
@@ -862,7 +862,7 @@ func NewHdinsightInteractiveQueryCluster(scope constructs.Construct, id *string,
 	j := jsiiProxy_HdinsightInteractiveQueryCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
+		"@cdktn/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -870,12 +870,12 @@ func NewHdinsightInteractiveQueryCluster(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hdinsight_interactive_query_cluster azurerm_hdinsight_interactive_query_cluster} Resource.
 func NewHdinsightInteractiveQueryCluster_Override(h HdinsightInteractiveQueryCluster, scope constructs.Construct, id *string, config *HdinsightInteractiveQueryClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
+		"@cdktn/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -1058,7 +1058,7 @@ func HdinsightInteractiveQueryCluster_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
+		"@cdktn/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1093,7 +1093,7 @@ func HdinsightInteractiveQueryCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
+		"@cdktn/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1112,7 +1112,7 @@ func HdinsightInteractiveQueryCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
+		"@cdktn/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1131,7 +1131,7 @@ func HdinsightInteractiveQueryCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
+		"@cdktn/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1144,7 +1144,7 @@ func HdinsightInteractiveQueryCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
+		"@cdktn/provider-azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryCluster",
 		"tfResourceType",
 		&returns,
 	)

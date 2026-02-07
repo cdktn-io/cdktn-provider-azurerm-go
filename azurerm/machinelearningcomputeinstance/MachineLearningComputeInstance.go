@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearningcomputeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/machinelearningcomputeinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/machinelearningcomputeinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance}.
 type MachineLearningComputeInstance interface {
 	cdktf.TerraformResource
 	AssignToUser() MachineLearningComputeInstanceAssignToUserOutputReference
@@ -619,7 +619,7 @@ func (j *jsiiProxy_MachineLearningComputeInstance) VirtualMachineSizeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance} Resource.
 func NewMachineLearningComputeInstance(scope constructs.Construct, id *string, config *MachineLearningComputeInstanceConfig) MachineLearningComputeInstance {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewMachineLearningComputeInstance(scope constructs.Construct, id *string, c
 	j := jsiiProxy_MachineLearningComputeInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -637,12 +637,12 @@ func NewMachineLearningComputeInstance(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance} Resource.
 func NewMachineLearningComputeInstance_Override(m MachineLearningComputeInstance, scope constructs.Construct, id *string, config *MachineLearningComputeInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -836,7 +836,7 @@ func MachineLearningComputeInstance_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -871,7 +871,7 @@ func MachineLearningComputeInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -890,7 +890,7 @@ func MachineLearningComputeInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -909,7 +909,7 @@ func MachineLearningComputeInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -922,7 +922,7 @@ func MachineLearningComputeInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
 		"tfResourceType",
 		&returns,
 	)

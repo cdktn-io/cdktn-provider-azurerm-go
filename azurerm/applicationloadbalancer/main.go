@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationloadbalancer
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancer",
 		reflect.TypeOf((*ApplicationLoadBalancer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancerConfig",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancerConfig",
 		reflect.TypeOf((*ApplicationLoadBalancerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancerTimeouts",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancerTimeouts",
 		reflect.TypeOf((*ApplicationLoadBalancerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.applicationLoadBalancer.ApplicationLoadBalancerTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationLoadBalancerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

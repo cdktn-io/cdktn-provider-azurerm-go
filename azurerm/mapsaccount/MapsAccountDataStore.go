@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mapsaccount
 
 
 type MapsAccountDataStore struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maps_account#unique_name MapsAccount#unique_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maps_account#unique_name MapsAccount#unique_name}.
 	UniqueName *string `field:"required" json:"uniqueName" yaml:"uniqueName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maps_account#storage_account_id MapsAccount#storage_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maps_account#storage_account_id MapsAccount#storage_account_id}.
 	StorageAccountId *string `field:"optional" json:"storageAccountId" yaml:"storageAccountId"`
 }
 

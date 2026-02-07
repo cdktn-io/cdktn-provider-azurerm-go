@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appconfigurationfeature
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
 		reflect.TypeOf((*AppConfigurationFeature)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,19 +106,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureConfig",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureConfig",
 		reflect.TypeOf((*AppConfigurationFeatureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilter",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilter",
 		reflect.TypeOf((*AppConfigurationFeatureTargetingFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterGroups",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterGroups",
 		reflect.TypeOf((*AppConfigurationFeatureTargetingFilterGroups)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterGroupsList",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterGroupsList",
 		reflect.TypeOf((*AppConfigurationFeatureTargetingFilterGroupsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterGroupsOutputReference",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterGroupsOutputReference",
 		reflect.TypeOf((*AppConfigurationFeatureTargetingFilterGroupsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterList",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterList",
 		reflect.TypeOf((*AppConfigurationFeatureTargetingFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -198,7 +198,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterOutputReference",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterOutputReference",
 		reflect.TypeOf((*AppConfigurationFeatureTargetingFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -239,11 +239,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimeouts",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimeouts",
 		reflect.TypeOf((*AppConfigurationFeatureTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimeoutsOutputReference",
 		reflect.TypeOf((*AppConfigurationFeatureTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -287,11 +287,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimewindowFilter",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimewindowFilter",
 		reflect.TypeOf((*AppConfigurationFeatureTimewindowFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimewindowFilterList",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimewindowFilterList",
 		reflect.TypeOf((*AppConfigurationFeatureTimewindowFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -313,7 +313,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimewindowFilterOutputReference",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeatureTimewindowFilterOutputReference",
 		reflect.TypeOf((*AppConfigurationFeatureTimewindowFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

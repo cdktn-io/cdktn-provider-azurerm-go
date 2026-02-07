@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicebusnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/servicebusnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicebusnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_namespace azurerm_servicebus_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_namespace azurerm_servicebus_namespace}.
 type ServicebusNamespace interface {
 	cdktf.TerraformResource
 	Capacity() *float64
@@ -697,7 +697,7 @@ func (j *jsiiProxy_ServicebusNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_namespace azurerm_servicebus_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_namespace azurerm_servicebus_namespace} Resource.
 func NewServicebusNamespace(scope constructs.Construct, id *string, config *ServicebusNamespaceConfig) ServicebusNamespace {
 	_init_.Initialize()
 
@@ -707,7 +707,7 @@ func NewServicebusNamespace(scope constructs.Construct, id *string, config *Serv
 	j := jsiiProxy_ServicebusNamespace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespace",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -715,12 +715,12 @@ func NewServicebusNamespace(scope constructs.Construct, id *string, config *Serv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_namespace azurerm_servicebus_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_namespace azurerm_servicebus_namespace} Resource.
 func NewServicebusNamespace_Override(s ServicebusNamespace, scope constructs.Construct, id *string, config *ServicebusNamespaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespace",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespace",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -925,7 +925,7 @@ func ServicebusNamespace_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespace",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -960,7 +960,7 @@ func ServicebusNamespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespace",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -979,7 +979,7 @@ func ServicebusNamespace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespace",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -998,7 +998,7 @@ func ServicebusNamespace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespace",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1011,7 +1011,7 @@ func ServicebusNamespace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespace",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespace",
 		"tfResourceType",
 		&returns,
 	)

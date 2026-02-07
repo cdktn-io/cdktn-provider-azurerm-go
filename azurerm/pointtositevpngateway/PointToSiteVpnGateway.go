@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pointtositevpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/pointtositevpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/pointtositevpngateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/point_to_site_vpn_gateway azurerm_point_to_site_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/point_to_site_vpn_gateway azurerm_point_to_site_vpn_gateway}.
 type PointToSiteVpnGateway interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -567,7 +567,7 @@ func (j *jsiiProxy_PointToSiteVpnGateway) VpnServerConfigurationIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/point_to_site_vpn_gateway azurerm_point_to_site_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/point_to_site_vpn_gateway azurerm_point_to_site_vpn_gateway} Resource.
 func NewPointToSiteVpnGateway(scope constructs.Construct, id *string, config *PointToSiteVpnGatewayConfig) PointToSiteVpnGateway {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewPointToSiteVpnGateway(scope constructs.Construct, id *string, config *Po
 	j := jsiiProxy_PointToSiteVpnGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
+		"@cdktn/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewPointToSiteVpnGateway(scope constructs.Construct, id *string, config *Po
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/point_to_site_vpn_gateway azurerm_point_to_site_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/point_to_site_vpn_gateway azurerm_point_to_site_vpn_gateway} Resource.
 func NewPointToSiteVpnGateway_Override(p PointToSiteVpnGateway, scope constructs.Construct, id *string, config *PointToSiteVpnGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
+		"@cdktn/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -784,7 +784,7 @@ func PointToSiteVpnGateway_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
+		"@cdktn/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -819,7 +819,7 @@ func PointToSiteVpnGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
+		"@cdktn/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func PointToSiteVpnGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
+		"@cdktn/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -857,7 +857,7 @@ func PointToSiteVpnGateway_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
+		"@cdktn/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -870,7 +870,7 @@ func PointToSiteVpnGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
+		"@cdktn/provider-azurerm.pointToSiteVpnGateway.PointToSiteVpnGateway",
 		"tfResourceType",
 		&returns,
 	)

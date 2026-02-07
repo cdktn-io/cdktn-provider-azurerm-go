@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbsqlfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbsqlfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbsqlfunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_function azurerm_cosmosdb_sql_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_function azurerm_cosmosdb_sql_function}.
 type CosmosdbSqlFunction interface {
 	cdktf.TerraformResource
 	Body() *string
@@ -403,7 +403,7 @@ func (j *jsiiProxy_CosmosdbSqlFunction) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_function azurerm_cosmosdb_sql_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_function azurerm_cosmosdb_sql_function} Resource.
 func NewCosmosdbSqlFunction(scope constructs.Construct, id *string, config *CosmosdbSqlFunctionConfig) CosmosdbSqlFunction {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewCosmosdbSqlFunction(scope constructs.Construct, id *string, config *Cosm
 	j := jsiiProxy_CosmosdbSqlFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewCosmosdbSqlFunction(scope constructs.Construct, id *string, config *Cosm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_function azurerm_cosmosdb_sql_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_function azurerm_cosmosdb_sql_function} Resource.
 func NewCosmosdbSqlFunction_Override(c CosmosdbSqlFunction, scope constructs.Construct, id *string, config *CosmosdbSqlFunctionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -554,7 +554,7 @@ func CosmosdbSqlFunction_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func CosmosdbSqlFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func CosmosdbSqlFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func CosmosdbSqlFunction_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func CosmosdbSqlFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
 		"tfResourceType",
 		&returns,
 	)

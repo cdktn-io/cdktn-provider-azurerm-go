@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageaccountcustomermanagedkey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
 		reflect.TypeOf((*StorageAccountCustomerManagedKeyA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -44,6 +44,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "keyNameInput", GoGetter: "KeyNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "keyVaultId", GoGetter: "KeyVaultId"},
 			_jsii_.MemberProperty{JsiiProperty: "keyVaultIdInput", GoGetter: "KeyVaultIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "keyVaultKeyId", GoGetter: "KeyVaultKeyId"},
+			_jsii_.MemberProperty{JsiiProperty: "keyVaultKeyIdInput", GoGetter: "KeyVaultKeyIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "keyVaultUri", GoGetter: "KeyVaultUri"},
 			_jsii_.MemberProperty{JsiiProperty: "keyVaultUriInput", GoGetter: "KeyVaultUriInput"},
 			_jsii_.MemberProperty{JsiiProperty: "keyVersion", GoGetter: "KeyVersion"},
@@ -62,7 +64,9 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFederatedIdentityClientId", GoMethod: "ResetFederatedIdentityClientId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetKeyName", GoMethod: "ResetKeyName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKeyVaultId", GoMethod: "ResetKeyVaultId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetKeyVaultKeyId", GoMethod: "ResetKeyVaultKeyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKeyVaultUri", GoMethod: "ResetKeyVaultUri"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKeyVersion", GoMethod: "ResetKeyVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetManagedHsmKeyId", GoMethod: "ResetManagedHsmKeyId"},
@@ -92,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyAConfig",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyAConfig",
 		reflect.TypeOf((*StorageAccountCustomerManagedKeyAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyTimeouts",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyTimeouts",
 		reflect.TypeOf((*StorageAccountCustomerManagedKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyTimeoutsOutputReference",
 		reflect.TypeOf((*StorageAccountCustomerManagedKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

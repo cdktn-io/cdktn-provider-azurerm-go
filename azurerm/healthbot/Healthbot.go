@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/healthbot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthbot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthbot azurerm_healthbot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthbot azurerm_healthbot}.
 type Healthbot interface {
 	cdktf.TerraformResource
 	BotManagementPortalUrl() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_Healthbot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthbot azurerm_healthbot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthbot azurerm_healthbot} Resource.
 func NewHealthbot(scope constructs.Construct, id *string, config *HealthbotConfig) Healthbot {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewHealthbot(scope constructs.Construct, id *string, config *HealthbotConfi
 	j := jsiiProxy_Healthbot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthbot.Healthbot",
+		"@cdktn/provider-azurerm.healthbot.Healthbot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -479,12 +479,12 @@ func NewHealthbot(scope constructs.Construct, id *string, config *HealthbotConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthbot azurerm_healthbot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthbot azurerm_healthbot} Resource.
 func NewHealthbot_Override(h Healthbot, scope constructs.Construct, id *string, config *HealthbotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthbot.Healthbot",
+		"@cdktn/provider-azurerm.healthbot.Healthbot",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -634,7 +634,7 @@ func Healthbot_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthbot.Healthbot",
+		"@cdktn/provider-azurerm.healthbot.Healthbot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -669,7 +669,7 @@ func Healthbot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthbot.Healthbot",
+		"@cdktn/provider-azurerm.healthbot.Healthbot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func Healthbot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthbot.Healthbot",
+		"@cdktn/provider-azurerm.healthbot.Healthbot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func Healthbot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthbot.Healthbot",
+		"@cdktn/provider-azurerm.healthbot.Healthbot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func Healthbot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.healthbot.Healthbot",
+		"@cdktn/provider-azurerm.healthbot.Healthbot",
 		"tfResourceType",
 		&returns,
 	)

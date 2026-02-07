@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnszone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dnszone/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dnszone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_zone azurerm_dns_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_zone azurerm_dns_zone}.
 type DnsZone interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_DnsZone) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_zone azurerm_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_zone azurerm_dns_zone} Resource.
 func NewDnsZone(scope constructs.Construct, id *string, config *DnsZoneConfig) DnsZone {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewDnsZone(scope constructs.Construct, id *string, config *DnsZoneConfig) D
 	j := jsiiProxy_DnsZone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsZone.DnsZone",
+		"@cdktn/provider-azurerm.dnsZone.DnsZone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -479,12 +479,12 @@ func NewDnsZone(scope constructs.Construct, id *string, config *DnsZoneConfig) D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_zone azurerm_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_zone azurerm_dns_zone} Resource.
 func NewDnsZone_Override(d DnsZone, scope constructs.Construct, id *string, config *DnsZoneConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsZone.DnsZone",
+		"@cdktn/provider-azurerm.dnsZone.DnsZone",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -612,7 +612,7 @@ func DnsZone_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsZone.DnsZone",
+		"@cdktn/provider-azurerm.dnsZone.DnsZone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -647,7 +647,7 @@ func DnsZone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsZone.DnsZone",
+		"@cdktn/provider-azurerm.dnsZone.DnsZone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func DnsZone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsZone.DnsZone",
+		"@cdktn/provider-azurerm.dnsZone.DnsZone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -685,7 +685,7 @@ func DnsZone_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsZone.DnsZone",
+		"@cdktn/provider-azurerm.dnsZone.DnsZone",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func DnsZone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dnsZone.DnsZone",
+		"@cdktn/provider-azurerm.dnsZone.DnsZone",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitorscheduledqueryrulesalert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitorscheduledqueryrulesalert/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitorscheduledqueryrulesalert/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert}.
 type MonitorScheduledQueryRulesAlert interface {
 	cdktf.TerraformResource
 	Action() MonitorScheduledQueryRulesAlertActionOutputReference
@@ -733,7 +733,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlert) TriggerInput() *MonitorSched
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert} Resource.
 func NewMonitorScheduledQueryRulesAlert(scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesAlertConfig) MonitorScheduledQueryRulesAlert {
 	_init_.Initialize()
 
@@ -743,7 +743,7 @@ func NewMonitorScheduledQueryRulesAlert(scope constructs.Construct, id *string, 
 	j := jsiiProxy_MonitorScheduledQueryRulesAlert{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -751,12 +751,12 @@ func NewMonitorScheduledQueryRulesAlert(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_alert azurerm_monitor_scheduled_query_rules_alert} Resource.
 func NewMonitorScheduledQueryRulesAlert_Override(m MonitorScheduledQueryRulesAlert, scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesAlertConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1016,7 +1016,7 @@ func MonitorScheduledQueryRulesAlert_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1051,7 +1051,7 @@ func MonitorScheduledQueryRulesAlert_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1070,7 +1070,7 @@ func MonitorScheduledQueryRulesAlert_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1089,7 +1089,7 @@ func MonitorScheduledQueryRulesAlert_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1102,7 +1102,7 @@ func MonitorScheduledQueryRulesAlert_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlert",
 		"tfResourceType",
 		&returns,
 	)

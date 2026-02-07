@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudappredisassociation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudAppRedisAssociation.SpringCloudAppRedisAssociation",
+		"@cdktn/provider-azurerm.springCloudAppRedisAssociation.SpringCloudAppRedisAssociation",
 		reflect.TypeOf((*SpringCloudAppRedisAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudAppRedisAssociation.SpringCloudAppRedisAssociationConfig",
+		"@cdktn/provider-azurerm.springCloudAppRedisAssociation.SpringCloudAppRedisAssociationConfig",
 		reflect.TypeOf((*SpringCloudAppRedisAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudAppRedisAssociation.SpringCloudAppRedisAssociationTimeouts",
+		"@cdktn/provider-azurerm.springCloudAppRedisAssociation.SpringCloudAppRedisAssociationTimeouts",
 		reflect.TypeOf((*SpringCloudAppRedisAssociationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudAppRedisAssociation.SpringCloudAppRedisAssociationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudAppRedisAssociation.SpringCloudAppRedisAssociationTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudAppRedisAssociationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

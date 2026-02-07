@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnection",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnection",
 		reflect.TypeOf((*AutomationConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnectionConfig",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnectionConfig",
 		reflect.TypeOf((*AutomationConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnectionTimeouts",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnectionTimeouts",
 		reflect.TypeOf((*AutomationConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

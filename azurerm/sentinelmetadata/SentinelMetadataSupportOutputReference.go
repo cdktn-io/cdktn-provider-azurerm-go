@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelmetadata
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sentinelmetadata/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelmetadata/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewSentinelMetadataSupportOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_SentinelMetadataSupportOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataSupportOutputReference",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataSupportOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewSentinelMetadataSupportOutputReference_Override(s SentinelMetadataSuppor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelMetadata.SentinelMetadataSupportOutputReference",
+		"@cdktn/provider-azurerm.sentinelMetadata.SentinelMetadataSupportOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

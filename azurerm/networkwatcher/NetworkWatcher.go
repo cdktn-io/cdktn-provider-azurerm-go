@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkwatcher
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkwatcher/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkwatcher/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_watcher azurerm_network_watcher}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_watcher azurerm_network_watcher}.
 type NetworkWatcher interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_NetworkWatcher) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_watcher azurerm_network_watcher} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_watcher azurerm_network_watcher} Resource.
 func NewNetworkWatcher(scope constructs.Construct, id *string, config *NetworkWatcherConfig) NetworkWatcher {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewNetworkWatcher(scope constructs.Construct, id *string, config *NetworkWa
 	j := jsiiProxy_NetworkWatcher{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcher",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcher",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewNetworkWatcher(scope constructs.Construct, id *string, config *NetworkWa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_watcher azurerm_network_watcher} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_watcher azurerm_network_watcher} Resource.
 func NewNetworkWatcher_Override(n NetworkWatcher, scope constructs.Construct, id *string, config *NetworkWatcherConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcher",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcher",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -589,7 +589,7 @@ func NetworkWatcher_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcher",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcher",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func NetworkWatcher_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcher",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcher",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func NetworkWatcher_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcher",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcher",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func NetworkWatcher_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcher",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcher",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func NetworkWatcher_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkWatcher.NetworkWatcher",
+		"@cdktn/provider-azurerm.networkWatcher.NetworkWatcher",
 		"tfResourceType",
 		&returns,
 	)

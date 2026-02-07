@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webpubsub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub azurerm_web_pubsub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub azurerm_web_pubsub}.
 type WebPubsub interface {
 	cdktf.TerraformResource
 	AadAuthEnabled() interface{}
@@ -717,7 +717,7 @@ func (j *jsiiProxy_WebPubsub) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub azurerm_web_pubsub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub azurerm_web_pubsub} Resource.
 func NewWebPubsub(scope constructs.Construct, id *string, config *WebPubsubConfig) WebPubsub {
 	_init_.Initialize()
 
@@ -727,7 +727,7 @@ func NewWebPubsub(scope constructs.Construct, id *string, config *WebPubsubConfi
 	j := jsiiProxy_WebPubsub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsub",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -735,12 +735,12 @@ func NewWebPubsub(scope constructs.Construct, id *string, config *WebPubsubConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub azurerm_web_pubsub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub azurerm_web_pubsub} Resource.
 func NewWebPubsub_Override(w WebPubsub, scope constructs.Construct, id *string, config *WebPubsubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsub",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsub",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -945,7 +945,7 @@ func WebPubsub_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsub",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -980,7 +980,7 @@ func WebPubsub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsub",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -999,7 +999,7 @@ func WebPubsub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsub",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1018,7 +1018,7 @@ func WebPubsub_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsub",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsub",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1031,7 +1031,7 @@ func WebPubsub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.webPubsub.WebPubsub",
+		"@cdktn/provider-azurerm.webPubsub.WebPubsub",
 		"tfResourceType",
 		&returns,
 	)

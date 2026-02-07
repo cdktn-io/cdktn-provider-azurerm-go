@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package staticsite
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.staticSite.StaticSite",
+		"@cdktn/provider-azurerm.staticSite.StaticSite",
 		reflect.TypeOf((*StaticSite)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.staticSite.StaticSiteConfig",
+		"@cdktn/provider-azurerm.staticSite.StaticSiteConfig",
 		reflect.TypeOf((*StaticSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.staticSite.StaticSiteIdentity",
+		"@cdktn/provider-azurerm.staticSite.StaticSiteIdentity",
 		reflect.TypeOf((*StaticSiteIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.staticSite.StaticSiteIdentityOutputReference",
+		"@cdktn/provider-azurerm.staticSite.StaticSiteIdentityOutputReference",
 		reflect.TypeOf((*StaticSiteIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.staticSite.StaticSiteTimeouts",
+		"@cdktn/provider-azurerm.staticSite.StaticSiteTimeouts",
 		reflect.TypeOf((*StaticSiteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.staticSite.StaticSiteTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.staticSite.StaticSiteTimeoutsOutputReference",
 		reflect.TypeOf((*StaticSiteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

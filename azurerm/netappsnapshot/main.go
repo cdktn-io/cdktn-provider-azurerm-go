@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappsnapshot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshot",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshot",
 		reflect.TypeOf((*NetappSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshotConfig",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshotConfig",
 		reflect.TypeOf((*NetappSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshotTimeouts",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshotTimeouts",
 		reflect.TypeOf((*NetappSnapshotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshotTimeoutsOutputReference",
 		reflect.TypeOf((*NetappSnapshotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedapplicationdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/managedapplicationdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managedapplicationdefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_application_definition azurerm_managed_application_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_application_definition azurerm_managed_application_definition}.
 type ManagedApplicationDefinition interface {
 	cdktf.TerraformResource
 	Authorization() ManagedApplicationDefinitionAuthorizationList
@@ -617,7 +617,7 @@ func (j *jsiiProxy_ManagedApplicationDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_application_definition azurerm_managed_application_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_application_definition azurerm_managed_application_definition} Resource.
 func NewManagedApplicationDefinition(scope constructs.Construct, id *string, config *ManagedApplicationDefinitionConfig) ManagedApplicationDefinition {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewManagedApplicationDefinition(scope constructs.Construct, id *string, con
 	j := jsiiProxy_ManagedApplicationDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -635,12 +635,12 @@ func NewManagedApplicationDefinition(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_application_definition azurerm_managed_application_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_application_definition azurerm_managed_application_definition} Resource.
 func NewManagedApplicationDefinition_Override(m ManagedApplicationDefinition, scope constructs.Construct, id *string, config *ManagedApplicationDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -856,7 +856,7 @@ func ManagedApplicationDefinition_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -891,7 +891,7 @@ func ManagedApplicationDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -910,7 +910,7 @@ func ManagedApplicationDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -929,7 +929,7 @@ func ManagedApplicationDefinition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -942,7 +942,7 @@ func ManagedApplicationDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
+		"@cdktn/provider-azurerm.managedApplicationDefinition.ManagedApplicationDefinition",
 		"tfResourceType",
 		&returns,
 	)

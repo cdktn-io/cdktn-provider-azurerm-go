@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbtable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table}.
 type CosmosdbTable interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_CosmosdbTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table} Resource.
 func NewCosmosdbTable(scope constructs.Construct, id *string, config *CosmosdbTableConfig) CosmosdbTable {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewCosmosdbTable(scope constructs.Construct, id *string, config *CosmosdbTa
 	j := jsiiProxy_CosmosdbTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTable",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewCosmosdbTable(scope constructs.Construct, id *string, config *CosmosdbTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_table azurerm_cosmosdb_table} Resource.
 func NewCosmosdbTable_Override(c CosmosdbTable, scope constructs.Construct, id *string, config *CosmosdbTableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTable",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTable",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -613,7 +613,7 @@ func CosmosdbTable_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTable",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func CosmosdbTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTable",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func CosmosdbTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTable",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func CosmosdbTable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTable",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func CosmosdbTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbTable.CosmosdbTable",
+		"@cdktn/provider-azurerm.cosmosdbTable.CosmosdbTable",
 		"tfResourceType",
 		&returns,
 	)

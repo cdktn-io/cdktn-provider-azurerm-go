@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationinsightssmartdetectionrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/applicationinsightssmartdetectionrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationinsightssmartdetectionrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_smart_detection_rule azurerm_application_insights_smart_detection_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_smart_detection_rule azurerm_application_insights_smart_detection_rule}.
 type ApplicationInsightsSmartDetectionRule interface {
 	cdktf.TerraformResource
 	AdditionalEmailRecipients() *[]*string
@@ -452,7 +452,7 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_smart_detection_rule azurerm_application_insights_smart_detection_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_smart_detection_rule azurerm_application_insights_smart_detection_rule} Resource.
 func NewApplicationInsightsSmartDetectionRule(scope constructs.Construct, id *string, config *ApplicationInsightsSmartDetectionRuleConfig) ApplicationInsightsSmartDetectionRule {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewApplicationInsightsSmartDetectionRule(scope constructs.Construct, id *st
 	j := jsiiProxy_ApplicationInsightsSmartDetectionRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
+		"@cdktn/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewApplicationInsightsSmartDetectionRule(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_smart_detection_rule azurerm_application_insights_smart_detection_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_smart_detection_rule azurerm_application_insights_smart_detection_rule} Resource.
 func NewApplicationInsightsSmartDetectionRule_Override(a ApplicationInsightsSmartDetectionRule, scope constructs.Construct, id *string, config *ApplicationInsightsSmartDetectionRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
+		"@cdktn/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -625,7 +625,7 @@ func ApplicationInsightsSmartDetectionRule_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
+		"@cdktn/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func ApplicationInsightsSmartDetectionRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
+		"@cdktn/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func ApplicationInsightsSmartDetectionRule_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
+		"@cdktn/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func ApplicationInsightsSmartDetectionRule_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
+		"@cdktn/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func ApplicationInsightsSmartDetectionRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
+		"@cdktn/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
 		"tfResourceType",
 		&returns,
 	)

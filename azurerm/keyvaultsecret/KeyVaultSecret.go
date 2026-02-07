@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/keyvaultsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultsecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_secret azurerm_key_vault_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_secret azurerm_key_vault_secret}.
 type KeyVaultSecret interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -592,7 +592,7 @@ func (j *jsiiProxy_KeyVaultSecret) VersionlessId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_secret azurerm_key_vault_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_secret azurerm_key_vault_secret} Resource.
 func NewKeyVaultSecret(scope constructs.Construct, id *string, config *KeyVaultSecretConfig) KeyVaultSecret {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewKeyVaultSecret(scope constructs.Construct, id *string, config *KeyVaultS
 	j := jsiiProxy_KeyVaultSecret{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecret",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecret",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -610,12 +610,12 @@ func NewKeyVaultSecret(scope constructs.Construct, id *string, config *KeyVaultS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_secret azurerm_key_vault_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_secret azurerm_key_vault_secret} Resource.
 func NewKeyVaultSecret_Override(k KeyVaultSecret, scope constructs.Construct, id *string, config *KeyVaultSecretConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecret",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecret",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -809,7 +809,7 @@ func KeyVaultSecret_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecret",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecret",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -844,7 +844,7 @@ func KeyVaultSecret_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecret",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecret",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func KeyVaultSecret_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecret",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecret",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -882,7 +882,7 @@ func KeyVaultSecret_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecret",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecret",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -895,7 +895,7 @@ func KeyVaultSecret_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecret",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecret",
 		"tfResourceType",
 		&returns,
 	)

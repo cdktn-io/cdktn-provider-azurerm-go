@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package signalrservicenetworkacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/signalrservicenetworkacl/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/signalrservicenetworkacl/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl}.
 type SignalrServiceNetworkAcl interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAcl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
 func NewSignalrServiceNetworkAcl(scope constructs.Construct, id *string, config *SignalrServiceNetworkAclConfig) SignalrServiceNetworkAcl {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewSignalrServiceNetworkAcl(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_SignalrServiceNetworkAcl{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
+		"@cdktn/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewSignalrServiceNetworkAcl(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
 func NewSignalrServiceNetworkAcl_Override(s SignalrServiceNetworkAcl, scope constructs.Construct, id *string, config *SignalrServiceNetworkAclConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
+		"@cdktn/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -567,7 +567,7 @@ func SignalrServiceNetworkAcl_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
+		"@cdktn/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -602,7 +602,7 @@ func SignalrServiceNetworkAcl_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
+		"@cdktn/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -621,7 +621,7 @@ func SignalrServiceNetworkAcl_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
+		"@cdktn/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func SignalrServiceNetworkAcl_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
+		"@cdktn/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func SignalrServiceNetworkAcl_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
+		"@cdktn/provider-azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAcl",
 		"tfResourceType",
 		&returns,
 	)

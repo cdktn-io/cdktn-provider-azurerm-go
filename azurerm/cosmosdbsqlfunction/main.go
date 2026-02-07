@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbsqlfunction
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunction",
 		reflect.TypeOf((*CosmosdbSqlFunction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunctionConfig",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunctionConfig",
 		reflect.TypeOf((*CosmosdbSqlFunctionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunctionTimeouts",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunctionTimeouts",
 		reflect.TypeOf((*CosmosdbSqlFunctionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunctionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbSqlFunction.CosmosdbSqlFunctionTimeoutsOutputReference",
 		reflect.TypeOf((*CosmosdbSqlFunctionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

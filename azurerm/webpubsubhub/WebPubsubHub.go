@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webpubsubhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub}.
 type WebPubsubHub interface {
 	cdktf.TerraformResource
 	AnonymousConnectionsEnabled() interface{}
@@ -452,7 +452,7 @@ func (j *jsiiProxy_WebPubsubHub) WebPubsubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
 func NewWebPubsubHub(scope constructs.Construct, id *string, config *WebPubsubHubConfig) WebPubsubHub {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewWebPubsubHub(scope constructs.Construct, id *string, config *WebPubsubHu
 	j := jsiiProxy_WebPubsubHub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHub",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewWebPubsubHub(scope constructs.Construct, id *string, config *WebPubsubHu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
 func NewWebPubsubHub_Override(w WebPubsubHub, scope constructs.Construct, id *string, config *WebPubsubHubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHub",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHub",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -603,7 +603,7 @@ func WebPubsubHub_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHub",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -638,7 +638,7 @@ func WebPubsubHub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHub",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -657,7 +657,7 @@ func WebPubsubHub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHub",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func WebPubsubHub_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHub",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHub",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func WebPubsubHub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHub",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHub",
 		"tfResourceType",
 		&returns,
 	)

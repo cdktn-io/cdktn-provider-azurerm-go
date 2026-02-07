@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicefabriccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/servicefabriccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicefabriccluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster}.
 type ServiceFabricCluster interface {
 	cdktf.TerraformResource
 	AddOnFeatures() *[]*string
@@ -889,7 +889,7 @@ func (j *jsiiProxy_ServiceFabricCluster) VmssZonalUpgradeModeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster} Resource.
 func NewServiceFabricCluster(scope constructs.Construct, id *string, config *ServiceFabricClusterConfig) ServiceFabricCluster {
 	_init_.Initialize()
 
@@ -899,7 +899,7 @@ func NewServiceFabricCluster(scope constructs.Construct, id *string, config *Ser
 	j := jsiiProxy_ServiceFabricCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -907,12 +907,12 @@ func NewServiceFabricCluster(scope constructs.Construct, id *string, config *Ser
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster} Resource.
 func NewServiceFabricCluster_Override(s ServiceFabricCluster, scope constructs.Construct, id *string, config *ServiceFabricClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1139,7 +1139,7 @@ func ServiceFabricCluster_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1174,7 +1174,7 @@ func ServiceFabricCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1193,7 +1193,7 @@ func ServiceFabricCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1212,7 +1212,7 @@ func ServiceFabricCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1225,7 +1225,7 @@ func ServiceFabricCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
 		"tfResourceType",
 		&returns,
 	)

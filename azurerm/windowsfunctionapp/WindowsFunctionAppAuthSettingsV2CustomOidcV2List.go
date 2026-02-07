@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/windowsfunctionapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsfunctionapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWindowsFunctionAppAuthSettingsV2CustomOidcV2List(terraformResource cdktf
 	j := jsiiProxy_WindowsFunctionAppAuthSettingsV2CustomOidcV2List{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2List",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2List",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWindowsFunctionAppAuthSettingsV2CustomOidcV2List_Override(w WindowsFunct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2List",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2CustomOidcV2List",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccacheblobnfstarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/hpccacheblobnfstarget/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hpccacheblobnfstarget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target}.
 type HpcCacheBlobNfsTarget interface {
 	cdktf.TerraformResource
 	AccessPolicyName() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_HpcCacheBlobNfsTarget) WriteBackTimerInSecondsInput() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target} Resource.
 func NewHpcCacheBlobNfsTarget(scope constructs.Construct, id *string, config *HpcCacheBlobNfsTargetConfig) HpcCacheBlobNfsTarget {
 	_init_.Initialize()
 
@@ -554,7 +554,7 @@ func NewHpcCacheBlobNfsTarget(scope constructs.Construct, id *string, config *Hp
 	j := jsiiProxy_HpcCacheBlobNfsTarget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
+		"@cdktn/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -562,12 +562,12 @@ func NewHpcCacheBlobNfsTarget(scope constructs.Construct, id *string, config *Hp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target} Resource.
 func NewHpcCacheBlobNfsTarget_Override(h HpcCacheBlobNfsTarget, scope constructs.Construct, id *string, config *HpcCacheBlobNfsTargetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
+		"@cdktn/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -761,7 +761,7 @@ func HpcCacheBlobNfsTarget_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
+		"@cdktn/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -796,7 +796,7 @@ func HpcCacheBlobNfsTarget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
+		"@cdktn/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func HpcCacheBlobNfsTarget_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
+		"@cdktn/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -834,7 +834,7 @@ func HpcCacheBlobNfsTarget_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
+		"@cdktn/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func HpcCacheBlobNfsTarget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
+		"@cdktn/provider-azurerm.hpcCacheBlobNfsTarget.HpcCacheBlobNfsTarget",
 		"tfResourceType",
 		&returns,
 	)

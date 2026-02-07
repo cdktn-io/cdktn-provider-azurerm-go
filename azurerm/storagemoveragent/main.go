@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemoveragent
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgent",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
 		reflect.TypeOf((*StorageMoverAgent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgentConfig",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgentConfig",
 		reflect.TypeOf((*StorageMoverAgentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgentTimeouts",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgentTimeouts",
 		reflect.TypeOf((*StorageMoverAgentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageMoverAgent.StorageMoverAgentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgentTimeoutsOutputReference",
 		reflect.TypeOf((*StorageMoverAgentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

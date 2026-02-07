@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticssavedsearch
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearch",
+		"@cdktn/provider-azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearch",
 		reflect.TypeOf((*LogAnalyticsSavedSearch)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearchConfig",
+		"@cdktn/provider-azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearchConfig",
 		reflect.TypeOf((*LogAnalyticsSavedSearchConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearchTimeouts",
+		"@cdktn/provider-azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearchTimeouts",
 		reflect.TypeOf((*LogAnalyticsSavedSearchTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearchTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearchTimeoutsOutputReference",
 		reflect.TypeOf((*LogAnalyticsSavedSearchTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

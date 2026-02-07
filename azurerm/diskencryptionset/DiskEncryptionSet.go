@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package diskencryptionset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/diskencryptionset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/diskencryptionset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/disk_encryption_set azurerm_disk_encryption_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/disk_encryption_set azurerm_disk_encryption_set}.
 type DiskEncryptionSet interface {
 	cdktf.TerraformResource
 	AutoKeyRotationEnabled() interface{}
@@ -581,7 +581,7 @@ func (j *jsiiProxy_DiskEncryptionSet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/disk_encryption_set azurerm_disk_encryption_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/disk_encryption_set azurerm_disk_encryption_set} Resource.
 func NewDiskEncryptionSet(scope constructs.Construct, id *string, config *DiskEncryptionSetConfig) DiskEncryptionSet {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewDiskEncryptionSet(scope constructs.Construct, id *string, config *DiskEn
 	j := jsiiProxy_DiskEncryptionSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -599,12 +599,12 @@ func NewDiskEncryptionSet(scope constructs.Construct, id *string, config *DiskEn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/disk_encryption_set azurerm_disk_encryption_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/disk_encryption_set azurerm_disk_encryption_set} Resource.
 func NewDiskEncryptionSet_Override(d DiskEncryptionSet, scope constructs.Construct, id *string, config *DiskEncryptionSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -798,7 +798,7 @@ func DiskEncryptionSet_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +833,7 @@ func DiskEncryptionSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func DiskEncryptionSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func DiskEncryptionSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func DiskEncryptionSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
+		"@cdktn/provider-azurerm.diskEncryptionSet.DiskEncryptionSet",
 		"tfResourceType",
 		&returns,
 	)

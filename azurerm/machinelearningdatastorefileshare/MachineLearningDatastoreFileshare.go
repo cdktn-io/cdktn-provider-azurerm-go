@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearningdatastorefileshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/machinelearningdatastorefileshare/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/machinelearningdatastorefileshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare}.
 type MachineLearningDatastoreFileshare interface {
 	cdktf.TerraformResource
 	AccountKey() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_MachineLearningDatastoreFileshare) WorkspaceIdInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare} Resource.
 func NewMachineLearningDatastoreFileshare(scope constructs.Construct, id *string, config *MachineLearningDatastoreFileshareConfig) MachineLearningDatastoreFileshare {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewMachineLearningDatastoreFileshare(scope constructs.Construct, id *string
 	j := jsiiProxy_MachineLearningDatastoreFileshare{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewMachineLearningDatastoreFileshare(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_datastore_fileshare azurerm_machine_learning_datastore_fileshare} Resource.
 func NewMachineLearningDatastoreFileshare_Override(m MachineLearningDatastoreFileshare, scope constructs.Construct, id *string, config *MachineLearningDatastoreFileshareConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -740,7 +740,7 @@ func MachineLearningDatastoreFileshare_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func MachineLearningDatastoreFileshare_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func MachineLearningDatastoreFileshare_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func MachineLearningDatastoreFileshare_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func MachineLearningDatastoreFileshare_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
 		"tfResourceType",
 		&returns,
 	)

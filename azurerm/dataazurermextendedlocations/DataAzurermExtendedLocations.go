@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermextendedlocations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermextendedlocations/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermextendedlocations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/extended_locations azurerm_extended_locations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/extended_locations azurerm_extended_locations}.
 type DataAzurermExtendedLocations interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAzurermExtendedLocations) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/extended_locations azurerm_extended_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/extended_locations azurerm_extended_locations} Data Source.
 func NewDataAzurermExtendedLocations(scope constructs.Construct, id *string, config *DataAzurermExtendedLocationsConfig) DataAzurermExtendedLocations {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAzurermExtendedLocations(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAzurermExtendedLocations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
+		"@cdktn/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAzurermExtendedLocations(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/extended_locations azurerm_extended_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/extended_locations azurerm_extended_locations} Data Source.
 func NewDataAzurermExtendedLocations_Override(d DataAzurermExtendedLocations, scope constructs.Construct, id *string, config *DataAzurermExtendedLocationsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
+		"@cdktn/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -430,7 +430,7 @@ func DataAzurermExtendedLocations_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
+		"@cdktn/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -465,7 +465,7 @@ func DataAzurermExtendedLocations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
+		"@cdktn/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -484,7 +484,7 @@ func DataAzurermExtendedLocations_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
+		"@cdktn/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataAzurermExtendedLocations_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
+		"@cdktn/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func DataAzurermExtendedLocations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
+		"@cdktn/provider-azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocations",
 		"tfResourceType",
 		&returns,
 	)

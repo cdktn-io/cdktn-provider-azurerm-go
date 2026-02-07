@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorycustomdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorycustomdataset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorycustomdataset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset}.
 type DataFactoryCustomDataset interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_DataFactoryCustomDataset) TypePropertiesJsonInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset} Resource.
 func NewDataFactoryCustomDataset(scope constructs.Construct, id *string, config *DataFactoryCustomDatasetConfig) DataFactoryCustomDataset {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewDataFactoryCustomDataset(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataFactoryCustomDataset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -611,12 +611,12 @@ func NewDataFactoryCustomDataset(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_custom_dataset azurerm_data_factory_custom_dataset} Resource.
 func NewDataFactoryCustomDataset_Override(d DataFactoryCustomDataset, scope constructs.Construct, id *string, config *DataFactoryCustomDatasetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -821,7 +821,7 @@ func DataFactoryCustomDataset_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -856,7 +856,7 @@ func DataFactoryCustomDataset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -875,7 +875,7 @@ func DataFactoryCustomDataset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -894,7 +894,7 @@ func DataFactoryCustomDataset_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -907,7 +907,7 @@ func DataFactoryCustomDataset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
 		"tfResourceType",
 		&returns,
 	)

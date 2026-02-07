@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springclouddevtoolportal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springclouddevtoolportal/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springclouddevtoolportal/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal}.
 type SpringCloudDevToolPortal interface {
 	cdktf.TerraformResource
 	ApplicationAcceleratorEnabled() interface{}
@@ -476,7 +476,7 @@ func (j *jsiiProxy_SpringCloudDevToolPortal) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal} Resource.
 func NewSpringCloudDevToolPortal(scope constructs.Construct, id *string, config *SpringCloudDevToolPortalConfig) SpringCloudDevToolPortal {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewSpringCloudDevToolPortal(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_SpringCloudDevToolPortal{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewSpringCloudDevToolPortal(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal} Resource.
 func NewSpringCloudDevToolPortal_Override(s SpringCloudDevToolPortal, scope constructs.Construct, id *string, config *SpringCloudDevToolPortalConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -649,7 +649,7 @@ func SpringCloudDevToolPortal_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -684,7 +684,7 @@ func SpringCloudDevToolPortal_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -703,7 +703,7 @@ func SpringCloudDevToolPortal_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func SpringCloudDevToolPortal_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func SpringCloudDevToolPortal_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
+		"@cdktn/provider-azurerm.springCloudDevToolPortal.SpringCloudDevToolPortal",
 		"tfResourceType",
 		&returns,
 	)

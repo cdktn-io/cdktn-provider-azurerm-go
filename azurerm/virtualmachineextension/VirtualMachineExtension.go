@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachineextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualmachineextension/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachineextension/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension}.
 type VirtualMachineExtension interface {
 	cdktf.TerraformResource
 	AutomaticUpgradeEnabled() interface{}
@@ -641,7 +641,7 @@ func (j *jsiiProxy_VirtualMachineExtension) VirtualMachineIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
 func NewVirtualMachineExtension(scope constructs.Construct, id *string, config *VirtualMachineExtensionConfig) VirtualMachineExtension {
 	_init_.Initialize()
 
@@ -651,7 +651,7 @@ func NewVirtualMachineExtension(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_VirtualMachineExtension{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -659,12 +659,12 @@ func NewVirtualMachineExtension(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
 func NewVirtualMachineExtension_Override(v VirtualMachineExtension, scope constructs.Construct, id *string, config *VirtualMachineExtensionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -891,7 +891,7 @@ func VirtualMachineExtension_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -926,7 +926,7 @@ func VirtualMachineExtension_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -945,7 +945,7 @@ func VirtualMachineExtension_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -964,7 +964,7 @@ func VirtualMachineExtension_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -977,7 +977,7 @@ func VirtualMachineExtension_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
+		"@cdktn/provider-azurerm.virtualMachineExtension.VirtualMachineExtension",
 		"tfResourceType",
 		&returns,
 	)

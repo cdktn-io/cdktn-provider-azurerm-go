@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventhubconsumergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/eventhubconsumergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventhubconsumergroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_consumer_group azurerm_eventhub_consumer_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_consumer_group azurerm_eventhub_consumer_group}.
 type EventhubConsumerGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_EventhubConsumerGroup) UserMetadataInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_consumer_group azurerm_eventhub_consumer_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_consumer_group azurerm_eventhub_consumer_group} Resource.
 func NewEventhubConsumerGroup(scope constructs.Construct, id *string, config *EventhubConsumerGroupConfig) EventhubConsumerGroup {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewEventhubConsumerGroup(scope constructs.Construct, id *string, config *Ev
 	j := jsiiProxy_EventhubConsumerGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewEventhubConsumerGroup(scope constructs.Construct, id *string, config *Ev
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_consumer_group azurerm_eventhub_consumer_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_consumer_group azurerm_eventhub_consumer_group} Resource.
 func NewEventhubConsumerGroup_Override(e EventhubConsumerGroup, scope constructs.Construct, id *string, config *EventhubConsumerGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -623,7 +623,7 @@ func EventhubConsumerGroup_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func EventhubConsumerGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func EventhubConsumerGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func EventhubConsumerGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func EventhubConsumerGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
 		"tfResourceType",
 		&returns,
 	)

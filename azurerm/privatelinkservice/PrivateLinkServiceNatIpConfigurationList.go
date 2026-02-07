@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatelinkservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/privatelinkservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privatelinkservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPrivateLinkServiceNatIpConfigurationList(terraformResource cdktf.IInterp
 	j := jsiiProxy_PrivateLinkServiceNatIpConfigurationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfigurationList",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPrivateLinkServiceNatIpConfigurationList_Override(p PrivateLinkServiceNa
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfigurationList",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfigurationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

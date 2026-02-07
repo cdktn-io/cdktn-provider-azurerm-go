@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificate",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificate",
 		reflect.TypeOf((*KeyVaultCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificate",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificate",
 		reflect.TypeOf((*KeyVaultCertificateCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateAttribute",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateAttribute",
 		reflect.TypeOf((*KeyVaultCertificateCertificateAttribute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateAttributeList",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateAttributeList",
 		reflect.TypeOf((*KeyVaultCertificateCertificateAttributeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateAttributeOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateAttributeOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificateAttributeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,7 +162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificateOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -199,15 +199,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicy",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicy",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyIssuerParameters",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyIssuerParameters",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyIssuerParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyIssuerParametersOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyIssuerParametersOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyIssuerParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -241,11 +241,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyKeyProperties",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyKeyProperties",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyKeyProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyKeyPropertiesOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyKeyPropertiesOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyKeyPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -289,15 +289,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeAction",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeAction",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyLifetimeAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionAction",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionAction",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyLifetimeActionAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionActionOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionActionOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyLifetimeActionActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionType", GoGetter: "ActionType"},
@@ -331,7 +331,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionList",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionList",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyLifetimeActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -353,7 +353,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyLifetimeActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -391,11 +391,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionTrigger",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionTrigger",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyLifetimeActionTrigger)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionTriggerOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionTriggerOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyLifetimeActionTriggerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -433,7 +433,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -482,11 +482,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicySecretProperties",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicySecretProperties",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicySecretProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicySecretPropertiesOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicySecretPropertiesOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicySecretPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -520,11 +520,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificateProperties",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificateProperties",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyX509CertificateProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificatePropertiesOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificatePropertiesOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyX509CertificatePropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -569,11 +569,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificatePropertiesSubjectAlternativeNames",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificatePropertiesSubjectAlternativeNames",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyX509CertificatePropertiesSubjectAlternativeNames)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificatePropertiesSubjectAlternativeNamesOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificatePropertiesSubjectAlternativeNamesOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateCertificatePolicyX509CertificatePropertiesSubjectAlternativeNamesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -614,15 +614,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateConfig",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateConfig",
 		reflect.TypeOf((*KeyVaultCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateTimeouts",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateTimeouts",
 		reflect.TypeOf((*KeyVaultCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultCertificate.KeyVaultCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*KeyVaultCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

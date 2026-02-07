@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccacheaccesspolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
 		reflect.TypeOf((*HpcCacheAccessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRule", GoGetter: "AccessRule"},
@@ -77,11 +77,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyAccessRule",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyAccessRule",
 		reflect.TypeOf((*HpcCacheAccessPolicyAccessRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyAccessRuleList",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyAccessRuleList",
 		reflect.TypeOf((*HpcCacheAccessPolicyAccessRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -103,7 +103,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyAccessRuleOutputReference",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyAccessRuleOutputReference",
 		reflect.TypeOf((*HpcCacheAccessPolicyAccessRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
@@ -157,15 +157,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyConfig",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyConfig",
 		reflect.TypeOf((*HpcCacheAccessPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyTimeouts",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyTimeouts",
 		reflect.TypeOf((*HpcCacheAccessPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*HpcCacheAccessPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

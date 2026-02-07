@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermipgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermIpGroup.DataAzurermIpGroup",
+		"@cdktn/provider-azurerm.dataAzurermIpGroup.DataAzurermIpGroup",
 		reflect.TypeOf((*DataAzurermIpGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,15 +69,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermIpGroup.DataAzurermIpGroupConfig",
+		"@cdktn/provider-azurerm.dataAzurermIpGroup.DataAzurermIpGroupConfig",
 		reflect.TypeOf((*DataAzurermIpGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermIpGroup.DataAzurermIpGroupTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermIpGroup.DataAzurermIpGroupTimeouts",
 		reflect.TypeOf((*DataAzurermIpGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermIpGroup.DataAzurermIpGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermIpGroup.DataAzurermIpGroupTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermIpGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

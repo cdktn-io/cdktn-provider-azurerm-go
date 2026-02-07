@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdnsptrrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdnsptrrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdnsptrrecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record}.
 type DataAzurermDnsPtrRecord interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAzurermDnsPtrRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
 func NewDataAzurermDnsPtrRecord(scope constructs.Construct, id *string, config *DataAzurermDnsPtrRecordConfig) DataAzurermDnsPtrRecord {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAzurermDnsPtrRecord(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAzurermDnsPtrRecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -420,12 +420,12 @@ func NewDataAzurermDnsPtrRecord(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
 func NewDataAzurermDnsPtrRecord_Override(d DataAzurermDnsPtrRecord, scope constructs.Construct, id *string, config *DataAzurermDnsPtrRecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -531,7 +531,7 @@ func DataAzurermDnsPtrRecord_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func DataAzurermDnsPtrRecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAzurermDnsPtrRecord_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func DataAzurermDnsPtrRecord_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAzurermDnsPtrRecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
+		"@cdktn/provider-azurerm.dataAzurermDnsPtrRecord.DataAzurermDnsPtrRecord",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lb
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lb.Lb",
+		"@cdktn/provider-azurerm.lb.Lb",
 		reflect.TypeOf((*Lb)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lb.LbConfig",
+		"@cdktn/provider-azurerm.lb.LbConfig",
 		reflect.TypeOf((*LbConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lb.LbFrontendIpConfiguration",
+		"@cdktn/provider-azurerm.lb.LbFrontendIpConfiguration",
 		reflect.TypeOf((*LbFrontendIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lb.LbFrontendIpConfigurationList",
+		"@cdktn/provider-azurerm.lb.LbFrontendIpConfigurationList",
 		reflect.TypeOf((*LbFrontendIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lb.LbFrontendIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.lb.LbFrontendIpConfigurationOutputReference",
 		reflect.TypeOf((*LbFrontendIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -192,11 +192,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lb.LbTimeouts",
+		"@cdktn/provider-azurerm.lb.LbTimeouts",
 		reflect.TypeOf((*LbTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lb.LbTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.lb.LbTimeoutsOutputReference",
 		reflect.TypeOf((*LbTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappactioncustom
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/logicappactioncustom/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappactioncustom/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom}.
 type LogicAppActionCustom interface {
 	cdktf.TerraformResource
 	Body() *string
@@ -403,7 +403,7 @@ func (j *jsiiProxy_LogicAppActionCustom) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom} Resource.
 func NewLogicAppActionCustom(scope constructs.Construct, id *string, config *LogicAppActionCustomConfig) LogicAppActionCustom {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewLogicAppActionCustom(scope constructs.Construct, id *string, config *Log
 	j := jsiiProxy_LogicAppActionCustom{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
+		"@cdktn/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewLogicAppActionCustom(scope constructs.Construct, id *string, config *Log
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_action_custom azurerm_logic_app_action_custom} Resource.
 func NewLogicAppActionCustom_Override(l LogicAppActionCustom, scope constructs.Construct, id *string, config *LogicAppActionCustomConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
+		"@cdktn/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -554,7 +554,7 @@ func LogicAppActionCustom_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
+		"@cdktn/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func LogicAppActionCustom_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
+		"@cdktn/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func LogicAppActionCustom_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
+		"@cdktn/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func LogicAppActionCustom_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
+		"@cdktn/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func LogicAppActionCustom_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
+		"@cdktn/provider-azurerm.logicAppActionCustom.LogicAppActionCustom",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticsjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJob",
+		"@cdktn/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJob",
 		reflect.TypeOf((*StreamAnalyticsJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -123,15 +123,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobConfig",
+		"@cdktn/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobConfig",
 		reflect.TypeOf((*StreamAnalyticsJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobIdentity",
+		"@cdktn/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobIdentity",
 		reflect.TypeOf((*StreamAnalyticsJobIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobIdentityOutputReference",
+		"@cdktn/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobIdentityOutputReference",
 		reflect.TypeOf((*StreamAnalyticsJobIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobJobStorageAccount",
+		"@cdktn/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobJobStorageAccount",
 		reflect.TypeOf((*StreamAnalyticsJobJobStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobJobStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobJobStorageAccountOutputReference",
 		reflect.TypeOf((*StreamAnalyticsJobJobStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountKey", GoGetter: "AccountKey"},
@@ -214,11 +214,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobTimeouts",
+		"@cdktn/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobTimeouts",
 		reflect.TypeOf((*StreamAnalyticsJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.streamAnalyticsJob.StreamAnalyticsJobTimeoutsOutputReference",
 		reflect.TypeOf((*StreamAnalyticsJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

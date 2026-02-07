@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package blueprintassignment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.blueprintAssignment.BlueprintAssignment",
+		"@cdktn/provider-azurerm.blueprintAssignment.BlueprintAssignment",
 		reflect.TypeOf((*BlueprintAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.blueprintAssignment.BlueprintAssignmentConfig",
+		"@cdktn/provider-azurerm.blueprintAssignment.BlueprintAssignmentConfig",
 		reflect.TypeOf((*BlueprintAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.blueprintAssignment.BlueprintAssignmentIdentity",
+		"@cdktn/provider-azurerm.blueprintAssignment.BlueprintAssignmentIdentity",
 		reflect.TypeOf((*BlueprintAssignmentIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.blueprintAssignment.BlueprintAssignmentIdentityOutputReference",
+		"@cdktn/provider-azurerm.blueprintAssignment.BlueprintAssignmentIdentityOutputReference",
 		reflect.TypeOf((*BlueprintAssignmentIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.blueprintAssignment.BlueprintAssignmentTimeouts",
+		"@cdktn/provider-azurerm.blueprintAssignment.BlueprintAssignmentTimeouts",
 		reflect.TypeOf((*BlueprintAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.blueprintAssignment.BlueprintAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.blueprintAssignment.BlueprintAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*BlueprintAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

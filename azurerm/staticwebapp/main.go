@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package staticwebapp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.staticWebApp.StaticWebApp",
+		"@cdktn/provider-azurerm.staticWebApp.StaticWebApp",
 		reflect.TypeOf((*StaticWebApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,11 +116,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.staticWebApp.StaticWebAppBasicAuth",
+		"@cdktn/provider-azurerm.staticWebApp.StaticWebAppBasicAuth",
 		reflect.TypeOf((*StaticWebAppBasicAuth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.staticWebApp.StaticWebAppBasicAuthOutputReference",
+		"@cdktn/provider-azurerm.staticWebApp.StaticWebAppBasicAuthOutputReference",
 		reflect.TypeOf((*StaticWebAppBasicAuthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -156,15 +156,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.staticWebApp.StaticWebAppConfig",
+		"@cdktn/provider-azurerm.staticWebApp.StaticWebAppConfig",
 		reflect.TypeOf((*StaticWebAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.staticWebApp.StaticWebAppIdentity",
+		"@cdktn/provider-azurerm.staticWebApp.StaticWebAppIdentity",
 		reflect.TypeOf((*StaticWebAppIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.staticWebApp.StaticWebAppIdentityOutputReference",
+		"@cdktn/provider-azurerm.staticWebApp.StaticWebAppIdentityOutputReference",
 		reflect.TypeOf((*StaticWebAppIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -203,11 +203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.staticWebApp.StaticWebAppTimeouts",
+		"@cdktn/provider-azurerm.staticWebApp.StaticWebAppTimeouts",
 		reflect.TypeOf((*StaticWebAppTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.staticWebApp.StaticWebAppTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.staticWebApp.StaticWebAppTimeoutsOutputReference",
 		reflect.TypeOf((*StaticWebAppTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kubernetescluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesCluster",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesCluster",
 		reflect.TypeOf((*KubernetesCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aciConnectorLinux", GoGetter: "AciConnectorLinux"},
@@ -124,6 +124,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeOsUpgradeChannel", GoGetter: "NodeOsUpgradeChannel"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeOsUpgradeChannelInput", GoGetter: "NodeOsUpgradeChannelInput"},
+			_jsii_.MemberProperty{JsiiProperty: "nodeProvisioningProfile", GoGetter: "NodeProvisioningProfile"},
+			_jsii_.MemberProperty{JsiiProperty: "nodeProvisioningProfileInput", GoGetter: "NodeProvisioningProfileInput"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeResourceGroup", GoGetter: "NodeResourceGroup"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeResourceGroupId", GoGetter: "NodeResourceGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeResourceGroupInput", GoGetter: "NodeResourceGroupInput"},
@@ -165,6 +167,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putMicrosoftDefender", GoMethod: "PutMicrosoftDefender"},
 			_jsii_.MemberMethod{JsiiMethod: "putMonitorMetrics", GoMethod: "PutMonitorMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkProfile", GoMethod: "PutNetworkProfile"},
+			_jsii_.MemberMethod{JsiiMethod: "putNodeProvisioningProfile", GoMethod: "PutNodeProvisioningProfile"},
 			_jsii_.MemberMethod{JsiiMethod: "putOmsAgent", GoMethod: "PutOmsAgent"},
 			_jsii_.MemberMethod{JsiiMethod: "putServiceMeshProfile", GoMethod: "PutServiceMeshProfile"},
 			_jsii_.MemberMethod{JsiiMethod: "putServicePrincipal", GoMethod: "PutServicePrincipal"},
@@ -210,6 +213,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetMonitorMetrics", GoMethod: "ResetMonitorMetrics"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkProfile", GoMethod: "ResetNetworkProfile"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNodeOsUpgradeChannel", GoMethod: "ResetNodeOsUpgradeChannel"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNodeProvisioningProfile", GoMethod: "ResetNodeProvisioningProfile"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNodeResourceGroup", GoMethod: "ResetNodeResourceGroup"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOidcIssuerEnabled", GoMethod: "ResetOidcIssuerEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOmsAgent", GoMethod: "ResetOmsAgent"},
@@ -279,15 +283,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinux",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinux",
 		reflect.TypeOf((*KubernetesClusterAciConnectorLinux)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxConnectorIdentity",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxConnectorIdentity",
 		reflect.TypeOf((*KubernetesClusterAciConnectorLinuxConnectorIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxConnectorIdentityList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxConnectorIdentityList",
 		reflect.TypeOf((*KubernetesClusterAciConnectorLinuxConnectorIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -308,7 +312,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxConnectorIdentityOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxConnectorIdentityOutputReference",
 		reflect.TypeOf((*KubernetesClusterAciConnectorLinuxConnectorIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -343,7 +347,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxOutputReference",
 		reflect.TypeOf((*KubernetesClusterAciConnectorLinuxOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -378,11 +382,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterApiServerAccessProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterApiServerAccessProfile",
 		reflect.TypeOf((*KubernetesClusterApiServerAccessProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterApiServerAccessProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterApiServerAccessProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterApiServerAccessProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizedIpRanges", GoGetter: "AuthorizedIpRanges"},
@@ -423,11 +427,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAutoScalerProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAutoScalerProfile",
 		reflect.TypeOf((*KubernetesClusterAutoScalerProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAutoScalerProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAutoScalerProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterAutoScalerProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "balanceSimilarNodeGroups", GoGetter: "BalanceSimilarNodeGroups"},
@@ -519,11 +523,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAzureActiveDirectoryRoleBasedAccessControl",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAzureActiveDirectoryRoleBasedAccessControl",
 		reflect.TypeOf((*KubernetesClusterAzureActiveDirectoryRoleBasedAccessControl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference",
 		reflect.TypeOf((*KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminGroupObjectIds", GoGetter: "AdminGroupObjectIds"},
@@ -564,11 +568,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterBootstrapProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterBootstrapProfile",
 		reflect.TypeOf((*KubernetesClusterBootstrapProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterBootstrapProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterBootstrapProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterBootstrapProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "artifactSource", GoGetter: "ArtifactSource"},
@@ -606,11 +610,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterConfidentialComputing",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterConfidentialComputing",
 		reflect.TypeOf((*KubernetesClusterConfidentialComputing)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterConfidentialComputingOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterConfidentialComputingOutputReference",
 		reflect.TypeOf((*KubernetesClusterConfidentialComputingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -644,19 +648,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterConfig",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterConfig",
 		reflect.TypeOf((*KubernetesClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePool",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePool",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePool)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolKubeletConfig",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolKubeletConfig",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolKubeletConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolKubeletConfigOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolKubeletConfigOutputReference",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolKubeletConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedUnsafeSysctls", GoGetter: "AllowedUnsafeSysctls"},
@@ -718,11 +722,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfig",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfig",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolLinuxOsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfigOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfigOutputReference",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolLinuxOsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -770,11 +774,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfig",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfig",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfigOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfigOutputReference",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -893,15 +897,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfile",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolNodeNetworkProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPorts",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPorts",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPorts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPortsList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPortsList",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPortsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -923,7 +927,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPortsOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPortsOutputReference",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPortsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -964,7 +968,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolNodeNetworkProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHostPorts", GoGetter: "AllowedHostPorts"},
@@ -1006,7 +1010,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolOutputReference",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoScalingEnabled", GoGetter: "AutoScalingEnabled"},
@@ -1152,11 +1156,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolUpgradeSettings",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolUpgradeSettings",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolUpgradeSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolUpgradeSettingsOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolUpgradeSettingsOutputReference",
 		reflect.TypeOf((*KubernetesClusterDefaultNodePoolUpgradeSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1199,11 +1203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterHttpProxyConfig",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterHttpProxyConfig",
 		reflect.TypeOf((*KubernetesClusterHttpProxyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterHttpProxyConfigOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterHttpProxyConfigOutputReference",
 		reflect.TypeOf((*KubernetesClusterHttpProxyConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1247,11 +1251,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterIdentity",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterIdentity",
 		reflect.TypeOf((*KubernetesClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterIdentityOutputReference",
 		reflect.TypeOf((*KubernetesClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1290,15 +1294,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGateway",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGateway",
 		reflect.TypeOf((*KubernetesClusterIngressApplicationGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentity",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentity",
 		reflect.TypeOf((*KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentityList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentityList",
 		reflect.TypeOf((*KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1319,7 +1323,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentityOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentityOutputReference",
 		reflect.TypeOf((*KubernetesClusterIngressApplicationGatewayIngressApplicationGatewayIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -1354,7 +1358,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGatewayOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGatewayOutputReference",
 		reflect.TypeOf((*KubernetesClusterIngressApplicationGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1400,11 +1404,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKeyManagementService",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKeyManagementService",
 		reflect.TypeOf((*KubernetesClusterKeyManagementService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKeyManagementServiceOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKeyManagementServiceOutputReference",
 		reflect.TypeOf((*KubernetesClusterKeyManagementServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1441,11 +1445,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProvider",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProvider",
 		reflect.TypeOf((*KubernetesClusterKeyVaultSecretsProvider)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProviderOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProviderOutputReference",
 		reflect.TypeOf((*KubernetesClusterKeyVaultSecretsProviderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1484,11 +1488,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProviderSecretIdentity",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProviderSecretIdentity",
 		reflect.TypeOf((*KubernetesClusterKeyVaultSecretsProviderSecretIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProviderSecretIdentityList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProviderSecretIdentityList",
 		reflect.TypeOf((*KubernetesClusterKeyVaultSecretsProviderSecretIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1509,7 +1513,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference",
 		reflect.TypeOf((*KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -1544,11 +1548,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKubeAdminConfig",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKubeAdminConfig",
 		reflect.TypeOf((*KubernetesClusterKubeAdminConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKubeAdminConfigList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKubeAdminConfigList",
 		reflect.TypeOf((*KubernetesClusterKubeAdminConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1569,7 +1573,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKubeAdminConfigOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKubeAdminConfigOutputReference",
 		reflect.TypeOf((*KubernetesClusterKubeAdminConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCertificate", GoGetter: "ClientCertificate"},
@@ -1607,11 +1611,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKubeConfig",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKubeConfig",
 		reflect.TypeOf((*KubernetesClusterKubeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKubeConfigList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKubeConfigList",
 		reflect.TypeOf((*KubernetesClusterKubeConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1632,7 +1636,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKubeConfigOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKubeConfigOutputReference",
 		reflect.TypeOf((*KubernetesClusterKubeConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCertificate", GoGetter: "ClientCertificate"},
@@ -1670,11 +1674,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKubeletIdentity",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKubeletIdentity",
 		reflect.TypeOf((*KubernetesClusterKubeletIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterKubeletIdentityOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterKubeletIdentityOutputReference",
 		reflect.TypeOf((*KubernetesClusterKubeletIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -1715,11 +1719,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterLinuxProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterLinuxProfile",
 		reflect.TypeOf((*KubernetesClusterLinuxProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterLinuxProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterLinuxProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterLinuxProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminUsername", GoGetter: "AdminUsername"},
@@ -1756,11 +1760,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterLinuxProfileSshKey",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterLinuxProfileSshKey",
 		reflect.TypeOf((*KubernetesClusterLinuxProfileSshKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterLinuxProfileSshKeyOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterLinuxProfileSshKeyOutputReference",
 		reflect.TypeOf((*KubernetesClusterLinuxProfileSshKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1794,15 +1798,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindow",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindow",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAllowed",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAllowed",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowAllowed)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAllowedList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAllowedList",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowAllowedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1824,7 +1828,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAllowedOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAllowedOutputReference",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowAllowedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1860,15 +1864,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgrade",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgrade",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowAutoUpgrade)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowed",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowed",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowed)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedList",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1890,7 +1894,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReference",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1926,7 +1930,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1986,15 +1990,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOs",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOs",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowNodeOs)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsNotAllowed",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsNotAllowed",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowNodeOsNotAllowed)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsNotAllowedList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsNotAllowedList",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowNodeOsNotAllowedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2016,7 +2020,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2052,7 +2056,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsOutputReference",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowNodeOsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2112,11 +2116,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNotAllowed",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNotAllowed",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowNotAllowed)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNotAllowedList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNotAllowedList",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowNotAllowedList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2138,7 +2142,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNotAllowedOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNotAllowedOutputReference",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowNotAllowedOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2174,7 +2178,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowOutputReference",
 		reflect.TypeOf((*KubernetesClusterMaintenanceWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowed", GoGetter: "Allowed"},
@@ -2214,11 +2218,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMicrosoftDefender",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMicrosoftDefender",
 		reflect.TypeOf((*KubernetesClusterMicrosoftDefender)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMicrosoftDefenderOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMicrosoftDefenderOutputReference",
 		reflect.TypeOf((*KubernetesClusterMicrosoftDefenderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2252,11 +2256,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMonitorMetrics",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMonitorMetrics",
 		reflect.TypeOf((*KubernetesClusterMonitorMetrics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterMonitorMetricsOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterMonitorMetricsOutputReference",
 		reflect.TypeOf((*KubernetesClusterMonitorMetricsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotationsAllowed", GoGetter: "AnnotationsAllowed"},
@@ -2294,15 +2298,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfile",
 		reflect.TypeOf((*KubernetesClusterNetworkProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileAdvancedNetworking",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileAdvancedNetworking",
 		reflect.TypeOf((*KubernetesClusterNetworkProfileAdvancedNetworking)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference",
 		reflect.TypeOf((*KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2340,11 +2344,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileLoadBalancerProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileLoadBalancerProfile",
 		reflect.TypeOf((*KubernetesClusterNetworkProfileLoadBalancerProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileLoadBalancerProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileLoadBalancerProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterNetworkProfileLoadBalancerProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendPoolType", GoGetter: "BackendPoolType"},
@@ -2398,11 +2402,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileNatGatewayProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileNatGatewayProfile",
 		reflect.TypeOf((*KubernetesClusterNetworkProfileNatGatewayProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileNatGatewayProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileNatGatewayProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterNetworkProfileNatGatewayProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2441,7 +2445,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNetworkProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterNetworkProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "advancedNetworking", GoGetter: "AdvancedNetworking"},
@@ -2523,15 +2527,57 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgent",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNodeProvisioningProfile",
+		reflect.TypeOf((*KubernetesClusterNodeProvisioningProfile)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterNodeProvisioningProfileOutputReference",
+		reflect.TypeOf((*KubernetesClusterNodeProvisioningProfileOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultNodePools", GoGetter: "DefaultNodePools"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultNodePoolsInput", GoGetter: "DefaultNodePoolsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mode", GoGetter: "Mode"},
+			_jsii_.MemberProperty{JsiiProperty: "modeInput", GoGetter: "ModeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDefaultNodePools", GoMethod: "ResetDefaultNodePools"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMode", GoMethod: "ResetMode"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_KubernetesClusterNodeProvisioningProfileOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgent",
 		reflect.TypeOf((*KubernetesClusterOmsAgent)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgentOmsAgentIdentity",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgentOmsAgentIdentity",
 		reflect.TypeOf((*KubernetesClusterOmsAgentOmsAgentIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgentOmsAgentIdentityList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgentOmsAgentIdentityList",
 		reflect.TypeOf((*KubernetesClusterOmsAgentOmsAgentIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2552,7 +2598,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgentOmsAgentIdentityOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgentOmsAgentIdentityOutputReference",
 		reflect.TypeOf((*KubernetesClusterOmsAgentOmsAgentIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -2587,7 +2633,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgentOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterOmsAgentOutputReference",
 		reflect.TypeOf((*KubernetesClusterOmsAgentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2625,15 +2671,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterServiceMeshProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterServiceMeshProfile",
 		reflect.TypeOf((*KubernetesClusterServiceMeshProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterServiceMeshProfileCertificateAuthority",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterServiceMeshProfileCertificateAuthority",
 		reflect.TypeOf((*KubernetesClusterServiceMeshProfileCertificateAuthority)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference",
 		reflect.TypeOf((*KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certChainObjectName", GoGetter: "CertChainObjectName"},
@@ -2675,7 +2721,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterServiceMeshProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterServiceMeshProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterServiceMeshProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateAuthority", GoGetter: "CertificateAuthority"},
@@ -2721,11 +2767,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterServicePrincipal",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterServicePrincipal",
 		reflect.TypeOf((*KubernetesClusterServicePrincipal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterServicePrincipalOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterServicePrincipalOutputReference",
 		reflect.TypeOf((*KubernetesClusterServicePrincipalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -2761,11 +2807,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterStorageProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterStorageProfile",
 		reflect.TypeOf((*KubernetesClusterStorageProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterStorageProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterStorageProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterStorageProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blobDriverEnabled", GoGetter: "BlobDriverEnabled"},
@@ -2809,11 +2855,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterTimeouts",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterTimeouts",
 		reflect.TypeOf((*KubernetesClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterTimeoutsOutputReference",
 		reflect.TypeOf((*KubernetesClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2857,11 +2903,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterUpgradeOverride",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterUpgradeOverride",
 		reflect.TypeOf((*KubernetesClusterUpgradeOverride)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterUpgradeOverrideOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterUpgradeOverrideOutputReference",
 		reflect.TypeOf((*KubernetesClusterUpgradeOverrideOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2898,11 +2944,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRouting",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRouting",
 		reflect.TypeOf((*KubernetesClusterWebAppRouting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRoutingOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRoutingOutputReference",
 		reflect.TypeOf((*KubernetesClusterWebAppRoutingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2940,11 +2986,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRoutingWebAppRoutingIdentity",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRoutingWebAppRoutingIdentity",
 		reflect.TypeOf((*KubernetesClusterWebAppRoutingWebAppRoutingIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRoutingWebAppRoutingIdentityList",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRoutingWebAppRoutingIdentityList",
 		reflect.TypeOf((*KubernetesClusterWebAppRoutingWebAppRoutingIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2965,7 +3011,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReference",
 		reflect.TypeOf((*KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -3000,15 +3046,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWindowsProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWindowsProfile",
 		reflect.TypeOf((*KubernetesClusterWindowsProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWindowsProfileGmsa",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWindowsProfileGmsa",
 		reflect.TypeOf((*KubernetesClusterWindowsProfileGmsa)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWindowsProfileGmsaOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWindowsProfileGmsaOutputReference",
 		reflect.TypeOf((*KubernetesClusterWindowsProfileGmsaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3044,7 +3090,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWindowsProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWindowsProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterWindowsProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adminPassword", GoGetter: "AdminPassword"},
@@ -3087,11 +3133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWorkloadAutoscalerProfile",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWorkloadAutoscalerProfile",
 		reflect.TypeOf((*KubernetesClusterWorkloadAutoscalerProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterWorkloadAutoscalerProfileOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterWorkloadAutoscalerProfileOutputReference",
 		reflect.TypeOf((*KubernetesClusterWorkloadAutoscalerProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

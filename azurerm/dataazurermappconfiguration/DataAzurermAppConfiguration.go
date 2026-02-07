@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermappconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermappconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermappconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/app_configuration azurerm_app_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/app_configuration azurerm_app_configuration}.
 type DataAzurermAppConfiguration interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_DataAzurermAppConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/app_configuration azurerm_app_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/app_configuration azurerm_app_configuration} Data Source.
 func NewDataAzurermAppConfiguration(scope constructs.Construct, id *string, config *DataAzurermAppConfigurationConfig) DataAzurermAppConfiguration {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewDataAzurermAppConfiguration(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAzurermAppConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -551,12 +551,12 @@ func NewDataAzurermAppConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/app_configuration azurerm_app_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/app_configuration azurerm_app_configuration} Data Source.
 func NewDataAzurermAppConfiguration_Override(d DataAzurermAppConfiguration, scope constructs.Construct, id *string, config *DataAzurermAppConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -651,7 +651,7 @@ func DataAzurermAppConfiguration_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -686,7 +686,7 @@ func DataAzurermAppConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -705,7 +705,7 @@ func DataAzurermAppConfiguration_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func DataAzurermAppConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func DataAzurermAppConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermAppConfiguration.DataAzurermAppConfiguration",
 		"tfResourceType",
 		&returns,
 	)

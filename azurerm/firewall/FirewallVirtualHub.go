@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firewall
 
 
 type FirewallVirtualHub struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/firewall#virtual_hub_id Firewall#virtual_hub_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/firewall#virtual_hub_id Firewall#virtual_hub_id}.
 	VirtualHubId *string `field:"required" json:"virtualHubId" yaml:"virtualHubId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/firewall#public_ip_count Firewall#public_ip_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/firewall#public_ip_count Firewall#public_ip_count}.
 	PublicIpCount *float64 `field:"optional" json:"publicIpCount" yaml:"publicIpCount"`
 }
 

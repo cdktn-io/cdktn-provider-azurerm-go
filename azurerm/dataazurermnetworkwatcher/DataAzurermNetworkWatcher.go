@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnetworkwatcher
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermnetworkwatcher/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermnetworkwatcher/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/network_watcher azurerm_network_watcher}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/network_watcher azurerm_network_watcher}.
 type DataAzurermNetworkWatcher interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAzurermNetworkWatcher) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/network_watcher azurerm_network_watcher} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/network_watcher azurerm_network_watcher} Data Source.
 func NewDataAzurermNetworkWatcher(scope constructs.Construct, id *string, config *DataAzurermNetworkWatcherConfig) DataAzurermNetworkWatcher {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDataAzurermNetworkWatcher(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAzurermNetworkWatcher{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDataAzurermNetworkWatcher(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/network_watcher azurerm_network_watcher} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/network_watcher azurerm_network_watcher} Data Source.
 func NewDataAzurermNetworkWatcher_Override(d DataAzurermNetworkWatcher, scope constructs.Construct, id *string, config *DataAzurermNetworkWatcherConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -475,7 +475,7 @@ func DataAzurermNetworkWatcher_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func DataAzurermNetworkWatcher_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataAzurermNetworkWatcher_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func DataAzurermNetworkWatcher_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataAzurermNetworkWatcher_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
+		"@cdktn/provider-azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcher",
 		"tfResourceType",
 		&returns,
 	)

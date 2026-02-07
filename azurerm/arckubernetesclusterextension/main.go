@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arckubernetesclusterextension
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtension",
+		"@cdktn/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtension",
 		reflect.TypeOf((*ArcKubernetesClusterExtension)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionConfig",
+		"@cdktn/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionConfig",
 		reflect.TypeOf((*ArcKubernetesClusterExtensionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionIdentity",
+		"@cdktn/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionIdentity",
 		reflect.TypeOf((*ArcKubernetesClusterExtensionIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionIdentityOutputReference",
+		"@cdktn/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionIdentityOutputReference",
 		reflect.TypeOf((*ArcKubernetesClusterExtensionIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionTimeouts",
+		"@cdktn/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionTimeouts",
 		reflect.TypeOf((*ArcKubernetesClusterExtensionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.arcKubernetesClusterExtension.ArcKubernetesClusterExtensionTimeoutsOutputReference",
 		reflect.TypeOf((*ArcKubernetesClusterExtensionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

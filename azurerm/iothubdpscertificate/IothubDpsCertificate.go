@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubdpscertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothubdpscertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubdpscertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate}.
 type IothubDpsCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_IothubDpsCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate} Resource.
 func NewIothubDpsCertificate(scope constructs.Construct, id *string, config *IothubDpsCertificateConfig) IothubDpsCertificate {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewIothubDpsCertificate(scope constructs.Construct, id *string, config *Iot
 	j := jsiiProxy_IothubDpsCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
+		"@cdktn/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewIothubDpsCertificate(scope constructs.Construct, id *string, config *Iot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps_certificate azurerm_iothub_dps_certificate} Resource.
 func NewIothubDpsCertificate_Override(i IothubDpsCertificate, scope constructs.Construct, id *string, config *IothubDpsCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
+		"@cdktn/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -623,7 +623,7 @@ func IothubDpsCertificate_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
+		"@cdktn/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func IothubDpsCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
+		"@cdktn/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func IothubDpsCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
+		"@cdktn/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func IothubDpsCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
+		"@cdktn/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func IothubDpsCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
+		"@cdktn/provider-azurerm.iothubDpsCertificate.IothubDpsCertificate",
 		"tfResourceType",
 		&returns,
 	)

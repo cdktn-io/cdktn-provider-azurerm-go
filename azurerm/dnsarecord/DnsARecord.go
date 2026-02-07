@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsarecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dnsarecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dnsarecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_a_record azurerm_dns_a_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_a_record azurerm_dns_a_record}.
 type DnsARecord interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_DnsARecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_a_record azurerm_dns_a_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_a_record azurerm_dns_a_record} Resource.
 func NewDnsARecord(scope constructs.Construct, id *string, config *DnsARecordConfig) DnsARecord {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewDnsARecord(scope constructs.Construct, id *string, config *DnsARecordCon
 	j := jsiiProxy_DnsARecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsARecord.DnsARecord",
+		"@cdktn/provider-azurerm.dnsARecord.DnsARecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewDnsARecord(scope constructs.Construct, id *string, config *DnsARecordCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_a_record azurerm_dns_a_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_a_record azurerm_dns_a_record} Resource.
 func NewDnsARecord_Override(d DnsARecord, scope constructs.Construct, id *string, config *DnsARecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsARecord.DnsARecord",
+		"@cdktn/provider-azurerm.dnsARecord.DnsARecord",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -704,7 +704,7 @@ func DnsARecord_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsARecord.DnsARecord",
+		"@cdktn/provider-azurerm.dnsARecord.DnsARecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func DnsARecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsARecord.DnsARecord",
+		"@cdktn/provider-azurerm.dnsARecord.DnsARecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func DnsARecord_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsARecord.DnsARecord",
+		"@cdktn/provider-azurerm.dnsARecord.DnsARecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func DnsARecord_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsARecord.DnsARecord",
+		"@cdktn/provider-azurerm.dnsARecord.DnsARecord",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func DnsARecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dnsARecord.DnsARecord",
+		"@cdktn/provider-azurerm.dnsARecord.DnsARecord",
 		"tfResourceType",
 		&returns,
 	)

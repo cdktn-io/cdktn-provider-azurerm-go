@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualnetworkpeering
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetworkPeering.VirtualNetworkPeering",
+		"@cdktn/provider-azurerm.virtualNetworkPeering.VirtualNetworkPeering",
 		reflect.TypeOf((*VirtualNetworkPeering)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -105,15 +105,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetworkPeering.VirtualNetworkPeeringConfig",
+		"@cdktn/provider-azurerm.virtualNetworkPeering.VirtualNetworkPeeringConfig",
 		reflect.TypeOf((*VirtualNetworkPeeringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetworkPeering.VirtualNetworkPeeringTimeouts",
+		"@cdktn/provider-azurerm.virtualNetworkPeering.VirtualNetworkPeeringTimeouts",
 		reflect.TypeOf((*VirtualNetworkPeeringTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetworkPeering.VirtualNetworkPeeringTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualNetworkPeering.VirtualNetworkPeeringTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualNetworkPeeringTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

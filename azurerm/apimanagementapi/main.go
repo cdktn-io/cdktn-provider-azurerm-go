@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementapi
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApi",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApi",
 		reflect.TypeOf((*ApiManagementApi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -143,15 +143,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiConfig",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiConfig",
 		reflect.TypeOf((*ApiManagementApiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiContact",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiContact",
 		reflect.TypeOf((*ApiManagementApiContact)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiContactOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiContactOutputReference",
 		reflect.TypeOf((*ApiManagementApiContactOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -192,11 +192,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiImport",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiImport",
 		reflect.TypeOf((*ApiManagementApiImport)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiImportOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiImportOutputReference",
 		reflect.TypeOf((*ApiManagementApiImportOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -236,11 +236,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiImportWsdlSelector",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiImportWsdlSelector",
 		reflect.TypeOf((*ApiManagementApiImportWsdlSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiImportWsdlSelectorOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiImportWsdlSelectorOutputReference",
 		reflect.TypeOf((*ApiManagementApiImportWsdlSelectorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -276,11 +276,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiLicense",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiLicense",
 		reflect.TypeOf((*ApiManagementApiLicense)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiLicenseOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiLicenseOutputReference",
 		reflect.TypeOf((*ApiManagementApiLicenseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -318,11 +318,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiOauth2Authorization",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiOauth2Authorization",
 		reflect.TypeOf((*ApiManagementApiOauth2Authorization)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiOauth2AuthorizationOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiOauth2AuthorizationOutputReference",
 		reflect.TypeOf((*ApiManagementApiOauth2AuthorizationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationServerName", GoGetter: "AuthorizationServerName"},
@@ -359,11 +359,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiOpenidAuthentication",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiOpenidAuthentication",
 		reflect.TypeOf((*ApiManagementApiOpenidAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiOpenidAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiOpenidAuthenticationOutputReference",
 		reflect.TypeOf((*ApiManagementApiOpenidAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bearerTokenSendingMethods", GoGetter: "BearerTokenSendingMethods"},
@@ -400,11 +400,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiSubscriptionKeyParameterNames",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiSubscriptionKeyParameterNames",
 		reflect.TypeOf((*ApiManagementApiSubscriptionKeyParameterNames)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiSubscriptionKeyParameterNamesOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiSubscriptionKeyParameterNamesOutputReference",
 		reflect.TypeOf((*ApiManagementApiSubscriptionKeyParameterNamesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -440,11 +440,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiTimeouts",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiTimeouts",
 		reflect.TypeOf((*ApiManagementApiTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApi.ApiManagementApiTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApi.ApiManagementApiTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementApiTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

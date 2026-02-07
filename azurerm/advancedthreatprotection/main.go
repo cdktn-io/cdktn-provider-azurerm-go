@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package advancedthreatprotection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
 		reflect.TypeOf((*AdvancedThreatProtection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtectionConfig",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtectionConfig",
 		reflect.TypeOf((*AdvancedThreatProtectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtectionTimeouts",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtectionTimeouts",
 		reflect.TypeOf((*AdvancedThreatProtectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtectionTimeoutsOutputReference",
 		reflect.TypeOf((*AdvancedThreatProtectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationjobschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationjobschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationjobschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule}.
 type AutomationJobSchedule interface {
 	cdktf.TerraformResource
 	AutomationAccountName() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_AutomationJobSchedule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
 func NewAutomationJobSchedule(scope constructs.Construct, id *string, config *AutomationJobScheduleConfig) AutomationJobSchedule {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewAutomationJobSchedule(scope constructs.Construct, id *string, config *Au
 	j := jsiiProxy_AutomationJobSchedule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewAutomationJobSchedule(scope constructs.Construct, id *string, config *Au
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
 func NewAutomationJobSchedule_Override(a AutomationJobSchedule, scope constructs.Construct, id *string, config *AutomationJobScheduleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -704,7 +704,7 @@ func AutomationJobSchedule_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func AutomationJobSchedule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func AutomationJobSchedule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func AutomationJobSchedule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func AutomationJobSchedule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
 		"tfResourceType",
 		&returns,
 	)

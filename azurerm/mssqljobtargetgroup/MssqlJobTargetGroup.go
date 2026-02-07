@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljobtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqljobtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqljobtargetgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group}.
 type MssqlJobTargetGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_MssqlJobTargetGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
 func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *MssqlJobTargetGroupConfig) MssqlJobTargetGroup {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *Mssq
 	j := jsiiProxy_MssqlJobTargetGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *Mssq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
 func NewMssqlJobTargetGroup_Override(m MssqlJobTargetGroup, scope constructs.Construct, id *string, config *MssqlJobTargetGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -544,7 +544,7 @@ func MssqlJobTargetGroup_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func MssqlJobTargetGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func MssqlJobTargetGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func MssqlJobTargetGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func MssqlJobTargetGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
 		"tfResourceType",
 		&returns,
 	)

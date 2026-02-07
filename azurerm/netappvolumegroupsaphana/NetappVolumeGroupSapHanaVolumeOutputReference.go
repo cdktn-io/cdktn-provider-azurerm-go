@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolumegroupsaphana
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/netappvolumegroupsaphana/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappvolumegroupsaphana/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -35,6 +35,9 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 	DataProtectionReplicationInput() *NetappVolumeGroupSapHanaVolumeDataProtectionReplication
 	DataProtectionSnapshotPolicy() NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReference
 	DataProtectionSnapshotPolicyInput() *NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicy
+	EncryptionKeySource() *string
+	SetEncryptionKeySource(val *string)
+	EncryptionKeySourceInput() *string
 	ExportPolicyRule() NetappVolumeGroupSapHanaVolumeExportPolicyRuleList
 	ExportPolicyRuleInput() interface{}
 	// Experimental.
@@ -42,10 +45,16 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 	Id() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	KeyVaultPrivateEndpointId() *string
+	SetKeyVaultPrivateEndpointId(val *string)
+	KeyVaultPrivateEndpointIdInput() *string
 	MountIpAddresses() *[]*string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NetworkFeatures() *string
+	SetNetworkFeatures(val *string)
+	NetworkFeaturesInput() *string
 	Protocols() *[]*string
 	SetProtocols(val *[]*string)
 	ProtocolsInput() *[]*string
@@ -87,6 +96,9 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 	VolumeSpecName() *string
 	SetVolumeSpecName(val *string)
 	VolumeSpecNameInput() *string
+	Zone() *string
+	SetZone(val *string)
+	ZoneInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -116,8 +128,12 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 	PutExportPolicyRule(value interface{})
 	ResetDataProtectionReplication()
 	ResetDataProtectionSnapshotPolicy()
+	ResetEncryptionKeySource()
+	ResetKeyVaultPrivateEndpointId()
+	ResetNetworkFeatures()
 	ResetProximityPlacementGroupId()
 	ResetTags()
+	ResetZone()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktf.IResolveContext) interface{}
@@ -223,6 +239,26 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) DataProtection
 	return returns
 }
 
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) EncryptionKeySource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"encryptionKeySource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) EncryptionKeySourceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"encryptionKeySourceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ExportPolicyRule() NetappVolumeGroupSapHanaVolumeExportPolicyRuleList {
 	var returns NetappVolumeGroupSapHanaVolumeExportPolicyRuleList
 	_jsii_.Get(
@@ -273,6 +309,26 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) InternalValue(
 	return returns
 }
 
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) KeyVaultPrivateEndpointId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultPrivateEndpointId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) KeyVaultPrivateEndpointIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultPrivateEndpointIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) MountIpAddresses() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -298,6 +354,26 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) NameInput() *s
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) NetworkFeatures() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkFeatures",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) NetworkFeaturesInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkFeaturesInput",
 		&returns,
 	)
 	return returns
@@ -543,6 +619,26 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) VolumeSpecName
 	return returns
 }
 
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) Zone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"zone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ZoneInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"zoneInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewNetappVolumeGroupSapHanaVolumeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetappVolumeGroupSapHanaVolumeOutputReference {
 	_init_.Initialize()
@@ -553,7 +649,7 @@ func NewNetappVolumeGroupSapHanaVolumeOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeOutputReference",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -565,7 +661,7 @@ func NewNetappVolumeGroupSapHanaVolumeOutputReference_Override(n NetappVolumeGro
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeOutputReference",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)
@@ -604,6 +700,17 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetComplexObjec
 	)
 }
 
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetEncryptionKeySource(val *string) {
+	if err := j.validateSetEncryptionKeySourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"encryptionKeySource",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -615,6 +722,17 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetInternalValu
 	)
 }
 
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetKeyVaultPrivateEndpointId(val *string) {
+	if err := j.validateSetKeyVaultPrivateEndpointIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"keyVaultPrivateEndpointId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetName(val *string) {
 	if err := j.validateSetNameParameters(val); err != nil {
 		panic(err)
@@ -622,6 +740,17 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetName(val *st
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetNetworkFeatures(val *string) {
+	if err := j.validateSetNetworkFeaturesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkFeatures",
 		val,
 	)
 }
@@ -765,6 +894,17 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetVolumeSpecNa
 	_jsii_.Set(
 		j,
 		"volumeSpecName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetZone(val *string) {
+	if err := j.validateSetZoneParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"zone",
 		val,
 	)
 }
@@ -1004,6 +1144,30 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ResetDataProte
 	)
 }
 
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ResetEncryptionKeySource() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetEncryptionKeySource",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ResetKeyVaultPrivateEndpointId() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetKeyVaultPrivateEndpointId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ResetNetworkFeatures() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNetworkFeatures",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ResetProximityPlacementGroupId() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1016,6 +1180,14 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ResetTags() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ResetZone() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetZone",
 		nil, // no parameters
 	)
 }

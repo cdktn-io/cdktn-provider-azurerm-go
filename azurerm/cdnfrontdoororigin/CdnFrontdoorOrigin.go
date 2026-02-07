@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoororigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnfrontdoororigin/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoororigin/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin}.
 type CdnFrontdoorOrigin interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -594,7 +594,7 @@ func (j *jsiiProxy_CdnFrontdoorOrigin) WeightInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
 func NewCdnFrontdoorOrigin(scope constructs.Construct, id *string, config *CdnFrontdoorOriginConfig) CdnFrontdoorOrigin {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewCdnFrontdoorOrigin(scope constructs.Construct, id *string, config *CdnFr
 	j := jsiiProxy_CdnFrontdoorOrigin{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -612,12 +612,12 @@ func NewCdnFrontdoorOrigin(scope constructs.Construct, id *string, config *CdnFr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
 func NewCdnFrontdoorOrigin_Override(c CdnFrontdoorOrigin, scope constructs.Construct, id *string, config *CdnFrontdoorOriginConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -822,7 +822,7 @@ func CdnFrontdoorOrigin_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -857,7 +857,7 @@ func CdnFrontdoorOrigin_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -876,7 +876,7 @@ func CdnFrontdoorOrigin_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -895,7 +895,7 @@ func CdnFrontdoorOrigin_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +908,7 @@ func CdnFrontdoorOrigin_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lighthouseassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/lighthouseassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/lighthouseassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lighthouse_assignment azurerm_lighthouse_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lighthouse_assignment azurerm_lighthouse_assignment}.
 type LighthouseAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_LighthouseAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lighthouse_assignment azurerm_lighthouse_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lighthouse_assignment azurerm_lighthouse_assignment} Resource.
 func NewLighthouseAssignment(scope constructs.Construct, id *string, config *LighthouseAssignmentConfig) LighthouseAssignment {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewLighthouseAssignment(scope constructs.Construct, id *string, config *Lig
 	j := jsiiProxy_LighthouseAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewLighthouseAssignment(scope constructs.Construct, id *string, config *Lig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lighthouse_assignment azurerm_lighthouse_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lighthouse_assignment azurerm_lighthouse_assignment} Resource.
 func NewLighthouseAssignment_Override(l LighthouseAssignment, scope constructs.Construct, id *string, config *LighthouseAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -555,7 +555,7 @@ func LighthouseAssignment_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func LighthouseAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func LighthouseAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func LighthouseAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func LighthouseAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nginxapikey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxApiKey.NginxApiKey",
+		"@cdktn/provider-azurerm.nginxApiKey.NginxApiKey",
 		reflect.TypeOf((*NginxApiKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxApiKey.NginxApiKeyConfig",
+		"@cdktn/provider-azurerm.nginxApiKey.NginxApiKeyConfig",
 		reflect.TypeOf((*NginxApiKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxApiKey.NginxApiKeyTimeouts",
+		"@cdktn/provider-azurerm.nginxApiKey.NginxApiKeyTimeouts",
 		reflect.TypeOf((*NginxApiKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxApiKey.NginxApiKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.nginxApiKey.NginxApiKeyTimeoutsOutputReference",
 		reflect.TypeOf((*NginxApiKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

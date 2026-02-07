@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementapischema
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
 		reflect.TypeOf((*ApiManagementApiSchema)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchemaConfig",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchemaConfig",
 		reflect.TypeOf((*ApiManagementApiSchemaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchemaTimeouts",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchemaTimeouts",
 		reflect.TypeOf((*ApiManagementApiSchemaTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchemaTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchemaTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementApiSchemaTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

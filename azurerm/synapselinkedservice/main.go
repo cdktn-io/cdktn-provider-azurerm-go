@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapselinkedservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedService",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedService",
 		reflect.TypeOf((*SynapseLinkedService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalProperties", GoGetter: "AdditionalProperties"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedServiceConfig",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedServiceConfig",
 		reflect.TypeOf((*SynapseLinkedServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedServiceIntegrationRuntime",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedServiceIntegrationRuntime",
 		reflect.TypeOf((*SynapseLinkedServiceIntegrationRuntime)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedServiceIntegrationRuntimeOutputReference",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedServiceIntegrationRuntimeOutputReference",
 		reflect.TypeOf((*SynapseLinkedServiceIntegrationRuntimeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedServiceTimeouts",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedServiceTimeouts",
 		reflect.TypeOf((*SynapseLinkedServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedServiceTimeoutsOutputReference",
 		reflect.TypeOf((*SynapseLinkedServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

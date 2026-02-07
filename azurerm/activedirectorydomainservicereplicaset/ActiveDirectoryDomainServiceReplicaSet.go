@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package activedirectorydomainservicereplicaset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/activedirectorydomainservicereplicaset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/activedirectorydomainservicereplicaset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/active_directory_domain_service_replica_set azurerm_active_directory_domain_service_replica_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/active_directory_domain_service_replica_set azurerm_active_directory_domain_service_replica_set}.
 type ActiveDirectoryDomainServiceReplicaSet interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceReplicaSet) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/active_directory_domain_service_replica_set azurerm_active_directory_domain_service_replica_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/active_directory_domain_service_replica_set azurerm_active_directory_domain_service_replica_set} Resource.
 func NewActiveDirectoryDomainServiceReplicaSet(scope constructs.Construct, id *string, config *ActiveDirectoryDomainServiceReplicaSetConfig) ActiveDirectoryDomainServiceReplicaSet {
 	_init_.Initialize()
 
@@ -446,7 +446,7 @@ func NewActiveDirectoryDomainServiceReplicaSet(scope constructs.Construct, id *s
 	j := jsiiProxy_ActiveDirectoryDomainServiceReplicaSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
+		"@cdktn/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -454,12 +454,12 @@ func NewActiveDirectoryDomainServiceReplicaSet(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/active_directory_domain_service_replica_set azurerm_active_directory_domain_service_replica_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/active_directory_domain_service_replica_set azurerm_active_directory_domain_service_replica_set} Resource.
 func NewActiveDirectoryDomainServiceReplicaSet_Override(a ActiveDirectoryDomainServiceReplicaSet, scope constructs.Construct, id *string, config *ActiveDirectoryDomainServiceReplicaSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
+		"@cdktn/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -587,7 +587,7 @@ func ActiveDirectoryDomainServiceReplicaSet_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
+		"@cdktn/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -622,7 +622,7 @@ func ActiveDirectoryDomainServiceReplicaSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
+		"@cdktn/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func ActiveDirectoryDomainServiceReplicaSet_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
+		"@cdktn/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +660,7 @@ func ActiveDirectoryDomainServiceReplicaSet_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
+		"@cdktn/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func ActiveDirectoryDomainServiceReplicaSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
+		"@cdktn/provider-azurerm.activeDirectoryDomainServiceReplicaSet.ActiveDirectoryDomainServiceReplicaSet",
 		"tfResourceType",
 		&returns,
 	)

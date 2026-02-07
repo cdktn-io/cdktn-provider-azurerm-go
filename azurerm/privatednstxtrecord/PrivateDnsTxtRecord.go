@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatednstxtrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/privatednstxtrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privatednstxtrecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record}.
 type PrivateDnsTxtRecord interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_PrivateDnsTxtRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
 func NewPrivateDnsTxtRecord(scope constructs.Construct, id *string, config *PrivateDnsTxtRecordConfig) PrivateDnsTxtRecord {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewPrivateDnsTxtRecord(scope constructs.Construct, id *string, config *Priv
 	j := jsiiProxy_PrivateDnsTxtRecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
+		"@cdktn/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewPrivateDnsTxtRecord(scope constructs.Construct, id *string, config *Priv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
 func NewPrivateDnsTxtRecord_Override(p PrivateDnsTxtRecord, scope constructs.Construct, id *string, config *PrivateDnsTxtRecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
+		"@cdktn/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -657,7 +657,7 @@ func PrivateDnsTxtRecord_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
+		"@cdktn/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func PrivateDnsTxtRecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
+		"@cdktn/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func PrivateDnsTxtRecord_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
+		"@cdktn/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func PrivateDnsTxtRecord_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
+		"@cdktn/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func PrivateDnsTxtRecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
+		"@cdktn/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
 		"tfResourceType",
 		&returns,
 	)

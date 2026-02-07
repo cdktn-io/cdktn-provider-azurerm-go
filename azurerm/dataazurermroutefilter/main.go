@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermroutefilter
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilter",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilter",
 		reflect.TypeOf((*DataAzurermRouteFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,15 +69,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterConfig",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterConfig",
 		reflect.TypeOf((*DataAzurermRouteFilterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRule",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRule",
 		reflect.TypeOf((*DataAzurermRouteFilterRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRuleList",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRuleList",
 		reflect.TypeOf((*DataAzurermRouteFilterRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -98,7 +98,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRuleOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRuleOutputReference",
 		reflect.TypeOf((*DataAzurermRouteFilterRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
@@ -134,11 +134,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterTimeouts",
 		reflect.TypeOf((*DataAzurermRouteFilterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermRouteFilterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

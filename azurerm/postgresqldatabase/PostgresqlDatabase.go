@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package postgresqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/postgresqldatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/postgresqldatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/postgresql_database azurerm_postgresql_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_database azurerm_postgresql_database}.
 type PostgresqlDatabase interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_PostgresqlDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/postgresql_database azurerm_postgresql_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_database azurerm_postgresql_database} Resource.
 func NewPostgresqlDatabase(scope constructs.Construct, id *string, config *PostgresqlDatabaseConfig) PostgresqlDatabase {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewPostgresqlDatabase(scope constructs.Construct, id *string, config *Postg
 	j := jsiiProxy_PostgresqlDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
+		"@cdktn/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewPostgresqlDatabase(scope constructs.Construct, id *string, config *Postg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/postgresql_database azurerm_postgresql_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_database azurerm_postgresql_database} Resource.
 func NewPostgresqlDatabase_Override(p PostgresqlDatabase, scope constructs.Construct, id *string, config *PostgresqlDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
+		"@cdktn/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -622,7 +622,7 @@ func PostgresqlDatabase_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
+		"@cdktn/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func PostgresqlDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
+		"@cdktn/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func PostgresqlDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
+		"@cdktn/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func PostgresqlDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
+		"@cdktn/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func PostgresqlDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
+		"@cdktn/provider-azurerm.postgresqlDatabase.PostgresqlDatabase",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package maintenanceconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfiguration",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfiguration",
 		reflect.TypeOf((*MaintenanceConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,19 +98,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationConfig",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationConfig",
 		reflect.TypeOf((*MaintenanceConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatches",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatches",
 		reflect.TypeOf((*MaintenanceConfigurationInstallPatches)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesLinux",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesLinux",
 		reflect.TypeOf((*MaintenanceConfigurationInstallPatchesLinux)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesLinuxList",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesLinuxList",
 		reflect.TypeOf((*MaintenanceConfigurationInstallPatchesLinuxList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesLinuxOutputReference",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesLinuxOutputReference",
 		reflect.TypeOf((*MaintenanceConfigurationInstallPatchesLinuxOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classificationsToInclude", GoGetter: "ClassificationsToInclude"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesOutputReference",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesOutputReference",
 		reflect.TypeOf((*MaintenanceConfigurationInstallPatchesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -216,11 +216,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesWindows",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesWindows",
 		reflect.TypeOf((*MaintenanceConfigurationInstallPatchesWindows)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesWindowsList",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesWindowsList",
 		reflect.TypeOf((*MaintenanceConfigurationInstallPatchesWindowsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -242,7 +242,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesWindowsOutputReference",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesWindowsOutputReference",
 		reflect.TypeOf((*MaintenanceConfigurationInstallPatchesWindowsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classificationsToInclude", GoGetter: "ClassificationsToInclude"},
@@ -283,11 +283,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationTimeouts",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationTimeouts",
 		reflect.TypeOf((*MaintenanceConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*MaintenanceConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -331,11 +331,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationWindow",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationWindow",
 		reflect.TypeOf((*MaintenanceConfigurationWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationWindowOutputReference",
+		"@cdktn/provider-azurerm.maintenanceConfiguration.MaintenanceConfigurationWindowOutputReference",
 		reflect.TypeOf((*MaintenanceConfigurationWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

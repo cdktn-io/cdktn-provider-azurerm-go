@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewWindowsWebAppSlotConnectionStringList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_WindowsWebAppSlotConnectionStringList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotConnectionStringList",
+		"@cdktn/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotConnectionStringList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewWindowsWebAppSlotConnectionStringList_Override(w WindowsWebAppSlotConnec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotConnectionStringList",
+		"@cdktn/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlotConnectionStringList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		w,
 	)

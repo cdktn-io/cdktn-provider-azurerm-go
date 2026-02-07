@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcareservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/healthcareservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcareservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_service azurerm_healthcare_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_service azurerm_healthcare_service}.
 type HealthcareService interface {
 	cdktf.TerraformResource
 	AccessPolicyObjectIds() *[]*string
@@ -643,7 +643,7 @@ func (j *jsiiProxy_HealthcareService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_service azurerm_healthcare_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_service azurerm_healthcare_service} Resource.
 func NewHealthcareService(scope constructs.Construct, id *string, config *HealthcareServiceConfig) HealthcareService {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewHealthcareService(scope constructs.Construct, id *string, config *Health
 	j := jsiiProxy_HealthcareService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareService",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -661,12 +661,12 @@ func NewHealthcareService(scope constructs.Construct, id *string, config *Health
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_service azurerm_healthcare_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_service azurerm_healthcare_service} Resource.
 func NewHealthcareService_Override(h HealthcareService, scope constructs.Construct, id *string, config *HealthcareServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareService",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -871,7 +871,7 @@ func HealthcareService_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareService",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -906,7 +906,7 @@ func HealthcareService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareService",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -925,7 +925,7 @@ func HealthcareService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareService",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -944,7 +944,7 @@ func HealthcareService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareService",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -957,7 +957,7 @@ func HealthcareService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.healthcareService.HealthcareService",
+		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
 		"tfResourceType",
 		&returns,
 	)

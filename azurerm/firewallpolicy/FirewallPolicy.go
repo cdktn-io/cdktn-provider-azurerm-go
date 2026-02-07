@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/firewallpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/firewallpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/firewall_policy azurerm_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/firewall_policy azurerm_firewall_policy}.
 type FirewallPolicy interface {
 	cdktf.TerraformResource
 	AutoLearnPrivateRangesEnabled() interface{}
@@ -772,7 +772,7 @@ func (j *jsiiProxy_FirewallPolicy) TlsCertificateInput() *FirewallPolicyTlsCerti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
 func NewFirewallPolicy(scope constructs.Construct, id *string, config *FirewallPolicyConfig) FirewallPolicy {
 	_init_.Initialize()
 
@@ -782,7 +782,7 @@ func NewFirewallPolicy(scope constructs.Construct, id *string, config *FirewallP
 	j := jsiiProxy_FirewallPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -790,12 +790,12 @@ func NewFirewallPolicy(scope constructs.Construct, id *string, config *FirewallP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
 func NewFirewallPolicy_Override(f FirewallPolicy, scope constructs.Construct, id *string, config *FirewallPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicy",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -1000,7 +1000,7 @@ func FirewallPolicy_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1035,7 +1035,7 @@ func FirewallPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1054,7 +1054,7 @@ func FirewallPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1073,7 +1073,7 @@ func FirewallPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1086,7 +1086,7 @@ func FirewallPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicy",
 		"tfResourceType",
 		&returns,
 	)

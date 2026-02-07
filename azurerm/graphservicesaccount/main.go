@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package graphservicesaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccount",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccount",
 		reflect.TypeOf((*GraphServicesAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccountConfig",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccountConfig",
 		reflect.TypeOf((*GraphServicesAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccountTimeouts",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccountTimeouts",
 		reflect.TypeOf((*GraphServicesAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccountTimeoutsOutputReference",
 		reflect.TypeOf((*GraphServicesAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

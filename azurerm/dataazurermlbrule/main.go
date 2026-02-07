@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermlbrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLbRule.DataAzurermLbRule",
+		"@cdktn/provider-azurerm.dataAzurermLbRule.DataAzurermLbRule",
 		reflect.TypeOf((*DataAzurermLbRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLbRule.DataAzurermLbRuleConfig",
+		"@cdktn/provider-azurerm.dataAzurermLbRule.DataAzurermLbRuleConfig",
 		reflect.TypeOf((*DataAzurermLbRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLbRule.DataAzurermLbRuleTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermLbRule.DataAzurermLbRuleTimeouts",
 		reflect.TypeOf((*DataAzurermLbRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLbRule.DataAzurermLbRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermLbRule.DataAzurermLbRuleTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermLbRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

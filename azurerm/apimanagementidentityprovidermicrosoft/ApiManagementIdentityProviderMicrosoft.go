@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementidentityprovidermicrosoft
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementidentityprovidermicrosoft/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementidentityprovidermicrosoft/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_microsoft azurerm_api_management_identity_provider_microsoft}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_microsoft azurerm_api_management_identity_provider_microsoft}.
 type ApiManagementIdentityProviderMicrosoft interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderMicrosoft) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_microsoft azurerm_api_management_identity_provider_microsoft} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_microsoft azurerm_api_management_identity_provider_microsoft} Resource.
 func NewApiManagementIdentityProviderMicrosoft(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderMicrosoftConfig) ApiManagementIdentityProviderMicrosoft {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewApiManagementIdentityProviderMicrosoft(scope constructs.Construct, id *s
 	j := jsiiProxy_ApiManagementIdentityProviderMicrosoft{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewApiManagementIdentityProviderMicrosoft(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_microsoft azurerm_api_management_identity_provider_microsoft} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_microsoft azurerm_api_management_identity_provider_microsoft} Resource.
 func NewApiManagementIdentityProviderMicrosoft_Override(a ApiManagementIdentityProviderMicrosoft, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderMicrosoftConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -588,7 +588,7 @@ func ApiManagementIdentityProviderMicrosoft_GenerateConfigForImport(scope constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func ApiManagementIdentityProviderMicrosoft_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func ApiManagementIdentityProviderMicrosoft_IsTerraformElement(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func ApiManagementIdentityProviderMicrosoft_IsTerraformResource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ApiManagementIdentityProviderMicrosoft_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoft",
 		"tfResourceType",
 		&returns,
 	)

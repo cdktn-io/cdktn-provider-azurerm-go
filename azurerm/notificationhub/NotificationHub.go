@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/notificationhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/notificationhub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/notification_hub azurerm_notification_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/notification_hub azurerm_notification_hub}.
 type NotificationHub interface {
 	cdktf.TerraformResource
 	ApnsCredential() NotificationHubApnsCredentialOutputReference
@@ -522,7 +522,7 @@ func (j *jsiiProxy_NotificationHub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/notification_hub azurerm_notification_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/notification_hub azurerm_notification_hub} Resource.
 func NewNotificationHub(scope constructs.Construct, id *string, config *NotificationHubConfig) NotificationHub {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewNotificationHub(scope constructs.Construct, id *string, config *Notifica
 	j := jsiiProxy_NotificationHub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHub",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewNotificationHub(scope constructs.Construct, id *string, config *Notifica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/notification_hub azurerm_notification_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/notification_hub azurerm_notification_hub} Resource.
 func NewNotificationHub_Override(n NotificationHub, scope constructs.Construct, id *string, config *NotificationHubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHub",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHub",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -695,7 +695,7 @@ func NotificationHub_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHub",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -730,7 +730,7 @@ func NotificationHub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHub",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func NotificationHub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHub",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func NotificationHub_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHub",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHub",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func NotificationHub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.notificationHub.NotificationHub",
+		"@cdktn/provider-azurerm.notificationHub.NotificationHub",
 		"tfResourceType",
 		&returns,
 	)

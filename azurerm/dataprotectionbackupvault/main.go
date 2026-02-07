@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataprotectionbackupvault
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVault",
+		"@cdktn/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVault",
 		reflect.TypeOf((*DataProtectionBackupVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultConfig",
+		"@cdktn/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultConfig",
 		reflect.TypeOf((*DataProtectionBackupVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultIdentity",
+		"@cdktn/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultIdentity",
 		reflect.TypeOf((*DataProtectionBackupVaultIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultIdentityOutputReference",
 		reflect.TypeOf((*DataProtectionBackupVaultIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -146,11 +146,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultTimeouts",
+		"@cdktn/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultTimeouts",
 		reflect.TypeOf((*DataProtectionBackupVaultTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataProtectionBackupVault.DataProtectionBackupVaultTimeoutsOutputReference",
 		reflect.TypeOf((*DataProtectionBackupVaultTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

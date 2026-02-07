@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appserviceenvironmentv3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appserviceenvironmentv3/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appserviceenvironmentv3/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewAppServiceEnvironmentV3ClusterSettingList(terraformResource cdktf.IInter
 	j := jsiiProxy_AppServiceEnvironmentV3ClusterSettingList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3ClusterSettingList",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3ClusterSettingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewAppServiceEnvironmentV3ClusterSettingList_Override(a AppServiceEnvironme
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3ClusterSettingList",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3ClusterSettingList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		a,
 	)

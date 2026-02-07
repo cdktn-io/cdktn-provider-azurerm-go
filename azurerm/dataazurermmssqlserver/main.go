@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmssqlserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServer",
+		"@cdktn/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServer",
 		reflect.TypeOf((*DataAzurermMssqlServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerConfig",
+		"@cdktn/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerConfig",
 		reflect.TypeOf((*DataAzurermMssqlServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerIdentity",
+		"@cdktn/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerIdentity",
 		reflect.TypeOf((*DataAzurermMssqlServerIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerIdentityList",
 		reflect.TypeOf((*DataAzurermMssqlServerIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermMssqlServerIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerTimeouts",
 		reflect.TypeOf((*DataAzurermMssqlServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermMssqlServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

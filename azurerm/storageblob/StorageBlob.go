@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageblob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageblob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageblob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_blob azurerm_storage_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_blob azurerm_storage_blob}.
 type StorageBlob interface {
 	cdktf.TerraformResource
 	AccessTier() *string
@@ -701,7 +701,7 @@ func (j *jsiiProxy_StorageBlob) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
 func NewStorageBlob(scope constructs.Construct, id *string, config *StorageBlobConfig) StorageBlob {
 	_init_.Initialize()
 
@@ -711,7 +711,7 @@ func NewStorageBlob(scope constructs.Construct, id *string, config *StorageBlobC
 	j := jsiiProxy_StorageBlob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageBlob.StorageBlob",
+		"@cdktn/provider-azurerm.storageBlob.StorageBlob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -719,12 +719,12 @@ func NewStorageBlob(scope constructs.Construct, id *string, config *StorageBlobC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
 func NewStorageBlob_Override(s StorageBlob, scope constructs.Construct, id *string, config *StorageBlobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageBlob.StorageBlob",
+		"@cdktn/provider-azurerm.storageBlob.StorageBlob",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -984,7 +984,7 @@ func StorageBlob_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageBlob.StorageBlob",
+		"@cdktn/provider-azurerm.storageBlob.StorageBlob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1019,7 +1019,7 @@ func StorageBlob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageBlob.StorageBlob",
+		"@cdktn/provider-azurerm.storageBlob.StorageBlob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1038,7 +1038,7 @@ func StorageBlob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageBlob.StorageBlob",
+		"@cdktn/provider-azurerm.storageBlob.StorageBlob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1057,7 +1057,7 @@ func StorageBlob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageBlob.StorageBlob",
+		"@cdktn/provider-azurerm.storageBlob.StorageBlob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1070,7 +1070,7 @@ func StorageBlob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageBlob.StorageBlob",
+		"@cdktn/provider-azurerm.storageBlob.StorageBlob",
 		"tfResourceType",
 		&returns,
 	)

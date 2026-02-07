@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rolemanagementpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/rolemanagementpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/rolemanagementpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_management_policy azurerm_role_management_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_management_policy azurerm_role_management_policy}.
 type RoleManagementPolicy interface {
 	cdktf.TerraformResource
 	ActivationRules() RoleManagementPolicyActivationRulesOutputReference
@@ -498,7 +498,7 @@ func (j *jsiiProxy_RoleManagementPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_management_policy azurerm_role_management_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_management_policy azurerm_role_management_policy} Resource.
 func NewRoleManagementPolicy(scope constructs.Construct, id *string, config *RoleManagementPolicyConfig) RoleManagementPolicy {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewRoleManagementPolicy(scope constructs.Construct, id *string, config *Rol
 	j := jsiiProxy_RoleManagementPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewRoleManagementPolicy(scope constructs.Construct, id *string, config *Rol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_management_policy azurerm_role_management_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_management_policy azurerm_role_management_policy} Resource.
 func NewRoleManagementPolicy_Override(r RoleManagementPolicy, scope constructs.Construct, id *string, config *RoleManagementPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -638,7 +638,7 @@ func RoleManagementPolicy_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -673,7 +673,7 @@ func RoleManagementPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -692,7 +692,7 @@ func RoleManagementPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func RoleManagementPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func RoleManagementPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
+		"@cdktn/provider-azurerm.roleManagementPolicy.RoleManagementPolicy",
 		"tfResourceType",
 		&returns,
 	)

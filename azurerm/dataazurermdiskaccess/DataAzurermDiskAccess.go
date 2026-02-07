@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdiskaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdiskaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdiskaccess/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/disk_access azurerm_disk_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/disk_access azurerm_disk_access}.
 type DataAzurermDiskAccess interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataAzurermDiskAccess) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/disk_access azurerm_disk_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/disk_access azurerm_disk_access} Data Source.
 func NewDataAzurermDiskAccess(scope constructs.Construct, id *string, config *DataAzurermDiskAccessConfig) DataAzurermDiskAccess {
 	_init_.Initialize()
 
@@ -356,7 +356,7 @@ func NewDataAzurermDiskAccess(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAzurermDiskAccess{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -364,12 +364,12 @@ func NewDataAzurermDiskAccess(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/disk_access azurerm_disk_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/disk_access azurerm_disk_access} Data Source.
 func NewDataAzurermDiskAccess_Override(d DataAzurermDiskAccess, scope constructs.Construct, id *string, config *DataAzurermDiskAccessConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -464,7 +464,7 @@ func DataAzurermDiskAccess_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -499,7 +499,7 @@ func DataAzurermDiskAccess_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -518,7 +518,7 @@ func DataAzurermDiskAccess_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -537,7 +537,7 @@ func DataAzurermDiskAccess_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -550,7 +550,7 @@ func DataAzurermDiskAccess_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
 		"tfResourceType",
 		&returns,
 	)

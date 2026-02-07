@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermtenanttemplatedeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermtenanttemplatedeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermtenanttemplatedeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment}.
 type DataAzurermTenantTemplateDeployment interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -323,7 +323,7 @@ func (j *jsiiProxy_DataAzurermTenantTemplateDeployment) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment} Data Source.
 func NewDataAzurermTenantTemplateDeployment(scope constructs.Construct, id *string, config *DataAzurermTenantTemplateDeploymentConfig) DataAzurermTenantTemplateDeployment {
 	_init_.Initialize()
 
@@ -333,7 +333,7 @@ func NewDataAzurermTenantTemplateDeployment(scope constructs.Construct, id *stri
 	j := jsiiProxy_DataAzurermTenantTemplateDeployment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
+		"@cdktn/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -341,12 +341,12 @@ func NewDataAzurermTenantTemplateDeployment(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment} Data Source.
 func NewDataAzurermTenantTemplateDeployment_Override(d DataAzurermTenantTemplateDeployment, scope constructs.Construct, id *string, config *DataAzurermTenantTemplateDeploymentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
+		"@cdktn/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -430,7 +430,7 @@ func DataAzurermTenantTemplateDeployment_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
+		"@cdktn/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -465,7 +465,7 @@ func DataAzurermTenantTemplateDeployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
+		"@cdktn/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -484,7 +484,7 @@ func DataAzurermTenantTemplateDeployment_IsTerraformDataSource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
+		"@cdktn/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -503,7 +503,7 @@ func DataAzurermTenantTemplateDeployment_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
+		"@cdktn/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -516,7 +516,7 @@ func DataAzurermTenantTemplateDeployment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
+		"@cdktn/provider-azurerm.dataAzurermTenantTemplateDeployment.DataAzurermTenantTemplateDeployment",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudbuilder
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilder",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilder",
 		reflect.TypeOf((*SpringCloudBuilder)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,11 +80,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderBuildPackGroup",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderBuildPackGroup",
 		reflect.TypeOf((*SpringCloudBuilderBuildPackGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderBuildPackGroupList",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderBuildPackGroupList",
 		reflect.TypeOf((*SpringCloudBuilderBuildPackGroupList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderBuildPackGroupOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderBuildPackGroupOutputReference",
 		reflect.TypeOf((*SpringCloudBuilderBuildPackGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "buildPackIds", GoGetter: "BuildPackIds"},
@@ -143,15 +143,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderConfig",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderConfig",
 		reflect.TypeOf((*SpringCloudBuilderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderStack",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderStack",
 		reflect.TypeOf((*SpringCloudBuilderStack)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderStackOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderStackOutputReference",
 		reflect.TypeOf((*SpringCloudBuilderStackOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,11 +187,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderTimeouts",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderTimeouts",
 		reflect.TypeOf((*SpringCloudBuilderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudBuilderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

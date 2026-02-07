@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicefabriccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/servicefabriccluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicefabriccluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewServiceFabricClusterAzureActiveDirectoryOutputReference(terraformResourc
 	j := jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectoryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewServiceFabricClusterAzureActiveDirectoryOutputReference_Override(s Servi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectoryOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappsnapshotpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicy",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicy",
 		reflect.TypeOf((*NetappSnapshotPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyConfig",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyConfig",
 		reflect.TypeOf((*NetappSnapshotPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyDailySchedule",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyDailySchedule",
 		reflect.TypeOf((*NetappSnapshotPolicyDailySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyDailyScheduleOutputReference",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyDailyScheduleOutputReference",
 		reflect.TypeOf((*NetappSnapshotPolicyDailyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyHourlySchedule",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyHourlySchedule",
 		reflect.TypeOf((*NetappSnapshotPolicyHourlySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyHourlyScheduleOutputReference",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyHourlyScheduleOutputReference",
 		reflect.TypeOf((*NetappSnapshotPolicyHourlyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -185,11 +185,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyMonthlySchedule",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyMonthlySchedule",
 		reflect.TypeOf((*NetappSnapshotPolicyMonthlySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyMonthlyScheduleOutputReference",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyMonthlyScheduleOutputReference",
 		reflect.TypeOf((*NetappSnapshotPolicyMonthlyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -229,11 +229,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyTimeouts",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyTimeouts",
 		reflect.TypeOf((*NetappSnapshotPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*NetappSnapshotPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -277,11 +277,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyWeeklySchedule",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyWeeklySchedule",
 		reflect.TypeOf((*NetappSnapshotPolicyWeeklySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyWeeklyScheduleOutputReference",
+		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicyWeeklyScheduleOutputReference",
 		reflect.TypeOf((*NetappSnapshotPolicyWeeklyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

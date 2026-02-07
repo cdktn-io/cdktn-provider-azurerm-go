@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webappactiveslot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlot",
 		reflect.TypeOf((*WebAppActiveSlot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlotConfig",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlotConfig",
 		reflect.TypeOf((*WebAppActiveSlotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlotTimeouts",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlotTimeouts",
 		reflect.TypeOf((*WebAppActiveSlotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webAppActiveSlot.WebAppActiveSlotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.webAppActiveSlot.WebAppActiveSlotTimeoutsOutputReference",
 		reflect.TypeOf((*WebAppActiveSlotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

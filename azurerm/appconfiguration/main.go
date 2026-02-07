@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfiguration",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfiguration",
 		reflect.TypeOf((*AppConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -117,15 +117,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationConfig",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationConfig",
 		reflect.TypeOf((*AppConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationEncryption",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationEncryption",
 		reflect.TypeOf((*AppConfigurationEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationEncryptionOutputReference",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationEncryptionOutputReference",
 		reflect.TypeOf((*AppConfigurationEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationIdentity",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationIdentity",
 		reflect.TypeOf((*AppConfigurationIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationIdentityOutputReference",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationIdentityOutputReference",
 		reflect.TypeOf((*AppConfigurationIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -206,11 +206,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationPrimaryReadKey",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationPrimaryReadKey",
 		reflect.TypeOf((*AppConfigurationPrimaryReadKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationPrimaryReadKeyList",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationPrimaryReadKeyList",
 		reflect.TypeOf((*AppConfigurationPrimaryReadKeyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -231,7 +231,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationPrimaryReadKeyOutputReference",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationPrimaryReadKeyOutputReference",
 		reflect.TypeOf((*AppConfigurationPrimaryReadKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -266,11 +266,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKey",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKey",
 		reflect.TypeOf((*AppConfigurationPrimaryWriteKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKeyList",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKeyList",
 		reflect.TypeOf((*AppConfigurationPrimaryWriteKeyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -291,7 +291,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKeyOutputReference",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationPrimaryWriteKeyOutputReference",
 		reflect.TypeOf((*AppConfigurationPrimaryWriteKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -326,11 +326,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationReplica",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationReplica",
 		reflect.TypeOf((*AppConfigurationReplica)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationReplicaList",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationReplicaList",
 		reflect.TypeOf((*AppConfigurationReplicaList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -352,7 +352,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationReplicaOutputReference",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationReplicaOutputReference",
 		reflect.TypeOf((*AppConfigurationReplicaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -390,11 +390,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationSecondaryReadKey",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationSecondaryReadKey",
 		reflect.TypeOf((*AppConfigurationSecondaryReadKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationSecondaryReadKeyList",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationSecondaryReadKeyList",
 		reflect.TypeOf((*AppConfigurationSecondaryReadKeyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -415,7 +415,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationSecondaryReadKeyOutputReference",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationSecondaryReadKeyOutputReference",
 		reflect.TypeOf((*AppConfigurationSecondaryReadKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -450,11 +450,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationSecondaryWriteKey",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationSecondaryWriteKey",
 		reflect.TypeOf((*AppConfigurationSecondaryWriteKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationSecondaryWriteKeyList",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationSecondaryWriteKeyList",
 		reflect.TypeOf((*AppConfigurationSecondaryWriteKeyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -475,7 +475,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationSecondaryWriteKeyOutputReference",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationSecondaryWriteKeyOutputReference",
 		reflect.TypeOf((*AppConfigurationSecondaryWriteKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -510,11 +510,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationTimeouts",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationTimeouts",
 		reflect.TypeOf((*AppConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfiguration.AppConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appConfiguration.AppConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*AppConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

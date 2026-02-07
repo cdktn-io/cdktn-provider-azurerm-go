@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orbitalspacecraft
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/orbitalspacecraft/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orbitalspacecraft/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewOrbitalSpacecraftLinksList(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_OrbitalSpacecraftLinksList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinksList",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinksList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewOrbitalSpacecraftLinksList_Override(o OrbitalSpacecraftLinksList, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinksList",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinksList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		o,
 	)

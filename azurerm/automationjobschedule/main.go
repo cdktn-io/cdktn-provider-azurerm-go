@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationjobschedule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobSchedule",
 		reflect.TypeOf((*AutomationJobSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobScheduleConfig",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobScheduleConfig",
 		reflect.TypeOf((*AutomationJobScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobScheduleTimeouts",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobScheduleTimeouts",
 		reflect.TypeOf((*AutomationJobScheduleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationJobSchedule.AutomationJobScheduleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationJobSchedule.AutomationJobScheduleTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationJobScheduleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

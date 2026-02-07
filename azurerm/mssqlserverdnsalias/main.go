@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlserverdnsalias
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
 		reflect.TypeOf((*MssqlServerDnsAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAliasConfig",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAliasConfig",
 		reflect.TypeOf((*MssqlServerDnsAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAliasTimeouts",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAliasTimeouts",
 		reflect.TypeOf((*MssqlServerDnsAliasTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAliasTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAliasTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlServerDnsAliasTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

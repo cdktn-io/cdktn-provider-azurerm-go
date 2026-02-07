@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermeventhub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermEventhub.DataAzurermEventhub",
+		"@cdktn/provider-azurerm.dataAzurermEventhub.DataAzurermEventhub",
 		reflect.TypeOf((*DataAzurermEventhub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,15 +70,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermEventhub.DataAzurermEventhubConfig",
+		"@cdktn/provider-azurerm.dataAzurermEventhub.DataAzurermEventhubConfig",
 		reflect.TypeOf((*DataAzurermEventhubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermEventhub.DataAzurermEventhubTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermEventhub.DataAzurermEventhubTimeouts",
 		reflect.TypeOf((*DataAzurermEventhubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermEventhub.DataAzurermEventhubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermEventhub.DataAzurermEventhubTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermEventhubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

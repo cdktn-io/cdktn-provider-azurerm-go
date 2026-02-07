@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicebussubscription
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscription",
 		reflect.TypeOf((*ServicebusSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -113,11 +113,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscriptionClientScopedSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscriptionClientScopedSubscription",
 		reflect.TypeOf((*ServicebusSubscriptionClientScopedSubscription)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscriptionClientScopedSubscriptionOutputReference",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscriptionClientScopedSubscriptionOutputReference",
 		reflect.TypeOf((*ServicebusSubscriptionClientScopedSubscriptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -156,15 +156,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscriptionConfig",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscriptionConfig",
 		reflect.TypeOf((*ServicebusSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscriptionTimeouts",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscriptionTimeouts",
 		reflect.TypeOf((*ServicebusSubscriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscriptionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscriptionTimeoutsOutputReference",
 		reflect.TypeOf((*ServicebusSubscriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

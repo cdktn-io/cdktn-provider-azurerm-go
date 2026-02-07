@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerverifierworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
 		reflect.TypeOf((*NetworkManagerVerifierWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceConfig",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceConfig",
 		reflect.TypeOf((*NetworkManagerVerifierWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeouts",
 		reflect.TypeOf((*NetworkManagerVerifierWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkManagerVerifierWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

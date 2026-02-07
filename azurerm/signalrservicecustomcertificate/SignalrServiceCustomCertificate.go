@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package signalrservicecustomcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/signalrservicecustomcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/signalrservicecustomcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate}.
 type SignalrServiceCustomCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_SignalrServiceCustomCertificate) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate} Resource.
 func NewSignalrServiceCustomCertificate(scope constructs.Construct, id *string, config *SignalrServiceCustomCertificateConfig) SignalrServiceCustomCertificate {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewSignalrServiceCustomCertificate(scope constructs.Construct, id *string, 
 	j := jsiiProxy_SignalrServiceCustomCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewSignalrServiceCustomCertificate(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate} Resource.
 func NewSignalrServiceCustomCertificate_Override(s SignalrServiceCustomCertificate, scope constructs.Construct, id *string, config *SignalrServiceCustomCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -565,7 +565,7 @@ func SignalrServiceCustomCertificate_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func SignalrServiceCustomCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func SignalrServiceCustomCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func SignalrServiceCustomCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func SignalrServiceCustomCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
+		"@cdktn/provider-azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificate",
 		"tfResourceType",
 		&returns,
 	)

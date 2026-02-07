@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubnetworkacl
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAcl",
 		reflect.TypeOf((*WebPubsubNetworkAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclConfig",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclConfig",
 		reflect.TypeOf((*WebPubsubNetworkAclConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPrivateEndpoint",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPrivateEndpoint",
 		reflect.TypeOf((*WebPubsubNetworkAclPrivateEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPrivateEndpointList",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPrivateEndpointList",
 		reflect.TypeOf((*WebPubsubNetworkAclPrivateEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPrivateEndpointOutputReference",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPrivateEndpointOutputReference",
 		reflect.TypeOf((*WebPubsubNetworkAclPrivateEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedRequestTypes", GoGetter: "AllowedRequestTypes"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPublicNetwork",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPublicNetwork",
 		reflect.TypeOf((*WebPubsubNetworkAclPublicNetwork)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPublicNetworkOutputReference",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPublicNetworkOutputReference",
 		reflect.TypeOf((*WebPubsubNetworkAclPublicNetworkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedRequestTypes", GoGetter: "AllowedRequestTypes"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclTimeouts",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclTimeouts",
 		reflect.TypeOf((*WebPubsubNetworkAclTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclTimeoutsOutputReference",
 		reflect.TypeOf((*WebPubsubNetworkAclTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

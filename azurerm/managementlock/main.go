@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managementlock
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managementLock.ManagementLock",
+		"@cdktn/provider-azurerm.managementLock.ManagementLock",
 		reflect.TypeOf((*ManagementLock)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managementLock.ManagementLockConfig",
+		"@cdktn/provider-azurerm.managementLock.ManagementLockConfig",
 		reflect.TypeOf((*ManagementLockConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managementLock.ManagementLockTimeouts",
+		"@cdktn/provider-azurerm.managementLock.ManagementLockTimeouts",
 		reflect.TypeOf((*ManagementLockTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managementLock.ManagementLockTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managementLock.ManagementLockTimeoutsOutputReference",
 		reflect.TypeOf((*ManagementLockTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagetable
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageTable.StorageTable",
+		"@cdktn/provider-azurerm.storageTable.StorageTable",
 		reflect.TypeOf((*StorageTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acl", GoGetter: "Acl"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageTable.StorageTableAcl",
+		"@cdktn/provider-azurerm.storageTable.StorageTableAcl",
 		reflect.TypeOf((*StorageTableAcl)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageTable.StorageTableAclAccessPolicy",
+		"@cdktn/provider-azurerm.storageTable.StorageTableAclAccessPolicy",
 		reflect.TypeOf((*StorageTableAclAccessPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageTable.StorageTableAclAccessPolicyList",
+		"@cdktn/provider-azurerm.storageTable.StorageTableAclAccessPolicyList",
 		reflect.TypeOf((*StorageTableAclAccessPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageTable.StorageTableAclAccessPolicyOutputReference",
+		"@cdktn/provider-azurerm.storageTable.StorageTableAclAccessPolicyOutputReference",
 		reflect.TypeOf((*StorageTableAclAccessPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,7 +147,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageTable.StorageTableAclList",
+		"@cdktn/provider-azurerm.storageTable.StorageTableAclList",
 		reflect.TypeOf((*StorageTableAclList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -169,7 +169,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageTable.StorageTableAclOutputReference",
+		"@cdktn/provider-azurerm.storageTable.StorageTableAclOutputReference",
 		reflect.TypeOf((*StorageTableAclOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicy", GoGetter: "AccessPolicy"},
@@ -207,15 +207,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageTable.StorageTableConfig",
+		"@cdktn/provider-azurerm.storageTable.StorageTableConfig",
 		reflect.TypeOf((*StorageTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageTable.StorageTableTimeouts",
+		"@cdktn/provider-azurerm.storageTable.StorageTableTimeouts",
 		reflect.TypeOf((*StorageTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageTable.StorageTableTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageTable.StorageTableTimeoutsOutputReference",
 		reflect.TypeOf((*StorageTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

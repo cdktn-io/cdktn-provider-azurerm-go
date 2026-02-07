@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privateendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/privateendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privateendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_endpoint azurerm_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_endpoint azurerm_private_endpoint}.
 type PrivateEndpoint interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -578,7 +578,7 @@ func (j *jsiiProxy_PrivateEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
 func NewPrivateEndpoint(scope constructs.Construct, id *string, config *PrivateEndpointConfig) PrivateEndpoint {
 	_init_.Initialize()
 
@@ -588,7 +588,7 @@ func NewPrivateEndpoint(scope constructs.Construct, id *string, config *PrivateE
 	j := jsiiProxy_PrivateEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpoint",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -596,12 +596,12 @@ func NewPrivateEndpoint(scope constructs.Construct, id *string, config *PrivateE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
 func NewPrivateEndpoint_Override(p PrivateEndpoint, scope constructs.Construct, id *string, config *PrivateEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpoint",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpoint",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -762,7 +762,7 @@ func PrivateEndpoint_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpoint",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -797,7 +797,7 @@ func PrivateEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpoint",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -816,7 +816,7 @@ func PrivateEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpoint",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -835,7 +835,7 @@ func PrivateEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpoint",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func PrivateEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.privateEndpoint.PrivateEndpoint",
+		"@cdktn/provider-azurerm.privateEndpoint.PrivateEndpoint",
 		"tfResourceType",
 		&returns,
 	)

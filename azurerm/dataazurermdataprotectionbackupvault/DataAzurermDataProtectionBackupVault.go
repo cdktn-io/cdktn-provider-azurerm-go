@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdataprotectionbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdataprotectionbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdataprotectionbackupvault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault}.
 type DataAzurermDataProtectionBackupVault interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVault) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault} Data Source.
 func NewDataAzurermDataProtectionBackupVault(scope constructs.Construct, id *string, config *DataAzurermDataProtectionBackupVaultConfig) DataAzurermDataProtectionBackupVault {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewDataAzurermDataProtectionBackupVault(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAzurermDataProtectionBackupVault{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
+		"@cdktn/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewDataAzurermDataProtectionBackupVault(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/data_protection_backup_vault azurerm_data_protection_backup_vault} Data Source.
 func NewDataAzurermDataProtectionBackupVault_Override(d DataAzurermDataProtectionBackupVault, scope constructs.Construct, id *string, config *DataAzurermDataProtectionBackupVaultConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
+		"@cdktn/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -508,7 +508,7 @@ func DataAzurermDataProtectionBackupVault_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
+		"@cdktn/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func DataAzurermDataProtectionBackupVault_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
+		"@cdktn/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataAzurermDataProtectionBackupVault_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
+		"@cdktn/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func DataAzurermDataProtectionBackupVault_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
+		"@cdktn/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func DataAzurermDataProtectionBackupVault_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
+		"@cdktn/provider-azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVault",
 		"tfResourceType",
 		&returns,
 	)

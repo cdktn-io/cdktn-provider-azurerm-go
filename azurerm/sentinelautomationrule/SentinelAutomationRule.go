@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sentinelautomationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelautomationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule}.
 type SentinelAutomationRule interface {
 	cdktf.TerraformResource
 	ActionIncident() SentinelAutomationRuleActionIncidentList
@@ -618,7 +618,7 @@ func (j *jsiiProxy_SentinelAutomationRule) TriggersWhenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule} Resource.
 func NewSentinelAutomationRule(scope constructs.Construct, id *string, config *SentinelAutomationRuleConfig) SentinelAutomationRule {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewSentinelAutomationRule(scope constructs.Construct, id *string, config *S
 	j := jsiiProxy_SentinelAutomationRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -636,12 +636,12 @@ func NewSentinelAutomationRule(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule} Resource.
 func NewSentinelAutomationRule_Override(s SentinelAutomationRule, scope constructs.Construct, id *string, config *SentinelAutomationRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -835,7 +835,7 @@ func SentinelAutomationRule_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -870,7 +870,7 @@ func SentinelAutomationRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -889,7 +889,7 @@ func SentinelAutomationRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -908,7 +908,7 @@ func SentinelAutomationRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func SentinelAutomationRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
+		"@cdktn/provider-azurerm.sentinelAutomationRule.SentinelAutomationRule",
 		"tfResourceType",
 		&returns,
 	)

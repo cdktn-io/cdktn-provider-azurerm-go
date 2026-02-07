@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arcmachineextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/arcmachineextension/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arcmachineextension/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewArcMachineExtensionTimeoutsOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_ArcMachineExtensionTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtensionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtensionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewArcMachineExtensionTimeoutsOutputReference_Override(a ArcMachineExtensio
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcMachineExtension.ArcMachineExtensionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.arcMachineExtension.ArcMachineExtensionTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

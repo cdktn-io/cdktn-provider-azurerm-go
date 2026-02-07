@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package relayhybridconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/relayhybridconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/relayhybridconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/relay_hybrid_connection azurerm_relay_hybrid_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/relay_hybrid_connection azurerm_relay_hybrid_connection}.
 type RelayHybridConnection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_RelayHybridConnection) UserMetadataInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/relay_hybrid_connection azurerm_relay_hybrid_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/relay_hybrid_connection azurerm_relay_hybrid_connection} Resource.
 func NewRelayHybridConnection(scope constructs.Construct, id *string, config *RelayHybridConnectionConfig) RelayHybridConnection {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewRelayHybridConnection(scope constructs.Construct, id *string, config *Re
 	j := jsiiProxy_RelayHybridConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.relayHybridConnection.RelayHybridConnection",
+		"@cdktn/provider-azurerm.relayHybridConnection.RelayHybridConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewRelayHybridConnection(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/relay_hybrid_connection azurerm_relay_hybrid_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/relay_hybrid_connection azurerm_relay_hybrid_connection} Resource.
 func NewRelayHybridConnection_Override(r RelayHybridConnection, scope constructs.Construct, id *string, config *RelayHybridConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.relayHybridConnection.RelayHybridConnection",
+		"@cdktn/provider-azurerm.relayHybridConnection.RelayHybridConnection",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -624,7 +624,7 @@ func RelayHybridConnection_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.relayHybridConnection.RelayHybridConnection",
+		"@cdktn/provider-azurerm.relayHybridConnection.RelayHybridConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func RelayHybridConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.relayHybridConnection.RelayHybridConnection",
+		"@cdktn/provider-azurerm.relayHybridConnection.RelayHybridConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func RelayHybridConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.relayHybridConnection.RelayHybridConnection",
+		"@cdktn/provider-azurerm.relayHybridConnection.RelayHybridConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func RelayHybridConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.relayHybridConnection.RelayHybridConnection",
+		"@cdktn/provider-azurerm.relayHybridConnection.RelayHybridConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func RelayHybridConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.relayHybridConnection.RelayHybridConnection",
+		"@cdktn/provider-azurerm.relayHybridConnection.RelayHybridConnection",
 		"tfResourceType",
 		&returns,
 	)

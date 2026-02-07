@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagesharedirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagesharedirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagesharedirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share_directory azurerm_storage_share_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share_directory azurerm_storage_share_directory}.
 type StorageShareDirectory interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_StorageShareDirectory) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share_directory azurerm_storage_share_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share_directory azurerm_storage_share_directory} Resource.
 func NewStorageShareDirectory(scope constructs.Construct, id *string, config *StorageShareDirectoryConfig) StorageShareDirectory {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewStorageShareDirectory(scope constructs.Construct, id *string, config *St
 	j := jsiiProxy_StorageShareDirectory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageShareDirectory.StorageShareDirectory",
+		"@cdktn/provider-azurerm.storageShareDirectory.StorageShareDirectory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewStorageShareDirectory(scope constructs.Construct, id *string, config *St
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share_directory azurerm_storage_share_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share_directory azurerm_storage_share_directory} Resource.
 func NewStorageShareDirectory_Override(s StorageShareDirectory, scope constructs.Construct, id *string, config *StorageShareDirectoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageShareDirectory.StorageShareDirectory",
+		"@cdktn/provider-azurerm.storageShareDirectory.StorageShareDirectory",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -591,7 +591,7 @@ func StorageShareDirectory_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShareDirectory.StorageShareDirectory",
+		"@cdktn/provider-azurerm.storageShareDirectory.StorageShareDirectory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -626,7 +626,7 @@ func StorageShareDirectory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShareDirectory.StorageShareDirectory",
+		"@cdktn/provider-azurerm.storageShareDirectory.StorageShareDirectory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -645,7 +645,7 @@ func StorageShareDirectory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShareDirectory.StorageShareDirectory",
+		"@cdktn/provider-azurerm.storageShareDirectory.StorageShareDirectory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func StorageShareDirectory_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShareDirectory.StorageShareDirectory",
+		"@cdktn/provider-azurerm.storageShareDirectory.StorageShareDirectory",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func StorageShareDirectory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageShareDirectory.StorageShareDirectory",
+		"@cdktn/provider-azurerm.storageShareDirectory.StorageShareDirectory",
 		"tfResourceType",
 		&returns,
 	)

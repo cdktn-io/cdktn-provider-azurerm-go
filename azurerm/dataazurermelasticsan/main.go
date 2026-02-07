@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermelasticsan
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSan",
+		"@cdktn/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSan",
 		reflect.TypeOf((*DataAzurermElasticSan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanConfig",
+		"@cdktn/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanConfig",
 		reflect.TypeOf((*DataAzurermElasticSanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanSku",
+		"@cdktn/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanSku",
 		reflect.TypeOf((*DataAzurermElasticSanSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanSkuList",
+		"@cdktn/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanSkuList",
 		reflect.TypeOf((*DataAzurermElasticSanSkuList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanSkuOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanSkuOutputReference",
 		reflect.TypeOf((*DataAzurermElasticSanSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanTimeouts",
 		reflect.TypeOf((*DataAzurermElasticSanTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermElasticSan.DataAzurermElasticSanTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermElasticSanTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

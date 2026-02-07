@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnscnamerecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dnscnamerecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dnscnamerecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_cname_record azurerm_dns_cname_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_cname_record azurerm_dns_cname_record}.
 type DnsCnameRecord interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_DnsCnameRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_cname_record azurerm_dns_cname_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_cname_record azurerm_dns_cname_record} Resource.
 func NewDnsCnameRecord(scope constructs.Construct, id *string, config *DnsCnameRecordConfig) DnsCnameRecord {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewDnsCnameRecord(scope constructs.Construct, id *string, config *DnsCnameR
 	j := jsiiProxy_DnsCnameRecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
+		"@cdktn/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewDnsCnameRecord(scope constructs.Construct, id *string, config *DnsCnameR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_cname_record azurerm_dns_cname_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_cname_record azurerm_dns_cname_record} Resource.
 func NewDnsCnameRecord_Override(d DnsCnameRecord, scope constructs.Construct, id *string, config *DnsCnameRecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
+		"@cdktn/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -704,7 +704,7 @@ func DnsCnameRecord_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
+		"@cdktn/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func DnsCnameRecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
+		"@cdktn/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func DnsCnameRecord_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
+		"@cdktn/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func DnsCnameRecord_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
+		"@cdktn/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func DnsCnameRecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
+		"@cdktn/provider-azurerm.dnsCnameRecord.DnsCnameRecord",
 		"tfResourceType",
 		&returns,
 	)

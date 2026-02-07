@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lboutboundrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lbOutboundRule.LbOutboundRule",
+		"@cdktn/provider-azurerm.lbOutboundRule.LbOutboundRule",
 		reflect.TypeOf((*LbOutboundRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lbOutboundRule.LbOutboundRuleConfig",
+		"@cdktn/provider-azurerm.lbOutboundRule.LbOutboundRuleConfig",
 		reflect.TypeOf((*LbOutboundRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lbOutboundRule.LbOutboundRuleFrontendIpConfiguration",
+		"@cdktn/provider-azurerm.lbOutboundRule.LbOutboundRuleFrontendIpConfiguration",
 		reflect.TypeOf((*LbOutboundRuleFrontendIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lbOutboundRule.LbOutboundRuleFrontendIpConfigurationList",
+		"@cdktn/provider-azurerm.lbOutboundRule.LbOutboundRuleFrontendIpConfigurationList",
 		reflect.TypeOf((*LbOutboundRuleFrontendIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lbOutboundRule.LbOutboundRuleFrontendIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.lbOutboundRule.LbOutboundRuleFrontendIpConfigurationOutputReference",
 		reflect.TypeOf((*LbOutboundRuleFrontendIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lbOutboundRule.LbOutboundRuleTimeouts",
+		"@cdktn/provider-azurerm.lbOutboundRule.LbOutboundRuleTimeouts",
 		reflect.TypeOf((*LbOutboundRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lbOutboundRule.LbOutboundRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.lbOutboundRule.LbOutboundRuleTimeoutsOutputReference",
 		reflect.TypeOf((*LbOutboundRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

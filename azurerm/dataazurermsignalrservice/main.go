@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsignalrservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrService",
+		"@cdktn/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrService",
 		reflect.TypeOf((*DataAzurermSignalrService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aadAuthEnabled", GoGetter: "AadAuthEnabled"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceConfig",
+		"@cdktn/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceConfig",
 		reflect.TypeOf((*DataAzurermSignalrServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceTimeouts",
 		reflect.TypeOf((*DataAzurermSignalrServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermSignalrServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

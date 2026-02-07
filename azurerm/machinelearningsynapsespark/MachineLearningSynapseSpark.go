@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearningsynapsespark
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/machinelearningsynapsespark/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/machinelearningsynapsespark/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_synapse_spark azurerm_machine_learning_synapse_spark}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_synapse_spark azurerm_machine_learning_synapse_spark}.
 type MachineLearningSynapseSpark interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_MachineLearningSynapseSpark) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_synapse_spark azurerm_machine_learning_synapse_spark} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_synapse_spark azurerm_machine_learning_synapse_spark} Resource.
 func NewMachineLearningSynapseSpark(scope constructs.Construct, id *string, config *MachineLearningSynapseSparkConfig) MachineLearningSynapseSpark {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewMachineLearningSynapseSpark(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_MachineLearningSynapseSpark{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
+		"@cdktn/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewMachineLearningSynapseSpark(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/machine_learning_synapse_spark azurerm_machine_learning_synapse_spark} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/machine_learning_synapse_spark azurerm_machine_learning_synapse_spark} Resource.
 func NewMachineLearningSynapseSpark_Override(m MachineLearningSynapseSpark, scope constructs.Construct, id *string, config *MachineLearningSynapseSparkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
+		"@cdktn/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -717,7 +717,7 @@ func MachineLearningSynapseSpark_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
+		"@cdktn/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -752,7 +752,7 @@ func MachineLearningSynapseSpark_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
+		"@cdktn/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -771,7 +771,7 @@ func MachineLearningSynapseSpark_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
+		"@cdktn/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func MachineLearningSynapseSpark_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
+		"@cdktn/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func MachineLearningSynapseSpark_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
+		"@cdktn/provider-azurerm.machineLearningSynapseSpark.MachineLearningSynapseSpark",
 		"tfResourceType",
 		&returns,
 	)

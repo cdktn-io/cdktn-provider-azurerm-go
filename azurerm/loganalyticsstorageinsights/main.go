@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticsstorageinsights
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsights",
 		reflect.TypeOf((*LogAnalyticsStorageInsights)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsightsConfig",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsightsConfig",
 		reflect.TypeOf((*LogAnalyticsStorageInsightsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsightsTimeouts",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsightsTimeouts",
 		reflect.TypeOf((*LogAnalyticsStorageInsightsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsightsTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logAnalyticsStorageInsights.LogAnalyticsStorageInsightsTimeoutsOutputReference",
 		reflect.TypeOf((*LogAnalyticsStorageInsightsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

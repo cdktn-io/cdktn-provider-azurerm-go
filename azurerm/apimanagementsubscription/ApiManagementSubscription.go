@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementsubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_subscription azurerm_api_management_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_subscription azurerm_api_management_subscription}.
 type ApiManagementSubscription interface {
 	cdktf.TerraformResource
 	AllowTracing() interface{}
@@ -595,7 +595,7 @@ func (j *jsiiProxy_ApiManagementSubscription) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_subscription azurerm_api_management_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_subscription azurerm_api_management_subscription} Resource.
 func NewApiManagementSubscription(scope constructs.Construct, id *string, config *ApiManagementSubscriptionConfig) ApiManagementSubscription {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewApiManagementSubscription(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ApiManagementSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
+		"@cdktn/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -613,12 +613,12 @@ func NewApiManagementSubscription(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_subscription azurerm_api_management_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_subscription azurerm_api_management_subscription} Resource.
 func NewApiManagementSubscription_Override(a ApiManagementSubscription, scope constructs.Construct, id *string, config *ApiManagementSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
+		"@cdktn/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -834,7 +834,7 @@ func ApiManagementSubscription_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
+		"@cdktn/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -869,7 +869,7 @@ func ApiManagementSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
+		"@cdktn/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -888,7 +888,7 @@ func ApiManagementSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
+		"@cdktn/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -907,7 +907,7 @@ func ApiManagementSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
+		"@cdktn/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func ApiManagementSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
+		"@cdktn/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanageripampool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanageripampool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanageripampool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool}.
 type NetworkManagerIpamPool interface {
 	cdktf.TerraformResource
 	AddressPrefixes() *[]*string
@@ -522,7 +522,7 @@ func (j *jsiiProxy_NetworkManagerIpamPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Resource.
 func NewNetworkManagerIpamPool(scope constructs.Construct, id *string, config *NetworkManagerIpamPoolConfig) NetworkManagerIpamPool {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewNetworkManagerIpamPool(scope constructs.Construct, id *string, config *N
 	j := jsiiProxy_NetworkManagerIpamPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
+		"@cdktn/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewNetworkManagerIpamPool(scope constructs.Construct, id *string, config *N
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Resource.
 func NewNetworkManagerIpamPool_Override(n NetworkManagerIpamPool, scope constructs.Construct, id *string, config *NetworkManagerIpamPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
+		"@cdktn/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -728,7 +728,7 @@ func NetworkManagerIpamPool_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
+		"@cdktn/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -763,7 +763,7 @@ func NetworkManagerIpamPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
+		"@cdktn/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func NetworkManagerIpamPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
+		"@cdktn/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func NetworkManagerIpamPool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
+		"@cdktn/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func NetworkManagerIpamPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
+		"@cdktn/provider-azurerm.networkManagerIpamPool.NetworkManagerIpamPool",
 		"tfResourceType",
 		&returns,
 	)

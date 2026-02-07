@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappaccountencryption
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
 		reflect.TypeOf((*NetappAccountEncryption)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryptionConfig",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryptionConfig",
 		reflect.TypeOf((*NetappAccountEncryptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryptionTimeouts",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryptionTimeouts",
 		reflect.TypeOf((*NetappAccountEncryptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryptionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryptionTimeoutsOutputReference",
 		reflect.TypeOf((*NetappAccountEncryptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

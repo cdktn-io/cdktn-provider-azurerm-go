@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcistoragepath
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
 		reflect.TypeOf((*StackHciStoragePath)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePathConfig",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePathConfig",
 		reflect.TypeOf((*StackHciStoragePathConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePathTimeouts",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePathTimeouts",
 		reflect.TypeOf((*StackHciStoragePathTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePathTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePathTimeoutsOutputReference",
 		reflect.TypeOf((*StackHciStoragePathTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

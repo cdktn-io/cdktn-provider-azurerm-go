@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticscluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsCluster.LogAnalyticsCluster",
+		"@cdktn/provider-azurerm.logAnalyticsCluster.LogAnalyticsCluster",
 		reflect.TypeOf((*LogAnalyticsCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterConfig",
+		"@cdktn/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterConfig",
 		reflect.TypeOf((*LogAnalyticsClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterIdentity",
+		"@cdktn/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterIdentity",
 		reflect.TypeOf((*LogAnalyticsClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterIdentityOutputReference",
 		reflect.TypeOf((*LogAnalyticsClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,11 +133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterTimeouts",
+		"@cdktn/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterTimeouts",
 		reflect.TypeOf((*LogAnalyticsClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logAnalyticsCluster.LogAnalyticsClusterTimeoutsOutputReference",
 		reflect.TypeOf((*LogAnalyticsClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

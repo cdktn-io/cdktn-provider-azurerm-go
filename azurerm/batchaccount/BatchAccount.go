@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/batchaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/batchaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_account azurerm_batch_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_account azurerm_batch_account}.
 type BatchAccount interface {
 	cdktf.TerraformResource
 	AccountEndpoint() *string
@@ -700,7 +700,7 @@ func (j *jsiiProxy_BatchAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_account azurerm_batch_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_account azurerm_batch_account} Resource.
 func NewBatchAccount(scope constructs.Construct, id *string, config *BatchAccountConfig) BatchAccount {
 	_init_.Initialize()
 
@@ -710,7 +710,7 @@ func NewBatchAccount(scope constructs.Construct, id *string, config *BatchAccoun
 	j := jsiiProxy_BatchAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccount",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -718,12 +718,12 @@ func NewBatchAccount(scope constructs.Construct, id *string, config *BatchAccoun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_account azurerm_batch_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_account azurerm_batch_account} Resource.
 func NewBatchAccount_Override(b BatchAccount, scope constructs.Construct, id *string, config *BatchAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccount",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccount",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -928,7 +928,7 @@ func BatchAccount_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccount",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -963,7 +963,7 @@ func BatchAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccount",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -982,7 +982,7 @@ func BatchAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccount",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1001,7 +1001,7 @@ func BatchAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccount",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1014,7 +1014,7 @@ func BatchAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccount",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccount",
 		"tfResourceType",
 		&returns,
 	)

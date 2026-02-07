@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermpostgresqlserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServer",
 		reflect.TypeOf((*DataAzurermPostgresqlServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerConfig",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerConfig",
 		reflect.TypeOf((*DataAzurermPostgresqlServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerIdentity",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerIdentity",
 		reflect.TypeOf((*DataAzurermPostgresqlServerIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerIdentityList",
 		reflect.TypeOf((*DataAzurermPostgresqlServerIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermPostgresqlServerIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,11 +137,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerTimeouts",
 		reflect.TypeOf((*DataAzurermPostgresqlServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPostgresqlServer.DataAzurermPostgresqlServerTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermPostgresqlServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

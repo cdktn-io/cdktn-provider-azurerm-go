@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroup",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroup",
 		reflect.TypeOf((*ResourceGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroupConfig",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroupConfig",
 		reflect.TypeOf((*ResourceGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroupTimeouts",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroupTimeouts",
 		reflect.TypeOf((*ResourceGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ResourceGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

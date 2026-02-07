@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdatashareaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdatashareaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdatashareaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/data_share_account azurerm_data_share_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/data_share_account azurerm_data_share_account}.
 type DataAzurermDataShareAccount interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAzurermDataShareAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/data_share_account azurerm_data_share_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/data_share_account azurerm_data_share_account} Data Source.
 func NewDataAzurermDataShareAccount(scope constructs.Construct, id *string, config *DataAzurermDataShareAccountConfig) DataAzurermDataShareAccount {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewDataAzurermDataShareAccount(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAzurermDataShareAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
+		"@cdktn/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewDataAzurermDataShareAccount(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/data_share_account azurerm_data_share_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/data_share_account azurerm_data_share_account} Data Source.
 func NewDataAzurermDataShareAccount_Override(d DataAzurermDataShareAccount, scope constructs.Construct, id *string, config *DataAzurermDataShareAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
+		"@cdktn/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -475,7 +475,7 @@ func DataAzurermDataShareAccount_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
+		"@cdktn/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func DataAzurermDataShareAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
+		"@cdktn/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func DataAzurermDataShareAccount_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
+		"@cdktn/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func DataAzurermDataShareAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
+		"@cdktn/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func DataAzurermDataShareAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
+		"@cdktn/provider-azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccount",
 		"tfResourceType",
 		&returns,
 	)

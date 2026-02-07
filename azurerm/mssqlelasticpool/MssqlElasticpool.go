@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlelasticpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqlelasticpool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlelasticpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool}.
 type MssqlElasticpool interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -640,7 +640,7 @@ func (j *jsiiProxy_MssqlElasticpool) ZoneRedundantInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
 func NewMssqlElasticpool(scope constructs.Construct, id *string, config *MssqlElasticpoolConfig) MssqlElasticpool {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewMssqlElasticpool(scope constructs.Construct, id *string, config *MssqlEl
 	j := jsiiProxy_MssqlElasticpool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -658,12 +658,12 @@ func NewMssqlElasticpool(scope constructs.Construct, id *string, config *MssqlEl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
 func NewMssqlElasticpool_Override(m MssqlElasticpool, scope constructs.Construct, id *string, config *MssqlElasticpoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -879,7 +879,7 @@ func MssqlElasticpool_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -914,7 +914,7 @@ func MssqlElasticpool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -933,7 +933,7 @@ func MssqlElasticpool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -952,7 +952,7 @@ func MssqlElasticpool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -965,7 +965,7 @@ func MssqlElasticpool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
+		"@cdktn/provider-azurerm.mssqlElasticpool.MssqlElasticpool",
 		"tfResourceType",
 		&returns,
 	)

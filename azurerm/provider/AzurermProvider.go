@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/provider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs azurerm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs azurerm}.
 type AzurermProvider interface {
 	cdktf.TerraformProvider
 	AdoPipelineServiceConnectionId() *string
@@ -930,7 +930,7 @@ func (j *jsiiProxy_AzurermProvider) UseOidcInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs azurerm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs azurerm} Resource.
 func NewAzurermProvider(scope constructs.Construct, id *string, config *AzurermProviderConfig) AzurermProvider {
 	_init_.Initialize()
 
@@ -940,7 +940,7 @@ func NewAzurermProvider(scope constructs.Construct, id *string, config *AzurermP
 	j := jsiiProxy_AzurermProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.provider.AzurermProvider",
+		"@cdktn/provider-azurerm.provider.AzurermProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -948,12 +948,12 @@ func NewAzurermProvider(scope constructs.Construct, id *string, config *AzurermP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs azurerm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs azurerm} Resource.
 func NewAzurermProvider_Override(a AzurermProvider, scope constructs.Construct, id *string, config *AzurermProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.provider.AzurermProvider",
+		"@cdktn/provider-azurerm.provider.AzurermProvider",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1252,7 +1252,7 @@ func AzurermProvider_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.provider.AzurermProvider",
+		"@cdktn/provider-azurerm.provider.AzurermProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1287,7 +1287,7 @@ func AzurermProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.provider.AzurermProvider",
+		"@cdktn/provider-azurerm.provider.AzurermProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1306,7 +1306,7 @@ func AzurermProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.provider.AzurermProvider",
+		"@cdktn/provider-azurerm.provider.AzurermProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1325,7 +1325,7 @@ func AzurermProvider_IsTerraformProvider(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.provider.AzurermProvider",
+		"@cdktn/provider-azurerm.provider.AzurermProvider",
 		"isTerraformProvider",
 		[]interface{}{x},
 		&returns,
@@ -1338,7 +1338,7 @@ func AzurermProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.provider.AzurermProvider",
+		"@cdktn/provider-azurerm.provider.AzurermProvider",
 		"tfResourceType",
 		&returns,
 	)

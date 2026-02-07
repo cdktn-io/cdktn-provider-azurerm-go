@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermkubernetesserviceversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermkubernetesserviceversions/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkubernetesserviceversions/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions}.
 type DataAzurermKubernetesServiceVersions interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) Versions() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions} Data Source.
 func NewDataAzurermKubernetesServiceVersions(scope constructs.Construct, id *string, config *DataAzurermKubernetesServiceVersionsConfig) DataAzurermKubernetesServiceVersions {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAzurermKubernetesServiceVersions(scope constructs.Construct, id *str
 	j := jsiiProxy_DataAzurermKubernetesServiceVersions{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -411,12 +411,12 @@ func NewDataAzurermKubernetesServiceVersions(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions} Data Source.
 func NewDataAzurermKubernetesServiceVersions_Override(d DataAzurermKubernetesServiceVersions, scope constructs.Construct, id *string, config *DataAzurermKubernetesServiceVersionsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -522,7 +522,7 @@ func DataAzurermKubernetesServiceVersions_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -557,7 +557,7 @@ func DataAzurermKubernetesServiceVersions_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -576,7 +576,7 @@ func DataAzurermKubernetesServiceVersions_IsTerraformDataSource(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAzurermKubernetesServiceVersions_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func DataAzurermKubernetesServiceVersions_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
 		"tfResourceType",
 		&returns,
 	)

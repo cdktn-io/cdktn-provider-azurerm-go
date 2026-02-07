@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustoscript
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoScript.KustoScript",
+		"@cdktn/provider-azurerm.kustoScript.KustoScript",
 		reflect.TypeOf((*KustoScript)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -52,6 +52,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "principalPermissionsAction", GoGetter: "PrincipalPermissionsAction"},
+			_jsii_.MemberProperty{JsiiProperty: "principalPermissionsActionInput", GoGetter: "PrincipalPermissionsActionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
@@ -60,14 +62,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetForceAnUpdateWhenValueChanged", GoMethod: "ResetForceAnUpdateWhenValueChanged"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPrincipalPermissionsAction", GoMethod: "ResetPrincipalPermissionsAction"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSasToken", GoMethod: "ResetSasToken"},
 			_jsii_.MemberMethod{JsiiMethod: "resetScriptContent", GoMethod: "ResetScriptContent"},
+			_jsii_.MemberMethod{JsiiMethod: "resetScriptLevel", GoMethod: "ResetScriptLevel"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUrl", GoMethod: "ResetUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "sasToken", GoGetter: "SasToken"},
 			_jsii_.MemberProperty{JsiiProperty: "sasTokenInput", GoGetter: "SasTokenInput"},
 			_jsii_.MemberProperty{JsiiProperty: "scriptContent", GoGetter: "ScriptContent"},
 			_jsii_.MemberProperty{JsiiProperty: "scriptContentInput", GoGetter: "ScriptContentInput"},
+			_jsii_.MemberProperty{JsiiProperty: "scriptLevel", GoGetter: "ScriptLevel"},
+			_jsii_.MemberProperty{JsiiProperty: "scriptLevelInput", GoGetter: "ScriptLevelInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
@@ -89,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoScript.KustoScriptConfig",
+		"@cdktn/provider-azurerm.kustoScript.KustoScriptConfig",
 		reflect.TypeOf((*KustoScriptConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoScript.KustoScriptTimeouts",
+		"@cdktn/provider-azurerm.kustoScript.KustoScriptTimeouts",
 		reflect.TypeOf((*KustoScriptTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoScript.KustoScriptTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoScript.KustoScriptTimeoutsOutputReference",
 		reflect.TypeOf((*KustoScriptTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databricksworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
 		reflect.TypeOf((*DatabricksWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessConnectorId", GoGetter: "AccessConnectorId"},
@@ -134,15 +134,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceConfig",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceConfig",
 		reflect.TypeOf((*DatabricksWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceCustomParameters",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceCustomParameters",
 		reflect.TypeOf((*DatabricksWorkspaceCustomParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceCustomParametersOutputReference",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceCustomParametersOutputReference",
 		reflect.TypeOf((*DatabricksWorkspaceCustomParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceEnhancedSecurityCompliance",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceEnhancedSecurityCompliance",
 		reflect.TypeOf((*DatabricksWorkspaceEnhancedSecurityCompliance)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceEnhancedSecurityComplianceOutputReference",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceEnhancedSecurityComplianceOutputReference",
 		reflect.TypeOf((*DatabricksWorkspaceEnhancedSecurityComplianceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "automaticClusterUpdateEnabled", GoGetter: "AutomaticClusterUpdateEnabled"},
@@ -258,11 +258,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceManagedDiskIdentity",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceManagedDiskIdentity",
 		reflect.TypeOf((*DatabricksWorkspaceManagedDiskIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceManagedDiskIdentityList",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceManagedDiskIdentityList",
 		reflect.TypeOf((*DatabricksWorkspaceManagedDiskIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -283,7 +283,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceManagedDiskIdentityOutputReference",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceManagedDiskIdentityOutputReference",
 		reflect.TypeOf((*DatabricksWorkspaceManagedDiskIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -318,11 +318,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceStorageAccountIdentity",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceStorageAccountIdentity",
 		reflect.TypeOf((*DatabricksWorkspaceStorageAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceStorageAccountIdentityList",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceStorageAccountIdentityList",
 		reflect.TypeOf((*DatabricksWorkspaceStorageAccountIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -343,7 +343,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceStorageAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceStorageAccountIdentityOutputReference",
 		reflect.TypeOf((*DatabricksWorkspaceStorageAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -378,11 +378,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceTimeouts",
 		reflect.TypeOf((*DatabricksWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*DatabricksWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

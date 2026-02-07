@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdevcentergallery
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGallery",
 		reflect.TypeOf((*DataAzurermDevCenterGallery)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGalleryConfig",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGalleryConfig",
 		reflect.TypeOf((*DataAzurermDevCenterGalleryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGalleryTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGalleryTimeouts",
 		reflect.TypeOf((*DataAzurermDevCenterGalleryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGalleryTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGalleryTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermDevCenterGalleryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

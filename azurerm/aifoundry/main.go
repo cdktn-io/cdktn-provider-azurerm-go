@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package aifoundry
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundry",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundry",
 		reflect.TypeOf((*AiFoundry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -117,15 +117,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryConfig",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryConfig",
 		reflect.TypeOf((*AiFoundryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryEncryption",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryEncryption",
 		reflect.TypeOf((*AiFoundryEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryEncryptionOutputReference",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryEncryptionOutputReference",
 		reflect.TypeOf((*AiFoundryEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryIdentity",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryIdentity",
 		reflect.TypeOf((*AiFoundryIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryIdentityOutputReference",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryIdentityOutputReference",
 		reflect.TypeOf((*AiFoundryIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -207,11 +207,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryManagedNetwork",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryManagedNetwork",
 		reflect.TypeOf((*AiFoundryManagedNetwork)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryManagedNetworkOutputReference",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryManagedNetworkOutputReference",
 		reflect.TypeOf((*AiFoundryManagedNetworkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -246,11 +246,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryTimeouts",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryTimeouts",
 		reflect.TypeOf((*AiFoundryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aiFoundry.AiFoundryTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.aiFoundry.AiFoundryTimeoutsOutputReference",
 		reflect.TypeOf((*AiFoundryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

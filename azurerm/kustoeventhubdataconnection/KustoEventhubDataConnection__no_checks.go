@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -164,6 +164,10 @@ func (j *jsiiProxy_KustoEventhubDataConnection) validateSetProvisionersParameter
 }
 
 func (j *jsiiProxy_KustoEventhubDataConnection) validateSetResourceGroupNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_KustoEventhubDataConnection) validateSetRetrievalStartDateParameters(val *string) error {
 	return nil
 }
 

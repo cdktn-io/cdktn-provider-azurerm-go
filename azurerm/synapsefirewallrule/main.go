@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapsefirewallrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseFirewallRule.SynapseFirewallRule",
+		"@cdktn/provider-azurerm.synapseFirewallRule.SynapseFirewallRule",
 		reflect.TypeOf((*SynapseFirewallRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseFirewallRule.SynapseFirewallRuleConfig",
+		"@cdktn/provider-azurerm.synapseFirewallRule.SynapseFirewallRuleConfig",
 		reflect.TypeOf((*SynapseFirewallRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseFirewallRule.SynapseFirewallRuleTimeouts",
+		"@cdktn/provider-azurerm.synapseFirewallRule.SynapseFirewallRuleTimeouts",
 		reflect.TypeOf((*SynapseFirewallRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseFirewallRule.SynapseFirewallRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.synapseFirewallRule.SynapseFirewallRuleTimeoutsOutputReference",
 		reflect.TypeOf((*SynapseFirewallRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwarenetappvolumeattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vmwarenetappvolumeattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vmwarenetappvolumeattachment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment}.
 type VmwareNetappVolumeAttachment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_VmwareNetappVolumeAttachment) VmwareClusterIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment} Resource.
 func NewVmwareNetappVolumeAttachment(scope constructs.Construct, id *string, config *VmwareNetappVolumeAttachmentConfig) VmwareNetappVolumeAttachment {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewVmwareNetappVolumeAttachment(scope constructs.Construct, id *string, con
 	j := jsiiProxy_VmwareNetappVolumeAttachment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewVmwareNetappVolumeAttachment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vmware_netapp_volume_attachment azurerm_vmware_netapp_volume_attachment} Resource.
 func NewVmwareNetappVolumeAttachment_Override(v VmwareNetappVolumeAttachment, scope constructs.Construct, id *string, config *VmwareNetappVolumeAttachmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -554,7 +554,7 @@ func VmwareNetappVolumeAttachment_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func VmwareNetappVolumeAttachment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func VmwareNetappVolumeAttachment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func VmwareNetappVolumeAttachment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func VmwareNetappVolumeAttachment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubdpssharedaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothubdpssharedaccesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubdpssharedaccesspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy}.
 type IothubDpsSharedAccessPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -567,7 +567,7 @@ func (j *jsiiProxy_IothubDpsSharedAccessPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy} Resource.
 func NewIothubDpsSharedAccessPolicy(scope constructs.Construct, id *string, config *IothubDpsSharedAccessPolicyConfig) IothubDpsSharedAccessPolicy {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewIothubDpsSharedAccessPolicy(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_IothubDpsSharedAccessPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
+		"@cdktn/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewIothubDpsSharedAccessPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy} Resource.
 func NewIothubDpsSharedAccessPolicy_Override(i IothubDpsSharedAccessPolicy, scope constructs.Construct, id *string, config *IothubDpsSharedAccessPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
+		"@cdktn/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -773,7 +773,7 @@ func IothubDpsSharedAccessPolicy_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
+		"@cdktn/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -808,7 +808,7 @@ func IothubDpsSharedAccessPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
+		"@cdktn/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -827,7 +827,7 @@ func IothubDpsSharedAccessPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
+		"@cdktn/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -846,7 +846,7 @@ func IothubDpsSharedAccessPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
+		"@cdktn/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func IothubDpsSharedAccessPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
+		"@cdktn/provider-azurerm.iothubDpsSharedAccessPolicy.IothubDpsSharedAccessPolicy",
 		"tfResourceType",
 		&returns,
 	)

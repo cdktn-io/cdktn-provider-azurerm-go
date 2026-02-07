@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationsecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/applicationsecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationsecuritygroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_security_group azurerm_application_security_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_security_group azurerm_application_security_group}.
 type ApplicationSecurityGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_ApplicationSecurityGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_security_group azurerm_application_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_security_group azurerm_application_security_group} Resource.
 func NewApplicationSecurityGroup(scope constructs.Construct, id *string, config *ApplicationSecurityGroupConfig) ApplicationSecurityGroup {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewApplicationSecurityGroup(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_ApplicationSecurityGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewApplicationSecurityGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_security_group azurerm_application_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_security_group azurerm_application_security_group} Resource.
 func NewApplicationSecurityGroup_Override(a ApplicationSecurityGroup, scope constructs.Construct, id *string, config *ApplicationSecurityGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -589,7 +589,7 @@ func ApplicationSecurityGroup_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -624,7 +624,7 @@ func ApplicationSecurityGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -643,7 +643,7 @@ func ApplicationSecurityGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func ApplicationSecurityGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -675,7 +675,7 @@ func ApplicationSecurityGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,22 +1,25 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backuppolicyfileshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/backuppolicyfileshare/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/backuppolicyfileshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share}.
 type BackupPolicyFileShare interface {
 	cdktf.TerraformResource
 	Backup() BackupPolicyFileShareBackupOutputReference
 	BackupInput() *BackupPolicyFileShareBackup
+	BackupTier() *string
+	SetBackupTier(val *string)
+	BackupTierInput() *string
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
 	// Experimental.
@@ -77,6 +80,9 @@ type BackupPolicyFileShare interface {
 	RetentionWeeklyInput() *BackupPolicyFileShareRetentionWeekly
 	RetentionYearly() BackupPolicyFileShareRetentionYearlyOutputReference
 	RetentionYearlyInput() *BackupPolicyFileShareRetentionYearly
+	SnapshotRetentionInDays() *float64
+	SetSnapshotRetentionInDays(val *float64)
+	SnapshotRetentionInDaysInput() *float64
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -137,6 +143,7 @@ type BackupPolicyFileShare interface {
 	PutRetentionWeekly(value *BackupPolicyFileShareRetentionWeekly)
 	PutRetentionYearly(value *BackupPolicyFileShareRetentionYearly)
 	PutTimeouts(value *BackupPolicyFileShareTimeouts)
+	ResetBackupTier()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -144,6 +151,7 @@ type BackupPolicyFileShare interface {
 	ResetRetentionMonthly()
 	ResetRetentionWeekly()
 	ResetRetentionYearly()
+	ResetSnapshotRetentionInDays()
 	ResetTimeouts()
 	ResetTimezone()
 	SynthesizeAttributes() *map[string]interface{}
@@ -179,6 +187,26 @@ func (j *jsiiProxy_BackupPolicyFileShare) BackupInput() *BackupPolicyFileShareBa
 	_jsii_.Get(
 		j,
 		"backupInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupPolicyFileShare) BackupTier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backupTier",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupPolicyFileShare) BackupTierInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backupTierInput",
 		&returns,
 	)
 	return returns
@@ -474,6 +502,26 @@ func (j *jsiiProxy_BackupPolicyFileShare) RetentionYearlyInput() *BackupPolicyFi
 	return returns
 }
 
+func (j *jsiiProxy_BackupPolicyFileShare) SnapshotRetentionInDays() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"snapshotRetentionInDays",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupPolicyFileShare) SnapshotRetentionInDaysInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"snapshotRetentionInDaysInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BackupPolicyFileShare) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
 	var returns *cdktf.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -545,7 +593,7 @@ func (j *jsiiProxy_BackupPolicyFileShare) TimezoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share} Resource.
 func NewBackupPolicyFileShare(scope constructs.Construct, id *string, config *BackupPolicyFileShareConfig) BackupPolicyFileShare {
 	_init_.Initialize()
 
@@ -555,7 +603,7 @@ func NewBackupPolicyFileShare(scope constructs.Construct, id *string, config *Ba
 	j := jsiiProxy_BackupPolicyFileShare{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,14 +611,25 @@ func NewBackupPolicyFileShare(scope constructs.Construct, id *string, config *Ba
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/backup_policy_file_share azurerm_backup_policy_file_share} Resource.
 func NewBackupPolicyFileShare_Override(b BackupPolicyFileShare, scope constructs.Construct, id *string, config *BackupPolicyFileShareConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
 		[]interface{}{scope, id, config},
 		b,
+	)
+}
+
+func (j *jsiiProxy_BackupPolicyFileShare)SetBackupTier(val *string) {
+	if err := j.validateSetBackupTierParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"backupTier",
+		val,
 	)
 }
 
@@ -686,6 +745,17 @@ func (j *jsiiProxy_BackupPolicyFileShare)SetResourceGroupName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_BackupPolicyFileShare)SetSnapshotRetentionInDays(val *float64) {
+	if err := j.validateSetSnapshotRetentionInDaysParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"snapshotRetentionInDays",
+		val,
+	)
+}
+
 func (j *jsiiProxy_BackupPolicyFileShare)SetTimezone(val *string) {
 	if err := j.validateSetTimezoneParameters(val); err != nil {
 		panic(err)
@@ -707,7 +777,7 @@ func BackupPolicyFileShare_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -742,7 +812,7 @@ func BackupPolicyFileShare_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -761,7 +831,7 @@ func BackupPolicyFileShare_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +850,7 @@ func BackupPolicyFileShare_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -793,7 +863,7 @@ func BackupPolicyFileShare_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
+		"@cdktn/provider-azurerm.backupPolicyFileShare.BackupPolicyFileShare",
 		"tfResourceType",
 		&returns,
 	)
@@ -1116,6 +1186,14 @@ func (b *jsiiProxy_BackupPolicyFileShare) PutTimeouts(value *BackupPolicyFileSha
 	)
 }
 
+func (b *jsiiProxy_BackupPolicyFileShare) ResetBackupTier() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetBackupTier",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BackupPolicyFileShare) ResetId() {
 	_jsii_.InvokeVoid(
 		b,
@@ -1152,6 +1230,14 @@ func (b *jsiiProxy_BackupPolicyFileShare) ResetRetentionYearly() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetRetentionYearly",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BackupPolicyFileShare) ResetSnapshotRetentionInDays() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSnapshotRetentionInDays",
 		nil, // no parameters
 	)
 }

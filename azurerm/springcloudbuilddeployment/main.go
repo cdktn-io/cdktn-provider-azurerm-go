@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudbuilddeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeployment",
+		"@cdktn/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeployment",
 		reflect.TypeOf((*SpringCloudBuildDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentConfig",
+		"@cdktn/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentConfig",
 		reflect.TypeOf((*SpringCloudBuildDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentQuota",
+		"@cdktn/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentQuota",
 		reflect.TypeOf((*SpringCloudBuildDeploymentQuota)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentQuotaOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentQuotaOutputReference",
 		reflect.TypeOf((*SpringCloudBuildDeploymentQuotaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentTimeouts",
+		"@cdktn/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentTimeouts",
 		reflect.TypeOf((*SpringCloudBuildDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudBuildDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

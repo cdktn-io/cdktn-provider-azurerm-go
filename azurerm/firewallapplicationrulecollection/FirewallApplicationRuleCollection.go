@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firewallapplicationrulecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/firewallapplicationrulecollection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/firewallapplicationrulecollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/firewall_application_rule_collection azurerm_firewall_application_rule_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/firewall_application_rule_collection azurerm_firewall_application_rule_collection}.
 type FirewallApplicationRuleCollection interface {
 	cdktf.TerraformResource
 	Action() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_FirewallApplicationRuleCollection) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/firewall_application_rule_collection azurerm_firewall_application_rule_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/firewall_application_rule_collection azurerm_firewall_application_rule_collection} Resource.
 func NewFirewallApplicationRuleCollection(scope constructs.Construct, id *string, config *FirewallApplicationRuleCollectionConfig) FirewallApplicationRuleCollection {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewFirewallApplicationRuleCollection(scope constructs.Construct, id *string
 	j := jsiiProxy_FirewallApplicationRuleCollection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
+		"@cdktn/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -490,12 +490,12 @@ func NewFirewallApplicationRuleCollection(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/firewall_application_rule_collection azurerm_firewall_application_rule_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/firewall_application_rule_collection azurerm_firewall_application_rule_collection} Resource.
 func NewFirewallApplicationRuleCollection_Override(f FirewallApplicationRuleCollection, scope constructs.Construct, id *string, config *FirewallApplicationRuleCollectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
+		"@cdktn/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -645,7 +645,7 @@ func FirewallApplicationRuleCollection_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
+		"@cdktn/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -680,7 +680,7 @@ func FirewallApplicationRuleCollection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
+		"@cdktn/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func FirewallApplicationRuleCollection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
+		"@cdktn/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func FirewallApplicationRuleCollection_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
+		"@cdktn/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func FirewallApplicationRuleCollection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
+		"@cdktn/provider-azurerm.firewallApplicationRuleCollection.FirewallApplicationRuleCollection",
 		"tfResourceType",
 		&returns,
 	)

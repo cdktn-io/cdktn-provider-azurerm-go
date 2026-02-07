@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermappserviceplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermappserviceplan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermappserviceplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAzurermAppServicePlanSkuList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_DataAzurermAppServicePlanSkuList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSkuList",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSkuList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAzurermAppServicePlanSkuList_Override(d DataAzurermAppServicePlanSku
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSkuList",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSkuList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

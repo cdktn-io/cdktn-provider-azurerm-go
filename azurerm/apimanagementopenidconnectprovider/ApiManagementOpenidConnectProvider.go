@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementopenidconnectprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementopenidconnectprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementopenidconnectprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider}.
 type ApiManagementOpenidConnectProvider interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_ApiManagementOpenidConnectProvider) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
 func NewApiManagementOpenidConnectProvider(scope constructs.Construct, id *string, config *ApiManagementOpenidConnectProviderConfig) ApiManagementOpenidConnectProvider {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewApiManagementOpenidConnectProvider(scope constructs.Construct, id *strin
 	j := jsiiProxy_ApiManagementOpenidConnectProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewApiManagementOpenidConnectProvider(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
 func NewApiManagementOpenidConnectProvider_Override(a ApiManagementOpenidConnectProvider, scope constructs.Construct, id *string, config *ApiManagementOpenidConnectProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -725,7 +725,7 @@ func ApiManagementOpenidConnectProvider_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -760,7 +760,7 @@ func ApiManagementOpenidConnectProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func ApiManagementOpenidConnectProvider_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -798,7 +798,7 @@ func ApiManagementOpenidConnectProvider_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func ApiManagementOpenidConnectProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
 		"tfResourceType",
 		&returns,
 	)

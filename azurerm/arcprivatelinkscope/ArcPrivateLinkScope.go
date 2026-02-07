@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arcprivatelinkscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/arcprivatelinkscope/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arcprivatelinkscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope}.
 type ArcPrivateLinkScope interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_ArcPrivateLinkScope) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope} Resource.
 func NewArcPrivateLinkScope(scope constructs.Construct, id *string, config *ArcPrivateLinkScopeConfig) ArcPrivateLinkScope {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewArcPrivateLinkScope(scope constructs.Construct, id *string, config *ArcP
 	j := jsiiProxy_ArcPrivateLinkScope{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
+		"@cdktn/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewArcPrivateLinkScope(scope constructs.Construct, id *string, config *ArcP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_private_link_scope azurerm_arc_private_link_scope} Resource.
 func NewArcPrivateLinkScope_Override(a ArcPrivateLinkScope, scope constructs.Construct, id *string, config *ArcPrivateLinkScopeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
+		"@cdktn/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -624,7 +624,7 @@ func ArcPrivateLinkScope_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
+		"@cdktn/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func ArcPrivateLinkScope_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
+		"@cdktn/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func ArcPrivateLinkScope_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
+		"@cdktn/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func ArcPrivateLinkScope_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
+		"@cdktn/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func ArcPrivateLinkScope_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
+		"@cdktn/provider-azurerm.arcPrivateLinkScope.ArcPrivateLinkScope",
 		"tfResourceType",
 		&returns,
 	)

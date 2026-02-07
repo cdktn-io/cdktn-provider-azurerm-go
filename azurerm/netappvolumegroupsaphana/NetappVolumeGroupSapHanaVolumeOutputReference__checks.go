@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -227,6 +227,14 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetCom
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetEncryptionKeySourceParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
 	case cdktf.IResolvable:
@@ -251,7 +259,23 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetInt
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetKeyVaultPrivateEndpointIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetNetworkFeaturesParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -368,6 +392,14 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetVol
 }
 
 func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetVolumeSpecNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetZoneParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

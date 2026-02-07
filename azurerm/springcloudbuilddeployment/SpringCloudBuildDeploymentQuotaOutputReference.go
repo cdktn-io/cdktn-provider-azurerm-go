@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudbuilddeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudbuilddeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudbuilddeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewSpringCloudBuildDeploymentQuotaOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_SpringCloudBuildDeploymentQuotaOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentQuotaOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentQuotaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewSpringCloudBuildDeploymentQuotaOutputReference_Override(s SpringCloudBui
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentQuotaOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuildDeployment.SpringCloudBuildDeploymentQuotaOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

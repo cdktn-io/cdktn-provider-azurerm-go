@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package roledefinition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinition",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinition",
 		reflect.TypeOf((*RoleDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinitionConfig",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinitionConfig",
 		reflect.TypeOf((*RoleDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinitionPermissions",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinitionPermissions",
 		reflect.TypeOf((*RoleDefinitionPermissions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinitionPermissionsList",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinitionPermissionsList",
 		reflect.TypeOf((*RoleDefinitionPermissionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinitionPermissionsOutputReference",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinitionPermissionsOutputReference",
 		reflect.TypeOf((*RoleDefinitionPermissionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinitionTimeouts",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinitionTimeouts",
 		reflect.TypeOf((*RoleDefinitionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinitionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinitionTimeoutsOutputReference",
 		reflect.TypeOf((*RoleDefinitionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

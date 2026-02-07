@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticsanvolume
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolume.ElasticSanVolume",
+		"@cdktn/provider-azurerm.elasticSanVolume.ElasticSanVolume",
 		reflect.TypeOf((*ElasticSanVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSanVolume.ElasticSanVolumeConfig",
+		"@cdktn/provider-azurerm.elasticSanVolume.ElasticSanVolumeConfig",
 		reflect.TypeOf((*ElasticSanVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSanVolume.ElasticSanVolumeCreateSource",
+		"@cdktn/provider-azurerm.elasticSanVolume.ElasticSanVolumeCreateSource",
 		reflect.TypeOf((*ElasticSanVolumeCreateSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolume.ElasticSanVolumeCreateSourceOutputReference",
+		"@cdktn/provider-azurerm.elasticSanVolume.ElasticSanVolumeCreateSourceOutputReference",
 		reflect.TypeOf((*ElasticSanVolumeCreateSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSanVolume.ElasticSanVolumeTimeouts",
+		"@cdktn/provider-azurerm.elasticSanVolume.ElasticSanVolumeTimeouts",
 		reflect.TypeOf((*ElasticSanVolumeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolume.ElasticSanVolumeTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.elasticSanVolume.ElasticSanVolumeTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticSanVolumeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

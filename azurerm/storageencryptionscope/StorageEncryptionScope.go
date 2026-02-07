@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageencryptionscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageencryptionscope/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageencryptionscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope}.
 type StorageEncryptionScope interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_StorageEncryptionScope) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
 func NewStorageEncryptionScope(scope constructs.Construct, id *string, config *StorageEncryptionScopeConfig) StorageEncryptionScope {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewStorageEncryptionScope(scope constructs.Construct, id *string, config *S
 	j := jsiiProxy_StorageEncryptionScope{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewStorageEncryptionScope(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
 func NewStorageEncryptionScope_Override(s StorageEncryptionScope, scope constructs.Construct, id *string, config *StorageEncryptionScopeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -624,7 +624,7 @@ func StorageEncryptionScope_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func StorageEncryptionScope_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func StorageEncryptionScope_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func StorageEncryptionScope_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func StorageEncryptionScope_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
 		"tfResourceType",
 		&returns,
 	)

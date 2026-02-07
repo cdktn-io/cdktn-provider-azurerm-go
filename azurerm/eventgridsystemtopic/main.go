@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventgridsystemtopic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridSystemTopic.EventgridSystemTopic",
+		"@cdktn/provider-azurerm.eventgridSystemTopic.EventgridSystemTopic",
 		reflect.TypeOf((*EventgridSystemTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicConfig",
+		"@cdktn/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicConfig",
 		reflect.TypeOf((*EventgridSystemTopicConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicIdentity",
+		"@cdktn/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicIdentity",
 		reflect.TypeOf((*EventgridSystemTopicIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicIdentityOutputReference",
+		"@cdktn/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicIdentityOutputReference",
 		reflect.TypeOf((*EventgridSystemTopicIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicTimeouts",
+		"@cdktn/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicTimeouts",
 		reflect.TypeOf((*EventgridSystemTopicTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventgridSystemTopic.EventgridSystemTopicTimeoutsOutputReference",
 		reflect.TypeOf((*EventgridSystemTopicTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

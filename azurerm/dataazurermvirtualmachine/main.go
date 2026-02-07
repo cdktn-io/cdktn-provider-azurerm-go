@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermvirtualmachine
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachine",
+		"@cdktn/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachine",
 		reflect.TypeOf((*DataAzurermVirtualMachine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineConfig",
+		"@cdktn/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineConfig",
 		reflect.TypeOf((*DataAzurermVirtualMachineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineIdentity",
+		"@cdktn/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineIdentity",
 		reflect.TypeOf((*DataAzurermVirtualMachineIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineIdentityList",
 		reflect.TypeOf((*DataAzurermVirtualMachineIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -102,7 +102,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermVirtualMachineIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineTimeouts",
 		reflect.TypeOf((*DataAzurermVirtualMachineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermVirtualMachineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

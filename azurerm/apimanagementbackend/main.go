@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementbackend
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackend",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackend",
 		reflect.TypeOf((*ApiManagementBackend)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRule",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRule",
 		reflect.TypeOf((*ApiManagementBackendCircuitBreakerRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureCondition",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureCondition",
 		reflect.TypeOf((*ApiManagementBackendCircuitBreakerRuleFailureCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionOutputReference",
 		reflect.TypeOf((*ApiManagementBackendCircuitBreakerRuleFailureConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange",
 		reflect.TypeOf((*ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRangeList",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRangeList",
 		reflect.TypeOf((*ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRangeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -190,7 +190,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRangeOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRangeOutputReference",
 		reflect.TypeOf((*ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRangeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -226,7 +226,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleOutputReference",
 		reflect.TypeOf((*ApiManagementBackendCircuitBreakerRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptRetryAfterEnabled", GoGetter: "AcceptRetryAfterEnabled"},
@@ -268,19 +268,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendConfig",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendConfig",
 		reflect.TypeOf((*ApiManagementBackendConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCredentials",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCredentials",
 		reflect.TypeOf((*ApiManagementBackendCredentials)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCredentialsAuthorization",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCredentialsAuthorization",
 		reflect.TypeOf((*ApiManagementBackendCredentialsAuthorization)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCredentialsAuthorizationOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCredentialsAuthorizationOutputReference",
 		reflect.TypeOf((*ApiManagementBackendCredentialsAuthorizationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -318,7 +318,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendCredentialsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendCredentialsOutputReference",
 		reflect.TypeOf((*ApiManagementBackendCredentialsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorization", GoGetter: "Authorization"},
@@ -363,11 +363,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendProxy",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendProxy",
 		reflect.TypeOf((*ApiManagementBackendProxy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendProxyOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendProxyOutputReference",
 		reflect.TypeOf((*ApiManagementBackendProxyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -406,11 +406,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricCluster",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricCluster",
 		reflect.TypeOf((*ApiManagementBackendServiceFabricCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricClusterOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricClusterOutputReference",
 		reflect.TypeOf((*ApiManagementBackendServiceFabricClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCertificateId", GoGetter: "ClientCertificateId"},
@@ -459,11 +459,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricClusterServerX509Name",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricClusterServerX509Name",
 		reflect.TypeOf((*ApiManagementBackendServiceFabricClusterServerX509Name)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricClusterServerX509NameList",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricClusterServerX509NameList",
 		reflect.TypeOf((*ApiManagementBackendServiceFabricClusterServerX509NameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -485,7 +485,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricClusterServerX509NameOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendServiceFabricClusterServerX509NameOutputReference",
 		reflect.TypeOf((*ApiManagementBackendServiceFabricClusterServerX509NameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -521,11 +521,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendTimeouts",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendTimeouts",
 		reflect.TypeOf((*ApiManagementBackendTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementBackendTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -569,11 +569,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendTls",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendTls",
 		reflect.TypeOf((*ApiManagementBackendTls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackendTlsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackendTlsOutputReference",
 		reflect.TypeOf((*ApiManagementBackendTlsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

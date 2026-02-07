@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitormetricalert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitormetricalert/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitormetricalert/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_metric_alert azurerm_monitor_metric_alert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_metric_alert azurerm_monitor_metric_alert}.
 type MonitorMetricAlert interface {
 	cdktf.TerraformResource
 	Action() MonitorMetricAlertActionList
@@ -715,7 +715,7 @@ func (j *jsiiProxy_MonitorMetricAlert) WindowSizeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_metric_alert azurerm_monitor_metric_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_metric_alert azurerm_monitor_metric_alert} Resource.
 func NewMonitorMetricAlert(scope constructs.Construct, id *string, config *MonitorMetricAlertConfig) MonitorMetricAlert {
 	_init_.Initialize()
 
@@ -725,7 +725,7 @@ func NewMonitorMetricAlert(scope constructs.Construct, id *string, config *Monit
 	j := jsiiProxy_MonitorMetricAlert{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
+		"@cdktn/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -733,12 +733,12 @@ func NewMonitorMetricAlert(scope constructs.Construct, id *string, config *Monit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_metric_alert azurerm_monitor_metric_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_metric_alert azurerm_monitor_metric_alert} Resource.
 func NewMonitorMetricAlert_Override(m MonitorMetricAlert, scope constructs.Construct, id *string, config *MonitorMetricAlertConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
+		"@cdktn/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -965,7 +965,7 @@ func MonitorMetricAlert_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
+		"@cdktn/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1000,7 +1000,7 @@ func MonitorMetricAlert_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
+		"@cdktn/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1019,7 +1019,7 @@ func MonitorMetricAlert_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
+		"@cdktn/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1038,7 +1038,7 @@ func MonitorMetricAlert_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
+		"@cdktn/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1051,7 +1051,7 @@ func MonitorMetricAlert_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
+		"@cdktn/provider-azurerm.monitorMetricAlert.MonitorMetricAlert",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappintegrationaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccount",
 		reflect.TypeOf((*LogicAppIntegrationAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccountConfig",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccountConfig",
 		reflect.TypeOf((*LogicAppIntegrationAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccountTimeouts",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccountTimeouts",
 		reflect.TypeOf((*LogicAppIntegrationAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccount.LogicAppIntegrationAccountTimeoutsOutputReference",
 		reflect.TypeOf((*LogicAppIntegrationAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

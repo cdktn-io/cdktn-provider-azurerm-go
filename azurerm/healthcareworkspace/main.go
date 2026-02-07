@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcareworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspace",
 		reflect.TypeOf((*HealthcareWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspaceConfig",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspaceConfig",
 		reflect.TypeOf((*HealthcareWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspacePrivateEndpointConnection",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspacePrivateEndpointConnection",
 		reflect.TypeOf((*HealthcareWorkspacePrivateEndpointConnection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspacePrivateEndpointConnectionList",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspacePrivateEndpointConnectionList",
 		reflect.TypeOf((*HealthcareWorkspacePrivateEndpointConnectionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspacePrivateEndpointConnectionOutputReference",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspacePrivateEndpointConnectionOutputReference",
 		reflect.TypeOf((*HealthcareWorkspacePrivateEndpointConnectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspaceTimeouts",
 		reflect.TypeOf((*HealthcareWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthcareWorkspace.HealthcareWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.healthcareWorkspace.HealthcareWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*HealthcareWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

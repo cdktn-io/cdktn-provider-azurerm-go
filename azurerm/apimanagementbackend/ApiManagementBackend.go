@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementbackend
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementbackend/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementbackend/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_backend azurerm_api_management_backend}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_backend azurerm_api_management_backend}.
 type ApiManagementBackend interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -641,7 +641,7 @@ func (j *jsiiProxy_ApiManagementBackend) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_backend azurerm_api_management_backend} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_backend azurerm_api_management_backend} Resource.
 func NewApiManagementBackend(scope constructs.Construct, id *string, config *ApiManagementBackendConfig) ApiManagementBackend {
 	_init_.Initialize()
 
@@ -651,7 +651,7 @@ func NewApiManagementBackend(scope constructs.Construct, id *string, config *Api
 	j := jsiiProxy_ApiManagementBackend{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackend",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackend",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -659,12 +659,12 @@ func NewApiManagementBackend(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_backend azurerm_api_management_backend} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_backend azurerm_api_management_backend} Resource.
 func NewApiManagementBackend_Override(a ApiManagementBackend, scope constructs.Construct, id *string, config *ApiManagementBackendConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackend",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackend",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -847,7 +847,7 @@ func ApiManagementBackend_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackend",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackend",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -882,7 +882,7 @@ func ApiManagementBackend_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackend",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackend",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -901,7 +901,7 @@ func ApiManagementBackend_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackend",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackend",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func ApiManagementBackend_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackend",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackend",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -933,7 +933,7 @@ func ApiManagementBackend_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementBackend.ApiManagementBackend",
+		"@cdktn/provider-azurerm.apiManagementBackend.ApiManagementBackend",
 		"tfResourceType",
 		&returns,
 	)

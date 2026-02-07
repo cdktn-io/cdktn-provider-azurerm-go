@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubhub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHub",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHub",
 		reflect.TypeOf((*WebPubsubHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,19 +85,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubConfig",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubConfig",
 		reflect.TypeOf((*WebPubsubHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventHandler",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventHandler",
 		reflect.TypeOf((*WebPubsubHubEventHandler)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerAuth",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerAuth",
 		reflect.TypeOf((*WebPubsubHubEventHandlerAuth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerAuthOutputReference",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerAuthOutputReference",
 		reflect.TypeOf((*WebPubsubHubEventHandlerAuthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerList",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerList",
 		reflect.TypeOf((*WebPubsubHubEventHandlerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -153,7 +153,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerOutputReference",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventHandlerOutputReference",
 		reflect.TypeOf((*WebPubsubHubEventHandlerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "auth", GoGetter: "Auth"},
@@ -197,11 +197,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventListener",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventListener",
 		reflect.TypeOf((*WebPubsubHubEventListener)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventListenerList",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventListenerList",
 		reflect.TypeOf((*WebPubsubHubEventListenerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -223,7 +223,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubEventListenerOutputReference",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubEventListenerOutputReference",
 		reflect.TypeOf((*WebPubsubHubEventListenerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -265,11 +265,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubTimeouts",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubTimeouts",
 		reflect.TypeOf((*WebPubsubHubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubHub.WebPubsubHubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.webPubsubHub.WebPubsubHubTimeoutsOutputReference",
 		reflect.TypeOf((*WebPubsubHubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

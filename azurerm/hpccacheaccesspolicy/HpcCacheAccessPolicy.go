@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccacheaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/hpccacheaccesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hpccacheaccesspolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy}.
 type HpcCacheAccessPolicy interface {
 	cdktf.TerraformResource
 	AccessRule() HpcCacheAccessPolicyAccessRuleList
@@ -403,7 +403,7 @@ func (j *jsiiProxy_HpcCacheAccessPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy} Resource.
 func NewHpcCacheAccessPolicy(scope constructs.Construct, id *string, config *HpcCacheAccessPolicyConfig) HpcCacheAccessPolicy {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewHpcCacheAccessPolicy(scope constructs.Construct, id *string, config *Hpc
 	j := jsiiProxy_HpcCacheAccessPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewHpcCacheAccessPolicy(scope constructs.Construct, id *string, config *Hpc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy} Resource.
 func NewHpcCacheAccessPolicy_Override(h HpcCacheAccessPolicy, scope constructs.Construct, id *string, config *HpcCacheAccessPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -543,7 +543,7 @@ func HpcCacheAccessPolicy_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -578,7 +578,7 @@ func HpcCacheAccessPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func HpcCacheAccessPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func HpcCacheAccessPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func HpcCacheAccessPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCacheAccessPolicy.HpcCacheAccessPolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpngatewayconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/vpngatewayconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpngatewayconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection}.
 type VpnGatewayConnection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_VpnGatewayConnection) VpnLinkInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection} Resource.
 func NewVpnGatewayConnection(scope constructs.Construct, id *string, config *VpnGatewayConnectionConfig) VpnGatewayConnection {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewVpnGatewayConnection(scope constructs.Construct, id *string, config *Vpn
 	j := jsiiProxy_VpnGatewayConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
+		"@cdktn/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewVpnGatewayConnection(scope constructs.Construct, id *string, config *Vpn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection} Resource.
 func NewVpnGatewayConnection_Override(v VpnGatewayConnection, scope constructs.Construct, id *string, config *VpnGatewayConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
+		"@cdktn/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -660,7 +660,7 @@ func VpnGatewayConnection_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
+		"@cdktn/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func VpnGatewayConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
+		"@cdktn/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func VpnGatewayConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
+		"@cdktn/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func VpnGatewayConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
+		"@cdktn/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func VpnGatewayConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
+		"@cdktn/provider-azurerm.vpnGatewayConnection.VpnGatewayConnection",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devtestpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestPolicy.DevTestPolicy",
+		"@cdktn/provider-azurerm.devTestPolicy.DevTestPolicy",
 		reflect.TypeOf((*DevTestPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestPolicy.DevTestPolicyConfig",
+		"@cdktn/provider-azurerm.devTestPolicy.DevTestPolicyConfig",
 		reflect.TypeOf((*DevTestPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestPolicy.DevTestPolicyTimeouts",
+		"@cdktn/provider-azurerm.devTestPolicy.DevTestPolicyTimeouts",
 		reflect.TypeOf((*DevTestPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestPolicy.DevTestPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.devTestPolicy.DevTestPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*DevTestPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventgridtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/eventgridtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgridtopic/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEventgridTopicInboundIpRuleOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_EventgridTopicInboundIpRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRuleOutputReference",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEventgridTopicInboundIpRuleOutputReference_Override(e EventgridTopicInbo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRuleOutputReference",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

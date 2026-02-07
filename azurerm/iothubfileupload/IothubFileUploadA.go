@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubfileupload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothubfileupload/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubfileupload/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload}.
 type IothubFileUploadA interface {
 	cdktf.TerraformResource
 	AuthenticationType() *string
@@ -571,7 +571,7 @@ func (j *jsiiProxy_IothubFileUploadA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
 func NewIothubFileUploadA(scope constructs.Construct, id *string, config *IothubFileUploadAConfig) IothubFileUploadA {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewIothubFileUploadA(scope constructs.Construct, id *string, config *Iothub
 	j := jsiiProxy_IothubFileUploadA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubFileUpload.IothubFileUploadA",
+		"@cdktn/provider-azurerm.iothubFileUpload.IothubFileUploadA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -589,12 +589,12 @@ func NewIothubFileUploadA(scope constructs.Construct, id *string, config *Iothub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
 func NewIothubFileUploadA_Override(i IothubFileUploadA, scope constructs.Construct, id *string, config *IothubFileUploadAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubFileUpload.IothubFileUploadA",
+		"@cdktn/provider-azurerm.iothubFileUpload.IothubFileUploadA",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -799,7 +799,7 @@ func IothubFileUploadA_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubFileUpload.IothubFileUploadA",
+		"@cdktn/provider-azurerm.iothubFileUpload.IothubFileUploadA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -834,7 +834,7 @@ func IothubFileUploadA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubFileUpload.IothubFileUploadA",
+		"@cdktn/provider-azurerm.iothubFileUpload.IothubFileUploadA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func IothubFileUploadA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubFileUpload.IothubFileUploadA",
+		"@cdktn/provider-azurerm.iothubFileUpload.IothubFileUploadA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func IothubFileUploadA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubFileUpload.IothubFileUploadA",
+		"@cdktn/provider-azurerm.iothubFileUpload.IothubFileUploadA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func IothubFileUploadA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iothubFileUpload.IothubFileUploadA",
+		"@cdktn/provider-azurerm.iothubFileUpload.IothubFileUploadA",
 		"tfResourceType",
 		&returns,
 	)

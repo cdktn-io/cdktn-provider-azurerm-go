@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package proximityplacementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/proximityplacementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/proximityplacementgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group}.
 type ProximityPlacementGroup interface {
 	cdktf.TerraformResource
 	AllowedVmSizes() *[]*string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_ProximityPlacementGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group} Resource.
 func NewProximityPlacementGroup(scope constructs.Construct, id *string, config *ProximityPlacementGroupConfig) ProximityPlacementGroup {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewProximityPlacementGroup(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ProximityPlacementGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewProximityPlacementGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group} Resource.
 func NewProximityPlacementGroup_Override(p ProximityPlacementGroup, scope constructs.Construct, id *string, config *ProximityPlacementGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -659,7 +659,7 @@ func ProximityPlacementGroup_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func ProximityPlacementGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func ProximityPlacementGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func ProximityPlacementGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func ProximityPlacementGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
+		"@cdktn/provider-azurerm.proximityPlacementGroup.ProximityPlacementGroup",
 		"tfResourceType",
 		&returns,
 	)

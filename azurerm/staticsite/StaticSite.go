@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package staticsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/staticsite/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/staticsite/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/static_site azurerm_static_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/static_site azurerm_static_site}.
 type StaticSite interface {
 	cdktf.TerraformResource
 	ApiKey() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_StaticSite) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/static_site azurerm_static_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/static_site azurerm_static_site} Resource.
 func NewStaticSite(scope constructs.Construct, id *string, config *StaticSiteConfig) StaticSite {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewStaticSite(scope constructs.Construct, id *string, config *StaticSiteCon
 	j := jsiiProxy_StaticSite{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.staticSite.StaticSite",
+		"@cdktn/provider-azurerm.staticSite.StaticSite",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewStaticSite(scope constructs.Construct, id *string, config *StaticSiteCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/static_site azurerm_static_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/static_site azurerm_static_site} Resource.
 func NewStaticSite_Override(s StaticSite, scope constructs.Construct, id *string, config *StaticSiteConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.staticSite.StaticSite",
+		"@cdktn/provider-azurerm.staticSite.StaticSite",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -740,7 +740,7 @@ func StaticSite_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.staticSite.StaticSite",
+		"@cdktn/provider-azurerm.staticSite.StaticSite",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func StaticSite_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.staticSite.StaticSite",
+		"@cdktn/provider-azurerm.staticSite.StaticSite",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func StaticSite_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.staticSite.StaticSite",
+		"@cdktn/provider-azurerm.staticSite.StaticSite",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func StaticSite_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.staticSite.StaticSite",
+		"@cdktn/provider-azurerm.staticSite.StaticSite",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func StaticSite_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.staticSite.StaticSite",
+		"@cdktn/provider-azurerm.staticSite.StaticSite",
 		"tfResourceType",
 		&returns,
 	)

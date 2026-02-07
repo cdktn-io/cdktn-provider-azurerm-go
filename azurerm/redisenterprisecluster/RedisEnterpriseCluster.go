@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redisenterprisecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/redisenterprisecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/redisenterprisecluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_enterprise_cluster azurerm_redis_enterprise_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_enterprise_cluster azurerm_redis_enterprise_cluster}.
 type RedisEnterpriseCluster interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_RedisEnterpriseCluster) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_enterprise_cluster azurerm_redis_enterprise_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_enterprise_cluster azurerm_redis_enterprise_cluster} Resource.
 func NewRedisEnterpriseCluster(scope constructs.Construct, id *string, config *RedisEnterpriseClusterConfig) RedisEnterpriseCluster {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewRedisEnterpriseCluster(scope constructs.Construct, id *string, config *R
 	j := jsiiProxy_RedisEnterpriseCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -527,12 +527,12 @@ func NewRedisEnterpriseCluster(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redis_enterprise_cluster azurerm_redis_enterprise_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redis_enterprise_cluster azurerm_redis_enterprise_cluster} Resource.
 func NewRedisEnterpriseCluster_Override(r RedisEnterpriseCluster, scope constructs.Construct, id *string, config *RedisEnterpriseClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -704,7 +704,7 @@ func RedisEnterpriseCluster_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func RedisEnterpriseCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func RedisEnterpriseCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func RedisEnterpriseCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func RedisEnterpriseCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
 		"tfResourceType",
 		&returns,
 	)

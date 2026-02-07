@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementglobalschema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementglobalschema/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementglobalschema/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_global_schema azurerm_api_management_global_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_global_schema azurerm_api_management_global_schema}.
 type ApiManagementGlobalSchema interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ApiManagementGlobalSchema) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_global_schema azurerm_api_management_global_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_global_schema azurerm_api_management_global_schema} Resource.
 func NewApiManagementGlobalSchema(scope constructs.Construct, id *string, config *ApiManagementGlobalSchemaConfig) ApiManagementGlobalSchema {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewApiManagementGlobalSchema(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ApiManagementGlobalSchema{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewApiManagementGlobalSchema(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_global_schema azurerm_api_management_global_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_global_schema azurerm_api_management_global_schema} Resource.
 func NewApiManagementGlobalSchema_Override(a ApiManagementGlobalSchema, scope constructs.Construct, id *string, config *ApiManagementGlobalSchemaConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -657,7 +657,7 @@ func ApiManagementGlobalSchema_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func ApiManagementGlobalSchema_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func ApiManagementGlobalSchema_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func ApiManagementGlobalSchema_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func ApiManagementGlobalSchema_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
 		"tfResourceType",
 		&returns,
 	)

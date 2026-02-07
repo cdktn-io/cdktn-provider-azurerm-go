@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubsocketio
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketio",
 		reflect.TypeOf((*WebPubsubSocketio)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aadAuthEnabled", GoGetter: "AadAuthEnabled"},
@@ -121,15 +121,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioConfig",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioConfig",
 		reflect.TypeOf((*WebPubsubSocketioConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioIdentity",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioIdentity",
 		reflect.TypeOf((*WebPubsubSocketioIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioIdentityOutputReference",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioIdentityOutputReference",
 		reflect.TypeOf((*WebPubsubSocketioIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioSku",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioSku",
 		reflect.TypeOf((*WebPubsubSocketioSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioSkuOutputReference",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioSkuOutputReference",
 		reflect.TypeOf((*WebPubsubSocketioSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioTimeouts",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioTimeouts",
 		reflect.TypeOf((*WebPubsubSocketioTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioTimeoutsOutputReference",
 		reflect.TypeOf((*WebPubsubSocketioTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

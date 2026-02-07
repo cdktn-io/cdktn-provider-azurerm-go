@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermlinuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermlinuxwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlinuxwebapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/linux_web_app azurerm_linux_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/linux_web_app azurerm_linux_web_app}.
 type DataAzurermLinuxWebApp interface {
 	cdktf.TerraformDataSource
 	AppMetadata() cdktf.StringMap
@@ -742,7 +742,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebApp) WebdeployPublishBasicAuthenticationEn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/linux_web_app azurerm_linux_web_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/linux_web_app azurerm_linux_web_app} Data Source.
 func NewDataAzurermLinuxWebApp(scope constructs.Construct, id *string, config *DataAzurermLinuxWebAppConfig) DataAzurermLinuxWebApp {
 	_init_.Initialize()
 
@@ -752,7 +752,7 @@ func NewDataAzurermLinuxWebApp(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAzurermLinuxWebApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
+		"@cdktn/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -760,12 +760,12 @@ func NewDataAzurermLinuxWebApp(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/linux_web_app azurerm_linux_web_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/linux_web_app azurerm_linux_web_app} Data Source.
 func NewDataAzurermLinuxWebApp_Override(d DataAzurermLinuxWebApp, scope constructs.Construct, id *string, config *DataAzurermLinuxWebAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
+		"@cdktn/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -860,7 +860,7 @@ func DataAzurermLinuxWebApp_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
+		"@cdktn/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -895,7 +895,7 @@ func DataAzurermLinuxWebApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
+		"@cdktn/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -914,7 +914,7 @@ func DataAzurermLinuxWebApp_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
+		"@cdktn/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -933,7 +933,7 @@ func DataAzurermLinuxWebApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
+		"@cdktn/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -946,7 +946,7 @@ func DataAzurermLinuxWebApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
+		"@cdktn/provider-azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebApp",
 		"tfResourceType",
 		&returns,
 	)

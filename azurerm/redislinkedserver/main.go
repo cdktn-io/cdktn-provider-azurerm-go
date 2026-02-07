@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redislinkedserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisLinkedServer.RedisLinkedServer",
+		"@cdktn/provider-azurerm.redisLinkedServer.RedisLinkedServer",
 		reflect.TypeOf((*RedisLinkedServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisLinkedServer.RedisLinkedServerConfig",
+		"@cdktn/provider-azurerm.redisLinkedServer.RedisLinkedServerConfig",
 		reflect.TypeOf((*RedisLinkedServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisLinkedServer.RedisLinkedServerTimeouts",
+		"@cdktn/provider-azurerm.redisLinkedServer.RedisLinkedServerTimeouts",
 		reflect.TypeOf((*RedisLinkedServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisLinkedServer.RedisLinkedServerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.redisLinkedServer.RedisLinkedServerTimeoutsOutputReference",
 		reflect.TypeOf((*RedisLinkedServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

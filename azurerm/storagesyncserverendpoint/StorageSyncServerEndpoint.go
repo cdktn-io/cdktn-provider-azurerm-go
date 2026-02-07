@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagesyncserverendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagesyncserverendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagesyncserverendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint}.
 type StorageSyncServerEndpoint interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_StorageSyncServerEndpoint) VolumeFreeSpacePercentInput() *flo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
 func NewStorageSyncServerEndpoint(scope constructs.Construct, id *string, config *StorageSyncServerEndpointConfig) StorageSyncServerEndpoint {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewStorageSyncServerEndpoint(scope constructs.Construct, id *string, config
 	j := jsiiProxy_StorageSyncServerEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewStorageSyncServerEndpoint(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_sync_server_endpoint azurerm_storage_sync_server_endpoint} Resource.
 func NewStorageSyncServerEndpoint_Override(s StorageSyncServerEndpoint, scope constructs.Construct, id *string, config *StorageSyncServerEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -763,7 +763,7 @@ func StorageSyncServerEndpoint_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func StorageSyncServerEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func StorageSyncServerEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func StorageSyncServerEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func StorageSyncServerEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
+		"@cdktn/provider-azurerm.storageSyncServerEndpoint.StorageSyncServerEndpoint",
 		"tfResourceType",
 		&returns,
 	)

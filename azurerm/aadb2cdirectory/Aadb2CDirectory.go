@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package aadb2cdirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/aadb2cdirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/aadb2cdirectory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/aadb2c_directory azurerm_aadb2c_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/aadb2c_directory azurerm_aadb2c_directory}.
 type Aadb2CDirectory interface {
 	cdktf.TerraformResource
 	BillingType() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_Aadb2CDirectory) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/aadb2c_directory azurerm_aadb2c_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/aadb2c_directory azurerm_aadb2c_directory} Resource.
 func NewAadb2CDirectory(scope constructs.Construct, id *string, config *Aadb2CDirectoryConfig) Aadb2CDirectory {
 	_init_.Initialize()
 
@@ -541,7 +541,7 @@ func NewAadb2CDirectory(scope constructs.Construct, id *string, config *Aadb2CDi
 	j := jsiiProxy_Aadb2CDirectory{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -549,12 +549,12 @@ func NewAadb2CDirectory(scope constructs.Construct, id *string, config *Aadb2CDi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/aadb2c_directory azurerm_aadb2c_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/aadb2c_directory azurerm_aadb2c_directory} Resource.
 func NewAadb2CDirectory_Override(a Aadb2CDirectory, scope constructs.Construct, id *string, config *Aadb2CDirectoryConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -726,7 +726,7 @@ func Aadb2CDirectory_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -761,7 +761,7 @@ func Aadb2CDirectory_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func Aadb2CDirectory_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -799,7 +799,7 @@ func Aadb2CDirectory_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func Aadb2CDirectory_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
 		"tfResourceType",
 		&returns,
 	)

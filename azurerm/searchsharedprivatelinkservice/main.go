@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package searchsharedprivatelinkservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkService",
+		"@cdktn/provider-azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkService",
 		reflect.TypeOf((*SearchSharedPrivateLinkService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkServiceConfig",
+		"@cdktn/provider-azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkServiceConfig",
 		reflect.TypeOf((*SearchSharedPrivateLinkServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkServiceTimeouts",
+		"@cdktn/provider-azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkServiceTimeouts",
 		reflect.TypeOf((*SearchSharedPrivateLinkServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkServiceTimeoutsOutputReference",
 		reflect.TypeOf((*SearchSharedPrivateLinkServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

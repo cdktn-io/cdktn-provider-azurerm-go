@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmssqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermmssqldatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmssqldatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_database azurerm_mssql_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_database azurerm_mssql_database}.
 type DataAzurermMssqlDatabase interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -500,7 +500,7 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) ZoneRedundant() cdktf.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_database azurerm_mssql_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_database azurerm_mssql_database} Data Source.
 func NewDataAzurermMssqlDatabase(scope constructs.Construct, id *string, config *DataAzurermMssqlDatabaseConfig) DataAzurermMssqlDatabase {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewDataAzurermMssqlDatabase(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAzurermMssqlDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
+		"@cdktn/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,12 +518,12 @@ func NewDataAzurermMssqlDatabase(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_database azurerm_mssql_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_database azurerm_mssql_database} Data Source.
 func NewDataAzurermMssqlDatabase_Override(d DataAzurermMssqlDatabase, scope constructs.Construct, id *string, config *DataAzurermMssqlDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
+		"@cdktn/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -618,7 +618,7 @@ func DataAzurermMssqlDatabase_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
+		"@cdktn/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -653,7 +653,7 @@ func DataAzurermMssqlDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
+		"@cdktn/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -672,7 +672,7 @@ func DataAzurermMssqlDatabase_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
+		"@cdktn/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -691,7 +691,7 @@ func DataAzurermMssqlDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
+		"@cdktn/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -704,7 +704,7 @@ func DataAzurermMssqlDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
+		"@cdktn/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
 		"tfResourceType",
 		&returns,
 	)

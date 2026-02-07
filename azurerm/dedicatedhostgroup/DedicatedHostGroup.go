@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dedicatedhostgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dedicatedhostgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dedicatedhostgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group}.
 type DedicatedHostGroup interface {
 	cdktf.TerraformResource
 	AutomaticPlacementEnabled() interface{}
@@ -498,7 +498,7 @@ func (j *jsiiProxy_DedicatedHostGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group} Resource.
 func NewDedicatedHostGroup(scope constructs.Construct, id *string, config *DedicatedHostGroupConfig) DedicatedHostGroup {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewDedicatedHostGroup(scope constructs.Construct, id *string, config *Dedic
 	j := jsiiProxy_DedicatedHostGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
+		"@cdktn/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewDedicatedHostGroup(scope constructs.Construct, id *string, config *Dedic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group} Resource.
 func NewDedicatedHostGroup_Override(d DedicatedHostGroup, scope constructs.Construct, id *string, config *DedicatedHostGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
+		"@cdktn/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -693,7 +693,7 @@ func DedicatedHostGroup_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
+		"@cdktn/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func DedicatedHostGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
+		"@cdktn/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func DedicatedHostGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
+		"@cdktn/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func DedicatedHostGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
+		"@cdktn/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func DedicatedHostGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
+		"@cdktn/provider-azurerm.dedicatedHostGroup.DedicatedHostGroup",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package postgresqlfirewallrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRule",
 		reflect.TypeOf((*PostgresqlFirewallRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRuleConfig",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRuleConfig",
 		reflect.TypeOf((*PostgresqlFirewallRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRuleTimeouts",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRuleTimeouts",
 		reflect.TypeOf((*PostgresqlFirewallRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.postgresqlFirewallRule.PostgresqlFirewallRuleTimeoutsOutputReference",
 		reflect.TypeOf((*PostgresqlFirewallRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

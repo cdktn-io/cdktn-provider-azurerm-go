@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botserviceazurebot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
 		reflect.TypeOf((*BotServiceAzureBot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -128,15 +128,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBotConfig",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBotConfig",
 		reflect.TypeOf((*BotServiceAzureBotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBotTimeouts",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBotTimeouts",
 		reflect.TypeOf((*BotServiceAzureBotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBotTimeoutsOutputReference",
 		reflect.TypeOf((*BotServiceAzureBotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

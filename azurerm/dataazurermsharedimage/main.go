@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsharedimage
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImage",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImage",
 		reflect.TypeOf((*DataAzurermSharedImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratedNetworkSupportEnabled", GoGetter: "AcceleratedNetworkSupportEnabled"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageConfig",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageConfig",
 		reflect.TypeOf((*DataAzurermSharedImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageIdentifier",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageIdentifier",
 		reflect.TypeOf((*DataAzurermSharedImageIdentifier)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageIdentifierList",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageIdentifierList",
 		reflect.TypeOf((*DataAzurermSharedImageIdentifierList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageIdentifierOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageIdentifierOutputReference",
 		reflect.TypeOf((*DataAzurermSharedImageIdentifierOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImagePurchasePlan",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImagePurchasePlan",
 		reflect.TypeOf((*DataAzurermSharedImagePurchasePlan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImagePurchasePlanList",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImagePurchasePlanList",
 		reflect.TypeOf((*DataAzurermSharedImagePurchasePlanList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -175,7 +175,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImagePurchasePlanOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImagePurchasePlanOutputReference",
 		reflect.TypeOf((*DataAzurermSharedImagePurchasePlanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageTimeouts",
 		reflect.TypeOf((*DataAzurermSharedImageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImageTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermSharedImageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firewallpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicy",
 		reflect.TypeOf((*FirewallPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -128,15 +128,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyConfig",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyConfig",
 		reflect.TypeOf((*FirewallPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyDns",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyDns",
 		reflect.TypeOf((*FirewallPolicyDns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyDnsOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyDnsOutputReference",
 		reflect.TypeOf((*FirewallPolicyDnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,11 +174,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyExplicitProxy",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyExplicitProxy",
 		reflect.TypeOf((*FirewallPolicyExplicitProxy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyExplicitProxyOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyExplicitProxyOutputReference",
 		reflect.TypeOf((*FirewallPolicyExplicitProxyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIdentity",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIdentity",
 		reflect.TypeOf((*FirewallPolicyIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIdentityOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIdentityOutputReference",
 		reflect.TypeOf((*FirewallPolicyIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,15 +271,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyInsights",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyInsights",
 		reflect.TypeOf((*FirewallPolicyInsights)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyInsightsLogAnalyticsWorkspace",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyInsightsLogAnalyticsWorkspace",
 		reflect.TypeOf((*FirewallPolicyInsightsLogAnalyticsWorkspace)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyInsightsLogAnalyticsWorkspaceList",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyInsightsLogAnalyticsWorkspaceList",
 		reflect.TypeOf((*FirewallPolicyInsightsLogAnalyticsWorkspaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -301,7 +301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyInsightsLogAnalyticsWorkspaceOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyInsightsLogAnalyticsWorkspaceOutputReference",
 		reflect.TypeOf((*FirewallPolicyInsightsLogAnalyticsWorkspaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -337,7 +337,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyInsightsOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyInsightsOutputReference",
 		reflect.TypeOf((*FirewallPolicyInsightsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -380,11 +380,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetection",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetection",
 		reflect.TypeOf((*FirewallPolicyIntrusionDetection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionOutputReference",
 		reflect.TypeOf((*FirewallPolicyIntrusionDetectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -430,11 +430,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionSignatureOverrides",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionSignatureOverrides",
 		reflect.TypeOf((*FirewallPolicyIntrusionDetectionSignatureOverrides)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionSignatureOverridesList",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionSignatureOverridesList",
 		reflect.TypeOf((*FirewallPolicyIntrusionDetectionSignatureOverridesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -456,7 +456,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionSignatureOverridesOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionSignatureOverridesOutputReference",
 		reflect.TypeOf((*FirewallPolicyIntrusionDetectionSignatureOverridesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -494,11 +494,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionTrafficBypass",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionTrafficBypass",
 		reflect.TypeOf((*FirewallPolicyIntrusionDetectionTrafficBypass)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionTrafficBypassList",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionTrafficBypassList",
 		reflect.TypeOf((*FirewallPolicyIntrusionDetectionTrafficBypassList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -520,7 +520,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionTrafficBypassOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionTrafficBypassOutputReference",
 		reflect.TypeOf((*FirewallPolicyIntrusionDetectionTrafficBypassOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -574,11 +574,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyThreatIntelligenceAllowlistStruct",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyThreatIntelligenceAllowlistStruct",
 		reflect.TypeOf((*FirewallPolicyThreatIntelligenceAllowlistStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyThreatIntelligenceAllowlistStructOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyThreatIntelligenceAllowlistStructOutputReference",
 		reflect.TypeOf((*FirewallPolicyThreatIntelligenceAllowlistStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -616,11 +616,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyTimeouts",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyTimeouts",
 		reflect.TypeOf((*FirewallPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*FirewallPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -664,11 +664,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyTlsCertificate",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyTlsCertificate",
 		reflect.TypeOf((*FirewallPolicyTlsCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewallPolicy.FirewallPolicyTlsCertificateOutputReference",
+		"@cdktn/provider-azurerm.firewallPolicy.FirewallPolicyTlsCertificateOutputReference",
 		reflect.TypeOf((*FirewallPolicyTlsCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

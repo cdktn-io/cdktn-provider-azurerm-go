@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managementgrouppolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/managementgrouppolicyassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managementgrouppolicyassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_group_policy_assignment azurerm_management_group_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_group_policy_assignment azurerm_management_group_policy_assignment}.
 type ManagementGroupPolicyAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -667,7 +667,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignment) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_group_policy_assignment azurerm_management_group_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_group_policy_assignment azurerm_management_group_policy_assignment} Resource.
 func NewManagementGroupPolicyAssignment(scope constructs.Construct, id *string, config *ManagementGroupPolicyAssignmentConfig) ManagementGroupPolicyAssignment {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewManagementGroupPolicyAssignment(scope constructs.Construct, id *string, 
 	j := jsiiProxy_ManagementGroupPolicyAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -685,12 +685,12 @@ func NewManagementGroupPolicyAssignment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/management_group_policy_assignment azurerm_management_group_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/management_group_policy_assignment azurerm_management_group_policy_assignment} Resource.
 func NewManagementGroupPolicyAssignment_Override(m ManagementGroupPolicyAssignment, scope constructs.Construct, id *string, config *ManagementGroupPolicyAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -895,7 +895,7 @@ func ManagementGroupPolicyAssignment_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -930,7 +930,7 @@ func ManagementGroupPolicyAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -949,7 +949,7 @@ func ManagementGroupPolicyAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -968,7 +968,7 @@ func ManagementGroupPolicyAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -981,7 +981,7 @@ func ManagementGroupPolicyAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignment",
 		"tfResourceType",
 		&returns,
 	)

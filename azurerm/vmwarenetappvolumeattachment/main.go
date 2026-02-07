@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwarenetappvolumeattachment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachment",
 		reflect.TypeOf((*VmwareNetappVolumeAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachmentConfig",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachmentConfig",
 		reflect.TypeOf((*VmwareNetappVolumeAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachmentTimeouts",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachmentTimeouts",
 		reflect.TypeOf((*VmwareNetappVolumeAttachmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.vmwareNetappVolumeAttachment.VmwareNetappVolumeAttachmentTimeoutsOutputReference",
 		reflect.TypeOf((*VmwareNetappVolumeAttachmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

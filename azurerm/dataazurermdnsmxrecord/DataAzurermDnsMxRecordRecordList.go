@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdnsmxrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdnsmxrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdnsmxrecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAzurermDnsMxRecordRecordList(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_DataAzurermDnsMxRecordRecordList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecordList",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecordList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAzurermDnsMxRecordRecordList_Override(d DataAzurermDnsMxRecordRecord
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecordList",
+		"@cdktn/provider-azurerm.dataAzurermDnsMxRecord.DataAzurermDnsMxRecordRecordList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

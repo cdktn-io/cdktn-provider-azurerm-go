@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubsocketio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webpubsubsocketio/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubsocketio/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewWebPubsubSocketioSkuOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_WebPubsubSocketioSkuOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioSkuOutputReference",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioSkuOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewWebPubsubSocketioSkuOutputReference_Override(w WebPubsubSocketioSkuOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubSocketio.WebPubsubSocketioSkuOutputReference",
+		"@cdktn/provider-azurerm.webPubsubSocketio.WebPubsubSocketioSkuOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		w,
 	)

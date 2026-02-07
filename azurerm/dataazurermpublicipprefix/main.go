@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermpublicipprefix
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefix",
+		"@cdktn/provider-azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefix",
 		reflect.TypeOf((*DataAzurermPublicIpPrefix)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefixConfig",
+		"@cdktn/provider-azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefixConfig",
 		reflect.TypeOf((*DataAzurermPublicIpPrefixConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefixTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefixTimeouts",
 		reflect.TypeOf((*DataAzurermPublicIpPrefixTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefixTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefixTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermPublicIpPrefixTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

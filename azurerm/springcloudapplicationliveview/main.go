@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudapplicationliveview
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApplicationLiveView.SpringCloudApplicationLiveView",
+		"@cdktn/provider-azurerm.springCloudApplicationLiveView.SpringCloudApplicationLiveView",
 		reflect.TypeOf((*SpringCloudApplicationLiveView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApplicationLiveView.SpringCloudApplicationLiveViewConfig",
+		"@cdktn/provider-azurerm.springCloudApplicationLiveView.SpringCloudApplicationLiveViewConfig",
 		reflect.TypeOf((*SpringCloudApplicationLiveViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApplicationLiveView.SpringCloudApplicationLiveViewTimeouts",
+		"@cdktn/provider-azurerm.springCloudApplicationLiveView.SpringCloudApplicationLiveViewTimeouts",
 		reflect.TypeOf((*SpringCloudApplicationLiveViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApplicationLiveView.SpringCloudApplicationLiveViewTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudApplicationLiveView.SpringCloudApplicationLiveViewTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudApplicationLiveViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

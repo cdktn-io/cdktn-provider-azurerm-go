@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -494,7 +494,7 @@ func NewAppServiceAuthSettingsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_AppServiceAuthSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -506,7 +506,7 @@ func NewAppServiceAuthSettingsOutputReference_Override(a AppServiceAuthSettingsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

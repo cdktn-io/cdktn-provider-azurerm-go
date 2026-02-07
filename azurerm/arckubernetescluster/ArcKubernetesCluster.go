@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arckubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/arckubernetescluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arckubernetescluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster}.
 type ArcKubernetesCluster interface {
 	cdktf.TerraformResource
 	AgentPublicKeyCertificate() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_ArcKubernetesCluster) TotalNodeCount() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster} Resource.
 func NewArcKubernetesCluster(scope constructs.Construct, id *string, config *ArcKubernetesClusterConfig) ArcKubernetesCluster {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewArcKubernetesCluster(scope constructs.Construct, id *string, config *Arc
 	j := jsiiProxy_ArcKubernetesCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
+		"@cdktn/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -568,12 +568,12 @@ func NewArcKubernetesCluster(scope constructs.Construct, id *string, config *Arc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_kubernetes_cluster azurerm_arc_kubernetes_cluster} Resource.
 func NewArcKubernetesCluster_Override(a ArcKubernetesCluster, scope constructs.Construct, id *string, config *ArcKubernetesClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
+		"@cdktn/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -723,7 +723,7 @@ func ArcKubernetesCluster_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
+		"@cdktn/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -758,7 +758,7 @@ func ArcKubernetesCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
+		"@cdktn/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func ArcKubernetesCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
+		"@cdktn/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -796,7 +796,7 @@ func ArcKubernetesCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
+		"@cdktn/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -809,7 +809,7 @@ func ArcKubernetesCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
+		"@cdktn/provider-azurerm.arcKubernetesCluster.ArcKubernetesCluster",
 		"tfResourceType",
 		&returns,
 	)

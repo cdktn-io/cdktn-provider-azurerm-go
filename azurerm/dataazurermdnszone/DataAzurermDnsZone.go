@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdnszone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdnszone/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdnszone/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dns_zone azurerm_dns_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dns_zone azurerm_dns_zone}.
 type DataAzurermDnsZone interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataAzurermDnsZone) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dns_zone azurerm_dns_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dns_zone azurerm_dns_zone} Data Source.
 func NewDataAzurermDnsZone(scope constructs.Construct, id *string, config *DataAzurermDnsZoneConfig) DataAzurermDnsZone {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewDataAzurermDnsZone(scope constructs.Construct, id *string, config *DataA
 	j := jsiiProxy_DataAzurermDnsZone{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
+		"@cdktn/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewDataAzurermDnsZone(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dns_zone azurerm_dns_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dns_zone azurerm_dns_zone} Data Source.
 func NewDataAzurermDnsZone_Override(d DataAzurermDnsZone, scope constructs.Construct, id *string, config *DataAzurermDnsZoneConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
+		"@cdktn/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -498,7 +498,7 @@ func DataAzurermDnsZone_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
+		"@cdktn/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func DataAzurermDnsZone_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
+		"@cdktn/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func DataAzurermDnsZone_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
+		"@cdktn/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func DataAzurermDnsZone_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
+		"@cdktn/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAzurermDnsZone_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
+		"@cdktn/provider-azurerm.dataAzurermDnsZone.DataAzurermDnsZone",
 		"tfResourceType",
 		&returns,
 	)

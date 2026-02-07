@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dashboardgrafana
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafana",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafana",
 		reflect.TypeOf((*DashboardGrafana)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -114,11 +114,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaAzureMonitorWorkspaceIntegrations",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaAzureMonitorWorkspaceIntegrations",
 		reflect.TypeOf((*DashboardGrafanaAzureMonitorWorkspaceIntegrations)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaAzureMonitorWorkspaceIntegrationsList",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaAzureMonitorWorkspaceIntegrationsList",
 		reflect.TypeOf((*DashboardGrafanaAzureMonitorWorkspaceIntegrationsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -140,7 +140,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaAzureMonitorWorkspaceIntegrationsOutputReference",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaAzureMonitorWorkspaceIntegrationsOutputReference",
 		reflect.TypeOf((*DashboardGrafanaAzureMonitorWorkspaceIntegrationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,15 +174,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaConfig",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaConfig",
 		reflect.TypeOf((*DashboardGrafanaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaIdentity",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaIdentity",
 		reflect.TypeOf((*DashboardGrafanaIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaIdentityOutputReference",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaIdentityOutputReference",
 		reflect.TypeOf((*DashboardGrafanaIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -221,11 +221,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaSmtp",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaSmtp",
 		reflect.TypeOf((*DashboardGrafanaSmtp)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaSmtpOutputReference",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaSmtpOutputReference",
 		reflect.TypeOf((*DashboardGrafanaSmtpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -276,11 +276,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaTimeouts",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaTimeouts",
 		reflect.TypeOf((*DashboardGrafanaTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dashboardGrafana.DashboardGrafanaTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dashboardGrafana.DashboardGrafanaTimeoutsOutputReference",
 		reflect.TypeOf((*DashboardGrafanaTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

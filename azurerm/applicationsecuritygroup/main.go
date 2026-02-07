@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationsecuritygroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroup",
 		reflect.TypeOf((*ApplicationSecurityGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroupConfig",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroupConfig",
 		reflect.TypeOf((*ApplicationSecurityGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroupTimeouts",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroupTimeouts",
 		reflect.TypeOf((*ApplicationSecurityGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.applicationSecurityGroup.ApplicationSecurityGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationSecurityGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

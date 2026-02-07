@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbcassandratable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbcassandratable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbcassandratable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table}.
 type CosmosdbCassandraTable interface {
 	cdktf.TerraformResource
 	AnalyticalStorageTtl() *float64
@@ -499,7 +499,7 @@ func (j *jsiiProxy_CosmosdbCassandraTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
 func NewCosmosdbCassandraTable(scope constructs.Construct, id *string, config *CosmosdbCassandraTableConfig) CosmosdbCassandraTable {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewCosmosdbCassandraTable(scope constructs.Construct, id *string, config *C
 	j := jsiiProxy_CosmosdbCassandraTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
+		"@cdktn/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,12 +517,12 @@ func NewCosmosdbCassandraTable(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
 func NewCosmosdbCassandraTable_Override(c CosmosdbCassandraTable, scope constructs.Construct, id *string, config *CosmosdbCassandraTableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
+		"@cdktn/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -672,7 +672,7 @@ func CosmosdbCassandraTable_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
+		"@cdktn/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -707,7 +707,7 @@ func CosmosdbCassandraTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
+		"@cdktn/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func CosmosdbCassandraTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
+		"@cdktn/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func CosmosdbCassandraTable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
+		"@cdktn/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func CosmosdbCassandraTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
+		"@cdktn/provider-azurerm.cosmosdbCassandraTable.CosmosdbCassandraTable",
 		"tfResourceType",
 		&returns,
 	)

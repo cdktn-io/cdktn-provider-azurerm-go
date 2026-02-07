@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualwan
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWan",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWan",
 		reflect.TypeOf((*VirtualWan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWanConfig",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWanConfig",
 		reflect.TypeOf((*VirtualWanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWanTimeouts",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWanTimeouts",
 		reflect.TypeOf((*VirtualWanTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualWan.VirtualWanTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualWan.VirtualWanTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualWanTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

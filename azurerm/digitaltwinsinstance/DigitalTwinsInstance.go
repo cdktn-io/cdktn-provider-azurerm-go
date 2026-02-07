@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package digitaltwinsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/digitaltwinsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/digitaltwinsinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_instance azurerm_digital_twins_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_instance azurerm_digital_twins_instance}.
 type DigitalTwinsInstance interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DigitalTwinsInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_instance azurerm_digital_twins_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_instance azurerm_digital_twins_instance} Resource.
 func NewDigitalTwinsInstance(scope constructs.Construct, id *string, config *DigitalTwinsInstanceConfig) DigitalTwinsInstance {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewDigitalTwinsInstance(scope constructs.Construct, id *string, config *Dig
 	j := jsiiProxy_DigitalTwinsInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewDigitalTwinsInstance(scope constructs.Construct, id *string, config *Dig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_instance azurerm_digital_twins_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_instance azurerm_digital_twins_instance} Resource.
 func NewDigitalTwinsInstance_Override(d DigitalTwinsInstance, scope constructs.Construct, id *string, config *DigitalTwinsInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -624,7 +624,7 @@ func DigitalTwinsInstance_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func DigitalTwinsInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func DigitalTwinsInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func DigitalTwinsInstance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func DigitalTwinsInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
 		"tfResourceType",
 		&returns,
 	)

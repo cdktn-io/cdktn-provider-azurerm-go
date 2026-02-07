@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventgridpartnerconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/eventgridpartnerconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgridpartnerconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_partner_configuration azurerm_eventgrid_partner_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_partner_configuration azurerm_eventgrid_partner_configuration}.
 type EventgridPartnerConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_EventgridPartnerConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_partner_configuration azurerm_eventgrid_partner_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_partner_configuration azurerm_eventgrid_partner_configuration} Resource.
 func NewEventgridPartnerConfiguration(scope constructs.Construct, id *string, config *EventgridPartnerConfigurationConfig) EventgridPartnerConfiguration {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewEventgridPartnerConfiguration(scope constructs.Construct, id *string, co
 	j := jsiiProxy_EventgridPartnerConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
+		"@cdktn/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewEventgridPartnerConfiguration(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_partner_configuration azurerm_eventgrid_partner_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_partner_configuration azurerm_eventgrid_partner_configuration} Resource.
 func NewEventgridPartnerConfiguration_Override(e EventgridPartnerConfiguration, scope constructs.Construct, id *string, config *EventgridPartnerConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
+		"@cdktn/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -580,7 +580,7 @@ func EventgridPartnerConfiguration_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
+		"@cdktn/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -615,7 +615,7 @@ func EventgridPartnerConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
+		"@cdktn/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -634,7 +634,7 @@ func EventgridPartnerConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
+		"@cdktn/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -653,7 +653,7 @@ func EventgridPartnerConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
+		"@cdktn/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func EventgridPartnerConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
+		"@cdktn/provider-azurerm.eventgridPartnerConfiguration.EventgridPartnerConfiguration",
 		"tfResourceType",
 		&returns,
 	)

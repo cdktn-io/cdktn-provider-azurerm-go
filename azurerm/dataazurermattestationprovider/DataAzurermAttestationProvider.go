@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermattestationprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermattestationprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermattestationprovider/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/attestation_provider azurerm_attestation_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/attestation_provider azurerm_attestation_provider}.
 type DataAzurermAttestationProvider interface {
 	cdktf.TerraformDataSource
 	AttestationUri() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAzurermAttestationProvider) TrustModel() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/attestation_provider azurerm_attestation_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/attestation_provider azurerm_attestation_provider} Data Source.
 func NewDataAzurermAttestationProvider(scope constructs.Construct, id *string, config *DataAzurermAttestationProviderConfig) DataAzurermAttestationProvider {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewDataAzurermAttestationProvider(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAzurermAttestationProvider{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewDataAzurermAttestationProvider(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/attestation_provider azurerm_attestation_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/attestation_provider azurerm_attestation_provider} Data Source.
 func NewDataAzurermAttestationProvider_Override(d DataAzurermAttestationProvider, scope constructs.Construct, id *string, config *DataAzurermAttestationProviderConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -497,7 +497,7 @@ func DataAzurermAttestationProvider_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func DataAzurermAttestationProvider_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func DataAzurermAttestationProvider_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DataAzurermAttestationProvider_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataAzurermAttestationProvider_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
+		"@cdktn/provider-azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProvider",
 		"tfResourceType",
 		&returns,
 	)

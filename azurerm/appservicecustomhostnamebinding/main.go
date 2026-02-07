@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservicecustomhostnamebinding
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
 		reflect.TypeOf((*AppServiceCustomHostnameBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBindingConfig",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBindingConfig",
 		reflect.TypeOf((*AppServiceCustomHostnameBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBindingTimeouts",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBindingTimeouts",
 		reflect.TypeOf((*AppServiceCustomHostnameBindingTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBindingTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBindingTimeoutsOutputReference",
 		reflect.TypeOf((*AppServiceCustomHostnameBindingTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

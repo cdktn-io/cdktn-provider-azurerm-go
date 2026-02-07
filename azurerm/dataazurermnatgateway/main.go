@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnatgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNatGateway.DataAzurermNatGateway",
+		"@cdktn/provider-azurerm.dataAzurermNatGateway.DataAzurermNatGateway",
 		reflect.TypeOf((*DataAzurermNatGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNatGateway.DataAzurermNatGatewayConfig",
+		"@cdktn/provider-azurerm.dataAzurermNatGateway.DataAzurermNatGatewayConfig",
 		reflect.TypeOf((*DataAzurermNatGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNatGateway.DataAzurermNatGatewayTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermNatGateway.DataAzurermNatGatewayTimeouts",
 		reflect.TypeOf((*DataAzurermNatGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNatGateway.DataAzurermNatGatewayTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNatGateway.DataAzurermNatGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermNatGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

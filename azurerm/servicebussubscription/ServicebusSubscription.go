@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicebussubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/servicebussubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicebussubscription/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription}.
 type ServicebusSubscription interface {
 	cdktf.TerraformResource
 	AutoDeleteOnIdle() *string
@@ -691,7 +691,7 @@ func (j *jsiiProxy_ServicebusSubscription) TopicIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription} Resource.
 func NewServicebusSubscription(scope constructs.Construct, id *string, config *ServicebusSubscriptionConfig) ServicebusSubscription {
 	_init_.Initialize()
 
@@ -701,7 +701,7 @@ func NewServicebusSubscription(scope constructs.Construct, id *string, config *S
 	j := jsiiProxy_ServicebusSubscription{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscription",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -709,12 +709,12 @@ func NewServicebusSubscription(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription} Resource.
 func NewServicebusSubscription_Override(s ServicebusSubscription, scope constructs.Construct, id *string, config *ServicebusSubscriptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscription",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -963,7 +963,7 @@ func ServicebusSubscription_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscription",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -998,7 +998,7 @@ func ServicebusSubscription_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscription",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1017,7 +1017,7 @@ func ServicebusSubscription_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscription",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1036,7 +1036,7 @@ func ServicebusSubscription_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscription",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1049,7 +1049,7 @@ func ServicebusSubscription_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.servicebusSubscription.ServicebusSubscription",
+		"@cdktn/provider-azurerm.servicebusSubscription.ServicebusSubscription",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicebustopic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusTopic.ServicebusTopic",
+		"@cdktn/provider-azurerm.servicebusTopic.ServicebusTopic",
 		reflect.TypeOf((*ServicebusTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusTopic.ServicebusTopicConfig",
+		"@cdktn/provider-azurerm.servicebusTopic.ServicebusTopicConfig",
 		reflect.TypeOf((*ServicebusTopicConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusTopic.ServicebusTopicTimeouts",
+		"@cdktn/provider-azurerm.servicebusTopic.ServicebusTopicTimeouts",
 		reflect.TypeOf((*ServicebusTopicTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusTopic.ServicebusTopicTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.servicebusTopic.ServicebusTopicTimeoutsOutputReference",
 		reflect.TypeOf((*ServicebusTopicTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

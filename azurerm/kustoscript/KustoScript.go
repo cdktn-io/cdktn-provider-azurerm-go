@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustoscript
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kustoscript/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustoscript/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_script azurerm_kusto_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_script azurerm_kusto_script}.
 type KustoScript interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -60,6 +60,9 @@ type KustoScript interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PrincipalPermissionsAction() *string
+	SetPrincipalPermissionsAction(val *string)
+	PrincipalPermissionsActionInput() *string
 	// Experimental.
 	Provider() cdktf.TerraformProvider
 	// Experimental.
@@ -76,6 +79,9 @@ type KustoScript interface {
 	ScriptContent() *string
 	SetScriptContent(val *string)
 	ScriptContentInput() *string
+	ScriptLevel() *string
+	SetScriptLevel(val *string)
+	ScriptLevelInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -137,8 +143,10 @@ type KustoScript interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPrincipalPermissionsAction()
 	ResetSasToken()
 	ResetScriptContent()
+	ResetScriptLevel()
 	ResetTimeouts()
 	ResetUrl()
 	SynthesizeAttributes() *map[string]interface{}
@@ -359,6 +367,26 @@ func (j *jsiiProxy_KustoScript) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_KustoScript) PrincipalPermissionsAction() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"principalPermissionsAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoScript) PrincipalPermissionsActionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"principalPermissionsActionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_KustoScript) Provider() cdktf.TerraformProvider {
 	var returns cdktf.TerraformProvider
 	_jsii_.Get(
@@ -424,6 +452,26 @@ func (j *jsiiProxy_KustoScript) ScriptContentInput() *string {
 	_jsii_.Get(
 		j,
 		"scriptContentInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoScript) ScriptLevel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scriptLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoScript) ScriptLevelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scriptLevelInput",
 		&returns,
 	)
 	return returns
@@ -500,7 +548,7 @@ func (j *jsiiProxy_KustoScript) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
 func NewKustoScript(scope constructs.Construct, id *string, config *KustoScriptConfig) KustoScript {
 	_init_.Initialize()
 
@@ -510,7 +558,7 @@ func NewKustoScript(scope constructs.Construct, id *string, config *KustoScriptC
 	j := jsiiProxy_KustoScript{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoScript.KustoScript",
+		"@cdktn/provider-azurerm.kustoScript.KustoScript",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -518,12 +566,12 @@ func NewKustoScript(scope constructs.Construct, id *string, config *KustoScriptC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
 func NewKustoScript_Override(k KustoScript, scope constructs.Construct, id *string, config *KustoScriptConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoScript.KustoScript",
+		"@cdktn/provider-azurerm.kustoScript.KustoScript",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -633,6 +681,17 @@ func (j *jsiiProxy_KustoScript)SetName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_KustoScript)SetPrincipalPermissionsAction(val *string) {
+	if err := j.validateSetPrincipalPermissionsActionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"principalPermissionsAction",
+		val,
+	)
+}
+
 func (j *jsiiProxy_KustoScript)SetProvider(val cdktf.TerraformProvider) {
 	_jsii_.Set(
 		j,
@@ -674,6 +733,17 @@ func (j *jsiiProxy_KustoScript)SetScriptContent(val *string) {
 	)
 }
 
+func (j *jsiiProxy_KustoScript)SetScriptLevel(val *string) {
+	if err := j.validateSetScriptLevelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scriptLevel",
+		val,
+	)
+}
+
 func (j *jsiiProxy_KustoScript)SetUrl(val *string) {
 	if err := j.validateSetUrlParameters(val); err != nil {
 		panic(err)
@@ -695,7 +765,7 @@ func KustoScript_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoScript.KustoScript",
+		"@cdktn/provider-azurerm.kustoScript.KustoScript",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -730,7 +800,7 @@ func KustoScript_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoScript.KustoScript",
+		"@cdktn/provider-azurerm.kustoScript.KustoScript",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +819,7 @@ func KustoScript_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoScript.KustoScript",
+		"@cdktn/provider-azurerm.kustoScript.KustoScript",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +838,7 @@ func KustoScript_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoScript.KustoScript",
+		"@cdktn/provider-azurerm.kustoScript.KustoScript",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +851,7 @@ func KustoScript_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kustoScript.KustoScript",
+		"@cdktn/provider-azurerm.kustoScript.KustoScript",
 		"tfResourceType",
 		&returns,
 	)
@@ -1081,6 +1151,14 @@ func (k *jsiiProxy_KustoScript) ResetOverrideLogicalId() {
 	)
 }
 
+func (k *jsiiProxy_KustoScript) ResetPrincipalPermissionsAction() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetPrincipalPermissionsAction",
+		nil, // no parameters
+	)
+}
+
 func (k *jsiiProxy_KustoScript) ResetSasToken() {
 	_jsii_.InvokeVoid(
 		k,
@@ -1093,6 +1171,14 @@ func (k *jsiiProxy_KustoScript) ResetScriptContent() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetScriptContent",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KustoScript) ResetScriptLevel() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetScriptLevel",
 		nil, // no parameters
 	)
 }

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package marketplaceagreement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/marketplaceagreement/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/marketplaceagreement/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/marketplace_agreement azurerm_marketplace_agreement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/marketplace_agreement azurerm_marketplace_agreement}.
 type MarketplaceAgreement interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_MarketplaceAgreement) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/marketplace_agreement azurerm_marketplace_agreement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/marketplace_agreement azurerm_marketplace_agreement} Resource.
 func NewMarketplaceAgreement(scope constructs.Construct, id *string, config *MarketplaceAgreementConfig) MarketplaceAgreement {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewMarketplaceAgreement(scope constructs.Construct, id *string, config *Mar
 	j := jsiiProxy_MarketplaceAgreement{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewMarketplaceAgreement(scope constructs.Construct, id *string, config *Mar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/marketplace_agreement azurerm_marketplace_agreement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/marketplace_agreement azurerm_marketplace_agreement} Resource.
 func NewMarketplaceAgreement_Override(m MarketplaceAgreement, scope constructs.Construct, id *string, config *MarketplaceAgreementConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -576,7 +576,7 @@ func MarketplaceAgreement_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func MarketplaceAgreement_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func MarketplaceAgreement_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func MarketplaceAgreement_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func MarketplaceAgreement_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
 		"tfResourceType",
 		&returns,
 	)

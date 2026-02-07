@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerregistrycredentialset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/containerregistrycredentialset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerregistrycredentialset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set}.
 type ContainerRegistryCredentialSet interface {
 	cdktf.TerraformResource
 	AuthenticationCredentials() ContainerRegistryCredentialSetAuthenticationCredentialsOutputReference
@@ -449,7 +449,7 @@ func (j *jsiiProxy_ContainerRegistryCredentialSet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set} Resource.
 func NewContainerRegistryCredentialSet(scope constructs.Construct, id *string, config *ContainerRegistryCredentialSetConfig) ContainerRegistryCredentialSet {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewContainerRegistryCredentialSet(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ContainerRegistryCredentialSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
+		"@cdktn/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewContainerRegistryCredentialSet(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set} Resource.
 func NewContainerRegistryCredentialSet_Override(c ContainerRegistryCredentialSet, scope constructs.Construct, id *string, config *ContainerRegistryCredentialSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
+		"@cdktn/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -600,7 +600,7 @@ func ContainerRegistryCredentialSet_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
+		"@cdktn/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func ContainerRegistryCredentialSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
+		"@cdktn/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func ContainerRegistryCredentialSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
+		"@cdktn/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func ContainerRegistryCredentialSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
+		"@cdktn/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func ContainerRegistryCredentialSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
+		"@cdktn/provider-azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSet",
 		"tfResourceType",
 		&returns,
 	)

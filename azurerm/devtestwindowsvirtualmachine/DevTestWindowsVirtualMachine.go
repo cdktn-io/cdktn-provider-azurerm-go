@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devtestwindowsvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/devtestwindowsvirtualmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devtestwindowsvirtualmachine/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine}.
 type DevTestWindowsVirtualMachine interface {
 	cdktf.TerraformResource
 	AllowClaim() interface{}
@@ -729,7 +729,7 @@ func (j *jsiiProxy_DevTestWindowsVirtualMachine) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine} Resource.
 func NewDevTestWindowsVirtualMachine(scope constructs.Construct, id *string, config *DevTestWindowsVirtualMachineConfig) DevTestWindowsVirtualMachine {
 	_init_.Initialize()
 
@@ -739,7 +739,7 @@ func NewDevTestWindowsVirtualMachine(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DevTestWindowsVirtualMachine{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
+		"@cdktn/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -747,12 +747,12 @@ func NewDevTestWindowsVirtualMachine(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_test_windows_virtual_machine azurerm_dev_test_windows_virtual_machine} Resource.
 func NewDevTestWindowsVirtualMachine_Override(d DevTestWindowsVirtualMachine, scope constructs.Construct, id *string, config *DevTestWindowsVirtualMachineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
+		"@cdktn/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1001,7 +1001,7 @@ func DevTestWindowsVirtualMachine_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
+		"@cdktn/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1036,7 +1036,7 @@ func DevTestWindowsVirtualMachine_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
+		"@cdktn/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1055,7 +1055,7 @@ func DevTestWindowsVirtualMachine_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
+		"@cdktn/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1074,7 +1074,7 @@ func DevTestWindowsVirtualMachine_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
+		"@cdktn/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1087,7 +1087,7 @@ func DevTestWindowsVirtualMachine_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
+		"@cdktn/provider-azurerm.devTestWindowsVirtualMachine.DevTestWindowsVirtualMachine",
 		"tfResourceType",
 		&returns,
 	)

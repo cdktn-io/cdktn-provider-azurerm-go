@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package roledefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/roledefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/roledefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_definition azurerm_role_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_definition azurerm_role_definition}.
 type RoleDefinition interface {
 	cdktf.TerraformResource
 	AssignableScopes() *[]*string
@@ -487,7 +487,7 @@ func (j *jsiiProxy_RoleDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_definition azurerm_role_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_definition azurerm_role_definition} Resource.
 func NewRoleDefinition(scope constructs.Construct, id *string, config *RoleDefinitionConfig) RoleDefinition {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewRoleDefinition(scope constructs.Construct, id *string, config *RoleDefin
 	j := jsiiProxy_RoleDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinition",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -505,12 +505,12 @@ func NewRoleDefinition(scope constructs.Construct, id *string, config *RoleDefin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/role_definition azurerm_role_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/role_definition azurerm_role_definition} Resource.
 func NewRoleDefinition_Override(r RoleDefinition, scope constructs.Construct, id *string, config *RoleDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinition",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinition",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -660,7 +660,7 @@ func RoleDefinition_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinition",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func RoleDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinition",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func RoleDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinition",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func RoleDefinition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinition",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func RoleDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.roleDefinition.RoleDefinition",
+		"@cdktn/provider-azurerm.roleDefinition.RoleDefinition",
 		"tfResourceType",
 		&returns,
 	)

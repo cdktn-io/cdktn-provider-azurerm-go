@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package qumulofilesystem
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystem",
 		reflect.TypeOf((*QumuloFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystemConfig",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystemConfig",
 		reflect.TypeOf((*QumuloFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystemTimeouts",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystemTimeouts",
 		reflect.TypeOf((*QumuloFileSystemTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.qumuloFileSystem.QumuloFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.qumuloFileSystem.QumuloFileSystemTimeoutsOutputReference",
 		reflect.TypeOf((*QumuloFileSystemTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

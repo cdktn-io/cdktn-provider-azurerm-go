@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netapppool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappPool.NetappPool",
+		"@cdktn/provider-azurerm.netappPool.NetappPool",
 		reflect.TypeOf((*NetappPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappPool.NetappPoolConfig",
+		"@cdktn/provider-azurerm.netappPool.NetappPoolConfig",
 		reflect.TypeOf((*NetappPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappPool.NetappPoolTimeouts",
+		"@cdktn/provider-azurerm.netappPool.NetappPoolTimeouts",
 		reflect.TypeOf((*NetappPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappPool.NetappPoolTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.netappPool.NetappPoolTimeoutsOutputReference",
 		reflect.TypeOf((*NetappPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

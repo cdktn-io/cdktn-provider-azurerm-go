@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelwebchat
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/botchannelwebchat/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/botchannelwebchat/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat}.
 type BotChannelWebChat interface {
 	cdktf.TerraformResource
 	BotName() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_BotChannelWebChat) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat} Resource.
 func NewBotChannelWebChat(scope constructs.Construct, id *string, config *BotChannelWebChatConfig) BotChannelWebChat {
 	_init_.Initialize()
 
@@ -437,7 +437,7 @@ func NewBotChannelWebChat(scope constructs.Construct, id *string, config *BotCha
 	j := jsiiProxy_BotChannelWebChat{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChat",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChat",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -445,12 +445,12 @@ func NewBotChannelWebChat(scope constructs.Construct, id *string, config *BotCha
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat} Resource.
 func NewBotChannelWebChat_Override(b BotChannelWebChat, scope constructs.Construct, id *string, config *BotChannelWebChatConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChat",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChat",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -578,7 +578,7 @@ func BotChannelWebChat_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChat",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChat",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -613,7 +613,7 @@ func BotChannelWebChat_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChat",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChat",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -632,7 +632,7 @@ func BotChannelWebChat_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChat",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChat",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func BotChannelWebChat_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChat",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChat",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func BotChannelWebChat_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.botChannelWebChat.BotChannelWebChat",
+		"@cdktn/provider-azurerm.botChannelWebChat.BotChannelWebChat",
 		"tfResourceType",
 		&returns,
 	)

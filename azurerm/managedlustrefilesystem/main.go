@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedlustrefilesystem
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
 		reflect.TypeOf((*ManagedLustreFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemConfig",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemConfig",
 		reflect.TypeOf((*ManagedLustreFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemEncryptionKey",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemEncryptionKey",
 		reflect.TypeOf((*ManagedLustreFileSystemEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemEncryptionKeyOutputReference",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemEncryptionKeyOutputReference",
 		reflect.TypeOf((*ManagedLustreFileSystemEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemHsmSetting",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemHsmSetting",
 		reflect.TypeOf((*ManagedLustreFileSystemHsmSetting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemHsmSettingOutputReference",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemHsmSettingOutputReference",
 		reflect.TypeOf((*ManagedLustreFileSystemHsmSettingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemIdentity",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemIdentity",
 		reflect.TypeOf((*ManagedLustreFileSystemIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemIdentityOutputReference",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemIdentityOutputReference",
 		reflect.TypeOf((*ManagedLustreFileSystemIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -234,11 +234,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemMaintenanceWindow",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemMaintenanceWindow",
 		reflect.TypeOf((*ManagedLustreFileSystemMaintenanceWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemMaintenanceWindowOutputReference",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemMaintenanceWindowOutputReference",
 		reflect.TypeOf((*ManagedLustreFileSystemMaintenanceWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -274,11 +274,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemRootSquash",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemRootSquash",
 		reflect.TypeOf((*ManagedLustreFileSystemRootSquash)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemRootSquashOutputReference",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemRootSquashOutputReference",
 		reflect.TypeOf((*ManagedLustreFileSystemRootSquashOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -320,11 +320,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemTimeouts",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemTimeouts",
 		reflect.TypeOf((*ManagedLustreFileSystemTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystemTimeoutsOutputReference",
 		reflect.TypeOf((*ManagedLustreFileSystemTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermcdnprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermcdnprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermcdnprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/cdn_profile azurerm_cdn_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/cdn_profile azurerm_cdn_profile}.
 type DataAzurermCdnProfile interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_DataAzurermCdnProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/cdn_profile azurerm_cdn_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/cdn_profile azurerm_cdn_profile} Data Source.
 func NewDataAzurermCdnProfile(scope constructs.Construct, id *string, config *DataAzurermCdnProfileConfig) DataAzurermCdnProfile {
 	_init_.Initialize()
 
@@ -378,7 +378,7 @@ func NewDataAzurermCdnProfile(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAzurermCdnProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
+		"@cdktn/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -386,12 +386,12 @@ func NewDataAzurermCdnProfile(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/cdn_profile azurerm_cdn_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/cdn_profile azurerm_cdn_profile} Data Source.
 func NewDataAzurermCdnProfile_Override(d DataAzurermCdnProfile, scope constructs.Construct, id *string, config *DataAzurermCdnProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
+		"@cdktn/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -486,7 +486,7 @@ func DataAzurermCdnProfile_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
+		"@cdktn/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func DataAzurermCdnProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
+		"@cdktn/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func DataAzurermCdnProfile_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
+		"@cdktn/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func DataAzurermCdnProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
+		"@cdktn/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func DataAzurermCdnProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
+		"@cdktn/provider-azurerm.dataAzurermCdnProfile.DataAzurermCdnProfile",
 		"tfResourceType",
 		&returns,
 	)

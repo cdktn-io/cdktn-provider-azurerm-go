@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/netappvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewNetappVolumeDataProtectionSnapshotPolicyOutputReference(terraformResourc
 	j := jsiiProxy_NetappVolumeDataProtectionSnapshotPolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicyOutputReference",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewNetappVolumeDataProtectionSnapshotPolicyOutputReference_Override(n Netap
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicyOutputReference",
+		"@cdktn/provider-azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

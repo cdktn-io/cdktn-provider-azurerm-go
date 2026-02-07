@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlservertransparentdataencryption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqlservertransparentdataencryption/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlservertransparentdataencryption/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_transparent_data_encryption azurerm_mssql_server_transparent_data_encryption}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_transparent_data_encryption azurerm_mssql_server_transparent_data_encryption}.
 type MssqlServerTransparentDataEncryption interface {
 	cdktf.TerraformResource
 	AutoRotationEnabled() interface{}
@@ -429,7 +429,7 @@ func (j *jsiiProxy_MssqlServerTransparentDataEncryption) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_transparent_data_encryption azurerm_mssql_server_transparent_data_encryption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_transparent_data_encryption azurerm_mssql_server_transparent_data_encryption} Resource.
 func NewMssqlServerTransparentDataEncryption(scope constructs.Construct, id *string, config *MssqlServerTransparentDataEncryptionConfig) MssqlServerTransparentDataEncryption {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewMssqlServerTransparentDataEncryption(scope constructs.Construct, id *str
 	j := jsiiProxy_MssqlServerTransparentDataEncryption{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
+		"@cdktn/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -447,12 +447,12 @@ func NewMssqlServerTransparentDataEncryption(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_transparent_data_encryption azurerm_mssql_server_transparent_data_encryption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_transparent_data_encryption azurerm_mssql_server_transparent_data_encryption} Resource.
 func NewMssqlServerTransparentDataEncryption_Override(m MssqlServerTransparentDataEncryption, scope constructs.Construct, id *string, config *MssqlServerTransparentDataEncryptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
+		"@cdktn/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -591,7 +591,7 @@ func MssqlServerTransparentDataEncryption_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
+		"@cdktn/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -626,7 +626,7 @@ func MssqlServerTransparentDataEncryption_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
+		"@cdktn/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -645,7 +645,7 @@ func MssqlServerTransparentDataEncryption_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
+		"@cdktn/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -664,7 +664,7 @@ func MssqlServerTransparentDataEncryption_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
+		"@cdktn/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func MssqlServerTransparentDataEncryption_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
+		"@cdktn/provider-azurerm.mssqlServerTransparentDataEncryption.MssqlServerTransparentDataEncryption",
 		"tfResourceType",
 		&returns,
 	)

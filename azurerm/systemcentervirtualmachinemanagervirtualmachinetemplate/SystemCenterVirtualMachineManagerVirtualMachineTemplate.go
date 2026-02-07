@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package systemcentervirtualmachinemanagervirtualmachinetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/systemcentervirtualmachinemanagervirtualmachinetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/systemcentervirtualmachinemanagervirtualmachinetemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template}.
 type SystemCenterVirtualMachineManagerVirtualMachineTemplate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate) Time
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualMachineTemplate(scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualMachineTemplateConfig) SystemCenterVirtualMachineManagerVirtualMachineTemplate {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewSystemCenterVirtualMachineManagerVirtualMachineTemplate(scope constructs
 	j := jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
+		"@cdktn/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewSystemCenterVirtualMachineManagerVirtualMachineTemplate(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template azurerm_system_center_virtual_machine_manager_virtual_machine_template} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualMachineTemplate_Override(s SystemCenterVirtualMachineManagerVirtualMachineTemplate, scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualMachineTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
+		"@cdktn/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -657,7 +657,7 @@ func SystemCenterVirtualMachineManagerVirtualMachineTemplate_GenerateConfigForIm
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
+		"@cdktn/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func SystemCenterVirtualMachineManagerVirtualMachineTemplate_IsConstruct(x inter
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
+		"@cdktn/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func SystemCenterVirtualMachineManagerVirtualMachineTemplate_IsTerraformElement(
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
+		"@cdktn/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func SystemCenterVirtualMachineManagerVirtualMachineTemplate_IsTerraformResource
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
+		"@cdktn/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func SystemCenterVirtualMachineManagerVirtualMachineTemplate_TfResourceType() *s
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
+		"@cdktn/provider-azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplate",
 		"tfResourceType",
 		&returns,
 	)

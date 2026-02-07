@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arcresourcebridgeappliance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/arcresourcebridgeappliance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arcresourcebridgeappliance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_resource_bridge_appliance azurerm_arc_resource_bridge_appliance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_resource_bridge_appliance azurerm_arc_resource_bridge_appliance}.
 type ArcResourceBridgeAppliance interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_ArcResourceBridgeAppliance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_resource_bridge_appliance azurerm_arc_resource_bridge_appliance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_resource_bridge_appliance azurerm_arc_resource_bridge_appliance} Resource.
 func NewArcResourceBridgeAppliance(scope constructs.Construct, id *string, config *ArcResourceBridgeApplianceConfig) ArcResourceBridgeAppliance {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewArcResourceBridgeAppliance(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_ArcResourceBridgeAppliance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewArcResourceBridgeAppliance(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/arc_resource_bridge_appliance azurerm_arc_resource_bridge_appliance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/arc_resource_bridge_appliance azurerm_arc_resource_bridge_appliance} Resource.
 func NewArcResourceBridgeAppliance_Override(a ArcResourceBridgeAppliance, scope constructs.Construct, id *string, config *ArcResourceBridgeApplianceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -715,7 +715,7 @@ func ArcResourceBridgeAppliance_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -750,7 +750,7 @@ func ArcResourceBridgeAppliance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func ArcResourceBridgeAppliance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -788,7 +788,7 @@ func ArcResourceBridgeAppliance_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func ArcResourceBridgeAppliance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
 		"tfResourceType",
 		&returns,
 	)

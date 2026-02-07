@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticsworkspacetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/loganalyticsworkspacetable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loganalyticsworkspacetable/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table}.
 type LogAnalyticsWorkspaceTable interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -452,7 +452,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table} Resource.
 func NewLogAnalyticsWorkspaceTable(scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableConfig) LogAnalyticsWorkspaceTable {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewLogAnalyticsWorkspaceTable(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_LogAnalyticsWorkspaceTable{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewLogAnalyticsWorkspaceTable(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table} Resource.
 func NewLogAnalyticsWorkspaceTable_Override(l LogAnalyticsWorkspaceTable, scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -625,7 +625,7 @@ func LogAnalyticsWorkspaceTable_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func LogAnalyticsWorkspaceTable_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func LogAnalyticsWorkspaceTable_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func LogAnalyticsWorkspaceTable_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func LogAnalyticsWorkspaceTable_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
+		"@cdktn/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
 		"tfResourceType",
 		&returns,
 	)

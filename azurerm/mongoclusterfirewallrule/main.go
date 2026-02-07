@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mongoclusterfirewallrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoClusterFirewallRule.MongoClusterFirewallRule",
+		"@cdktn/provider-azurerm.mongoClusterFirewallRule.MongoClusterFirewallRule",
 		reflect.TypeOf((*MongoClusterFirewallRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoClusterFirewallRule.MongoClusterFirewallRuleConfig",
+		"@cdktn/provider-azurerm.mongoClusterFirewallRule.MongoClusterFirewallRuleConfig",
 		reflect.TypeOf((*MongoClusterFirewallRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoClusterFirewallRule.MongoClusterFirewallRuleTimeouts",
+		"@cdktn/provider-azurerm.mongoClusterFirewallRule.MongoClusterFirewallRuleTimeouts",
 		reflect.TypeOf((*MongoClusterFirewallRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoClusterFirewallRule.MongoClusterFirewallRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mongoClusterFirewallRule.MongoClusterFirewallRuleTimeoutsOutputReference",
 		reflect.TypeOf((*MongoClusterFirewallRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

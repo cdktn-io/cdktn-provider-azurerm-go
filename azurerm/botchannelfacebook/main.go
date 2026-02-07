@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelfacebook
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelFacebook.BotChannelFacebook",
+		"@cdktn/provider-azurerm.botChannelFacebook.BotChannelFacebook",
 		reflect.TypeOf((*BotChannelFacebook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelFacebook.BotChannelFacebookConfig",
+		"@cdktn/provider-azurerm.botChannelFacebook.BotChannelFacebookConfig",
 		reflect.TypeOf((*BotChannelFacebookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelFacebook.BotChannelFacebookPage",
+		"@cdktn/provider-azurerm.botChannelFacebook.BotChannelFacebookPage",
 		reflect.TypeOf((*BotChannelFacebookPage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelFacebook.BotChannelFacebookPageList",
+		"@cdktn/provider-azurerm.botChannelFacebook.BotChannelFacebookPageList",
 		reflect.TypeOf((*BotChannelFacebookPageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -113,7 +113,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelFacebook.BotChannelFacebookPageOutputReference",
+		"@cdktn/provider-azurerm.botChannelFacebook.BotChannelFacebookPageOutputReference",
 		reflect.TypeOf((*BotChannelFacebookPageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelFacebook.BotChannelFacebookTimeouts",
+		"@cdktn/provider-azurerm.botChannelFacebook.BotChannelFacebookTimeouts",
 		reflect.TypeOf((*BotChannelFacebookTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelFacebook.BotChannelFacebookTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botChannelFacebook.BotChannelFacebookTimeoutsOutputReference",
 		reflect.TypeOf((*BotChannelFacebookTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

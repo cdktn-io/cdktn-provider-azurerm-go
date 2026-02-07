@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package backupprotectedfileshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/backupprotectedfileshare/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/backupprotectedfileshare/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/backup_protected_file_share azurerm_backup_protected_file_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/backup_protected_file_share azurerm_backup_protected_file_share}.
 type BackupProtectedFileShare interface {
 	cdktf.TerraformResource
 	BackupPolicyId() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_BackupProtectedFileShare) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/backup_protected_file_share azurerm_backup_protected_file_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/backup_protected_file_share azurerm_backup_protected_file_share} Resource.
 func NewBackupProtectedFileShare(scope constructs.Construct, id *string, config *BackupProtectedFileShareConfig) BackupProtectedFileShare {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewBackupProtectedFileShare(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_BackupProtectedFileShare{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewBackupProtectedFileShare(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/backup_protected_file_share azurerm_backup_protected_file_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/backup_protected_file_share azurerm_backup_protected_file_share} Resource.
 func NewBackupProtectedFileShare_Override(b BackupProtectedFileShare, scope constructs.Construct, id *string, config *BackupProtectedFileShareConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -622,7 +622,7 @@ func BackupProtectedFileShare_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func BackupProtectedFileShare_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func BackupProtectedFileShare_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func BackupProtectedFileShare_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func BackupProtectedFileShare_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
+		"@cdktn/provider-azurerm.backupProtectedFileShare.BackupProtectedFileShare",
 		"tfResourceType",
 		&returns,
 	)

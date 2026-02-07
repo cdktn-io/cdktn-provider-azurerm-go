@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorydatasetmysql
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorydatasetmysql/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorydatasetmysql/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql}.
 type DataFactoryDatasetMysql interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -571,7 +571,7 @@ func (j *jsiiProxy_DataFactoryDatasetMysql) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql} Resource.
 func NewDataFactoryDatasetMysql(scope constructs.Construct, id *string, config *DataFactoryDatasetMysqlConfig) DataFactoryDatasetMysql {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewDataFactoryDatasetMysql(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataFactoryDatasetMysql{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
+		"@cdktn/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -589,12 +589,12 @@ func NewDataFactoryDatasetMysql(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_dataset_mysql azurerm_data_factory_dataset_mysql} Resource.
 func NewDataFactoryDatasetMysql_Override(d DataFactoryDatasetMysql, scope constructs.Construct, id *string, config *DataFactoryDatasetMysqlConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
+		"@cdktn/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -788,7 +788,7 @@ func DataFactoryDatasetMysql_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
+		"@cdktn/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -823,7 +823,7 @@ func DataFactoryDatasetMysql_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
+		"@cdktn/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -842,7 +842,7 @@ func DataFactoryDatasetMysql_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
+		"@cdktn/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -861,7 +861,7 @@ func DataFactoryDatasetMysql_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
+		"@cdktn/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -874,7 +874,7 @@ func DataFactoryDatasetMysql_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
+		"@cdktn/provider-azurerm.dataFactoryDatasetMysql.DataFactoryDatasetMysql",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermipgroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermipgroups/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermipgroups/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/ip_groups azurerm_ip_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/ip_groups azurerm_ip_groups}.
 type DataAzurermIpGroups interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAzurermIpGroups) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
 func NewDataAzurermIpGroups(scope constructs.Construct, id *string, config *DataAzurermIpGroupsConfig) DataAzurermIpGroups {
 	_init_.Initialize()
 
@@ -389,7 +389,7 @@ func NewDataAzurermIpGroups(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAzurermIpGroups{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
+		"@cdktn/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -397,12 +397,12 @@ func NewDataAzurermIpGroups(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
 func NewDataAzurermIpGroups_Override(d DataAzurermIpGroups, scope constructs.Construct, id *string, config *DataAzurermIpGroupsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
+		"@cdktn/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -497,7 +497,7 @@ func DataAzurermIpGroups_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
+		"@cdktn/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -532,7 +532,7 @@ func DataAzurermIpGroups_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
+		"@cdktn/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func DataAzurermIpGroups_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
+		"@cdktn/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -570,7 +570,7 @@ func DataAzurermIpGroups_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
+		"@cdktn/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func DataAzurermIpGroups_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
+		"@cdktn/provider-azurerm.dataAzurermIpGroups.DataAzurermIpGroups",
 		"tfResourceType",
 		&returns,
 	)

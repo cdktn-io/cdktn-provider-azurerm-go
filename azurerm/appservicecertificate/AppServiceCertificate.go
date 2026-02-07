@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservicecertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appservicecertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservicecertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_certificate azurerm_app_service_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_certificate azurerm_app_service_certificate}.
 type AppServiceCertificate interface {
 	cdktf.TerraformResource
 	AppServicePlanId() *string
@@ -635,7 +635,7 @@ func (j *jsiiProxy_AppServiceCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_certificate azurerm_app_service_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_certificate azurerm_app_service_certificate} Resource.
 func NewAppServiceCertificate(scope constructs.Construct, id *string, config *AppServiceCertificateConfig) AppServiceCertificate {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewAppServiceCertificate(scope constructs.Construct, id *string, config *Ap
 	j := jsiiProxy_AppServiceCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceCertificate.AppServiceCertificate",
+		"@cdktn/provider-azurerm.appServiceCertificate.AppServiceCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -653,12 +653,12 @@ func NewAppServiceCertificate(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_certificate azurerm_app_service_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_certificate azurerm_app_service_certificate} Resource.
 func NewAppServiceCertificate_Override(a AppServiceCertificate, scope constructs.Construct, id *string, config *AppServiceCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceCertificate.AppServiceCertificate",
+		"@cdktn/provider-azurerm.appServiceCertificate.AppServiceCertificate",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -852,7 +852,7 @@ func AppServiceCertificate_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceCertificate.AppServiceCertificate",
+		"@cdktn/provider-azurerm.appServiceCertificate.AppServiceCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -887,7 +887,7 @@ func AppServiceCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceCertificate.AppServiceCertificate",
+		"@cdktn/provider-azurerm.appServiceCertificate.AppServiceCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -906,7 +906,7 @@ func AppServiceCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceCertificate.AppServiceCertificate",
+		"@cdktn/provider-azurerm.appServiceCertificate.AppServiceCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -925,7 +925,7 @@ func AppServiceCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceCertificate.AppServiceCertificate",
+		"@cdktn/provider-azurerm.appServiceCertificate.AppServiceCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -938,7 +938,7 @@ func AppServiceCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appServiceCertificate.AppServiceCertificate",
+		"@cdktn/provider-azurerm.appServiceCertificate.AppServiceCertificate",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package routemap
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMap",
+		"@cdktn/provider-azurerm.routeMap.RouteMap",
 		reflect.TypeOf((*RouteMap)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,19 +78,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeMap.RouteMapConfig",
+		"@cdktn/provider-azurerm.routeMap.RouteMapConfig",
 		reflect.TypeOf((*RouteMapConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRule",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRule",
 		reflect.TypeOf((*RouteMapRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleAction",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleAction",
 		reflect.TypeOf((*RouteMapRuleAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleActionList",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleActionList",
 		reflect.TypeOf((*RouteMapRuleActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -112,7 +112,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleActionOutputReference",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleActionOutputReference",
 		reflect.TypeOf((*RouteMapRuleActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleActionParameter",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleActionParameter",
 		reflect.TypeOf((*RouteMapRuleActionParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleActionParameterList",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleActionParameterList",
 		reflect.TypeOf((*RouteMapRuleActionParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -176,7 +176,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleActionParameterOutputReference",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleActionParameterOutputReference",
 		reflect.TypeOf((*RouteMapRuleActionParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asPath", GoGetter: "AsPath"},
@@ -217,7 +217,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleList",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleList",
 		reflect.TypeOf((*RouteMapRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -239,11 +239,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleMatchCriterion",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleMatchCriterion",
 		reflect.TypeOf((*RouteMapRuleMatchCriterion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleMatchCriterionList",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleMatchCriterionList",
 		reflect.TypeOf((*RouteMapRuleMatchCriterionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -265,7 +265,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleMatchCriterionOutputReference",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleMatchCriterionOutputReference",
 		reflect.TypeOf((*RouteMapRuleMatchCriterionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asPath", GoGetter: "AsPath"},
@@ -308,7 +308,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapRuleOutputReference",
+		"@cdktn/provider-azurerm.routeMap.RouteMapRuleOutputReference",
 		reflect.TypeOf((*RouteMapRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -353,11 +353,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeMap.RouteMapTimeouts",
+		"@cdktn/provider-azurerm.routeMap.RouteMapTimeouts",
 		reflect.TypeOf((*RouteMapTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeMap.RouteMapTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.routeMap.RouteMapTimeoutsOutputReference",
 		reflect.TypeOf((*RouteMapTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

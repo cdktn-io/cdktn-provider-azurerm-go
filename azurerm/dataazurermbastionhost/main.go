@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermbastionhost
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHost",
+		"@cdktn/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHost",
 		reflect.TypeOf((*DataAzurermBastionHost)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostConfig",
+		"@cdktn/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostConfig",
 		reflect.TypeOf((*DataAzurermBastionHostConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostIpConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostIpConfiguration",
 		reflect.TypeOf((*DataAzurermBastionHostIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostIpConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostIpConfigurationList",
 		reflect.TypeOf((*DataAzurermBastionHostIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostIpConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermBastionHostIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostTimeouts",
 		reflect.TypeOf((*DataAzurermBastionHostTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBastionHost.DataAzurermBastionHostTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermBastionHostTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedApplication.ManagedApplication",
+		"@cdktn/provider-azurerm.managedApplication.ManagedApplication",
 		reflect.TypeOf((*ManagedApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedApplication.ManagedApplicationConfig",
+		"@cdktn/provider-azurerm.managedApplication.ManagedApplicationConfig",
 		reflect.TypeOf((*ManagedApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedApplication.ManagedApplicationPlan",
+		"@cdktn/provider-azurerm.managedApplication.ManagedApplicationPlan",
 		reflect.TypeOf((*ManagedApplicationPlan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedApplication.ManagedApplicationPlanOutputReference",
+		"@cdktn/provider-azurerm.managedApplication.ManagedApplicationPlanOutputReference",
 		reflect.TypeOf((*ManagedApplicationPlanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedApplication.ManagedApplicationTimeouts",
+		"@cdktn/provider-azurerm.managedApplication.ManagedApplicationTimeouts",
 		reflect.TypeOf((*ManagedApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedApplication.ManagedApplicationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managedApplication.ManagedApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*ManagedApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

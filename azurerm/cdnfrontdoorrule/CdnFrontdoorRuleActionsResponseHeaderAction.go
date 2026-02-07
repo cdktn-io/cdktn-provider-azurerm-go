@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorrule
 
 
 type CdnFrontdoorRuleActionsResponseHeaderAction struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_rule#header_action CdnFrontdoorRule#header_action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_rule#header_action CdnFrontdoorRule#header_action}.
 	HeaderAction *string `field:"required" json:"headerAction" yaml:"headerAction"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_rule#header_name CdnFrontdoorRule#header_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_rule#header_name CdnFrontdoorRule#header_name}.
 	HeaderName *string `field:"required" json:"headerName" yaml:"headerName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_rule#value CdnFrontdoorRule#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_rule#value CdnFrontdoorRule#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

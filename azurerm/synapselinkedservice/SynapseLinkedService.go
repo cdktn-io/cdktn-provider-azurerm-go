@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapselinkedservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/synapselinkedservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/synapselinkedservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_linked_service azurerm_synapse_linked_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_linked_service azurerm_synapse_linked_service}.
 type SynapseLinkedService interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_SynapseLinkedService) TypePropertiesJsonInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_linked_service azurerm_synapse_linked_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_linked_service azurerm_synapse_linked_service} Resource.
 func NewSynapseLinkedService(scope constructs.Construct, id *string, config *SynapseLinkedServiceConfig) SynapseLinkedService {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewSynapseLinkedService(scope constructs.Construct, id *string, config *Syn
 	j := jsiiProxy_SynapseLinkedService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedService",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewSynapseLinkedService(scope constructs.Construct, id *string, config *Syn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/synapse_linked_service azurerm_synapse_linked_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/synapse_linked_service azurerm_synapse_linked_service} Resource.
 func NewSynapseLinkedService_Override(s SynapseLinkedService, scope constructs.Construct, id *string, config *SynapseLinkedServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedService",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedService",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -752,7 +752,7 @@ func SynapseLinkedService_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedService",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -787,7 +787,7 @@ func SynapseLinkedService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedService",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -806,7 +806,7 @@ func SynapseLinkedService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedService",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -825,7 +825,7 @@ func SynapseLinkedService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedService",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func SynapseLinkedService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.synapseLinkedService.SynapseLinkedService",
+		"@cdktn/provider-azurerm.synapseLinkedService.SynapseLinkedService",
 		"tfResourceType",
 		&returns,
 	)

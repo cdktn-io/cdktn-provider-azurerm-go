@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermcommunicationservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermCommunicationService.DataAzurermCommunicationService",
+		"@cdktn/provider-azurerm.dataAzurermCommunicationService.DataAzurermCommunicationService",
 		reflect.TypeOf((*DataAzurermCommunicationService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermCommunicationService.DataAzurermCommunicationServiceConfig",
+		"@cdktn/provider-azurerm.dataAzurermCommunicationService.DataAzurermCommunicationServiceConfig",
 		reflect.TypeOf((*DataAzurermCommunicationServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermCommunicationService.DataAzurermCommunicationServiceTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermCommunicationService.DataAzurermCommunicationServiceTimeouts",
 		reflect.TypeOf((*DataAzurermCommunicationServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermCommunicationService.DataAzurermCommunicationServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermCommunicationService.DataAzurermCommunicationServiceTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermCommunicationServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

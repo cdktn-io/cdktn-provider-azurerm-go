@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorylinkedservicesftp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorylinkedservicesftp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedservicesftp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_sftp azurerm_data_factory_linked_service_sftp}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_sftp azurerm_data_factory_linked_service_sftp}.
 type DataFactoryLinkedServiceSftp interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -808,7 +808,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftp) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_sftp azurerm_data_factory_linked_service_sftp} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_sftp azurerm_data_factory_linked_service_sftp} Resource.
 func NewDataFactoryLinkedServiceSftp(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceSftpConfig) DataFactoryLinkedServiceSftp {
 	_init_.Initialize()
 
@@ -818,7 +818,7 @@ func NewDataFactoryLinkedServiceSftp(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataFactoryLinkedServiceSftp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -826,12 +826,12 @@ func NewDataFactoryLinkedServiceSftp(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_sftp azurerm_data_factory_linked_service_sftp} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_sftp azurerm_data_factory_linked_service_sftp} Resource.
 func NewDataFactoryLinkedServiceSftp_Override(d DataFactoryLinkedServiceSftp, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceSftpConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1113,7 +1113,7 @@ func DataFactoryLinkedServiceSftp_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1148,7 +1148,7 @@ func DataFactoryLinkedServiceSftp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1167,7 +1167,7 @@ func DataFactoryLinkedServiceSftp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1186,7 +1186,7 @@ func DataFactoryLinkedServiceSftp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1199,7 +1199,7 @@ func DataFactoryLinkedServiceSftp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceSftp.DataFactoryLinkedServiceSftp",
 		"tfResourceType",
 		&returns,
 	)

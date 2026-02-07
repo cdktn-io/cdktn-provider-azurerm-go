@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package signalrservicecustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/signalrservicecustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/signalrservicecustomdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain}.
 type SignalrServiceCustomDomain interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_SignalrServiceCustomDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain} Resource.
 func NewSignalrServiceCustomDomain(scope constructs.Construct, id *string, config *SignalrServiceCustomDomainConfig) SignalrServiceCustomDomain {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewSignalrServiceCustomDomain(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_SignalrServiceCustomDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
+		"@cdktn/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewSignalrServiceCustomDomain(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/signalr_service_custom_domain azurerm_signalr_service_custom_domain} Resource.
 func NewSignalrServiceCustomDomain_Override(s SignalrServiceCustomDomain, scope constructs.Construct, id *string, config *SignalrServiceCustomDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
+		"@cdktn/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -588,7 +588,7 @@ func SignalrServiceCustomDomain_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
+		"@cdktn/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func SignalrServiceCustomDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
+		"@cdktn/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func SignalrServiceCustomDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
+		"@cdktn/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func SignalrServiceCustomDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
+		"@cdktn/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func SignalrServiceCustomDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
+		"@cdktn/provider-azurerm.signalrServiceCustomDomain.SignalrServiceCustomDomain",
 		"tfResourceType",
 		&returns,
 	)

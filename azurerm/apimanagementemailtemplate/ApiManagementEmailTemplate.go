@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementemailtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementemailtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementemailtemplate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_email_template azurerm_api_management_email_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_email_template azurerm_api_management_email_template}.
 type ApiManagementEmailTemplate interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ApiManagementEmailTemplate) Title() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_email_template azurerm_api_management_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_email_template azurerm_api_management_email_template} Resource.
 func NewApiManagementEmailTemplate(scope constructs.Construct, id *string, config *ApiManagementEmailTemplateConfig) ApiManagementEmailTemplate {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewApiManagementEmailTemplate(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_ApiManagementEmailTemplate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
+		"@cdktn/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -489,12 +489,12 @@ func NewApiManagementEmailTemplate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_email_template azurerm_api_management_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_email_template azurerm_api_management_email_template} Resource.
 func NewApiManagementEmailTemplate_Override(a ApiManagementEmailTemplate, scope constructs.Construct, id *string, config *ApiManagementEmailTemplateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
+		"@cdktn/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -644,7 +644,7 @@ func ApiManagementEmailTemplate_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
+		"@cdktn/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -679,7 +679,7 @@ func ApiManagementEmailTemplate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
+		"@cdktn/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func ApiManagementEmailTemplate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
+		"@cdktn/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -717,7 +717,7 @@ func ApiManagementEmailTemplate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
+		"@cdktn/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func ApiManagementEmailTemplate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
+		"@cdktn/provider-azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplate",
 		"tfResourceType",
 		&returns,
 	)

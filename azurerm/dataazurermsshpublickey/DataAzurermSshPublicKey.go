@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsshpublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermsshpublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsshpublickey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/ssh_public_key azurerm_ssh_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/ssh_public_key azurerm_ssh_public_key}.
 type DataAzurermSshPublicKey interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataAzurermSshPublicKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/ssh_public_key azurerm_ssh_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/ssh_public_key azurerm_ssh_public_key} Data Source.
 func NewDataAzurermSshPublicKey(scope constructs.Construct, id *string, config *DataAzurermSshPublicKeyConfig) DataAzurermSshPublicKey {
 	_init_.Initialize()
 
@@ -380,7 +380,7 @@ func NewDataAzurermSshPublicKey(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAzurermSshPublicKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -388,12 +388,12 @@ func NewDataAzurermSshPublicKey(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/ssh_public_key azurerm_ssh_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/ssh_public_key azurerm_ssh_public_key} Data Source.
 func NewDataAzurermSshPublicKey_Override(d DataAzurermSshPublicKey, scope constructs.Construct, id *string, config *DataAzurermSshPublicKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -499,7 +499,7 @@ func DataAzurermSshPublicKey_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -534,7 +534,7 @@ func DataAzurermSshPublicKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -553,7 +553,7 @@ func DataAzurermSshPublicKey_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func DataAzurermSshPublicKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func DataAzurermSshPublicKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
 		"tfResourceType",
 		&returns,
 	)

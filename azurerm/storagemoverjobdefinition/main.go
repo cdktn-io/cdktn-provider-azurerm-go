@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemoverjobdefinition
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinition",
 		reflect.TypeOf((*StorageMoverJobDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinitionConfig",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinitionConfig",
 		reflect.TypeOf((*StorageMoverJobDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinitionTimeouts",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinitionTimeouts",
 		reflect.TypeOf((*StorageMoverJobDefinitionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinitionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageMoverJobDefinition.StorageMoverJobDefinitionTimeoutsOutputReference",
 		reflect.TypeOf((*StorageMoverJobDefinitionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

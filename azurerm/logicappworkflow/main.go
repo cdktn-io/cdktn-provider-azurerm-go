@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappworkflow
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflow",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflow",
 		reflect.TypeOf((*LogicAppWorkflow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessControl", GoGetter: "AccessControl"},
@@ -113,15 +113,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControl",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControl",
 		reflect.TypeOf((*LogicAppWorkflowAccessControl)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlAction",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlAction",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlActionOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlActionOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedCallerIpAddressRange", GoGetter: "AllowedCallerIpAddressRange"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlContent",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlContent",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlContent)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlContentOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlContentOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlContentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedCallerIpAddressRange", GoGetter: "AllowedCallerIpAddressRange"},
@@ -193,7 +193,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -241,19 +241,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTrigger",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTrigger",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlTrigger)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicy",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicy",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaim",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaim",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaim)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimList",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimList",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -275,7 +275,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,7 +311,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyList",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyList",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -333,7 +333,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "claim", GoGetter: "Claim"},
@@ -370,7 +370,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlTriggerOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlTriggerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedCallerIpAddressRange", GoGetter: "AllowedCallerIpAddressRange"},
@@ -409,11 +409,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlWorkflowManagement",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlWorkflowManagement",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlWorkflowManagement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlWorkflowManagementOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlWorkflowManagementOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowAccessControlWorkflowManagementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedCallerIpAddressRange", GoGetter: "AllowedCallerIpAddressRange"},
@@ -447,15 +447,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowConfig",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowConfig",
 		reflect.TypeOf((*LogicAppWorkflowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowIdentity",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowIdentity",
 		reflect.TypeOf((*LogicAppWorkflowIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowIdentityOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowIdentityOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -494,11 +494,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowTimeouts",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowTimeouts",
 		reflect.TypeOf((*LogicAppWorkflowTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppWorkflow.LogicAppWorkflowTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflowTimeoutsOutputReference",
 		reflect.TypeOf((*LogicAppWorkflowTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

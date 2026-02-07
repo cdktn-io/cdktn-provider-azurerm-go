@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appconfigurationkey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKey",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
 		reflect.TypeOf((*AppConfigurationKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKeyConfig",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKeyConfig",
 		reflect.TypeOf((*AppConfigurationKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKeyTimeouts",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKeyTimeouts",
 		reflect.TypeOf((*AppConfigurationKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKeyTimeoutsOutputReference",
 		reflect.TypeOf((*AppConfigurationKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

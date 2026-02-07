@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermiothubdps
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermIothubDps.DataAzurermIothubDps",
+		"@cdktn/provider-azurerm.dataAzurermIothubDps.DataAzurermIothubDps",
 		reflect.TypeOf((*DataAzurermIothubDps)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermIothubDps.DataAzurermIothubDpsConfig",
+		"@cdktn/provider-azurerm.dataAzurermIothubDps.DataAzurermIothubDpsConfig",
 		reflect.TypeOf((*DataAzurermIothubDpsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermIothubDps.DataAzurermIothubDpsTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermIothubDps.DataAzurermIothubDpsTimeouts",
 		reflect.TypeOf((*DataAzurermIothubDpsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermIothubDps.DataAzurermIothubDpsTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermIothubDps.DataAzurermIothubDpsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermIothubDpsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

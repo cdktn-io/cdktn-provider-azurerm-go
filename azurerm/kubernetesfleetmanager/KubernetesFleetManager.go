@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kubernetesfleetmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kubernetesfleetmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetesfleetmanager/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_fleet_manager azurerm_kubernetes_fleet_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_fleet_manager azurerm_kubernetes_fleet_manager}.
 type KubernetesFleetManager interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_KubernetesFleetManager) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_fleet_manager azurerm_kubernetes_fleet_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_fleet_manager azurerm_kubernetes_fleet_manager} Resource.
 func NewKubernetesFleetManager(scope constructs.Construct, id *string, config *KubernetesFleetManagerConfig) KubernetesFleetManager {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewKubernetesFleetManager(scope constructs.Construct, id *string, config *K
 	j := jsiiProxy_KubernetesFleetManager{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewKubernetesFleetManager(scope constructs.Construct, id *string, config *K
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_fleet_manager azurerm_kubernetes_fleet_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_fleet_manager azurerm_kubernetes_fleet_manager} Resource.
 func NewKubernetesFleetManager_Override(k KubernetesFleetManager, scope constructs.Construct, id *string, config *KubernetesFleetManagerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -613,7 +613,7 @@ func KubernetesFleetManager_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func KubernetesFleetManager_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func KubernetesFleetManager_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func KubernetesFleetManager_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func KubernetesFleetManager_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
+		"@cdktn/provider-azurerm.kubernetesFleetManager.KubernetesFleetManager",
 		"tfResourceType",
 		&returns,
 	)

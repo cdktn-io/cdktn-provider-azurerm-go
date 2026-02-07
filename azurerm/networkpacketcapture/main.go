@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkpacketcapture
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCapture",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCapture",
 		reflect.TypeOf((*NetworkPacketCapture)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCaptureConfig",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCaptureConfig",
 		reflect.TypeOf((*NetworkPacketCaptureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCaptureFilter",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCaptureFilter",
 		reflect.TypeOf((*NetworkPacketCaptureFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCaptureFilterList",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCaptureFilterList",
 		reflect.TypeOf((*NetworkPacketCaptureFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -124,7 +124,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCaptureFilterOutputReference",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCaptureFilterOutputReference",
 		reflect.TypeOf((*NetworkPacketCaptureFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCaptureStorageLocation",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCaptureStorageLocation",
 		reflect.TypeOf((*NetworkPacketCaptureStorageLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCaptureStorageLocationOutputReference",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCaptureStorageLocationOutputReference",
 		reflect.TypeOf((*NetworkPacketCaptureStorageLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCaptureTimeouts",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCaptureTimeouts",
 		reflect.TypeOf((*NetworkPacketCaptureTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkPacketCapture.NetworkPacketCaptureTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkPacketCapture.NetworkPacketCaptureTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkPacketCaptureTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

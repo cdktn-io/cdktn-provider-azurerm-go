@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsptrrecord
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
 		reflect.TypeOf((*DnsPtrRecord)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecordConfig",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecordConfig",
 		reflect.TypeOf((*DnsPtrRecordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecordTimeouts",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecordTimeouts",
 		reflect.TypeOf((*DnsPtrRecordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecordTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecordTimeoutsOutputReference",
 		reflect.TypeOf((*DnsPtrRecordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdiskaccess
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccess",
 		reflect.TypeOf((*DataAzurermDiskAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccessConfig",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccessConfig",
 		reflect.TypeOf((*DataAzurermDiskAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccessTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccessTimeouts",
 		reflect.TypeOf((*DataAzurermDiskAccessTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccessTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDiskAccess.DataAzurermDiskAccessTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermDiskAccessTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

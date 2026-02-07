@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package postgresqlflexibleserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServer",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServer",
 		reflect.TypeOf((*PostgresqlFlexibleServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerAuthentication",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerAuthentication",
 		reflect.TypeOf((*PostgresqlFlexibleServerAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerAuthenticationOutputReference",
 		reflect.TypeOf((*PostgresqlFlexibleServerAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryAuthEnabled", GoGetter: "ActiveDirectoryAuthEnabled"},
@@ -202,15 +202,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerConfig",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerConfig",
 		reflect.TypeOf((*PostgresqlFlexibleServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerCustomerManagedKey",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerCustomerManagedKey",
 		reflect.TypeOf((*PostgresqlFlexibleServerCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*PostgresqlFlexibleServerCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,11 +253,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerHighAvailability",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerHighAvailability",
 		reflect.TypeOf((*PostgresqlFlexibleServerHighAvailability)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerHighAvailabilityOutputReference",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerHighAvailabilityOutputReference",
 		reflect.TypeOf((*PostgresqlFlexibleServerHighAvailabilityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -294,11 +294,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerIdentity",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerIdentity",
 		reflect.TypeOf((*PostgresqlFlexibleServerIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerIdentityOutputReference",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerIdentityOutputReference",
 		reflect.TypeOf((*PostgresqlFlexibleServerIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -337,11 +337,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerMaintenanceWindow",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerMaintenanceWindow",
 		reflect.TypeOf((*PostgresqlFlexibleServerMaintenanceWindow)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerMaintenanceWindowOutputReference",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerMaintenanceWindowOutputReference",
 		reflect.TypeOf((*PostgresqlFlexibleServerMaintenanceWindowOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -382,11 +382,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerTimeouts",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerTimeouts",
 		reflect.TypeOf((*PostgresqlFlexibleServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerTimeoutsOutputReference",
 		reflect.TypeOf((*PostgresqlFlexibleServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

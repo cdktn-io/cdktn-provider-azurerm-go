@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualnetwork
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetwork",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetwork",
 		reflect.TypeOf((*VirtualNetwork)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -114,15 +114,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkConfig",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkConfig",
 		reflect.TypeOf((*VirtualNetworkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkDdosProtectionPlan",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkDdosProtectionPlan",
 		reflect.TypeOf((*VirtualNetworkDdosProtectionPlan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkDdosProtectionPlanOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkDdosProtectionPlanOutputReference",
 		reflect.TypeOf((*VirtualNetworkDdosProtectionPlanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkEncryption",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkEncryption",
 		reflect.TypeOf((*VirtualNetworkEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkEncryptionOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkEncryptionOutputReference",
 		reflect.TypeOf((*VirtualNetworkEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -196,11 +196,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPool",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPool",
 		reflect.TypeOf((*VirtualNetworkIpAddressPool)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPoolList",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPoolList",
 		reflect.TypeOf((*VirtualNetworkIpAddressPoolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -222,7 +222,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPoolOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkIpAddressPoolOutputReference",
 		reflect.TypeOf((*VirtualNetworkIpAddressPoolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocatedIpAddressPrefixes", GoGetter: "AllocatedIpAddressPrefixes"},
@@ -259,15 +259,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnet",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnet",
 		reflect.TypeOf((*VirtualNetworkSubnet)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegation",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegation",
 		reflect.TypeOf((*VirtualNetworkSubnetDelegation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationList",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationList",
 		reflect.TypeOf((*VirtualNetworkSubnetDelegationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -289,7 +289,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationOutputReference",
 		reflect.TypeOf((*VirtualNetworkSubnetDelegationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -328,11 +328,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationServiceDelegation",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationServiceDelegation",
 		reflect.TypeOf((*VirtualNetworkSubnetDelegationServiceDelegation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationServiceDelegationList",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationServiceDelegationList",
 		reflect.TypeOf((*VirtualNetworkSubnetDelegationServiceDelegationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -354,7 +354,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationServiceDelegationOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnetDelegationServiceDelegationOutputReference",
 		reflect.TypeOf((*VirtualNetworkSubnetDelegationServiceDelegationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -392,7 +392,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnetList",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnetList",
 		reflect.TypeOf((*VirtualNetworkSubnetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -414,7 +414,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkSubnetOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkSubnetOutputReference",
 		reflect.TypeOf((*VirtualNetworkSubnetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressPrefixes", GoGetter: "AddressPrefixes"},
@@ -480,11 +480,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkTimeouts",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkTimeouts",
 		reflect.TypeOf((*VirtualNetworkTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualNetworkTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

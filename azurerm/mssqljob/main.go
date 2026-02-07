@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJob",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJob",
 		reflect.TypeOf((*MssqlJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJobConfig",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJobConfig",
 		reflect.TypeOf((*MssqlJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJobTimeouts",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJobTimeouts",
 		reflect.TypeOf((*MssqlJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJob.MssqlJobTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlJob.MssqlJobTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

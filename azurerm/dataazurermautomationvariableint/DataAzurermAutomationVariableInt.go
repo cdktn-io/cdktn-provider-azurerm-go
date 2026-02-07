@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermautomationvariableint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermautomationvariableint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermautomationvariableint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_variable_int azurerm_automation_variable_int}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_variable_int azurerm_automation_variable_int}.
 type DataAzurermAutomationVariableInt interface {
 	cdktf.TerraformDataSource
 	AutomationAccountName() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAzurermAutomationVariableInt) Value() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_variable_int azurerm_automation_variable_int} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_variable_int azurerm_automation_variable_int} Data Source.
 func NewDataAzurermAutomationVariableInt(scope constructs.Construct, id *string, config *DataAzurermAutomationVariableIntConfig) DataAzurermAutomationVariableInt {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewDataAzurermAutomationVariableInt(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataAzurermAutomationVariableInt{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewDataAzurermAutomationVariableInt(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_variable_int azurerm_automation_variable_int} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_variable_int azurerm_automation_variable_int} Data Source.
 func NewDataAzurermAutomationVariableInt_Override(d DataAzurermAutomationVariableInt, scope constructs.Construct, id *string, config *DataAzurermAutomationVariableIntConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -520,7 +520,7 @@ func DataAzurermAutomationVariableInt_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func DataAzurermAutomationVariableInt_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func DataAzurermAutomationVariableInt_IsTerraformDataSource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func DataAzurermAutomationVariableInt_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAzurermAutomationVariableInt_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
+		"@cdktn/provider-azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableInt",
 		"tfResourceType",
 		&returns,
 	)

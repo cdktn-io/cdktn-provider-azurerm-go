@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentineldataconnectorawss3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sentineldataconnectorawss3/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentineldataconnectorawss3/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_data_connector_aws_s3 azurerm_sentinel_data_connector_aws_s3}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_data_connector_aws_s3 azurerm_sentinel_data_connector_aws_s3}.
 type SentinelDataConnectorAwsS3 interface {
 	cdktf.TerraformResource
 	AwsRoleArn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_SentinelDataConnectorAwsS3) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_data_connector_aws_s3 azurerm_sentinel_data_connector_aws_s3} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_data_connector_aws_s3 azurerm_sentinel_data_connector_aws_s3} Resource.
 func NewSentinelDataConnectorAwsS3(scope constructs.Construct, id *string, config *SentinelDataConnectorAwsS3Config) SentinelDataConnectorAwsS3 {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewSentinelDataConnectorAwsS3(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_SentinelDataConnectorAwsS3{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
+		"@cdktn/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewSentinelDataConnectorAwsS3(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_data_connector_aws_s3 azurerm_sentinel_data_connector_aws_s3} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_data_connector_aws_s3 azurerm_sentinel_data_connector_aws_s3} Resource.
 func NewSentinelDataConnectorAwsS3_Override(s SentinelDataConnectorAwsS3, scope constructs.Construct, id *string, config *SentinelDataConnectorAwsS3Config) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
+		"@cdktn/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -622,7 +622,7 @@ func SentinelDataConnectorAwsS3_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
+		"@cdktn/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func SentinelDataConnectorAwsS3_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
+		"@cdktn/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func SentinelDataConnectorAwsS3_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
+		"@cdktn/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func SentinelDataConnectorAwsS3_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
+		"@cdktn/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func SentinelDataConnectorAwsS3_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
+		"@cdktn/provider-azurerm.sentinelDataConnectorAwsS3.SentinelDataConnectorAwsS3",
 		"tfResourceType",
 		&returns,
 	)

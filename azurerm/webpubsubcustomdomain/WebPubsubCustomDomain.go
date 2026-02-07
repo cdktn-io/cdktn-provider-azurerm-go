@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webpubsubcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webpubsubcustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubcustomdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_custom_domain azurerm_web_pubsub_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_custom_domain azurerm_web_pubsub_custom_domain}.
 type WebPubsubCustomDomain interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_WebPubsubCustomDomain) WebPubsubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_custom_domain azurerm_web_pubsub_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_custom_domain azurerm_web_pubsub_custom_domain} Resource.
 func NewWebPubsubCustomDomain(scope constructs.Construct, id *string, config *WebPubsubCustomDomainConfig) WebPubsubCustomDomain {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewWebPubsubCustomDomain(scope constructs.Construct, id *string, config *We
 	j := jsiiProxy_WebPubsubCustomDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewWebPubsubCustomDomain(scope constructs.Construct, id *string, config *We
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_pubsub_custom_domain azurerm_web_pubsub_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_pubsub_custom_domain azurerm_web_pubsub_custom_domain} Resource.
 func NewWebPubsubCustomDomain_Override(w WebPubsubCustomDomain, scope constructs.Construct, id *string, config *WebPubsubCustomDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -588,7 +588,7 @@ func WebPubsubCustomDomain_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func WebPubsubCustomDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func WebPubsubCustomDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func WebPubsubCustomDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func WebPubsubCustomDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
+		"@cdktn/provider-azurerm.webPubsubCustomDomain.WebPubsubCustomDomain",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationconnectionserviceprincipal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationconnectionserviceprincipal/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationconnectionserviceprincipal/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal}.
 type AutomationConnectionServicePrincipal interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_AutomationConnectionServicePrincipal) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal} Resource.
 func NewAutomationConnectionServicePrincipal(scope constructs.Construct, id *string, config *AutomationConnectionServicePrincipalConfig) AutomationConnectionServicePrincipal {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewAutomationConnectionServicePrincipal(scope constructs.Construct, id *str
 	j := jsiiProxy_AutomationConnectionServicePrincipal{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewAutomationConnectionServicePrincipal(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal} Resource.
 func NewAutomationConnectionServicePrincipal_Override(a AutomationConnectionServicePrincipal, scope constructs.Construct, id *string, config *AutomationConnectionServicePrincipalConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -725,7 +725,7 @@ func AutomationConnectionServicePrincipal_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -760,7 +760,7 @@ func AutomationConnectionServicePrincipal_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func AutomationConnectionServicePrincipal_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -798,7 +798,7 @@ func AutomationConnectionServicePrincipal_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -811,7 +811,7 @@ func AutomationConnectionServicePrincipal_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
+		"@cdktn/provider-azurerm.automationConnectionServicePrincipal.AutomationConnectionServicePrincipal",
 		"tfResourceType",
 		&returns,
 	)

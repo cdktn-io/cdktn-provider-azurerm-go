@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databricksvirtualnetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/databricksvirtualnetworkpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/databricksvirtualnetworkpeering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_virtual_network_peering azurerm_databricks_virtual_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_virtual_network_peering azurerm_databricks_virtual_network_peering}.
 type DatabricksVirtualNetworkPeering interface {
 	cdktf.TerraformResource
 	AddressSpacePrefixes() *[]*string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DatabricksVirtualNetworkPeering) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_virtual_network_peering azurerm_databricks_virtual_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_virtual_network_peering azurerm_databricks_virtual_network_peering} Resource.
 func NewDatabricksVirtualNetworkPeering(scope constructs.Construct, id *string, config *DatabricksVirtualNetworkPeeringConfig) DatabricksVirtualNetworkPeering {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewDatabricksVirtualNetworkPeering(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DatabricksVirtualNetworkPeering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewDatabricksVirtualNetworkPeering(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_virtual_network_peering azurerm_databricks_virtual_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_virtual_network_peering azurerm_databricks_virtual_network_peering} Resource.
 func NewDatabricksVirtualNetworkPeering_Override(d DatabricksVirtualNetworkPeering, scope constructs.Construct, id *string, config *DatabricksVirtualNetworkPeeringConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -784,7 +784,7 @@ func DatabricksVirtualNetworkPeering_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -819,7 +819,7 @@ func DatabricksVirtualNetworkPeering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func DatabricksVirtualNetworkPeering_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -857,7 +857,7 @@ func DatabricksVirtualNetworkPeering_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -870,7 +870,7 @@ func DatabricksVirtualNetworkPeering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.databricksVirtualNetworkPeering.DatabricksVirtualNetworkPeering",
 		"tfResourceType",
 		&returns,
 	)

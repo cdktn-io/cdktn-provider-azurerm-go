@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementdiagnostic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementdiagnostic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementdiagnostic/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewApiManagementDiagnosticBackendResponseOutputReference(terraformResource 
 	j := jsiiProxy_ApiManagementDiagnosticBackendResponseOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementDiagnostic.ApiManagementDiagnosticBackendResponseOutputReference",
+		"@cdktn/provider-azurerm.apiManagementDiagnostic.ApiManagementDiagnosticBackendResponseOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewApiManagementDiagnosticBackendResponseOutputReference_Override(a ApiMana
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementDiagnostic.ApiManagementDiagnosticBackendResponseOutputReference",
+		"@cdktn/provider-azurerm.apiManagementDiagnostic.ApiManagementDiagnosticBackendResponseOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermuserassignedidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermuserassignedidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermuserassignedidentity/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/user_assigned_identity azurerm_user_assigned_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/user_assigned_identity azurerm_user_assigned_identity}.
 type DataAzurermUserAssignedIdentity interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -39,6 +39,7 @@ type DataAzurermUserAssignedIdentity interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IsolationScope() *string
 	// Experimental.
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
@@ -219,6 +220,16 @@ func (j *jsiiProxy_DataAzurermUserAssignedIdentity) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermUserAssignedIdentity) IsolationScope() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"isolationScope",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermUserAssignedIdentity) Lifecycle() *cdktf.TerraformResourceLifecycle {
 	var returns *cdktf.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -390,7 +401,7 @@ func (j *jsiiProxy_DataAzurermUserAssignedIdentity) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/user_assigned_identity azurerm_user_assigned_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/user_assigned_identity azurerm_user_assigned_identity} Data Source.
 func NewDataAzurermUserAssignedIdentity(scope constructs.Construct, id *string, config *DataAzurermUserAssignedIdentityConfig) DataAzurermUserAssignedIdentity {
 	_init_.Initialize()
 
@@ -400,7 +411,7 @@ func NewDataAzurermUserAssignedIdentity(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAzurermUserAssignedIdentity{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
+		"@cdktn/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +419,12 @@ func NewDataAzurermUserAssignedIdentity(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/user_assigned_identity azurerm_user_assigned_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/user_assigned_identity azurerm_user_assigned_identity} Data Source.
 func NewDataAzurermUserAssignedIdentity_Override(d DataAzurermUserAssignedIdentity, scope constructs.Construct, id *string, config *DataAzurermUserAssignedIdentityConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
+		"@cdktn/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -508,7 +519,7 @@ func DataAzurermUserAssignedIdentity_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
+		"@cdktn/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +554,7 @@ func DataAzurermUserAssignedIdentity_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
+		"@cdktn/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +573,7 @@ func DataAzurermUserAssignedIdentity_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
+		"@cdktn/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +592,7 @@ func DataAzurermUserAssignedIdentity_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
+		"@cdktn/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +605,7 @@ func DataAzurermUserAssignedIdentity_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
+		"@cdktn/provider-azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentity",
 		"tfResourceType",
 		&returns,
 	)

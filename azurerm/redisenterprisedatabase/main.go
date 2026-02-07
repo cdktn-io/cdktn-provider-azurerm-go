@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redisenterprisedatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabase",
 		reflect.TypeOf((*RedisEnterpriseDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseConfig",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseConfig",
 		reflect.TypeOf((*RedisEnterpriseDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseModule",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseModule",
 		reflect.TypeOf((*RedisEnterpriseDatabaseModule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseModuleList",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseModuleList",
 		reflect.TypeOf((*RedisEnterpriseDatabaseModuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseModuleOutputReference",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseModuleOutputReference",
 		reflect.TypeOf((*RedisEnterpriseDatabaseModuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},
@@ -167,11 +167,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseTimeouts",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseTimeouts",
 		reflect.TypeOf((*RedisEnterpriseDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*RedisEnterpriseDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

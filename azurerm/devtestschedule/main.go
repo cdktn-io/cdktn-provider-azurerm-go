@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devtestschedule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestSchedule",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestSchedule",
 		reflect.TypeOf((*DevTestSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleConfig",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleConfig",
 		reflect.TypeOf((*DevTestScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleDailyRecurrence",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleDailyRecurrence",
 		reflect.TypeOf((*DevTestScheduleDailyRecurrence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleDailyRecurrenceOutputReference",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleDailyRecurrenceOutputReference",
 		reflect.TypeOf((*DevTestScheduleDailyRecurrenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleHourlyRecurrence",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleHourlyRecurrence",
 		reflect.TypeOf((*DevTestScheduleHourlyRecurrence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleHourlyRecurrenceOutputReference",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleHourlyRecurrenceOutputReference",
 		reflect.TypeOf((*DevTestScheduleHourlyRecurrenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleNotificationSettings",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleNotificationSettings",
 		reflect.TypeOf((*DevTestScheduleNotificationSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleNotificationSettingsOutputReference",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleNotificationSettingsOutputReference",
 		reflect.TypeOf((*DevTestScheduleNotificationSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleTimeouts",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleTimeouts",
 		reflect.TypeOf((*DevTestScheduleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleTimeoutsOutputReference",
 		reflect.TypeOf((*DevTestScheduleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -276,11 +276,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleWeeklyRecurrence",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleWeeklyRecurrence",
 		reflect.TypeOf((*DevTestScheduleWeeklyRecurrence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.devTestSchedule.DevTestScheduleWeeklyRecurrenceOutputReference",
+		"@cdktn/provider-azurerm.devTestSchedule.DevTestScheduleWeeklyRecurrenceOutputReference",
 		reflect.TypeOf((*DevTestScheduleWeeklyRecurrenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

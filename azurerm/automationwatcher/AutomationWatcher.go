@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationwatcher
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationwatcher/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationwatcher/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_watcher azurerm_automation_watcher}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_watcher azurerm_automation_watcher}.
 type AutomationWatcher interface {
 	cdktf.TerraformResource
 	AutomationAccountId() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_AutomationWatcher) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_watcher azurerm_automation_watcher} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_watcher azurerm_automation_watcher} Resource.
 func NewAutomationWatcher(scope constructs.Construct, id *string, config *AutomationWatcherConfig) AutomationWatcher {
 	_init_.Initialize()
 
@@ -589,7 +589,7 @@ func NewAutomationWatcher(scope constructs.Construct, id *string, config *Automa
 	j := jsiiProxy_AutomationWatcher{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcher",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcher",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -597,12 +597,12 @@ func NewAutomationWatcher(scope constructs.Construct, id *string, config *Automa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_watcher azurerm_automation_watcher} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_watcher azurerm_automation_watcher} Resource.
 func NewAutomationWatcher_Override(a AutomationWatcher, scope constructs.Construct, id *string, config *AutomationWatcherConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcher",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcher",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -807,7 +807,7 @@ func AutomationWatcher_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcher",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcher",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -842,7 +842,7 @@ func AutomationWatcher_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcher",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcher",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -861,7 +861,7 @@ func AutomationWatcher_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcher",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcher",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -880,7 +880,7 @@ func AutomationWatcher_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcher",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcher",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -893,7 +893,7 @@ func AutomationWatcher_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationWatcher.AutomationWatcher",
+		"@cdktn/provider-azurerm.automationWatcher.AutomationWatcher",
 		"tfResourceType",
 		&returns,
 	)

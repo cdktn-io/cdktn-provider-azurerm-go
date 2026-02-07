@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermcognitiveaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermcognitiveaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermcognitiveaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/cognitive_account azurerm_cognitive_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/cognitive_account azurerm_cognitive_account}.
 type DataAzurermCognitiveAccount interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -23,15 +23,20 @@ type DataAzurermCognitiveAccount interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CustomerManagedKey() DataAzurermCognitiveAccountCustomerManagedKeyList
+	CustomQuestionAnsweringSearchServiceId() *string
+	CustomSubdomainName() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	DynamicThrottlingEnabled() cdktf.IResolvable
 	Endpoint() *string
 	// Experimental.
 	ForEach() cdktf.ITerraformIterator
 	// Experimental.
 	SetForEach(val cdktf.ITerraformIterator)
+	Fqdns() *[]*string
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,16 +52,25 @@ type DataAzurermCognitiveAccount interface {
 	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
 	LocalAuthEnabled() cdktf.IResolvable
 	Location() *string
+	MetricsAdvisorAadClientId() *string
+	MetricsAdvisorAadTenantId() *string
+	MetricsAdvisorSuperUserName() *string
+	MetricsAdvisorWebsiteName() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NetworkAcls() DataAzurermCognitiveAccountNetworkAclsList
+	NetworkInjection() DataAzurermCognitiveAccountNetworkInjectionList
 	// The tree node.
 	Node() constructs.Node
+	OutboundNetworkAccessRestricted() cdktf.IResolvable
 	PrimaryAccessKey() *string
+	ProjectManagementEnabled() cdktf.IResolvable
 	// Experimental.
 	Provider() cdktf.TerraformProvider
 	// Experimental.
 	SetProvider(val cdktf.TerraformProvider)
+	PublicNetworkAccessEnabled() cdktf.IResolvable
 	QnaRuntimeEndpoint() *string
 	// Experimental.
 	RawOverrides() interface{}
@@ -65,6 +79,7 @@ type DataAzurermCognitiveAccount interface {
 	ResourceGroupNameInput() *string
 	SecondaryAccessKey() *string
 	SkuName() *string
+	Storage() DataAzurermCognitiveAccountStorageList
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -157,11 +172,51 @@ func (j *jsiiProxy_DataAzurermCognitiveAccount) Count() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermCognitiveAccount) CustomerManagedKey() DataAzurermCognitiveAccountCustomerManagedKeyList {
+	var returns DataAzurermCognitiveAccountCustomerManagedKeyList
+	_jsii_.Get(
+		j,
+		"customerManagedKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) CustomQuestionAnsweringSearchServiceId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"customQuestionAnsweringSearchServiceId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) CustomSubdomainName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"customSubdomainName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermCognitiveAccount) DependsOn() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) DynamicThrottlingEnabled() cdktf.IResolvable {
+	var returns cdktf.IResolvable
+	_jsii_.Get(
+		j,
+		"dynamicThrottlingEnabled",
 		&returns,
 	)
 	return returns
@@ -182,6 +237,16 @@ func (j *jsiiProxy_DataAzurermCognitiveAccount) ForEach() cdktf.ITerraformIterat
 	_jsii_.Get(
 		j,
 		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) Fqdns() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"fqdns",
 		&returns,
 	)
 	return returns
@@ -277,6 +342,46 @@ func (j *jsiiProxy_DataAzurermCognitiveAccount) Location() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermCognitiveAccount) MetricsAdvisorAadClientId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"metricsAdvisorAadClientId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) MetricsAdvisorAadTenantId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"metricsAdvisorAadTenantId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) MetricsAdvisorSuperUserName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"metricsAdvisorSuperUserName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) MetricsAdvisorWebsiteName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"metricsAdvisorWebsiteName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermCognitiveAccount) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -297,11 +402,41 @@ func (j *jsiiProxy_DataAzurermCognitiveAccount) NameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermCognitiveAccount) NetworkAcls() DataAzurermCognitiveAccountNetworkAclsList {
+	var returns DataAzurermCognitiveAccountNetworkAclsList
+	_jsii_.Get(
+		j,
+		"networkAcls",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) NetworkInjection() DataAzurermCognitiveAccountNetworkInjectionList {
+	var returns DataAzurermCognitiveAccountNetworkInjectionList
+	_jsii_.Get(
+		j,
+		"networkInjection",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermCognitiveAccount) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) OutboundNetworkAccessRestricted() cdktf.IResolvable {
+	var returns cdktf.IResolvable
+	_jsii_.Get(
+		j,
+		"outboundNetworkAccessRestricted",
 		&returns,
 	)
 	return returns
@@ -317,11 +452,31 @@ func (j *jsiiProxy_DataAzurermCognitiveAccount) PrimaryAccessKey() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermCognitiveAccount) ProjectManagementEnabled() cdktf.IResolvable {
+	var returns cdktf.IResolvable
+	_jsii_.Get(
+		j,
+		"projectManagementEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermCognitiveAccount) Provider() cdktf.TerraformProvider {
 	var returns cdktf.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) PublicNetworkAccessEnabled() cdktf.IResolvable {
+	var returns cdktf.IResolvable
+	_jsii_.Get(
+		j,
+		"publicNetworkAccessEnabled",
 		&returns,
 	)
 	return returns
@@ -382,6 +537,16 @@ func (j *jsiiProxy_DataAzurermCognitiveAccount) SkuName() *string {
 	_jsii_.Get(
 		j,
 		"skuName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCognitiveAccount) Storage() DataAzurermCognitiveAccountStorageList {
+	var returns DataAzurermCognitiveAccountStorageList
+	_jsii_.Get(
+		j,
+		"storage",
 		&returns,
 	)
 	return returns
@@ -458,7 +623,7 @@ func (j *jsiiProxy_DataAzurermCognitiveAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/cognitive_account azurerm_cognitive_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/cognitive_account azurerm_cognitive_account} Data Source.
 func NewDataAzurermCognitiveAccount(scope constructs.Construct, id *string, config *DataAzurermCognitiveAccountConfig) DataAzurermCognitiveAccount {
 	_init_.Initialize()
 
@@ -468,7 +633,7 @@ func NewDataAzurermCognitiveAccount(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAzurermCognitiveAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
+		"@cdktn/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -476,12 +641,12 @@ func NewDataAzurermCognitiveAccount(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/cognitive_account azurerm_cognitive_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/cognitive_account azurerm_cognitive_account} Data Source.
 func NewDataAzurermCognitiveAccount_Override(d DataAzurermCognitiveAccount, scope constructs.Construct, id *string, config *DataAzurermCognitiveAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
+		"@cdktn/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -587,7 +752,7 @@ func DataAzurermCognitiveAccount_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
+		"@cdktn/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -622,7 +787,7 @@ func DataAzurermCognitiveAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
+		"@cdktn/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +806,7 @@ func DataAzurermCognitiveAccount_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
+		"@cdktn/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -660,7 +825,7 @@ func DataAzurermCognitiveAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
+		"@cdktn/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +838,7 @@ func DataAzurermCognitiveAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
+		"@cdktn/provider-azurerm.dataAzurermCognitiveAccount.DataAzurermCognitiveAccount",
 		"tfResourceType",
 		&returns,
 	)

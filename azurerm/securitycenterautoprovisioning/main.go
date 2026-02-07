@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycenterautoprovisioning
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioning",
+		"@cdktn/provider-azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioning",
 		reflect.TypeOf((*SecurityCenterAutoProvisioning)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioningConfig",
+		"@cdktn/provider-azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioningConfig",
 		reflect.TypeOf((*SecurityCenterAutoProvisioningConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioningTimeouts",
+		"@cdktn/provider-azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioningTimeouts",
 		reflect.TypeOf((*SecurityCenterAutoProvisioningTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioningTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioningTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityCenterAutoProvisioningTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

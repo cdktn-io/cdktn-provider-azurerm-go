@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package routemap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/routemap/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/routemap/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/route_map azurerm_route_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/route_map azurerm_route_map}.
 type RouteMap interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_RouteMap) VirtualHubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/route_map azurerm_route_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/route_map azurerm_route_map} Resource.
 func NewRouteMap(scope constructs.Construct, id *string, config *RouteMapConfig) RouteMap {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewRouteMap(scope constructs.Construct, id *string, config *RouteMapConfig)
 	j := jsiiProxy_RouteMap{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.routeMap.RouteMap",
+		"@cdktn/provider-azurerm.routeMap.RouteMap",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewRouteMap(scope constructs.Construct, id *string, config *RouteMapConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/route_map azurerm_route_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/route_map azurerm_route_map} Resource.
 func NewRouteMap_Override(r RouteMap, scope constructs.Construct, id *string, config *RouteMapConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.routeMap.RouteMap",
+		"@cdktn/provider-azurerm.routeMap.RouteMap",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -544,7 +544,7 @@ func RouteMap_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.routeMap.RouteMap",
+		"@cdktn/provider-azurerm.routeMap.RouteMap",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func RouteMap_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.routeMap.RouteMap",
+		"@cdktn/provider-azurerm.routeMap.RouteMap",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func RouteMap_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.routeMap.RouteMap",
+		"@cdktn/provider-azurerm.routeMap.RouteMap",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func RouteMap_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.routeMap.RouteMap",
+		"@cdktn/provider-azurerm.routeMap.RouteMap",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func RouteMap_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.routeMap.RouteMap",
+		"@cdktn/provider-azurerm.routeMap.RouteMap",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageencryptionscope
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScope",
 		reflect.TypeOf((*StorageEncryptionScope)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScopeConfig",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScopeConfig",
 		reflect.TypeOf((*StorageEncryptionScopeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScopeTimeouts",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScopeTimeouts",
 		reflect.TypeOf((*StorageEncryptionScopeTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageEncryptionScope.StorageEncryptionScopeTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageEncryptionScope.StorageEncryptionScopeTimeoutsOutputReference",
 		reflect.TypeOf((*StorageEncryptionScopeTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudnewrelicapplicationperformancemonitoring
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudnewrelicapplicationperformancemonitoring/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudnewrelicapplicationperformancemonitoring/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_new_relic_application_performance_monitoring azurerm_spring_cloud_new_relic_application_performance_monitoring}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_new_relic_application_performance_monitoring azurerm_spring_cloud_new_relic_application_performance_monitoring}.
 type SpringCloudNewRelicApplicationPerformanceMonitoring interface {
 	cdktf.TerraformResource
 	AgentEnabled() interface{}
@@ -618,7 +618,7 @@ func (j *jsiiProxy_SpringCloudNewRelicApplicationPerformanceMonitoring) Timeouts
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_new_relic_application_performance_monitoring azurerm_spring_cloud_new_relic_application_performance_monitoring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_new_relic_application_performance_monitoring azurerm_spring_cloud_new_relic_application_performance_monitoring} Resource.
 func NewSpringCloudNewRelicApplicationPerformanceMonitoring(scope constructs.Construct, id *string, config *SpringCloudNewRelicApplicationPerformanceMonitoringConfig) SpringCloudNewRelicApplicationPerformanceMonitoring {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewSpringCloudNewRelicApplicationPerformanceMonitoring(scope constructs.Con
 	j := jsiiProxy_SpringCloudNewRelicApplicationPerformanceMonitoring{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
+		"@cdktn/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -636,12 +636,12 @@ func NewSpringCloudNewRelicApplicationPerformanceMonitoring(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_new_relic_application_performance_monitoring azurerm_spring_cloud_new_relic_application_performance_monitoring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_new_relic_application_performance_monitoring azurerm_spring_cloud_new_relic_application_performance_monitoring} Resource.
 func NewSpringCloudNewRelicApplicationPerformanceMonitoring_Override(s SpringCloudNewRelicApplicationPerformanceMonitoring, scope constructs.Construct, id *string, config *SpringCloudNewRelicApplicationPerformanceMonitoringConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
+		"@cdktn/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -868,7 +868,7 @@ func SpringCloudNewRelicApplicationPerformanceMonitoring_GenerateConfigForImport
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
+		"@cdktn/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -903,7 +903,7 @@ func SpringCloudNewRelicApplicationPerformanceMonitoring_IsConstruct(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
+		"@cdktn/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -922,7 +922,7 @@ func SpringCloudNewRelicApplicationPerformanceMonitoring_IsTerraformElement(x in
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
+		"@cdktn/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -941,7 +941,7 @@ func SpringCloudNewRelicApplicationPerformanceMonitoring_IsTerraformResource(x i
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
+		"@cdktn/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -954,7 +954,7 @@ func SpringCloudNewRelicApplicationPerformanceMonitoring_TfResourceType() *strin
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
+		"@cdktn/provider-azurerm.springCloudNewRelicApplicationPerformanceMonitoring.SpringCloudNewRelicApplicationPerformanceMonitoring",
 		"tfResourceType",
 		&returns,
 	)

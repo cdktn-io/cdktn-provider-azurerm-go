@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_profile azurerm_network_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_profile azurerm_network_profile}.
 type NetworkProfile interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_NetworkProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_profile azurerm_network_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_profile azurerm_network_profile} Resource.
 func NewNetworkProfile(scope constructs.Construct, id *string, config *NetworkProfileConfig) NetworkProfile {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewNetworkProfile(scope constructs.Construct, id *string, config *NetworkPr
 	j := jsiiProxy_NetworkProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfile",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -479,12 +479,12 @@ func NewNetworkProfile(scope constructs.Construct, id *string, config *NetworkPr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_profile azurerm_network_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_profile azurerm_network_profile} Resource.
 func NewNetworkProfile_Override(n NetworkProfile, scope constructs.Construct, id *string, config *NetworkProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfile",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfile",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -623,7 +623,7 @@ func NetworkProfile_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfile",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func NetworkProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfile",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func NetworkProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfile",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func NetworkProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfile",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func NetworkProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkProfile.NetworkProfile",
+		"@cdktn/provider-azurerm.networkProfile.NetworkProfile",
 		"tfResourceType",
 		&returns,
 	)

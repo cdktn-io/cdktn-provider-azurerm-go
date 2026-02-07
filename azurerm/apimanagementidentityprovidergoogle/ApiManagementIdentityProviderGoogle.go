@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementidentityprovidergoogle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementidentityprovidergoogle/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementidentityprovidergoogle/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google}.
 type ApiManagementIdentityProviderGoogle interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderGoogle) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google} Resource.
 func NewApiManagementIdentityProviderGoogle(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderGoogleConfig) ApiManagementIdentityProviderGoogle {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewApiManagementIdentityProviderGoogle(scope constructs.Construct, id *stri
 	j := jsiiProxy_ApiManagementIdentityProviderGoogle{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewApiManagementIdentityProviderGoogle(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google} Resource.
 func NewApiManagementIdentityProviderGoogle_Override(a ApiManagementIdentityProviderGoogle, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderGoogleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -588,7 +588,7 @@ func ApiManagementIdentityProviderGoogle_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func ApiManagementIdentityProviderGoogle_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func ApiManagementIdentityProviderGoogle_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func ApiManagementIdentityProviderGoogle_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func ApiManagementIdentityProviderGoogle_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderGoogle.ApiManagementIdentityProviderGoogle",
 		"tfResourceType",
 		&returns,
 	)

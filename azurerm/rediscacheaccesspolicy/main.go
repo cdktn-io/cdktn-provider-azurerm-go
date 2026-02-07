@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package rediscacheaccesspolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicy",
+		"@cdktn/provider-azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicy",
 		reflect.TypeOf((*RedisCacheAccessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicyConfig",
+		"@cdktn/provider-azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicyConfig",
 		reflect.TypeOf((*RedisCacheAccessPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicyTimeouts",
+		"@cdktn/provider-azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicyTimeouts",
 		reflect.TypeOf((*RedisCacheAccessPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*RedisCacheAccessPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermloadtest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermloadtest/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermloadtest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/load_test azurerm_load_test}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/load_test azurerm_load_test}.
 type DataAzurermLoadTest interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAzurermLoadTest) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/load_test azurerm_load_test} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/load_test azurerm_load_test} Data Source.
 func NewDataAzurermLoadTest(scope constructs.Construct, id *string, config *DataAzurermLoadTestConfig) DataAzurermLoadTest {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataAzurermLoadTest(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAzurermLoadTest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewDataAzurermLoadTest(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/load_test azurerm_load_test} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/load_test azurerm_load_test} Data Source.
 func NewDataAzurermLoadTest_Override(d DataAzurermLoadTest, scope constructs.Construct, id *string, config *DataAzurermLoadTestConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -519,7 +519,7 @@ func DataAzurermLoadTest_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func DataAzurermLoadTest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataAzurermLoadTest_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func DataAzurermLoadTest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func DataAzurermLoadTest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
+		"@cdktn/provider-azurerm.dataAzurermLoadTest.DataAzurermLoadTest",
 		"tfResourceType",
 		&returns,
 	)

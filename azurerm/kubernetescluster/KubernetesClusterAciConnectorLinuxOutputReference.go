@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -193,7 +193,7 @@ func NewKubernetesClusterAciConnectorLinuxOutputReference(terraformResource cdkt
 	j := jsiiProxy_KubernetesClusterAciConnectorLinuxOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -205,7 +205,7 @@ func NewKubernetesClusterAciConnectorLinuxOutputReference_Override(k KubernetesC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxOutputReference",
+		"@cdktn/provider-azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinuxOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		k,
 	)

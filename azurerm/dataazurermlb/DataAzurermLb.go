@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermlb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermlb/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlb/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/lb azurerm_lb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/lb azurerm_lb}.
 type DataAzurermLb interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_DataAzurermLb) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/lb azurerm_lb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/lb azurerm_lb} Data Source.
 func NewDataAzurermLb(scope constructs.Construct, id *string, config *DataAzurermLbConfig) DataAzurermLb {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataAzurermLb(scope constructs.Construct, id *string, config *DataAzurer
 	j := jsiiProxy_DataAzurermLb{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLb.DataAzurermLb",
+		"@cdktn/provider-azurerm.dataAzurermLb.DataAzurermLb",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -419,12 +419,12 @@ func NewDataAzurermLb(scope constructs.Construct, id *string, config *DataAzurer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/lb azurerm_lb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/lb azurerm_lb} Data Source.
 func NewDataAzurermLb_Override(d DataAzurermLb, scope constructs.Construct, id *string, config *DataAzurermLbConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLb.DataAzurermLb",
+		"@cdktn/provider-azurerm.dataAzurermLb.DataAzurermLb",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -519,7 +519,7 @@ func DataAzurermLb_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLb.DataAzurermLb",
+		"@cdktn/provider-azurerm.dataAzurermLb.DataAzurermLb",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -554,7 +554,7 @@ func DataAzurermLb_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLb.DataAzurermLb",
+		"@cdktn/provider-azurerm.dataAzurermLb.DataAzurermLb",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -573,7 +573,7 @@ func DataAzurermLb_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLb.DataAzurermLb",
+		"@cdktn/provider-azurerm.dataAzurermLb.DataAzurermLb",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -592,7 +592,7 @@ func DataAzurermLb_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLb.DataAzurermLb",
+		"@cdktn/provider-azurerm.dataAzurermLb.DataAzurermLb",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -605,7 +605,7 @@ func DataAzurermLb_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermLb.DataAzurermLb",
+		"@cdktn/provider-azurerm.dataAzurermLb.DataAzurermLb",
 		"tfResourceType",
 		&returns,
 	)

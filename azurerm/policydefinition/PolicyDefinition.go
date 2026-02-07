@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package policydefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/policydefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/policydefinition/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/policy_definition azurerm_policy_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/policy_definition azurerm_policy_definition}.
 type PolicyDefinition interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -557,7 +557,7 @@ func (j *jsiiProxy_PolicyDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/policy_definition azurerm_policy_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/policy_definition azurerm_policy_definition} Resource.
 func NewPolicyDefinition(scope constructs.Construct, id *string, config *PolicyDefinitionConfig) PolicyDefinition {
 	_init_.Initialize()
 
@@ -567,7 +567,7 @@ func NewPolicyDefinition(scope constructs.Construct, id *string, config *PolicyD
 	j := jsiiProxy_PolicyDefinition{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinition",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinition",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -575,12 +575,12 @@ func NewPolicyDefinition(scope constructs.Construct, id *string, config *PolicyD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/policy_definition azurerm_policy_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/policy_definition azurerm_policy_definition} Resource.
 func NewPolicyDefinition_Override(p PolicyDefinition, scope constructs.Construct, id *string, config *PolicyDefinitionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinition",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinition",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -774,7 +774,7 @@ func PolicyDefinition_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinition",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinition",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -809,7 +809,7 @@ func PolicyDefinition_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinition",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinition",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -828,7 +828,7 @@ func PolicyDefinition_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinition",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinition",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func PolicyDefinition_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinition",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinition",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -860,7 +860,7 @@ func PolicyDefinition_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.policyDefinition.PolicyDefinition",
+		"@cdktn/provider-azurerm.policyDefinition.PolicyDefinition",
 		"tfResourceType",
 		&returns,
 	)

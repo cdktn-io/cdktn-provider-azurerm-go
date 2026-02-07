@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermapplicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermapplicationgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermapplicationgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/application_gateway azurerm_application_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/application_gateway azurerm_application_gateway}.
 type DataAzurermApplicationGateway interface {
 	cdktf.TerraformDataSource
 	AuthenticationCertificate() DataAzurermApplicationGatewayAuthenticationCertificateList
@@ -687,7 +687,7 @@ func (j *jsiiProxy_DataAzurermApplicationGateway) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
 func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, config *DataAzurermApplicationGatewayConfig) DataAzurermApplicationGateway {
 	_init_.Initialize()
 
@@ -697,7 +697,7 @@ func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataAzurermApplicationGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
+		"@cdktn/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -705,12 +705,12 @@ func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
 func NewDataAzurermApplicationGateway_Override(d DataAzurermApplicationGateway, scope constructs.Construct, id *string, config *DataAzurermApplicationGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
+		"@cdktn/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -805,7 +805,7 @@ func DataAzurermApplicationGateway_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
+		"@cdktn/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -840,7 +840,7 @@ func DataAzurermApplicationGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
+		"@cdktn/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -859,7 +859,7 @@ func DataAzurermApplicationGateway_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
+		"@cdktn/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -878,7 +878,7 @@ func DataAzurermApplicationGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
+		"@cdktn/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -891,7 +891,7 @@ func DataAzurermApplicationGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
+		"@cdktn/provider-azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGateway",
 		"tfResourceType",
 		&returns,
 	)

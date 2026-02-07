@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/botchannelline/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/botchannelline/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_line azurerm_bot_channel_line}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_line azurerm_bot_channel_line}.
 type BotChannelLine interface {
 	cdktf.TerraformResource
 	BotName() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_BotChannelLine) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_line azurerm_bot_channel_line} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_line azurerm_bot_channel_line} Resource.
 func NewBotChannelLine(scope constructs.Construct, id *string, config *BotChannelLineConfig) BotChannelLine {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewBotChannelLine(scope constructs.Construct, id *string, config *BotChanne
 	j := jsiiProxy_BotChannelLine{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLine",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLine",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewBotChannelLine(scope constructs.Construct, id *string, config *BotChanne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_line azurerm_bot_channel_line} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_line azurerm_bot_channel_line} Resource.
 func NewBotChannelLine_Override(b BotChannelLine, scope constructs.Construct, id *string, config *BotChannelLineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLine",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLine",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -577,7 +577,7 @@ func BotChannelLine_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLine",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLine",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -612,7 +612,7 @@ func BotChannelLine_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLine",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLine",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -631,7 +631,7 @@ func BotChannelLine_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLine",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLine",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -650,7 +650,7 @@ func BotChannelLine_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLine",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLine",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func BotChannelLine_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLine",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLine",
 		"tfResourceType",
 		&returns,
 	)

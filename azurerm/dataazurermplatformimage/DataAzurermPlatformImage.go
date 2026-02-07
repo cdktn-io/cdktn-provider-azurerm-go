@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermplatformimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermplatformimage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermplatformimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/platform_image azurerm_platform_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/platform_image azurerm_platform_image}.
 type DataAzurermPlatformImage interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DataAzurermPlatformImage) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/platform_image azurerm_platform_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/platform_image azurerm_platform_image} Data Source.
 func NewDataAzurermPlatformImage(scope constructs.Construct, id *string, config *DataAzurermPlatformImageConfig) DataAzurermPlatformImage {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewDataAzurermPlatformImage(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAzurermPlatformImage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewDataAzurermPlatformImage(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/platform_image azurerm_platform_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/platform_image azurerm_platform_image} Data Source.
 func NewDataAzurermPlatformImage_Override(d DataAzurermPlatformImage, scope constructs.Construct, id *string, config *DataAzurermPlatformImageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -556,7 +556,7 @@ func DataAzurermPlatformImage_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func DataAzurermPlatformImage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func DataAzurermPlatformImage_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func DataAzurermPlatformImage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func DataAzurermPlatformImage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
+		"@cdktn/provider-azurerm.dataAzurermPlatformImage.DataAzurermPlatformImage",
 		"tfResourceType",
 		&returns,
 	)

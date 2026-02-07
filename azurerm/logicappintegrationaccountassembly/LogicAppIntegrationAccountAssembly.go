@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappintegrationaccountassembly
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/logicappintegrationaccountassembly/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappintegrationaccountassembly/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account_assembly azurerm_logic_app_integration_account_assembly}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account_assembly azurerm_logic_app_integration_account_assembly}.
 type LogicAppIntegrationAccountAssembly interface {
 	cdktf.TerraformResource
 	AssemblyName() *string
@@ -522,7 +522,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountAssembly) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account_assembly azurerm_logic_app_integration_account_assembly} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account_assembly azurerm_logic_app_integration_account_assembly} Resource.
 func NewLogicAppIntegrationAccountAssembly(scope constructs.Construct, id *string, config *LogicAppIntegrationAccountAssemblyConfig) LogicAppIntegrationAccountAssembly {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewLogicAppIntegrationAccountAssembly(scope constructs.Construct, id *strin
 	j := jsiiProxy_LogicAppIntegrationAccountAssembly{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewLogicAppIntegrationAccountAssembly(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account_assembly azurerm_logic_app_integration_account_assembly} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account_assembly azurerm_logic_app_integration_account_assembly} Resource.
 func NewLogicAppIntegrationAccountAssembly_Override(l LogicAppIntegrationAccountAssembly, scope constructs.Construct, id *string, config *LogicAppIntegrationAccountAssemblyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -728,7 +728,7 @@ func LogicAppIntegrationAccountAssembly_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -763,7 +763,7 @@ func LogicAppIntegrationAccountAssembly_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -782,7 +782,7 @@ func LogicAppIntegrationAccountAssembly_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -801,7 +801,7 @@ func LogicAppIntegrationAccountAssembly_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -814,7 +814,7 @@ func LogicAppIntegrationAccountAssembly_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountAssembly.LogicAppIntegrationAccountAssembly",
 		"tfResourceType",
 		&returns,
 	)

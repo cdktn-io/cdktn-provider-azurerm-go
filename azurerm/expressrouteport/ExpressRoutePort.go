@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressrouteport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/expressrouteport/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/expressrouteport/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_port azurerm_express_route_port}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_port azurerm_express_route_port}.
 type ExpressRoutePort interface {
 	cdktf.TerraformResource
 	BandwidthInGbps() *float64
@@ -625,7 +625,7 @@ func (j *jsiiProxy_ExpressRoutePort) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_port azurerm_express_route_port} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_port azurerm_express_route_port} Resource.
 func NewExpressRoutePort(scope constructs.Construct, id *string, config *ExpressRoutePortConfig) ExpressRoutePort {
 	_init_.Initialize()
 
@@ -635,7 +635,7 @@ func NewExpressRoutePort(scope constructs.Construct, id *string, config *Express
 	j := jsiiProxy_ExpressRoutePort{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePort",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePort",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -643,12 +643,12 @@ func NewExpressRoutePort(scope constructs.Construct, id *string, config *Express
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/express_route_port azurerm_express_route_port} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/express_route_port azurerm_express_route_port} Resource.
 func NewExpressRoutePort_Override(e ExpressRoutePort, scope constructs.Construct, id *string, config *ExpressRoutePortConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePort",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePort",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -831,7 +831,7 @@ func ExpressRoutePort_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePort",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePort",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -866,7 +866,7 @@ func ExpressRoutePort_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePort",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePort",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func ExpressRoutePort_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePort",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePort",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -904,7 +904,7 @@ func ExpressRoutePort_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePort",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePort",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -917,7 +917,7 @@ func ExpressRoutePort_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.expressRoutePort.ExpressRoutePort",
+		"@cdktn/provider-azurerm.expressRoutePort.ExpressRoutePort",
 		"tfResourceType",
 		&returns,
 	)

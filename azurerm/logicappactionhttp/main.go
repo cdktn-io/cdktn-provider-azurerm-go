@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappactionhttp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttp",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttp",
 		reflect.TypeOf((*LogicAppActionHttp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttpConfig",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttpConfig",
 		reflect.TypeOf((*LogicAppActionHttpConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfter",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfter",
 		reflect.TypeOf((*LogicAppActionHttpRunAfter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfterList",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfterList",
 		reflect.TypeOf((*LogicAppActionHttpRunAfterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -121,7 +121,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfterOutputReference",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttpRunAfterOutputReference",
 		reflect.TypeOf((*LogicAppActionHttpRunAfterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionName", GoGetter: "ActionName"},
@@ -157,11 +157,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttpTimeouts",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttpTimeouts",
 		reflect.TypeOf((*LogicAppActionHttpTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppActionHttp.LogicAppActionHttpTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logicAppActionHttp.LogicAppActionHttpTimeoutsOutputReference",
 		reflect.TypeOf((*LogicAppActionHttpTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

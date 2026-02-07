@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudCertificate.SpringCloudCertificate",
+		"@cdktn/provider-azurerm.springCloudCertificate.SpringCloudCertificate",
 		reflect.TypeOf((*SpringCloudCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudCertificate.SpringCloudCertificateConfig",
+		"@cdktn/provider-azurerm.springCloudCertificate.SpringCloudCertificateConfig",
 		reflect.TypeOf((*SpringCloudCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudCertificate.SpringCloudCertificateTimeouts",
+		"@cdktn/provider-azurerm.springCloudCertificate.SpringCloudCertificateTimeouts",
 		reflect.TypeOf((*SpringCloudCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudCertificate.SpringCloudCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudCertificate.SpringCloudCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

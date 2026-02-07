@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementdiagnostic
@@ -7,11 +7,11 @@ package apimanagementdiagnostic
 type ApiManagementDiagnosticBackendRequestDataMasking struct {
 	// headers block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_diagnostic#headers ApiManagementDiagnostic#headers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_diagnostic#headers ApiManagementDiagnostic#headers}
 	Headers interface{} `field:"optional" json:"headers" yaml:"headers"`
 	// query_params block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_diagnostic#query_params ApiManagementDiagnostic#query_params}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_diagnostic#query_params ApiManagementDiagnostic#query_params}
 	QueryParams interface{} `field:"optional" json:"queryParams" yaml:"queryParams"`
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orbitalcontactprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/orbitalcontactprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orbitalcontactprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/orbital_contact_profile azurerm_orbital_contact_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/orbital_contact_profile azurerm_orbital_contact_profile}.
 type OrbitalContactProfile interface {
 	cdktf.TerraformResource
 	AutoTracking() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_OrbitalContactProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/orbital_contact_profile azurerm_orbital_contact_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/orbital_contact_profile azurerm_orbital_contact_profile} Resource.
 func NewOrbitalContactProfile(scope constructs.Construct, id *string, config *OrbitalContactProfileConfig) OrbitalContactProfile {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewOrbitalContactProfile(scope constructs.Construct, id *string, config *Or
 	j := jsiiProxy_OrbitalContactProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -585,12 +585,12 @@ func NewOrbitalContactProfile(scope constructs.Construct, id *string, config *Or
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/orbital_contact_profile azurerm_orbital_contact_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/orbital_contact_profile azurerm_orbital_contact_profile} Resource.
 func NewOrbitalContactProfile_Override(o OrbitalContactProfile, scope constructs.Construct, id *string, config *OrbitalContactProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -784,7 +784,7 @@ func OrbitalContactProfile_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -819,7 +819,7 @@ func OrbitalContactProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -838,7 +838,7 @@ func OrbitalContactProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -857,7 +857,7 @@ func OrbitalContactProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -870,7 +870,7 @@ func OrbitalContactProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
 		"tfResourceType",
 		&returns,
 	)

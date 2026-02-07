@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vmwareprivatecloud
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloud",
 		reflect.TypeOf((*VmwarePrivateCloud)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,11 +104,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudCircuit",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudCircuit",
 		reflect.TypeOf((*VmwarePrivateCloudCircuit)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudCircuitList",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudCircuitList",
 		reflect.TypeOf((*VmwarePrivateCloudCircuitList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudCircuitOutputReference",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudCircuitOutputReference",
 		reflect.TypeOf((*VmwarePrivateCloudCircuitOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,15 +165,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudConfig",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudConfig",
 		reflect.TypeOf((*VmwarePrivateCloudConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudManagementCluster",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudManagementCluster",
 		reflect.TypeOf((*VmwarePrivateCloudManagementCluster)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudManagementClusterOutputReference",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudManagementClusterOutputReference",
 		reflect.TypeOf((*VmwarePrivateCloudManagementClusterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudTimeouts",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudTimeouts",
 		reflect.TypeOf((*VmwarePrivateCloudTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.vmwarePrivateCloud.VmwarePrivateCloudTimeoutsOutputReference",
 		reflect.TypeOf((*VmwarePrivateCloudTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

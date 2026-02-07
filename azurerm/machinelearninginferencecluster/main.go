@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearninginferencecluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceCluster",
+		"@cdktn/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceCluster",
 		reflect.TypeOf((*MachineLearningInferenceCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterConfig",
+		"@cdktn/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterConfig",
 		reflect.TypeOf((*MachineLearningInferenceClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterIdentity",
+		"@cdktn/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterIdentity",
 		reflect.TypeOf((*MachineLearningInferenceClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterIdentityOutputReference",
 		reflect.TypeOf((*MachineLearningInferenceClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -142,11 +142,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterSsl",
+		"@cdktn/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterSsl",
 		reflect.TypeOf((*MachineLearningInferenceClusterSsl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterSslOutputReference",
+		"@cdktn/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterSslOutputReference",
 		reflect.TypeOf((*MachineLearningInferenceClusterSslOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cert", GoGetter: "Cert"},
@@ -193,11 +193,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterTimeouts",
+		"@cdktn/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterTimeouts",
 		reflect.TypeOf((*MachineLearningInferenceClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterTimeoutsOutputReference",
 		reflect.TypeOf((*MachineLearningInferenceClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

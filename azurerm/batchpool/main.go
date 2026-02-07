@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchpool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPool",
+		"@cdktn/provider-azurerm.batchPool.BatchPool",
 		reflect.TypeOf((*BatchPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -171,11 +171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolAutoScale",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolAutoScale",
 		reflect.TypeOf((*BatchPoolAutoScale)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolAutoScaleOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolAutoScaleOutputReference",
 		reflect.TypeOf((*BatchPoolAutoScaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -212,11 +212,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolCertificate",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolCertificate",
 		reflect.TypeOf((*BatchPoolCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolCertificateList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolCertificateList",
 		reflect.TypeOf((*BatchPoolCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -238,7 +238,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolCertificateOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolCertificateOutputReference",
 		reflect.TypeOf((*BatchPoolCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -280,19 +280,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolConfig",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolConfig",
 		reflect.TypeOf((*BatchPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolContainerConfiguration",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolContainerConfiguration",
 		reflect.TypeOf((*BatchPoolContainerConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolContainerConfigurationContainerRegistries",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolContainerConfigurationContainerRegistries",
 		reflect.TypeOf((*BatchPoolContainerConfigurationContainerRegistries)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolContainerConfigurationContainerRegistriesList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolContainerConfigurationContainerRegistriesList",
 		reflect.TypeOf((*BatchPoolContainerConfigurationContainerRegistriesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -314,7 +314,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolContainerConfigurationContainerRegistriesOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolContainerConfigurationContainerRegistriesOutputReference",
 		reflect.TypeOf((*BatchPoolContainerConfigurationContainerRegistriesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -358,7 +358,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolContainerConfigurationOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolContainerConfigurationOutputReference",
 		reflect.TypeOf((*BatchPoolContainerConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -400,11 +400,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolDataDisks",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolDataDisks",
 		reflect.TypeOf((*BatchPoolDataDisks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolDataDisksList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolDataDisksList",
 		reflect.TypeOf((*BatchPoolDataDisksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -426,7 +426,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolDataDisksOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolDataDisksOutputReference",
 		reflect.TypeOf((*BatchPoolDataDisksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caching", GoGetter: "Caching"},
@@ -468,11 +468,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolDiskEncryption",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolDiskEncryption",
 		reflect.TypeOf((*BatchPoolDiskEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolDiskEncryptionList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolDiskEncryptionList",
 		reflect.TypeOf((*BatchPoolDiskEncryptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -494,7 +494,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolDiskEncryptionOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolDiskEncryptionOutputReference",
 		reflect.TypeOf((*BatchPoolDiskEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -528,11 +528,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolExtensions",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolExtensions",
 		reflect.TypeOf((*BatchPoolExtensions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolExtensionsList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolExtensionsList",
 		reflect.TypeOf((*BatchPoolExtensionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -554,7 +554,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolExtensionsOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolExtensionsOutputReference",
 		reflect.TypeOf((*BatchPoolExtensionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "automaticUpgradeEnabled", GoGetter: "AutomaticUpgradeEnabled"},
@@ -610,11 +610,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolFixedScale",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolFixedScale",
 		reflect.TypeOf((*BatchPoolFixedScale)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolFixedScaleOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolFixedScaleOutputReference",
 		reflect.TypeOf((*BatchPoolFixedScaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -658,11 +658,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolIdentity",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolIdentity",
 		reflect.TypeOf((*BatchPoolIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolIdentityOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolIdentityOutputReference",
 		reflect.TypeOf((*BatchPoolIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -698,15 +698,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMount",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMount",
 		reflect.TypeOf((*BatchPoolMount)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountAzureBlobFileSystem",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountAzureBlobFileSystem",
 		reflect.TypeOf((*BatchPoolMountAzureBlobFileSystem)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountAzureBlobFileSystemOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountAzureBlobFileSystemOutputReference",
 		reflect.TypeOf((*BatchPoolMountAzureBlobFileSystemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountKey", GoGetter: "AccountKey"},
@@ -756,11 +756,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountAzureFileShare",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountAzureFileShare",
 		reflect.TypeOf((*BatchPoolMountAzureFileShare)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountAzureFileShareList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountAzureFileShareList",
 		reflect.TypeOf((*BatchPoolMountAzureFileShareList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -782,7 +782,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountAzureFileShareOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountAzureFileShareOutputReference",
 		reflect.TypeOf((*BatchPoolMountAzureFileShareOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountKey", GoGetter: "AccountKey"},
@@ -825,11 +825,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountCifsMount",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountCifsMount",
 		reflect.TypeOf((*BatchPoolMountCifsMount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountCifsMountList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountCifsMountList",
 		reflect.TypeOf((*BatchPoolMountCifsMountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -851,7 +851,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountCifsMountOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountCifsMountOutputReference",
 		reflect.TypeOf((*BatchPoolMountCifsMountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -894,7 +894,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountList",
 		reflect.TypeOf((*BatchPoolMountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -916,11 +916,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountNfsMount",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountNfsMount",
 		reflect.TypeOf((*BatchPoolMountNfsMount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountNfsMountList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountNfsMountList",
 		reflect.TypeOf((*BatchPoolMountNfsMountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -942,7 +942,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountNfsMountOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountNfsMountOutputReference",
 		reflect.TypeOf((*BatchPoolMountNfsMountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -981,7 +981,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolMountOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolMountOutputReference",
 		reflect.TypeOf((*BatchPoolMountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureBlobFileSystem", GoGetter: "AzureBlobFileSystem"},
@@ -1029,15 +1029,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNetworkConfiguration",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNetworkConfiguration",
 		reflect.TypeOf((*BatchPoolNetworkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfiguration",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfiguration",
 		reflect.TypeOf((*BatchPoolNetworkConfigurationEndpointConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationList",
 		reflect.TypeOf((*BatchPoolNetworkConfigurationEndpointConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1059,11 +1059,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules",
 		reflect.TypeOf((*BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesList",
 		reflect.TypeOf((*BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1085,7 +1085,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesOutputReference",
 		reflect.TypeOf((*BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
@@ -1126,7 +1126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationOutputReference",
 		reflect.TypeOf((*BatchPoolNetworkConfigurationEndpointConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendPort", GoGetter: "BackendPort"},
@@ -1170,7 +1170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNetworkConfigurationOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNetworkConfigurationOutputReference",
 		reflect.TypeOf((*BatchPoolNetworkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratedNetworkingEnabled", GoGetter: "AcceleratedNetworkingEnabled"},
@@ -1221,11 +1221,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNodePlacement",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNodePlacement",
 		reflect.TypeOf((*BatchPoolNodePlacement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNodePlacementList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNodePlacementList",
 		reflect.TypeOf((*BatchPoolNodePlacementList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1247,7 +1247,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolNodePlacementOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolNodePlacementOutputReference",
 		reflect.TypeOf((*BatchPoolNodePlacementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1282,11 +1282,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolSecurityProfile",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolSecurityProfile",
 		reflect.TypeOf((*BatchPoolSecurityProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolSecurityProfileOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolSecurityProfileOutputReference",
 		reflect.TypeOf((*BatchPoolSecurityProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1330,15 +1330,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTask",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTask",
 		reflect.TypeOf((*BatchPoolStartTask)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskContainer",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskContainer",
 		reflect.TypeOf((*BatchPoolStartTaskContainer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskContainerList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskContainerList",
 		reflect.TypeOf((*BatchPoolStartTaskContainerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1360,7 +1360,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskContainerOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskContainerOutputReference",
 		reflect.TypeOf((*BatchPoolStartTaskContainerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1404,11 +1404,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskContainerRegistry",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskContainerRegistry",
 		reflect.TypeOf((*BatchPoolStartTaskContainerRegistry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskContainerRegistryList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskContainerRegistryList",
 		reflect.TypeOf((*BatchPoolStartTaskContainerRegistryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1430,7 +1430,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskContainerRegistryOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskContainerRegistryOutputReference",
 		reflect.TypeOf((*BatchPoolStartTaskContainerRegistryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1473,7 +1473,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskOutputReference",
 		reflect.TypeOf((*BatchPoolStartTaskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commandLine", GoGetter: "CommandLine"},
@@ -1527,11 +1527,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskResourceFile",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskResourceFile",
 		reflect.TypeOf((*BatchPoolStartTaskResourceFile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskResourceFileList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskResourceFileList",
 		reflect.TypeOf((*BatchPoolStartTaskResourceFileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1553,7 +1553,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskResourceFileOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskResourceFileOutputReference",
 		reflect.TypeOf((*BatchPoolStartTaskResourceFileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoStorageContainerName", GoGetter: "AutoStorageContainerName"},
@@ -1606,15 +1606,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskUserIdentity",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskUserIdentity",
 		reflect.TypeOf((*BatchPoolStartTaskUserIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskUserIdentityAutoUser",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskUserIdentityAutoUser",
 		reflect.TypeOf((*BatchPoolStartTaskUserIdentityAutoUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskUserIdentityAutoUserOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskUserIdentityAutoUserOutputReference",
 		reflect.TypeOf((*BatchPoolStartTaskUserIdentityAutoUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1652,7 +1652,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStartTaskUserIdentityOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStartTaskUserIdentityOutputReference",
 		reflect.TypeOf((*BatchPoolStartTaskUserIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoUser", GoGetter: "AutoUser"},
@@ -1691,11 +1691,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStorageImageReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStorageImageReference",
 		reflect.TypeOf((*BatchPoolStorageImageReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolStorageImageReferenceOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolStorageImageReferenceOutputReference",
 		reflect.TypeOf((*BatchPoolStorageImageReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1742,11 +1742,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolTaskSchedulingPolicy",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolTaskSchedulingPolicy",
 		reflect.TypeOf((*BatchPoolTaskSchedulingPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolTaskSchedulingPolicyList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolTaskSchedulingPolicyList",
 		reflect.TypeOf((*BatchPoolTaskSchedulingPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1768,7 +1768,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolTaskSchedulingPolicyOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolTaskSchedulingPolicyOutputReference",
 		reflect.TypeOf((*BatchPoolTaskSchedulingPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1803,11 +1803,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolTimeouts",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolTimeouts",
 		reflect.TypeOf((*BatchPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolTimeoutsOutputReference",
 		reflect.TypeOf((*BatchPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1851,15 +1851,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccounts",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccounts",
 		reflect.TypeOf((*BatchPoolUserAccounts)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccountsLinuxUserConfiguration",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccountsLinuxUserConfiguration",
 		reflect.TypeOf((*BatchPoolUserAccountsLinuxUserConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccountsLinuxUserConfigurationList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccountsLinuxUserConfigurationList",
 		reflect.TypeOf((*BatchPoolUserAccountsLinuxUserConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1881,7 +1881,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccountsLinuxUserConfigurationOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccountsLinuxUserConfigurationOutputReference",
 		reflect.TypeOf((*BatchPoolUserAccountsLinuxUserConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1922,7 +1922,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccountsList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccountsList",
 		reflect.TypeOf((*BatchPoolUserAccountsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1944,7 +1944,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccountsOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccountsOutputReference",
 		reflect.TypeOf((*BatchPoolUserAccountsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1990,11 +1990,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccountsWindowsUserConfiguration",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccountsWindowsUserConfiguration",
 		reflect.TypeOf((*BatchPoolUserAccountsWindowsUserConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccountsWindowsUserConfigurationList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccountsWindowsUserConfigurationList",
 		reflect.TypeOf((*BatchPoolUserAccountsWindowsUserConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2016,7 +2016,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolUserAccountsWindowsUserConfigurationOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolUserAccountsWindowsUserConfigurationOutputReference",
 		reflect.TypeOf((*BatchPoolUserAccountsWindowsUserConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2050,11 +2050,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolWindows",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolWindows",
 		reflect.TypeOf((*BatchPoolWindows)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolWindowsList",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolWindowsList",
 		reflect.TypeOf((*BatchPoolWindowsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2076,7 +2076,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchPool.BatchPoolWindowsOutputReference",
+		"@cdktn/provider-azurerm.batchPool.BatchPoolWindowsOutputReference",
 		reflect.TypeOf((*BatchPoolWindowsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

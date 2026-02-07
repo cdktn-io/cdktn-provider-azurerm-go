@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networksecurityrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
 		reflect.TypeOf((*NetworkSecurityRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
@@ -117,15 +117,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRuleConfig",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRuleConfig",
 		reflect.TypeOf((*NetworkSecurityRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRuleTimeouts",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRuleTimeouts",
 		reflect.TypeOf((*NetworkSecurityRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRuleTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkSecurityRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

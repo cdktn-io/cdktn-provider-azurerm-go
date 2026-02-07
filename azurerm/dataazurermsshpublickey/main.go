@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsshpublickey
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKey",
 		reflect.TypeOf((*DataAzurermSshPublicKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,15 +70,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKeyConfig",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKeyConfig",
 		reflect.TypeOf((*DataAzurermSshPublicKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKeyTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKeyTimeouts",
 		reflect.TypeOf((*DataAzurermSshPublicKeyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKeyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKeyTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermSshPublicKeyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

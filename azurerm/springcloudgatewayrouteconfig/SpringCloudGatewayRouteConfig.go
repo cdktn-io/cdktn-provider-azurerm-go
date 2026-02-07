@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudgatewayrouteconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudgatewayrouteconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudgatewayrouteconfig/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_gateway_route_config azurerm_spring_cloud_gateway_route_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_gateway_route_config azurerm_spring_cloud_gateway_route_config}.
 type SpringCloudGatewayRouteConfig interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -547,7 +547,7 @@ func (j *jsiiProxy_SpringCloudGatewayRouteConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_gateway_route_config azurerm_spring_cloud_gateway_route_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_gateway_route_config azurerm_spring_cloud_gateway_route_config} Resource.
 func NewSpringCloudGatewayRouteConfig(scope constructs.Construct, id *string, config *SpringCloudGatewayRouteConfigConfig) SpringCloudGatewayRouteConfig {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewSpringCloudGatewayRouteConfig(scope constructs.Construct, id *string, co
 	j := jsiiProxy_SpringCloudGatewayRouteConfig{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
+		"@cdktn/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -565,12 +565,12 @@ func NewSpringCloudGatewayRouteConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_gateway_route_config azurerm_spring_cloud_gateway_route_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_gateway_route_config azurerm_spring_cloud_gateway_route_config} Resource.
 func NewSpringCloudGatewayRouteConfig_Override(s SpringCloudGatewayRouteConfig, scope constructs.Construct, id *string, config *SpringCloudGatewayRouteConfigConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
+		"@cdktn/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -742,7 +742,7 @@ func SpringCloudGatewayRouteConfig_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
+		"@cdktn/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -777,7 +777,7 @@ func SpringCloudGatewayRouteConfig_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
+		"@cdktn/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -796,7 +796,7 @@ func SpringCloudGatewayRouteConfig_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
+		"@cdktn/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func SpringCloudGatewayRouteConfig_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
+		"@cdktn/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -828,7 +828,7 @@ func SpringCloudGatewayRouteConfig_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
+		"@cdktn/provider-azurerm.springCloudGatewayRouteConfig.SpringCloudGatewayRouteConfig",
 		"tfResourceType",
 		&returns,
 	)

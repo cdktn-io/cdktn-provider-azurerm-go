@@ -1,15 +1,15 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermstorageaccountsas
 
 
 type DataAzurermStorageAccountSasResourceTypes struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_account_sas#container DataAzurermStorageAccountSas#container}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_account_sas#container DataAzurermStorageAccountSas#container}.
 	Container interface{} `field:"required" json:"container" yaml:"container"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_account_sas#object DataAzurermStorageAccountSas#object}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_account_sas#object DataAzurermStorageAccountSas#object}.
 	Object interface{} `field:"required" json:"object" yaml:"object"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_account_sas#service DataAzurermStorageAccountSas#service}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_account_sas#service DataAzurermStorageAccountSas#service}.
 	Service interface{} `field:"required" json:"service" yaml:"service"`
 }
 

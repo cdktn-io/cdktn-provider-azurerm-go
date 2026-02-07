@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datasharedatasetkustodatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datasharedatasetkustodatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datasharedatasetkustodatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database}.
 type DataShareDatasetKustoDatabase interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_DataShareDatasetKustoDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database} Resource.
 func NewDataShareDatasetKustoDatabase(scope constructs.Construct, id *string, config *DataShareDatasetKustoDatabaseConfig) DataShareDatasetKustoDatabase {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewDataShareDatasetKustoDatabase(scope constructs.Construct, id *string, co
 	j := jsiiProxy_DataShareDatasetKustoDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -443,12 +443,12 @@ func NewDataShareDatasetKustoDatabase(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_share_dataset_kusto_database azurerm_data_share_dataset_kusto_database} Resource.
 func NewDataShareDatasetKustoDatabase_Override(d DataShareDatasetKustoDatabase, scope constructs.Construct, id *string, config *DataShareDatasetKustoDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -576,7 +576,7 @@ func DataShareDatasetKustoDatabase_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -611,7 +611,7 @@ func DataShareDatasetKustoDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func DataShareDatasetKustoDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func DataShareDatasetKustoDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -662,7 +662,7 @@ func DataShareDatasetKustoDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoDatabase.DataShareDatasetKustoDatabase",
 		"tfResourceType",
 		&returns,
 	)

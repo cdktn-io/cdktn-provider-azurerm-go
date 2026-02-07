@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGateway",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGateway",
 		reflect.TypeOf((*SpringCloudGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -124,11 +124,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayApiMetadata",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayApiMetadata",
 		reflect.TypeOf((*SpringCloudGatewayApiMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayApiMetadataOutputReference",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayApiMetadataOutputReference",
 		reflect.TypeOf((*SpringCloudGatewayApiMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -175,11 +175,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayClientAuthorization",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayClientAuthorization",
 		reflect.TypeOf((*SpringCloudGatewayClientAuthorization)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayClientAuthorizationOutputReference",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayClientAuthorizationOutputReference",
 		reflect.TypeOf((*SpringCloudGatewayClientAuthorizationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateIds", GoGetter: "CertificateIds"},
@@ -217,15 +217,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayConfig",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayConfig",
 		reflect.TypeOf((*SpringCloudGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayCors",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayCors",
 		reflect.TypeOf((*SpringCloudGatewayCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayCorsOutputReference",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayCorsOutputReference",
 		reflect.TypeOf((*SpringCloudGatewayCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},
@@ -278,11 +278,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerInstance",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerInstance",
 		reflect.TypeOf((*SpringCloudGatewayLocalResponseCachePerInstance)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerInstanceOutputReference",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerInstanceOutputReference",
 		reflect.TypeOf((*SpringCloudGatewayLocalResponseCachePerInstanceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -320,11 +320,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerRoute",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerRoute",
 		reflect.TypeOf((*SpringCloudGatewayLocalResponseCachePerRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerRouteOutputReference",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerRouteOutputReference",
 		reflect.TypeOf((*SpringCloudGatewayLocalResponseCachePerRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -362,11 +362,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayQuota",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayQuota",
 		reflect.TypeOf((*SpringCloudGatewayQuota)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayQuotaOutputReference",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayQuotaOutputReference",
 		reflect.TypeOf((*SpringCloudGatewayQuotaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -404,11 +404,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewaySso",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewaySso",
 		reflect.TypeOf((*SpringCloudGatewaySso)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewaySsoOutputReference",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewaySsoOutputReference",
 		reflect.TypeOf((*SpringCloudGatewaySsoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
@@ -452,11 +452,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayTimeouts",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayTimeouts",
 		reflect.TypeOf((*SpringCloudGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudGateway.SpringCloudGatewayTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudGateway.SpringCloudGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

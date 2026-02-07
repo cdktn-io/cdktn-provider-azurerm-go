@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nginxcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/nginxcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/nginxcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/nginx_certificate azurerm_nginx_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/nginx_certificate azurerm_nginx_certificate}.
 type NginxCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_NginxCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/nginx_certificate azurerm_nginx_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/nginx_certificate azurerm_nginx_certificate} Resource.
 func NewNginxCertificate(scope constructs.Construct, id *string, config *NginxCertificateConfig) NginxCertificate {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewNginxCertificate(scope constructs.Construct, id *string, config *NginxCe
 	j := jsiiProxy_NginxCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificate",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewNginxCertificate(scope constructs.Construct, id *string, config *NginxCe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/nginx_certificate azurerm_nginx_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/nginx_certificate azurerm_nginx_certificate} Resource.
 func NewNginxCertificate_Override(n NginxCertificate, scope constructs.Construct, id *string, config *NginxCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificate",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificate",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -622,7 +622,7 @@ func NginxCertificate_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificate",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func NginxCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificate",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func NginxCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificate",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func NginxCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificate",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func NginxCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificate",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificate",
 		"tfResourceType",
 		&returns,
 	)

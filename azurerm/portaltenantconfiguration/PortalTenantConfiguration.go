@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package portaltenantconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/portaltenantconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/portaltenantconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration}.
 type PortalTenantConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_PortalTenantConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
 func NewPortalTenantConfiguration(scope constructs.Construct, id *string, config *PortalTenantConfigurationConfig) PortalTenantConfiguration {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewPortalTenantConfiguration(scope constructs.Construct, id *string, config
 	j := jsiiProxy_PortalTenantConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewPortalTenantConfiguration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/portal_tenant_configuration azurerm_portal_tenant_configuration} Resource.
 func NewPortalTenantConfiguration_Override(p PortalTenantConfiguration, scope constructs.Construct, id *string, config *PortalTenantConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -486,7 +486,7 @@ func PortalTenantConfiguration_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func PortalTenantConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func PortalTenantConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func PortalTenantConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func PortalTenantConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package graphservicesaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/graphservicesaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/graphservicesaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/graph_services_account azurerm_graph_services_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/graph_services_account azurerm_graph_services_account}.
 type GraphServicesAccount interface {
 	cdktf.TerraformResource
 	ApplicationId() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_GraphServicesAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/graph_services_account azurerm_graph_services_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/graph_services_account azurerm_graph_services_account} Resource.
 func NewGraphServicesAccount(scope constructs.Construct, id *string, config *GraphServicesAccountConfig) GraphServicesAccount {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewGraphServicesAccount(scope constructs.Construct, id *string, config *Gra
 	j := jsiiProxy_GraphServicesAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccount",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewGraphServicesAccount(scope constructs.Construct, id *string, config *Gra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/graph_services_account azurerm_graph_services_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/graph_services_account azurerm_graph_services_account} Resource.
 func NewGraphServicesAccount_Override(g GraphServicesAccount, scope constructs.Construct, id *string, config *GraphServicesAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccount",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccount",
 		[]interface{}{scope, id, config},
 		g,
 	)
@@ -600,7 +600,7 @@ func GraphServicesAccount_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccount",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func GraphServicesAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccount",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func GraphServicesAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccount",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func GraphServicesAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccount",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func GraphServicesAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.graphServicesAccount.GraphServicesAccount",
+		"@cdktn/provider-azurerm.graphServicesAccount.GraphServicesAccount",
 		"tfResourceType",
 		&returns,
 	)

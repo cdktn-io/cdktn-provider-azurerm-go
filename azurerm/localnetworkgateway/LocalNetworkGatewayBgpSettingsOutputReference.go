@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package localnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/localnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/localnetworkgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewLocalNetworkGatewayBgpSettingsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_LocalNetworkGatewayBgpSettingsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettingsOutputReference",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewLocalNetworkGatewayBgpSettingsOutputReference_Override(l LocalNetworkGat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettingsOutputReference",
+		"@cdktn/provider-azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettingsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

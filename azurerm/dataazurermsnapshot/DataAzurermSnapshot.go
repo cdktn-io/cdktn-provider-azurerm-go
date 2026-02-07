@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/snapshot azurerm_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/snapshot azurerm_snapshot}.
 type DataAzurermSnapshot interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataAzurermSnapshot) TrustedLaunchEnabled() cdktf.IResolvable
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/snapshot azurerm_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/snapshot azurerm_snapshot} Data Source.
 func NewDataAzurermSnapshot(scope constructs.Construct, id *string, config *DataAzurermSnapshotConfig) DataAzurermSnapshot {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewDataAzurermSnapshot(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAzurermSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
+		"@cdktn/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -452,12 +452,12 @@ func NewDataAzurermSnapshot(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/snapshot azurerm_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/snapshot azurerm_snapshot} Data Source.
 func NewDataAzurermSnapshot_Override(d DataAzurermSnapshot, scope constructs.Construct, id *string, config *DataAzurermSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
+		"@cdktn/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -552,7 +552,7 @@ func DataAzurermSnapshot_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
+		"@cdktn/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -587,7 +587,7 @@ func DataAzurermSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
+		"@cdktn/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAzurermSnapshot_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
+		"@cdktn/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func DataAzurermSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
+		"@cdktn/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func DataAzurermSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
+		"@cdktn/provider-azurerm.dataAzurermSnapshot.DataAzurermSnapshot",
 		"tfResourceType",
 		&returns,
 	)

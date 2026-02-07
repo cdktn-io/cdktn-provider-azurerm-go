@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orbitalspacecraft
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraft",
 		reflect.TypeOf((*OrbitalSpacecraft)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftConfig",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftConfig",
 		reflect.TypeOf((*OrbitalSpacecraftConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinks",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinks",
 		reflect.TypeOf((*OrbitalSpacecraftLinks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinksList",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinksList",
 		reflect.TypeOf((*OrbitalSpacecraftLinksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinksOutputReference",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftLinksOutputReference",
 		reflect.TypeOf((*OrbitalSpacecraftLinksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bandwidthMhz", GoGetter: "BandwidthMhz"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftTimeouts",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftTimeouts",
 		reflect.TypeOf((*OrbitalSpacecraftTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.orbitalSpacecraft.OrbitalSpacecraftTimeoutsOutputReference",
 		reflect.TypeOf((*OrbitalSpacecraftTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

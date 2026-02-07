@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dynatracemonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dynatracemonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dynatracemonitor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -204,7 +204,7 @@ func NewDynatraceMonitorIdentityOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DynatraceMonitorIdentityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorIdentityOutputReference",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -216,7 +216,7 @@ func NewDynatraceMonitorIdentityOutputReference_Override(d DynatraceMonitorIdent
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dynatraceMonitor.DynatraceMonitorIdentityOutputReference",
+		"@cdktn/provider-azurerm.dynatraceMonitor.DynatraceMonitorIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermvirtualnetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermvirtualnetworkpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvirtualnetworkpeering/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering}.
 type DataAzurermVirtualNetworkPeering interface {
 	cdktf.TerraformDataSource
 	AllowForwardedTraffic() cdktf.IResolvable
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkPeering) VirtualNetworkIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering} Data Source.
 func NewDataAzurermVirtualNetworkPeering(scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkPeeringConfig) DataAzurermVirtualNetworkPeering {
 	_init_.Initialize()
 
@@ -422,7 +422,7 @@ func NewDataAzurermVirtualNetworkPeering(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataAzurermVirtualNetworkPeering{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -430,12 +430,12 @@ func NewDataAzurermVirtualNetworkPeering(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering} Data Source.
 func NewDataAzurermVirtualNetworkPeering_Override(d DataAzurermVirtualNetworkPeering, scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkPeeringConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -530,7 +530,7 @@ func DataAzurermVirtualNetworkPeering_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -565,7 +565,7 @@ func DataAzurermVirtualNetworkPeering_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func DataAzurermVirtualNetworkPeering_IsTerraformDataSource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -603,7 +603,7 @@ func DataAzurermVirtualNetworkPeering_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func DataAzurermVirtualNetworkPeering_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeering",
 		"tfResourceType",
 		&returns,
 	)

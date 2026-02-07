@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycenterautomation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomation",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomation",
 		reflect.TypeOf((*SecurityCenterAutomation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -93,11 +93,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationAction",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationAction",
 		reflect.TypeOf((*SecurityCenterAutomationAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationActionList",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationActionList",
 		reflect.TypeOf((*SecurityCenterAutomationActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationActionOutputReference",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationActionOutputReference",
 		reflect.TypeOf((*SecurityCenterAutomationActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,15 +162,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationConfig",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationConfig",
 		reflect.TypeOf((*SecurityCenterAutomationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSource",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSource",
 		reflect.TypeOf((*SecurityCenterAutomationSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceList",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceList",
 		reflect.TypeOf((*SecurityCenterAutomationSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -192,7 +192,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceOutputReference",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceOutputReference",
 		reflect.TypeOf((*SecurityCenterAutomationSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -230,11 +230,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSet",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSet",
 		reflect.TypeOf((*SecurityCenterAutomationSourceRuleSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetList",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetList",
 		reflect.TypeOf((*SecurityCenterAutomationSourceRuleSetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -256,7 +256,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetOutputReference",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetOutputReference",
 		reflect.TypeOf((*SecurityCenterAutomationSourceRuleSetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -291,11 +291,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetRule",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetRule",
 		reflect.TypeOf((*SecurityCenterAutomationSourceRuleSetRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetRuleList",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetRuleList",
 		reflect.TypeOf((*SecurityCenterAutomationSourceRuleSetRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -317,7 +317,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetRuleOutputReference",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetRuleOutputReference",
 		reflect.TypeOf((*SecurityCenterAutomationSourceRuleSetRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -357,11 +357,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationTimeouts",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationTimeouts",
 		reflect.TypeOf((*SecurityCenterAutomationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.securityCenterAutomation.SecurityCenterAutomationTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityCenterAutomationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitorworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitorworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitorworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_workspace azurerm_monitor_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_workspace azurerm_monitor_workspace}.
 type MonitorWorkspace interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_MonitorWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_workspace azurerm_monitor_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_workspace azurerm_monitor_workspace} Resource.
 func NewMonitorWorkspace(scope constructs.Construct, id *string, config *MonitorWorkspaceConfig) MonitorWorkspace {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewMonitorWorkspace(scope constructs.Construct, id *string, config *Monitor
 	j := jsiiProxy_MonitorWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspace",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewMonitorWorkspace(scope constructs.Construct, id *string, config *Monitor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_workspace azurerm_monitor_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_workspace azurerm_monitor_workspace} Resource.
 func NewMonitorWorkspace_Override(m MonitorWorkspace, scope constructs.Construct, id *string, config *MonitorWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspace",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspace",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -657,7 +657,7 @@ func MonitorWorkspace_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspace",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func MonitorWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspace",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func MonitorWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspace",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func MonitorWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspace",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func MonitorWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorWorkspace.MonitorWorkspace",
+		"@cdktn/provider-azurerm.monitorWorkspace.MonitorWorkspace",
 		"tfResourceType",
 		&returns,
 	)

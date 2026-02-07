@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package oracleresourceanchor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchor",
 		reflect.TypeOf((*OracleResourceAnchor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchorConfig",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchorConfig",
 		reflect.TypeOf((*OracleResourceAnchorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchorTimeouts",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchorTimeouts",
 		reflect.TypeOf((*OracleResourceAnchorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.oracleResourceAnchor.OracleResourceAnchorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.oracleResourceAnchor.OracleResourceAnchorTimeoutsOutputReference",
 		reflect.TypeOf((*OracleResourceAnchorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

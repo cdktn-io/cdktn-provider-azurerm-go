@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appserviceplan
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlan",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlan",
 		reflect.TypeOf((*AppServicePlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlanConfig",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlanConfig",
 		reflect.TypeOf((*AppServicePlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlanSku",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlanSku",
 		reflect.TypeOf((*AppServicePlanSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlanSkuOutputReference",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlanSkuOutputReference",
 		reflect.TypeOf((*AppServicePlanSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlanTimeouts",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlanTimeouts",
 		reflect.TypeOf((*AppServicePlanTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServicePlan.AppServicePlanTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appServicePlan.AppServicePlanTimeoutsOutputReference",
 		reflect.TypeOf((*AppServicePlanTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

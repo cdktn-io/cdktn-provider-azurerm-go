@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package vpnserverconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfiguration",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfiguration",
 		reflect.TypeOf((*VpnServerConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -104,11 +104,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationAzureActiveDirectoryAuthentication",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationAzureActiveDirectoryAuthentication",
 		reflect.TypeOf((*VpnServerConfigurationAzureActiveDirectoryAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationAzureActiveDirectoryAuthenticationList",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationAzureActiveDirectoryAuthenticationList",
 		reflect.TypeOf((*VpnServerConfigurationAzureActiveDirectoryAuthenticationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationAzureActiveDirectoryAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationAzureActiveDirectoryAuthenticationOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationAzureActiveDirectoryAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audience", GoGetter: "Audience"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRevokedCertificate",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRevokedCertificate",
 		reflect.TypeOf((*VpnServerConfigurationClientRevokedCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRevokedCertificateList",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRevokedCertificateList",
 		reflect.TypeOf((*VpnServerConfigurationClientRevokedCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -194,7 +194,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRevokedCertificateOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRevokedCertificateOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationClientRevokedCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -230,11 +230,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRootCertificate",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRootCertificate",
 		reflect.TypeOf((*VpnServerConfigurationClientRootCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRootCertificateList",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRootCertificateList",
 		reflect.TypeOf((*VpnServerConfigurationClientRootCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -256,7 +256,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRootCertificateOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationClientRootCertificateOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationClientRootCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -292,15 +292,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationConfig",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationConfig",
 		reflect.TypeOf((*VpnServerConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationIpsecPolicy",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationIpsecPolicy",
 		reflect.TypeOf((*VpnServerConfigurationIpsecPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationIpsecPolicyOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationIpsecPolicyOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationIpsecPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -348,15 +348,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadius",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadius",
 		reflect.TypeOf((*VpnServerConfigurationRadius)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusClientRootCertificate",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusClientRootCertificate",
 		reflect.TypeOf((*VpnServerConfigurationRadiusClientRootCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusClientRootCertificateList",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusClientRootCertificateList",
 		reflect.TypeOf((*VpnServerConfigurationRadiusClientRootCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -378,7 +378,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusClientRootCertificateOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusClientRootCertificateOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationRadiusClientRootCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -414,7 +414,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationRadiusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientRootCertificate", GoGetter: "ClientRootCertificate"},
@@ -458,11 +458,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServer",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServer",
 		reflect.TypeOf((*VpnServerConfigurationRadiusServer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerList",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerList",
 		reflect.TypeOf((*VpnServerConfigurationRadiusServerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -484,7 +484,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationRadiusServerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -522,11 +522,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerRootCertificate",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerRootCertificate",
 		reflect.TypeOf((*VpnServerConfigurationRadiusServerRootCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerRootCertificateList",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerRootCertificateList",
 		reflect.TypeOf((*VpnServerConfigurationRadiusServerRootCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -548,7 +548,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerRootCertificateOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerRootCertificateOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationRadiusServerRootCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -584,11 +584,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationTimeouts",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationTimeouts",
 		reflect.TypeOf((*VpnServerConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.vpnServerConfiguration.VpnServerConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*VpnServerConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

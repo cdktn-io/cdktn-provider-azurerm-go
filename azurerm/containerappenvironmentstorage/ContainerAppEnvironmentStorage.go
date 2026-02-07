@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerappenvironmentstorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/containerappenvironmentstorage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerappenvironmentstorage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage}.
 type ContainerAppEnvironmentStorage interface {
 	cdktf.TerraformResource
 	AccessKey() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentStorage) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage} Resource.
 func NewContainerAppEnvironmentStorage(scope constructs.Construct, id *string, config *ContainerAppEnvironmentStorageConfig) ContainerAppEnvironmentStorage {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewContainerAppEnvironmentStorage(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ContainerAppEnvironmentStorage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewContainerAppEnvironmentStorage(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage} Resource.
 func NewContainerAppEnvironmentStorage_Override(c ContainerAppEnvironmentStorage, scope constructs.Construct, id *string, config *ContainerAppEnvironmentStorageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -693,7 +693,7 @@ func ContainerAppEnvironmentStorage_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func ContainerAppEnvironmentStorage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func ContainerAppEnvironmentStorage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func ContainerAppEnvironmentStorage_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func ContainerAppEnvironmentStorage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
+		"@cdktn/provider-azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorage",
 		"tfResourceType",
 		&returns,
 	)

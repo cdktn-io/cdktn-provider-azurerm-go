@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datasharedatasetkustocluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoCluster.DataShareDatasetKustoCluster",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoCluster.DataShareDatasetKustoCluster",
 		reflect.TypeOf((*DataShareDatasetKustoCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoCluster.DataShareDatasetKustoClusterConfig",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoCluster.DataShareDatasetKustoClusterConfig",
 		reflect.TypeOf((*DataShareDatasetKustoClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoCluster.DataShareDatasetKustoClusterTimeouts",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoCluster.DataShareDatasetKustoClusterTimeouts",
 		reflect.TypeOf((*DataShareDatasetKustoClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataShareDatasetKustoCluster.DataShareDatasetKustoClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataShareDatasetKustoCluster.DataShareDatasetKustoClusterTimeoutsOutputReference",
 		reflect.TypeOf((*DataShareDatasetKustoClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

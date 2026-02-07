@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.Iothub",
+		"@cdktn/provider-azurerm.iothub.Iothub",
 		reflect.TypeOf((*Iothub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -137,15 +137,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubCloudToDevice",
+		"@cdktn/provider-azurerm.iothub.IothubCloudToDevice",
 		reflect.TypeOf((*IothubCloudToDevice)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubCloudToDeviceFeedback",
+		"@cdktn/provider-azurerm.iothub.IothubCloudToDeviceFeedback",
 		reflect.TypeOf((*IothubCloudToDeviceFeedback)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubCloudToDeviceFeedbackList",
+		"@cdktn/provider-azurerm.iothub.IothubCloudToDeviceFeedbackList",
 		reflect.TypeOf((*IothubCloudToDeviceFeedbackList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -167,7 +167,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubCloudToDeviceFeedbackOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubCloudToDeviceFeedbackOutputReference",
 		reflect.TypeOf((*IothubCloudToDeviceFeedbackOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,7 +208,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubCloudToDeviceOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubCloudToDeviceOutputReference",
 		reflect.TypeOf((*IothubCloudToDeviceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -250,15 +250,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubConfig",
+		"@cdktn/provider-azurerm.iothub.IothubConfig",
 		reflect.TypeOf((*IothubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubEndpoint",
+		"@cdktn/provider-azurerm.iothub.IothubEndpoint",
 		reflect.TypeOf((*IothubEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubEndpointList",
+		"@cdktn/provider-azurerm.iothub.IothubEndpointList",
 		reflect.TypeOf((*IothubEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -280,7 +280,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubEndpointOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubEndpointOutputReference",
 		reflect.TypeOf((*IothubEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
@@ -354,11 +354,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubEnrichment",
+		"@cdktn/provider-azurerm.iothub.IothubEnrichment",
 		reflect.TypeOf((*IothubEnrichment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubEnrichmentList",
+		"@cdktn/provider-azurerm.iothub.IothubEnrichmentList",
 		reflect.TypeOf((*IothubEnrichmentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -380,7 +380,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubEnrichmentOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubEnrichmentOutputReference",
 		reflect.TypeOf((*IothubEnrichmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -421,11 +421,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubFallbackRoute",
+		"@cdktn/provider-azurerm.iothub.IothubFallbackRoute",
 		reflect.TypeOf((*IothubFallbackRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubFallbackRouteOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubFallbackRouteOutputReference",
 		reflect.TypeOf((*IothubFallbackRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -469,11 +469,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubFileUpload",
+		"@cdktn/provider-azurerm.iothub.IothubFileUpload",
 		reflect.TypeOf((*IothubFileUpload)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubFileUploadOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubFileUploadOutputReference",
 		reflect.TypeOf((*IothubFileUploadOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
@@ -530,11 +530,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubIdentity",
+		"@cdktn/provider-azurerm.iothub.IothubIdentity",
 		reflect.TypeOf((*IothubIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubIdentityOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubIdentityOutputReference",
 		reflect.TypeOf((*IothubIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -573,15 +573,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubNetworkRuleSet",
+		"@cdktn/provider-azurerm.iothub.IothubNetworkRuleSet",
 		reflect.TypeOf((*IothubNetworkRuleSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubNetworkRuleSetIpRule",
+		"@cdktn/provider-azurerm.iothub.IothubNetworkRuleSetIpRule",
 		reflect.TypeOf((*IothubNetworkRuleSetIpRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubNetworkRuleSetIpRuleList",
+		"@cdktn/provider-azurerm.iothub.IothubNetworkRuleSetIpRuleList",
 		reflect.TypeOf((*IothubNetworkRuleSetIpRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -603,7 +603,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubNetworkRuleSetIpRuleOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubNetworkRuleSetIpRuleOutputReference",
 		reflect.TypeOf((*IothubNetworkRuleSetIpRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -642,7 +642,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubNetworkRuleSetList",
+		"@cdktn/provider-azurerm.iothub.IothubNetworkRuleSetList",
 		reflect.TypeOf((*IothubNetworkRuleSetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -664,7 +664,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubNetworkRuleSetOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubNetworkRuleSetOutputReference",
 		reflect.TypeOf((*IothubNetworkRuleSetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyToBuiltinEventhubEndpoint", GoGetter: "ApplyToBuiltinEventhubEndpoint"},
@@ -706,11 +706,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubRoute",
+		"@cdktn/provider-azurerm.iothub.IothubRoute",
 		reflect.TypeOf((*IothubRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubRouteList",
+		"@cdktn/provider-azurerm.iothub.IothubRouteList",
 		reflect.TypeOf((*IothubRouteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -732,7 +732,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubRouteOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubRouteOutputReference",
 		reflect.TypeOf((*IothubRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -779,11 +779,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubSharedAccessPolicy",
+		"@cdktn/provider-azurerm.iothub.IothubSharedAccessPolicy",
 		reflect.TypeOf((*IothubSharedAccessPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubSharedAccessPolicyList",
+		"@cdktn/provider-azurerm.iothub.IothubSharedAccessPolicyList",
 		reflect.TypeOf((*IothubSharedAccessPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -804,7 +804,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubSharedAccessPolicyOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubSharedAccessPolicyOutputReference",
 		reflect.TypeOf((*IothubSharedAccessPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -840,11 +840,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubSku",
+		"@cdktn/provider-azurerm.iothub.IothubSku",
 		reflect.TypeOf((*IothubSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubSkuOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubSkuOutputReference",
 		reflect.TypeOf((*IothubSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -880,11 +880,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothub.IothubTimeouts",
+		"@cdktn/provider-azurerm.iothub.IothubTimeouts",
 		reflect.TypeOf((*IothubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothub.IothubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubTimeoutsOutputReference",
 		reflect.TypeOf((*IothubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

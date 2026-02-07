@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package videoindexeraccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/videoindexeraccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/videoindexeraccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/video_indexer_account azurerm_video_indexer_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/video_indexer_account azurerm_video_indexer_account}.
 type VideoIndexerAccount interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -497,7 +497,7 @@ func (j *jsiiProxy_VideoIndexerAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/video_indexer_account azurerm_video_indexer_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/video_indexer_account azurerm_video_indexer_account} Resource.
 func NewVideoIndexerAccount(scope constructs.Construct, id *string, config *VideoIndexerAccountConfig) VideoIndexerAccount {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewVideoIndexerAccount(scope constructs.Construct, id *string, config *Vide
 	j := jsiiProxy_VideoIndexerAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewVideoIndexerAccount(scope constructs.Construct, id *string, config *Vide
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/video_indexer_account azurerm_video_indexer_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/video_indexer_account azurerm_video_indexer_account} Resource.
 func NewVideoIndexerAccount_Override(v VideoIndexerAccount, scope constructs.Construct, id *string, config *VideoIndexerAccountConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -670,7 +670,7 @@ func VideoIndexerAccount_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -705,7 +705,7 @@ func VideoIndexerAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -724,7 +724,7 @@ func VideoIndexerAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func VideoIndexerAccount_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func VideoIndexerAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
 		"tfResourceType",
 		&returns,
 	)

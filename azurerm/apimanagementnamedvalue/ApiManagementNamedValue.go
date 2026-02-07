@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementnamedvalue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementnamedvalue/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementnamedvalue/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_named_value azurerm_api_management_named_value}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_named_value azurerm_api_management_named_value}.
 type ApiManagementNamedValue interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -522,7 +522,7 @@ func (j *jsiiProxy_ApiManagementNamedValue) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
 func NewApiManagementNamedValue(scope constructs.Construct, id *string, config *ApiManagementNamedValueConfig) ApiManagementNamedValue {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewApiManagementNamedValue(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ApiManagementNamedValue{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewApiManagementNamedValue(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
 func NewApiManagementNamedValue_Override(a ApiManagementNamedValue, scope constructs.Construct, id *string, config *ApiManagementNamedValueConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -717,7 +717,7 @@ func ApiManagementNamedValue_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -752,7 +752,7 @@ func ApiManagementNamedValue_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -771,7 +771,7 @@ func ApiManagementNamedValue_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func ApiManagementNamedValue_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +803,7 @@ func ApiManagementNamedValue_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
 		"tfResourceType",
 		&returns,
 	)

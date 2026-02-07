@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package emailcommunicationservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/emailcommunicationservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/emailcommunicationservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewEmailCommunicationServiceTimeoutsOutputReference(terraformResource cdktf
 	j := jsiiProxy_EmailCommunicationServiceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.emailCommunicationService.EmailCommunicationServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.emailCommunicationService.EmailCommunicationServiceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewEmailCommunicationServiceTimeoutsOutputReference_Override(e EmailCommuni
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.emailCommunicationService.EmailCommunicationServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.emailCommunicationService.EmailCommunicationServiceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

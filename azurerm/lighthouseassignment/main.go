@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lighthouseassignment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignment",
 		reflect.TypeOf((*LighthouseAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignmentConfig",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignmentConfig",
 		reflect.TypeOf((*LighthouseAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignmentTimeouts",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignmentTimeouts",
 		reflect.TypeOf((*LighthouseAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lighthouseAssignment.LighthouseAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.lighthouseAssignment.LighthouseAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*LighthouseAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

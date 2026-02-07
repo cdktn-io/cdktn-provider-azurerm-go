@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package functionappactiveslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/functionappactiveslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionappactiveslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewFunctionAppActiveSlotTimeoutsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_FunctionAppActiveSlotTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewFunctionAppActiveSlotTimeoutsOutputReference_Override(f FunctionAppActiv
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.functionAppActiveSlot.FunctionAppActiveSlotTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		f,
 	)

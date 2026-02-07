@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdedicatedhost
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHost",
+		"@cdktn/provider-azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHost",
 		reflect.TypeOf((*DataAzurermDedicatedHost)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,15 +70,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHostConfig",
+		"@cdktn/provider-azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHostConfig",
 		reflect.TypeOf((*DataAzurermDedicatedHostConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHostTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHostTimeouts",
 		reflect.TypeOf((*DataAzurermDedicatedHostTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHostTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHostTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermDedicatedHostTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

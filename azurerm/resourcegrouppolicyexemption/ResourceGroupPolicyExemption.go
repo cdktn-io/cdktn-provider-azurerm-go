@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegrouppolicyexemption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourcegrouppolicyexemption/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegrouppolicyexemption/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_policy_exemption azurerm_resource_group_policy_exemption}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_policy_exemption azurerm_resource_group_policy_exemption}.
 type ResourceGroupPolicyExemption interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_policy_exemption azurerm_resource_group_policy_exemption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_policy_exemption azurerm_resource_group_policy_exemption} Resource.
 func NewResourceGroupPolicyExemption(scope constructs.Construct, id *string, config *ResourceGroupPolicyExemptionConfig) ResourceGroupPolicyExemption {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewResourceGroupPolicyExemption(scope constructs.Construct, id *string, con
 	j := jsiiProxy_ResourceGroupPolicyExemption{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
+		"@cdktn/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewResourceGroupPolicyExemption(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_policy_exemption azurerm_resource_group_policy_exemption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_policy_exemption azurerm_resource_group_policy_exemption} Resource.
 func NewResourceGroupPolicyExemption_Override(r ResourceGroupPolicyExemption, scope constructs.Construct, id *string, config *ResourceGroupPolicyExemptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
+		"@cdktn/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -763,7 +763,7 @@ func ResourceGroupPolicyExemption_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
+		"@cdktn/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func ResourceGroupPolicyExemption_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
+		"@cdktn/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func ResourceGroupPolicyExemption_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
+		"@cdktn/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func ResourceGroupPolicyExemption_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
+		"@cdktn/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func ResourceGroupPolicyExemption_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
+		"@cdktn/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
 		"tfResourceType",
 		&returns,
 	)

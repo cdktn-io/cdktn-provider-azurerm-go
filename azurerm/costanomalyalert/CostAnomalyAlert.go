@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package costanomalyalert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/costanomalyalert/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/costanomalyalert/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cost_anomaly_alert azurerm_cost_anomaly_alert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cost_anomaly_alert azurerm_cost_anomaly_alert}.
 type CostAnomalyAlert interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_CostAnomalyAlert) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cost_anomaly_alert azurerm_cost_anomaly_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cost_anomaly_alert azurerm_cost_anomaly_alert} Resource.
 func NewCostAnomalyAlert(scope constructs.Construct, id *string, config *CostAnomalyAlertConfig) CostAnomalyAlert {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewCostAnomalyAlert(scope constructs.Construct, id *string, config *CostAno
 	j := jsiiProxy_CostAnomalyAlert{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewCostAnomalyAlert(scope constructs.Construct, id *string, config *CostAno
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cost_anomaly_alert azurerm_cost_anomaly_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cost_anomaly_alert azurerm_cost_anomaly_alert} Resource.
 func NewCostAnomalyAlert_Override(c CostAnomalyAlert, scope constructs.Construct, id *string, config *CostAnomalyAlertConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -693,7 +693,7 @@ func CostAnomalyAlert_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func CostAnomalyAlert_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func CostAnomalyAlert_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func CostAnomalyAlert_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func CostAnomalyAlert_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
+		"@cdktn/provider-azurerm.costAnomalyAlert.CostAnomalyAlert",
 		"tfResourceType",
 		&returns,
 	)

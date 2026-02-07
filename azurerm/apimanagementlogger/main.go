@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementlogger
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLogger",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
 		reflect.TypeOf((*ApiManagementLogger)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,11 +93,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLoggerApplicationInsights",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLoggerApplicationInsights",
 		reflect.TypeOf((*ApiManagementLoggerApplicationInsights)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLoggerApplicationInsightsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLoggerApplicationInsightsOutputReference",
 		reflect.TypeOf((*ApiManagementLoggerApplicationInsightsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,15 +135,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLoggerConfig",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLoggerConfig",
 		reflect.TypeOf((*ApiManagementLoggerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLoggerEventhub",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLoggerEventhub",
 		reflect.TypeOf((*ApiManagementLoggerEventhub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLoggerEventhubOutputReference",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLoggerEventhubOutputReference",
 		reflect.TypeOf((*ApiManagementLoggerEventhubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLoggerTimeouts",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLoggerTimeouts",
 		reflect.TypeOf((*ApiManagementLoggerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementLogger.ApiManagementLoggerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLoggerTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementLoggerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

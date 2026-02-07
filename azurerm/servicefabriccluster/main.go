@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicefabriccluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricCluster",
 		reflect.TypeOf((*ServiceFabricCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectory",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectory",
 		reflect.TypeOf((*ServiceFabricClusterAzureActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectoryOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterAzureActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientApplicationId", GoGetter: "ClientApplicationId"},
@@ -185,19 +185,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificate",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificate",
 		reflect.TypeOf((*ServiceFabricClusterCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNames",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNames",
 		reflect.TypeOf((*ServiceFabricClusterCertificateCommonNames)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNamesCommonNames",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNamesCommonNames",
 		reflect.TypeOf((*ServiceFabricClusterCertificateCommonNamesCommonNames)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNamesCommonNamesList",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNamesCommonNamesList",
 		reflect.TypeOf((*ServiceFabricClusterCertificateCommonNamesCommonNamesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -219,7 +219,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNamesCommonNamesOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNamesCommonNamesOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterCertificateCommonNamesCommonNamesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateCommonName", GoGetter: "CertificateCommonName"},
@@ -256,7 +256,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNamesOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNamesOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterCertificateCommonNamesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commonNames", GoGetter: "CommonNames"},
@@ -293,7 +293,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterCertificateOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -332,11 +332,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateCommonName",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateCommonName",
 		reflect.TypeOf((*ServiceFabricClusterClientCertificateCommonName)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateCommonNameList",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateCommonNameList",
 		reflect.TypeOf((*ServiceFabricClusterClientCertificateCommonNameList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -358,7 +358,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateCommonNameOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateCommonNameOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterClientCertificateCommonNameOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commonName", GoGetter: "CommonName"},
@@ -397,11 +397,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateThumbprint",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateThumbprint",
 		reflect.TypeOf((*ServiceFabricClusterClientCertificateThumbprint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateThumbprintList",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateThumbprintList",
 		reflect.TypeOf((*ServiceFabricClusterClientCertificateThumbprintList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -423,7 +423,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateThumbprintOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateThumbprintOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterClientCertificateThumbprintOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -459,15 +459,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterConfig",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterConfig",
 		reflect.TypeOf((*ServiceFabricClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterDiagnosticsConfig",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterDiagnosticsConfig",
 		reflect.TypeOf((*ServiceFabricClusterDiagnosticsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterDiagnosticsConfigOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterDiagnosticsConfigOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterDiagnosticsConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blobEndpoint", GoGetter: "BlobEndpoint"},
@@ -509,11 +509,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterFabricSettings",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterFabricSettings",
 		reflect.TypeOf((*ServiceFabricClusterFabricSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterFabricSettingsList",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterFabricSettingsList",
 		reflect.TypeOf((*ServiceFabricClusterFabricSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -535,7 +535,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterFabricSettingsOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterFabricSettingsOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterFabricSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -572,15 +572,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeType",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeType",
 		reflect.TypeOf((*ServiceFabricClusterNodeType)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeApplicationPorts",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeApplicationPorts",
 		reflect.TypeOf((*ServiceFabricClusterNodeTypeApplicationPorts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeApplicationPortsOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeApplicationPortsOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterNodeTypeApplicationPortsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -616,11 +616,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeEphemeralPorts",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeEphemeralPorts",
 		reflect.TypeOf((*ServiceFabricClusterNodeTypeEphemeralPorts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeEphemeralPortsOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeEphemeralPortsOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterNodeTypeEphemeralPortsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -656,7 +656,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeList",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeList",
 		reflect.TypeOf((*ServiceFabricClusterNodeTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -678,7 +678,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterNodeTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationPorts", GoGetter: "ApplicationPorts"},
@@ -746,19 +746,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificate",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificate",
 		reflect.TypeOf((*ServiceFabricClusterReverseProxyCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNames",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNames",
 		reflect.TypeOf((*ServiceFabricClusterReverseProxyCertificateCommonNames)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNames",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNames",
 		reflect.TypeOf((*ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNames)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesList",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesList",
 		reflect.TypeOf((*ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -780,7 +780,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateCommonName", GoGetter: "CertificateCommonName"},
@@ -817,7 +817,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNamesOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNamesOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterReverseProxyCertificateCommonNamesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commonNames", GoGetter: "CommonNames"},
@@ -854,7 +854,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterReverseProxyCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -893,11 +893,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterTimeouts",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterTimeouts",
 		reflect.TypeOf((*ServiceFabricClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterTimeoutsOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -941,15 +941,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicy",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicy",
 		reflect.TypeOf((*ServiceFabricClusterUpgradePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyDeltaHealthPolicy",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyDeltaHealthPolicy",
 		reflect.TypeOf((*ServiceFabricClusterUpgradePolicyDeltaHealthPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -990,11 +990,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyHealthPolicy",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyHealthPolicy",
 		reflect.TypeOf((*ServiceFabricClusterUpgradePolicyHealthPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1032,7 +1032,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyOutputReference",
+		"@cdktn/provider-azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyOutputReference",
 		reflect.TypeOf((*ServiceFabricClusterUpgradePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

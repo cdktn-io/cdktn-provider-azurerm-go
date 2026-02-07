@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagesync
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageSync.StorageSync",
+		"@cdktn/provider-azurerm.storageSync.StorageSync",
 		reflect.TypeOf((*StorageSync)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageSync.StorageSyncConfig",
+		"@cdktn/provider-azurerm.storageSync.StorageSyncConfig",
 		reflect.TypeOf((*StorageSyncConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageSync.StorageSyncTimeouts",
+		"@cdktn/provider-azurerm.storageSync.StorageSyncTimeouts",
 		reflect.TypeOf((*StorageSyncTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageSync.StorageSyncTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageSync.StorageSyncTimeoutsOutputReference",
 		reflect.TypeOf((*StorageSyncTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

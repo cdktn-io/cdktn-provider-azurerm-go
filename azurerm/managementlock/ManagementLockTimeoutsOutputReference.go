@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managementlock
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/managementlock/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managementlock/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewManagementLockTimeoutsOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_ManagementLockTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managementLock.ManagementLockTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managementLock.ManagementLockTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewManagementLockTimeoutsOutputReference_Override(m ManagementLockTimeoutsO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managementLock.ManagementLockTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managementLock.ManagementLockTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

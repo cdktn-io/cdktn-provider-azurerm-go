@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnetappvolumegroupsaphana
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermnetappvolumegroupsaphana/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermnetappvolumegroupsaphana/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -31,14 +31,17 @@ type DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference interface {
 	CreationStack() *[]*string
 	DataProtectionReplication() DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionReplicationList
 	DataProtectionSnapshotPolicy() DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyList
+	EncryptionKeySource() *string
 	ExportPolicyRule() DataAzurermNetappVolumeGroupSapHanaVolumeExportPolicyRuleList
 	// Experimental.
 	Fqn() *string
 	Id() *string
 	InternalValue() *DataAzurermNetappVolumeGroupSapHanaVolume
 	SetInternalValue(val *DataAzurermNetappVolumeGroupSapHanaVolume)
+	KeyVaultPrivateEndpointId() *string
 	MountIpAddresses() *[]*string
 	Name() *string
+	NetworkFeatures() *string
 	Protocols() *[]*string
 	ProximityPlacementGroupId() *string
 	SecurityStyle() *string
@@ -58,6 +61,7 @@ type DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference interface {
 	ThroughputInMibps() *float64
 	VolumePath() *string
 	VolumeSpecName() *string
+	Zone() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -157,6 +161,16 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) Dat
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) EncryptionKeySource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"encryptionKeySource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) ExportPolicyRule() DataAzurermNetappVolumeGroupSapHanaVolumeExportPolicyRuleList {
 	var returns DataAzurermNetappVolumeGroupSapHanaVolumeExportPolicyRuleList
 	_jsii_.Get(
@@ -197,6 +211,16 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) Int
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) KeyVaultPrivateEndpointId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultPrivateEndpointId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) MountIpAddresses() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -212,6 +236,16 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) Nam
 	_jsii_.Get(
 		j,
 		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) NetworkFeatures() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkFeatures",
 		&returns,
 	)
 	return returns
@@ -347,6 +381,16 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) Vol
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference) Zone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"zone",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewDataAzurermNetappVolumeGroupSapHanaVolumeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference {
 	_init_.Initialize()
@@ -357,7 +401,7 @@ func NewDataAzurermNetappVolumeGroupSapHanaVolumeOutputReference(terraformResour
 	j := jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermNetappVolumeGroupSapHana.DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetappVolumeGroupSapHana.DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -369,7 +413,7 @@ func NewDataAzurermNetappVolumeGroupSapHanaVolumeOutputReference_Override(d Data
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermNetappVolumeGroupSapHana.DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetappVolumeGroupSapHana.DataAzurermNetappVolumeGroupSapHanaVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

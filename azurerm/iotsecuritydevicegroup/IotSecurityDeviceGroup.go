@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotsecuritydevicegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iotsecuritydevicegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iotsecuritydevicegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group}.
 type IotSecurityDeviceGroup interface {
 	cdktf.TerraformResource
 	AllowRule() IotSecurityDeviceGroupAllowRuleOutputReference
@@ -428,7 +428,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group} Resource.
 func NewIotSecurityDeviceGroup(scope constructs.Construct, id *string, config *IotSecurityDeviceGroupConfig) IotSecurityDeviceGroup {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewIotSecurityDeviceGroup(scope constructs.Construct, id *string, config *I
 	j := jsiiProxy_IotSecurityDeviceGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewIotSecurityDeviceGroup(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iot_security_device_group azurerm_iot_security_device_group} Resource.
 func NewIotSecurityDeviceGroup_Override(i IotSecurityDeviceGroup, scope constructs.Construct, id *string, config *IotSecurityDeviceGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -568,7 +568,7 @@ func IotSecurityDeviceGroup_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -603,7 +603,7 @@ func IotSecurityDeviceGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -622,7 +622,7 @@ func IotSecurityDeviceGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func IotSecurityDeviceGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func IotSecurityDeviceGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
+		"@cdktn/provider-azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroup",
 		"tfResourceType",
 		&returns,
 	)

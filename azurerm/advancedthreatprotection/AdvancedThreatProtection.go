@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package advancedthreatprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/advancedthreatprotection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/advancedthreatprotection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection}.
 type AdvancedThreatProtection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_AdvancedThreatProtection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection} Resource.
 func NewAdvancedThreatProtection(scope constructs.Construct, id *string, config *AdvancedThreatProtectionConfig) AdvancedThreatProtection {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewAdvancedThreatProtection(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_AdvancedThreatProtection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewAdvancedThreatProtection(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection} Resource.
 func NewAdvancedThreatProtection_Override(a AdvancedThreatProtection, scope constructs.Construct, id *string, config *AdvancedThreatProtectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -520,7 +520,7 @@ func AdvancedThreatProtection_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func AdvancedThreatProtection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func AdvancedThreatProtection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func AdvancedThreatProtection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func AdvancedThreatProtection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
+		"@cdktn/provider-azurerm.advancedThreatProtection.AdvancedThreatProtection",
 		"tfResourceType",
 		&returns,
 	)

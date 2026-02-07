@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package postgresqlserver
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlServer.PostgresqlServer",
+		"@cdktn/provider-azurerm.postgresqlServer.PostgresqlServer",
 		reflect.TypeOf((*PostgresqlServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -136,15 +136,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlServer.PostgresqlServerConfig",
+		"@cdktn/provider-azurerm.postgresqlServer.PostgresqlServerConfig",
 		reflect.TypeOf((*PostgresqlServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlServer.PostgresqlServerIdentity",
+		"@cdktn/provider-azurerm.postgresqlServer.PostgresqlServerIdentity",
 		reflect.TypeOf((*PostgresqlServerIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlServer.PostgresqlServerIdentityOutputReference",
+		"@cdktn/provider-azurerm.postgresqlServer.PostgresqlServerIdentityOutputReference",
 		reflect.TypeOf((*PostgresqlServerIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -180,11 +180,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlServer.PostgresqlServerThreatDetectionPolicy",
+		"@cdktn/provider-azurerm.postgresqlServer.PostgresqlServerThreatDetectionPolicy",
 		reflect.TypeOf((*PostgresqlServerThreatDetectionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlServer.PostgresqlServerThreatDetectionPolicyOutputReference",
+		"@cdktn/provider-azurerm.postgresqlServer.PostgresqlServerThreatDetectionPolicyOutputReference",
 		reflect.TypeOf((*PostgresqlServerThreatDetectionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -237,11 +237,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.postgresqlServer.PostgresqlServerTimeouts",
+		"@cdktn/provider-azurerm.postgresqlServer.PostgresqlServerTimeouts",
 		reflect.TypeOf((*PostgresqlServerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.postgresqlServer.PostgresqlServerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.postgresqlServer.PostgresqlServerTimeoutsOutputReference",
 		reflect.TypeOf((*PostgresqlServerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

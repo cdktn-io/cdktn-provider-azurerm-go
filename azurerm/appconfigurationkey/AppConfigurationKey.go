@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appconfigurationkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appconfigurationkey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appconfigurationkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_configuration_key azurerm_app_configuration_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_configuration_key azurerm_app_configuration_key}.
 type AppConfigurationKey interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -572,7 +572,7 @@ func (j *jsiiProxy_AppConfigurationKey) VaultKeyReferenceInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_configuration_key azurerm_app_configuration_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_configuration_key azurerm_app_configuration_key} Resource.
 func NewAppConfigurationKey(scope constructs.Construct, id *string, config *AppConfigurationKeyConfig) AppConfigurationKey {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewAppConfigurationKey(scope constructs.Construct, id *string, config *AppC
 	j := jsiiProxy_AppConfigurationKey{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKey",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -590,12 +590,12 @@ func NewAppConfigurationKey(scope constructs.Construct, id *string, config *AppC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_configuration_key azurerm_app_configuration_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_configuration_key azurerm_app_configuration_key} Resource.
 func NewAppConfigurationKey_Override(a AppConfigurationKey, scope constructs.Construct, id *string, config *AppConfigurationKeyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKey",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -800,7 +800,7 @@ func AppConfigurationKey_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKey",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -835,7 +835,7 @@ func AppConfigurationKey_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKey",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -854,7 +854,7 @@ func AppConfigurationKey_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKey",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -873,7 +873,7 @@ func AppConfigurationKey_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKey",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -886,7 +886,7 @@ func AppConfigurationKey_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appConfigurationKey.AppConfigurationKey",
+		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
 		"tfResourceType",
 		&returns,
 	)

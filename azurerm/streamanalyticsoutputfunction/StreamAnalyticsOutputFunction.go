@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticsoutputfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/streamanalyticsoutputfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsoutputfunction/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function}.
 type StreamAnalyticsOutputFunction interface {
 	cdktf.TerraformResource
 	ApiKey() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputFunction) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function} Resource.
 func NewStreamAnalyticsOutputFunction(scope constructs.Construct, id *string, config *StreamAnalyticsOutputFunctionConfig) StreamAnalyticsOutputFunction {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewStreamAnalyticsOutputFunction(scope constructs.Construct, id *string, co
 	j := jsiiProxy_StreamAnalyticsOutputFunction{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewStreamAnalyticsOutputFunction(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function} Resource.
 func NewStreamAnalyticsOutputFunction_Override(s StreamAnalyticsOutputFunction, scope constructs.Construct, id *string, config *StreamAnalyticsOutputFunctionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -726,7 +726,7 @@ func StreamAnalyticsOutputFunction_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -761,7 +761,7 @@ func StreamAnalyticsOutputFunction_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func StreamAnalyticsOutputFunction_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -799,7 +799,7 @@ func StreamAnalyticsOutputFunction_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func StreamAnalyticsOutputFunction_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
+		"@cdktn/provider-azurerm.streamAnalyticsOutputFunction.StreamAnalyticsOutputFunction",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagesharefile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagesharefile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagesharefile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share_file azurerm_storage_share_file}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share_file azurerm_storage_share_file}.
 type StorageShareFile interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -584,7 +584,7 @@ func (j *jsiiProxy_StorageShareFile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
 func NewStorageShareFile(scope constructs.Construct, id *string, config *StorageShareFileConfig) StorageShareFile {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewStorageShareFile(scope constructs.Construct, id *string, config *Storage
 	j := jsiiProxy_StorageShareFile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFile",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -602,12 +602,12 @@ func NewStorageShareFile(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
 func NewStorageShareFile_Override(s StorageShareFile, scope constructs.Construct, id *string, config *StorageShareFileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFile",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFile",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -812,7 +812,7 @@ func StorageShareFile_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFile",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -847,7 +847,7 @@ func StorageShareFile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFile",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -866,7 +866,7 @@ func StorageShareFile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFile",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func StorageShareFile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFile",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -898,7 +898,7 @@ func StorageShareFile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageShareFile.StorageShareFile",
+		"@cdktn/provider-azurerm.storageShareFile.StorageShareFile",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdevtestlab
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDevTestLab.DataAzurermDevTestLab",
+		"@cdktn/provider-azurerm.dataAzurermDevTestLab.DataAzurermDevTestLab",
 		reflect.TypeOf((*DataAzurermDevTestLab)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDevTestLab.DataAzurermDevTestLabConfig",
+		"@cdktn/provider-azurerm.dataAzurermDevTestLab.DataAzurermDevTestLabConfig",
 		reflect.TypeOf((*DataAzurermDevTestLabConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermDevTestLab.DataAzurermDevTestLabTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermDevTestLab.DataAzurermDevTestLabTimeouts",
 		reflect.TypeOf((*DataAzurermDevTestLabTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermDevTestLab.DataAzurermDevTestLabTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermDevTestLab.DataAzurermDevTestLabTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermDevTestLabTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package relaynamespace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.relayNamespace.RelayNamespace",
+		"@cdktn/provider-azurerm.relayNamespace.RelayNamespace",
 		reflect.TypeOf((*RelayNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.relayNamespace.RelayNamespaceConfig",
+		"@cdktn/provider-azurerm.relayNamespace.RelayNamespaceConfig",
 		reflect.TypeOf((*RelayNamespaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.relayNamespace.RelayNamespaceTimeouts",
+		"@cdktn/provider-azurerm.relayNamespace.RelayNamespaceTimeouts",
 		reflect.TypeOf((*RelayNamespaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.relayNamespace.RelayNamespaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.relayNamespace.RelayNamespaceTimeoutsOutputReference",
 		reflect.TypeOf((*RelayNamespaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

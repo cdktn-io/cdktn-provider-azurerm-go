@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package extendedlocationcustomlocation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocation",
+		"@cdktn/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocation",
 		reflect.TypeOf((*ExtendedLocationCustomLocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,11 +92,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationAuthentication",
+		"@cdktn/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationAuthentication",
 		reflect.TypeOf((*ExtendedLocationCustomLocationAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationAuthenticationOutputReference",
 		reflect.TypeOf((*ExtendedLocationCustomLocationAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,15 +133,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationConfig",
+		"@cdktn/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationConfig",
 		reflect.TypeOf((*ExtendedLocationCustomLocationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationTimeouts",
+		"@cdktn/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationTimeouts",
 		reflect.TypeOf((*ExtendedLocationCustomLocationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationTimeoutsOutputReference",
 		reflect.TypeOf((*ExtendedLocationCustomLocationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

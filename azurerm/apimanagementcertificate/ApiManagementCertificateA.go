@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_certificate azurerm_api_management_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_certificate azurerm_api_management_certificate}.
 type ApiManagementCertificateA interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ApiManagementCertificateA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
 func NewApiManagementCertificateA(scope constructs.Construct, id *string, config *ApiManagementCertificateAConfig) ApiManagementCertificateA {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewApiManagementCertificateA(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ApiManagementCertificateA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
+		"@cdktn/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -550,12 +550,12 @@ func NewApiManagementCertificateA(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
 func NewApiManagementCertificateA_Override(a ApiManagementCertificateA, scope constructs.Construct, id *string, config *ApiManagementCertificateAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
+		"@cdktn/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -727,7 +727,7 @@ func ApiManagementCertificateA_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
+		"@cdktn/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func ApiManagementCertificateA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
+		"@cdktn/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func ApiManagementCertificateA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
+		"@cdktn/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func ApiManagementCertificateA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
+		"@cdktn/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func ApiManagementCertificateA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
+		"@cdktn/provider-azurerm.apiManagementCertificate.ApiManagementCertificateA",
 		"tfResourceType",
 		&returns,
 	)

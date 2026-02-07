@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermresourcegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermresourcegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermresourcegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/resource_group azurerm_resource_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/resource_group azurerm_resource_group}.
 type DataAzurermResourceGroup interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAzurermResourceGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/resource_group azurerm_resource_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/resource_group azurerm_resource_group} Data Source.
 func NewDataAzurermResourceGroup(scope constructs.Construct, id *string, config *DataAzurermResourceGroupConfig) DataAzurermResourceGroup {
 	_init_.Initialize()
 
@@ -355,7 +355,7 @@ func NewDataAzurermResourceGroup(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DataAzurermResourceGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
+		"@cdktn/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -363,12 +363,12 @@ func NewDataAzurermResourceGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/resource_group azurerm_resource_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/resource_group azurerm_resource_group} Data Source.
 func NewDataAzurermResourceGroup_Override(d DataAzurermResourceGroup, scope constructs.Construct, id *string, config *DataAzurermResourceGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
+		"@cdktn/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -452,7 +452,7 @@ func DataAzurermResourceGroup_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
+		"@cdktn/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -487,7 +487,7 @@ func DataAzurermResourceGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
+		"@cdktn/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -506,7 +506,7 @@ func DataAzurermResourceGroup_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
+		"@cdktn/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func DataAzurermResourceGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
+		"@cdktn/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -538,7 +538,7 @@ func DataAzurermResourceGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
+		"@cdktn/provider-azurerm.dataAzurermResourceGroup.DataAzurermResourceGroup",
 		"tfResourceType",
 		&returns,
 	)

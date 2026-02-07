@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticssolution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/loganalyticssolution/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loganalyticssolution/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution}.
 type LogAnalyticsSolution interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_LogAnalyticsSolution) WorkspaceResourceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution} Resource.
 func NewLogAnalyticsSolution(scope constructs.Construct, id *string, config *LogAnalyticsSolutionConfig) LogAnalyticsSolution {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewLogAnalyticsSolution(scope constructs.Construct, id *string, config *Log
 	j := jsiiProxy_LogAnalyticsSolution{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
+		"@cdktn/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -514,12 +514,12 @@ func NewLogAnalyticsSolution(scope constructs.Construct, id *string, config *Log
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution} Resource.
 func NewLogAnalyticsSolution_Override(l LogAnalyticsSolution, scope constructs.Construct, id *string, config *LogAnalyticsSolutionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
+		"@cdktn/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -680,7 +680,7 @@ func LogAnalyticsSolution_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
+		"@cdktn/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -715,7 +715,7 @@ func LogAnalyticsSolution_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
+		"@cdktn/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func LogAnalyticsSolution_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
+		"@cdktn/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -753,7 +753,7 @@ func LogAnalyticsSolution_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
+		"@cdktn/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func LogAnalyticsSolution_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
+		"@cdktn/provider-azurerm.logAnalyticsSolution.LogAnalyticsSolution",
 		"tfResourceType",
 		&returns,
 	)

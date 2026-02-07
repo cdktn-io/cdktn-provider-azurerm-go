@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxfunctionappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/linuxfunctionappslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxfunctionappslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot}.
 type LinuxFunctionAppSlot interface {
 	cdktf.TerraformResource
 	AppSettings() *map[string]*string
@@ -1198,7 +1198,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlot) WebdeployPublishBasicAuthenticationEnab
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot} Resource.
 func NewLinuxFunctionAppSlot(scope constructs.Construct, id *string, config *LinuxFunctionAppSlotConfig) LinuxFunctionAppSlot {
 	_init_.Initialize()
 
@@ -1208,7 +1208,7 @@ func NewLinuxFunctionAppSlot(scope constructs.Construct, id *string, config *Lin
 	j := jsiiProxy_LinuxFunctionAppSlot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1216,12 +1216,12 @@ func NewLinuxFunctionAppSlot(scope constructs.Construct, id *string, config *Lin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_function_app_slot azurerm_linux_function_app_slot} Resource.
 func NewLinuxFunctionAppSlot_Override(l LinuxFunctionAppSlot, scope constructs.Construct, id *string, config *LinuxFunctionAppSlotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -1591,7 +1591,7 @@ func LinuxFunctionAppSlot_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1626,7 +1626,7 @@ func LinuxFunctionAppSlot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1645,7 +1645,7 @@ func LinuxFunctionAppSlot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1664,7 +1664,7 @@ func LinuxFunctionAppSlot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1677,7 +1677,7 @@ func LinuxFunctionAppSlot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
+		"@cdktn/provider-azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlot",
 		"tfResourceType",
 		&returns,
 	)

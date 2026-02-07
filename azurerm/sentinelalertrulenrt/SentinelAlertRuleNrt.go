@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelalertrulenrt
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sentinelalertrulenrt/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelalertrulenrt/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_alert_rule_nrt azurerm_sentinel_alert_rule_nrt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_alert_rule_nrt azurerm_sentinel_alert_rule_nrt}.
 type SentinelAlertRuleNrt interface {
 	cdktf.TerraformResource
 	AlertDetailsOverride() SentinelAlertRuleNrtAlertDetailsOverrideList
@@ -784,7 +784,7 @@ func (j *jsiiProxy_SentinelAlertRuleNrt) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_alert_rule_nrt azurerm_sentinel_alert_rule_nrt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_alert_rule_nrt azurerm_sentinel_alert_rule_nrt} Resource.
 func NewSentinelAlertRuleNrt(scope constructs.Construct, id *string, config *SentinelAlertRuleNrtConfig) SentinelAlertRuleNrt {
 	_init_.Initialize()
 
@@ -794,7 +794,7 @@ func NewSentinelAlertRuleNrt(scope constructs.Construct, id *string, config *Sen
 	j := jsiiProxy_SentinelAlertRuleNrt{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -802,12 +802,12 @@ func NewSentinelAlertRuleNrt(scope constructs.Construct, id *string, config *Sen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_alert_rule_nrt azurerm_sentinel_alert_rule_nrt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_alert_rule_nrt azurerm_sentinel_alert_rule_nrt} Resource.
 func NewSentinelAlertRuleNrt_Override(s SentinelAlertRuleNrt, scope constructs.Construct, id *string, config *SentinelAlertRuleNrtConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1056,7 +1056,7 @@ func SentinelAlertRuleNrt_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1091,7 +1091,7 @@ func SentinelAlertRuleNrt_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1110,7 +1110,7 @@ func SentinelAlertRuleNrt_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1129,7 +1129,7 @@ func SentinelAlertRuleNrt_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1142,7 +1142,7 @@ func SentinelAlertRuleNrt_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
+		"@cdktn/provider-azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrt",
 		"tfResourceType",
 		&returns,
 	)

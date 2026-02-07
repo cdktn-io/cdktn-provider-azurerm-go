@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnginxconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermnginxconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermnginxconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAzurermNginxConfigurationConfigFileList(terraformResource cdktf.IInt
 	j := jsiiProxy_DataAzurermNginxConfigurationConfigFileList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermNginxConfiguration.DataAzurermNginxConfigurationConfigFileList",
+		"@cdktn/provider-azurerm.dataAzurermNginxConfiguration.DataAzurermNginxConfigurationConfigFileList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAzurermNginxConfigurationConfigFileList_Override(d DataAzurermNginxC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermNginxConfiguration.DataAzurermNginxConfigurationConfigFileList",
+		"@cdktn/provider-azurerm.dataAzurermNginxConfiguration.DataAzurermNginxConfigurationConfigFileList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

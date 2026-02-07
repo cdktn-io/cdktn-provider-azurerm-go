@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorycustomdataset
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDataset",
 		reflect.TypeOf((*DataFactoryCustomDataset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalProperties", GoGetter: "AdditionalProperties"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetConfig",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetConfig",
 		reflect.TypeOf((*DataFactoryCustomDatasetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetLinkedService",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetLinkedService",
 		reflect.TypeOf((*DataFactoryCustomDatasetLinkedService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetLinkedServiceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetLinkedServiceOutputReference",
 		reflect.TypeOf((*DataFactoryCustomDatasetLinkedServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -144,11 +144,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetTimeouts",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetTimeouts",
 		reflect.TypeOf((*DataFactoryCustomDatasetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetTimeoutsOutputReference",
 		reflect.TypeOf((*DataFactoryCustomDatasetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

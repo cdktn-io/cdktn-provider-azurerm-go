@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package notificationhubauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/notificationhubauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/notificationhubauthorizationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/notification_hub_authorization_rule azurerm_notification_hub_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/notification_hub_authorization_rule azurerm_notification_hub_authorization_rule}.
 type NotificationHubAuthorizationRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/notification_hub_authorization_rule azurerm_notification_hub_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/notification_hub_authorization_rule azurerm_notification_hub_authorization_rule} Resource.
 func NewNotificationHubAuthorizationRule(scope constructs.Construct, id *string, config *NotificationHubAuthorizationRuleConfig) NotificationHubAuthorizationRule {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewNotificationHubAuthorizationRule(scope constructs.Construct, id *string,
 	j := jsiiProxy_NotificationHubAuthorizationRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
+		"@cdktn/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -560,12 +560,12 @@ func NewNotificationHubAuthorizationRule(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/notification_hub_authorization_rule azurerm_notification_hub_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/notification_hub_authorization_rule azurerm_notification_hub_authorization_rule} Resource.
 func NewNotificationHubAuthorizationRule_Override(n NotificationHubAuthorizationRule, scope constructs.Construct, id *string, config *NotificationHubAuthorizationRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
+		"@cdktn/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -737,7 +737,7 @@ func NotificationHubAuthorizationRule_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
+		"@cdktn/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -772,7 +772,7 @@ func NotificationHubAuthorizationRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
+		"@cdktn/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -791,7 +791,7 @@ func NotificationHubAuthorizationRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
+		"@cdktn/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -810,7 +810,7 @@ func NotificationHubAuthorizationRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
+		"@cdktn/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -823,7 +823,7 @@ func NotificationHubAuthorizationRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
+		"@cdktn/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
 		"tfResourceType",
 		&returns,
 	)

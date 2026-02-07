@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerregistryscopemap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/containerregistryscopemap/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerregistryscopemap/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map}.
 type ContainerRegistryScopeMap interface {
 	cdktf.TerraformResource
 	Actions() *[]*string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_ContainerRegistryScopeMap) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map} Resource.
 func NewContainerRegistryScopeMap(scope constructs.Construct, id *string, config *ContainerRegistryScopeMapConfig) ContainerRegistryScopeMap {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewContainerRegistryScopeMap(scope constructs.Construct, id *string, config
 	j := jsiiProxy_ContainerRegistryScopeMap{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
+		"@cdktn/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewContainerRegistryScopeMap(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map} Resource.
 func NewContainerRegistryScopeMap_Override(c ContainerRegistryScopeMap, scope constructs.Construct, id *string, config *ContainerRegistryScopeMapConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
+		"@cdktn/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -623,7 +623,7 @@ func ContainerRegistryScopeMap_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
+		"@cdktn/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func ContainerRegistryScopeMap_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
+		"@cdktn/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func ContainerRegistryScopeMap_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
+		"@cdktn/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func ContainerRegistryScopeMap_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
+		"@cdktn/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func ContainerRegistryScopeMap_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
+		"@cdktn/provider-azurerm.containerRegistryScopeMap.ContainerRegistryScopeMap",
 		"tfResourceType",
 		&returns,
 	)

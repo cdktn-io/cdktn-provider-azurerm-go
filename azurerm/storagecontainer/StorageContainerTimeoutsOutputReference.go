@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagecontainer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagecontainer/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagecontainer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewStorageContainerTimeoutsOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_StorageContainerTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageContainer.StorageContainerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageContainer.StorageContainerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewStorageContainerTimeoutsOutputReference_Override(s StorageContainerTimeo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageContainer.StorageContainerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageContainer.StorageContainerTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package firewall
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewall.Firewall",
+		"@cdktn/provider-azurerm.firewall.Firewall",
 		reflect.TypeOf((*Firewall)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -113,15 +113,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewall.FirewallConfig",
+		"@cdktn/provider-azurerm.firewall.FirewallConfig",
 		reflect.TypeOf((*FirewallConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewall.FirewallIpConfiguration",
+		"@cdktn/provider-azurerm.firewall.FirewallIpConfiguration",
 		reflect.TypeOf((*FirewallIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewall.FirewallIpConfigurationList",
+		"@cdktn/provider-azurerm.firewall.FirewallIpConfigurationList",
 		reflect.TypeOf((*FirewallIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -143,7 +143,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewall.FirewallIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.firewall.FirewallIpConfigurationOutputReference",
 		reflect.TypeOf((*FirewallIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -184,11 +184,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewall.FirewallManagementIpConfiguration",
+		"@cdktn/provider-azurerm.firewall.FirewallManagementIpConfiguration",
 		reflect.TypeOf((*FirewallManagementIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewall.FirewallManagementIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.firewall.FirewallManagementIpConfigurationOutputReference",
 		reflect.TypeOf((*FirewallManagementIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -227,11 +227,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewall.FirewallTimeouts",
+		"@cdktn/provider-azurerm.firewall.FirewallTimeouts",
 		reflect.TypeOf((*FirewallTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewall.FirewallTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.firewall.FirewallTimeoutsOutputReference",
 		reflect.TypeOf((*FirewallTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -275,11 +275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.firewall.FirewallVirtualHub",
+		"@cdktn/provider-azurerm.firewall.FirewallVirtualHub",
 		reflect.TypeOf((*FirewallVirtualHub)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.firewall.FirewallVirtualHubOutputReference",
+		"@cdktn/provider-azurerm.firewall.FirewallVirtualHubOutputReference",
 		reflect.TypeOf((*FirewallVirtualHubOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudbuilder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudbuilder/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudbuilder/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -205,7 +205,7 @@ func NewSpringCloudBuilderStackOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_SpringCloudBuilderStackOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderStackOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderStackOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -217,7 +217,7 @@ func NewSpringCloudBuilderStackOutputReference_Override(s SpringCloudBuilderStac
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudBuilder.SpringCloudBuilderStackOutputReference",
+		"@cdktn/provider-azurerm.springCloudBuilder.SpringCloudBuilderStackOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

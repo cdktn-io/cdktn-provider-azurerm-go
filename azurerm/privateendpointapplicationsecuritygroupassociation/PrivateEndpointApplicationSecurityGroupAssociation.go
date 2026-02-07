@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privateendpointapplicationsecuritygroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/privateendpointapplicationsecuritygroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privateendpointapplicationsecuritygroupassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association}.
 type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	cdktf.TerraformResource
 	ApplicationSecurityGroupId() *string
@@ -380,7 +380,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
 func NewPrivateEndpointApplicationSecurityGroupAssociation(scope constructs.Construct, id *string, config *PrivateEndpointApplicationSecurityGroupAssociationConfig) PrivateEndpointApplicationSecurityGroupAssociation {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewPrivateEndpointApplicationSecurityGroupAssociation(scope constructs.Cons
 	j := jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
+		"@cdktn/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewPrivateEndpointApplicationSecurityGroupAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
 func NewPrivateEndpointApplicationSecurityGroupAssociation_Override(p PrivateEndpointApplicationSecurityGroupAssociation, scope constructs.Construct, id *string, config *PrivateEndpointApplicationSecurityGroupAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
+		"@cdktn/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -520,7 +520,7 @@ func PrivateEndpointApplicationSecurityGroupAssociation_GenerateConfigForImport(
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
+		"@cdktn/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func PrivateEndpointApplicationSecurityGroupAssociation_IsConstruct(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
+		"@cdktn/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func PrivateEndpointApplicationSecurityGroupAssociation_IsTerraformElement(x int
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
+		"@cdktn/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func PrivateEndpointApplicationSecurityGroupAssociation_IsTerraformResource(x in
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
+		"@cdktn/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func PrivateEndpointApplicationSecurityGroupAssociation_TfResourceType() *string
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
+		"@cdktn/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
 		"tfResourceType",
 		&returns,
 	)

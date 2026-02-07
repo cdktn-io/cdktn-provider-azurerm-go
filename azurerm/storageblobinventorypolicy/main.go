@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageblobinventorypolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicy",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicy",
 		reflect.TypeOf((*StorageBlobInventoryPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,19 +75,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyConfig",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyConfig",
 		reflect.TypeOf((*StorageBlobInventoryPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRules",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRules",
 		reflect.TypeOf((*StorageBlobInventoryPolicyRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesFilter",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesFilter",
 		reflect.TypeOf((*StorageBlobInventoryPolicyRulesFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesFilterOutputReference",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesFilterOutputReference",
 		reflect.TypeOf((*StorageBlobInventoryPolicyRulesFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blobTypes", GoGetter: "BlobTypes"},
@@ -136,7 +136,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesList",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesList",
 		reflect.TypeOf((*StorageBlobInventoryPolicyRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -158,7 +158,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesOutputReference",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesOutputReference",
 		reflect.TypeOf((*StorageBlobInventoryPolicyRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -206,11 +206,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyTimeouts",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyTimeouts",
 		reflect.TypeOf((*StorageBlobInventoryPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*StorageBlobInventoryPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

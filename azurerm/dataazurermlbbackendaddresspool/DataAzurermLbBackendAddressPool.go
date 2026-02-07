@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermlbbackendaddresspool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermlbbackendaddresspool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlbbackendaddresspool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/lb_backend_address_pool azurerm_lb_backend_address_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/lb_backend_address_pool azurerm_lb_backend_address_pool}.
 type DataAzurermLbBackendAddressPool interface {
 	cdktf.TerraformDataSource
 	BackendAddress() DataAzurermLbBackendAddressPoolBackendAddressList
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermLbBackendAddressPool) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/lb_backend_address_pool azurerm_lb_backend_address_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/lb_backend_address_pool azurerm_lb_backend_address_pool} Data Source.
 func NewDataAzurermLbBackendAddressPool(scope constructs.Construct, id *string, config *DataAzurermLbBackendAddressPoolConfig) DataAzurermLbBackendAddressPool {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewDataAzurermLbBackendAddressPool(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAzurermLbBackendAddressPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
+		"@cdktn/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewDataAzurermLbBackendAddressPool(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/lb_backend_address_pool azurerm_lb_backend_address_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/lb_backend_address_pool azurerm_lb_backend_address_pool} Data Source.
 func NewDataAzurermLbBackendAddressPool_Override(d DataAzurermLbBackendAddressPool, scope constructs.Construct, id *string, config *DataAzurermLbBackendAddressPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
+		"@cdktn/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -508,7 +508,7 @@ func DataAzurermLbBackendAddressPool_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
+		"@cdktn/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func DataAzurermLbBackendAddressPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
+		"@cdktn/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataAzurermLbBackendAddressPool_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
+		"@cdktn/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func DataAzurermLbBackendAddressPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
+		"@cdktn/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func DataAzurermLbBackendAddressPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
+		"@cdktn/provider-azurerm.dataAzurermLbBackendAddressPool.DataAzurermLbBackendAddressPool",
 		"tfResourceType",
 		&returns,
 	)

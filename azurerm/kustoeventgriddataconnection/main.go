@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustoeventgriddataconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
 		reflect.TypeOf((*KustoEventgridDataConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnectionConfig",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnectionConfig",
 		reflect.TypeOf((*KustoEventgridDataConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnectionTimeouts",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnectionTimeouts",
 		reflect.TypeOf((*KustoEventgridDataConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*KustoEventgridDataConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

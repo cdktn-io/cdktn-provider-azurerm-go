@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagedatalakegen2path
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagedatalakegen2path/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagedatalakegen2path/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_data_lake_gen2_path azurerm_storage_data_lake_gen2_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_data_lake_gen2_path azurerm_storage_data_lake_gen2_path}.
 type StorageDataLakeGen2Path interface {
 	cdktf.TerraformResource
 	Ace() StorageDataLakeGen2PathAceList
@@ -498,7 +498,7 @@ func (j *jsiiProxy_StorageDataLakeGen2Path) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_data_lake_gen2_path azurerm_storage_data_lake_gen2_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_data_lake_gen2_path azurerm_storage_data_lake_gen2_path} Resource.
 func NewStorageDataLakeGen2Path(scope constructs.Construct, id *string, config *StorageDataLakeGen2PathConfig) StorageDataLakeGen2Path {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewStorageDataLakeGen2Path(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_StorageDataLakeGen2Path{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewStorageDataLakeGen2Path(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_data_lake_gen2_path azurerm_storage_data_lake_gen2_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_data_lake_gen2_path azurerm_storage_data_lake_gen2_path} Resource.
 func NewStorageDataLakeGen2Path_Override(s StorageDataLakeGen2Path, scope constructs.Construct, id *string, config *StorageDataLakeGen2PathConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -682,7 +682,7 @@ func StorageDataLakeGen2Path_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func StorageDataLakeGen2Path_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func StorageDataLakeGen2Path_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func StorageDataLakeGen2Path_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func StorageDataLakeGen2Path_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2Path",
 		"tfResourceType",
 		&returns,
 	)

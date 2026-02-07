@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchApplication.BatchApplication",
+		"@cdktn/provider-azurerm.batchApplication.BatchApplication",
 		reflect.TypeOf((*BatchApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchApplication.BatchApplicationConfig",
+		"@cdktn/provider-azurerm.batchApplication.BatchApplicationConfig",
 		reflect.TypeOf((*BatchApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchApplication.BatchApplicationTimeouts",
+		"@cdktn/provider-azurerm.batchApplication.BatchApplicationTimeouts",
 		reflect.TypeOf((*BatchApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchApplication.BatchApplicationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.batchApplication.BatchApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*BatchApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGateway",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGateway",
 		reflect.TypeOf((*ApplicationGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificate",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificate",
 		reflect.TypeOf((*ApplicationGatewayAuthenticationCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificateList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificateList",
 		reflect.TypeOf((*ApplicationGatewayAuthenticationCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificateOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificateOutputReference",
 		reflect.TypeOf((*ApplicationGatewayAuthenticationCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -246,11 +246,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayAutoscaleConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayAutoscaleConfiguration",
 		reflect.TypeOf((*ApplicationGatewayAutoscaleConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayAutoscaleConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayAutoscaleConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayAutoscaleConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -287,11 +287,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendAddressPool",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendAddressPool",
 		reflect.TypeOf((*ApplicationGatewayBackendAddressPool)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendAddressPoolList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendAddressPoolList",
 		reflect.TypeOf((*ApplicationGatewayBackendAddressPoolList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -313,7 +313,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendAddressPoolOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendAddressPoolOutputReference",
 		reflect.TypeOf((*ApplicationGatewayBackendAddressPoolOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -354,15 +354,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettings",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettings",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificate",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificate",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsAuthenticationCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -384,7 +384,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -419,11 +419,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDraining",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDraining",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsConnectionDraining)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -459,7 +459,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsList",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -481,7 +481,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsOutputReference",
 		reflect.TypeOf((*ApplicationGatewayBackendHttpSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "affinityCookieName", GoGetter: "AffinityCookieName"},
@@ -555,15 +555,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayConfig",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayConfig",
 		reflect.TypeOf((*ApplicationGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayCustomErrorConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayCustomErrorConfiguration",
 		reflect.TypeOf((*ApplicationGatewayCustomErrorConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayCustomErrorConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayCustomErrorConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayCustomErrorConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -585,7 +585,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayCustomErrorConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayCustomErrorConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayCustomErrorConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -622,11 +622,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayFrontendIpConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayFrontendIpConfiguration",
 		reflect.TypeOf((*ApplicationGatewayFrontendIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayFrontendIpConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayFrontendIpConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayFrontendIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -648,7 +648,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayFrontendIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayFrontendIpConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayFrontendIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -699,11 +699,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayFrontendPort",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayFrontendPort",
 		reflect.TypeOf((*ApplicationGatewayFrontendPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayFrontendPortList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayFrontendPortList",
 		reflect.TypeOf((*ApplicationGatewayFrontendPortList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -725,7 +725,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayFrontendPortOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayFrontendPortOutputReference",
 		reflect.TypeOf((*ApplicationGatewayFrontendPortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -762,11 +762,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayGatewayIpConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayGatewayIpConfiguration",
 		reflect.TypeOf((*ApplicationGatewayGatewayIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayGatewayIpConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayGatewayIpConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayGatewayIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -788,7 +788,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayGatewayIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayGatewayIpConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayGatewayIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -825,11 +825,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayGlobal",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayGlobal",
 		reflect.TypeOf((*ApplicationGatewayGlobal)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayGlobalOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayGlobalOutputReference",
 		reflect.TypeOf((*ApplicationGatewayGlobalOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -865,15 +865,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayHttpListener",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayHttpListener",
 		reflect.TypeOf((*ApplicationGatewayHttpListener)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerCustomErrorConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerCustomErrorConfiguration",
 		reflect.TypeOf((*ApplicationGatewayHttpListenerCustomErrorConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerCustomErrorConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerCustomErrorConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayHttpListenerCustomErrorConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -895,7 +895,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerCustomErrorConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerCustomErrorConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayHttpListenerCustomErrorConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -932,7 +932,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerList",
 		reflect.TypeOf((*ApplicationGatewayHttpListenerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -954,7 +954,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayHttpListenerOutputReference",
 		reflect.TypeOf((*ApplicationGatewayHttpListenerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1021,11 +1021,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayIdentity",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayIdentity",
 		reflect.TypeOf((*ApplicationGatewayIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayIdentityOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayIdentityOutputReference",
 		reflect.TypeOf((*ApplicationGatewayIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1064,11 +1064,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateEndpointConnection",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateEndpointConnection",
 		reflect.TypeOf((*ApplicationGatewayPrivateEndpointConnection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateEndpointConnectionList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateEndpointConnectionList",
 		reflect.TypeOf((*ApplicationGatewayPrivateEndpointConnectionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1089,7 +1089,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateEndpointConnectionOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateEndpointConnectionOutputReference",
 		reflect.TypeOf((*ApplicationGatewayPrivateEndpointConnectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1123,15 +1123,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfiguration",
 		reflect.TypeOf((*ApplicationGatewayPrivateLinkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationIpConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationIpConfiguration",
 		reflect.TypeOf((*ApplicationGatewayPrivateLinkConfigurationIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationIpConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationIpConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayPrivateLinkConfigurationIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1153,7 +1153,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1196,7 +1196,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayPrivateLinkConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1218,7 +1218,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayPrivateLinkConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayPrivateLinkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1256,11 +1256,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayProbe",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayProbe",
 		reflect.TypeOf((*ApplicationGatewayProbe)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayProbeList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayProbeList",
 		reflect.TypeOf((*ApplicationGatewayProbeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1282,11 +1282,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayProbeMatch",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayProbeMatch",
 		reflect.TypeOf((*ApplicationGatewayProbeMatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayProbeMatchOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayProbeMatchOutputReference",
 		reflect.TypeOf((*ApplicationGatewayProbeMatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "body", GoGetter: "Body"},
@@ -1323,7 +1323,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayProbeOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayProbeOutputReference",
 		reflect.TypeOf((*ApplicationGatewayProbeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1384,11 +1384,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRedirectConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRedirectConfiguration",
 		reflect.TypeOf((*ApplicationGatewayRedirectConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRedirectConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRedirectConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayRedirectConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1410,7 +1410,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRedirectConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRedirectConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayRedirectConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1460,11 +1460,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRequestRoutingRule",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRequestRoutingRule",
 		reflect.TypeOf((*ApplicationGatewayRequestRoutingRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRequestRoutingRuleList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRequestRoutingRuleList",
 		reflect.TypeOf((*ApplicationGatewayRequestRoutingRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1486,7 +1486,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRequestRoutingRuleOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRequestRoutingRuleOutputReference",
 		reflect.TypeOf((*ApplicationGatewayRequestRoutingRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendAddressPoolId", GoGetter: "BackendAddressPoolId"},
@@ -1549,11 +1549,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSet",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSet",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetList",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1575,7 +1575,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetOutputReference",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1614,15 +1614,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRule",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRule",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleCondition",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleCondition",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleConditionList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleConditionList",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1644,7 +1644,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleConditionOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleConditionOutputReference",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1686,7 +1686,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleList",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1708,7 +1708,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1760,11 +1760,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfiguration",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1786,7 +1786,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1822,11 +1822,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfiguration",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationList",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1848,7 +1848,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1884,11 +1884,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleUrl",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleUrl",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleUrl)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleUrlOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleUrlOutputReference",
 		reflect.TypeOf((*ApplicationGatewayRewriteRuleSetRewriteRuleUrlOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1932,11 +1932,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySku",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySku",
 		reflect.TypeOf((*ApplicationGatewaySku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySkuOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySkuOutputReference",
 		reflect.TypeOf((*ApplicationGatewaySkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -1975,11 +1975,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslCertificate",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslCertificate",
 		reflect.TypeOf((*ApplicationGatewaySslCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslCertificateList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslCertificateList",
 		reflect.TypeOf((*ApplicationGatewaySslCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2001,7 +2001,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslCertificateOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslCertificateOutputReference",
 		reflect.TypeOf((*ApplicationGatewaySslCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2046,11 +2046,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslPolicy",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslPolicy",
 		reflect.TypeOf((*ApplicationGatewaySslPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslPolicyOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslPolicyOutputReference",
 		reflect.TypeOf((*ApplicationGatewaySslPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cipherSuites", GoGetter: "CipherSuites"},
@@ -2097,11 +2097,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslProfile",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslProfile",
 		reflect.TypeOf((*ApplicationGatewaySslProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileList",
 		reflect.TypeOf((*ApplicationGatewaySslProfileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2123,7 +2123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileOutputReference",
 		reflect.TypeOf((*ApplicationGatewaySslProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2171,11 +2171,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileSslPolicy",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileSslPolicy",
 		reflect.TypeOf((*ApplicationGatewaySslProfileSslPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileSslPolicyOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewaySslProfileSslPolicyOutputReference",
 		reflect.TypeOf((*ApplicationGatewaySslProfileSslPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cipherSuites", GoGetter: "CipherSuites"},
@@ -2222,11 +2222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayTimeouts",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayTimeouts",
 		reflect.TypeOf((*ApplicationGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2270,11 +2270,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayTrustedClientCertificate",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayTrustedClientCertificate",
 		reflect.TypeOf((*ApplicationGatewayTrustedClientCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayTrustedClientCertificateList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayTrustedClientCertificateList",
 		reflect.TypeOf((*ApplicationGatewayTrustedClientCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2296,7 +2296,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayTrustedClientCertificateOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayTrustedClientCertificateOutputReference",
 		reflect.TypeOf((*ApplicationGatewayTrustedClientCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2333,11 +2333,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayTrustedRootCertificate",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayTrustedRootCertificate",
 		reflect.TypeOf((*ApplicationGatewayTrustedRootCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayTrustedRootCertificateList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayTrustedRootCertificateList",
 		reflect.TypeOf((*ApplicationGatewayTrustedRootCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2359,7 +2359,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayTrustedRootCertificateOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayTrustedRootCertificateOutputReference",
 		reflect.TypeOf((*ApplicationGatewayTrustedRootCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2400,11 +2400,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMap",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMap",
 		reflect.TypeOf((*ApplicationGatewayUrlPathMap)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapList",
 		reflect.TypeOf((*ApplicationGatewayUrlPathMapList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2426,7 +2426,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapOutputReference",
 		reflect.TypeOf((*ApplicationGatewayUrlPathMapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2480,11 +2480,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapPathRule",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapPathRule",
 		reflect.TypeOf((*ApplicationGatewayUrlPathMapPathRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapPathRuleList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapPathRuleList",
 		reflect.TypeOf((*ApplicationGatewayUrlPathMapPathRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2506,7 +2506,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapPathRuleOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayUrlPathMapPathRuleOutputReference",
 		reflect.TypeOf((*ApplicationGatewayUrlPathMapPathRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendAddressPoolId", GoGetter: "BackendAddressPoolId"},
@@ -2562,15 +2562,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayWafConfiguration",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayWafConfiguration",
 		reflect.TypeOf((*ApplicationGatewayWafConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationDisabledRuleGroup",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationDisabledRuleGroup",
 		reflect.TypeOf((*ApplicationGatewayWafConfigurationDisabledRuleGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationDisabledRuleGroupList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationDisabledRuleGroupList",
 		reflect.TypeOf((*ApplicationGatewayWafConfigurationDisabledRuleGroupList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2592,7 +2592,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationDisabledRuleGroupOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationDisabledRuleGroupOutputReference",
 		reflect.TypeOf((*ApplicationGatewayWafConfigurationDisabledRuleGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2629,11 +2629,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationExclusion",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationExclusion",
 		reflect.TypeOf((*ApplicationGatewayWafConfigurationExclusion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationExclusionList",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationExclusionList",
 		reflect.TypeOf((*ApplicationGatewayWafConfigurationExclusionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -2655,7 +2655,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationExclusionOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationExclusionOutputReference",
 		reflect.TypeOf((*ApplicationGatewayWafConfigurationExclusionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -2695,7 +2695,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationOutputReference",
+		"@cdktn/provider-azurerm.applicationGateway.ApplicationGatewayWafConfigurationOutputReference",
 		reflect.TypeOf((*ApplicationGatewayWafConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

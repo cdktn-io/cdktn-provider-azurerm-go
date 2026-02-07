@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kubernetesfluxconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kubernetesfluxconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetesfluxconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration}.
 type KubernetesFluxConfiguration interface {
 	cdktf.TerraformResource
 	BlobStorage() KubernetesFluxConfigurationBlobStorageOutputReference
@@ -546,7 +546,7 @@ func (j *jsiiProxy_KubernetesFluxConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration} Resource.
 func NewKubernetesFluxConfiguration(scope constructs.Construct, id *string, config *KubernetesFluxConfigurationConfig) KubernetesFluxConfiguration {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewKubernetesFluxConfiguration(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_KubernetesFluxConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
+		"@cdktn/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewKubernetesFluxConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration} Resource.
 func NewKubernetesFluxConfiguration_Override(k KubernetesFluxConfiguration, scope constructs.Construct, id *string, config *KubernetesFluxConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
+		"@cdktn/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -719,7 +719,7 @@ func KubernetesFluxConfiguration_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
+		"@cdktn/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -754,7 +754,7 @@ func KubernetesFluxConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
+		"@cdktn/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -773,7 +773,7 @@ func KubernetesFluxConfiguration_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
+		"@cdktn/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -792,7 +792,7 @@ func KubernetesFluxConfiguration_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
+		"@cdktn/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func KubernetesFluxConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
+		"@cdktn/provider-azurerm.kubernetesFluxConfiguration.KubernetesFluxConfiguration",
 		"tfResourceType",
 		&returns,
 	)

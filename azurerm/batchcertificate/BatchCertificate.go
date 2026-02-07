@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/batchcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/batchcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_certificate azurerm_batch_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_certificate azurerm_batch_certificate}.
 type BatchCertificate interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_BatchCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
 func NewBatchCertificate(scope constructs.Construct, id *string, config *BatchCertificateConfig) BatchCertificate {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewBatchCertificate(scope constructs.Construct, id *string, config *BatchCe
 	j := jsiiProxy_BatchCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificate",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -536,12 +536,12 @@ func NewBatchCertificate(scope constructs.Construct, id *string, config *BatchCe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
 func NewBatchCertificate_Override(b BatchCertificate, scope constructs.Construct, id *string, config *BatchCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificate",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificate",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -713,7 +713,7 @@ func BatchCertificate_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificate",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -748,7 +748,7 @@ func BatchCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificate",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func BatchCertificate_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificate",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -786,7 +786,7 @@ func BatchCertificate_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificate",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -799,7 +799,7 @@ func BatchCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.batchCertificate.BatchCertificate",
+		"@cdktn/provider-azurerm.batchCertificate.BatchCertificate",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementnamedvalue
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValue",
 		reflect.TypeOf((*ApiManagementNamedValue)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueConfig",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueConfig",
 		reflect.TypeOf((*ApiManagementNamedValueConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueTimeouts",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueTimeouts",
 		reflect.TypeOf((*ApiManagementNamedValueTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementNamedValueTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueValueFromKeyVault",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueValueFromKeyVault",
 		reflect.TypeOf((*ApiManagementNamedValueValueFromKeyVault)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueValueFromKeyVaultOutputReference",
+		"@cdktn/provider-azurerm.apiManagementNamedValue.ApiManagementNamedValueValueFromKeyVaultOutputReference",
 		reflect.TypeOf((*ApiManagementNamedValueValueFromKeyVaultOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

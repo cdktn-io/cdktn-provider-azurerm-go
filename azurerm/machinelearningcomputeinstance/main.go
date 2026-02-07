@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearningcomputeinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstance",
 		reflect.TypeOf((*MachineLearningComputeInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -106,11 +106,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceAssignToUser",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceAssignToUser",
 		reflect.TypeOf((*MachineLearningComputeInstanceAssignToUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceAssignToUserOutputReference",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceAssignToUserOutputReference",
 		reflect.TypeOf((*MachineLearningComputeInstanceAssignToUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,15 +148,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceConfig",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceConfig",
 		reflect.TypeOf((*MachineLearningComputeInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceIdentity",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceIdentity",
 		reflect.TypeOf((*MachineLearningComputeInstanceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceIdentityOutputReference",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceIdentityOutputReference",
 		reflect.TypeOf((*MachineLearningComputeInstanceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -195,11 +195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceSsh",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceSsh",
 		reflect.TypeOf((*MachineLearningComputeInstanceSsh)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceSshOutputReference",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceSshOutputReference",
 		reflect.TypeOf((*MachineLearningComputeInstanceSshOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -235,11 +235,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceTimeouts",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceTimeouts",
 		reflect.TypeOf((*MachineLearningComputeInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*MachineLearningComputeInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

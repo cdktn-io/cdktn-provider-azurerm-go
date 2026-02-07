@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementstandalonegateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementstandalonegateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementstandalonegateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_standalone_gateway azurerm_api_management_standalone_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_standalone_gateway azurerm_api_management_standalone_gateway}.
 type ApiManagementStandaloneGateway interface {
 	cdktf.TerraformResource
 	BackendSubnetId() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_ApiManagementStandaloneGateway) VirtualNetworkTypeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_standalone_gateway azurerm_api_management_standalone_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_standalone_gateway azurerm_api_management_standalone_gateway} Resource.
 func NewApiManagementStandaloneGateway(scope constructs.Construct, id *string, config *ApiManagementStandaloneGatewayConfig) ApiManagementStandaloneGateway {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewApiManagementStandaloneGateway(scope constructs.Construct, id *string, c
 	j := jsiiProxy_ApiManagementStandaloneGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
+		"@cdktn/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewApiManagementStandaloneGateway(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_standalone_gateway azurerm_api_management_standalone_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_standalone_gateway azurerm_api_management_standalone_gateway} Resource.
 func NewApiManagementStandaloneGateway_Override(a ApiManagementStandaloneGateway, scope constructs.Construct, id *string, config *ApiManagementStandaloneGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
+		"@cdktn/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -682,7 +682,7 @@ func ApiManagementStandaloneGateway_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
+		"@cdktn/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func ApiManagementStandaloneGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
+		"@cdktn/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func ApiManagementStandaloneGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
+		"@cdktn/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func ApiManagementStandaloneGateway_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
+		"@cdktn/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func ApiManagementStandaloneGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
+		"@cdktn/provider-azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGateway",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorydataflow
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlow",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlow",
 		reflect.TypeOf((*DataFactoryDataFlow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,19 +99,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowConfig",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowConfig",
 		reflect.TypeOf((*DataFactoryDataFlowConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSink",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSink",
 		reflect.TypeOf((*DataFactoryDataFlowSink)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkDataset",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkDataset",
 		reflect.TypeOf((*DataFactoryDataFlowSinkDataset)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkDatasetOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkDatasetOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSinkDatasetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkFlowlet",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkFlowlet",
 		reflect.TypeOf((*DataFactoryDataFlowSinkFlowlet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkFlowletOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkFlowletOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSinkFlowletOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -192,11 +192,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkLinkedService",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkLinkedService",
 		reflect.TypeOf((*DataFactoryDataFlowSinkLinkedService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkLinkedServiceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkLinkedServiceOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSinkLinkedServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -233,7 +233,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkList",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkList",
 		reflect.TypeOf((*DataFactoryDataFlowSinkList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -255,7 +255,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSinkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -312,11 +312,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkRejectedLinkedService",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkRejectedLinkedService",
 		reflect.TypeOf((*DataFactoryDataFlowSinkRejectedLinkedService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkRejectedLinkedServiceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkRejectedLinkedServiceOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSinkRejectedLinkedServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -353,11 +353,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkSchemaLinkedService",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkSchemaLinkedService",
 		reflect.TypeOf((*DataFactoryDataFlowSinkSchemaLinkedService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkSchemaLinkedServiceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSinkSchemaLinkedServiceOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSinkSchemaLinkedServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -394,15 +394,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSource",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSource",
 		reflect.TypeOf((*DataFactoryDataFlowSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceDataset",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceDataset",
 		reflect.TypeOf((*DataFactoryDataFlowSourceDataset)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceDatasetOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceDatasetOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSourceDatasetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -439,11 +439,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceFlowlet",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceFlowlet",
 		reflect.TypeOf((*DataFactoryDataFlowSourceFlowlet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceFlowletOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceFlowletOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSourceFlowletOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -483,11 +483,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceLinkedService",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceLinkedService",
 		reflect.TypeOf((*DataFactoryDataFlowSourceLinkedService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceLinkedServiceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceLinkedServiceOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSourceLinkedServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -524,7 +524,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceList",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceList",
 		reflect.TypeOf((*DataFactoryDataFlowSourceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -546,7 +546,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -603,11 +603,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceRejectedLinkedService",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceRejectedLinkedService",
 		reflect.TypeOf((*DataFactoryDataFlowSourceRejectedLinkedService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceRejectedLinkedServiceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceRejectedLinkedServiceOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSourceRejectedLinkedServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -644,11 +644,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceSchemaLinkedService",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceSchemaLinkedService",
 		reflect.TypeOf((*DataFactoryDataFlowSourceSchemaLinkedService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceSchemaLinkedServiceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceSchemaLinkedServiceOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowSourceSchemaLinkedServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -685,11 +685,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTimeouts",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTimeouts",
 		reflect.TypeOf((*DataFactoryDataFlowTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTimeoutsOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -733,15 +733,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformation",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformation",
 		reflect.TypeOf((*DataFactoryDataFlowTransformation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationDataset",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationDataset",
 		reflect.TypeOf((*DataFactoryDataFlowTransformationDataset)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationDatasetOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationDatasetOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowTransformationDatasetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -778,11 +778,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationFlowlet",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationFlowlet",
 		reflect.TypeOf((*DataFactoryDataFlowTransformationFlowlet)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationFlowletOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationFlowletOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowTransformationFlowletOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -822,11 +822,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationLinkedService",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationLinkedService",
 		reflect.TypeOf((*DataFactoryDataFlowTransformationLinkedService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationLinkedServiceOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationLinkedServiceOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowTransformationLinkedServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -863,7 +863,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationList",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationList",
 		reflect.TypeOf((*DataFactoryDataFlowTransformationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -885,7 +885,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDataFlow.DataFactoryDataFlowTransformationOutputReference",
 		reflect.TypeOf((*DataFactoryDataFlowTransformationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

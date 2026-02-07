@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemover
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagemover/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagemover/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover azurerm_storage_mover}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover azurerm_storage_mover}.
 type StorageMover interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_StorageMover) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover azurerm_storage_mover} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover azurerm_storage_mover} Resource.
 func NewStorageMover(scope constructs.Construct, id *string, config *StorageMoverConfig) StorageMover {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewStorageMover(scope constructs.Construct, id *string, config *StorageMove
 	j := jsiiProxy_StorageMover{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageMover.StorageMover",
+		"@cdktn/provider-azurerm.storageMover.StorageMover",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewStorageMover(scope constructs.Construct, id *string, config *StorageMove
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover azurerm_storage_mover} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover azurerm_storage_mover} Resource.
 func NewStorageMover_Override(s StorageMover, scope constructs.Construct, id *string, config *StorageMoverConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageMover.StorageMover",
+		"@cdktn/provider-azurerm.storageMover.StorageMover",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -624,7 +624,7 @@ func StorageMover_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMover.StorageMover",
+		"@cdktn/provider-azurerm.storageMover.StorageMover",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func StorageMover_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMover.StorageMover",
+		"@cdktn/provider-azurerm.storageMover.StorageMover",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func StorageMover_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMover.StorageMover",
+		"@cdktn/provider-azurerm.storageMover.StorageMover",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func StorageMover_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMover.StorageMover",
+		"@cdktn/provider-azurerm.storageMover.StorageMover",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func StorageMover_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageMover.StorageMover",
+		"@cdktn/provider-azurerm.storageMover.StorageMover",
 		"tfResourceType",
 		&returns,
 	)

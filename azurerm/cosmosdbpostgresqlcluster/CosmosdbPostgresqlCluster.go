@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbpostgresqlcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbpostgresqlcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbpostgresqlcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster}.
 type CosmosdbPostgresqlCluster interface {
 	cdktf.TerraformResource
 	AdministratorLoginPassword() *string
@@ -904,7 +904,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster} Resource.
 func NewCosmosdbPostgresqlCluster(scope constructs.Construct, id *string, config *CosmosdbPostgresqlClusterConfig) CosmosdbPostgresqlCluster {
 	_init_.Initialize()
 
@@ -914,7 +914,7 @@ func NewCosmosdbPostgresqlCluster(scope constructs.Construct, id *string, config
 	j := jsiiProxy_CosmosdbPostgresqlCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -922,12 +922,12 @@ func NewCosmosdbPostgresqlCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_postgresql_cluster azurerm_cosmosdb_postgresql_cluster} Resource.
 func NewCosmosdbPostgresqlCluster_Override(c CosmosdbPostgresqlCluster, scope constructs.Construct, id *string, config *CosmosdbPostgresqlClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1264,7 +1264,7 @@ func CosmosdbPostgresqlCluster_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1299,7 +1299,7 @@ func CosmosdbPostgresqlCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1318,7 +1318,7 @@ func CosmosdbPostgresqlCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1337,7 +1337,7 @@ func CosmosdbPostgresqlCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1350,7 +1350,7 @@ func CosmosdbPostgresqlCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlCluster.CosmosdbPostgresqlCluster",
 		"tfResourceType",
 		&returns,
 	)

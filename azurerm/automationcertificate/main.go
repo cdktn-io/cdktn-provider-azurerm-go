@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationCertificate.AutomationCertificate",
+		"@cdktn/provider-azurerm.automationCertificate.AutomationCertificate",
 		reflect.TypeOf((*AutomationCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationCertificate.AutomationCertificateConfig",
+		"@cdktn/provider-azurerm.automationCertificate.AutomationCertificateConfig",
 		reflect.TypeOf((*AutomationCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationCertificate.AutomationCertificateTimeouts",
+		"@cdktn/provider-azurerm.automationCertificate.AutomationCertificateTimeouts",
 		reflect.TypeOf((*AutomationCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationCertificate.AutomationCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationCertificate.AutomationCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

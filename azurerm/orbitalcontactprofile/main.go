@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package orbitalcontactprofile
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfile",
 		reflect.TypeOf((*OrbitalContactProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,23 +94,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileConfig",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileConfig",
 		reflect.TypeOf((*OrbitalContactProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinks",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinks",
 		reflect.TypeOf((*OrbitalContactProfileLinks)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannels",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannels",
 		reflect.TypeOf((*OrbitalContactProfileLinksChannels)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsEndPoint",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsEndPoint",
 		reflect.TypeOf((*OrbitalContactProfileLinksChannelsEndPoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsEndPointList",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsEndPointList",
 		reflect.TypeOf((*OrbitalContactProfileLinksChannelsEndPointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsEndPointOutputReference",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsEndPointOutputReference",
 		reflect.TypeOf((*OrbitalContactProfileLinksChannelsEndPointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsList",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsList",
 		reflect.TypeOf((*OrbitalContactProfileLinksChannelsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -195,7 +195,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsOutputReference",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksChannelsOutputReference",
 		reflect.TypeOf((*OrbitalContactProfileLinksChannelsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bandwidthMhz", GoGetter: "BandwidthMhz"},
@@ -242,7 +242,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksList",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksList",
 		reflect.TypeOf((*OrbitalContactProfileLinksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -264,7 +264,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksOutputReference",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileLinksOutputReference",
 		reflect.TypeOf((*OrbitalContactProfileLinksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channels", GoGetter: "Channels"},
@@ -305,11 +305,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileTimeouts",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileTimeouts",
 		reflect.TypeOf((*OrbitalContactProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.orbitalContactProfile.OrbitalContactProfileTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.orbitalContactProfile.OrbitalContactProfileTimeoutsOutputReference",
 		reflect.TypeOf((*OrbitalContactProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

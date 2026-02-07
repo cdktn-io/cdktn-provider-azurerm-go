@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nginxdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/nginxdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/nginxdeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/nginx_deployment azurerm_nginx_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/nginx_deployment azurerm_nginx_deployment}.
 type NginxDeployment interface {
 	cdktf.TerraformResource
 	AutomaticUpgradeChannel() *string
@@ -771,7 +771,7 @@ func (j *jsiiProxy_NginxDeployment) WebApplicationFirewallInput() *NginxDeployme
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
 func NewNginxDeployment(scope constructs.Construct, id *string, config *NginxDeploymentConfig) NginxDeployment {
 	_init_.Initialize()
 
@@ -781,7 +781,7 @@ func NewNginxDeployment(scope constructs.Construct, id *string, config *NginxDep
 	j := jsiiProxy_NginxDeployment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeployment",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeployment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -789,12 +789,12 @@ func NewNginxDeployment(scope constructs.Construct, id *string, config *NginxDep
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.
 func NewNginxDeployment_Override(n NginxDeployment, scope constructs.Construct, id *string, config *NginxDeploymentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeployment",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeployment",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -999,7 +999,7 @@ func NginxDeployment_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeployment",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeployment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1034,7 +1034,7 @@ func NginxDeployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeployment",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1053,7 +1053,7 @@ func NginxDeployment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeployment",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeployment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1072,7 +1072,7 @@ func NginxDeployment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeployment",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeployment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1085,7 +1085,7 @@ func NginxDeployment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeployment",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeployment",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventhubconsumergroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroup",
 		reflect.TypeOf((*EventhubConsumerGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroupConfig",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroupConfig",
 		reflect.TypeOf((*EventhubConsumerGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroupTimeouts",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroupTimeouts",
 		reflect.TypeOf((*EventhubConsumerGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventhubConsumerGroup.EventhubConsumerGroupTimeoutsOutputReference",
 		reflect.TypeOf((*EventhubConsumerGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

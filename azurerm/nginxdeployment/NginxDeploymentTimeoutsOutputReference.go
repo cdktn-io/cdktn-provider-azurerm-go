@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nginxdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/nginxdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/nginxdeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewNginxDeploymentTimeoutsOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_NginxDeploymentTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewNginxDeploymentTimeoutsOutputReference_Override(n NginxDeploymentTimeout
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

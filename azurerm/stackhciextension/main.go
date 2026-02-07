@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhciextension
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciExtension.StackHciExtension",
+		"@cdktn/provider-azurerm.stackHciExtension.StackHciExtension",
 		reflect.TypeOf((*StackHciExtension)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciExtension.StackHciExtensionConfig",
+		"@cdktn/provider-azurerm.stackHciExtension.StackHciExtensionConfig",
 		reflect.TypeOf((*StackHciExtensionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.stackHciExtension.StackHciExtensionTimeouts",
+		"@cdktn/provider-azurerm.stackHciExtension.StackHciExtensionTimeouts",
 		reflect.TypeOf((*StackHciExtensionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.stackHciExtension.StackHciExtensionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.stackHciExtension.StackHciExtensionTimeoutsOutputReference",
 		reflect.TypeOf((*StackHciExtensionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

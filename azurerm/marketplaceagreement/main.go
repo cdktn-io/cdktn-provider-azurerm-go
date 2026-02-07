@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package marketplaceagreement
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreement",
 		reflect.TypeOf((*MarketplaceAgreement)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreementConfig",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreementConfig",
 		reflect.TypeOf((*MarketplaceAgreementConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreementTimeouts",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreementTimeouts",
 		reflect.TypeOf((*MarketplaceAgreementTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.marketplaceAgreement.MarketplaceAgreementTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.marketplaceAgreement.MarketplaceAgreementTimeoutsOutputReference",
 		reflect.TypeOf((*MarketplaceAgreementTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

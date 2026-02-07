@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccount",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccount",
 		reflect.TypeOf((*StorageAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessTier", GoGetter: "AccessTier"},
@@ -266,15 +266,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountAzureFilesAuthentication",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountAzureFilesAuthentication",
 		reflect.TypeOf((*StorageAccountAzureFilesAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountAzureFilesAuthenticationActiveDirectory",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountAzureFilesAuthenticationActiveDirectory",
 		reflect.TypeOf((*StorageAccountAzureFilesAuthenticationActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference",
 		reflect.TypeOf((*StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -322,7 +322,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountAzureFilesAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountAzureFilesAuthenticationOutputReference",
 		reflect.TypeOf((*StorageAccountAzureFilesAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectory", GoGetter: "ActiveDirectory"},
@@ -363,15 +363,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobProperties",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobProperties",
 		reflect.TypeOf((*StorageAccountBlobProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesContainerDeleteRetentionPolicy",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesContainerDeleteRetentionPolicy",
 		reflect.TypeOf((*StorageAccountBlobPropertiesContainerDeleteRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReference",
 		reflect.TypeOf((*StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -406,11 +406,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesCorsRule",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesCorsRule",
 		reflect.TypeOf((*StorageAccountBlobPropertiesCorsRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesCorsRuleList",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesCorsRuleList",
 		reflect.TypeOf((*StorageAccountBlobPropertiesCorsRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -432,7 +432,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesCorsRuleOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesCorsRuleOutputReference",
 		reflect.TypeOf((*StorageAccountBlobPropertiesCorsRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},
@@ -474,11 +474,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesDeleteRetentionPolicy",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesDeleteRetentionPolicy",
 		reflect.TypeOf((*StorageAccountBlobPropertiesDeleteRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesDeleteRetentionPolicyOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesDeleteRetentionPolicyOutputReference",
 		reflect.TypeOf((*StorageAccountBlobPropertiesDeleteRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -516,7 +516,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesOutputReference",
 		reflect.TypeOf((*StorageAccountBlobPropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "changeFeedEnabled", GoGetter: "ChangeFeedEnabled"},
@@ -579,11 +579,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesRestorePolicy",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesRestorePolicy",
 		reflect.TypeOf((*StorageAccountBlobPropertiesRestorePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountBlobPropertiesRestorePolicyOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountBlobPropertiesRestorePolicyOutputReference",
 		reflect.TypeOf((*StorageAccountBlobPropertiesRestorePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -617,15 +617,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountConfig",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountConfig",
 		reflect.TypeOf((*StorageAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountCustomDomain",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountCustomDomain",
 		reflect.TypeOf((*StorageAccountCustomDomain)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountCustomDomainOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountCustomDomainOutputReference",
 		reflect.TypeOf((*StorageAccountCustomDomainOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -662,11 +662,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountCustomerManagedKey",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountCustomerManagedKey",
 		reflect.TypeOf((*StorageAccountCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*StorageAccountCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -706,11 +706,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountIdentity",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountIdentity",
 		reflect.TypeOf((*StorageAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountIdentityOutputReference",
 		reflect.TypeOf((*StorageAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -749,11 +749,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountImmutabilityPolicy",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountImmutabilityPolicy",
 		reflect.TypeOf((*StorageAccountImmutabilityPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountImmutabilityPolicyOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountImmutabilityPolicyOutputReference",
 		reflect.TypeOf((*StorageAccountImmutabilityPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowProtectedAppendWrites", GoGetter: "AllowProtectedAppendWrites"},
@@ -791,11 +791,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountNetworkRules",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountNetworkRules",
 		reflect.TypeOf((*StorageAccountNetworkRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountNetworkRulesOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountNetworkRulesOutputReference",
 		reflect.TypeOf((*StorageAccountNetworkRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bypass", GoGetter: "Bypass"},
@@ -842,11 +842,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountNetworkRulesPrivateLinkAccess",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountNetworkRulesPrivateLinkAccess",
 		reflect.TypeOf((*StorageAccountNetworkRulesPrivateLinkAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountNetworkRulesPrivateLinkAccessList",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountNetworkRulesPrivateLinkAccessList",
 		reflect.TypeOf((*StorageAccountNetworkRulesPrivateLinkAccessList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -868,7 +868,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountNetworkRulesPrivateLinkAccessOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountNetworkRulesPrivateLinkAccessOutputReference",
 		reflect.TypeOf((*StorageAccountNetworkRulesPrivateLinkAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -905,15 +905,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueueProperties",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueueProperties",
 		reflect.TypeOf((*StorageAccountQueueProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRule",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRule",
 		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRuleList",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRuleList",
 		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -935,7 +935,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRuleOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesCorsRuleOutputReference",
 		reflect.TypeOf((*StorageAccountQueuePropertiesCorsRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},
@@ -977,11 +977,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesHourMetrics",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesHourMetrics",
 		reflect.TypeOf((*StorageAccountQueuePropertiesHourMetrics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesHourMetricsOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesHourMetricsOutputReference",
 		reflect.TypeOf((*StorageAccountQueuePropertiesHourMetricsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1023,11 +1023,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesLogging",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesLogging",
 		reflect.TypeOf((*StorageAccountQueuePropertiesLogging)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesLoggingOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesLoggingOutputReference",
 		reflect.TypeOf((*StorageAccountQueuePropertiesLoggingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1070,11 +1070,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesMinuteMetrics",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesMinuteMetrics",
 		reflect.TypeOf((*StorageAccountQueuePropertiesMinuteMetrics)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesMinuteMetricsOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesMinuteMetricsOutputReference",
 		reflect.TypeOf((*StorageAccountQueuePropertiesMinuteMetricsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1116,7 +1116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountQueuePropertiesOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountQueuePropertiesOutputReference",
 		reflect.TypeOf((*StorageAccountQueuePropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1164,11 +1164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountRouting",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountRouting",
 		reflect.TypeOf((*StorageAccountRouting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountRoutingOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountRoutingOutputReference",
 		reflect.TypeOf((*StorageAccountRoutingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "choice", GoGetter: "Choice"},
@@ -1209,11 +1209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSasPolicy",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSasPolicy",
 		reflect.TypeOf((*StorageAccountSasPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSasPolicyOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSasPolicyOutputReference",
 		reflect.TypeOf((*StorageAccountSasPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1250,15 +1250,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountShareProperties",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountShareProperties",
 		reflect.TypeOf((*StorageAccountShareProperties)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSharePropertiesCorsRule",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSharePropertiesCorsRule",
 		reflect.TypeOf((*StorageAccountSharePropertiesCorsRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSharePropertiesCorsRuleList",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSharePropertiesCorsRuleList",
 		reflect.TypeOf((*StorageAccountSharePropertiesCorsRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1280,7 +1280,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSharePropertiesCorsRuleOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSharePropertiesCorsRuleOutputReference",
 		reflect.TypeOf((*StorageAccountSharePropertiesCorsRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},
@@ -1322,7 +1322,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSharePropertiesOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSharePropertiesOutputReference",
 		reflect.TypeOf((*StorageAccountSharePropertiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1366,11 +1366,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSharePropertiesRetentionPolicy",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSharePropertiesRetentionPolicy",
 		reflect.TypeOf((*StorageAccountSharePropertiesRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSharePropertiesRetentionPolicyOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSharePropertiesRetentionPolicyOutputReference",
 		reflect.TypeOf((*StorageAccountSharePropertiesRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1405,11 +1405,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSharePropertiesSmb",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSharePropertiesSmb",
 		reflect.TypeOf((*StorageAccountSharePropertiesSmb)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountSharePropertiesSmbOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountSharePropertiesSmbOutputReference",
 		reflect.TypeOf((*StorageAccountSharePropertiesSmbOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationTypes", GoGetter: "AuthenticationTypes"},
@@ -1456,11 +1456,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountStaticWebsite",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountStaticWebsite",
 		reflect.TypeOf((*StorageAccountStaticWebsite)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountStaticWebsiteOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountStaticWebsiteOutputReference",
 		reflect.TypeOf((*StorageAccountStaticWebsiteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1498,11 +1498,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountTimeouts",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountTimeouts",
 		reflect.TypeOf((*StorageAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageAccount.StorageAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageAccount.StorageAccountTimeoutsOutputReference",
 		reflect.TypeOf((*StorageAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

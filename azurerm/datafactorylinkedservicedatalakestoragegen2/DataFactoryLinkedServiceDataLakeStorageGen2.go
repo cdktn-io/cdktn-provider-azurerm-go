@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorylinkedservicedatalakestoragegen2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorylinkedservicedatalakestoragegen2/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedservicedatalakestoragegen2/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_data_lake_storage_gen2 azurerm_data_factory_linked_service_data_lake_storage_gen2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_data_lake_storage_gen2 azurerm_data_factory_linked_service_data_lake_storage_gen2}.
 type DataFactoryLinkedServiceDataLakeStorageGen2 interface {
 	cdktf.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -643,7 +643,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) UseManagedIdenti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_data_lake_storage_gen2 azurerm_data_factory_linked_service_data_lake_storage_gen2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_data_lake_storage_gen2 azurerm_data_factory_linked_service_data_lake_storage_gen2} Resource.
 func NewDataFactoryLinkedServiceDataLakeStorageGen2(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceDataLakeStorageGen2Config) DataFactoryLinkedServiceDataLakeStorageGen2 {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewDataFactoryLinkedServiceDataLakeStorageGen2(scope constructs.Construct, 
 	j := jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -661,12 +661,12 @@ func NewDataFactoryLinkedServiceDataLakeStorageGen2(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_linked_service_data_lake_storage_gen2 azurerm_data_factory_linked_service_data_lake_storage_gen2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_linked_service_data_lake_storage_gen2 azurerm_data_factory_linked_service_data_lake_storage_gen2} Resource.
 func NewDataFactoryLinkedServiceDataLakeStorageGen2_Override(d DataFactoryLinkedServiceDataLakeStorageGen2, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceDataLakeStorageGen2Config) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -904,7 +904,7 @@ func DataFactoryLinkedServiceDataLakeStorageGen2_GenerateConfigForImport(scope c
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -939,7 +939,7 @@ func DataFactoryLinkedServiceDataLakeStorageGen2_IsConstruct(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -958,7 +958,7 @@ func DataFactoryLinkedServiceDataLakeStorageGen2_IsTerraformElement(x interface{
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -977,7 +977,7 @@ func DataFactoryLinkedServiceDataLakeStorageGen2_IsTerraformResource(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -990,7 +990,7 @@ func DataFactoryLinkedServiceDataLakeStorageGen2_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceDataLakeStorageGen2.DataFactoryLinkedServiceDataLakeStorageGen2",
 		"tfResourceType",
 		&returns,
 	)

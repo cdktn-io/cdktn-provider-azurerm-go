@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticsanvolumegroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroup",
 		reflect.TypeOf((*ElasticSanVolumeGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupConfig",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupConfig",
 		reflect.TypeOf((*ElasticSanVolumeGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupEncryption",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupEncryption",
 		reflect.TypeOf((*ElasticSanVolumeGroupEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupEncryptionOutputReference",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupEncryptionOutputReference",
 		reflect.TypeOf((*ElasticSanVolumeGroupEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -140,11 +140,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupIdentity",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupIdentity",
 		reflect.TypeOf((*ElasticSanVolumeGroupIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupIdentityOutputReference",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupIdentityOutputReference",
 		reflect.TypeOf((*ElasticSanVolumeGroupIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupNetworkRule",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupNetworkRule",
 		reflect.TypeOf((*ElasticSanVolumeGroupNetworkRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupNetworkRuleList",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupNetworkRuleList",
 		reflect.TypeOf((*ElasticSanVolumeGroupNetworkRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupNetworkRuleOutputReference",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupNetworkRuleOutputReference",
 		reflect.TypeOf((*ElasticSanVolumeGroupNetworkRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -246,11 +246,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupTimeouts",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupTimeouts",
 		reflect.TypeOf((*ElasticSanVolumeGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupTimeoutsOutputReference",
 		reflect.TypeOf((*ElasticSanVolumeGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

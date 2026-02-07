@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redisenterprisecluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseCluster",
 		reflect.TypeOf((*RedisEnterpriseCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseClusterConfig",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseClusterConfig",
 		reflect.TypeOf((*RedisEnterpriseClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseClusterTimeouts",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseClusterTimeouts",
 		reflect.TypeOf((*RedisEnterpriseClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.redisEnterpriseCluster.RedisEnterpriseClusterTimeoutsOutputReference",
 		reflect.TypeOf((*RedisEnterpriseClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

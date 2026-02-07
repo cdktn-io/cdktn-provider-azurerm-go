@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatednssrvrecord
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecord",
+		"@cdktn/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecord",
 		reflect.TypeOf((*PrivateDnsSrvRecord)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordConfig",
+		"@cdktn/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordConfig",
 		reflect.TypeOf((*PrivateDnsSrvRecordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordRecord",
+		"@cdktn/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordRecord",
 		reflect.TypeOf((*PrivateDnsSrvRecordRecord)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordRecordList",
+		"@cdktn/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordRecordList",
 		reflect.TypeOf((*PrivateDnsSrvRecordRecordList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordRecordOutputReference",
+		"@cdktn/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordRecordOutputReference",
 		reflect.TypeOf((*PrivateDnsSrvRecordRecordOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordTimeouts",
+		"@cdktn/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordTimeouts",
 		reflect.TypeOf((*PrivateDnsSrvRecordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordTimeoutsOutputReference",
 		reflect.TypeOf((*PrivateDnsSrvRecordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

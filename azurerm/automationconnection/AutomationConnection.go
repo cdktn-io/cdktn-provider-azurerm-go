@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_connection azurerm_automation_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_connection azurerm_automation_connection}.
 type AutomationConnection interface {
 	cdktf.TerraformResource
 	AutomationAccountName() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_AutomationConnection) ValuesInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_connection azurerm_automation_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_connection azurerm_automation_connection} Resource.
 func NewAutomationConnection(scope constructs.Construct, id *string, config *AutomationConnectionConfig) AutomationConnection {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewAutomationConnection(scope constructs.Construct, id *string, config *Aut
 	j := jsiiProxy_AutomationConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnection",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewAutomationConnection(scope constructs.Construct, id *string, config *Aut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_connection azurerm_automation_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_connection azurerm_automation_connection} Resource.
 func NewAutomationConnection_Override(a AutomationConnection, scope constructs.Construct, id *string, config *AutomationConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnection",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnection",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -657,7 +657,7 @@ func AutomationConnection_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnection",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func AutomationConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnection",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func AutomationConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnection",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func AutomationConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnection",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func AutomationConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationConnection.AutomationConnection",
+		"@cdktn/provider-azurerm.automationConnection.AutomationConnection",
 		"tfResourceType",
 		&returns,
 	)

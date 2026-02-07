@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappstandard
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandard",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandard",
 		reflect.TypeOf((*LogicAppStandard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -145,15 +145,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardConfig",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardConfig",
 		reflect.TypeOf((*LogicAppStandardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardConnectionString",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardConnectionString",
 		reflect.TypeOf((*LogicAppStandardConnectionString)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardConnectionStringList",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardConnectionStringList",
 		reflect.TypeOf((*LogicAppStandardConnectionStringList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -175,7 +175,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardConnectionStringOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardConnectionStringOutputReference",
 		reflect.TypeOf((*LogicAppStandardConnectionStringOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,11 +213,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardIdentity",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardIdentity",
 		reflect.TypeOf((*LogicAppStandardIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardIdentityOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardIdentityOutputReference",
 		reflect.TypeOf((*LogicAppStandardIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -256,15 +256,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfig",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfig",
 		reflect.TypeOf((*LogicAppStandardSiteConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigCors",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigCors",
 		reflect.TypeOf((*LogicAppStandardSiteConfigCors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigCorsOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigCorsOutputReference",
 		reflect.TypeOf((*LogicAppStandardSiteConfigCorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedOrigins", GoGetter: "AllowedOrigins"},
@@ -302,15 +302,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestriction",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestriction",
 		reflect.TypeOf((*LogicAppStandardSiteConfigIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionHeaders",
 		reflect.TypeOf((*LogicAppStandardSiteConfigIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionHeadersList",
 		reflect.TypeOf((*LogicAppStandardSiteConfigIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -332,7 +332,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*LogicAppStandardSiteConfigIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -376,7 +376,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionList",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionList",
 		reflect.TypeOf((*LogicAppStandardSiteConfigIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -398,7 +398,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionOutputReference",
 		reflect.TypeOf((*LogicAppStandardSiteConfigIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -455,7 +455,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigOutputReference",
 		reflect.TypeOf((*LogicAppStandardSiteConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alwaysOn", GoGetter: "AlwaysOn"},
@@ -554,15 +554,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestriction",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestriction",
 		reflect.TypeOf((*LogicAppStandardSiteConfigScmIpRestriction)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionHeaders",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionHeaders",
 		reflect.TypeOf((*LogicAppStandardSiteConfigScmIpRestrictionHeaders)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionHeadersList",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionHeadersList",
 		reflect.TypeOf((*LogicAppStandardSiteConfigScmIpRestrictionHeadersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -584,7 +584,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionHeadersOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionHeadersOutputReference",
 		reflect.TypeOf((*LogicAppStandardSiteConfigScmIpRestrictionHeadersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -628,7 +628,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionList",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionList",
 		reflect.TypeOf((*LogicAppStandardSiteConfigScmIpRestrictionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -650,7 +650,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteConfigScmIpRestrictionOutputReference",
 		reflect.TypeOf((*LogicAppStandardSiteConfigScmIpRestrictionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -707,11 +707,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteCredential",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteCredential",
 		reflect.TypeOf((*LogicAppStandardSiteCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteCredentialList",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteCredentialList",
 		reflect.TypeOf((*LogicAppStandardSiteCredentialList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -732,7 +732,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardSiteCredentialOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardSiteCredentialOutputReference",
 		reflect.TypeOf((*LogicAppStandardSiteCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -766,11 +766,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardTimeouts",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardTimeouts",
 		reflect.TypeOf((*LogicAppStandardTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppStandard.LogicAppStandardTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandardTimeoutsOutputReference",
 		reflect.TypeOf((*LogicAppStandardTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

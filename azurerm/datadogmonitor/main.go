@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datadogmonitor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitor",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitor",
 		reflect.TypeOf((*DatadogMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorConfig",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorConfig",
 		reflect.TypeOf((*DatadogMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorDatadogOrganization",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorDatadogOrganization",
 		reflect.TypeOf((*DatadogMonitorDatadogOrganization)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorDatadogOrganizationOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorDatadogOrganizationOutputReference",
 		reflect.TypeOf((*DatadogMonitorDatadogOrganizationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorIdentity",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorIdentity",
 		reflect.TypeOf((*DatadogMonitorIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorIdentityOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorIdentityOutputReference",
 		reflect.TypeOf((*DatadogMonitorIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -193,11 +193,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorTimeouts",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorTimeouts",
 		reflect.TypeOf((*DatadogMonitorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorTimeoutsOutputReference",
 		reflect.TypeOf((*DatadogMonitorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -241,11 +241,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorUser",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorUser",
 		reflect.TypeOf((*DatadogMonitorUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.datadogMonitor.DatadogMonitorUserOutputReference",
+		"@cdktn/provider-azurerm.datadogMonitor.DatadogMonitorUserOutputReference",
 		reflect.TypeOf((*DatadogMonitorUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

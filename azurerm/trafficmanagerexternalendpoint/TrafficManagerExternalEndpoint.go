@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package trafficmanagerexternalendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/trafficmanagerexternalendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/trafficmanagerexternalendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint}.
 type TrafficManagerExternalEndpoint interface {
 	cdktf.TerraformResource
 	AlwaysServeEnabled() interface{}
@@ -595,7 +595,7 @@ func (j *jsiiProxy_TrafficManagerExternalEndpoint) WeightInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint} Resource.
 func NewTrafficManagerExternalEndpoint(scope constructs.Construct, id *string, config *TrafficManagerExternalEndpointConfig) TrafficManagerExternalEndpoint {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewTrafficManagerExternalEndpoint(scope constructs.Construct, id *string, c
 	j := jsiiProxy_TrafficManagerExternalEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
+		"@cdktn/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -613,12 +613,12 @@ func NewTrafficManagerExternalEndpoint(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint} Resource.
 func NewTrafficManagerExternalEndpoint_Override(t TrafficManagerExternalEndpoint, scope constructs.Construct, id *string, config *TrafficManagerExternalEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
+		"@cdktn/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -812,7 +812,7 @@ func TrafficManagerExternalEndpoint_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
+		"@cdktn/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -847,7 +847,7 @@ func TrafficManagerExternalEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
+		"@cdktn/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -866,7 +866,7 @@ func TrafficManagerExternalEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
+		"@cdktn/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func TrafficManagerExternalEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
+		"@cdktn/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -898,7 +898,7 @@ func TrafficManagerExternalEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
+		"@cdktn/provider-azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpoint",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotsecuritysolution
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolution",
 		reflect.TypeOf((*IotSecuritySolution)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalWorkspace", GoGetter: "AdditionalWorkspace"},
@@ -112,11 +112,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionAdditionalWorkspace",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionAdditionalWorkspace",
 		reflect.TypeOf((*IotSecuritySolutionAdditionalWorkspace)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionAdditionalWorkspaceList",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionAdditionalWorkspaceList",
 		reflect.TypeOf((*IotSecuritySolutionAdditionalWorkspaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -138,7 +138,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionAdditionalWorkspaceOutputReference",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionAdditionalWorkspaceOutputReference",
 		reflect.TypeOf((*IotSecuritySolutionAdditionalWorkspaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,15 +174,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionConfig",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionConfig",
 		reflect.TypeOf((*IotSecuritySolutionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabled",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabled",
 		reflect.TypeOf((*IotSecuritySolutionRecommendationsEnabled)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference",
 		reflect.TypeOf((*IotSecuritySolutionRecommendationsEnabledOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acrAuthentication", GoGetter: "AcrAuthentication"},
@@ -262,11 +262,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionTimeouts",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionTimeouts",
 		reflect.TypeOf((*IotSecuritySolutionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotSecuritySolution.IotSecuritySolutionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.iotSecuritySolution.IotSecuritySolutionTimeoutsOutputReference",
 		reflect.TypeOf((*IotSecuritySolutionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

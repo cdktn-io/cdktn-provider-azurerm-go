@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package natgateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.natGateway.NatGateway",
+		"@cdktn/provider-azurerm.natGateway.NatGateway",
 		reflect.TypeOf((*NatGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.natGateway.NatGatewayConfig",
+		"@cdktn/provider-azurerm.natGateway.NatGatewayConfig",
 		reflect.TypeOf((*NatGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.natGateway.NatGatewayTimeouts",
+		"@cdktn/provider-azurerm.natGateway.NatGatewayTimeouts",
 		reflect.TypeOf((*NatGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.natGateway.NatGatewayTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.natGateway.NatGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*NatGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

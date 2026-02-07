@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package image
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.image.Image",
+		"@cdktn/provider-azurerm.image.Image",
 		reflect.TypeOf((*Image)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.image.ImageConfig",
+		"@cdktn/provider-azurerm.image.ImageConfig",
 		reflect.TypeOf((*ImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.image.ImageDataDisk",
+		"@cdktn/provider-azurerm.image.ImageDataDisk",
 		reflect.TypeOf((*ImageDataDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.image.ImageDataDiskList",
+		"@cdktn/provider-azurerm.image.ImageDataDiskList",
 		reflect.TypeOf((*ImageDataDiskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.image.ImageDataDiskOutputReference",
+		"@cdktn/provider-azurerm.image.ImageDataDiskOutputReference",
 		reflect.TypeOf((*ImageDataDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blobUri", GoGetter: "BlobUri"},
@@ -178,11 +178,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.image.ImageOsDisk",
+		"@cdktn/provider-azurerm.image.ImageOsDisk",
 		reflect.TypeOf((*ImageOsDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.image.ImageOsDiskOutputReference",
+		"@cdktn/provider-azurerm.image.ImageOsDiskOutputReference",
 		reflect.TypeOf((*ImageOsDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blobUri", GoGetter: "BlobUri"},
@@ -237,11 +237,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.image.ImageTimeouts",
+		"@cdktn/provider-azurerm.image.ImageTimeouts",
 		reflect.TypeOf((*ImageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.image.ImageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.image.ImageTimeoutsOutputReference",
 		reflect.TypeOf((*ImageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

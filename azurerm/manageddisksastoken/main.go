@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package manageddisksastoken
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedDiskSasToken.ManagedDiskSasToken",
+		"@cdktn/provider-azurerm.managedDiskSasToken.ManagedDiskSasToken",
 		reflect.TypeOf((*ManagedDiskSasToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessLevel", GoGetter: "AccessLevel"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedDiskSasToken.ManagedDiskSasTokenConfig",
+		"@cdktn/provider-azurerm.managedDiskSasToken.ManagedDiskSasTokenConfig",
 		reflect.TypeOf((*ManagedDiskSasTokenConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedDiskSasToken.ManagedDiskSasTokenTimeouts",
+		"@cdktn/provider-azurerm.managedDiskSasToken.ManagedDiskSasTokenTimeouts",
 		reflect.TypeOf((*ManagedDiskSasTokenTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedDiskSasToken.ManagedDiskSasTokenTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managedDiskSasToken.ManagedDiskSasTokenTimeoutsOutputReference",
 		reflect.TypeOf((*ManagedDiskSasTokenTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

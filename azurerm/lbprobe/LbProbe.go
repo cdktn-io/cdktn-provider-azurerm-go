@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lbprobe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/lbprobe/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/lbprobe/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_probe azurerm_lb_probe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_probe azurerm_lb_probe}.
 type LbProbe interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -534,7 +534,7 @@ func (j *jsiiProxy_LbProbe) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_probe azurerm_lb_probe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_probe azurerm_lb_probe} Resource.
 func NewLbProbe(scope constructs.Construct, id *string, config *LbProbeConfig) LbProbe {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewLbProbe(scope constructs.Construct, id *string, config *LbProbeConfig) L
 	j := jsiiProxy_LbProbe{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lbProbe.LbProbe",
+		"@cdktn/provider-azurerm.lbProbe.LbProbe",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewLbProbe(scope constructs.Construct, id *string, config *LbProbeConfig) L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_probe azurerm_lb_probe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_probe azurerm_lb_probe} Resource.
 func NewLbProbe_Override(l LbProbe, scope constructs.Construct, id *string, config *LbProbeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lbProbe.LbProbe",
+		"@cdktn/provider-azurerm.lbProbe.LbProbe",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -740,7 +740,7 @@ func LbProbe_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbProbe.LbProbe",
+		"@cdktn/provider-azurerm.lbProbe.LbProbe",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func LbProbe_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbProbe.LbProbe",
+		"@cdktn/provider-azurerm.lbProbe.LbProbe",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func LbProbe_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbProbe.LbProbe",
+		"@cdktn/provider-azurerm.lbProbe.LbProbe",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func LbProbe_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbProbe.LbProbe",
+		"@cdktn/provider-azurerm.lbProbe.LbProbe",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func LbProbe_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.lbProbe.LbProbe",
+		"@cdktn/provider-azurerm.lbProbe.LbProbe",
 		"tfResourceType",
 		&returns,
 	)

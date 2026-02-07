@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorycredentialserviceprincipal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorycredentialserviceprincipal/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorycredentialserviceprincipal/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal}.
 type DataFactoryCredentialServicePrincipal interface {
 	cdktf.TerraformResource
 	Annotations() *[]*string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_DataFactoryCredentialServicePrincipal) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
 func NewDataFactoryCredentialServicePrincipal(scope constructs.Construct, id *string, config *DataFactoryCredentialServicePrincipalConfig) DataFactoryCredentialServicePrincipal {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewDataFactoryCredentialServicePrincipal(scope constructs.Construct, id *st
 	j := jsiiProxy_DataFactoryCredentialServicePrincipal{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
+		"@cdktn/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewDataFactoryCredentialServicePrincipal(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
 func NewDataFactoryCredentialServicePrincipal_Override(d DataFactoryCredentialServicePrincipal, scope constructs.Construct, id *string, config *DataFactoryCredentialServicePrincipalConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
+		"@cdktn/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -682,7 +682,7 @@ func DataFactoryCredentialServicePrincipal_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
+		"@cdktn/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func DataFactoryCredentialServicePrincipal_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
+		"@cdktn/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func DataFactoryCredentialServicePrincipal_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
+		"@cdktn/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func DataFactoryCredentialServicePrincipal_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
+		"@cdktn/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func DataFactoryCredentialServicePrincipal_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
+		"@cdktn/provider-azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipal",
 		"tfResourceType",
 		&returns,
 	)

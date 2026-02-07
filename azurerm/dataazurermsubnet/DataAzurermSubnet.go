@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermsubnet/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsubnet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/subnet azurerm_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/subnet azurerm_subnet}.
 type DataAzurermSubnet interface {
 	cdktf.TerraformDataSource
 	AddressPrefix() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataAzurermSubnet) VirtualNetworkNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/subnet azurerm_subnet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/subnet azurerm_subnet} Data Source.
 func NewDataAzurermSubnet(scope constructs.Construct, id *string, config *DataAzurermSubnetConfig) DataAzurermSubnet {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewDataAzurermSubnet(scope constructs.Construct, id *string, config *DataAz
 	j := jsiiProxy_DataAzurermSubnet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -464,12 +464,12 @@ func NewDataAzurermSubnet(scope constructs.Construct, id *string, config *DataAz
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/subnet azurerm_subnet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/subnet azurerm_subnet} Data Source.
 func NewDataAzurermSubnet_Override(d DataAzurermSubnet, scope constructs.Construct, id *string, config *DataAzurermSubnetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -575,7 +575,7 @@ func DataAzurermSubnet_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -610,7 +610,7 @@ func DataAzurermSubnet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func DataAzurermSubnet_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -648,7 +648,7 @@ func DataAzurermSubnet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func DataAzurermSubnet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
 		"tfResourceType",
 		&returns,
 	)

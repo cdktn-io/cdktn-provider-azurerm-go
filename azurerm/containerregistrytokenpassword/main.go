@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerregistrytokenpassword
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPassword",
 		reflect.TypeOf((*ContainerRegistryTokenPassword)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordConfig",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordConfig",
 		reflect.TypeOf((*ContainerRegistryTokenPasswordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword1",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword1",
 		reflect.TypeOf((*ContainerRegistryTokenPasswordPassword1)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword1OutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword1OutputReference",
 		reflect.TypeOf((*ContainerRegistryTokenPasswordPassword1OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -123,11 +123,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword2",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword2",
 		reflect.TypeOf((*ContainerRegistryTokenPasswordPassword2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword2OutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword2OutputReference",
 		reflect.TypeOf((*ContainerRegistryTokenPasswordPassword2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordTimeouts",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordTimeouts",
 		reflect.TypeOf((*ContainerRegistryTokenPasswordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerRegistryTokenPasswordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

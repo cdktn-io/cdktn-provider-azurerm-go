@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkconnectionmonitor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitor",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitor",
 		reflect.TypeOf((*NetworkConnectionMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,23 +94,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorConfig",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorConfig",
 		reflect.TypeOf((*NetworkConnectionMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpoint",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpoint",
 		reflect.TypeOf((*NetworkConnectionMonitorEndpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilter",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilter",
 		reflect.TypeOf((*NetworkConnectionMonitorEndpointFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterItem",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterItem",
 		reflect.TypeOf((*NetworkConnectionMonitorEndpointFilterItem)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterItemList",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterItemList",
 		reflect.TypeOf((*NetworkConnectionMonitorEndpointFilterItemList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -132,7 +132,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterItemOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterItemOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorEndpointFilterItemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -170,7 +170,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorEndpointFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,7 +209,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointList",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointList",
 		reflect.TypeOf((*NetworkConnectionMonitorEndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -231,7 +231,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorEndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
@@ -287,15 +287,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfiguration",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfiguration",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfiguration",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfiguration",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationHttpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -346,11 +346,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeader",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeader",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -372,7 +372,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -408,11 +408,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationIcmpConfiguration",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationIcmpConfiguration",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationIcmpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -447,7 +447,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationList",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationList",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -469,7 +469,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -527,11 +527,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationSuccessThreshold",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationSuccessThreshold",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationSuccessThreshold)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "checksFailedPercent", GoGetter: "ChecksFailedPercent"},
@@ -569,11 +569,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationTcpConfiguration",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationTcpConfiguration",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationTcpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationTcpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationTcpConfigurationOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorTestConfigurationTcpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -613,11 +613,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestGroup",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestGroup",
 		reflect.TypeOf((*NetworkConnectionMonitorTestGroup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestGroupList",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestGroupList",
 		reflect.TypeOf((*NetworkConnectionMonitorTestGroupList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -639,7 +639,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestGroupOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestGroupOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorTestGroupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -682,11 +682,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTimeouts",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTimeouts",
 		reflect.TypeOf((*NetworkConnectionMonitorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkConnectionMonitor.NetworkConnectionMonitorTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkConnectionMonitorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

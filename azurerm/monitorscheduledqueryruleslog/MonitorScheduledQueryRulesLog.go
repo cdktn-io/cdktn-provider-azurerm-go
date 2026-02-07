@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitorscheduledqueryruleslog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitorscheduledqueryruleslog/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitorscheduledqueryruleslog/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log}.
 type MonitorScheduledQueryRulesLog interface {
 	cdktf.TerraformResource
 	AuthorizedResourceIds() *[]*string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesLog) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log} Resource.
 func NewMonitorScheduledQueryRulesLog(scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesLogConfig) MonitorScheduledQueryRulesLog {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewMonitorScheduledQueryRulesLog(scope constructs.Construct, id *string, co
 	j := jsiiProxy_MonitorScheduledQueryRulesLog{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewMonitorScheduledQueryRulesLog(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log} Resource.
 func NewMonitorScheduledQueryRulesLog_Override(m MonitorScheduledQueryRulesLog, scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesLogConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -751,7 +751,7 @@ func MonitorScheduledQueryRulesLog_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -786,7 +786,7 @@ func MonitorScheduledQueryRulesLog_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func MonitorScheduledQueryRulesLog_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func MonitorScheduledQueryRulesLog_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func MonitorScheduledQueryRulesLog_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
+		"@cdktn/provider-azurerm.monitorScheduledQueryRulesLog.MonitorScheduledQueryRulesLog",
 		"tfResourceType",
 		&returns,
 	)

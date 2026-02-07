@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection}.
 type SpringCloudConnection interface {
 	cdktf.TerraformResource
 	Authentication() SpringCloudConnectionAuthenticationOutputReference
@@ -498,7 +498,7 @@ func (j *jsiiProxy_SpringCloudConnection) VnetSolutionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection} Resource.
 func NewSpringCloudConnection(scope constructs.Construct, id *string, config *SpringCloudConnectionConfig) SpringCloudConnection {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewSpringCloudConnection(scope constructs.Construct, id *string, config *Sp
 	j := jsiiProxy_SpringCloudConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudConnection.SpringCloudConnection",
+		"@cdktn/provider-azurerm.springCloudConnection.SpringCloudConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewSpringCloudConnection(scope constructs.Construct, id *string, config *Sp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection} Resource.
 func NewSpringCloudConnection_Override(s SpringCloudConnection, scope constructs.Construct, id *string, config *SpringCloudConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudConnection.SpringCloudConnection",
+		"@cdktn/provider-azurerm.springCloudConnection.SpringCloudConnection",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -671,7 +671,7 @@ func SpringCloudConnection_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudConnection.SpringCloudConnection",
+		"@cdktn/provider-azurerm.springCloudConnection.SpringCloudConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -706,7 +706,7 @@ func SpringCloudConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudConnection.SpringCloudConnection",
+		"@cdktn/provider-azurerm.springCloudConnection.SpringCloudConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -725,7 +725,7 @@ func SpringCloudConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudConnection.SpringCloudConnection",
+		"@cdktn/provider-azurerm.springCloudConnection.SpringCloudConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func SpringCloudConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudConnection.SpringCloudConnection",
+		"@cdktn/provider-azurerm.springCloudConnection.SpringCloudConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func SpringCloudConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudConnection.SpringCloudConnection",
+		"@cdktn/provider-azurerm.springCloudConnection.SpringCloudConnection",
 		"tfResourceType",
 		&returns,
 	)

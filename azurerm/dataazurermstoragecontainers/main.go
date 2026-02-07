@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermstoragecontainers
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainers",
+		"@cdktn/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainers",
 		reflect.TypeOf((*DataAzurermStorageContainers)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,15 +68,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersConfig",
+		"@cdktn/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersConfig",
 		reflect.TypeOf((*DataAzurermStorageContainersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersContainers",
+		"@cdktn/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersContainers",
 		reflect.TypeOf((*DataAzurermStorageContainersContainers)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersContainersList",
+		"@cdktn/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersContainersList",
 		reflect.TypeOf((*DataAzurermStorageContainersContainersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -97,7 +97,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersContainersOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersContainersOutputReference",
 		reflect.TypeOf((*DataAzurermStorageContainersContainersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersTimeouts",
 		reflect.TypeOf((*DataAzurermStorageContainersTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermStorageContainersTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

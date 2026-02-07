@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerverifierworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanagerverifierworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanagerverifierworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace}.
 type NetworkManagerVerifierWorkspace interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_NetworkManagerVerifierWorkspace) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace} Resource.
 func NewNetworkManagerVerifierWorkspace(scope constructs.Construct, id *string, config *NetworkManagerVerifierWorkspaceConfig) NetworkManagerVerifierWorkspace {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewNetworkManagerVerifierWorkspace(scope constructs.Construct, id *string, 
 	j := jsiiProxy_NetworkManagerVerifierWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewNetworkManagerVerifierWorkspace(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace} Resource.
 func NewNetworkManagerVerifierWorkspace_Override(n NetworkManagerVerifierWorkspace, scope constructs.Construct, id *string, config *NetworkManagerVerifierWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -624,7 +624,7 @@ func NetworkManagerVerifierWorkspace_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func NetworkManagerVerifierWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func NetworkManagerVerifierWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func NetworkManagerVerifierWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func NetworkManagerVerifierWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspace",
 		"tfResourceType",
 		&returns,
 	)

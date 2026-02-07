@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermpolicyassignment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignment",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignment",
 		reflect.TypeOf((*DataAzurermPolicyAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentConfig",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentConfig",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentIdentity",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentIdentity",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentIdentityList",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -105,7 +105,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentNonComplianceMessage",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentNonComplianceMessage",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentNonComplianceMessage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentNonComplianceMessageList",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentNonComplianceMessageList",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentNonComplianceMessageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentNonComplianceMessageOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentNonComplianceMessageOutputReference",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentNonComplianceMessageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -200,11 +200,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentTimeouts",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermPolicyAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package capacityreservationgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.capacityReservationGroup.CapacityReservationGroup",
+		"@cdktn/provider-azurerm.capacityReservationGroup.CapacityReservationGroup",
 		reflect.TypeOf((*CapacityReservationGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.capacityReservationGroup.CapacityReservationGroupConfig",
+		"@cdktn/provider-azurerm.capacityReservationGroup.CapacityReservationGroupConfig",
 		reflect.TypeOf((*CapacityReservationGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.capacityReservationGroup.CapacityReservationGroupTimeouts",
+		"@cdktn/provider-azurerm.capacityReservationGroup.CapacityReservationGroupTimeouts",
 		reflect.TypeOf((*CapacityReservationGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.capacityReservationGroup.CapacityReservationGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.capacityReservationGroup.CapacityReservationGroupTimeoutsOutputReference",
 		reflect.TypeOf((*CapacityReservationGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

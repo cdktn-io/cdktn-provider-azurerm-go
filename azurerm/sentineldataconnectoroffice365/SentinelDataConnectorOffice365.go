@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentineldataconnectoroffice365
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sentineldataconnectoroffice365/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentineldataconnectoroffice365/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_data_connector_office_365 azurerm_sentinel_data_connector_office_365}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_data_connector_office_365 azurerm_sentinel_data_connector_office_365}.
 type SentinelDataConnectorOffice365 interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -476,7 +476,7 @@ func (j *jsiiProxy_SentinelDataConnectorOffice365) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_data_connector_office_365 azurerm_sentinel_data_connector_office_365} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_data_connector_office_365 azurerm_sentinel_data_connector_office_365} Resource.
 func NewSentinelDataConnectorOffice365(scope constructs.Construct, id *string, config *SentinelDataConnectorOffice365Config) SentinelDataConnectorOffice365 {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewSentinelDataConnectorOffice365(scope constructs.Construct, id *string, c
 	j := jsiiProxy_SentinelDataConnectorOffice365{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewSentinelDataConnectorOffice365(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_data_connector_office_365 azurerm_sentinel_data_connector_office_365} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_data_connector_office_365 azurerm_sentinel_data_connector_office_365} Resource.
 func NewSentinelDataConnectorOffice365_Override(s SentinelDataConnectorOffice365, scope constructs.Construct, id *string, config *SentinelDataConnectorOffice365Config) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -660,7 +660,7 @@ func SentinelDataConnectorOffice365_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func SentinelDataConnectorOffice365_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func SentinelDataConnectorOffice365_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func SentinelDataConnectorOffice365_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func SentinelDataConnectorOffice365_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
 		"tfResourceType",
 		&returns,
 	)

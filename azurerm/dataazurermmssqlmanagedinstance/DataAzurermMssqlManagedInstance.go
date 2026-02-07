@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmssqlmanagedinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermmssqlmanagedinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmssqlmanagedinstance/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_managed_instance azurerm_mssql_managed_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_managed_instance azurerm_mssql_managed_instance}.
 type DataAzurermMssqlManagedInstance interface {
 	cdktf.TerraformDataSource
 	AdministratorLogin() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_DataAzurermMssqlManagedInstance) Vcores() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_managed_instance azurerm_mssql_managed_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_managed_instance azurerm_mssql_managed_instance} Data Source.
 func NewDataAzurermMssqlManagedInstance(scope constructs.Construct, id *string, config *DataAzurermMssqlManagedInstanceConfig) DataAzurermMssqlManagedInstance {
 	_init_.Initialize()
 
@@ -554,7 +554,7 @@ func NewDataAzurermMssqlManagedInstance(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAzurermMssqlManagedInstance{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
+		"@cdktn/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -562,12 +562,12 @@ func NewDataAzurermMssqlManagedInstance(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/mssql_managed_instance azurerm_mssql_managed_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/mssql_managed_instance azurerm_mssql_managed_instance} Data Source.
 func NewDataAzurermMssqlManagedInstance_Override(d DataAzurermMssqlManagedInstance, scope constructs.Construct, id *string, config *DataAzurermMssqlManagedInstanceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
+		"@cdktn/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -662,7 +662,7 @@ func DataAzurermMssqlManagedInstance_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
+		"@cdktn/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -697,7 +697,7 @@ func DataAzurermMssqlManagedInstance_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
+		"@cdktn/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -716,7 +716,7 @@ func DataAzurermMssqlManagedInstance_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
+		"@cdktn/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -735,7 +735,7 @@ func DataAzurermMssqlManagedInstance_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
+		"@cdktn/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func DataAzurermMssqlManagedInstance_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
+		"@cdktn/provider-azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstance",
 		"tfResourceType",
 		&returns,
 	)

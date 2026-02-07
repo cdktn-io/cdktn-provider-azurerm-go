@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package elasticsan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/elasticsan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/elasticsan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewElasticSanSkuOutputReference(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_ElasticSanSkuOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSanSkuOutputReference",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSanSkuOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewElasticSanSkuOutputReference_Override(e ElasticSanSkuOutputReference, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.elasticSan.ElasticSanSkuOutputReference",
+		"@cdktn/provider-azurerm.elasticSan.ElasticSanSkuOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

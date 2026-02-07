@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccacheblobtarget
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheBlobTarget.HpcCacheBlobTarget",
+		"@cdktn/provider-azurerm.hpcCacheBlobTarget.HpcCacheBlobTarget",
 		reflect.TypeOf((*HpcCacheBlobTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicyName", GoGetter: "AccessPolicyName"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCacheBlobTarget.HpcCacheBlobTargetConfig",
+		"@cdktn/provider-azurerm.hpcCacheBlobTarget.HpcCacheBlobTargetConfig",
 		reflect.TypeOf((*HpcCacheBlobTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCacheBlobTarget.HpcCacheBlobTargetTimeouts",
+		"@cdktn/provider-azurerm.hpcCacheBlobTarget.HpcCacheBlobTargetTimeouts",
 		reflect.TypeOf((*HpcCacheBlobTargetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCacheBlobTarget.HpcCacheBlobTargetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.hpcCacheBlobTarget.HpcCacheBlobTargetTimeoutsOutputReference",
 		reflect.TypeOf((*HpcCacheBlobTargetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

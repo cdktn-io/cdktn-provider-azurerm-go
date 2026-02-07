@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redisfirewallrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisFirewallRule.RedisFirewallRule",
+		"@cdktn/provider-azurerm.redisFirewallRule.RedisFirewallRule",
 		reflect.TypeOf((*RedisFirewallRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisFirewallRule.RedisFirewallRuleConfig",
+		"@cdktn/provider-azurerm.redisFirewallRule.RedisFirewallRuleConfig",
 		reflect.TypeOf((*RedisFirewallRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.redisFirewallRule.RedisFirewallRuleTimeouts",
+		"@cdktn/provider-azurerm.redisFirewallRule.RedisFirewallRuleTimeouts",
 		reflect.TypeOf((*RedisFirewallRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.redisFirewallRule.RedisFirewallRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.redisFirewallRule.RedisFirewallRuleTimeoutsOutputReference",
 		reflect.TypeOf((*RedisFirewallRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

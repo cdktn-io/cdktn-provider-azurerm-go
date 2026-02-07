@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appserviceenvironmentv3
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appserviceenvironmentv3/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appserviceenvironmentv3/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_environment_v3 azurerm_app_service_environment_v3}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_environment_v3 azurerm_app_service_environment_v3}.
 type AppServiceEnvironmentV3 interface {
 	cdktf.TerraformResource
 	AllowNewPrivateEndpointConnections() interface{}
@@ -670,7 +670,7 @@ func (j *jsiiProxy_AppServiceEnvironmentV3) ZoneRedundantInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_environment_v3 azurerm_app_service_environment_v3} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_environment_v3 azurerm_app_service_environment_v3} Resource.
 func NewAppServiceEnvironmentV3(scope constructs.Construct, id *string, config *AppServiceEnvironmentV3Config) AppServiceEnvironmentV3 {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewAppServiceEnvironmentV3(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_AppServiceEnvironmentV3{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -688,12 +688,12 @@ func NewAppServiceEnvironmentV3(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_environment_v3 azurerm_app_service_environment_v3} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_environment_v3 azurerm_app_service_environment_v3} Resource.
 func NewAppServiceEnvironmentV3_Override(a AppServiceEnvironmentV3, scope constructs.Construct, id *string, config *AppServiceEnvironmentV3Config) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -887,7 +887,7 @@ func AppServiceEnvironmentV3_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -922,7 +922,7 @@ func AppServiceEnvironmentV3_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -941,7 +941,7 @@ func AppServiceEnvironmentV3_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -960,7 +960,7 @@ func AppServiceEnvironmentV3_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -973,7 +973,7 @@ func AppServiceEnvironmentV3_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
+		"@cdktn/provider-azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3",
 		"tfResourceType",
 		&returns,
 	)

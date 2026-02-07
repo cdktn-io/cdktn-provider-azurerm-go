@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermlocation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/location azurerm_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/location azurerm_location}.
 type DataAzurermLocation interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -334,7 +334,7 @@ func (j *jsiiProxy_DataAzurermLocation) ZoneMappings() DataAzurermLocationZoneMa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/location azurerm_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/location azurerm_location} Data Source.
 func NewDataAzurermLocation(scope constructs.Construct, id *string, config *DataAzurermLocationConfig) DataAzurermLocation {
 	_init_.Initialize()
 
@@ -344,7 +344,7 @@ func NewDataAzurermLocation(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DataAzurermLocation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -352,12 +352,12 @@ func NewDataAzurermLocation(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/location azurerm_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/location azurerm_location} Data Source.
 func NewDataAzurermLocation_Override(d DataAzurermLocation, scope constructs.Construct, id *string, config *DataAzurermLocationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -441,7 +441,7 @@ func DataAzurermLocation_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -476,7 +476,7 @@ func DataAzurermLocation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -495,7 +495,7 @@ func DataAzurermLocation_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataAzurermLocation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -527,7 +527,7 @@ func DataAzurermLocation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbsqlstoredprocedure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cosmosdbsqlstoredprocedure/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbsqlstoredprocedure/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure}.
 type CosmosdbSqlStoredProcedure interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_CosmosdbSqlStoredProcedure) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure} Resource.
 func NewCosmosdbSqlStoredProcedure(scope constructs.Construct, id *string, config *CosmosdbSqlStoredProcedureConfig) CosmosdbSqlStoredProcedure {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewCosmosdbSqlStoredProcedure(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_CosmosdbSqlStoredProcedure{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
+		"@cdktn/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -490,12 +490,12 @@ func NewCosmosdbSqlStoredProcedure(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure} Resource.
 func NewCosmosdbSqlStoredProcedure_Override(c CosmosdbSqlStoredProcedure, scope constructs.Construct, id *string, config *CosmosdbSqlStoredProcedureConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
+		"@cdktn/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -656,7 +656,7 @@ func CosmosdbSqlStoredProcedure_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
+		"@cdktn/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -691,7 +691,7 @@ func CosmosdbSqlStoredProcedure_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
+		"@cdktn/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func CosmosdbSqlStoredProcedure_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
+		"@cdktn/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func CosmosdbSqlStoredProcedure_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
+		"@cdktn/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func CosmosdbSqlStoredProcedure_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
+		"@cdktn/provider-azurerm.cosmosdbSqlStoredProcedure.CosmosdbSqlStoredProcedure",
 		"tfResourceType",
 		&returns,
 	)

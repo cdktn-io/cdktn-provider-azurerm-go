@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dedicatedhardwaresecuritymodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dedicatedhardwaresecuritymodule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dedicatedhardwaresecuritymodule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module}.
 type DedicatedHardwareSecurityModule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_DedicatedHardwareSecurityModule) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module} Resource.
 func NewDedicatedHardwareSecurityModule(scope constructs.Construct, id *string, config *DedicatedHardwareSecurityModuleConfig) DedicatedHardwareSecurityModule {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewDedicatedHardwareSecurityModule(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DedicatedHardwareSecurityModule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
+		"@cdktn/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -563,12 +563,12 @@ func NewDedicatedHardwareSecurityModule(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module} Resource.
 func NewDedicatedHardwareSecurityModule_Override(d DedicatedHardwareSecurityModule, scope constructs.Construct, id *string, config *DedicatedHardwareSecurityModuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
+		"@cdktn/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -740,7 +740,7 @@ func DedicatedHardwareSecurityModule_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
+		"@cdktn/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func DedicatedHardwareSecurityModule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
+		"@cdktn/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func DedicatedHardwareSecurityModule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
+		"@cdktn/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func DedicatedHardwareSecurityModule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
+		"@cdktn/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func DedicatedHardwareSecurityModule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
+		"@cdktn/provider-azurerm.dedicatedHardwareSecurityModule.DedicatedHardwareSecurityModule",
 		"tfResourceType",
 		&returns,
 	)

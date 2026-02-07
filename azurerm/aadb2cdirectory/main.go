@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package aadb2cdirectory
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectory",
 		reflect.TypeOf((*Aadb2CDirectory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectoryConfig",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectoryConfig",
 		reflect.TypeOf((*Aadb2CDirectoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectoryTimeouts",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectoryTimeouts",
 		reflect.TypeOf((*Aadb2CDirectoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.aadb2CDirectory.Aadb2CDirectoryTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.aadb2CDirectory.Aadb2CDirectoryTimeoutsOutputReference",
 		reflect.TypeOf((*Aadb2CDirectoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapseworkspace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspace",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
 		reflect.TypeOf((*SynapseWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -131,11 +131,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceAzureDevopsRepo",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceAzureDevopsRepo",
 		reflect.TypeOf((*SynapseWorkspaceAzureDevopsRepo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceAzureDevopsRepoOutputReference",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceAzureDevopsRepoOutputReference",
 		reflect.TypeOf((*SynapseWorkspaceAzureDevopsRepoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -183,15 +183,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceConfig",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceConfig",
 		reflect.TypeOf((*SynapseWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceCustomerManagedKey",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceCustomerManagedKey",
 		reflect.TypeOf((*SynapseWorkspaceCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*SynapseWorkspaceCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -231,11 +231,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceGithubRepo",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceGithubRepo",
 		reflect.TypeOf((*SynapseWorkspaceGithubRepo)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceGithubRepoOutputReference",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceGithubRepoOutputReference",
 		reflect.TypeOf((*SynapseWorkspaceGithubRepoOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -281,11 +281,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceIdentity",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceIdentity",
 		reflect.TypeOf((*SynapseWorkspaceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceIdentityOutputReference",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceIdentityOutputReference",
 		reflect.TypeOf((*SynapseWorkspaceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -324,11 +324,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceTimeouts",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceTimeouts",
 		reflect.TypeOf((*SynapseWorkspaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseWorkspace.SynapseWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspaceTimeoutsOutputReference",
 		reflect.TypeOf((*SynapseWorkspaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

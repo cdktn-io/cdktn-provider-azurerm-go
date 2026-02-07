@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package webapplicationfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/webapplicationfirewallpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webapplicationfirewallpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_application_firewall_policy azurerm_web_application_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_application_firewall_policy azurerm_web_application_firewall_policy}.
 type WebApplicationFirewallPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_application_firewall_policy azurerm_web_application_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_application_firewall_policy azurerm_web_application_firewall_policy} Resource.
 func NewWebApplicationFirewallPolicy(scope constructs.Construct, id *string, config *WebApplicationFirewallPolicyConfig) WebApplicationFirewallPolicy {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewWebApplicationFirewallPolicy(scope constructs.Construct, id *string, con
 	j := jsiiProxy_WebApplicationFirewallPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
+		"@cdktn/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewWebApplicationFirewallPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/web_application_firewall_policy azurerm_web_application_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/web_application_firewall_policy azurerm_web_application_firewall_policy} Resource.
 func NewWebApplicationFirewallPolicy_Override(w WebApplicationFirewallPolicy, scope constructs.Construct, id *string, config *WebApplicationFirewallPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
+		"@cdktn/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -682,7 +682,7 @@ func WebApplicationFirewallPolicy_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
+		"@cdktn/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -717,7 +717,7 @@ func WebApplicationFirewallPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
+		"@cdktn/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -736,7 +736,7 @@ func WebApplicationFirewallPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
+		"@cdktn/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func WebApplicationFirewallPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
+		"@cdktn/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func WebApplicationFirewallPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
+		"@cdktn/provider-azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package synapseroleassignment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignment",
 		reflect.TypeOf((*SynapseRoleAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignmentConfig",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignmentConfig",
 		reflect.TypeOf((*SynapseRoleAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignmentTimeouts",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignmentTimeouts",
 		reflect.TypeOf((*SynapseRoleAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.synapseRoleAssignment.SynapseRoleAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*SynapseRoleAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

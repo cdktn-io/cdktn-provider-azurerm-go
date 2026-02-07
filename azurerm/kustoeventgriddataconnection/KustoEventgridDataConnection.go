@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustoeventgriddataconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kustoeventgriddataconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustoeventgriddataconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection}.
 type KustoEventgridDataConnection interface {
 	cdktf.TerraformResource
 	BlobStorageEventType() *string
@@ -758,7 +758,7 @@ func (j *jsiiProxy_KustoEventgridDataConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection} Resource.
 func NewKustoEventgridDataConnection(scope constructs.Construct, id *string, config *KustoEventgridDataConnectionConfig) KustoEventgridDataConnection {
 	_init_.Initialize()
 
@@ -768,7 +768,7 @@ func NewKustoEventgridDataConnection(scope constructs.Construct, id *string, con
 	j := jsiiProxy_KustoEventgridDataConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -776,12 +776,12 @@ func NewKustoEventgridDataConnection(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_eventgrid_data_connection azurerm_kusto_eventgrid_data_connection} Resource.
 func NewKustoEventgridDataConnection_Override(k KustoEventgridDataConnection, scope constructs.Construct, id *string, config *KustoEventgridDataConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -1074,7 +1074,7 @@ func KustoEventgridDataConnection_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1109,7 +1109,7 @@ func KustoEventgridDataConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1128,7 +1128,7 @@ func KustoEventgridDataConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1147,7 +1147,7 @@ func KustoEventgridDataConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1160,7 +1160,7 @@ func KustoEventgridDataConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
+		"@cdktn/provider-azurerm.kustoEventgridDataConnection.KustoEventgridDataConnection",
 		"tfResourceType",
 		&returns,
 	)

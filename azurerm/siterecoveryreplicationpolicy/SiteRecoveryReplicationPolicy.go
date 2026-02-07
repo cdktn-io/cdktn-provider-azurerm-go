@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package siterecoveryreplicationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/siterecoveryreplicationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/siterecoveryreplicationpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy}.
 type SiteRecoveryReplicationPolicy interface {
 	cdktf.TerraformResource
 	ApplicationConsistentSnapshotFrequencyInMinutes() *float64
@@ -449,7 +449,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Resource.
 func NewSiteRecoveryReplicationPolicy(scope constructs.Construct, id *string, config *SiteRecoveryReplicationPolicyConfig) SiteRecoveryReplicationPolicy {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewSiteRecoveryReplicationPolicy(scope constructs.Construct, id *string, co
 	j := jsiiProxy_SiteRecoveryReplicationPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
+		"@cdktn/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewSiteRecoveryReplicationPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Resource.
 func NewSiteRecoveryReplicationPolicy_Override(s SiteRecoveryReplicationPolicy, scope constructs.Construct, id *string, config *SiteRecoveryReplicationPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
+		"@cdktn/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -622,7 +622,7 @@ func SiteRecoveryReplicationPolicy_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
+		"@cdktn/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func SiteRecoveryReplicationPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
+		"@cdktn/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func SiteRecoveryReplicationPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
+		"@cdktn/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func SiteRecoveryReplicationPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
+		"@cdktn/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func SiteRecoveryReplicationPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
+		"@cdktn/provider-azurerm.siteRecoveryReplicationPolicy.SiteRecoveryReplicationPolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlserverdnsalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqlserverdnsalias/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlserverdnsalias/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias}.
 type MssqlServerDnsAlias interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -391,7 +391,7 @@ func (j *jsiiProxy_MssqlServerDnsAlias) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias} Resource.
 func NewMssqlServerDnsAlias(scope constructs.Construct, id *string, config *MssqlServerDnsAliasConfig) MssqlServerDnsAlias {
 	_init_.Initialize()
 
@@ -401,7 +401,7 @@ func NewMssqlServerDnsAlias(scope constructs.Construct, id *string, config *Mssq
 	j := jsiiProxy_MssqlServerDnsAlias{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -409,12 +409,12 @@ func NewMssqlServerDnsAlias(scope constructs.Construct, id *string, config *Mssq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_server_dns_alias azurerm_mssql_server_dns_alias} Resource.
 func NewMssqlServerDnsAlias_Override(m MssqlServerDnsAlias, scope constructs.Construct, id *string, config *MssqlServerDnsAliasConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -531,7 +531,7 @@ func MssqlServerDnsAlias_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -566,7 +566,7 @@ func MssqlServerDnsAlias_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func MssqlServerDnsAlias_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -604,7 +604,7 @@ func MssqlServerDnsAlias_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func MssqlServerDnsAlias_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
+		"@cdktn/provider-azurerm.mssqlServerDnsAlias.MssqlServerDnsAlias",
 		"tfResourceType",
 		&returns,
 	)

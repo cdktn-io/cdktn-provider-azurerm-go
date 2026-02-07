@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitordatacollectionruleassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/monitordatacollectionruleassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitordatacollectionruleassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_data_collection_rule_association azurerm_monitor_data_collection_rule_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_data_collection_rule_association azurerm_monitor_data_collection_rule_association}.
 type MonitorDataCollectionRuleAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -453,7 +453,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleAssociation) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_data_collection_rule_association azurerm_monitor_data_collection_rule_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_data_collection_rule_association azurerm_monitor_data_collection_rule_association} Resource.
 func NewMonitorDataCollectionRuleAssociation(scope constructs.Construct, id *string, config *MonitorDataCollectionRuleAssociationConfig) MonitorDataCollectionRuleAssociation {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewMonitorDataCollectionRuleAssociation(scope constructs.Construct, id *str
 	j := jsiiProxy_MonitorDataCollectionRuleAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
+		"@cdktn/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewMonitorDataCollectionRuleAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/monitor_data_collection_rule_association azurerm_monitor_data_collection_rule_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/monitor_data_collection_rule_association azurerm_monitor_data_collection_rule_association} Resource.
 func NewMonitorDataCollectionRuleAssociation_Override(m MonitorDataCollectionRuleAssociation, scope constructs.Construct, id *string, config *MonitorDataCollectionRuleAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
+		"@cdktn/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -626,7 +626,7 @@ func MonitorDataCollectionRuleAssociation_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
+		"@cdktn/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -661,7 +661,7 @@ func MonitorDataCollectionRuleAssociation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
+		"@cdktn/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func MonitorDataCollectionRuleAssociation_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
+		"@cdktn/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func MonitorDataCollectionRuleAssociation_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
+		"@cdktn/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func MonitorDataCollectionRuleAssociation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
+		"@cdktn/provider-azurerm.monitorDataCollectionRuleAssociation.MonitorDataCollectionRuleAssociation",
 		"tfResourceType",
 		&returns,
 	)

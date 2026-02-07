@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelemail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/botchannelemail/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/botchannelemail/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_email azurerm_bot_channel_email}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_email azurerm_bot_channel_email}.
 type BotChannelEmail interface {
 	cdktf.TerraformResource
 	BotName() *string
@@ -474,7 +474,7 @@ func (j *jsiiProxy_BotChannelEmail) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_email azurerm_bot_channel_email} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_email azurerm_bot_channel_email} Resource.
 func NewBotChannelEmail(scope constructs.Construct, id *string, config *BotChannelEmailConfig) BotChannelEmail {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewBotChannelEmail(scope constructs.Construct, id *string, config *BotChann
 	j := jsiiProxy_BotChannelEmail{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmail",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmail",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewBotChannelEmail(scope constructs.Construct, id *string, config *BotChann
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_channel_email azurerm_bot_channel_email} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_channel_email azurerm_bot_channel_email} Resource.
 func NewBotChannelEmail_Override(b BotChannelEmail, scope constructs.Construct, id *string, config *BotChannelEmailConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmail",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmail",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -658,7 +658,7 @@ func BotChannelEmail_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmail",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmail",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func BotChannelEmail_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmail",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmail",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func BotChannelEmail_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmail",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmail",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func BotChannelEmail_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmail",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmail",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func BotChannelEmail_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.botChannelEmail.BotChannelEmail",
+		"@cdktn/provider-azurerm.botChannelEmail.BotChannelEmail",
 		"tfResourceType",
 		&returns,
 	)

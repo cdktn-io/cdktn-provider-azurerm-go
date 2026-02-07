@@ -1,11 +1,11 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dynatracemonitor
 
 
 type DynatraceMonitorEnvironmentPropertiesEnvironmentInfo struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dynatrace_monitor#environment_id DynatraceMonitor#environment_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dynatrace_monitor#environment_id DynatraceMonitor#environment_id}.
 	EnvironmentId *string `field:"required" json:"environmentId" yaml:"environmentId"`
 }
 

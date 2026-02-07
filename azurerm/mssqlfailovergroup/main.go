@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlfailovergroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroup",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroup",
 		reflect.TypeOf((*MssqlFailoverGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupConfig",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupConfig",
 		reflect.TypeOf((*MssqlFailoverGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupPartnerServer",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupPartnerServer",
 		reflect.TypeOf((*MssqlFailoverGroupPartnerServer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupPartnerServerList",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupPartnerServerList",
 		reflect.TypeOf((*MssqlFailoverGroupPartnerServerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -119,7 +119,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupPartnerServerOutputReference",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupPartnerServerOutputReference",
 		reflect.TypeOf((*MssqlFailoverGroupPartnerServerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupReadWriteEndpointFailoverPolicy",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupReadWriteEndpointFailoverPolicy",
 		reflect.TypeOf((*MssqlFailoverGroupReadWriteEndpointFailoverPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReference",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReference",
 		reflect.TypeOf((*MssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -196,11 +196,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupTimeouts",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupTimeouts",
 		reflect.TypeOf((*MssqlFailoverGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlFailoverGroup.MssqlFailoverGroupTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlFailoverGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

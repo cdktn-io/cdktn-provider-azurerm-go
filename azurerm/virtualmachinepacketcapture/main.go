@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachinepacketcapture
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCapture",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCapture",
 		reflect.TypeOf((*VirtualMachinePacketCapture)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureConfig",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureConfig",
 		reflect.TypeOf((*VirtualMachinePacketCaptureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureFilter",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureFilter",
 		reflect.TypeOf((*VirtualMachinePacketCaptureFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureFilterList",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureFilterList",
 		reflect.TypeOf((*VirtualMachinePacketCaptureFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureFilterOutputReference",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureFilterOutputReference",
 		reflect.TypeOf((*VirtualMachinePacketCaptureFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureStorageLocation",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureStorageLocation",
 		reflect.TypeOf((*VirtualMachinePacketCaptureStorageLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureStorageLocationOutputReference",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureStorageLocationOutputReference",
 		reflect.TypeOf((*VirtualMachinePacketCaptureStorageLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -211,11 +211,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureTimeouts",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureTimeouts",
 		reflect.TypeOf((*VirtualMachinePacketCaptureTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualMachinePacketCaptureTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

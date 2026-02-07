@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermservicebusnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermservicebusnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermservicebusnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/servicebus_namespace azurerm_servicebus_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/servicebus_namespace azurerm_servicebus_namespace}.
 type DataAzurermServicebusNamespace interface {
 	cdktf.TerraformDataSource
 	Capacity() *float64
@@ -445,7 +445,7 @@ func (j *jsiiProxy_DataAzurermServicebusNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/servicebus_namespace azurerm_servicebus_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/servicebus_namespace azurerm_servicebus_namespace} Data Source.
 func NewDataAzurermServicebusNamespace(scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceConfig) DataAzurermServicebusNamespace {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewDataAzurermServicebusNamespace(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DataAzurermServicebusNamespace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
+		"@cdktn/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -463,12 +463,12 @@ func NewDataAzurermServicebusNamespace(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/servicebus_namespace azurerm_servicebus_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/servicebus_namespace azurerm_servicebus_namespace} Data Source.
 func NewDataAzurermServicebusNamespace_Override(d DataAzurermServicebusNamespace, scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
+		"@cdktn/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -563,7 +563,7 @@ func DataAzurermServicebusNamespace_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
+		"@cdktn/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -598,7 +598,7 @@ func DataAzurermServicebusNamespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
+		"@cdktn/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func DataAzurermServicebusNamespace_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
+		"@cdktn/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -636,7 +636,7 @@ func DataAzurermServicebusNamespace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
+		"@cdktn/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -649,7 +649,7 @@ func DataAzurermServicebusNamespace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
+		"@cdktn/provider-azurerm.dataAzurermServicebusNamespace.DataAzurermServicebusNamespace",
 		"tfResourceType",
 		&returns,
 	)

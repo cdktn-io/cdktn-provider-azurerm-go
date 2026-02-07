@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccount",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccount",
 		reflect.TypeOf((*CosmosdbAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyMetadataWritesEnabled", GoGetter: "AccessKeyMetadataWritesEnabled"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountAnalyticalStorage",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountAnalyticalStorage",
 		reflect.TypeOf((*CosmosdbAccountAnalyticalStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountAnalyticalStorageOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountAnalyticalStorageOutputReference",
 		reflect.TypeOf((*CosmosdbAccountAnalyticalStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -232,11 +232,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountBackup",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountBackup",
 		reflect.TypeOf((*CosmosdbAccountBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountBackupOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountBackupOutputReference",
 		reflect.TypeOf((*CosmosdbAccountBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -282,11 +282,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapabilities",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapabilities",
 		reflect.TypeOf((*CosmosdbAccountCapabilities)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapabilitiesList",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapabilitiesList",
 		reflect.TypeOf((*CosmosdbAccountCapabilitiesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -308,7 +308,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapabilitiesOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapabilitiesOutputReference",
 		reflect.TypeOf((*CosmosdbAccountCapabilitiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -342,11 +342,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapacity",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapacity",
 		reflect.TypeOf((*CosmosdbAccountCapacity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapacityOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountCapacityOutputReference",
 		reflect.TypeOf((*CosmosdbAccountCapacityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -380,15 +380,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountConfig",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountConfig",
 		reflect.TypeOf((*CosmosdbAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountConsistencyPolicy",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountConsistencyPolicy",
 		reflect.TypeOf((*CosmosdbAccountConsistencyPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountConsistencyPolicyOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountConsistencyPolicyOutputReference",
 		reflect.TypeOf((*CosmosdbAccountConsistencyPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -428,11 +428,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountCorsRule",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountCorsRule",
 		reflect.TypeOf((*CosmosdbAccountCorsRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountCorsRuleOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountCorsRuleOutputReference",
 		reflect.TypeOf((*CosmosdbAccountCorsRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHeaders", GoGetter: "AllowedHeaders"},
@@ -475,11 +475,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountGeoLocation",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountGeoLocation",
 		reflect.TypeOf((*CosmosdbAccountGeoLocation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountGeoLocationList",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountGeoLocationList",
 		reflect.TypeOf((*CosmosdbAccountGeoLocationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -501,7 +501,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountGeoLocationOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountGeoLocationOutputReference",
 		reflect.TypeOf((*CosmosdbAccountGeoLocationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -541,11 +541,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountIdentity",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountIdentity",
 		reflect.TypeOf((*CosmosdbAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountIdentityOutputReference",
 		reflect.TypeOf((*CosmosdbAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -584,15 +584,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestore",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestore",
 		reflect.TypeOf((*CosmosdbAccountRestore)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreDatabase",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreDatabase",
 		reflect.TypeOf((*CosmosdbAccountRestoreDatabase)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreDatabaseList",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreDatabaseList",
 		reflect.TypeOf((*CosmosdbAccountRestoreDatabaseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -614,7 +614,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreDatabaseOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreDatabaseOutputReference",
 		reflect.TypeOf((*CosmosdbAccountRestoreDatabaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "collectionNames", GoGetter: "CollectionNames"},
@@ -651,11 +651,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreGremlinDatabase",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreGremlinDatabase",
 		reflect.TypeOf((*CosmosdbAccountRestoreGremlinDatabase)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreGremlinDatabaseList",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreGremlinDatabaseList",
 		reflect.TypeOf((*CosmosdbAccountRestoreGremlinDatabaseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -677,7 +677,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreGremlinDatabaseOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreGremlinDatabaseOutputReference",
 		reflect.TypeOf((*CosmosdbAccountRestoreGremlinDatabaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -714,7 +714,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountRestoreOutputReference",
 		reflect.TypeOf((*CosmosdbAccountRestoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -761,11 +761,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountTimeouts",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountTimeouts",
 		reflect.TypeOf((*CosmosdbAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountTimeoutsOutputReference",
 		reflect.TypeOf((*CosmosdbAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -809,11 +809,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountVirtualNetworkRule",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountVirtualNetworkRule",
 		reflect.TypeOf((*CosmosdbAccountVirtualNetworkRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountVirtualNetworkRuleList",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountVirtualNetworkRuleList",
 		reflect.TypeOf((*CosmosdbAccountVirtualNetworkRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -835,7 +835,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbAccount.CosmosdbAccountVirtualNetworkRuleOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccountVirtualNetworkRuleOutputReference",
 		reflect.TypeOf((*CosmosdbAccountVirtualNetworkRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_profile azurerm_cdn_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_profile azurerm_cdn_profile}.
 type CdnProfile interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_CdnProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_profile azurerm_cdn_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_profile azurerm_cdn_profile} Resource.
 func NewCdnProfile(scope constructs.Construct, id *string, config *CdnProfileConfig) CdnProfile {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewCdnProfile(scope constructs.Construct, id *string, config *CdnProfileCon
 	j := jsiiProxy_CdnProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfile",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewCdnProfile(scope constructs.Construct, id *string, config *CdnProfileCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_profile azurerm_cdn_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_profile azurerm_cdn_profile} Resource.
 func NewCdnProfile_Override(c CdnProfile, scope constructs.Construct, id *string, config *CdnProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfile",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfile",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -623,7 +623,7 @@ func CdnProfile_GenerateConfigForImport(scope constructs.Construct, importToId *
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfile",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func CdnProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfile",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func CdnProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfile",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func CdnProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfile",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func CdnProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfile",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfile",
 		"tfResourceType",
 		&returns,
 	)

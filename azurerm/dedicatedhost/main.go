@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dedicatedhost
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dedicatedHost.DedicatedHost",
+		"@cdktn/provider-azurerm.dedicatedHost.DedicatedHost",
 		reflect.TypeOf((*DedicatedHost)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dedicatedHost.DedicatedHostConfig",
+		"@cdktn/provider-azurerm.dedicatedHost.DedicatedHostConfig",
 		reflect.TypeOf((*DedicatedHostConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dedicatedHost.DedicatedHostTimeouts",
+		"@cdktn/provider-azurerm.dedicatedHost.DedicatedHostTimeouts",
 		reflect.TypeOf((*DedicatedHostTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dedicatedHost.DedicatedHostTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dedicatedHost.DedicatedHostTimeoutsOutputReference",
 		reflect.TypeOf((*DedicatedHostTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

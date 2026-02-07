@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermautomationrunbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermautomationrunbook/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermautomationrunbook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_runbook azurerm_automation_runbook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_runbook azurerm_automation_runbook}.
 type DataAzurermAutomationRunbook interface {
 	cdktf.TerraformDataSource
 	AutomationAccountName() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_runbook azurerm_automation_runbook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_runbook azurerm_automation_runbook} Data Source.
 func NewDataAzurermAutomationRunbook(scope constructs.Construct, id *string, config *DataAzurermAutomationRunbookConfig) DataAzurermAutomationRunbook {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewDataAzurermAutomationRunbook(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAzurermAutomationRunbook{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
+		"@cdktn/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -464,12 +464,12 @@ func NewDataAzurermAutomationRunbook(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/automation_runbook azurerm_automation_runbook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/automation_runbook azurerm_automation_runbook} Data Source.
 func NewDataAzurermAutomationRunbook_Override(d DataAzurermAutomationRunbook, scope constructs.Construct, id *string, config *DataAzurermAutomationRunbookConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
+		"@cdktn/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -575,7 +575,7 @@ func DataAzurermAutomationRunbook_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
+		"@cdktn/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -610,7 +610,7 @@ func DataAzurermAutomationRunbook_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
+		"@cdktn/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func DataAzurermAutomationRunbook_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
+		"@cdktn/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -648,7 +648,7 @@ func DataAzurermAutomationRunbook_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
+		"@cdktn/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func DataAzurermAutomationRunbook_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
+		"@cdktn/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
 		"tfResourceType",
 		&returns,
 	)

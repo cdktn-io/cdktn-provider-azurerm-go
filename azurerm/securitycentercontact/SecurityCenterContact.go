@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycentercontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/securitycentercontact/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/securitycentercontact/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_contact azurerm_security_center_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_contact azurerm_security_center_contact}.
 type SecurityCenterContact interface {
 	cdktf.TerraformResource
 	AlertNotifications() interface{}
@@ -450,7 +450,7 @@ func (j *jsiiProxy_SecurityCenterContact) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_contact azurerm_security_center_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_contact azurerm_security_center_contact} Resource.
 func NewSecurityCenterContact(scope constructs.Construct, id *string, config *SecurityCenterContactConfig) SecurityCenterContact {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewSecurityCenterContact(scope constructs.Construct, id *string, config *Se
 	j := jsiiProxy_SecurityCenterContact{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContact",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContact",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewSecurityCenterContact(scope constructs.Construct, id *string, config *Se
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/security_center_contact azurerm_security_center_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/security_center_contact azurerm_security_center_contact} Resource.
 func NewSecurityCenterContact_Override(s SecurityCenterContact, scope constructs.Construct, id *string, config *SecurityCenterContactConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContact",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContact",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -623,7 +623,7 @@ func SecurityCenterContact_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContact",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContact",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func SecurityCenterContact_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContact",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContact",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func SecurityCenterContact_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContact",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContact",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func SecurityCenterContact_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContact",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContact",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func SecurityCenterContact_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.securityCenterContact.SecurityCenterContact",
+		"@cdktn/provider-azurerm.securityCenterContact.SecurityCenterContact",
 		"tfResourceType",
 		&returns,
 	)

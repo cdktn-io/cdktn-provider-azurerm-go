@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loganalyticsdataexportrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsDataExportRule.LogAnalyticsDataExportRule",
+		"@cdktn/provider-azurerm.logAnalyticsDataExportRule.LogAnalyticsDataExportRule",
 		reflect.TypeOf((*LogAnalyticsDataExportRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsDataExportRule.LogAnalyticsDataExportRuleConfig",
+		"@cdktn/provider-azurerm.logAnalyticsDataExportRule.LogAnalyticsDataExportRuleConfig",
 		reflect.TypeOf((*LogAnalyticsDataExportRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logAnalyticsDataExportRule.LogAnalyticsDataExportRuleTimeouts",
+		"@cdktn/provider-azurerm.logAnalyticsDataExportRule.LogAnalyticsDataExportRuleTimeouts",
 		reflect.TypeOf((*LogAnalyticsDataExportRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logAnalyticsDataExportRule.LogAnalyticsDataExportRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logAnalyticsDataExportRule.LogAnalyticsDataExportRuleTimeoutsOutputReference",
 		reflect.TypeOf((*LogAnalyticsDataExportRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

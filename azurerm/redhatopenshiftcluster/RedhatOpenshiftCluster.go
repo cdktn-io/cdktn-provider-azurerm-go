@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package redhatopenshiftcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/redhatopenshiftcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/redhatopenshiftcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster}.
 type RedhatOpenshiftCluster interface {
 	cdktf.TerraformResource
 	ApiServerProfile() RedhatOpenshiftClusterApiServerProfileOutputReference
@@ -599,7 +599,7 @@ func (j *jsiiProxy_RedhatOpenshiftCluster) WorkerProfileInput() *RedhatOpenshift
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
 func NewRedhatOpenshiftCluster(scope constructs.Construct, id *string, config *RedhatOpenshiftClusterConfig) RedhatOpenshiftCluster {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewRedhatOpenshiftCluster(scope constructs.Construct, id *string, config *R
 	j := jsiiProxy_RedhatOpenshiftCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -617,12 +617,12 @@ func NewRedhatOpenshiftCluster(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
 func NewRedhatOpenshiftCluster_Override(r RedhatOpenshiftCluster, scope constructs.Construct, id *string, config *RedhatOpenshiftClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -761,7 +761,7 @@ func RedhatOpenshiftCluster_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -796,7 +796,7 @@ func RedhatOpenshiftCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -815,7 +815,7 @@ func RedhatOpenshiftCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -834,7 +834,7 @@ func RedhatOpenshiftCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -847,7 +847,7 @@ func RedhatOpenshiftCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
+		"@cdktn/provider-azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster",
 		"tfResourceType",
 		&returns,
 	)

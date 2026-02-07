@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageaccountcustomermanagedkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageaccountcustomermanagedkey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageaccountcustomermanagedkey/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key}.
 type StorageAccountCustomerManagedKeyA interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -51,6 +51,9 @@ type StorageAccountCustomerManagedKeyA interface {
 	KeyVaultId() *string
 	SetKeyVaultId(val *string)
 	KeyVaultIdInput() *string
+	KeyVaultKeyId() *string
+	SetKeyVaultKeyId(val *string)
+	KeyVaultKeyIdInput() *string
 	KeyVaultUri() *string
 	SetKeyVaultUri(val *string)
 	KeyVaultUriInput() *string
@@ -136,7 +139,9 @@ type StorageAccountCustomerManagedKeyA interface {
 	PutTimeouts(value *StorageAccountCustomerManagedKeyTimeouts)
 	ResetFederatedIdentityClientId()
 	ResetId()
+	ResetKeyName()
 	ResetKeyVaultId()
+	ResetKeyVaultKeyId()
 	ResetKeyVaultUri()
 	ResetKeyVersion()
 	ResetManagedHsmKeyId()
@@ -318,6 +323,26 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultIdInput() *string 
 	_jsii_.Get(
 		j,
 		"keyVaultIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultKeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultKeyId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) KeyVaultKeyIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultKeyIdInput",
 		&returns,
 	)
 	return returns
@@ -524,7 +549,7 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) UserAssignedIdentityIdInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key} Resource.
 func NewStorageAccountCustomerManagedKeyA(scope constructs.Construct, id *string, config *StorageAccountCustomerManagedKeyAConfig) StorageAccountCustomerManagedKeyA {
 	_init_.Initialize()
 
@@ -534,7 +559,7 @@ func NewStorageAccountCustomerManagedKeyA(scope constructs.Construct, id *string
 	j := jsiiProxy_StorageAccountCustomerManagedKeyA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -542,12 +567,12 @@ func NewStorageAccountCustomerManagedKeyA(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_customer_managed_key azurerm_storage_account_customer_managed_key} Resource.
 func NewStorageAccountCustomerManagedKeyA_Override(s StorageAccountCustomerManagedKeyA, scope constructs.Construct, id *string, config *StorageAccountCustomerManagedKeyAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -631,6 +656,17 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetKeyVaultId(val *string) 
 	_jsii_.Set(
 		j,
 		"keyVaultId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageAccountCustomerManagedKeyA)SetKeyVaultKeyId(val *string) {
+	if err := j.validateSetKeyVaultKeyIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"keyVaultKeyId",
 		val,
 	)
 }
@@ -730,7 +766,7 @@ func StorageAccountCustomerManagedKeyA_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -765,7 +801,7 @@ func StorageAccountCustomerManagedKeyA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -784,7 +820,7 @@ func StorageAccountCustomerManagedKeyA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -803,7 +839,7 @@ func StorageAccountCustomerManagedKeyA_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -816,7 +852,7 @@ func StorageAccountCustomerManagedKeyA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
+		"@cdktn/provider-azurerm.storageAccountCustomerManagedKey.StorageAccountCustomerManagedKeyA",
 		"tfResourceType",
 		&returns,
 	)
@@ -1100,10 +1136,26 @@ func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetId() {
 	)
 }
 
+func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetKeyName() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetKeyName",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetKeyVaultId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetKeyVaultId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) ResetKeyVaultKeyId() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetKeyVaultKeyId",
 		nil, // no parameters
 	)
 }

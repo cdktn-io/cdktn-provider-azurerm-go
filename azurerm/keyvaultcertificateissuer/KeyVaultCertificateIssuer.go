@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultcertificateissuer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/keyvaultcertificateissuer/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultcertificateissuer/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer}.
 type KeyVaultCertificateIssuer interface {
 	cdktf.TerraformResource
 	AccountId() *string
@@ -499,7 +499,7 @@ func (j *jsiiProxy_KeyVaultCertificateIssuer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Resource.
 func NewKeyVaultCertificateIssuer(scope constructs.Construct, id *string, config *KeyVaultCertificateIssuerConfig) KeyVaultCertificateIssuer {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewKeyVaultCertificateIssuer(scope constructs.Construct, id *string, config
 	j := jsiiProxy_KeyVaultCertificateIssuer{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,12 +517,12 @@ func NewKeyVaultCertificateIssuer(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Resource.
 func NewKeyVaultCertificateIssuer_Override(k KeyVaultCertificateIssuer, scope constructs.Construct, id *string, config *KeyVaultCertificateIssuerConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -683,7 +683,7 @@ func KeyVaultCertificateIssuer_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func KeyVaultCertificateIssuer_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func KeyVaultCertificateIssuer_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func KeyVaultCertificateIssuer_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func KeyVaultCertificateIssuer_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
+		"@cdktn/provider-azurerm.keyVaultCertificateIssuer.KeyVaultCertificateIssuer",
 		"tfResourceType",
 		&returns,
 	)

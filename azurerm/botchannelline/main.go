@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelline
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLine",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLine",
 		reflect.TypeOf((*BotChannelLine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLineConfig",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLineConfig",
 		reflect.TypeOf((*BotChannelLineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLineLineChannel",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLineLineChannel",
 		reflect.TypeOf((*BotChannelLineLineChannel)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLineLineChannelList",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLineLineChannelList",
 		reflect.TypeOf((*BotChannelLineLineChannelList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLineLineChannelOutputReference",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLineLineChannelOutputReference",
 		reflect.TypeOf((*BotChannelLineLineChannelOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
@@ -145,11 +145,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLineTimeouts",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLineTimeouts",
 		reflect.TypeOf((*BotChannelLineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelLine.BotChannelLineTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botChannelLine.BotChannelLineTimeoutsOutputReference",
 		reflect.TypeOf((*BotChannelLineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

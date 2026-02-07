@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorytriggerschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorytriggerschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorytriggerschedule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_trigger_schedule azurerm_data_factory_trigger_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_trigger_schedule azurerm_data_factory_trigger_schedule}.
 type DataFactoryTriggerSchedule interface {
 	cdktf.TerraformResource
 	Activated() interface{}
@@ -668,7 +668,7 @@ func (j *jsiiProxy_DataFactoryTriggerSchedule) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_trigger_schedule azurerm_data_factory_trigger_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_trigger_schedule azurerm_data_factory_trigger_schedule} Resource.
 func NewDataFactoryTriggerSchedule(scope constructs.Construct, id *string, config *DataFactoryTriggerScheduleConfig) DataFactoryTriggerSchedule {
 	_init_.Initialize()
 
@@ -678,7 +678,7 @@ func NewDataFactoryTriggerSchedule(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DataFactoryTriggerSchedule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
+		"@cdktn/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -686,12 +686,12 @@ func NewDataFactoryTriggerSchedule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_trigger_schedule azurerm_data_factory_trigger_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_trigger_schedule azurerm_data_factory_trigger_schedule} Resource.
 func NewDataFactoryTriggerSchedule_Override(d DataFactoryTriggerSchedule, scope constructs.Construct, id *string, config *DataFactoryTriggerScheduleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
+		"@cdktn/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -918,7 +918,7 @@ func DataFactoryTriggerSchedule_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
+		"@cdktn/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -953,7 +953,7 @@ func DataFactoryTriggerSchedule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
+		"@cdktn/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -972,7 +972,7 @@ func DataFactoryTriggerSchedule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
+		"@cdktn/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -991,7 +991,7 @@ func DataFactoryTriggerSchedule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
+		"@cdktn/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1004,7 +1004,7 @@ func DataFactoryTriggerSchedule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
+		"@cdktn/provider-azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerSchedule",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactory
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactory.DataFactory",
+		"@cdktn/provider-azurerm.dataFactory.DataFactory",
 		reflect.TypeOf((*DataFactory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -110,15 +110,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryConfig",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryConfig",
 		reflect.TypeOf((*DataFactoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryGithubConfiguration",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryGithubConfiguration",
 		reflect.TypeOf((*DataFactoryGithubConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryGithubConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryGithubConfigurationOutputReference",
 		reflect.TypeOf((*DataFactoryGithubConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -164,11 +164,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryGlobalParameter",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryGlobalParameter",
 		reflect.TypeOf((*DataFactoryGlobalParameter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryGlobalParameterList",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryGlobalParameterList",
 		reflect.TypeOf((*DataFactoryGlobalParameterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -190,7 +190,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryGlobalParameterOutputReference",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryGlobalParameterOutputReference",
 		reflect.TypeOf((*DataFactoryGlobalParameterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryIdentity",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryIdentity",
 		reflect.TypeOf((*DataFactoryIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryIdentityOutputReference",
 		reflect.TypeOf((*DataFactoryIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -271,11 +271,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryTimeouts",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryTimeouts",
 		reflect.TypeOf((*DataFactoryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryTimeoutsOutputReference",
 		reflect.TypeOf((*DataFactoryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -319,11 +319,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryVstsConfiguration",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryVstsConfiguration",
 		reflect.TypeOf((*DataFactoryVstsConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryVstsConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryVstsConfigurationOutputReference",
 		reflect.TypeOf((*DataFactoryVstsConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},

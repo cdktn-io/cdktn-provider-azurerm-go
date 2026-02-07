@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package manageddisk
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDisk",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDisk",
 		reflect.TypeOf((*ManagedDisk)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -171,19 +171,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskConfig",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskConfig",
 		reflect.TypeOf((*ManagedDiskConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskEncryptionSettings",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskEncryptionSettings",
 		reflect.TypeOf((*ManagedDiskEncryptionSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsDiskEncryptionKey",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsDiskEncryptionKey",
 		reflect.TypeOf((*ManagedDiskEncryptionSettingsDiskEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference",
 		reflect.TypeOf((*ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -219,11 +219,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsKeyEncryptionKey",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsKeyEncryptionKey",
 		reflect.TypeOf((*ManagedDiskEncryptionSettingsKeyEncryptionKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsKeyEncryptionKeyOutputReference",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsKeyEncryptionKeyOutputReference",
 		reflect.TypeOf((*ManagedDiskEncryptionSettingsKeyEncryptionKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -259,7 +259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsOutputReference",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskEncryptionSettingsOutputReference",
 		reflect.TypeOf((*ManagedDiskEncryptionSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -298,11 +298,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskTimeouts",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskTimeouts",
 		reflect.TypeOf((*ManagedDiskTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managedDisk.ManagedDiskTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managedDisk.ManagedDiskTimeoutsOutputReference",
 		reflect.TypeOf((*ManagedDiskTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

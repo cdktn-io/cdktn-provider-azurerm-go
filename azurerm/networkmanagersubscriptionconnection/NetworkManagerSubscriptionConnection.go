@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagersubscriptionconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanagersubscriptionconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanagersubscriptionconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection}.
 type NetworkManagerSubscriptionConnection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_NetworkManagerSubscriptionConnection) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection} Resource.
 func NewNetworkManagerSubscriptionConnection(scope constructs.Construct, id *string, config *NetworkManagerSubscriptionConnectionConfig) NetworkManagerSubscriptionConnection {
 	_init_.Initialize()
 
@@ -448,7 +448,7 @@ func NewNetworkManagerSubscriptionConnection(scope constructs.Construct, id *str
 	j := jsiiProxy_NetworkManagerSubscriptionConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
+		"@cdktn/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -456,12 +456,12 @@ func NewNetworkManagerSubscriptionConnection(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_subscription_connection azurerm_network_manager_subscription_connection} Resource.
 func NewNetworkManagerSubscriptionConnection_Override(n NetworkManagerSubscriptionConnection, scope constructs.Construct, id *string, config *NetworkManagerSubscriptionConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
+		"@cdktn/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -600,7 +600,7 @@ func NetworkManagerSubscriptionConnection_GenerateConfigForImport(scope construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
+		"@cdktn/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -635,7 +635,7 @@ func NetworkManagerSubscriptionConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
+		"@cdktn/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -654,7 +654,7 @@ func NetworkManagerSubscriptionConnection_IsTerraformElement(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
+		"@cdktn/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -673,7 +673,7 @@ func NetworkManagerSubscriptionConnection_IsTerraformResource(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
+		"@cdktn/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func NetworkManagerSubscriptionConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
+		"@cdktn/provider-azurerm.networkManagerSubscriptionConnection.NetworkManagerSubscriptionConnection",
 		"tfResourceType",
 		&returns,
 	)

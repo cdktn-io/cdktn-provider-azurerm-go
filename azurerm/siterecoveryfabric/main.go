@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package siterecoveryfabric
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.siteRecoveryFabric.SiteRecoveryFabric",
+		"@cdktn/provider-azurerm.siteRecoveryFabric.SiteRecoveryFabric",
 		reflect.TypeOf((*SiteRecoveryFabric)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.siteRecoveryFabric.SiteRecoveryFabricConfig",
+		"@cdktn/provider-azurerm.siteRecoveryFabric.SiteRecoveryFabricConfig",
 		reflect.TypeOf((*SiteRecoveryFabricConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.siteRecoveryFabric.SiteRecoveryFabricTimeouts",
+		"@cdktn/provider-azurerm.siteRecoveryFabric.SiteRecoveryFabricTimeouts",
 		reflect.TypeOf((*SiteRecoveryFabricTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.siteRecoveryFabric.SiteRecoveryFabricTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.siteRecoveryFabric.SiteRecoveryFabricTimeoutsOutputReference",
 		reflect.TypeOf((*SiteRecoveryFabricTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

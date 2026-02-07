@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermappserviceplan
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlan",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlan",
 		reflect.TypeOf((*DataAzurermAppServicePlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanConfig",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanConfig",
 		reflect.TypeOf((*DataAzurermAppServicePlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSku",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSku",
 		reflect.TypeOf((*DataAzurermAppServicePlanSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSkuList",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSkuList",
 		reflect.TypeOf((*DataAzurermAppServicePlanSkuList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -106,7 +106,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSkuOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanSkuOutputReference",
 		reflect.TypeOf((*DataAzurermAppServicePlanSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanTimeouts",
 		reflect.TypeOf((*DataAzurermAppServicePlanTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlanTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermAppServicePlanTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

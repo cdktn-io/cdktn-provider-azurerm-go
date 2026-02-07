@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/netappbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappbackupvault/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault}.
 type NetappBackupVault interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_NetappBackupVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault} Resource.
 func NewNetappBackupVault(scope constructs.Construct, id *string, config *NetappBackupVaultConfig) NetappBackupVault {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewNetappBackupVault(scope constructs.Construct, id *string, config *Netapp
 	j := jsiiProxy_NetappBackupVault{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVault",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewNetappBackupVault(scope constructs.Construct, id *string, config *Netapp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_backup_vault azurerm_netapp_backup_vault} Resource.
 func NewNetappBackupVault_Override(n NetappBackupVault, scope constructs.Construct, id *string, config *NetappBackupVaultConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVault",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -623,7 +623,7 @@ func NetappBackupVault_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVault",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func NetappBackupVault_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVault",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func NetappBackupVault_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVault",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func NetappBackupVault_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVault",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func NetappBackupVault_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.netappBackupVault.NetappBackupVault",
+		"@cdktn/provider-azurerm.netappBackupVault.NetappBackupVault",
 		"tfResourceType",
 		&returns,
 	)

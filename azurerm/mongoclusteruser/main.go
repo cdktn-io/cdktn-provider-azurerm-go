@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mongoclusteruser
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoClusterUser.MongoClusterUser",
+		"@cdktn/provider-azurerm.mongoClusterUser.MongoClusterUser",
 		reflect.TypeOf((*MongoClusterUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoClusterUser.MongoClusterUserConfig",
+		"@cdktn/provider-azurerm.mongoClusterUser.MongoClusterUserConfig",
 		reflect.TypeOf((*MongoClusterUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoClusterUser.MongoClusterUserRole",
+		"@cdktn/provider-azurerm.mongoClusterUser.MongoClusterUserRole",
 		reflect.TypeOf((*MongoClusterUserRole)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoClusterUser.MongoClusterUserRoleList",
+		"@cdktn/provider-azurerm.mongoClusterUser.MongoClusterUserRoleList",
 		reflect.TypeOf((*MongoClusterUserRoleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoClusterUser.MongoClusterUserRoleOutputReference",
+		"@cdktn/provider-azurerm.mongoClusterUser.MongoClusterUserRoleOutputReference",
 		reflect.TypeOf((*MongoClusterUserRoleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mongoClusterUser.MongoClusterUserTimeouts",
+		"@cdktn/provider-azurerm.mongoClusterUser.MongoClusterUserTimeouts",
 		reflect.TypeOf((*MongoClusterUserTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mongoClusterUser.MongoClusterUserTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mongoClusterUser.MongoClusterUserTimeoutsOutputReference",
 		reflect.TypeOf((*MongoClusterUserTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

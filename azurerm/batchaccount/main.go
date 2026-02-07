@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package batchaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccount",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccount",
 		reflect.TypeOf((*BatchAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountEndpoint", GoGetter: "AccountEndpoint"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountConfig",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountConfig",
 		reflect.TypeOf((*BatchAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountEncryption",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountEncryption",
 		reflect.TypeOf((*BatchAccountEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountEncryptionList",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountEncryptionList",
 		reflect.TypeOf((*BatchAccountEncryptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountEncryptionOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountEncryptionOutputReference",
 		reflect.TypeOf((*BatchAccountEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,11 +181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountIdentity",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountIdentity",
 		reflect.TypeOf((*BatchAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountIdentityOutputReference",
 		reflect.TypeOf((*BatchAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,11 +224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountKeyVaultReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountKeyVaultReference",
 		reflect.TypeOf((*BatchAccountKeyVaultReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountKeyVaultReferenceOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountKeyVaultReferenceOutputReference",
 		reflect.TypeOf((*BatchAccountKeyVaultReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -264,19 +264,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfile",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfile",
 		reflect.TypeOf((*BatchAccountNetworkProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccess",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccess",
 		reflect.TypeOf((*BatchAccountNetworkProfileAccountAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessIpRule",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessIpRule",
 		reflect.TypeOf((*BatchAccountNetworkProfileAccountAccessIpRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessIpRuleList",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessIpRuleList",
 		reflect.TypeOf((*BatchAccountNetworkProfileAccountAccessIpRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -298,7 +298,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessIpRuleOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessIpRuleOutputReference",
 		reflect.TypeOf((*BatchAccountNetworkProfileAccountAccessIpRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -335,7 +335,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessOutputReference",
 		reflect.TypeOf((*BatchAccountNetworkProfileAccountAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -374,15 +374,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccess",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccess",
 		reflect.TypeOf((*BatchAccountNetworkProfileNodeManagementAccess)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessIpRule",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessIpRule",
 		reflect.TypeOf((*BatchAccountNetworkProfileNodeManagementAccessIpRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessIpRuleList",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessIpRuleList",
 		reflect.TypeOf((*BatchAccountNetworkProfileNodeManagementAccessIpRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -404,7 +404,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReference",
 		reflect.TypeOf((*BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -441,7 +441,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessOutputReference",
 		reflect.TypeOf((*BatchAccountNetworkProfileNodeManagementAccessOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -480,7 +480,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountNetworkProfileOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountNetworkProfileOutputReference",
 		reflect.TypeOf((*BatchAccountNetworkProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountAccess", GoGetter: "AccountAccess"},
@@ -520,11 +520,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountTimeouts",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountTimeouts",
 		reflect.TypeOf((*BatchAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.batchAccount.BatchAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.batchAccount.BatchAccountTimeoutsOutputReference",
 		reflect.TypeOf((*BatchAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

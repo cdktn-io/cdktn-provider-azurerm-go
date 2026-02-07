@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegrouptemplatedeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourcegrouptemplatedeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegrouptemplatedeployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment}.
 type ResourceGroupTemplateDeployment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -534,7 +534,7 @@ func (j *jsiiProxy_ResourceGroupTemplateDeployment) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment} Resource.
 func NewResourceGroupTemplateDeployment(scope constructs.Construct, id *string, config *ResourceGroupTemplateDeploymentConfig) ResourceGroupTemplateDeployment {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewResourceGroupTemplateDeployment(scope constructs.Construct, id *string, 
 	j := jsiiProxy_ResourceGroupTemplateDeployment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
+		"@cdktn/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -552,12 +552,12 @@ func NewResourceGroupTemplateDeployment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_template_deployment azurerm_resource_group_template_deployment} Resource.
 func NewResourceGroupTemplateDeployment_Override(r ResourceGroupTemplateDeployment, scope constructs.Construct, id *string, config *ResourceGroupTemplateDeploymentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
+		"@cdktn/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -740,7 +740,7 @@ func ResourceGroupTemplateDeployment_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
+		"@cdktn/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -775,7 +775,7 @@ func ResourceGroupTemplateDeployment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
+		"@cdktn/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -794,7 +794,7 @@ func ResourceGroupTemplateDeployment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
+		"@cdktn/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func ResourceGroupTemplateDeployment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
+		"@cdktn/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -826,7 +826,7 @@ func ResourceGroupTemplateDeployment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
+		"@cdktn/provider-azurerm.resourceGroupTemplateDeployment.ResourceGroupTemplateDeployment",
 		"tfResourceType",
 		&returns,
 	)

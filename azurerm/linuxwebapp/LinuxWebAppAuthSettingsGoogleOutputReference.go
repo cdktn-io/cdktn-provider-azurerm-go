@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewLinuxWebAppAuthSettingsGoogleOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_LinuxWebAppAuthSettingsGoogleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGoogleOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGoogleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewLinuxWebAppAuthSettingsGoogleOutputReference_Override(l LinuxWebAppAuthS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGoogleOutputReference",
+		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebAppAuthSettingsGoogleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

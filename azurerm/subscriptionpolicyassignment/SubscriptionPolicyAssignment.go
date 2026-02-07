@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subscriptionpolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/subscriptionpolicyassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subscriptionpolicyassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment}.
 type SubscriptionPolicyAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -667,7 +667,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment} Resource.
 func NewSubscriptionPolicyAssignment(scope constructs.Construct, id *string, config *SubscriptionPolicyAssignmentConfig) SubscriptionPolicyAssignment {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewSubscriptionPolicyAssignment(scope constructs.Construct, id *string, con
 	j := jsiiProxy_SubscriptionPolicyAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
+		"@cdktn/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -685,12 +685,12 @@ func NewSubscriptionPolicyAssignment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment} Resource.
 func NewSubscriptionPolicyAssignment_Override(s SubscriptionPolicyAssignment, scope constructs.Construct, id *string, config *SubscriptionPolicyAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
+		"@cdktn/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -895,7 +895,7 @@ func SubscriptionPolicyAssignment_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
+		"@cdktn/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -930,7 +930,7 @@ func SubscriptionPolicyAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
+		"@cdktn/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -949,7 +949,7 @@ func SubscriptionPolicyAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
+		"@cdktn/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -968,7 +968,7 @@ func SubscriptionPolicyAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
+		"@cdktn/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -981,7 +981,7 @@ func SubscriptionPolicyAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
+		"@cdktn/provider-azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignment",
 		"tfResourceType",
 		&returns,
 	)

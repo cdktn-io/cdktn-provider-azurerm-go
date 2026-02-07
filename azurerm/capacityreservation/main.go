@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package capacityreservation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.capacityReservation.CapacityReservation",
+		"@cdktn/provider-azurerm.capacityReservation.CapacityReservation",
 		reflect.TypeOf((*CapacityReservation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.capacityReservation.CapacityReservationConfig",
+		"@cdktn/provider-azurerm.capacityReservation.CapacityReservationConfig",
 		reflect.TypeOf((*CapacityReservationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.capacityReservation.CapacityReservationSku",
+		"@cdktn/provider-azurerm.capacityReservation.CapacityReservationSku",
 		reflect.TypeOf((*CapacityReservationSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.capacityReservation.CapacityReservationSkuOutputReference",
+		"@cdktn/provider-azurerm.capacityReservation.CapacityReservationSkuOutputReference",
 		reflect.TypeOf((*CapacityReservationSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.capacityReservation.CapacityReservationTimeouts",
+		"@cdktn/provider-azurerm.capacityReservation.CapacityReservationTimeouts",
 		reflect.TypeOf((*CapacityReservationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.capacityReservation.CapacityReservationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.capacityReservation.CapacityReservationTimeoutsOutputReference",
 		reflect.TypeOf((*CapacityReservationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

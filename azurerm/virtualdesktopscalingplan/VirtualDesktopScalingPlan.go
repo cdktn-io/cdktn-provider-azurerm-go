@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualdesktopscalingplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualdesktopscalingplan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualdesktopscalingplan/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_scaling_plan azurerm_virtual_desktop_scaling_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_scaling_plan azurerm_virtual_desktop_scaling_plan}.
 type VirtualDesktopScalingPlan interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -569,7 +569,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlan) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_scaling_plan azurerm_virtual_desktop_scaling_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_scaling_plan azurerm_virtual_desktop_scaling_plan} Resource.
 func NewVirtualDesktopScalingPlan(scope constructs.Construct, id *string, config *VirtualDesktopScalingPlanConfig) VirtualDesktopScalingPlan {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewVirtualDesktopScalingPlan(scope constructs.Construct, id *string, config
 	j := jsiiProxy_VirtualDesktopScalingPlan{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
+		"@cdktn/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +587,12 @@ func NewVirtualDesktopScalingPlan(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_scaling_plan azurerm_virtual_desktop_scaling_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_scaling_plan azurerm_virtual_desktop_scaling_plan} Resource.
 func NewVirtualDesktopScalingPlan_Override(v VirtualDesktopScalingPlan, scope constructs.Construct, id *string, config *VirtualDesktopScalingPlanConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
+		"@cdktn/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -775,7 +775,7 @@ func VirtualDesktopScalingPlan_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
+		"@cdktn/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -810,7 +810,7 @@ func VirtualDesktopScalingPlan_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
+		"@cdktn/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -829,7 +829,7 @@ func VirtualDesktopScalingPlan_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
+		"@cdktn/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -848,7 +848,7 @@ func VirtualDesktopScalingPlan_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
+		"@cdktn/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -861,7 +861,7 @@ func VirtualDesktopScalingPlan_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
+		"@cdktn/provider-azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlan",
 		"tfResourceType",
 		&returns,
 	)

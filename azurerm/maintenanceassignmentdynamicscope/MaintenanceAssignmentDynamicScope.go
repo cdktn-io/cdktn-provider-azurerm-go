@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package maintenanceassignmentdynamicscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/maintenanceassignmentdynamicscope/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/maintenanceassignmentdynamicscope/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maintenance_assignment_dynamic_scope azurerm_maintenance_assignment_dynamic_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maintenance_assignment_dynamic_scope azurerm_maintenance_assignment_dynamic_scope}.
 type MaintenanceAssignmentDynamicScope interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScope) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maintenance_assignment_dynamic_scope azurerm_maintenance_assignment_dynamic_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maintenance_assignment_dynamic_scope azurerm_maintenance_assignment_dynamic_scope} Resource.
 func NewMaintenanceAssignmentDynamicScope(scope constructs.Construct, id *string, config *MaintenanceAssignmentDynamicScopeConfig) MaintenanceAssignmentDynamicScope {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewMaintenanceAssignmentDynamicScope(scope constructs.Construct, id *string
 	j := jsiiProxy_MaintenanceAssignmentDynamicScope{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
+		"@cdktn/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewMaintenanceAssignmentDynamicScope(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/maintenance_assignment_dynamic_scope azurerm_maintenance_assignment_dynamic_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/maintenance_assignment_dynamic_scope azurerm_maintenance_assignment_dynamic_scope} Resource.
 func NewMaintenanceAssignmentDynamicScope_Override(m MaintenanceAssignmentDynamicScope, scope constructs.Construct, id *string, config *MaintenanceAssignmentDynamicScopeConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
+		"@cdktn/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -543,7 +543,7 @@ func MaintenanceAssignmentDynamicScope_GenerateConfigForImport(scope constructs.
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
+		"@cdktn/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -578,7 +578,7 @@ func MaintenanceAssignmentDynamicScope_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
+		"@cdktn/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func MaintenanceAssignmentDynamicScope_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
+		"@cdktn/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func MaintenanceAssignmentDynamicScope_IsTerraformResource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
+		"@cdktn/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func MaintenanceAssignmentDynamicScope_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
+		"@cdktn/provider-azurerm.maintenanceAssignmentDynamicScope.MaintenanceAssignmentDynamicScope",
 		"tfResourceType",
 		&returns,
 	)

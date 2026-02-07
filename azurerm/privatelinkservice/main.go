@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatelinkservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkService",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkService",
 		reflect.TypeOf((*PrivateLinkService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -101,15 +101,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkServiceConfig",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkServiceConfig",
 		reflect.TypeOf((*PrivateLinkServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfiguration",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfiguration",
 		reflect.TypeOf((*PrivateLinkServiceNatIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfigurationList",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfigurationList",
 		reflect.TypeOf((*PrivateLinkServiceNatIpConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -131,7 +131,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkServiceNatIpConfigurationOutputReference",
 		reflect.TypeOf((*PrivateLinkServiceNatIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -175,11 +175,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkServiceTimeouts",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkServiceTimeouts",
 		reflect.TypeOf((*PrivateLinkServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkServiceTimeoutsOutputReference",
 		reflect.TypeOf((*PrivateLinkServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

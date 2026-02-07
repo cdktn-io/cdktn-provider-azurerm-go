@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managementgrouppolicyexemption
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managementGroupPolicyExemption.ManagementGroupPolicyExemption",
+		"@cdktn/provider-azurerm.managementGroupPolicyExemption.ManagementGroupPolicyExemption",
 		reflect.TypeOf((*ManagementGroupPolicyExemption)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managementGroupPolicyExemption.ManagementGroupPolicyExemptionConfig",
+		"@cdktn/provider-azurerm.managementGroupPolicyExemption.ManagementGroupPolicyExemptionConfig",
 		reflect.TypeOf((*ManagementGroupPolicyExemptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.managementGroupPolicyExemption.ManagementGroupPolicyExemptionTimeouts",
+		"@cdktn/provider-azurerm.managementGroupPolicyExemption.ManagementGroupPolicyExemptionTimeouts",
 		reflect.TypeOf((*ManagementGroupPolicyExemptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.managementGroupPolicyExemption.ManagementGroupPolicyExemptionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.managementGroupPolicyExemption.ManagementGroupPolicyExemptionTimeoutsOutputReference",
 		reflect.TypeOf((*ManagementGroupPolicyExemptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

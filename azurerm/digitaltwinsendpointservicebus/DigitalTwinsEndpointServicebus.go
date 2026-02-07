@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package digitaltwinsendpointservicebus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/digitaltwinsendpointservicebus/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/digitaltwinsendpointservicebus/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus}.
 type DigitalTwinsEndpointServicebus interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus} Resource.
 func NewDigitalTwinsEndpointServicebus(scope constructs.Construct, id *string, config *DigitalTwinsEndpointServicebusConfig) DigitalTwinsEndpointServicebus {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewDigitalTwinsEndpointServicebus(scope constructs.Construct, id *string, c
 	j := jsiiProxy_DigitalTwinsEndpointServicebus{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewDigitalTwinsEndpointServicebus(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus} Resource.
 func NewDigitalTwinsEndpointServicebus_Override(d DigitalTwinsEndpointServicebus, scope constructs.Construct, id *string, config *DigitalTwinsEndpointServicebusConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -623,7 +623,7 @@ func DigitalTwinsEndpointServicebus_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func DigitalTwinsEndpointServicebus_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func DigitalTwinsEndpointServicebus_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func DigitalTwinsEndpointServicebus_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func DigitalTwinsEndpointServicebus_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
+		"@cdktn/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
 		"tfResourceType",
 		&returns,
 	)

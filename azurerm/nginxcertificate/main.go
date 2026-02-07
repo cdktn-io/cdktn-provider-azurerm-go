@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nginxcertificate
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificate",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificate",
 		reflect.TypeOf((*NginxCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificateConfig",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificateConfig",
 		reflect.TypeOf((*NginxCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificateTimeouts",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificateTimeouts",
 		reflect.TypeOf((*NginxCertificateTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxCertificate.NginxCertificateTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.nginxCertificate.NginxCertificateTimeoutsOutputReference",
 		reflect.TypeOf((*NginxCertificateTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

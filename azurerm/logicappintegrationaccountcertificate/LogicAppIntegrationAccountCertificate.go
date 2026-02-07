@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicappintegrationaccountcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/logicappintegrationaccountcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappintegrationaccountcertificate/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account_certificate azurerm_logic_app_integration_account_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account_certificate azurerm_logic_app_integration_account_certificate}.
 type LogicAppIntegrationAccountCertificate interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -475,7 +475,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountCertificate) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account_certificate azurerm_logic_app_integration_account_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account_certificate azurerm_logic_app_integration_account_certificate} Resource.
 func NewLogicAppIntegrationAccountCertificate(scope constructs.Construct, id *string, config *LogicAppIntegrationAccountCertificateConfig) LogicAppIntegrationAccountCertificate {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewLogicAppIntegrationAccountCertificate(scope constructs.Construct, id *st
 	j := jsiiProxy_LogicAppIntegrationAccountCertificate{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -493,12 +493,12 @@ func NewLogicAppIntegrationAccountCertificate(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/logic_app_integration_account_certificate azurerm_logic_app_integration_account_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/logic_app_integration_account_certificate azurerm_logic_app_integration_account_certificate} Resource.
 func NewLogicAppIntegrationAccountCertificate_Override(l LogicAppIntegrationAccountCertificate, scope constructs.Construct, id *string, config *LogicAppIntegrationAccountCertificateConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -648,7 +648,7 @@ func LogicAppIntegrationAccountCertificate_GenerateConfigForImport(scope constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -683,7 +683,7 @@ func LogicAppIntegrationAccountCertificate_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func LogicAppIntegrationAccountCertificate_IsTerraformElement(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func LogicAppIntegrationAccountCertificate_IsTerraformResource(x interface{}) *b
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -734,7 +734,7 @@ func LogicAppIntegrationAccountCertificate_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
+		"@cdktn/provider-azurerm.logicAppIntegrationAccountCertificate.LogicAppIntegrationAccountCertificate",
 		"tfResourceType",
 		&returns,
 	)

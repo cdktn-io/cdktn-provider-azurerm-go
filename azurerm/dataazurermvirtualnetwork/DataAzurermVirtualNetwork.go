@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermvirtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermvirtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvirtualnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network azurerm_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network azurerm_virtual_network}.
 type DataAzurermVirtualNetwork interface {
 	cdktf.TerraformDataSource
 	AddressSpace() *[]*string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetwork) VnetPeeringsAddresses() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network azurerm_virtual_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network azurerm_virtual_network} Data Source.
 func NewDataAzurermVirtualNetwork(scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkConfig) DataAzurermVirtualNetwork {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewDataAzurermVirtualNetwork(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAzurermVirtualNetwork{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -441,12 +441,12 @@ func NewDataAzurermVirtualNetwork(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network azurerm_virtual_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network azurerm_virtual_network} Data Source.
 func NewDataAzurermVirtualNetwork_Override(d DataAzurermVirtualNetwork, scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -541,7 +541,7 @@ func DataAzurermVirtualNetwork_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func DataAzurermVirtualNetwork_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAzurermVirtualNetwork_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func DataAzurermVirtualNetwork_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func DataAzurermVirtualNetwork_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetwork",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmapsaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermMapsAccount.DataAzurermMapsAccount",
+		"@cdktn/provider-azurerm.dataAzurermMapsAccount.DataAzurermMapsAccount",
 		reflect.TypeOf((*DataAzurermMapsAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermMapsAccount.DataAzurermMapsAccountConfig",
+		"@cdktn/provider-azurerm.dataAzurermMapsAccount.DataAzurermMapsAccountConfig",
 		reflect.TypeOf((*DataAzurermMapsAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermMapsAccount.DataAzurermMapsAccountTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermMapsAccount.DataAzurermMapsAccountTimeouts",
 		reflect.TypeOf((*DataAzurermMapsAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermMapsAccount.DataAzurermMapsAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermMapsAccount.DataAzurermMapsAccountTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermMapsAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

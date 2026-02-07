@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualhubroutingintent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualhubroutingintent/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualhubroutingintent/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_routing_intent azurerm_virtual_hub_routing_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_routing_intent azurerm_virtual_hub_routing_intent}.
 type VirtualHubRoutingIntent interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_VirtualHubRoutingIntent) VirtualHubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_routing_intent azurerm_virtual_hub_routing_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_routing_intent azurerm_virtual_hub_routing_intent} Resource.
 func NewVirtualHubRoutingIntent(scope constructs.Construct, id *string, config *VirtualHubRoutingIntentConfig) VirtualHubRoutingIntent {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewVirtualHubRoutingIntent(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_VirtualHubRoutingIntent{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
+		"@cdktn/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewVirtualHubRoutingIntent(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_routing_intent azurerm_virtual_hub_routing_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_routing_intent azurerm_virtual_hub_routing_intent} Resource.
 func NewVirtualHubRoutingIntent_Override(v VirtualHubRoutingIntent, scope constructs.Construct, id *string, config *VirtualHubRoutingIntentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
+		"@cdktn/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -543,7 +543,7 @@ func VirtualHubRoutingIntent_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
+		"@cdktn/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -578,7 +578,7 @@ func VirtualHubRoutingIntent_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
+		"@cdktn/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -597,7 +597,7 @@ func VirtualHubRoutingIntent_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
+		"@cdktn/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -616,7 +616,7 @@ func VirtualHubRoutingIntent_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
+		"@cdktn/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func VirtualHubRoutingIntent_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
+		"@cdktn/provider-azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntent",
 		"tfResourceType",
 		&returns,
 	)

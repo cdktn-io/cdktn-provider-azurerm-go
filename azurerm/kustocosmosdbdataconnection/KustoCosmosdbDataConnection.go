@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustocosmosdbdataconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kustocosmosdbdataconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustocosmosdbdataconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_cosmosdb_data_connection azurerm_kusto_cosmosdb_data_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_cosmosdb_data_connection azurerm_kusto_cosmosdb_data_connection}.
 type KustoCosmosdbDataConnection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_KustoCosmosdbDataConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_cosmosdb_data_connection azurerm_kusto_cosmosdb_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_cosmosdb_data_connection azurerm_kusto_cosmosdb_data_connection} Resource.
 func NewKustoCosmosdbDataConnection(scope constructs.Construct, id *string, config *KustoCosmosdbDataConnectionConfig) KustoCosmosdbDataConnection {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewKustoCosmosdbDataConnection(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_KustoCosmosdbDataConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewKustoCosmosdbDataConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_cosmosdb_data_connection azurerm_kusto_cosmosdb_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_cosmosdb_data_connection azurerm_kusto_cosmosdb_data_connection} Resource.
 func NewKustoCosmosdbDataConnection_Override(k KustoCosmosdbDataConnection, scope constructs.Construct, id *string, config *KustoCosmosdbDataConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -726,7 +726,7 @@ func KustoCosmosdbDataConnection_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -761,7 +761,7 @@ func KustoCosmosdbDataConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func KustoCosmosdbDataConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -799,7 +799,7 @@ func KustoCosmosdbDataConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -812,7 +812,7 @@ func KustoCosmosdbDataConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
+		"@cdktn/provider-azurerm.kustoCosmosdbDataConnection.KustoCosmosdbDataConnection",
 		"tfResourceType",
 		&returns,
 	)

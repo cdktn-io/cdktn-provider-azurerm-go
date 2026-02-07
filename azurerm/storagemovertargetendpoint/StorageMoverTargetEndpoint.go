@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemovertargetendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagemovertargetendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagemovertargetendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_target_endpoint azurerm_storage_mover_target_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_target_endpoint azurerm_storage_mover_target_endpoint}.
 type StorageMoverTargetEndpoint interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_StorageMoverTargetEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_target_endpoint azurerm_storage_mover_target_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_target_endpoint azurerm_storage_mover_target_endpoint} Resource.
 func NewStorageMoverTargetEndpoint(scope constructs.Construct, id *string, config *StorageMoverTargetEndpointConfig) StorageMoverTargetEndpoint {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewStorageMoverTargetEndpoint(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_StorageMoverTargetEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
+		"@cdktn/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewStorageMoverTargetEndpoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_mover_target_endpoint azurerm_storage_mover_target_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_mover_target_endpoint azurerm_storage_mover_target_endpoint} Resource.
 func NewStorageMoverTargetEndpoint_Override(s StorageMoverTargetEndpoint, scope constructs.Construct, id *string, config *StorageMoverTargetEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
+		"@cdktn/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -623,7 +623,7 @@ func StorageMoverTargetEndpoint_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
+		"@cdktn/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func StorageMoverTargetEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
+		"@cdktn/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func StorageMoverTargetEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
+		"@cdktn/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func StorageMoverTargetEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
+		"@cdktn/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func StorageMoverTargetEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
+		"@cdktn/provider-azurerm.storageMoverTargetEndpoint.StorageMoverTargetEndpoint",
 		"tfResourceType",
 		&returns,
 	)

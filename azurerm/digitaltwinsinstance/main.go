@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package digitaltwinsinstance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstance",
 		reflect.TypeOf((*DigitalTwinsInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceConfig",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceConfig",
 		reflect.TypeOf((*DigitalTwinsInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceIdentity",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceIdentity",
 		reflect.TypeOf((*DigitalTwinsInstanceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceIdentityOutputReference",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceIdentityOutputReference",
 		reflect.TypeOf((*DigitalTwinsInstanceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -131,11 +131,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceTimeouts",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceTimeouts",
 		reflect.TypeOf((*DigitalTwinsInstanceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.digitalTwinsInstance.DigitalTwinsInstanceTimeoutsOutputReference",
 		reflect.TypeOf((*DigitalTwinsInstanceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

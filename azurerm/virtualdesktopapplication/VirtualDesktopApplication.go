@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualdesktopapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualdesktopapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualdesktopapplication/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application}.
 type VirtualDesktopApplication interface {
 	cdktf.TerraformResource
 	ApplicationGroupId() *string
@@ -570,7 +570,7 @@ func (j *jsiiProxy_VirtualDesktopApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application} Resource.
 func NewVirtualDesktopApplication(scope constructs.Construct, id *string, config *VirtualDesktopApplicationConfig) VirtualDesktopApplication {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewVirtualDesktopApplication(scope constructs.Construct, id *string, config
 	j := jsiiProxy_VirtualDesktopApplication{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -588,12 +588,12 @@ func NewVirtualDesktopApplication(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_application azurerm_virtual_desktop_application} Resource.
 func NewVirtualDesktopApplication_Override(v VirtualDesktopApplication, scope constructs.Construct, id *string, config *VirtualDesktopApplicationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -798,7 +798,7 @@ func VirtualDesktopApplication_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +833,7 @@ func VirtualDesktopApplication_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func VirtualDesktopApplication_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func VirtualDesktopApplication_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func VirtualDesktopApplication_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
+		"@cdktn/provider-azurerm.virtualDesktopApplication.VirtualDesktopApplication",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_group azurerm_api_management_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_group azurerm_api_management_group}.
 type ApiManagementGroup interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_ApiManagementGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
 func NewApiManagementGroup(scope constructs.Construct, id *string, config *ApiManagementGroupConfig) ApiManagementGroup {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewApiManagementGroup(scope constructs.Construct, id *string, config *ApiMa
 	j := jsiiProxy_ApiManagementGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementGroup.ApiManagementGroup",
+		"@cdktn/provider-azurerm.apiManagementGroup.ApiManagementGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewApiManagementGroup(scope constructs.Construct, id *string, config *ApiMa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
 func NewApiManagementGroup_Override(a ApiManagementGroup, scope constructs.Construct, id *string, config *ApiManagementGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementGroup.ApiManagementGroup",
+		"@cdktn/provider-azurerm.apiManagementGroup.ApiManagementGroup",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -693,7 +693,7 @@ func ApiManagementGroup_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGroup.ApiManagementGroup",
+		"@cdktn/provider-azurerm.apiManagementGroup.ApiManagementGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func ApiManagementGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGroup.ApiManagementGroup",
+		"@cdktn/provider-azurerm.apiManagementGroup.ApiManagementGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func ApiManagementGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGroup.ApiManagementGroup",
+		"@cdktn/provider-azurerm.apiManagementGroup.ApiManagementGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func ApiManagementGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementGroup.ApiManagementGroup",
+		"@cdktn/provider-azurerm.apiManagementGroup.ApiManagementGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func ApiManagementGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementGroup.ApiManagementGroup",
+		"@cdktn/provider-azurerm.apiManagementGroup.ApiManagementGroup",
 		"tfResourceType",
 		&returns,
 	)

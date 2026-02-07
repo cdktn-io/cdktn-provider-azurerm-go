@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hpccache
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCache",
+		"@cdktn/provider-azurerm.hpcCache.HpcCache",
 		reflect.TypeOf((*HpcCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -122,19 +122,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheConfig",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheConfig",
 		reflect.TypeOf((*HpcCacheConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicy",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicy",
 		reflect.TypeOf((*HpcCacheDefaultAccessPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicyAccessRule",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicyAccessRule",
 		reflect.TypeOf((*HpcCacheDefaultAccessPolicyAccessRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicyAccessRuleList",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicyAccessRuleList",
 		reflect.TypeOf((*HpcCacheDefaultAccessPolicyAccessRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -156,7 +156,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicyAccessRuleOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicyAccessRuleOutputReference",
 		reflect.TypeOf((*HpcCacheDefaultAccessPolicyAccessRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
@@ -210,7 +210,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicyOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDefaultAccessPolicyOutputReference",
 		reflect.TypeOf((*HpcCacheDefaultAccessPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRule", GoGetter: "AccessRule"},
@@ -245,11 +245,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryActiveDirectory",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryActiveDirectory",
 		reflect.TypeOf((*HpcCacheDirectoryActiveDirectory)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryActiveDirectoryOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryActiveDirectoryOutputReference",
 		reflect.TypeOf((*HpcCacheDirectoryActiveDirectoryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheNetbiosName", GoGetter: "CacheNetbiosName"},
@@ -296,11 +296,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryFlatFile",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryFlatFile",
 		reflect.TypeOf((*HpcCacheDirectoryFlatFile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryFlatFileOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryFlatFileOutputReference",
 		reflect.TypeOf((*HpcCacheDirectoryFlatFileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -336,15 +336,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryLdap",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryLdap",
 		reflect.TypeOf((*HpcCacheDirectoryLdap)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryLdapBind",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryLdapBind",
 		reflect.TypeOf((*HpcCacheDirectoryLdapBind)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryLdapBindOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryLdapBindOutputReference",
 		reflect.TypeOf((*HpcCacheDirectoryLdapBindOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -380,7 +380,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDirectoryLdapOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDirectoryLdapOutputReference",
 		reflect.TypeOf((*HpcCacheDirectoryLdapOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseDn", GoGetter: "BaseDn"},
@@ -429,11 +429,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDns",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDns",
 		reflect.TypeOf((*HpcCacheDns)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheDnsOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheDnsOutputReference",
 		reflect.TypeOf((*HpcCacheDnsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -470,11 +470,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheIdentity",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheIdentity",
 		reflect.TypeOf((*HpcCacheIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheIdentityOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheIdentityOutputReference",
 		reflect.TypeOf((*HpcCacheIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -513,11 +513,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheTimeouts",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheTimeouts",
 		reflect.TypeOf((*HpcCacheTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hpcCache.HpcCacheTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.hpcCache.HpcCacheTimeoutsOutputReference",
 		reflect.TypeOf((*HpcCacheTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

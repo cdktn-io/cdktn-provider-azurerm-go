@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementopenidconnectprovider
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProvider",
 		reflect.TypeOf((*ApiManagementOpenidConnectProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProviderConfig",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProviderConfig",
 		reflect.TypeOf((*ApiManagementOpenidConnectProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProviderTimeouts",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProviderTimeouts",
 		reflect.TypeOf((*ApiManagementOpenidConnectProviderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProviderTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementOpenidConnectProvider.ApiManagementOpenidConnectProviderTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementOpenidConnectProviderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

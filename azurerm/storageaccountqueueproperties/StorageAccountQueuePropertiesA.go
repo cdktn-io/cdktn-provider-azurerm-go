@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageaccountqueueproperties
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageaccountqueueproperties/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageaccountqueueproperties/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_queue_properties azurerm_storage_account_queue_properties}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_queue_properties azurerm_storage_account_queue_properties}.
 type StorageAccountQueuePropertiesA interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -453,7 +453,7 @@ func (j *jsiiProxy_StorageAccountQueuePropertiesA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_queue_properties azurerm_storage_account_queue_properties} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_queue_properties azurerm_storage_account_queue_properties} Resource.
 func NewStorageAccountQueuePropertiesA(scope constructs.Construct, id *string, config *StorageAccountQueuePropertiesAConfig) StorageAccountQueuePropertiesA {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewStorageAccountQueuePropertiesA(scope constructs.Construct, id *string, c
 	j := jsiiProxy_StorageAccountQueuePropertiesA{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -471,12 +471,12 @@ func NewStorageAccountQueuePropertiesA(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_queue_properties azurerm_storage_account_queue_properties} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_queue_properties azurerm_storage_account_queue_properties} Resource.
 func NewStorageAccountQueuePropertiesA_Override(s StorageAccountQueuePropertiesA, scope constructs.Construct, id *string, config *StorageAccountQueuePropertiesAConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -582,7 +582,7 @@ func StorageAccountQueuePropertiesA_GenerateConfigForImport(scope constructs.Con
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -617,7 +617,7 @@ func StorageAccountQueuePropertiesA_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -636,7 +636,7 @@ func StorageAccountQueuePropertiesA_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -655,7 +655,7 @@ func StorageAccountQueuePropertiesA_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -668,7 +668,7 @@ func StorageAccountQueuePropertiesA_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
+		"@cdktn/provider-azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesA",
 		"tfResourceType",
 		&returns,
 	)

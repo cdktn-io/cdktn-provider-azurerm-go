@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appconfigurationfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appconfigurationfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appconfigurationfeature/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature}.
 type AppConfigurationFeature interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -620,7 +620,7 @@ func (j *jsiiProxy_AppConfigurationFeature) TimewindowFilterInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature} Resource.
 func NewAppConfigurationFeature(scope constructs.Construct, id *string, config *AppConfigurationFeatureConfig) AppConfigurationFeature {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewAppConfigurationFeature(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_AppConfigurationFeature{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -638,12 +638,12 @@ func NewAppConfigurationFeature(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature} Resource.
 func NewAppConfigurationFeature_Override(a AppConfigurationFeature, scope constructs.Construct, id *string, config *AppConfigurationFeatureConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -848,7 +848,7 @@ func AppConfigurationFeature_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -883,7 +883,7 @@ func AppConfigurationFeature_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -902,7 +902,7 @@ func AppConfigurationFeature_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -921,7 +921,7 @@ func AppConfigurationFeature_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -934,7 +934,7 @@ func AppConfigurationFeature_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
+		"@cdktn/provider-azurerm.appConfigurationFeature.AppConfigurationFeature",
 		"tfResourceType",
 		&returns,
 	)

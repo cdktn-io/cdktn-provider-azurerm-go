@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package customprovider
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customProvider.CustomProvider",
+		"@cdktn/provider-azurerm.customProvider.CustomProvider",
 		reflect.TypeOf((*CustomProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -91,11 +91,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderAction",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderAction",
 		reflect.TypeOf((*CustomProviderAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderActionList",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderActionList",
 		reflect.TypeOf((*CustomProviderActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderActionOutputReference",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderActionOutputReference",
 		reflect.TypeOf((*CustomProviderActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,15 +153,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderConfig",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderConfig",
 		reflect.TypeOf((*CustomProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderResourceType",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderResourceType",
 		reflect.TypeOf((*CustomProviderResourceType)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderResourceTypeList",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderResourceTypeList",
 		reflect.TypeOf((*CustomProviderResourceTypeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -183,7 +183,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderResourceTypeOutputReference",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderResourceTypeOutputReference",
 		reflect.TypeOf((*CustomProviderResourceTypeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,11 +222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderTimeouts",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderTimeouts",
 		reflect.TypeOf((*CustomProviderTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderTimeoutsOutputReference",
 		reflect.TypeOf((*CustomProviderTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -270,11 +270,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderValidation",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderValidation",
 		reflect.TypeOf((*CustomProviderValidation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderValidationList",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderValidationList",
 		reflect.TypeOf((*CustomProviderValidationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -296,7 +296,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.customProvider.CustomProviderValidationOutputReference",
+		"@cdktn/provider-azurerm.customProvider.CustomProviderValidationOutputReference",
 		reflect.TypeOf((*CustomProviderValidationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

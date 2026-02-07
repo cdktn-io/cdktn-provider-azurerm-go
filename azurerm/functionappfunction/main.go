@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package functionappfunction
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.functionAppFunction.FunctionAppFunction",
+		"@cdktn/provider-azurerm.functionAppFunction.FunctionAppFunction",
 		reflect.TypeOf((*FunctionAppFunction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -96,15 +96,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.functionAppFunction.FunctionAppFunctionConfig",
+		"@cdktn/provider-azurerm.functionAppFunction.FunctionAppFunctionConfig",
 		reflect.TypeOf((*FunctionAppFunctionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.functionAppFunction.FunctionAppFunctionFile",
+		"@cdktn/provider-azurerm.functionAppFunction.FunctionAppFunctionFile",
 		reflect.TypeOf((*FunctionAppFunctionFile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.functionAppFunction.FunctionAppFunctionFileList",
+		"@cdktn/provider-azurerm.functionAppFunction.FunctionAppFunctionFileList",
 		reflect.TypeOf((*FunctionAppFunctionFileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -126,7 +126,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.functionAppFunction.FunctionAppFunctionFileOutputReference",
+		"@cdktn/provider-azurerm.functionAppFunction.FunctionAppFunctionFileOutputReference",
 		reflect.TypeOf((*FunctionAppFunctionFileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -162,11 +162,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.functionAppFunction.FunctionAppFunctionTimeouts",
+		"@cdktn/provider-azurerm.functionAppFunction.FunctionAppFunctionTimeouts",
 		reflect.TypeOf((*FunctionAppFunctionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.functionAppFunction.FunctionAppFunctionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.functionAppFunction.FunctionAppFunctionTimeoutsOutputReference",
 		reflect.TypeOf((*FunctionAppFunctionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

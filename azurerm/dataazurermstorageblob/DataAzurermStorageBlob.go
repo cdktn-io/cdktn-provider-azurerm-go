@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermstorageblob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermstorageblob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermstorageblob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_blob azurerm_storage_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_blob azurerm_storage_blob}.
 type DataAzurermStorageBlob interface {
 	cdktf.TerraformDataSource
 	AccessTier() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_DataAzurermStorageBlob) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.
 func NewDataAzurermStorageBlob(scope constructs.Construct, id *string, config *DataAzurermStorageBlobConfig) DataAzurermStorageBlob {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAzurermStorageBlob(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataAzurermStorageBlob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
+		"@cdktn/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -466,12 +466,12 @@ func NewDataAzurermStorageBlob(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.
 func NewDataAzurermStorageBlob_Override(d DataAzurermStorageBlob, scope constructs.Construct, id *string, config *DataAzurermStorageBlobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
+		"@cdktn/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -588,7 +588,7 @@ func DataAzurermStorageBlob_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
+		"@cdktn/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func DataAzurermStorageBlob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
+		"@cdktn/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func DataAzurermStorageBlob_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
+		"@cdktn/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func DataAzurermStorageBlob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
+		"@cdktn/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func DataAzurermStorageBlob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
+		"@cdktn/provider-azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob",
 		"tfResourceType",
 		&returns,
 	)

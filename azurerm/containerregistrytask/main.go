@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerregistrytask
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTask",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTask",
 		reflect.TypeOf((*ContainerRegistryTask)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -132,11 +132,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskAgentSetting",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskAgentSetting",
 		reflect.TypeOf((*ContainerRegistryTaskAgentSetting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskAgentSettingOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskAgentSettingOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskAgentSettingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskBaseImageTrigger",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskBaseImageTrigger",
 		reflect.TypeOf((*ContainerRegistryTaskBaseImageTrigger)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskBaseImageTriggerOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskBaseImageTriggerOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskBaseImageTriggerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -219,15 +219,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskConfig",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskConfig",
 		reflect.TypeOf((*ContainerRegistryTaskConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskDockerStep",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskDockerStep",
 		reflect.TypeOf((*ContainerRegistryTaskDockerStep)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskDockerStepOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskDockerStepOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskDockerStepOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arguments", GoGetter: "Arguments"},
@@ -283,11 +283,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskEncodedStep",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskEncodedStep",
 		reflect.TypeOf((*ContainerRegistryTaskEncodedStep)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskEncodedStepOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskEncodedStepOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskEncodedStepOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -336,11 +336,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskFileStep",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskFileStep",
 		reflect.TypeOf((*ContainerRegistryTaskFileStep)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskFileStepOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskFileStepOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskFileStepOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -389,11 +389,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskIdentity",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskIdentity",
 		reflect.TypeOf((*ContainerRegistryTaskIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskIdentityOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskIdentityOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -432,11 +432,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskPlatform",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskPlatform",
 		reflect.TypeOf((*ContainerRegistryTaskPlatform)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskPlatformOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskPlatformOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskPlatformOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "architecture", GoGetter: "Architecture"},
@@ -476,15 +476,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredential",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredential",
 		reflect.TypeOf((*ContainerRegistryTaskRegistryCredential)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialCustom",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialCustom",
 		reflect.TypeOf((*ContainerRegistryTaskRegistryCredentialCustom)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialCustomList",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialCustomList",
 		reflect.TypeOf((*ContainerRegistryTaskRegistryCredentialCustomList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -506,7 +506,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialCustomOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialCustomOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskRegistryCredentialCustomOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -549,7 +549,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskRegistryCredentialOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -589,11 +589,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialSource",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialSource",
 		reflect.TypeOf((*ContainerRegistryTaskRegistryCredentialSource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialSourceOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialSourceOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskRegistryCredentialSourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -627,15 +627,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTrigger",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTrigger",
 		reflect.TypeOf((*ContainerRegistryTaskSourceTrigger)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerAuthentication",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerAuthentication",
 		reflect.TypeOf((*ContainerRegistryTaskSourceTriggerAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerAuthenticationOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskSourceTriggerAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -680,7 +680,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerList",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerList",
 		reflect.TypeOf((*ContainerRegistryTaskSourceTriggerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -702,7 +702,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskSourceTriggerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authentication", GoGetter: "Authentication"},
@@ -752,11 +752,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimeouts",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimeouts",
 		reflect.TypeOf((*ContainerRegistryTaskTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -800,11 +800,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimerTrigger",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimerTrigger",
 		reflect.TypeOf((*ContainerRegistryTaskTimerTrigger)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimerTriggerList",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimerTriggerList",
 		reflect.TypeOf((*ContainerRegistryTaskTimerTriggerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -826,7 +826,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimerTriggerOutputReference",
+		"@cdktn/provider-azurerm.containerRegistryTask.ContainerRegistryTaskTimerTriggerOutputReference",
 		reflect.TypeOf((*ContainerRegistryTaskTimerTriggerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

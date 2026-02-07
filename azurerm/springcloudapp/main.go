@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudapp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudApp",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudApp",
 		reflect.TypeOf((*SpringCloudApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppConfig",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppConfig",
 		reflect.TypeOf((*SpringCloudAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppCustomPersistentDisk",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppCustomPersistentDisk",
 		reflect.TypeOf((*SpringCloudAppCustomPersistentDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppCustomPersistentDiskList",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppCustomPersistentDiskList",
 		reflect.TypeOf((*SpringCloudAppCustomPersistentDiskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -139,7 +139,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppCustomPersistentDiskOutputReference",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppCustomPersistentDiskOutputReference",
 		reflect.TypeOf((*SpringCloudAppCustomPersistentDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppIdentity",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppIdentity",
 		reflect.TypeOf((*SpringCloudAppIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppIdentityOutputReference",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppIdentityOutputReference",
 		reflect.TypeOf((*SpringCloudAppIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -226,11 +226,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppIngressSettings",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppIngressSettings",
 		reflect.TypeOf((*SpringCloudAppIngressSettings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppIngressSettingsOutputReference",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppIngressSettingsOutputReference",
 		reflect.TypeOf((*SpringCloudAppIngressSettingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendProtocol", GoGetter: "BackendProtocol"},
@@ -277,11 +277,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppPersistentDisk",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppPersistentDisk",
 		reflect.TypeOf((*SpringCloudAppPersistentDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppPersistentDiskOutputReference",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppPersistentDiskOutputReference",
 		reflect.TypeOf((*SpringCloudAppPersistentDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -318,11 +318,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppTimeouts",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppTimeouts",
 		reflect.TypeOf((*SpringCloudAppTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.springCloudApp.SpringCloudAppTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.springCloudApp.SpringCloudAppTimeoutsOutputReference",
 		reflect.TypeOf((*SpringCloudAppTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

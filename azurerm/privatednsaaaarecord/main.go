@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatednsaaaarecord
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateDnsAaaaRecord.PrivateDnsAaaaRecord",
+		"@cdktn/provider-azurerm.privateDnsAaaaRecord.PrivateDnsAaaaRecord",
 		reflect.TypeOf((*PrivateDnsAaaaRecord)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateDnsAaaaRecord.PrivateDnsAaaaRecordConfig",
+		"@cdktn/provider-azurerm.privateDnsAaaaRecord.PrivateDnsAaaaRecordConfig",
 		reflect.TypeOf((*PrivateDnsAaaaRecordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.privateDnsAaaaRecord.PrivateDnsAaaaRecordTimeouts",
+		"@cdktn/provider-azurerm.privateDnsAaaaRecord.PrivateDnsAaaaRecordTimeouts",
 		reflect.TypeOf((*PrivateDnsAaaaRecordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.privateDnsAaaaRecord.PrivateDnsAaaaRecordTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.privateDnsAaaaRecord.PrivateDnsAaaaRecordTimeoutsOutputReference",
 		reflect.TypeOf((*PrivateDnsAaaaRecordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

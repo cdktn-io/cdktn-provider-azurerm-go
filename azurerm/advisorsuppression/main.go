@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package advisorsuppression
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppression",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppression",
 		reflect.TypeOf((*AdvisorSuppression)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppressionConfig",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppressionConfig",
 		reflect.TypeOf((*AdvisorSuppressionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppressionTimeouts",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppressionTimeouts",
 		reflect.TypeOf((*AdvisorSuppressionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.advisorSuppression.AdvisorSuppressionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.advisorSuppression.AdvisorSuppressionTimeoutsOutputReference",
 		reflect.TypeOf((*AdvisorSuppressionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

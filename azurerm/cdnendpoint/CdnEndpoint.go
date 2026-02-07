@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnendpoint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_endpoint azurerm_cdn_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_endpoint azurerm_cdn_endpoint}.
 type CdnEndpoint interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -772,7 +772,7 @@ func (j *jsiiProxy_CdnEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_endpoint azurerm_cdn_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_endpoint azurerm_cdn_endpoint} Resource.
 func NewCdnEndpoint(scope constructs.Construct, id *string, config *CdnEndpointConfig) CdnEndpoint {
 	_init_.Initialize()
 
@@ -782,7 +782,7 @@ func NewCdnEndpoint(scope constructs.Construct, id *string, config *CdnEndpointC
 	j := jsiiProxy_CdnEndpoint{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpoint",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpoint",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -790,12 +790,12 @@ func NewCdnEndpoint(scope constructs.Construct, id *string, config *CdnEndpointC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_endpoint azurerm_cdn_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_endpoint azurerm_cdn_endpoint} Resource.
 func NewCdnEndpoint_Override(c CdnEndpoint, scope constructs.Construct, id *string, config *CdnEndpointConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpoint",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpoint",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -1044,7 +1044,7 @@ func CdnEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpoint",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpoint",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1079,7 +1079,7 @@ func CdnEndpoint_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpoint",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpoint",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1098,7 +1098,7 @@ func CdnEndpoint_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpoint",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpoint",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1117,7 +1117,7 @@ func CdnEndpoint_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpoint",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpoint",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1130,7 +1130,7 @@ func CdnEndpoint_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpoint",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpoint",
 		"tfResourceType",
 		&returns,
 	)

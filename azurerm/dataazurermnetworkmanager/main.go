@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnetworkmanager
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManager",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManager",
 		reflect.TypeOf((*DataAzurermNetworkManager)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerConfig",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerConfig",
 		reflect.TypeOf((*DataAzurermNetworkManagerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerCrossTenantScopes",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerCrossTenantScopes",
 		reflect.TypeOf((*DataAzurermNetworkManagerCrossTenantScopes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerCrossTenantScopesList",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerCrossTenantScopesList",
 		reflect.TypeOf((*DataAzurermNetworkManagerCrossTenantScopesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerCrossTenantScopesOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerCrossTenantScopesOutputReference",
 		reflect.TypeOf((*DataAzurermNetworkManagerCrossTenantScopesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerScope",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerScope",
 		reflect.TypeOf((*DataAzurermNetworkManagerScope)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerScopeList",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerScopeList",
 		reflect.TypeOf((*DataAzurermNetworkManagerScopeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerScopeOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerScopeOutputReference",
 		reflect.TypeOf((*DataAzurermNetworkManagerScopeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -195,11 +195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerTimeouts",
 		reflect.TypeOf((*DataAzurermNetworkManagerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermNetworkManagerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

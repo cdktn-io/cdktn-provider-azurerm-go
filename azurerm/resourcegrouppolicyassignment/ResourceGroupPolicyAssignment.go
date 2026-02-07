@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegrouppolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourcegrouppolicyassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegrouppolicyassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_policy_assignment azurerm_resource_group_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_policy_assignment azurerm_resource_group_policy_assignment}.
 type ResourceGroupPolicyAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -667,7 +667,7 @@ func (j *jsiiProxy_ResourceGroupPolicyAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_policy_assignment azurerm_resource_group_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_policy_assignment azurerm_resource_group_policy_assignment} Resource.
 func NewResourceGroupPolicyAssignment(scope constructs.Construct, id *string, config *ResourceGroupPolicyAssignmentConfig) ResourceGroupPolicyAssignment {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewResourceGroupPolicyAssignment(scope constructs.Construct, id *string, co
 	j := jsiiProxy_ResourceGroupPolicyAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -685,12 +685,12 @@ func NewResourceGroupPolicyAssignment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group_policy_assignment azurerm_resource_group_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group_policy_assignment azurerm_resource_group_policy_assignment} Resource.
 func NewResourceGroupPolicyAssignment_Override(r ResourceGroupPolicyAssignment, scope constructs.Construct, id *string, config *ResourceGroupPolicyAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -895,7 +895,7 @@ func ResourceGroupPolicyAssignment_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -930,7 +930,7 @@ func ResourceGroupPolicyAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -949,7 +949,7 @@ func ResourceGroupPolicyAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -968,7 +968,7 @@ func ResourceGroupPolicyAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -981,7 +981,7 @@ func ResourceGroupPolicyAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
+		"@cdktn/provider-azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignment",
 		"tfResourceType",
 		&returns,
 	)

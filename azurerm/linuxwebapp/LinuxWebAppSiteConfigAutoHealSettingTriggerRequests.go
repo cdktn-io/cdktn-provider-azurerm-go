@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxwebapp
 
 
 type LinuxWebAppSiteConfigAutoHealSettingTriggerRequests struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_web_app#count LinuxWebApp#count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_web_app#count LinuxWebApp#count}.
 	Count *float64 `field:"required" json:"count" yaml:"count"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_web_app#interval LinuxWebApp#interval}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_web_app#interval LinuxWebApp#interval}.
 	Interval *string `field:"required" json:"interval" yaml:"interval"`
 }
 

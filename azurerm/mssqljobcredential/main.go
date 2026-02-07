@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljobcredential
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobCredential.MssqlJobCredential",
+		"@cdktn/provider-azurerm.mssqlJobCredential.MssqlJobCredential",
 		reflect.TypeOf((*MssqlJobCredential)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobCredential.MssqlJobCredentialConfig",
+		"@cdktn/provider-azurerm.mssqlJobCredential.MssqlJobCredentialConfig",
 		reflect.TypeOf((*MssqlJobCredentialConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobCredential.MssqlJobCredentialTimeouts",
+		"@cdktn/provider-azurerm.mssqlJobCredential.MssqlJobCredentialTimeouts",
 		reflect.TypeOf((*MssqlJobCredentialTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobCredential.MssqlJobCredentialTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlJobCredential.MssqlJobCredentialTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlJobCredentialTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

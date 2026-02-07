@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package newrelicmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/newrelicmonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/newrelicmonitor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/new_relic_monitor azurerm_new_relic_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/new_relic_monitor azurerm_new_relic_monitor}.
 type NewRelicMonitor interface {
 	cdktf.TerraformResource
 	AccountCreationSource() *string
@@ -617,7 +617,7 @@ func (j *jsiiProxy_NewRelicMonitor) UserInput() *NewRelicMonitorUser {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/new_relic_monitor azurerm_new_relic_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/new_relic_monitor azurerm_new_relic_monitor} Resource.
 func NewNewRelicMonitor(scope constructs.Construct, id *string, config *NewRelicMonitorConfig) NewRelicMonitor {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewNewRelicMonitor(scope constructs.Construct, id *string, config *NewRelic
 	j := jsiiProxy_NewRelicMonitor{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitor",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitor",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -635,12 +635,12 @@ func NewNewRelicMonitor(scope constructs.Construct, id *string, config *NewRelic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/new_relic_monitor azurerm_new_relic_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/new_relic_monitor azurerm_new_relic_monitor} Resource.
 func NewNewRelicMonitor_Override(n NewRelicMonitor, scope constructs.Construct, id *string, config *NewRelicMonitorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitor",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitor",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -834,7 +834,7 @@ func NewRelicMonitor_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitor",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitor",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -869,7 +869,7 @@ func NewRelicMonitor_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitor",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitor",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -888,7 +888,7 @@ func NewRelicMonitor_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitor",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitor",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -907,7 +907,7 @@ func NewRelicMonitor_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitor",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitor",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -920,7 +920,7 @@ func NewRelicMonitor_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.newRelicMonitor.NewRelicMonitor",
+		"@cdktn/provider-azurerm.newRelicMonitor.NewRelicMonitor",
 		"tfResourceType",
 		&returns,
 	)

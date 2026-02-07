@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventhubcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/eventhubcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventhubcluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_cluster azurerm_eventhub_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_cluster azurerm_eventhub_cluster}.
 type EventhubCluster interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_EventhubCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_cluster azurerm_eventhub_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_cluster azurerm_eventhub_cluster} Resource.
 func NewEventhubCluster(scope constructs.Construct, id *string, config *EventhubClusterConfig) EventhubCluster {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewEventhubCluster(scope constructs.Construct, id *string, config *Eventhub
 	j := jsiiProxy_EventhubCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubCluster",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewEventhubCluster(scope constructs.Construct, id *string, config *Eventhub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventhub_cluster azurerm_eventhub_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventhub_cluster azurerm_eventhub_cluster} Resource.
 func NewEventhubCluster_Override(e EventhubCluster, scope constructs.Construct, id *string, config *EventhubClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubCluster",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubCluster",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -623,7 +623,7 @@ func EventhubCluster_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubCluster",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func EventhubCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubCluster",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func EventhubCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubCluster",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func EventhubCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubCluster",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func EventhubCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.eventhubCluster.EventhubCluster",
+		"@cdktn/provider-azurerm.eventhubCluster.EventhubCluster",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagernetworkgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanagernetworkgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanagernetworkgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group}.
 type NetworkManagerNetworkGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -49,6 +49,9 @@ type NetworkManagerNetworkGroup interface {
 	Lifecycle() *cdktf.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	MemberType() *string
+	SetMemberType(val *string)
+	MemberTypeInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -121,6 +124,7 @@ type NetworkManagerNetworkGroup interface {
 	PutTimeouts(value *NetworkManagerNetworkGroupTimeouts)
 	ResetDescription()
 	ResetId()
+	ResetMemberType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -273,6 +277,26 @@ func (j *jsiiProxy_NetworkManagerNetworkGroup) Lifecycle() *cdktf.TerraformResou
 	return returns
 }
 
+func (j *jsiiProxy_NetworkManagerNetworkGroup) MemberType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"memberType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagerNetworkGroup) MemberTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"memberTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkManagerNetworkGroup) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -404,7 +428,7 @@ func (j *jsiiProxy_NetworkManagerNetworkGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group} Resource.
 func NewNetworkManagerNetworkGroup(scope constructs.Construct, id *string, config *NetworkManagerNetworkGroupConfig) NetworkManagerNetworkGroup {
 	_init_.Initialize()
 
@@ -414,7 +438,7 @@ func NewNetworkManagerNetworkGroup(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_NetworkManagerNetworkGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
+		"@cdktn/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +446,12 @@ func NewNetworkManagerNetworkGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group} Resource.
 func NewNetworkManagerNetworkGroup_Override(n NetworkManagerNetworkGroup, scope constructs.Construct, id *string, config *NetworkManagerNetworkGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
+		"@cdktn/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -504,6 +528,17 @@ func (j *jsiiProxy_NetworkManagerNetworkGroup)SetLifecycle(val *cdktf.TerraformR
 	)
 }
 
+func (j *jsiiProxy_NetworkManagerNetworkGroup)SetMemberType(val *string) {
+	if err := j.validateSetMemberTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"memberType",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkManagerNetworkGroup)SetName(val *string) {
 	if err := j.validateSetNameParameters(val); err != nil {
 		panic(err)
@@ -555,7 +590,7 @@ func NetworkManagerNetworkGroup_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
+		"@cdktn/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +625,7 @@ func NetworkManagerNetworkGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
+		"@cdktn/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +644,7 @@ func NetworkManagerNetworkGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
+		"@cdktn/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +663,7 @@ func NetworkManagerNetworkGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
+		"@cdktn/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +676,7 @@ func NetworkManagerNetworkGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
+		"@cdktn/provider-azurerm.networkManagerNetworkGroup.NetworkManagerNetworkGroup",
 		"tfResourceType",
 		&returns,
 	)
@@ -921,6 +956,14 @@ func (n *jsiiProxy_NetworkManagerNetworkGroup) ResetId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkManagerNetworkGroup) ResetMemberType() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetMemberType",
 		nil, // no parameters
 	)
 }

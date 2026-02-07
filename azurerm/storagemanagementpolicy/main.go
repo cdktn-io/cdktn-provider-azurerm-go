@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagemanagementpolicy
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicy",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicy",
 		reflect.TypeOf((*StorageManagementPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,23 +76,23 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyConfig",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyConfig",
 		reflect.TypeOf((*StorageManagementPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRule",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRule",
 		reflect.TypeOf((*StorageManagementPolicyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActions",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActions",
 		reflect.TypeOf((*StorageManagementPolicyRuleActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsBaseBlob",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsBaseBlob",
 		reflect.TypeOf((*StorageManagementPolicyRuleActionsBaseBlob)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsBaseBlobOutputReference",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsBaseBlobOutputReference",
 		reflect.TypeOf((*StorageManagementPolicyRuleActionsBaseBlobOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoTierToHotFromCoolEnabled", GoGetter: "AutoTierToHotFromCoolEnabled"},
@@ -166,7 +166,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsOutputReference",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsOutputReference",
 		reflect.TypeOf((*StorageManagementPolicyRuleActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseBlob", GoGetter: "BaseBlob"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsSnapshot",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsSnapshot",
 		reflect.TypeOf((*StorageManagementPolicyRuleActionsSnapshot)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsSnapshotOutputReference",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsSnapshotOutputReference",
 		reflect.TypeOf((*StorageManagementPolicyRuleActionsSnapshotOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "changeTierToArchiveAfterDaysSinceCreation", GoGetter: "ChangeTierToArchiveAfterDaysSinceCreation"},
@@ -261,11 +261,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsVersion",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsVersion",
 		reflect.TypeOf((*StorageManagementPolicyRuleActionsVersion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsVersionOutputReference",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsVersionOutputReference",
 		reflect.TypeOf((*StorageManagementPolicyRuleActionsVersionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "changeTierToArchiveAfterDaysSinceCreation", GoGetter: "ChangeTierToArchiveAfterDaysSinceCreation"},
@@ -312,15 +312,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFilters",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFilters",
 		reflect.TypeOf((*StorageManagementPolicyRuleFilters)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFiltersMatchBlobIndexTag",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFiltersMatchBlobIndexTag",
 		reflect.TypeOf((*StorageManagementPolicyRuleFiltersMatchBlobIndexTag)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFiltersMatchBlobIndexTagList",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFiltersMatchBlobIndexTagList",
 		reflect.TypeOf((*StorageManagementPolicyRuleFiltersMatchBlobIndexTagList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -342,7 +342,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReference",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReference",
 		reflect.TypeOf((*StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -381,7 +381,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFiltersOutputReference",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleFiltersOutputReference",
 		reflect.TypeOf((*StorageManagementPolicyRuleFiltersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blobTypes", GoGetter: "BlobTypes"},
@@ -422,7 +422,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleList",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleList",
 		reflect.TypeOf((*StorageManagementPolicyRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -444,7 +444,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleOutputReference",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyRuleOutputReference",
 		reflect.TypeOf((*StorageManagementPolicyRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
@@ -486,11 +486,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyTimeouts",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyTimeouts",
 		reflect.TypeOf((*StorageManagementPolicyTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageManagementPolicy.StorageManagementPolicyTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageManagementPolicy.StorageManagementPolicyTimeoutsOutputReference",
 		reflect.TypeOf((*StorageManagementPolicyTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

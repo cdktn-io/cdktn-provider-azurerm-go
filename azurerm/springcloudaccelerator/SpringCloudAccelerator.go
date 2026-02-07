@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package springcloudaccelerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/springcloudaccelerator/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudaccelerator/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator}.
 type SpringCloudAccelerator interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_SpringCloudAccelerator) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
 func NewSpringCloudAccelerator(scope constructs.Construct, id *string, config *SpringCloudAcceleratorConfig) SpringCloudAccelerator {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewSpringCloudAccelerator(scope constructs.Construct, id *string, config *S
 	j := jsiiProxy_SpringCloudAccelerator{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
+		"@cdktn/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewSpringCloudAccelerator(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
 func NewSpringCloudAccelerator_Override(s SpringCloudAccelerator, scope constructs.Construct, id *string, config *SpringCloudAcceleratorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
+		"@cdktn/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -520,7 +520,7 @@ func SpringCloudAccelerator_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
+		"@cdktn/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func SpringCloudAccelerator_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
+		"@cdktn/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func SpringCloudAccelerator_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
+		"@cdktn/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func SpringCloudAccelerator_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
+		"@cdktn/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func SpringCloudAccelerator_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
+		"@cdktn/provider-azurerm.springCloudAccelerator.SpringCloudAccelerator",
 		"tfResourceType",
 		&returns,
 	)

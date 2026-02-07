@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package paloaltolocalrulestack
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestack.PaloAltoLocalRulestack",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestack.PaloAltoLocalRulestack",
 		reflect.TypeOf((*PaloAltoLocalRulestack)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestack.PaloAltoLocalRulestackConfig",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestack.PaloAltoLocalRulestackConfig",
 		reflect.TypeOf((*PaloAltoLocalRulestackConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestack.PaloAltoLocalRulestackTimeouts",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestack.PaloAltoLocalRulestackTimeouts",
 		reflect.TypeOf((*PaloAltoLocalRulestackTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestack.PaloAltoLocalRulestackTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestack.PaloAltoLocalRulestackTimeoutsOutputReference",
 		reflect.TypeOf((*PaloAltoLocalRulestackTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

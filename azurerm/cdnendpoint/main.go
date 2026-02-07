@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnendpoint
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpoint",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpoint",
 		reflect.TypeOf((*CdnEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -124,19 +124,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointConfig",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointConfig",
 		reflect.TypeOf((*CdnEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRule",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRule",
 		reflect.TypeOf((*CdnEndpointDeliveryRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheExpirationAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheExpirationAction",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleCacheExpirationAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheExpirationActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheExpirationActionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleCacheExpirationActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
@@ -173,11 +173,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheKeyQueryStringAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheKeyQueryStringAction",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleCacheKeyQueryStringAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheKeyQueryStringActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheKeyQueryStringActionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleCacheKeyQueryStringActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
@@ -214,11 +214,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCookiesCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCookiesCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleCookiesCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCookiesConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCookiesConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleCookiesConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -240,7 +240,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCookiesConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCookiesConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleCookiesConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -285,11 +285,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleDeviceCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleDeviceCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleDeviceCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleDeviceConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleDeviceConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleDeviceConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -329,11 +329,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleHttpVersionCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleHttpVersionCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleHttpVersionCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleHttpVersionConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleHttpVersionConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleHttpVersionConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -355,7 +355,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleHttpVersionConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleHttpVersionConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleHttpVersionConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -395,7 +395,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -417,11 +417,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyRequestHeaderAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyRequestHeaderAction",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleModifyRequestHeaderAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyRequestHeaderActionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyRequestHeaderActionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleModifyRequestHeaderActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -443,7 +443,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyRequestHeaderActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyRequestHeaderActionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleModifyRequestHeaderActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -482,11 +482,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyResponseHeaderAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyResponseHeaderAction",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleModifyResponseHeaderAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyResponseHeaderActionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyResponseHeaderActionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleModifyResponseHeaderActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -508,7 +508,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyResponseHeaderActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyResponseHeaderActionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleModifyResponseHeaderActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -547,7 +547,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheExpirationAction", GoGetter: "CacheExpirationAction"},
@@ -663,11 +663,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRulePostArgCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRulePostArgCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRulePostArgCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRulePostArgConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRulePostArgConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRulePostArgConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -689,7 +689,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRulePostArgConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRulePostArgConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRulePostArgConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -734,11 +734,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleQueryStringCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleQueryStringCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleQueryStringCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleQueryStringConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleQueryStringConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleQueryStringConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -760,7 +760,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleQueryStringConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleQueryStringConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleQueryStringConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -803,11 +803,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRemoteAddressCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRemoteAddressCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRemoteAddressCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRemoteAddressConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRemoteAddressConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRemoteAddressConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -829,7 +829,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRemoteAddressConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRemoteAddressConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRemoteAddressConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -869,11 +869,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestBodyCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestBodyCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestBodyCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestBodyConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestBodyConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestBodyConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -895,7 +895,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestBodyConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestBodyConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestBodyConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -938,11 +938,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestHeaderCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestHeaderCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestHeaderCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestHeaderConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestHeaderConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestHeaderConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -964,7 +964,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1009,11 +1009,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestMethodCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestMethodCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestMethodCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestMethodConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestMethodConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestMethodConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1053,11 +1053,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestSchemeCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestSchemeCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestSchemeCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestSchemeConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestSchemeConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestSchemeConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1097,11 +1097,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestUriCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestUriCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestUriCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestUriConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestUriConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestUriConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1123,7 +1123,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestUriConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestUriConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleRequestUriConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1166,11 +1166,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileExtensionCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileExtensionCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlFileExtensionCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileExtensionConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileExtensionConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlFileExtensionConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1192,7 +1192,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileExtensionConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileExtensionConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlFileExtensionConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1235,11 +1235,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileNameCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileNameCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlFileNameCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileNameConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileNameConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlFileNameConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1261,7 +1261,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1304,11 +1304,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlPathCondition",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlPathCondition",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlPathCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlPathConditionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlPathConditionList",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlPathConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1330,7 +1330,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlPathConditionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlPathConditionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlPathConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1373,11 +1373,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRedirectAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRedirectAction",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlRedirectAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRedirectActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRedirectActionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlRedirectActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1426,11 +1426,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRewriteAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRewriteAction",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlRewriteAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRewriteActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRewriteActionOutputReference",
 		reflect.TypeOf((*CdnEndpointDeliveryRuleUrlRewriteActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1469,11 +1469,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGeoFilter",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGeoFilter",
 		reflect.TypeOf((*CdnEndpointGeoFilter)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGeoFilterList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGeoFilterList",
 		reflect.TypeOf((*CdnEndpointGeoFilterList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1495,7 +1495,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGeoFilterOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGeoFilterOutputReference",
 		reflect.TypeOf((*CdnEndpointGeoFilterOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1533,15 +1533,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRule",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRule",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheExpirationAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheExpirationAction",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleCacheExpirationAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheExpirationActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheExpirationActionOutputReference",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleCacheExpirationActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
@@ -1578,11 +1578,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringAction",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
@@ -1619,11 +1619,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyRequestHeaderAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyRequestHeaderAction",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleModifyRequestHeaderAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyRequestHeaderActionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyRequestHeaderActionList",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleModifyRequestHeaderActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1645,7 +1645,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyRequestHeaderActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyRequestHeaderActionOutputReference",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleModifyRequestHeaderActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1684,11 +1684,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyResponseHeaderAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyResponseHeaderAction",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleModifyResponseHeaderAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyResponseHeaderActionList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyResponseHeaderActionList",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleModifyResponseHeaderActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1710,7 +1710,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyResponseHeaderActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleModifyResponseHeaderActionOutputReference",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleModifyResponseHeaderActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -1749,7 +1749,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleOutputReference",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheExpirationAction", GoGetter: "CacheExpirationAction"},
@@ -1805,11 +1805,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRedirectAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRedirectAction",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleUrlRedirectAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRedirectActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRedirectActionOutputReference",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleUrlRedirectActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1858,11 +1858,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRewriteAction",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRewriteAction",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleUrlRewriteAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRewriteActionOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRewriteActionOutputReference",
 		reflect.TypeOf((*CdnEndpointGlobalDeliveryRuleUrlRewriteActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1901,11 +1901,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointOrigin",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointOrigin",
 		reflect.TypeOf((*CdnEndpointOrigin)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointOriginList",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointOriginList",
 		reflect.TypeOf((*CdnEndpointOriginList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1927,7 +1927,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointOriginOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointOriginOutputReference",
 		reflect.TypeOf((*CdnEndpointOriginOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1969,11 +1969,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointTimeouts",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointTimeouts",
 		reflect.TypeOf((*CdnEndpointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnEndpoint.CdnEndpointTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cdnEndpoint.CdnEndpointTimeoutsOutputReference",
 		reflect.TypeOf((*CdnEndpointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/netappsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappsnapshot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_snapshot azurerm_netapp_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_snapshot azurerm_netapp_snapshot}.
 type NetappSnapshot interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_NetappSnapshot) VolumeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_snapshot azurerm_netapp_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_snapshot azurerm_netapp_snapshot} Resource.
 func NewNetappSnapshot(scope constructs.Construct, id *string, config *NetappSnapshotConfig) NetappSnapshot {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewNetappSnapshot(scope constructs.Construct, id *string, config *NetappSna
 	j := jsiiProxy_NetappSnapshot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshot",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -490,12 +490,12 @@ func NewNetappSnapshot(scope constructs.Construct, id *string, config *NetappSna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_snapshot azurerm_netapp_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_snapshot azurerm_netapp_snapshot} Resource.
 func NewNetappSnapshot_Override(n NetappSnapshot, scope constructs.Construct, id *string, config *NetappSnapshotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshot",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshot",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -656,7 +656,7 @@ func NetappSnapshot_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshot",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -691,7 +691,7 @@ func NetappSnapshot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshot",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func NetappSnapshot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshot",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -729,7 +729,7 @@ func NetappSnapshot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshot",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func NetappSnapshot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.netappSnapshot.NetappSnapshot",
+		"@cdktn/provider-azurerm.netappSnapshot.NetappSnapshot",
 		"tfResourceType",
 		&returns,
 	)

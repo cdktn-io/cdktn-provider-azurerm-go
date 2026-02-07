@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementidentityprovideraad
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAad.ApiManagementIdentityProviderAad",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAad.ApiManagementIdentityProviderAad",
 		reflect.TypeOf((*ApiManagementIdentityProviderAad)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAad.ApiManagementIdentityProviderAadConfig",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAad.ApiManagementIdentityProviderAadConfig",
 		reflect.TypeOf((*ApiManagementIdentityProviderAadConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAad.ApiManagementIdentityProviderAadTimeouts",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAad.ApiManagementIdentityProviderAadTimeouts",
 		reflect.TypeOf((*ApiManagementIdentityProviderAadTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementIdentityProviderAad.ApiManagementIdentityProviderAadTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementIdentityProviderAad.ApiManagementIdentityProviderAadTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementIdentityProviderAadTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

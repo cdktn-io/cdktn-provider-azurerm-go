@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorypipeline
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryPipeline.DataFactoryPipeline",
+		"@cdktn/provider-azurerm.dataFactoryPipeline.DataFactoryPipeline",
 		reflect.TypeOf((*DataFactoryPipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activitiesJson", GoGetter: "ActivitiesJson"},
@@ -98,15 +98,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryPipeline.DataFactoryPipelineConfig",
+		"@cdktn/provider-azurerm.dataFactoryPipeline.DataFactoryPipelineConfig",
 		reflect.TypeOf((*DataFactoryPipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryPipeline.DataFactoryPipelineTimeouts",
+		"@cdktn/provider-azurerm.dataFactoryPipeline.DataFactoryPipelineTimeouts",
 		reflect.TypeOf((*DataFactoryPipelineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryPipeline.DataFactoryPipelineTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryPipeline.DataFactoryPipelineTimeoutsOutputReference",
 		reflect.TypeOf((*DataFactoryPipelineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnfrontdoorroute/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorroute/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_route azurerm_cdn_frontdoor_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_route azurerm_cdn_frontdoor_route}.
 type CdnFrontdoorRoute interface {
 	cdktf.TerraformResource
 	Cache() CdnFrontdoorRouteCacheOutputReference
@@ -664,7 +664,7 @@ func (j *jsiiProxy_CdnFrontdoorRoute) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_route azurerm_cdn_frontdoor_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_route azurerm_cdn_frontdoor_route} Resource.
 func NewCdnFrontdoorRoute(scope constructs.Construct, id *string, config *CdnFrontdoorRouteConfig) CdnFrontdoorRoute {
 	_init_.Initialize()
 
@@ -674,7 +674,7 @@ func NewCdnFrontdoorRoute(scope constructs.Construct, id *string, config *CdnFro
 	j := jsiiProxy_CdnFrontdoorRoute{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
+		"@cdktn/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -682,12 +682,12 @@ func NewCdnFrontdoorRoute(scope constructs.Construct, id *string, config *CdnFro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_route azurerm_cdn_frontdoor_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_route azurerm_cdn_frontdoor_route} Resource.
 func NewCdnFrontdoorRoute_Override(c CdnFrontdoorRoute, scope constructs.Construct, id *string, config *CdnFrontdoorRouteConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
+		"@cdktn/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -925,7 +925,7 @@ func CdnFrontdoorRoute_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
+		"@cdktn/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -960,7 +960,7 @@ func CdnFrontdoorRoute_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
+		"@cdktn/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -979,7 +979,7 @@ func CdnFrontdoorRoute_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
+		"@cdktn/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -998,7 +998,7 @@ func CdnFrontdoorRoute_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
+		"@cdktn/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1011,7 +1011,7 @@ func CdnFrontdoorRoute_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
+		"@cdktn/provider-azurerm.cdnFrontdoorRoute.CdnFrontdoorRoute",
 		"tfResourceType",
 		&returns,
 	)

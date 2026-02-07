@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerroutingrulecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanagerroutingrulecollection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanagerroutingrulecollection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_routing_rule_collection azurerm_network_manager_routing_rule_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_routing_rule_collection azurerm_network_manager_routing_rule_collection}.
 type NetworkManagerRoutingRuleCollection interface {
 	cdktf.TerraformResource
 	BgpRoutePropagationEnabled() interface{}
@@ -451,7 +451,7 @@ func (j *jsiiProxy_NetworkManagerRoutingRuleCollection) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_routing_rule_collection azurerm_network_manager_routing_rule_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_routing_rule_collection azurerm_network_manager_routing_rule_collection} Resource.
 func NewNetworkManagerRoutingRuleCollection(scope constructs.Construct, id *string, config *NetworkManagerRoutingRuleCollectionConfig) NetworkManagerRoutingRuleCollection {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewNetworkManagerRoutingRuleCollection(scope constructs.Construct, id *stri
 	j := jsiiProxy_NetworkManagerRoutingRuleCollection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewNetworkManagerRoutingRuleCollection(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_routing_rule_collection azurerm_network_manager_routing_rule_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_routing_rule_collection azurerm_network_manager_routing_rule_collection} Resource.
 func NewNetworkManagerRoutingRuleCollection_Override(n NetworkManagerRoutingRuleCollection, scope constructs.Construct, id *string, config *NetworkManagerRoutingRuleCollectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -624,7 +624,7 @@ func NetworkManagerRoutingRuleCollection_GenerateConfigForImport(scope construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -659,7 +659,7 @@ func NetworkManagerRoutingRuleCollection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -678,7 +678,7 @@ func NetworkManagerRoutingRuleCollection_IsTerraformElement(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -697,7 +697,7 @@ func NetworkManagerRoutingRuleCollection_IsTerraformResource(x interface{}) *boo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -710,7 +710,7 @@ func NetworkManagerRoutingRuleCollection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
+		"@cdktn/provider-azurerm.networkManagerRoutingRuleCollection.NetworkManagerRoutingRuleCollection",
 		"tfResourceType",
 		&returns,
 	)

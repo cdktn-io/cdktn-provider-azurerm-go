@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorprofile
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfile",
 		reflect.TypeOf((*CdnFrontdoorProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -91,15 +91,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileConfig",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileConfig",
 		reflect.TypeOf((*CdnFrontdoorProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileIdentity",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileIdentity",
 		reflect.TypeOf((*CdnFrontdoorProfileIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileIdentityOutputReference",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileIdentityOutputReference",
 		reflect.TypeOf((*CdnFrontdoorProfileIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileLogScrubbingRule",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileLogScrubbingRule",
 		reflect.TypeOf((*CdnFrontdoorProfileLogScrubbingRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileLogScrubbingRuleList",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileLogScrubbingRuleList",
 		reflect.TypeOf((*CdnFrontdoorProfileLogScrubbingRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -164,7 +164,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileLogScrubbingRuleOutputReference",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileLogScrubbingRuleOutputReference",
 		reflect.TypeOf((*CdnFrontdoorProfileLogScrubbingRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -198,11 +198,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileTimeouts",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileTimeouts",
 		reflect.TypeOf((*CdnFrontdoorProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileTimeoutsOutputReference",
 		reflect.TypeOf((*CdnFrontdoorProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

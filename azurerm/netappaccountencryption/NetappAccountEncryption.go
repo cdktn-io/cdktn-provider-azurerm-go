@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappaccountencryption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/netappaccountencryption/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappaccountencryption/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_account_encryption azurerm_netapp_account_encryption}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_account_encryption azurerm_netapp_account_encryption}.
 type NetappAccountEncryption interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -476,7 +476,7 @@ func (j *jsiiProxy_NetappAccountEncryption) UserAssignedIdentityIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_account_encryption azurerm_netapp_account_encryption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_account_encryption azurerm_netapp_account_encryption} Resource.
 func NewNetappAccountEncryption(scope constructs.Construct, id *string, config *NetappAccountEncryptionConfig) NetappAccountEncryption {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewNetappAccountEncryption(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_NetappAccountEncryption{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -494,12 +494,12 @@ func NewNetappAccountEncryption(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_account_encryption azurerm_netapp_account_encryption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_account_encryption azurerm_netapp_account_encryption} Resource.
 func NewNetappAccountEncryption_Override(n NetappAccountEncryption, scope constructs.Construct, id *string, config *NetappAccountEncryptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -660,7 +660,7 @@ func NetappAccountEncryption_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -695,7 +695,7 @@ func NetappAccountEncryption_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -714,7 +714,7 @@ func NetappAccountEncryption_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func NetappAccountEncryption_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func NetappAccountEncryption_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
+		"@cdktn/provider-azurerm.netappAccountEncryption.NetappAccountEncryption",
 		"tfResourceType",
 		&returns,
 	)

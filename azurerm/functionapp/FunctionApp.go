@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package functionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/functionapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app azurerm_function_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app azurerm_function_app}.
 type FunctionApp interface {
 	cdktf.TerraformResource
 	AppServicePlanId() *string
@@ -898,7 +898,7 @@ func (j *jsiiProxy_FunctionApp) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app azurerm_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app azurerm_function_app} Resource.
 func NewFunctionApp(scope constructs.Construct, id *string, config *FunctionAppConfig) FunctionApp {
 	_init_.Initialize()
 
@@ -908,7 +908,7 @@ func NewFunctionApp(scope constructs.Construct, id *string, config *FunctionAppC
 	j := jsiiProxy_FunctionApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.functionApp.FunctionApp",
+		"@cdktn/provider-azurerm.functionApp.FunctionApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -916,12 +916,12 @@ func NewFunctionApp(scope constructs.Construct, id *string, config *FunctionAppC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/function_app azurerm_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/function_app azurerm_function_app} Resource.
 func NewFunctionApp_Override(f FunctionApp, scope constructs.Construct, id *string, config *FunctionAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.functionApp.FunctionApp",
+		"@cdktn/provider-azurerm.functionApp.FunctionApp",
 		[]interface{}{scope, id, config},
 		f,
 	)
@@ -1192,7 +1192,7 @@ func FunctionApp_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionApp.FunctionApp",
+		"@cdktn/provider-azurerm.functionApp.FunctionApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1227,7 +1227,7 @@ func FunctionApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionApp.FunctionApp",
+		"@cdktn/provider-azurerm.functionApp.FunctionApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1246,7 +1246,7 @@ func FunctionApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionApp.FunctionApp",
+		"@cdktn/provider-azurerm.functionApp.FunctionApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1265,7 +1265,7 @@ func FunctionApp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.functionApp.FunctionApp",
+		"@cdktn/provider-azurerm.functionApp.FunctionApp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1278,7 +1278,7 @@ func FunctionApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.functionApp.FunctionApp",
+		"@cdktn/provider-azurerm.functionApp.FunctionApp",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventgriddomaintopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/eventgriddomaintopic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgriddomaintopic/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic}.
 type EventgridDomainTopic interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_EventgridDomainTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic} Resource.
 func NewEventgridDomainTopic(scope constructs.Construct, id *string, config *EventgridDomainTopicConfig) EventgridDomainTopic {
 	_init_.Initialize()
 
@@ -413,7 +413,7 @@ func NewEventgridDomainTopic(scope constructs.Construct, id *string, config *Eve
 	j := jsiiProxy_EventgridDomainTopic{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -421,12 +421,12 @@ func NewEventgridDomainTopic(scope constructs.Construct, id *string, config *Eve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic} Resource.
 func NewEventgridDomainTopic_Override(e EventgridDomainTopic, scope constructs.Construct, id *string, config *EventgridDomainTopicConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -554,7 +554,7 @@ func EventgridDomainTopic_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -589,7 +589,7 @@ func EventgridDomainTopic_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -608,7 +608,7 @@ func EventgridDomainTopic_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func EventgridDomainTopic_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -640,7 +640,7 @@ func EventgridDomainTopic_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
+		"@cdktn/provider-azurerm.eventgridDomainTopic.EventgridDomainTopic",
 		"tfResourceType",
 		&returns,
 	)

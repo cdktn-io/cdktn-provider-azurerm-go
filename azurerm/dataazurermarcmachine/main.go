@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermarcmachine
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachine",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachine",
 		reflect.TypeOf((*DataAzurermArcMachine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryFqdn", GoGetter: "ActiveDirectoryFqdn"},
@@ -93,15 +93,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgent",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgent",
 		reflect.TypeOf((*DataAzurermArcMachineAgent)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsAllowListStruct",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsAllowListStruct",
 		reflect.TypeOf((*DataAzurermArcMachineAgentExtensionsAllowListStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsAllowListStructList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsAllowListStructList",
 		reflect.TypeOf((*DataAzurermArcMachineAgentExtensionsAllowListStructList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -122,7 +122,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsAllowListStructOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsAllowListStructOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineAgentExtensionsAllowListStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -156,11 +156,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsBlockListStruct",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsBlockListStruct",
 		reflect.TypeOf((*DataAzurermArcMachineAgentExtensionsBlockListStruct)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsBlockListStructList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsBlockListStructList",
 		reflect.TypeOf((*DataAzurermArcMachineAgentExtensionsBlockListStructList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -181,7 +181,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsBlockListStructOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentExtensionsBlockListStructOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineAgentExtensionsBlockListStructOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -215,7 +215,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentList",
 		reflect.TypeOf((*DataAzurermArcMachineAgentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -236,7 +236,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineAgentOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineAgentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -275,11 +275,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineCloudMetadata",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineCloudMetadata",
 		reflect.TypeOf((*DataAzurermArcMachineCloudMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineCloudMetadataList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineCloudMetadataList",
 		reflect.TypeOf((*DataAzurermArcMachineCloudMetadataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -300,7 +300,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineCloudMetadataOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineCloudMetadataOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineCloudMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -333,15 +333,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineConfig",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineConfig",
 		reflect.TypeOf((*DataAzurermArcMachineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineIdentity",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineIdentity",
 		reflect.TypeOf((*DataAzurermArcMachineIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineIdentityList",
 		reflect.TypeOf((*DataAzurermArcMachineIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -362,7 +362,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -397,11 +397,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationData",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationData",
 		reflect.TypeOf((*DataAzurermArcMachineLocationData)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationDataList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationDataList",
 		reflect.TypeOf((*DataAzurermArcMachineLocationDataList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -422,7 +422,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationDataOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationDataOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineLocationDataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "city", GoGetter: "City"},
@@ -458,15 +458,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfile",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfile",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinux",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinux",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileLinux)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxList",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileLinuxList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -487,7 +487,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileLinuxOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -520,11 +520,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxPatch",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxPatch",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileLinuxPatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxPatchList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxPatchList",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileLinuxPatchList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -545,7 +545,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxPatchOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileLinuxPatchOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileLinuxPatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assessmentMode", GoGetter: "AssessmentMode"},
@@ -579,7 +579,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileList",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -600,7 +600,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -635,11 +635,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindows",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindows",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileWindows)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsList",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileWindowsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -660,7 +660,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileWindowsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -693,11 +693,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsPatch",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsPatch",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileWindowsPatch)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsPatchList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsPatchList",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileWindowsPatchList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -718,7 +718,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsPatchOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineOsProfileWindowsPatchOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineOsProfileWindowsPatchOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assessmentMode", GoGetter: "AssessmentMode"},
@@ -752,15 +752,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatus",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatus",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusExtensionService",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusExtensionService",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatusExtensionService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusExtensionServiceList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusExtensionServiceList",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatusExtensionServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -781,7 +781,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusExtensionServiceOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusExtensionServiceOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatusExtensionServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -815,11 +815,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusGuestConfigurationService",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusGuestConfigurationService",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatusGuestConfigurationService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusGuestConfigurationServiceList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusGuestConfigurationServiceList",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatusGuestConfigurationServiceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -840,7 +840,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -874,7 +874,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusList",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -895,7 +895,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineServiceStatusOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineServiceStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -929,11 +929,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineTimeouts",
 		reflect.TypeOf((*DataAzurermArcMachineTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermArcMachineTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

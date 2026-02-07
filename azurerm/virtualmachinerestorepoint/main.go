@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualmachinerestorepoint
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePoint",
+		"@cdktn/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePoint",
 		reflect.TypeOf((*VirtualMachineRestorePoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePointConfig",
+		"@cdktn/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePointConfig",
 		reflect.TypeOf((*VirtualMachineRestorePointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePointTimeouts",
+		"@cdktn/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePointTimeouts",
 		reflect.TypeOf((*VirtualMachineRestorePointTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePointTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePointTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualMachineRestorePointTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

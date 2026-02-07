@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubendpointservicebustopic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusTopic.IothubEndpointServicebusTopic",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusTopic.IothubEndpointServicebusTopic",
 		reflect.TypeOf((*IothubEndpointServicebusTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -94,15 +94,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusTopic.IothubEndpointServicebusTopicConfig",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusTopic.IothubEndpointServicebusTopicConfig",
 		reflect.TypeOf((*IothubEndpointServicebusTopicConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusTopic.IothubEndpointServicebusTopicTimeouts",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusTopic.IothubEndpointServicebusTopicTimeouts",
 		reflect.TypeOf((*IothubEndpointServicebusTopicTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubEndpointServicebusTopic.IothubEndpointServicebusTopicTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.iothubEndpointServicebusTopic.IothubEndpointServicebusTopicTimeoutsOutputReference",
 		reflect.TypeOf((*IothubEndpointServicebusTopicTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

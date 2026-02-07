@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermimages
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImages",
 		reflect.TypeOf((*DataAzurermImages)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,19 +68,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesConfig",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesConfig",
 		reflect.TypeOf((*DataAzurermImagesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImages",
 		reflect.TypeOf((*DataAzurermImagesImages)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesDataDisk",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesDataDisk",
 		reflect.TypeOf((*DataAzurermImagesImagesDataDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesDataDiskList",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesDataDiskList",
 		reflect.TypeOf((*DataAzurermImagesImagesDataDiskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -101,7 +101,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesDataDiskOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesDataDiskOutputReference",
 		reflect.TypeOf((*DataAzurermImagesImagesDataDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blobUri", GoGetter: "BlobUri"},
@@ -138,7 +138,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesList",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesList",
 		reflect.TypeOf((*DataAzurermImagesImagesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -159,11 +159,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesOsDisk",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesOsDisk",
 		reflect.TypeOf((*DataAzurermImagesImagesOsDisk)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesOsDiskList",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesOsDiskList",
 		reflect.TypeOf((*DataAzurermImagesImagesOsDiskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesOsDiskOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesOsDiskOutputReference",
 		reflect.TypeOf((*DataAzurermImagesImagesOsDiskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blobUri", GoGetter: "BlobUri"},
@@ -223,7 +223,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesImagesOutputReference",
 		reflect.TypeOf((*DataAzurermImagesImagesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -261,11 +261,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesTimeouts",
 		reflect.TypeOf((*DataAzurermImagesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImagesTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImagesTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermImagesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

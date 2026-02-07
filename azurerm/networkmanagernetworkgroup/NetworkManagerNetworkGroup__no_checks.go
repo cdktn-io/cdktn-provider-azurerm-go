@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -112,6 +112,10 @@ func (j *jsiiProxy_NetworkManagerNetworkGroup) validateSetIdParameters(val *stri
 }
 
 func (j *jsiiProxy_NetworkManagerNetworkGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkManagerNetworkGroup) validateSetMemberTypeParameters(val *string) error {
 	return nil
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databoxedgedevice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/databoxedgedevice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/databoxedgedevice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databox_edge_device azurerm_databox_edge_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databox_edge_device azurerm_databox_edge_device}.
 type DataboxEdgeDevice interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_DataboxEdgeDevice) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databox_edge_device azurerm_databox_edge_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databox_edge_device azurerm_databox_edge_device} Resource.
 func NewDataboxEdgeDevice(scope constructs.Construct, id *string, config *DataboxEdgeDeviceConfig) DataboxEdgeDevice {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewDataboxEdgeDevice(scope constructs.Construct, id *string, config *Databo
 	j := jsiiProxy_DataboxEdgeDevice{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -479,12 +479,12 @@ func NewDataboxEdgeDevice(scope constructs.Construct, id *string, config *Databo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databox_edge_device azurerm_databox_edge_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databox_edge_device azurerm_databox_edge_device} Resource.
 func NewDataboxEdgeDevice_Override(d DataboxEdgeDevice, scope constructs.Construct, id *string, config *DataboxEdgeDeviceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -634,7 +634,7 @@ func DataboxEdgeDevice_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -669,7 +669,7 @@ func DataboxEdgeDevice_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -688,7 +688,7 @@ func DataboxEdgeDevice_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -707,7 +707,7 @@ func DataboxEdgeDevice_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func DataboxEdgeDevice_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
+		"@cdktn/provider-azurerm.databoxEdgeDevice.DataboxEdgeDevice",
 		"tfResourceType",
 		&returns,
 	)

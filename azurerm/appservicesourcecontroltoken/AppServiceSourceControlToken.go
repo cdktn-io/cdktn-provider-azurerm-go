@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservicesourcecontroltoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appservicesourcecontroltoken/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservicesourcecontroltoken/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_source_control_token azurerm_app_service_source_control_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_source_control_token azurerm_app_service_source_control_token}.
 type AppServiceSourceControlToken interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -404,7 +404,7 @@ func (j *jsiiProxy_AppServiceSourceControlToken) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_source_control_token azurerm_app_service_source_control_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_source_control_token azurerm_app_service_source_control_token} Resource.
 func NewAppServiceSourceControlToken(scope constructs.Construct, id *string, config *AppServiceSourceControlTokenConfig) AppServiceSourceControlToken {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewAppServiceSourceControlToken(scope constructs.Construct, id *string, con
 	j := jsiiProxy_AppServiceSourceControlToken{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +422,12 @@ func NewAppServiceSourceControlToken(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_source_control_token azurerm_app_service_source_control_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_source_control_token azurerm_app_service_source_control_token} Resource.
 func NewAppServiceSourceControlToken_Override(a AppServiceSourceControlToken, scope constructs.Construct, id *string, config *AppServiceSourceControlTokenConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -555,7 +555,7 @@ func AppServiceSourceControlToken_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +590,7 @@ func AppServiceSourceControlToken_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +609,7 @@ func AppServiceSourceControlToken_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +628,7 @@ func AppServiceSourceControlToken_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +641,7 @@ func AppServiceSourceControlToken_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
 		"tfResourceType",
 		&returns,
 	)

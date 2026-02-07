@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automanageconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfiguration",
 		reflect.TypeOf((*AutomanageConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -109,15 +109,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationAntimalware",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationAntimalware",
 		reflect.TypeOf((*AutomanageConfigurationAntimalware)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationAntimalwareExclusions",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationAntimalwareExclusions",
 		reflect.TypeOf((*AutomanageConfigurationAntimalwareExclusions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationAntimalwareExclusionsOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationAntimalwareExclusionsOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationAntimalwareExclusionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,7 +158,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationAntimalwareOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationAntimalwareOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationAntimalwareOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -209,11 +209,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationAzureSecurityBaseline",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationAzureSecurityBaseline",
 		reflect.TypeOf((*AutomanageConfigurationAzureSecurityBaseline)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationAzureSecurityBaselineOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationAzureSecurityBaselineOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationAzureSecurityBaselineOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assignmentType", GoGetter: "AssignmentType"},
@@ -248,11 +248,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackup",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackup",
 		reflect.TypeOf((*AutomanageConfigurationBackup)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationBackupOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -301,15 +301,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicy",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicy",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailySchedule",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailySchedule",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyDailySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailyScheduleOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailyScheduleOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyDailyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -348,11 +348,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDuration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDuration",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDuration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -390,7 +390,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -433,11 +433,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklySchedule",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklySchedule",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyWeeklySchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -476,11 +476,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDuration",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDuration",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDuration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -518,11 +518,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupSchedulePolicy",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupSchedulePolicy",
 		reflect.TypeOf((*AutomanageConfigurationBackupSchedulePolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupSchedulePolicyOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationBackupSchedulePolicyOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationBackupSchedulePolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -566,15 +566,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationConfig",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationConfig",
 		reflect.TypeOf((*AutomanageConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationTimeouts",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationTimeouts",
 		reflect.TypeOf((*AutomanageConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automanageConfiguration.AutomanageConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automanageConfiguration.AutomanageConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*AutomanageConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

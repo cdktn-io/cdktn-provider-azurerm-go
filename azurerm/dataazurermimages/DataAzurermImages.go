@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermimages
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermimages/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermimages/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/images azurerm_images}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/images azurerm_images}.
 type DataAzurermImages interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -347,7 +347,7 @@ func (j *jsiiProxy_DataAzurermImages) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/images azurerm_images} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/images azurerm_images} Data Source.
 func NewDataAzurermImages(scope constructs.Construct, id *string, config *DataAzurermImagesConfig) DataAzurermImages {
 	_init_.Initialize()
 
@@ -357,7 +357,7 @@ func NewDataAzurermImages(scope constructs.Construct, id *string, config *DataAz
 	j := jsiiProxy_DataAzurermImages{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImages",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -365,12 +365,12 @@ func NewDataAzurermImages(scope constructs.Construct, id *string, config *DataAz
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/images azurerm_images} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/images azurerm_images} Data Source.
 func NewDataAzurermImages_Override(d DataAzurermImages, scope constructs.Construct, id *string, config *DataAzurermImagesConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImages",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -465,7 +465,7 @@ func DataAzurermImages_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImages",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -500,7 +500,7 @@ func DataAzurermImages_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImages",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -519,7 +519,7 @@ func DataAzurermImages_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImages",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -538,7 +538,7 @@ func DataAzurermImages_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImages",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -551,7 +551,7 @@ func DataAzurermImages_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermImages.DataAzurermImages",
+		"@cdktn/provider-azurerm.dataAzurermImages.DataAzurermImages",
 		"tfResourceType",
 		&returns,
 	)

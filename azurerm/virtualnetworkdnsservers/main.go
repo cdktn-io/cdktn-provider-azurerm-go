@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualnetworkdnsservers
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServers",
+		"@cdktn/provider-azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServers",
 		reflect.TypeOf((*VirtualNetworkDnsServers)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServersConfig",
+		"@cdktn/provider-azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServersConfig",
 		reflect.TypeOf((*VirtualNetworkDnsServersConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServersTimeouts",
+		"@cdktn/provider-azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServersTimeouts",
 		reflect.TypeOf((*VirtualNetworkDnsServersTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServersTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServersTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualNetworkDnsServersTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementapitagdescription
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescription",
+		"@cdktn/provider-azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescription",
 		reflect.TypeOf((*ApiManagementApiTagDescription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescriptionConfig",
+		"@cdktn/provider-azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescriptionConfig",
 		reflect.TypeOf((*ApiManagementApiTagDescriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescriptionTimeouts",
+		"@cdktn/provider-azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescriptionTimeouts",
 		reflect.TypeOf((*ApiManagementApiTagDescriptionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescriptionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescriptionTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementApiTagDescriptionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

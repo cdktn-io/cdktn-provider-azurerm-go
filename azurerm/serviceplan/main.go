@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceplan
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicePlan.ServicePlan",
+		"@cdktn/provider-azurerm.servicePlan.ServicePlan",
 		reflect.TypeOf((*ServicePlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicePlan.ServicePlanConfig",
+		"@cdktn/provider-azurerm.servicePlan.ServicePlanConfig",
 		reflect.TypeOf((*ServicePlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicePlan.ServicePlanTimeouts",
+		"@cdktn/provider-azurerm.servicePlan.ServicePlanTimeouts",
 		reflect.TypeOf((*ServicePlanTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicePlan.ServicePlanTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.servicePlan.ServicePlanTimeoutsOutputReference",
 		reflect.TypeOf((*ServicePlanTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

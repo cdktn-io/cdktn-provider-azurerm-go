@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservicesourcecontroltoken
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlToken",
 		reflect.TypeOf((*AppServiceSourceControlToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlTokenConfig",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlTokenConfig",
 		reflect.TypeOf((*AppServiceSourceControlTokenConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlTokenTimeouts",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlTokenTimeouts",
 		reflect.TypeOf((*AppServiceSourceControlTokenTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlTokenTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.appServiceSourceControlToken.AppServiceSourceControlTokenTimeoutsOutputReference",
 		reflect.TypeOf((*AppServiceSourceControlTokenTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iotcentralapplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotcentralApplication.IotcentralApplication",
+		"@cdktn/provider-azurerm.iotcentralApplication.IotcentralApplication",
 		reflect.TypeOf((*IotcentralApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotcentralApplication.IotcentralApplicationConfig",
+		"@cdktn/provider-azurerm.iotcentralApplication.IotcentralApplicationConfig",
 		reflect.TypeOf((*IotcentralApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotcentralApplication.IotcentralApplicationIdentity",
+		"@cdktn/provider-azurerm.iotcentralApplication.IotcentralApplicationIdentity",
 		reflect.TypeOf((*IotcentralApplicationIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotcentralApplication.IotcentralApplicationIdentityOutputReference",
+		"@cdktn/provider-azurerm.iotcentralApplication.IotcentralApplicationIdentityOutputReference",
 		reflect.TypeOf((*IotcentralApplicationIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -141,11 +141,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iotcentralApplication.IotcentralApplicationTimeouts",
+		"@cdktn/provider-azurerm.iotcentralApplication.IotcentralApplicationTimeouts",
 		reflect.TypeOf((*IotcentralApplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iotcentralApplication.IotcentralApplicationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.iotcentralApplication.IotcentralApplicationTimeoutsOutputReference",
 		reflect.TypeOf((*IotcentralApplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

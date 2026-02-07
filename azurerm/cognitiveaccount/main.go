@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cognitiveaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccount",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccount",
 		reflect.TypeOf((*CognitiveAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -148,15 +148,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountConfig",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountConfig",
 		reflect.TypeOf((*CognitiveAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountCustomerManagedKey",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountCustomerManagedKey",
 		reflect.TypeOf((*CognitiveAccountCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*CognitiveAccountCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -193,11 +193,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountIdentity",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountIdentity",
 		reflect.TypeOf((*CognitiveAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountIdentityOutputReference",
 		reflect.TypeOf((*CognitiveAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -236,11 +236,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAcls",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAcls",
 		reflect.TypeOf((*CognitiveAccountNetworkAcls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAclsOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAclsOutputReference",
 		reflect.TypeOf((*CognitiveAccountNetworkAclsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bypass", GoGetter: "Bypass"},
@@ -284,11 +284,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAclsVirtualNetworkRules",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAclsVirtualNetworkRules",
 		reflect.TypeOf((*CognitiveAccountNetworkAclsVirtualNetworkRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAclsVirtualNetworkRulesList",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAclsVirtualNetworkRulesList",
 		reflect.TypeOf((*CognitiveAccountNetworkAclsVirtualNetworkRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -310,7 +310,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAclsVirtualNetworkRulesOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkAclsVirtualNetworkRulesOutputReference",
 		reflect.TypeOf((*CognitiveAccountNetworkAclsVirtualNetworkRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -347,11 +347,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkInjection",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkInjection",
 		reflect.TypeOf((*CognitiveAccountNetworkInjection)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkInjectionOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountNetworkInjectionOutputReference",
 		reflect.TypeOf((*CognitiveAccountNetworkInjectionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -387,11 +387,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountStorage",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountStorage",
 		reflect.TypeOf((*CognitiveAccountStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountStorageList",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountStorageList",
 		reflect.TypeOf((*CognitiveAccountStorageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -413,7 +413,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountStorageOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountStorageOutputReference",
 		reflect.TypeOf((*CognitiveAccountStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -450,11 +450,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountTimeouts",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountTimeouts",
 		reflect.TypeOf((*CognitiveAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccount.CognitiveAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccount.CognitiveAccountTimeoutsOutputReference",
 		reflect.TypeOf((*CognitiveAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

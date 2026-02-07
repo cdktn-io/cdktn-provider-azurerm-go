@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationhybridrunbookworker
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationHybridRunbookWorker.AutomationHybridRunbookWorker",
+		"@cdktn/provider-azurerm.automationHybridRunbookWorker.AutomationHybridRunbookWorker",
 		reflect.TypeOf((*AutomationHybridRunbookWorker)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationHybridRunbookWorker.AutomationHybridRunbookWorkerConfig",
+		"@cdktn/provider-azurerm.automationHybridRunbookWorker.AutomationHybridRunbookWorkerConfig",
 		reflect.TypeOf((*AutomationHybridRunbookWorkerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationHybridRunbookWorker.AutomationHybridRunbookWorkerTimeouts",
+		"@cdktn/provider-azurerm.automationHybridRunbookWorker.AutomationHybridRunbookWorkerTimeouts",
 		reflect.TypeOf((*AutomationHybridRunbookWorkerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationHybridRunbookWorker.AutomationHybridRunbookWorkerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationHybridRunbookWorker.AutomationHybridRunbookWorkerTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationHybridRunbookWorkerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

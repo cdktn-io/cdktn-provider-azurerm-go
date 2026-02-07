@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nginxconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfiguration",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfiguration",
 		reflect.TypeOf((*NginxConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationConfig",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationConfig",
 		reflect.TypeOf((*NginxConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationConfigFile",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationConfigFile",
 		reflect.TypeOf((*NginxConfigurationConfigFile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationConfigFileList",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationConfigFileList",
 		reflect.TypeOf((*NginxConfigurationConfigFileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationConfigFileOutputReference",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationConfigFileOutputReference",
 		reflect.TypeOf((*NginxConfigurationConfigFileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -151,11 +151,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationProtectedFile",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationProtectedFile",
 		reflect.TypeOf((*NginxConfigurationProtectedFile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationProtectedFileList",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationProtectedFileList",
 		reflect.TypeOf((*NginxConfigurationProtectedFileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -177,7 +177,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationProtectedFileOutputReference",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationProtectedFileOutputReference",
 		reflect.TypeOf((*NginxConfigurationProtectedFileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -214,11 +214,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationTimeouts",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationTimeouts",
 		reflect.TypeOf((*NginxConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxConfiguration.NginxConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.nginxConfiguration.NginxConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*NginxConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

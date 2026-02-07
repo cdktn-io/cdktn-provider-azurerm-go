@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package videoindexeraccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccount",
 		reflect.TypeOf((*VideoIndexerAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccountConfig",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccountConfig",
 		reflect.TypeOf((*VideoIndexerAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccountIdentity",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccountIdentity",
 		reflect.TypeOf((*VideoIndexerAccountIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccountIdentityOutputReference",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccountIdentityOutputReference",
 		reflect.TypeOf((*VideoIndexerAccountIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccountStorage",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccountStorage",
 		reflect.TypeOf((*VideoIndexerAccountStorage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccountStorageOutputReference",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccountStorageOutputReference",
 		reflect.TypeOf((*VideoIndexerAccountStorageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -176,11 +176,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccountTimeouts",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccountTimeouts",
 		reflect.TypeOf((*VideoIndexerAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.videoIndexerAccount.VideoIndexerAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.videoIndexerAccount.VideoIndexerAccountTimeoutsOutputReference",
 		reflect.TypeOf((*VideoIndexerAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -279,7 +279,7 @@ func NewIothubRouteOutputReference(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_IothubRouteOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothub.IothubRouteOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubRouteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -291,7 +291,7 @@ func NewIothubRouteOutputReference_Override(i IothubRouteOutputReference, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothub.IothubRouteOutputReference",
+		"@cdktn/provider-azurerm.iothub.IothubRouteOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

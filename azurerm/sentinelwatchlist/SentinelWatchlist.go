@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentinelwatchlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sentinelwatchlist/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelwatchlist/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_watchlist azurerm_sentinel_watchlist}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_watchlist azurerm_sentinel_watchlist}.
 type SentinelWatchlist interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_SentinelWatchlist) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_watchlist azurerm_sentinel_watchlist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_watchlist azurerm_sentinel_watchlist} Resource.
 func NewSentinelWatchlist(scope constructs.Construct, id *string, config *SentinelWatchlistConfig) SentinelWatchlist {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewSentinelWatchlist(scope constructs.Construct, id *string, config *Sentin
 	j := jsiiProxy_SentinelWatchlist{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
+		"@cdktn/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -516,12 +516,12 @@ func NewSentinelWatchlist(scope constructs.Construct, id *string, config *Sentin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/sentinel_watchlist azurerm_sentinel_watchlist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/sentinel_watchlist azurerm_sentinel_watchlist} Resource.
 func NewSentinelWatchlist_Override(s SentinelWatchlist, scope constructs.Construct, id *string, config *SentinelWatchlistConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
+		"@cdktn/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -693,7 +693,7 @@ func SentinelWatchlist_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
+		"@cdktn/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -728,7 +728,7 @@ func SentinelWatchlist_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
+		"@cdktn/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -747,7 +747,7 @@ func SentinelWatchlist_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
+		"@cdktn/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -766,7 +766,7 @@ func SentinelWatchlist_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
+		"@cdktn/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -779,7 +779,7 @@ func SentinelWatchlist_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
+		"@cdktn/provider-azurerm.sentinelWatchlist.SentinelWatchlist",
 		"tfResourceType",
 		&returns,
 	)

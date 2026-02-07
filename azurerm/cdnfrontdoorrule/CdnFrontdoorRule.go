@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoorrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cdnfrontdoorrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule}.
 type CdnFrontdoorRule interface {
 	cdktf.TerraformResource
 	Actions() CdnFrontdoorRuleActionsOutputReference
@@ -485,7 +485,7 @@ func (j *jsiiProxy_CdnFrontdoorRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
 func NewCdnFrontdoorRule(scope constructs.Construct, id *string, config *CdnFrontdoorRuleConfig) CdnFrontdoorRule {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewCdnFrontdoorRule(scope constructs.Construct, id *string, config *CdnFron
 	j := jsiiProxy_CdnFrontdoorRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
+		"@cdktn/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewCdnFrontdoorRule(scope constructs.Construct, id *string, config *CdnFron
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
 func NewCdnFrontdoorRule_Override(c CdnFrontdoorRule, scope constructs.Construct, id *string, config *CdnFrontdoorRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
+		"@cdktn/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -647,7 +647,7 @@ func CdnFrontdoorRule_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
+		"@cdktn/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -682,7 +682,7 @@ func CdnFrontdoorRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
+		"@cdktn/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -701,7 +701,7 @@ func CdnFrontdoorRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
+		"@cdktn/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -720,7 +720,7 @@ func CdnFrontdoorRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
+		"@cdktn/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func CdnFrontdoorRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
+		"@cdktn/provider-azurerm.cdnFrontdoorRule.CdnFrontdoorRule",
 		"tfResourceType",
 		&returns,
 	)

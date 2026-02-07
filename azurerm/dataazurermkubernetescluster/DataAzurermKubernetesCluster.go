@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermkubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermkubernetescluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkubernetescluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster}.
 type DataAzurermKubernetesCluster interface {
 	cdktf.TerraformDataSource
 	AciConnectorLinux() DataAzurermKubernetesClusterAciConnectorLinuxList
@@ -764,7 +764,7 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) WindowsProfile() DataAzurermKub
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
 func NewDataAzurermKubernetesCluster(scope constructs.Construct, id *string, config *DataAzurermKubernetesClusterConfig) DataAzurermKubernetesCluster {
 	_init_.Initialize()
 
@@ -774,7 +774,7 @@ func NewDataAzurermKubernetesCluster(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAzurermKubernetesCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -782,12 +782,12 @@ func NewDataAzurermKubernetesCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
 func NewDataAzurermKubernetesCluster_Override(d DataAzurermKubernetesCluster, scope constructs.Construct, id *string, config *DataAzurermKubernetesClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -882,7 +882,7 @@ func DataAzurermKubernetesCluster_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -917,7 +917,7 @@ func DataAzurermKubernetesCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -936,7 +936,7 @@ func DataAzurermKubernetesCluster_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -955,7 +955,7 @@ func DataAzurermKubernetesCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -968,7 +968,7 @@ func DataAzurermKubernetesCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
+		"@cdktn/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
 		"tfResourceType",
 		&returns,
 	)

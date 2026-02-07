@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsubnet
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnet",
 		reflect.TypeOf((*DataAzurermSubnet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnetConfig",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnetConfig",
 		reflect.TypeOf((*DataAzurermSubnetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnetTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnetTimeouts",
 		reflect.TypeOf((*DataAzurermSubnetTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSubnet.DataAzurermSubnetTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSubnet.DataAzurermSubnetTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermSubnetTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

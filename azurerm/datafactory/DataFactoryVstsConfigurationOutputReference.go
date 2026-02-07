@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactory/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactory/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -321,7 +321,7 @@ func NewDataFactoryVstsConfigurationOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataFactoryVstsConfigurationOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryVstsConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryVstsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -333,7 +333,7 @@ func NewDataFactoryVstsConfigurationOutputReference_Override(d DataFactoryVstsCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactory.DataFactoryVstsConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataFactory.DataFactoryVstsConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

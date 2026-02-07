@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcistoragepath
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/stackhcistoragepath/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/stackhcistoragepath/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path}.
 type StackHciStoragePath interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_StackHciStoragePath) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path} Resource.
 func NewStackHciStoragePath(scope constructs.Construct, id *string, config *StackHciStoragePathConfig) StackHciStoragePath {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewStackHciStoragePath(scope constructs.Construct, id *string, config *Stac
 	j := jsiiProxy_StackHciStoragePath{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewStackHciStoragePath(scope constructs.Construct, id *string, config *Stac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path} Resource.
 func NewStackHciStoragePath_Override(s StackHciStoragePath, scope constructs.Construct, id *string, config *StackHciStoragePathConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -657,7 +657,7 @@ func StackHciStoragePath_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func StackHciStoragePath_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func StackHciStoragePath_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func StackHciStoragePath_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func StackHciStoragePath_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
+		"@cdktn/provider-azurerm.stackHciStoragePath.StackHciStoragePath",
 		"tfResourceType",
 		&returns,
 	)

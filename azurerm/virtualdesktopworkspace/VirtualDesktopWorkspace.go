@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualdesktopworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualdesktopworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualdesktopworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace}.
 type VirtualDesktopWorkspace interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -499,7 +499,7 @@ func (j *jsiiProxy_VirtualDesktopWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace} Resource.
 func NewVirtualDesktopWorkspace(scope constructs.Construct, id *string, config *VirtualDesktopWorkspaceConfig) VirtualDesktopWorkspace {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewVirtualDesktopWorkspace(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_VirtualDesktopWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
+		"@cdktn/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -517,12 +517,12 @@ func NewVirtualDesktopWorkspace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_desktop_workspace azurerm_virtual_desktop_workspace} Resource.
 func NewVirtualDesktopWorkspace_Override(v VirtualDesktopWorkspace, scope constructs.Construct, id *string, config *VirtualDesktopWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
+		"@cdktn/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -694,7 +694,7 @@ func VirtualDesktopWorkspace_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
+		"@cdktn/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -729,7 +729,7 @@ func VirtualDesktopWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
+		"@cdktn/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -748,7 +748,7 @@ func VirtualDesktopWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
+		"@cdktn/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -767,7 +767,7 @@ func VirtualDesktopWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
+		"@cdktn/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -780,7 +780,7 @@ func VirtualDesktopWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
+		"@cdktn/provider-azurerm.virtualDesktopWorkspace.VirtualDesktopWorkspace",
 		"tfResourceType",
 		&returns,
 	)

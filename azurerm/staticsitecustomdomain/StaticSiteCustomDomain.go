@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package staticsitecustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/staticsitecustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/staticsitecustomdomain/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain}.
 type StaticSiteCustomDomain interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_StaticSiteCustomDomain) ValidationTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain} Resource.
 func NewStaticSiteCustomDomain(scope constructs.Construct, id *string, config *StaticSiteCustomDomainConfig) StaticSiteCustomDomain {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewStaticSiteCustomDomain(scope constructs.Construct, id *string, config *S
 	j := jsiiProxy_StaticSiteCustomDomain{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
+		"@cdktn/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -433,12 +433,12 @@ func NewStaticSiteCustomDomain(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain} Resource.
 func NewStaticSiteCustomDomain_Override(s StaticSiteCustomDomain, scope constructs.Construct, id *string, config *StaticSiteCustomDomainConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
+		"@cdktn/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -566,7 +566,7 @@ func StaticSiteCustomDomain_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
+		"@cdktn/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -601,7 +601,7 @@ func StaticSiteCustomDomain_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
+		"@cdktn/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -620,7 +620,7 @@ func StaticSiteCustomDomain_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
+		"@cdktn/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func StaticSiteCustomDomain_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
+		"@cdktn/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -652,7 +652,7 @@ func StaticSiteCustomDomain_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
+		"@cdktn/provider-azurerm.staticSiteCustomDomain.StaticSiteCustomDomain",
 		"tfResourceType",
 		&returns,
 	)

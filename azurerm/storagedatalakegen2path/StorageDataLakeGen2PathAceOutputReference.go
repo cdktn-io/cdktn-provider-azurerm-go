@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagedatalakegen2path
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagedatalakegen2path/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagedatalakegen2path/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewStorageDataLakeGen2PathAceOutputReference(terraformResource cdktf.IInter
 	j := jsiiProxy_StorageDataLakeGen2PathAceOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAceOutputReference",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewStorageDataLakeGen2PathAceOutputReference_Override(s StorageDataLakeGen2
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAceOutputReference",
+		"@cdktn/provider-azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathAceOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

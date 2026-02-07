@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lbnatpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/lbnatpool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/lbnatpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool}.
 type LbNatPool interface {
 	cdktf.TerraformResource
 	BackendPort() *float64
@@ -601,7 +601,7 @@ func (j *jsiiProxy_LbNatPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool} Resource.
 func NewLbNatPool(scope constructs.Construct, id *string, config *LbNatPoolConfig) LbNatPool {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewLbNatPool(scope constructs.Construct, id *string, config *LbNatPoolConfi
 	j := jsiiProxy_LbNatPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lbNatPool.LbNatPool",
+		"@cdktn/provider-azurerm.lbNatPool.LbNatPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -619,12 +619,12 @@ func NewLbNatPool(scope constructs.Construct, id *string, config *LbNatPoolConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool} Resource.
 func NewLbNatPool_Override(l LbNatPool, scope constructs.Construct, id *string, config *LbNatPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.lbNatPool.LbNatPool",
+		"@cdktn/provider-azurerm.lbNatPool.LbNatPool",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -840,7 +840,7 @@ func LbNatPool_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbNatPool.LbNatPool",
+		"@cdktn/provider-azurerm.lbNatPool.LbNatPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -875,7 +875,7 @@ func LbNatPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbNatPool.LbNatPool",
+		"@cdktn/provider-azurerm.lbNatPool.LbNatPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -894,7 +894,7 @@ func LbNatPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbNatPool.LbNatPool",
+		"@cdktn/provider-azurerm.lbNatPool.LbNatPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -913,7 +913,7 @@ func LbNatPool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.lbNatPool.LbNatPool",
+		"@cdktn/provider-azurerm.lbNatPool.LbNatPool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -926,7 +926,7 @@ func LbNatPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.lbNatPool.LbNatPool",
+		"@cdktn/provider-azurerm.lbNatPool.LbNatPool",
 		"tfResourceType",
 		&returns,
 	)

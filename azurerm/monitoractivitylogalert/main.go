@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package monitoractivitylogalert
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlert",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlert",
 		reflect.TypeOf((*MonitorActivityLogAlert)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -94,11 +94,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertAction",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertAction",
 		reflect.TypeOf((*MonitorActivityLogAlertAction)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertActionList",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertActionList",
 		reflect.TypeOf((*MonitorActivityLogAlertActionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertActionOutputReference",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertActionOutputReference",
 		reflect.TypeOf((*MonitorActivityLogAlertActionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionGroupId", GoGetter: "ActionGroupId"},
@@ -157,15 +157,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertConfig",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertConfig",
 		reflect.TypeOf((*MonitorActivityLogAlertConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteria",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteria",
 		reflect.TypeOf((*MonitorActivityLogAlertCriteria)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaOutputReference",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaOutputReference",
 		reflect.TypeOf((*MonitorActivityLogAlertCriteriaOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caller", GoGetter: "Caller"},
@@ -264,11 +264,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaResourceHealth",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaResourceHealth",
 		reflect.TypeOf((*MonitorActivityLogAlertCriteriaResourceHealth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaResourceHealthOutputReference",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaResourceHealthOutputReference",
 		reflect.TypeOf((*MonitorActivityLogAlertCriteriaResourceHealthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -309,11 +309,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaServiceHealth",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaServiceHealth",
 		reflect.TypeOf((*MonitorActivityLogAlertCriteriaServiceHealth)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaServiceHealthOutputReference",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaServiceHealthOutputReference",
 		reflect.TypeOf((*MonitorActivityLogAlertCriteriaServiceHealthOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -354,11 +354,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertTimeouts",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertTimeouts",
 		reflect.TypeOf((*MonitorActivityLogAlertTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.monitorActivityLogAlert.MonitorActivityLogAlertTimeoutsOutputReference",
 		reflect.TypeOf((*MonitorActivityLogAlertTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

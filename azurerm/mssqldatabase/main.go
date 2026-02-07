@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqldatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabase",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabase",
 		reflect.TypeOf((*MssqlDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -178,15 +178,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseConfig",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseConfig",
 		reflect.TypeOf((*MssqlDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseIdentity",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseIdentity",
 		reflect.TypeOf((*MssqlDatabaseIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseIdentityOutputReference",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseIdentityOutputReference",
 		reflect.TypeOf((*MssqlDatabaseIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -222,11 +222,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseImport",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseImport",
 		reflect.TypeOf((*MssqlDatabaseImport)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseImportOutputReference",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseImportOutputReference",
 		reflect.TypeOf((*MssqlDatabaseImportOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "administratorLogin", GoGetter: "AdministratorLogin"},
@@ -273,11 +273,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseLongTermRetentionPolicy",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseLongTermRetentionPolicy",
 		reflect.TypeOf((*MssqlDatabaseLongTermRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseLongTermRetentionPolicyOutputReference",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseLongTermRetentionPolicyOutputReference",
 		reflect.TypeOf((*MssqlDatabaseLongTermRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -324,11 +324,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseShortTermRetentionPolicy",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseShortTermRetentionPolicy",
 		reflect.TypeOf((*MssqlDatabaseShortTermRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseShortTermRetentionPolicyOutputReference",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseShortTermRetentionPolicyOutputReference",
 		reflect.TypeOf((*MssqlDatabaseShortTermRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backupIntervalInHours", GoGetter: "BackupIntervalInHours"},
@@ -365,11 +365,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseThreatDetectionPolicy",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseThreatDetectionPolicy",
 		reflect.TypeOf((*MssqlDatabaseThreatDetectionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseThreatDetectionPolicyOutputReference",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseThreatDetectionPolicyOutputReference",
 		reflect.TypeOf((*MssqlDatabaseThreatDetectionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -422,11 +422,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseTimeouts",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseTimeouts",
 		reflect.TypeOf((*MssqlDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

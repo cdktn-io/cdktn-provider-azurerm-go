@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package marketplaceroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/marketplaceroleassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/marketplaceroleassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/marketplace_role_assignment azurerm_marketplace_role_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/marketplace_role_assignment azurerm_marketplace_role_assignment}.
 type MarketplaceRoleAssignment interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -560,7 +560,7 @@ func (j *jsiiProxy_MarketplaceRoleAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/marketplace_role_assignment azurerm_marketplace_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/marketplace_role_assignment azurerm_marketplace_role_assignment} Resource.
 func NewMarketplaceRoleAssignment(scope constructs.Construct, id *string, config *MarketplaceRoleAssignmentConfig) MarketplaceRoleAssignment {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewMarketplaceRoleAssignment(scope constructs.Construct, id *string, config
 	j := jsiiProxy_MarketplaceRoleAssignment{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -578,12 +578,12 @@ func NewMarketplaceRoleAssignment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/marketplace_role_assignment azurerm_marketplace_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/marketplace_role_assignment azurerm_marketplace_role_assignment} Resource.
 func NewMarketplaceRoleAssignment_Override(m MarketplaceRoleAssignment, scope constructs.Construct, id *string, config *MarketplaceRoleAssignmentConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -777,7 +777,7 @@ func MarketplaceRoleAssignment_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -812,7 +812,7 @@ func MarketplaceRoleAssignment_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -831,7 +831,7 @@ func MarketplaceRoleAssignment_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func MarketplaceRoleAssignment_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func MarketplaceRoleAssignment_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljobstep
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStep",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStep",
 		reflect.TypeOf((*MssqlJobStep)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -102,15 +102,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStepConfig",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStepConfig",
 		reflect.TypeOf((*MssqlJobStepConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStepOutputTarget",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStepOutputTarget",
 		reflect.TypeOf((*MssqlJobStepOutputTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStepOutputTargetOutputReference",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStepOutputTargetOutputReference",
 		reflect.TypeOf((*MssqlJobStepOutputTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStepTimeouts",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStepTimeouts",
 		reflect.TypeOf((*MssqlJobStepTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobStep.MssqlJobStepTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlJobStep.MssqlJobStepTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlJobStepTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

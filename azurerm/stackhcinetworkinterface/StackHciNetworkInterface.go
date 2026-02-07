@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcinetworkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/stackhcinetworkinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/stackhcinetworkinterface/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_network_interface azurerm_stack_hci_network_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_network_interface azurerm_stack_hci_network_interface}.
 type StackHciNetworkInterface interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -521,7 +521,7 @@ func (j *jsiiProxy_StackHciNetworkInterface) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_network_interface azurerm_stack_hci_network_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_network_interface azurerm_stack_hci_network_interface} Resource.
 func NewStackHciNetworkInterface(scope constructs.Construct, id *string, config *StackHciNetworkInterfaceConfig) StackHciNetworkInterface {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewStackHciNetworkInterface(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_StackHciNetworkInterface{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewStackHciNetworkInterface(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_network_interface azurerm_stack_hci_network_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_network_interface azurerm_stack_hci_network_interface} Resource.
 func NewStackHciNetworkInterface_Override(s StackHciNetworkInterface, scope constructs.Construct, id *string, config *StackHciNetworkInterfaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -716,7 +716,7 @@ func StackHciNetworkInterface_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -751,7 +751,7 @@ func StackHciNetworkInterface_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func StackHciNetworkInterface_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func StackHciNetworkInterface_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -802,7 +802,7 @@ func StackHciNetworkInterface_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
+		"@cdktn/provider-azurerm.stackHciNetworkInterface.StackHciNetworkInterface",
 		"tfResourceType",
 		&returns,
 	)

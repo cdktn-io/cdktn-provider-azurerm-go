@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_network azurerm_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_network azurerm_virtual_network}.
 type VirtualNetwork interface {
 	cdktf.TerraformResource
 	AddressSpace() *[]*string
@@ -678,7 +678,7 @@ func (j *jsiiProxy_VirtualNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_network azurerm_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_network azurerm_virtual_network} Resource.
 func NewVirtualNetwork(scope constructs.Construct, id *string, config *VirtualNetworkConfig) VirtualNetwork {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewVirtualNetwork(scope constructs.Construct, id *string, config *VirtualNe
 	j := jsiiProxy_VirtualNetwork{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetwork",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetwork",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -696,12 +696,12 @@ func NewVirtualNetwork(scope constructs.Construct, id *string, config *VirtualNe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_network azurerm_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_network azurerm_virtual_network} Resource.
 func NewVirtualNetwork_Override(v VirtualNetwork, scope constructs.Construct, id *string, config *VirtualNetworkConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetwork",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetwork",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -906,7 +906,7 @@ func VirtualNetwork_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetwork",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetwork",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -941,7 +941,7 @@ func VirtualNetwork_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetwork",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetwork",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -960,7 +960,7 @@ func VirtualNetwork_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetwork",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetwork",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -979,7 +979,7 @@ func VirtualNetwork_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetwork",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetwork",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -992,7 +992,7 @@ func VirtualNetwork_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetwork",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetwork",
 		"tfResourceType",
 		&returns,
 	)

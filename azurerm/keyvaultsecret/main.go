@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultsecret
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecret",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecret",
 		reflect.TypeOf((*KeyVaultSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -99,15 +99,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecretConfig",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecretConfig",
 		reflect.TypeOf((*KeyVaultSecretConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecretTimeouts",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecretTimeouts",
 		reflect.TypeOf((*KeyVaultSecretTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultSecret.KeyVaultSecretTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.keyVaultSecret.KeyVaultSecretTimeoutsOutputReference",
 		reflect.TypeOf((*KeyVaultSecretTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

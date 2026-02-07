@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/subnet/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subnet/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewSubnetDelegationList(terraformResource cdktf.IInterpolatingParent, terra
 	j := jsiiProxy_SubnetDelegationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subnet.SubnetDelegationList",
+		"@cdktn/provider-azurerm.subnet.SubnetDelegationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewSubnetDelegationList_Override(s SubnetDelegationList, terraformResource 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subnet.SubnetDelegationList",
+		"@cdktn/provider-azurerm.subnet.SubnetDelegationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

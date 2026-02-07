@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualhubroutetable
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTable",
+		"@cdktn/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTable",
 		reflect.TypeOf((*VirtualHubRouteTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableConfig",
+		"@cdktn/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableConfig",
 		reflect.TypeOf((*VirtualHubRouteTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableRoute",
+		"@cdktn/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableRoute",
 		reflect.TypeOf((*VirtualHubRouteTableRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableRouteList",
+		"@cdktn/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableRouteList",
 		reflect.TypeOf((*VirtualHubRouteTableRouteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -111,7 +111,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableRouteOutputReference",
+		"@cdktn/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableRouteOutputReference",
 		reflect.TypeOf((*VirtualHubRouteTableRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableTimeouts",
+		"@cdktn/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableTimeouts",
 		reflect.TypeOf((*VirtualHubRouteTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualHubRouteTable.VirtualHubRouteTableTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualHubRouteTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

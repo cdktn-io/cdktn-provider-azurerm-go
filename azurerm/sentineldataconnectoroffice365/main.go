@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sentineldataconnectoroffice365
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365",
 		reflect.TypeOf((*SentinelDataConnectorOffice365)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365Config",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365Config",
 		reflect.TypeOf((*SentinelDataConnectorOffice365Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365Timeouts",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365Timeouts",
 		reflect.TypeOf((*SentinelDataConnectorOffice365Timeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365TimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sentinelDataConnectorOffice365.SentinelDataConnectorOffice365TimeoutsOutputReference",
 		reflect.TypeOf((*SentinelDataConnectorOffice365TimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

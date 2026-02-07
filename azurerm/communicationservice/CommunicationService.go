@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package communicationservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/communicationservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/communicationservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/communication_service azurerm_communication_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/communication_service azurerm_communication_service}.
 type CommunicationService interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_CommunicationService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/communication_service azurerm_communication_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/communication_service azurerm_communication_service} Resource.
 func NewCommunicationService(scope constructs.Construct, id *string, config *CommunicationServiceConfig) CommunicationService {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewCommunicationService(scope constructs.Construct, id *string, config *Com
 	j := jsiiProxy_CommunicationService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.communicationService.CommunicationService",
+		"@cdktn/provider-azurerm.communicationService.CommunicationService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -501,12 +501,12 @@ func NewCommunicationService(scope constructs.Construct, id *string, config *Com
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/communication_service azurerm_communication_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/communication_service azurerm_communication_service} Resource.
 func NewCommunicationService_Override(c CommunicationService, scope constructs.Construct, id *string, config *CommunicationServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.communicationService.CommunicationService",
+		"@cdktn/provider-azurerm.communicationService.CommunicationService",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -645,7 +645,7 @@ func CommunicationService_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.communicationService.CommunicationService",
+		"@cdktn/provider-azurerm.communicationService.CommunicationService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -680,7 +680,7 @@ func CommunicationService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.communicationService.CommunicationService",
+		"@cdktn/provider-azurerm.communicationService.CommunicationService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func CommunicationService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.communicationService.CommunicationService",
+		"@cdktn/provider-azurerm.communicationService.CommunicationService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -718,7 +718,7 @@ func CommunicationService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.communicationService.CommunicationService",
+		"@cdktn/provider-azurerm.communicationService.CommunicationService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func CommunicationService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.communicationService.CommunicationService",
+		"@cdktn/provider-azurerm.communicationService.CommunicationService",
 		"tfResourceType",
 		&returns,
 	)

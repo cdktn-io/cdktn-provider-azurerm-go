@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqldatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqldatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_database azurerm_mssql_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_database azurerm_mssql_database}.
 type MssqlDatabase interface {
 	cdktf.TerraformResource
 	AutoPauseDelayInMinutes() *float64
@@ -1172,7 +1172,7 @@ func (j *jsiiProxy_MssqlDatabase) ZoneRedundantInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_database azurerm_mssql_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_database azurerm_mssql_database} Resource.
 func NewMssqlDatabase(scope constructs.Construct, id *string, config *MssqlDatabaseConfig) MssqlDatabase {
 	_init_.Initialize()
 
@@ -1182,7 +1182,7 @@ func NewMssqlDatabase(scope constructs.Construct, id *string, config *MssqlDatab
 	j := jsiiProxy_MssqlDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabase",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1190,12 +1190,12 @@ func NewMssqlDatabase(scope constructs.Construct, id *string, config *MssqlDatab
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_database azurerm_mssql_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_database azurerm_mssql_database} Resource.
 func NewMssqlDatabase_Override(m MssqlDatabase, scope constructs.Construct, id *string, config *MssqlDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabase",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabase",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -1620,7 +1620,7 @@ func MssqlDatabase_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabase",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1655,7 +1655,7 @@ func MssqlDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabase",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1674,7 +1674,7 @@ func MssqlDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabase",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1693,7 +1693,7 @@ func MssqlDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabase",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1706,7 +1706,7 @@ func MssqlDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlDatabase.MssqlDatabase",
+		"@cdktn/provider-azurerm.mssqlDatabase.MssqlDatabase",
 		"tfResourceType",
 		&returns,
 	)

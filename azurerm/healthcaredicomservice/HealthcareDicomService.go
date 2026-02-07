@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthcaredicomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/healthcaredicomservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcaredicomservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service}.
 type HealthcareDicomService interface {
 	cdktf.TerraformResource
 	Authentication() HealthcareDicomServiceAuthenticationList
@@ -604,7 +604,7 @@ func (j *jsiiProxy_HealthcareDicomService) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service} Resource.
 func NewHealthcareDicomService(scope constructs.Construct, id *string, config *HealthcareDicomServiceConfig) HealthcareDicomService {
 	_init_.Initialize()
 
@@ -614,7 +614,7 @@ func NewHealthcareDicomService(scope constructs.Construct, id *string, config *H
 	j := jsiiProxy_HealthcareDicomService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomService",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -622,12 +622,12 @@ func NewHealthcareDicomService(scope constructs.Construct, id *string, config *H
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service} Resource.
 func NewHealthcareDicomService_Override(h HealthcareDicomService, scope constructs.Construct, id *string, config *HealthcareDicomServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomService",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomService",
 		[]interface{}{scope, id, config},
 		h,
 	)
@@ -799,7 +799,7 @@ func HealthcareDicomService_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomService",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -834,7 +834,7 @@ func HealthcareDicomService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomService",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -853,7 +853,7 @@ func HealthcareDicomService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomService",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -872,7 +872,7 @@ func HealthcareDicomService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomService",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -885,7 +885,7 @@ func HealthcareDicomService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.healthcareDicomService.HealthcareDicomService",
+		"@cdktn/provider-azurerm.healthcareDicomService.HealthcareDicomService",
 		"tfResourceType",
 		&returns,
 	)

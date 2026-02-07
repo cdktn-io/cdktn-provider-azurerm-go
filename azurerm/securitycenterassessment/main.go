@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package securitycenterassessment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAssessment.SecurityCenterAssessment",
+		"@cdktn/provider-azurerm.securityCenterAssessment.SecurityCenterAssessment",
 		reflect.TypeOf((*SecurityCenterAssessment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalData", GoGetter: "AdditionalData"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentConfig",
+		"@cdktn/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentConfig",
 		reflect.TypeOf((*SecurityCenterAssessmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentStatus",
+		"@cdktn/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentStatus",
 		reflect.TypeOf((*SecurityCenterAssessmentStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentStatusOutputReference",
+		"@cdktn/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentStatusOutputReference",
 		reflect.TypeOf((*SecurityCenterAssessmentStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cause", GoGetter: "Cause"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentTimeouts",
+		"@cdktn/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentTimeouts",
 		reflect.TypeOf((*SecurityCenterAssessmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.securityCenterAssessment.SecurityCenterAssessmentTimeoutsOutputReference",
 		reflect.TypeOf((*SecurityCenterAssessmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

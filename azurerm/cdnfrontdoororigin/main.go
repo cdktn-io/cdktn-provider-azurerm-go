@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnfrontdoororigin
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOrigin",
 		reflect.TypeOf((*CdnFrontdoorOrigin)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginConfig",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginConfig",
 		reflect.TypeOf((*CdnFrontdoorOriginConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginPrivateLink",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginPrivateLink",
 		reflect.TypeOf((*CdnFrontdoorOriginPrivateLink)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginPrivateLinkOutputReference",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginPrivateLinkOutputReference",
 		reflect.TypeOf((*CdnFrontdoorOriginPrivateLinkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginTimeouts",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginTimeouts",
 		reflect.TypeOf((*CdnFrontdoorOriginTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cdnFrontdoorOrigin.CdnFrontdoorOriginTimeoutsOutputReference",
 		reflect.TypeOf((*CdnFrontdoorOriginTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

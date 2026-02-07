@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdashboardgrafana
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdashboardgrafana/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdashboardgrafana/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dashboard_grafana azurerm_dashboard_grafana}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dashboard_grafana azurerm_dashboard_grafana}.
 type DataAzurermDashboardGrafana interface {
 	cdktf.TerraformDataSource
 	ApiKeyEnabled() cdktf.IResolvable
@@ -502,7 +502,7 @@ func (j *jsiiProxy_DataAzurermDashboardGrafana) ZoneRedundancyEnabled() cdktf.IR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dashboard_grafana azurerm_dashboard_grafana} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dashboard_grafana azurerm_dashboard_grafana} Data Source.
 func NewDataAzurermDashboardGrafana(scope constructs.Construct, id *string, config *DataAzurermDashboardGrafanaConfig) DataAzurermDashboardGrafana {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewDataAzurermDashboardGrafana(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataAzurermDashboardGrafana{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
+		"@cdktn/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -520,12 +520,12 @@ func NewDataAzurermDashboardGrafana(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/dashboard_grafana azurerm_dashboard_grafana} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/dashboard_grafana azurerm_dashboard_grafana} Data Source.
 func NewDataAzurermDashboardGrafana_Override(d DataAzurermDashboardGrafana, scope constructs.Construct, id *string, config *DataAzurermDashboardGrafanaConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
+		"@cdktn/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -620,7 +620,7 @@ func DataAzurermDashboardGrafana_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
+		"@cdktn/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -655,7 +655,7 @@ func DataAzurermDashboardGrafana_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
+		"@cdktn/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func DataAzurermDashboardGrafana_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
+		"@cdktn/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -693,7 +693,7 @@ func DataAzurermDashboardGrafana_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
+		"@cdktn/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -706,7 +706,7 @@ func DataAzurermDashboardGrafana_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
+		"@cdktn/provider-azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafana",
 		"tfResourceType",
 		&returns,
 	)

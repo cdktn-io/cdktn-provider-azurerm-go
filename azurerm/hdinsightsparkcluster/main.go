@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package hdinsightsparkcluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkCluster",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkCluster",
 		reflect.TypeOf((*HdinsightSparkCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterComponentVersion",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterComponentVersion",
 		reflect.TypeOf((*HdinsightSparkClusterComponentVersion)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterComponentVersionOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterComponentVersionOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterComponentVersionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,11 +181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterComputeIsolation",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterComputeIsolation",
 		reflect.TypeOf((*HdinsightSparkClusterComputeIsolation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterComputeIsolationOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterComputeIsolationOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterComputeIsolationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -223,15 +223,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterConfig",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterConfig",
 		reflect.TypeOf((*HdinsightSparkClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterDiskEncryption",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterDiskEncryption",
 		reflect.TypeOf((*HdinsightSparkClusterDiskEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterDiskEncryptionList",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterDiskEncryptionList",
 		reflect.TypeOf((*HdinsightSparkClusterDiskEncryptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -253,7 +253,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterDiskEncryptionOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterDiskEncryptionOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterDiskEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -297,11 +297,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterExtension",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterExtension",
 		reflect.TypeOf((*HdinsightSparkClusterExtension)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterExtensionOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterExtensionOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterExtensionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -337,11 +337,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterGateway",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterGateway",
 		reflect.TypeOf((*HdinsightSparkClusterGateway)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterGatewayOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterGatewayOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterGatewayOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -377,15 +377,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastores",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastores",
 		reflect.TypeOf((*HdinsightSparkClusterMetastores)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresAmbari",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresAmbari",
 		reflect.TypeOf((*HdinsightSparkClusterMetastoresAmbari)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresAmbariOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresAmbariOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterMetastoresAmbariOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -425,11 +425,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresHive",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresHive",
 		reflect.TypeOf((*HdinsightSparkClusterMetastoresHive)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresHiveOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresHiveOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterMetastoresHiveOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -469,11 +469,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresOozie",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresOozie",
 		reflect.TypeOf((*HdinsightSparkClusterMetastoresOozie)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresOozieOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresOozieOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterMetastoresOozieOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -513,7 +513,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterMetastoresOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "ambari", GoGetter: "Ambari"},
@@ -557,11 +557,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMonitor",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMonitor",
 		reflect.TypeOf((*HdinsightSparkClusterMonitor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMonitorOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterMonitorOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterMonitorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -597,11 +597,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterNetwork",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterNetwork",
 		reflect.TypeOf((*HdinsightSparkClusterNetwork)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterNetworkOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterNetworkOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterNetworkOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -639,15 +639,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterPrivateLinkConfiguration",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterPrivateLinkConfiguration",
 		reflect.TypeOf((*HdinsightSparkClusterPrivateLinkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterPrivateLinkConfigurationIpConfiguration",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterPrivateLinkConfigurationIpConfiguration",
 		reflect.TypeOf((*HdinsightSparkClusterPrivateLinkConfigurationIpConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterPrivateLinkConfigurationIpConfigurationOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterPrivateLinkConfigurationIpConfigurationOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterPrivateLinkConfigurationIpConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -693,7 +693,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterPrivateLinkConfigurationOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterPrivateLinkConfigurationOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterPrivateLinkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -732,15 +732,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRoles",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRoles",
 		reflect.TypeOf((*HdinsightSparkClusterRoles)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNode",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNode",
 		reflect.TypeOf((*HdinsightSparkClusterRolesHeadNode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNodeOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNodeOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesHeadNodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -792,11 +792,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNodeScriptActions",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNodeScriptActions",
 		reflect.TypeOf((*HdinsightSparkClusterRolesHeadNodeScriptActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNodeScriptActionsList",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNodeScriptActionsList",
 		reflect.TypeOf((*HdinsightSparkClusterRolesHeadNodeScriptActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -818,7 +818,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNodeScriptActionsOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNodeScriptActionsOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesHeadNodeScriptActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -857,7 +857,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -898,19 +898,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNode",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNode",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNode)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscale",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscale",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscale)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacity",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacity",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacityOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacityOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -946,7 +946,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -986,11 +986,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrence",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrence",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrence)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1027,11 +1027,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceSchedule",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceSchedule",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceSchedule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceScheduleList",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceScheduleList",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceScheduleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1053,7 +1053,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceScheduleOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceScheduleOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceScheduleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1091,7 +1091,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoscale", GoGetter: "Autoscale"},
@@ -1149,11 +1149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeScriptActions",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeScriptActions",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeScriptActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeScriptActionsList",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeScriptActionsList",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeScriptActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1175,7 +1175,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeScriptActionsOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeScriptActionsOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesWorkerNodeScriptActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1214,11 +1214,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNode",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNode",
 		reflect.TypeOf((*HdinsightSparkClusterRolesZookeeperNode)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNodeOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNodeOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesZookeeperNodeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1270,11 +1270,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNodeScriptActions",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNodeScriptActions",
 		reflect.TypeOf((*HdinsightSparkClusterRolesZookeeperNodeScriptActions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNodeScriptActionsList",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNodeScriptActionsList",
 		reflect.TypeOf((*HdinsightSparkClusterRolesZookeeperNodeScriptActionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1296,7 +1296,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNodeScriptActionsOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNodeScriptActionsOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterRolesZookeeperNodeScriptActionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1335,11 +1335,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterSecurityProfile",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterSecurityProfile",
 		reflect.TypeOf((*HdinsightSparkClusterSecurityProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterSecurityProfileOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterSecurityProfileOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterSecurityProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aaddsResourceId", GoGetter: "AaddsResourceId"},
@@ -1386,15 +1386,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccount",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccount",
 		reflect.TypeOf((*HdinsightSparkClusterStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccountGen2",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccountGen2",
 		reflect.TypeOf((*HdinsightSparkClusterStorageAccountGen2)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccountGen2OutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccountGen2OutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterStorageAccountGen2OutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1434,7 +1434,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccountList",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccountList",
 		reflect.TypeOf((*HdinsightSparkClusterStorageAccountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1456,7 +1456,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterStorageAccountOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1497,11 +1497,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterTimeouts",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterTimeouts",
 		reflect.TypeOf((*HdinsightSparkClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.hdinsightSparkCluster.HdinsightSparkClusterTimeoutsOutputReference",
 		reflect.TypeOf((*HdinsightSparkClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

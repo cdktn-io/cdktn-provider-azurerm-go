@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchanneldirectlinespeech
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelDirectLineSpeech.BotChannelDirectLineSpeech",
+		"@cdktn/provider-azurerm.botChannelDirectLineSpeech.BotChannelDirectLineSpeech",
 		reflect.TypeOf((*BotChannelDirectLineSpeech)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelDirectLineSpeech.BotChannelDirectLineSpeechConfig",
+		"@cdktn/provider-azurerm.botChannelDirectLineSpeech.BotChannelDirectLineSpeechConfig",
 		reflect.TypeOf((*BotChannelDirectLineSpeechConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelDirectLineSpeech.BotChannelDirectLineSpeechTimeouts",
+		"@cdktn/provider-azurerm.botChannelDirectLineSpeech.BotChannelDirectLineSpeechTimeouts",
 		reflect.TypeOf((*BotChannelDirectLineSpeechTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelDirectLineSpeech.BotChannelDirectLineSpeechTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botChannelDirectLineSpeech.BotChannelDirectLineSpeechTimeoutsOutputReference",
 		reflect.TypeOf((*BotChannelDirectLineSpeechTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

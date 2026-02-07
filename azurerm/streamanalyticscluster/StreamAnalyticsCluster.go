@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package streamanalyticscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/streamanalyticscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticscluster/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster}.
 type StreamAnalyticsCluster interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_StreamAnalyticsCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
 func NewStreamAnalyticsCluster(scope constructs.Construct, id *string, config *StreamAnalyticsClusterConfig) StreamAnalyticsCluster {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewStreamAnalyticsCluster(scope constructs.Construct, id *string, config *S
 	j := jsiiProxy_StreamAnalyticsCluster{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -468,12 +468,12 @@ func NewStreamAnalyticsCluster(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
 func NewStreamAnalyticsCluster_Override(s StreamAnalyticsCluster, scope constructs.Construct, id *string, config *StreamAnalyticsClusterConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -623,7 +623,7 @@ func StreamAnalyticsCluster_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func StreamAnalyticsCluster_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func StreamAnalyticsCluster_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func StreamAnalyticsCluster_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func StreamAnalyticsCluster_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
+		"@cdktn/provider-azurerm.streamAnalyticsCluster.StreamAnalyticsCluster",
 		"tfResourceType",
 		&returns,
 	)

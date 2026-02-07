@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementtag
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementTag.ApiManagementTag",
+		"@cdktn/provider-azurerm.apiManagementTag.ApiManagementTag",
 		reflect.TypeOf((*ApiManagementTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementTag.ApiManagementTagConfig",
+		"@cdktn/provider-azurerm.apiManagementTag.ApiManagementTagConfig",
 		reflect.TypeOf((*ApiManagementTagConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementTag.ApiManagementTagTimeouts",
+		"@cdktn/provider-azurerm.apiManagementTag.ApiManagementTagTimeouts",
 		reflect.TypeOf((*ApiManagementTagTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementTag.ApiManagementTagTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementTag.ApiManagementTagTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementTagTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

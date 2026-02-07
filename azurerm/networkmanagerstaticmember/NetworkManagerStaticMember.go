@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerstaticmember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanagerstaticmember/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanagerstaticmember/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member}.
 type NetworkManagerStaticMember interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_NetworkManagerStaticMember) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member} Resource.
 func NewNetworkManagerStaticMember(scope constructs.Construct, id *string, config *NetworkManagerStaticMemberConfig) NetworkManagerStaticMember {
 	_init_.Initialize()
 
@@ -424,7 +424,7 @@ func NewNetworkManagerStaticMember(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_NetworkManagerStaticMember{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -432,12 +432,12 @@ func NewNetworkManagerStaticMember(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member} Resource.
 func NewNetworkManagerStaticMember_Override(n NetworkManagerStaticMember, scope constructs.Construct, id *string, config *NetworkManagerStaticMemberConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -565,7 +565,7 @@ func NetworkManagerStaticMember_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -600,7 +600,7 @@ func NetworkManagerStaticMember_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func NetworkManagerStaticMember_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func NetworkManagerStaticMember_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -651,7 +651,7 @@ func NetworkManagerStaticMember_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
+		"@cdktn/provider-azurerm.networkManagerStaticMember.NetworkManagerStaticMember",
 		"tfResourceType",
 		&returns,
 	)

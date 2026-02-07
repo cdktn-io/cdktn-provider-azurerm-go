@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package keyvaultmanagedstorageaccount
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccount",
 		reflect.TypeOf((*KeyVaultManagedStorageAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccountConfig",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccountConfig",
 		reflect.TypeOf((*KeyVaultManagedStorageAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccountTimeouts",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccountTimeouts",
 		reflect.TypeOf((*KeyVaultManagedStorageAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccountTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.keyVaultManagedStorageAccount.KeyVaultManagedStorageAccountTimeoutsOutputReference",
 		reflect.TypeOf((*KeyVaultManagedStorageAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

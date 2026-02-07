@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databricksworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/databricksworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/databricksworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_workspace azurerm_databricks_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_workspace azurerm_databricks_workspace}.
 type DatabricksWorkspace interface {
 	cdktf.TerraformResource
 	AccessConnectorId() *string
@@ -876,7 +876,7 @@ func (j *jsiiProxy_DatabricksWorkspace) WorkspaceUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_workspace azurerm_databricks_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_workspace azurerm_databricks_workspace} Resource.
 func NewDatabricksWorkspace(scope constructs.Construct, id *string, config *DatabricksWorkspaceConfig) DatabricksWorkspace {
 	_init_.Initialize()
 
@@ -886,7 +886,7 @@ func NewDatabricksWorkspace(scope constructs.Construct, id *string, config *Data
 	j := jsiiProxy_DatabricksWorkspace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -894,12 +894,12 @@ func NewDatabricksWorkspace(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_workspace azurerm_databricks_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_workspace azurerm_databricks_workspace} Resource.
 func NewDatabricksWorkspace_Override(d DatabricksWorkspace, scope constructs.Construct, id *string, config *DatabricksWorkspaceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1192,7 +1192,7 @@ func DatabricksWorkspace_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1227,7 +1227,7 @@ func DatabricksWorkspace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1246,7 +1246,7 @@ func DatabricksWorkspace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1265,7 +1265,7 @@ func DatabricksWorkspace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1278,7 +1278,7 @@ func DatabricksWorkspace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
+		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
 		"tfResourceType",
 		&returns,
 	)

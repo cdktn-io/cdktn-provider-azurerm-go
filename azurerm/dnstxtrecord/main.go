@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnstxtrecord
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsTxtRecord.DnsTxtRecord",
+		"@cdktn/provider-azurerm.dnsTxtRecord.DnsTxtRecord",
 		reflect.TypeOf((*DnsTxtRecord)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dnsTxtRecord.DnsTxtRecordConfig",
+		"@cdktn/provider-azurerm.dnsTxtRecord.DnsTxtRecordConfig",
 		reflect.TypeOf((*DnsTxtRecordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dnsTxtRecord.DnsTxtRecordRecord",
+		"@cdktn/provider-azurerm.dnsTxtRecord.DnsTxtRecordRecord",
 		reflect.TypeOf((*DnsTxtRecordRecord)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsTxtRecord.DnsTxtRecordRecordList",
+		"@cdktn/provider-azurerm.dnsTxtRecord.DnsTxtRecordRecordList",
 		reflect.TypeOf((*DnsTxtRecordRecordList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsTxtRecord.DnsTxtRecordRecordOutputReference",
+		"@cdktn/provider-azurerm.dnsTxtRecord.DnsTxtRecordRecordOutputReference",
 		reflect.TypeOf((*DnsTxtRecordRecordOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -149,11 +149,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dnsTxtRecord.DnsTxtRecordTimeouts",
+		"@cdktn/provider-azurerm.dnsTxtRecord.DnsTxtRecordTimeouts",
 		reflect.TypeOf((*DnsTxtRecordTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dnsTxtRecord.DnsTxtRecordTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dnsTxtRecord.DnsTxtRecordTimeoutsOutputReference",
 		reflect.TypeOf((*DnsTxtRecordTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

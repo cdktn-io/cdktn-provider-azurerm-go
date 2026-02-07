@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementglobalschema
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchema",
 		reflect.TypeOf((*ApiManagementGlobalSchema)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchemaConfig",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchemaConfig",
 		reflect.TypeOf((*ApiManagementGlobalSchemaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchemaTimeouts",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchemaTimeouts",
 		reflect.TypeOf((*ApiManagementGlobalSchemaTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchemaTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.apiManagementGlobalSchema.ApiManagementGlobalSchemaTimeoutsOutputReference",
 		reflect.TypeOf((*ApiManagementGlobalSchemaTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

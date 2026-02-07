@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementworkspacepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementworkspacepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementworkspacepolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy}.
 type ApiManagementWorkspacePolicy interface {
 	cdktf.TerraformResource
 	ApiManagementWorkspaceId() *string
@@ -405,7 +405,7 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicy) XmlLinkInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
 func NewApiManagementWorkspacePolicy(scope constructs.Construct, id *string, config *ApiManagementWorkspacePolicyConfig) ApiManagementWorkspacePolicy {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewApiManagementWorkspacePolicy(scope constructs.Construct, id *string, con
 	j := jsiiProxy_ApiManagementWorkspacePolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
+		"@cdktn/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewApiManagementWorkspacePolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
 func NewApiManagementWorkspacePolicy_Override(a ApiManagementWorkspacePolicy, scope constructs.Construct, id *string, config *ApiManagementWorkspacePolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
+		"@cdktn/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -556,7 +556,7 @@ func ApiManagementWorkspacePolicy_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
+		"@cdktn/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func ApiManagementWorkspacePolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
+		"@cdktn/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func ApiManagementWorkspacePolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
+		"@cdktn/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func ApiManagementWorkspacePolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
+		"@cdktn/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func ApiManagementWorkspacePolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
+		"@cdktn/provider-azurerm.apiManagementWorkspacePolicy.ApiManagementWorkspacePolicy",
 		"tfResourceType",
 		&returns,
 	)

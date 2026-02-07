@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package expressroutegateway
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteGateway.ExpressRouteGateway",
+		"@cdktn/provider-azurerm.expressRouteGateway.ExpressRouteGateway",
 		reflect.TypeOf((*ExpressRouteGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteGateway.ExpressRouteGatewayConfig",
+		"@cdktn/provider-azurerm.expressRouteGateway.ExpressRouteGatewayConfig",
 		reflect.TypeOf((*ExpressRouteGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.expressRouteGateway.ExpressRouteGatewayTimeouts",
+		"@cdktn/provider-azurerm.expressRouteGateway.ExpressRouteGatewayTimeouts",
 		reflect.TypeOf((*ExpressRouteGatewayTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.expressRouteGateway.ExpressRouteGatewayTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.expressRouteGateway.ExpressRouteGatewayTimeoutsOutputReference",
 		reflect.TypeOf((*ExpressRouteGatewayTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

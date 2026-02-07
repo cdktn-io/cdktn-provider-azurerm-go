@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databasemigrationservice
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databaseMigrationService.DatabaseMigrationService",
+		"@cdktn/provider-azurerm.databaseMigrationService.DatabaseMigrationService",
 		reflect.TypeOf((*DatabaseMigrationService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -83,15 +83,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databaseMigrationService.DatabaseMigrationServiceConfig",
+		"@cdktn/provider-azurerm.databaseMigrationService.DatabaseMigrationServiceConfig",
 		reflect.TypeOf((*DatabaseMigrationServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.databaseMigrationService.DatabaseMigrationServiceTimeouts",
+		"@cdktn/provider-azurerm.databaseMigrationService.DatabaseMigrationServiceTimeouts",
 		reflect.TypeOf((*DatabaseMigrationServiceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.databaseMigrationService.DatabaseMigrationServiceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.databaseMigrationService.DatabaseMigrationServiceTimeoutsOutputReference",
 		reflect.TypeOf((*DatabaseMigrationServiceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

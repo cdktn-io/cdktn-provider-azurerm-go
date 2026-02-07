@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package marketplaceroleassignment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
 		reflect.TypeOf((*MarketplaceRoleAssignment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -97,15 +97,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignmentConfig",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignmentConfig",
 		reflect.TypeOf((*MarketplaceRoleAssignmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignmentTimeouts",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignmentTimeouts",
 		reflect.TypeOf((*MarketplaceRoleAssignmentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignmentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignmentTimeoutsOutputReference",
 		reflect.TypeOf((*MarketplaceRoleAssignmentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

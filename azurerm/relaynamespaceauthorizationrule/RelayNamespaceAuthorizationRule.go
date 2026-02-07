@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package relaynamespaceauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/relaynamespaceauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/relaynamespaceauthorizationrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule}.
 type RelayNamespaceAuthorizationRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_RelayNamespaceAuthorizationRule) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule} Resource.
 func NewRelayNamespaceAuthorizationRule(scope constructs.Construct, id *string, config *RelayNamespaceAuthorizationRuleConfig) RelayNamespaceAuthorizationRule {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewRelayNamespaceAuthorizationRule(scope constructs.Construct, id *string, 
 	j := jsiiProxy_RelayNamespaceAuthorizationRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -537,12 +537,12 @@ func NewRelayNamespaceAuthorizationRule(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule} Resource.
 func NewRelayNamespaceAuthorizationRule_Override(r RelayNamespaceAuthorizationRule, scope constructs.Construct, id *string, config *RelayNamespaceAuthorizationRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -703,7 +703,7 @@ func RelayNamespaceAuthorizationRule_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -738,7 +738,7 @@ func RelayNamespaceAuthorizationRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func RelayNamespaceAuthorizationRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -776,7 +776,7 @@ func RelayNamespaceAuthorizationRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -789,7 +789,7 @@ func RelayNamespaceAuthorizationRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
+		"@cdktn/provider-azurerm.relayNamespaceAuthorizationRule.RelayNamespaceAuthorizationRule",
 		"tfResourceType",
 		&returns,
 	)

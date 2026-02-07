@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerappjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/containerappjob/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerappjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_job azurerm_container_app_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_job azurerm_container_app_job}.
 type ContainerAppJob interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -710,7 +710,7 @@ func (j *jsiiProxy_ContainerAppJob) WorkloadProfileNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_job azurerm_container_app_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_job azurerm_container_app_job} Resource.
 func NewContainerAppJob(scope constructs.Construct, id *string, config *ContainerAppJobConfig) ContainerAppJob {
 	_init_.Initialize()
 
@@ -720,7 +720,7 @@ func NewContainerAppJob(scope constructs.Construct, id *string, config *Containe
 	j := jsiiProxy_ContainerAppJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJob",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -728,12 +728,12 @@ func NewContainerAppJob(scope constructs.Construct, id *string, config *Containe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/container_app_job azurerm_container_app_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/container_app_job azurerm_container_app_job} Resource.
 func NewContainerAppJob_Override(c ContainerAppJob, scope constructs.Construct, id *string, config *ContainerAppJobConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJob",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJob",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -916,7 +916,7 @@ func ContainerAppJob_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJob",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -951,7 +951,7 @@ func ContainerAppJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJob",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -970,7 +970,7 @@ func ContainerAppJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJob",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -989,7 +989,7 @@ func ContainerAppJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJob",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1002,7 +1002,7 @@ func ContainerAppJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJob",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJob",
 		"tfResourceType",
 		&returns,
 	)

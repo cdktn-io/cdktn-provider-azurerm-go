@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package loadtest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/loadtest/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loadtest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/load_test azurerm_load_test}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/load_test azurerm_load_test}.
 type LoadTest interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_LoadTest) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/load_test azurerm_load_test} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/load_test azurerm_load_test} Resource.
 func NewLoadTest(scope constructs.Construct, id *string, config *LoadTestConfig) LoadTest {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewLoadTest(scope constructs.Construct, id *string, config *LoadTestConfig)
 	j := jsiiProxy_LoadTest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.loadTest.LoadTest",
+		"@cdktn/provider-azurerm.loadTest.LoadTest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -528,12 +528,12 @@ func NewLoadTest(scope constructs.Construct, id *string, config *LoadTestConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/load_test azurerm_load_test} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/load_test azurerm_load_test} Resource.
 func NewLoadTest_Override(l LoadTest, scope constructs.Construct, id *string, config *LoadTestConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.loadTest.LoadTest",
+		"@cdktn/provider-azurerm.loadTest.LoadTest",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -683,7 +683,7 @@ func LoadTest_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.loadTest.LoadTest",
+		"@cdktn/provider-azurerm.loadTest.LoadTest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -718,7 +718,7 @@ func LoadTest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.loadTest.LoadTest",
+		"@cdktn/provider-azurerm.loadTest.LoadTest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -737,7 +737,7 @@ func LoadTest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.loadTest.LoadTest",
+		"@cdktn/provider-azurerm.loadTest.LoadTest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -756,7 +756,7 @@ func LoadTest_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.loadTest.LoadTest",
+		"@cdktn/provider-azurerm.loadTest.LoadTest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -769,7 +769,7 @@ func LoadTest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.loadTest.LoadTest",
+		"@cdktn/provider-azurerm.loadTest.LoadTest",
 		"tfResourceType",
 		&returns,
 	)

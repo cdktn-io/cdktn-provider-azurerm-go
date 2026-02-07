@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networksecurityrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networksecurityrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networksecurityrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_security_rule azurerm_network_security_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_rule azurerm_network_security_rule}.
 type NetworkSecurityRule interface {
 	cdktf.TerraformResource
 	Access() *string
@@ -759,7 +759,7 @@ func (j *jsiiProxy_NetworkSecurityRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_security_rule azurerm_network_security_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_rule azurerm_network_security_rule} Resource.
 func NewNetworkSecurityRule(scope constructs.Construct, id *string, config *NetworkSecurityRuleConfig) NetworkSecurityRule {
 	_init_.Initialize()
 
@@ -769,7 +769,7 @@ func NewNetworkSecurityRule(scope constructs.Construct, id *string, config *Netw
 	j := jsiiProxy_NetworkSecurityRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -777,12 +777,12 @@ func NewNetworkSecurityRule(scope constructs.Construct, id *string, config *Netw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_security_rule azurerm_network_security_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_rule azurerm_network_security_rule} Resource.
 func NewNetworkSecurityRule_Override(n NetworkSecurityRule, scope constructs.Construct, id *string, config *NetworkSecurityRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -1075,7 +1075,7 @@ func NetworkSecurityRule_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1110,7 +1110,7 @@ func NetworkSecurityRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1129,7 +1129,7 @@ func NetworkSecurityRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1148,7 +1148,7 @@ func NetworkSecurityRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1161,7 +1161,7 @@ func NetworkSecurityRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
+		"@cdktn/provider-azurerm.networkSecurityRule.NetworkSecurityRule",
 		"tfResourceType",
 		&returns,
 	)

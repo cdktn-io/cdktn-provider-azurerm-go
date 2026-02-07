@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageobjectreplication
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplication",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplication",
 		reflect.TypeOf((*StorageObjectReplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -79,15 +79,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplicationConfig",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplicationConfig",
 		reflect.TypeOf((*StorageObjectReplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplicationRules",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplicationRules",
 		reflect.TypeOf((*StorageObjectReplicationRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplicationRulesList",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplicationRulesList",
 		reflect.TypeOf((*StorageObjectReplicationRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -109,7 +109,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplicationRulesOutputReference",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplicationRulesOutputReference",
 		reflect.TypeOf((*StorageObjectReplicationRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -152,11 +152,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplicationTimeouts",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplicationTimeouts",
 		reflect.TypeOf((*StorageObjectReplicationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageObjectReplication.StorageObjectReplicationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageObjectReplication.StorageObjectReplicationTimeoutsOutputReference",
 		reflect.TypeOf((*StorageObjectReplicationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package containerappjob
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJob",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJob",
 		reflect.TypeOf((*ContainerAppJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -118,15 +118,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobConfig",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobConfig",
 		reflect.TypeOf((*ContainerAppJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfig",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfig",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigOutputReference",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -168,11 +168,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScale",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScale",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScale)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleList",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScaleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -194,7 +194,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleOutputReference",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -239,15 +239,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRules",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRules",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScaleRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesAuthentication",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesAuthentication",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScaleRulesAuthentication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -269,7 +269,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReference",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -305,7 +305,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesList",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScaleRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -327,7 +327,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRulesOutputReference",
 		reflect.TypeOf((*ContainerAppJobEventTriggerConfigScaleRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authentication", GoGetter: "Authentication"},
@@ -369,11 +369,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobIdentity",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobIdentity",
 		reflect.TypeOf((*ContainerAppJobIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobIdentityOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobIdentityOutputReference",
 		reflect.TypeOf((*ContainerAppJobIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -412,11 +412,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobManualTriggerConfig",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobManualTriggerConfig",
 		reflect.TypeOf((*ContainerAppJobManualTriggerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobManualTriggerConfigOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobManualTriggerConfigOutputReference",
 		reflect.TypeOf((*ContainerAppJobManualTriggerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -454,11 +454,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobRegistry",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobRegistry",
 		reflect.TypeOf((*ContainerAppJobRegistry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobRegistryList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobRegistryList",
 		reflect.TypeOf((*ContainerAppJobRegistryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -480,7 +480,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobRegistryOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobRegistryOutputReference",
 		reflect.TypeOf((*ContainerAppJobRegistryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -523,11 +523,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobScheduleTriggerConfig",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobScheduleTriggerConfig",
 		reflect.TypeOf((*ContainerAppJobScheduleTriggerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobScheduleTriggerConfigOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobScheduleTriggerConfigOutputReference",
 		reflect.TypeOf((*ContainerAppJobScheduleTriggerConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -567,11 +567,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobSecret",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobSecret",
 		reflect.TypeOf((*ContainerAppJobSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobSecretList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobSecretList",
 		reflect.TypeOf((*ContainerAppJobSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -593,7 +593,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobSecretOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobSecretOutputReference",
 		reflect.TypeOf((*ContainerAppJobSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -636,19 +636,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplate",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplate",
 		reflect.TypeOf((*ContainerAppJobTemplate)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainer",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainer",
 		reflect.TypeOf((*ContainerAppJobTemplateContainer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerEnv",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerEnv",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerEnv)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerEnvList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerEnvList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerEnvList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -670,7 +670,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerEnvOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerEnvOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerEnvOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -710,7 +710,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -732,15 +732,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbe",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbe",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerLivenessProbe)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeHeader",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeHeader",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerLivenessProbeHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeHeaderList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeHeaderList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerLivenessProbeHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -762,7 +762,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeHeaderOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeHeaderOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerLivenessProbeHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -798,7 +798,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerLivenessProbeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -820,7 +820,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerLivenessProbeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -879,7 +879,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},
@@ -946,15 +946,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbe",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbe",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerReadinessProbe)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeHeader",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeHeader",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerReadinessProbeHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeHeaderList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeHeaderList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerReadinessProbeHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -976,7 +976,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeHeaderOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeHeaderOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerReadinessProbeHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1012,7 +1012,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerReadinessProbeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1034,7 +1034,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbeOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerReadinessProbeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1095,15 +1095,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbe",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbe",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerStartupProbe)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeHeader",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeHeader",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerStartupProbeHeader)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeHeaderList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeHeaderList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerStartupProbeHeaderList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1125,7 +1125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeHeaderOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeHeaderOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerStartupProbeHeaderOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1161,7 +1161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerStartupProbeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1183,7 +1183,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbeOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerStartupProbeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1242,11 +1242,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerVolumeMounts",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerVolumeMounts",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerVolumeMounts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerVolumeMountsList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerVolumeMountsList",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerVolumeMountsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1268,7 +1268,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerVolumeMountsOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateContainerVolumeMountsOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateContainerVolumeMountsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1307,15 +1307,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainer",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainer",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerEnv",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerEnv",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainerEnv)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerEnvList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerEnvList",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainerEnvList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1337,7 +1337,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerEnvOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerEnvOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainerEnvOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1377,7 +1377,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerList",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1399,7 +1399,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},
@@ -1456,11 +1456,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerVolumeMounts",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerVolumeMounts",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainerVolumeMounts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerVolumeMountsList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerVolumeMountsList",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainerVolumeMountsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1482,7 +1482,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerVolumeMountsOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateInitContainerVolumeMountsOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateInitContainerVolumeMountsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1521,7 +1521,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1564,11 +1564,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateVolume",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateVolume",
 		reflect.TypeOf((*ContainerAppJobTemplateVolume)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateVolumeList",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateVolumeList",
 		reflect.TypeOf((*ContainerAppJobTemplateVolumeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1590,7 +1590,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTemplateVolumeOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTemplateVolumeOutputReference",
 		reflect.TypeOf((*ContainerAppJobTemplateVolumeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1633,11 +1633,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTimeouts",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTimeouts",
 		reflect.TypeOf((*ContainerAppJobTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.containerAppJob.ContainerAppJobTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.containerAppJob.ContainerAppJobTimeoutsOutputReference",
 		reflect.TypeOf((*ContainerAppJobTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

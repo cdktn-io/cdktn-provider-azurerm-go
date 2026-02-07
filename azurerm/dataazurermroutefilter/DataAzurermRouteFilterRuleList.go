@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermroutefilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermroutefilter/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermroutefilter/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAzurermRouteFilterRuleList(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_DataAzurermRouteFilterRuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRuleList",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAzurermRouteFilterRuleList_Override(d DataAzurermRouteFilterRuleList
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRuleList",
+		"@cdktn/provider-azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterRuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

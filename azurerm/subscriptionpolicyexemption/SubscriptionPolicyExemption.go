@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subscriptionpolicyexemption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/subscriptionpolicyexemption/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subscriptionpolicyexemption/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption}.
 type SubscriptionPolicyExemption interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_SubscriptionPolicyExemption) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption} Resource.
 func NewSubscriptionPolicyExemption(scope constructs.Construct, id *string, config *SubscriptionPolicyExemptionConfig) SubscriptionPolicyExemption {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewSubscriptionPolicyExemption(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_SubscriptionPolicyExemption{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
+		"@cdktn/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -564,12 +564,12 @@ func NewSubscriptionPolicyExemption(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption} Resource.
 func NewSubscriptionPolicyExemption_Override(s SubscriptionPolicyExemption, scope constructs.Construct, id *string, config *SubscriptionPolicyExemptionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
+		"@cdktn/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -763,7 +763,7 @@ func SubscriptionPolicyExemption_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
+		"@cdktn/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -798,7 +798,7 @@ func SubscriptionPolicyExemption_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
+		"@cdktn/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -817,7 +817,7 @@ func SubscriptionPolicyExemption_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
+		"@cdktn/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func SubscriptionPolicyExemption_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
+		"@cdktn/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -849,7 +849,7 @@ func SubscriptionPolicyExemption_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
+		"@cdktn/provider-azurerm.subscriptionPolicyExemption.SubscriptionPolicyExemption",
 		"tfResourceType",
 		&returns,
 	)

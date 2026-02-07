@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/resourcegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group azurerm_resource_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group azurerm_resource_group}.
 type ResourceGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -428,7 +428,7 @@ func (j *jsiiProxy_ResourceGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group azurerm_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group azurerm_resource_group} Resource.
 func NewResourceGroup(scope constructs.Construct, id *string, config *ResourceGroupConfig) ResourceGroup {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewResourceGroup(scope constructs.Construct, id *string, config *ResourceGr
 	j := jsiiProxy_ResourceGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroup",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -446,12 +446,12 @@ func NewResourceGroup(scope constructs.Construct, id *string, config *ResourceGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/resource_group azurerm_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/resource_group azurerm_resource_group} Resource.
 func NewResourceGroup_Override(r ResourceGroup, scope constructs.Construct, id *string, config *ResourceGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroup",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroup",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -590,7 +590,7 @@ func ResourceGroup_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroup",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -625,7 +625,7 @@ func ResourceGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroup",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -644,7 +644,7 @@ func ResourceGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroup",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -663,7 +663,7 @@ func ResourceGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroup",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func ResourceGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.resourceGroup.ResourceGroup",
+		"@cdktn/provider-azurerm.resourceGroup.ResourceGroup",
 		"tfResourceType",
 		&returns,
 	)

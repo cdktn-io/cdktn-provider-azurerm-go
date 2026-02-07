@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package managedlustrefilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/managedlustrefilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managedlustrefilesystem/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_lustre_file_system azurerm_managed_lustre_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_lustre_file_system azurerm_managed_lustre_file_system}.
 type ManagedLustreFileSystem interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -649,7 +649,7 @@ func (j *jsiiProxy_ManagedLustreFileSystem) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_lustre_file_system azurerm_managed_lustre_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_lustre_file_system azurerm_managed_lustre_file_system} Resource.
 func NewManagedLustreFileSystem(scope constructs.Construct, id *string, config *ManagedLustreFileSystemConfig) ManagedLustreFileSystem {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewManagedLustreFileSystem(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_ManagedLustreFileSystem{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -667,12 +667,12 @@ func NewManagedLustreFileSystem(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/managed_lustre_file_system azurerm_managed_lustre_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/managed_lustre_file_system azurerm_managed_lustre_file_system} Resource.
 func NewManagedLustreFileSystem_Override(m ManagedLustreFileSystem, scope constructs.Construct, id *string, config *ManagedLustreFileSystemConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -855,7 +855,7 @@ func ManagedLustreFileSystem_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -890,7 +890,7 @@ func ManagedLustreFileSystem_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -909,7 +909,7 @@ func ManagedLustreFileSystem_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -928,7 +928,7 @@ func ManagedLustreFileSystem_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -941,7 +941,7 @@ func ManagedLustreFileSystem_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
+		"@cdktn/provider-azurerm.managedLustreFileSystem.ManagedLustreFileSystem",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subscriptioncostmanagementview
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementView",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementView",
 		reflect.TypeOf((*SubscriptionCostManagementView)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accumulated", GoGetter: "Accumulated"},
@@ -95,19 +95,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewConfig",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewConfig",
 		reflect.TypeOf((*SubscriptionCostManagementViewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDataset",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDataset",
 		reflect.TypeOf((*SubscriptionCostManagementViewDataset)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetAggregation",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetAggregation",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetAggregation)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetAggregationList",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetAggregationList",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetAggregationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -129,7 +129,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetAggregationOutputReference",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetAggregationOutputReference",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetAggregationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnName", GoGetter: "ColumnName"},
@@ -165,11 +165,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetGrouping",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetGrouping",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetGrouping)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetGroupingList",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetGroupingList",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetGroupingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -191,7 +191,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetGroupingOutputReference",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetGroupingOutputReference",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetGroupingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetOutputReference",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetOutputReference",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregation", GoGetter: "Aggregation"},
@@ -272,11 +272,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetSorting",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetSorting",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetSorting)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetSortingList",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetSortingList",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetSortingList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -298,7 +298,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetSortingOutputReference",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetSortingOutputReference",
 		reflect.TypeOf((*SubscriptionCostManagementViewDatasetSortingOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -334,11 +334,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewKpi",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewKpi",
 		reflect.TypeOf((*SubscriptionCostManagementViewKpi)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewKpiList",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewKpiList",
 		reflect.TypeOf((*SubscriptionCostManagementViewKpiList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -360,7 +360,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewKpiOutputReference",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewKpiOutputReference",
 		reflect.TypeOf((*SubscriptionCostManagementViewKpiOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -394,11 +394,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewPivot",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewPivot",
 		reflect.TypeOf((*SubscriptionCostManagementViewPivot)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewPivotList",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewPivotList",
 		reflect.TypeOf((*SubscriptionCostManagementViewPivotList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -420,7 +420,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewPivotOutputReference",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewPivotOutputReference",
 		reflect.TypeOf((*SubscriptionCostManagementViewPivotOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -456,11 +456,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewTimeouts",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewTimeouts",
 		reflect.TypeOf((*SubscriptionCostManagementViewTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewTimeoutsOutputReference",
 		reflect.TypeOf((*SubscriptionCostManagementViewTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

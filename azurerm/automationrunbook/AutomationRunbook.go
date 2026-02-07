@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationrunbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_runbook azurerm_automation_runbook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_runbook azurerm_automation_runbook}.
 type AutomationRunbook interface {
 	cdktf.TerraformResource
 	AutomationAccountName() *string
@@ -94,6 +94,9 @@ type AutomationRunbook interface {
 	RunbookType() *string
 	SetRunbookType(val *string)
 	RunbookTypeInput() *string
+	RuntimeEnvironmentName() *string
+	SetRuntimeEnvironmentName(val *string)
+	RuntimeEnvironmentNameInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -162,6 +165,7 @@ type AutomationRunbook interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPublishContentLink()
+	ResetRuntimeEnvironmentName()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -592,6 +596,26 @@ func (j *jsiiProxy_AutomationRunbook) RunbookTypeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_AutomationRunbook) RuntimeEnvironmentName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"runtimeEnvironmentName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AutomationRunbook) RuntimeEnvironmentNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"runtimeEnvironmentNameInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AutomationRunbook) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -663,7 +687,7 @@ func (j *jsiiProxy_AutomationRunbook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_runbook azurerm_automation_runbook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_runbook azurerm_automation_runbook} Resource.
 func NewAutomationRunbook(scope constructs.Construct, id *string, config *AutomationRunbookConfig) AutomationRunbook {
 	_init_.Initialize()
 
@@ -673,7 +697,7 @@ func NewAutomationRunbook(scope constructs.Construct, id *string, config *Automa
 	j := jsiiProxy_AutomationRunbook{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbook",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbook",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -681,12 +705,12 @@ func NewAutomationRunbook(scope constructs.Construct, id *string, config *Automa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/automation_runbook azurerm_automation_runbook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_runbook azurerm_automation_runbook} Resource.
 func NewAutomationRunbook_Override(a AutomationRunbook, scope constructs.Construct, id *string, config *AutomationRunbookConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbook",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbook",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -881,6 +905,17 @@ func (j *jsiiProxy_AutomationRunbook)SetRunbookType(val *string) {
 	)
 }
 
+func (j *jsiiProxy_AutomationRunbook)SetRuntimeEnvironmentName(val *string) {
+	if err := j.validateSetRuntimeEnvironmentNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"runtimeEnvironmentName",
+		val,
+	)
+}
+
 func (j *jsiiProxy_AutomationRunbook)SetTags(val *map[string]*string) {
 	if err := j.validateSetTagsParameters(val); err != nil {
 		panic(err)
@@ -902,7 +937,7 @@ func AutomationRunbook_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbook",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbook",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -937,7 +972,7 @@ func AutomationRunbook_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbook",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbook",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -956,7 +991,7 @@ func AutomationRunbook_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbook",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbook",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -975,7 +1010,7 @@ func AutomationRunbook_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbook",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbook",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -988,7 +1023,7 @@ func AutomationRunbook_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.automationRunbook.AutomationRunbook",
+		"@cdktn/provider-azurerm.automationRunbook.AutomationRunbook",
 		"tfResourceType",
 		&returns,
 	)
@@ -1349,6 +1384,14 @@ func (a *jsiiProxy_AutomationRunbook) ResetPublishContentLink() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetPublishContentLink",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AutomationRunbook) ResetRuntimeEnvironmentName() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRuntimeEnvironmentName",
 		nil, // no parameters
 	)
 }

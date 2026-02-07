@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageaccountlocaluser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storageaccountlocaluser/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageaccountlocaluser/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_local_user azurerm_storage_account_local_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_local_user azurerm_storage_account_local_user}.
 type StorageAccountLocalUser interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_StorageAccountLocalUser) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_local_user azurerm_storage_account_local_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_local_user azurerm_storage_account_local_user} Resource.
 func NewStorageAccountLocalUser(scope constructs.Construct, id *string, config *StorageAccountLocalUserConfig) StorageAccountLocalUser {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewStorageAccountLocalUser(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_StorageAccountLocalUser{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewStorageAccountLocalUser(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_account_local_user azurerm_storage_account_local_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_account_local_user azurerm_storage_account_local_user} Resource.
 func NewStorageAccountLocalUser_Override(s StorageAccountLocalUser, scope constructs.Construct, id *string, config *StorageAccountLocalUserConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -695,7 +695,7 @@ func StorageAccountLocalUser_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -730,7 +730,7 @@ func StorageAccountLocalUser_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -749,7 +749,7 @@ func StorageAccountLocalUser_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -768,7 +768,7 @@ func StorageAccountLocalUser_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func StorageAccountLocalUser_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
+		"@cdktn/provider-azurerm.storageAccountLocalUser.StorageAccountLocalUser",
 		"tfResourceType",
 		&returns,
 	)

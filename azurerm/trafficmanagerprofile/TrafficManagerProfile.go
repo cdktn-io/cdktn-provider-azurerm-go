@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package trafficmanagerprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/trafficmanagerprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/trafficmanagerprofile/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/traffic_manager_profile azurerm_traffic_manager_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/traffic_manager_profile azurerm_traffic_manager_profile}.
 type TrafficManagerProfile interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_TrafficManagerProfile) TrafficViewEnabledInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/traffic_manager_profile azurerm_traffic_manager_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/traffic_manager_profile azurerm_traffic_manager_profile} Resource.
 func NewTrafficManagerProfile(scope constructs.Construct, id *string, config *TrafficManagerProfileConfig) TrafficManagerProfile {
 	_init_.Initialize()
 
@@ -566,7 +566,7 @@ func NewTrafficManagerProfile(scope constructs.Construct, id *string, config *Tr
 	j := jsiiProxy_TrafficManagerProfile{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -574,12 +574,12 @@ func NewTrafficManagerProfile(scope constructs.Construct, id *string, config *Tr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/traffic_manager_profile azurerm_traffic_manager_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/traffic_manager_profile azurerm_traffic_manager_profile} Resource.
 func NewTrafficManagerProfile_Override(t TrafficManagerProfile, scope constructs.Construct, id *string, config *TrafficManagerProfileConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
 		[]interface{}{scope, id, config},
 		t,
 	)
@@ -751,7 +751,7 @@ func TrafficManagerProfile_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -786,7 +786,7 @@ func TrafficManagerProfile_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -805,7 +805,7 @@ func TrafficManagerProfile_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -824,7 +824,7 @@ func TrafficManagerProfile_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func TrafficManagerProfile_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
+		"@cdktn/provider-azurerm.trafficManagerProfile.TrafficManagerProfile",
 		"tfResourceType",
 		&returns,
 	)

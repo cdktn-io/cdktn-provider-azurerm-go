@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubfallbackroute
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubFallbackRoute.IothubFallbackRouteA",
+		"@cdktn/provider-azurerm.iothubFallbackRoute.IothubFallbackRouteA",
 		reflect.TypeOf((*IothubFallbackRouteA)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -84,15 +84,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubFallbackRoute.IothubFallbackRouteAConfig",
+		"@cdktn/provider-azurerm.iothubFallbackRoute.IothubFallbackRouteAConfig",
 		reflect.TypeOf((*IothubFallbackRouteAConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.iothubFallbackRoute.IothubFallbackRouteTimeouts",
+		"@cdktn/provider-azurerm.iothubFallbackRoute.IothubFallbackRouteTimeouts",
 		reflect.TypeOf((*IothubFallbackRouteTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.iothubFallbackRoute.IothubFallbackRouteTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.iothubFallbackRoute.IothubFallbackRouteTimeoutsOutputReference",
 		reflect.TypeOf((*IothubFallbackRouteTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

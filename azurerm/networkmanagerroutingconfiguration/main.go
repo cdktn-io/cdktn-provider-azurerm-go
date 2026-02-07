@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerroutingconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
 		reflect.TypeOf((*NetworkManagerRoutingConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -57,7 +57,10 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRouteTableUsageMode", GoMethod: "ResetRouteTableUsageMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberProperty{JsiiProperty: "routeTableUsageMode", GoGetter: "RouteTableUsageMode"},
+			_jsii_.MemberProperty{JsiiProperty: "routeTableUsageModeInput", GoGetter: "RouteTableUsageModeInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
@@ -77,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfigurationConfig",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfigurationConfig",
 		reflect.TypeOf((*NetworkManagerRoutingConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfigurationTimeouts",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfigurationTimeouts",
 		reflect.TypeOf((*NetworkManagerRoutingConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkManagerRoutingConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

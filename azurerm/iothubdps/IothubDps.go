@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package iothubdps
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/iothubdps/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubdps/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps azurerm_iothub_dps}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps azurerm_iothub_dps}.
 type IothubDps interface {
 	cdktf.TerraformResource
 	AllocationPolicy() *string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_IothubDps) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps azurerm_iothub_dps} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps azurerm_iothub_dps} Resource.
 func NewIothubDps(scope constructs.Construct, id *string, config *IothubDpsConfig) IothubDps {
 	_init_.Initialize()
 
@@ -613,7 +613,7 @@ func NewIothubDps(scope constructs.Construct, id *string, config *IothubDpsConfi
 	j := jsiiProxy_IothubDps{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubDps.IothubDps",
+		"@cdktn/provider-azurerm.iothubDps.IothubDps",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -621,12 +621,12 @@ func NewIothubDps(scope constructs.Construct, id *string, config *IothubDpsConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/iothub_dps azurerm_iothub_dps} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/iothub_dps azurerm_iothub_dps} Resource.
 func NewIothubDps_Override(i IothubDps, scope constructs.Construct, id *string, config *IothubDpsConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.iothubDps.IothubDps",
+		"@cdktn/provider-azurerm.iothubDps.IothubDps",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -798,7 +798,7 @@ func IothubDps_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDps.IothubDps",
+		"@cdktn/provider-azurerm.iothubDps.IothubDps",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -833,7 +833,7 @@ func IothubDps_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDps.IothubDps",
+		"@cdktn/provider-azurerm.iothubDps.IothubDps",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -852,7 +852,7 @@ func IothubDps_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDps.IothubDps",
+		"@cdktn/provider-azurerm.iothubDps.IothubDps",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -871,7 +871,7 @@ func IothubDps_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.iothubDps.IothubDps",
+		"@cdktn/provider-azurerm.iothubDps.IothubDps",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -884,7 +884,7 @@ func IothubDps_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.iothubDps.IothubDps",
+		"@cdktn/provider-azurerm.iothubDps.IothubDps",
 		"tfResourceType",
 		&returns,
 	)

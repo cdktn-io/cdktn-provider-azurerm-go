@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementapischema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementapischema/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementapischema/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_schema azurerm_api_management_api_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_schema azurerm_api_management_api_schema}.
 type ApiManagementApiSchema interface {
 	cdktf.TerraformResource
 	ApiManagementName() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_ApiManagementApiSchema) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_schema azurerm_api_management_api_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_schema azurerm_api_management_api_schema} Resource.
 func NewApiManagementApiSchema(scope constructs.Construct, id *string, config *ApiManagementApiSchemaConfig) ApiManagementApiSchema {
 	_init_.Initialize()
 
@@ -531,7 +531,7 @@ func NewApiManagementApiSchema(scope constructs.Construct, id *string, config *A
 	j := jsiiProxy_ApiManagementApiSchema{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -539,12 +539,12 @@ func NewApiManagementApiSchema(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_api_schema azurerm_api_management_api_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_api_schema azurerm_api_management_api_schema} Resource.
 func NewApiManagementApiSchema_Override(a ApiManagementApiSchema, scope constructs.Construct, id *string, config *ApiManagementApiSchemaConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -727,7 +727,7 @@ func ApiManagementApiSchema_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -762,7 +762,7 @@ func ApiManagementApiSchema_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -781,7 +781,7 @@ func ApiManagementApiSchema_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -800,7 +800,7 @@ func ApiManagementApiSchema_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -813,7 +813,7 @@ func ApiManagementApiSchema_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
+		"@cdktn/provider-azurerm.apiManagementApiSchema.ApiManagementApiSchema",
 		"tfResourceType",
 		&returns,
 	)

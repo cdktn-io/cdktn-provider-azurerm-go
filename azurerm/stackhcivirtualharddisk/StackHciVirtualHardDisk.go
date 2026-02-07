@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package stackhcivirtualharddisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/stackhcivirtualharddisk/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/stackhcivirtualharddisk/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk}.
 type StackHciVirtualHardDisk interface {
 	cdktf.TerraformResource
 	BlockSizeInBytes() *float64
@@ -641,7 +641,7 @@ func (j *jsiiProxy_StackHciVirtualHardDisk) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
 func NewStackHciVirtualHardDisk(scope constructs.Construct, id *string, config *StackHciVirtualHardDiskConfig) StackHciVirtualHardDisk {
 	_init_.Initialize()
 
@@ -651,7 +651,7 @@ func NewStackHciVirtualHardDisk(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_StackHciVirtualHardDisk{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -659,12 +659,12 @@ func NewStackHciVirtualHardDisk(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
 func NewStackHciVirtualHardDisk_Override(s StackHciVirtualHardDisk, scope constructs.Construct, id *string, config *StackHciVirtualHardDiskConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -902,7 +902,7 @@ func StackHciVirtualHardDisk_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -937,7 +937,7 @@ func StackHciVirtualHardDisk_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -956,7 +956,7 @@ func StackHciVirtualHardDisk_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -975,7 +975,7 @@ func StackHciVirtualHardDisk_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -988,7 +988,7 @@ func StackHciVirtualHardDisk_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
+		"@cdktn/provider-azurerm.stackHciVirtualHardDisk.StackHciVirtualHardDisk",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerverifierworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanagerverifierworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanagerverifierworkspace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewNetworkManagerVerifierWorkspaceTimeoutsOutputReference(terraformResource
 	j := jsiiProxy_NetworkManagerVerifierWorkspaceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewNetworkManagerVerifierWorkspaceTimeoutsOutputReference_Override(n Networ
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

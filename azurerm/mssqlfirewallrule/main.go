@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlfirewallrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
 		reflect.TypeOf((*MssqlFirewallRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRuleConfig",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRuleConfig",
 		reflect.TypeOf((*MssqlFirewallRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRuleTimeouts",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRuleTimeouts",
 		reflect.TypeOf((*MssqlFirewallRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRuleTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlFirewallRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

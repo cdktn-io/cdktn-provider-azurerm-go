@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermeventgridsystemtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermeventgridsystemtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermeventgridsystemtopic/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
 type DataAzurermEventgridSystemTopic interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopic) TopicType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
 func NewDataAzurermEventgridSystemTopic(scope constructs.Construct, id *string, config *DataAzurermEventgridSystemTopicConfig) DataAzurermEventgridSystemTopic {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewDataAzurermEventgridSystemTopic(scope constructs.Construct, id *string, 
 	j := jsiiProxy_DataAzurermEventgridSystemTopic{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
+		"@cdktn/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -441,12 +441,12 @@ func NewDataAzurermEventgridSystemTopic(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
 func NewDataAzurermEventgridSystemTopic_Override(d DataAzurermEventgridSystemTopic, scope constructs.Construct, id *string, config *DataAzurermEventgridSystemTopicConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
+		"@cdktn/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -541,7 +541,7 @@ func DataAzurermEventgridSystemTopic_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
+		"@cdktn/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -576,7 +576,7 @@ func DataAzurermEventgridSystemTopic_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
+		"@cdktn/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -595,7 +595,7 @@ func DataAzurermEventgridSystemTopic_IsTerraformDataSource(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
+		"@cdktn/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -614,7 +614,7 @@ func DataAzurermEventgridSystemTopic_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
+		"@cdktn/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -627,7 +627,7 @@ func DataAzurermEventgridSystemTopic_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
+		"@cdktn/provider-azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopic",
 		"tfResourceType",
 		&returns,
 	)

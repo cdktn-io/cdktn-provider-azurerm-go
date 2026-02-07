@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljobagent
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobAgent.MssqlJobAgent",
+		"@cdktn/provider-azurerm.mssqlJobAgent.MssqlJobAgent",
 		reflect.TypeOf((*MssqlJobAgent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobAgent.MssqlJobAgentConfig",
+		"@cdktn/provider-azurerm.mssqlJobAgent.MssqlJobAgentConfig",
 		reflect.TypeOf((*MssqlJobAgentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobAgent.MssqlJobAgentIdentity",
+		"@cdktn/provider-azurerm.mssqlJobAgent.MssqlJobAgentIdentity",
 		reflect.TypeOf((*MssqlJobAgentIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobAgent.MssqlJobAgentIdentityOutputReference",
+		"@cdktn/provider-azurerm.mssqlJobAgent.MssqlJobAgentIdentityOutputReference",
 		reflect.TypeOf((*MssqlJobAgentIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobAgent.MssqlJobAgentTimeouts",
+		"@cdktn/provider-azurerm.mssqlJobAgent.MssqlJobAgentTimeouts",
 		reflect.TypeOf((*MssqlJobAgentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobAgent.MssqlJobAgentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlJobAgent.MssqlJobAgentTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlJobAgentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

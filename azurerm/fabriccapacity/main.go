@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package fabriccapacity
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.fabricCapacity.FabricCapacity",
+		"@cdktn/provider-azurerm.fabricCapacity.FabricCapacity",
 		reflect.TypeOf((*FabricCapacity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.fabricCapacity.FabricCapacityConfig",
+		"@cdktn/provider-azurerm.fabricCapacity.FabricCapacityConfig",
 		reflect.TypeOf((*FabricCapacityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.fabricCapacity.FabricCapacitySku",
+		"@cdktn/provider-azurerm.fabricCapacity.FabricCapacitySku",
 		reflect.TypeOf((*FabricCapacitySku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.fabricCapacity.FabricCapacitySkuOutputReference",
+		"@cdktn/provider-azurerm.fabricCapacity.FabricCapacitySkuOutputReference",
 		reflect.TypeOf((*FabricCapacitySkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -129,11 +129,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.fabricCapacity.FabricCapacityTimeouts",
+		"@cdktn/provider-azurerm.fabricCapacity.FabricCapacityTimeouts",
 		reflect.TypeOf((*FabricCapacityTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.fabricCapacity.FabricCapacityTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.fabricCapacity.FabricCapacityTimeoutsOutputReference",
 		reflect.TypeOf((*FabricCapacityTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

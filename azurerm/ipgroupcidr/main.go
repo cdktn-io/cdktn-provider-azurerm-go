@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ipgroupcidr
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidr",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidr",
 		reflect.TypeOf((*IpGroupCidr)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidrConfig",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidrConfig",
 		reflect.TypeOf((*IpGroupCidrConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidrTimeouts",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidrTimeouts",
 		reflect.TypeOf((*IpGroupCidrTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.ipGroupCidr.IpGroupCidrTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.ipGroupCidr.IpGroupCidrTimeoutsOutputReference",
 		reflect.TypeOf((*IpGroupCidrTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

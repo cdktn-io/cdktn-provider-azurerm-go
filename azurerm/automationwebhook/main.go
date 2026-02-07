@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package automationwebhook
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationWebhook.AutomationWebhook",
+		"@cdktn/provider-azurerm.automationWebhook.AutomationWebhook",
 		reflect.TypeOf((*AutomationWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationWebhook.AutomationWebhookConfig",
+		"@cdktn/provider-azurerm.automationWebhook.AutomationWebhookConfig",
 		reflect.TypeOf((*AutomationWebhookConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.automationWebhook.AutomationWebhookTimeouts",
+		"@cdktn/provider-azurerm.automationWebhook.AutomationWebhookTimeouts",
 		reflect.TypeOf((*AutomationWebhookTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.automationWebhook.AutomationWebhookTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.automationWebhook.AutomationWebhookTimeoutsOutputReference",
 		reflect.TypeOf((*AutomationWebhookTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

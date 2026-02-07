@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cdnprofile
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfile",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfile",
 		reflect.TypeOf((*CdnProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfileConfig",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfileConfig",
 		reflect.TypeOf((*CdnProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfileTimeouts",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfileTimeouts",
 		reflect.TypeOf((*CdnProfileTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cdnProfile.CdnProfileTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cdnProfile.CdnProfileTimeoutsOutputReference",
 		reflect.TypeOf((*CdnProfileTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorydatasethttp
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttp",
+		"@cdktn/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttp",
 		reflect.TypeOf((*DataFactoryDatasetHttp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalProperties", GoGetter: "AdditionalProperties"},
@@ -104,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpConfig",
+		"@cdktn/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpConfig",
 		reflect.TypeOf((*DataFactoryDatasetHttpConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpSchemaColumn",
+		"@cdktn/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpSchemaColumn",
 		reflect.TypeOf((*DataFactoryDatasetHttpSchemaColumn)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpSchemaColumnList",
+		"@cdktn/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpSchemaColumnList",
 		reflect.TypeOf((*DataFactoryDatasetHttpSchemaColumnList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpSchemaColumnOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpSchemaColumnOutputReference",
 		reflect.TypeOf((*DataFactoryDatasetHttpSchemaColumnOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,11 +174,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpTimeouts",
+		"@cdktn/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpTimeouts",
 		reflect.TypeOf((*DataFactoryDatasetHttpTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataFactoryDatasetHttp.DataFactoryDatasetHttpTimeoutsOutputReference",
 		reflect.TypeOf((*DataFactoryDatasetHttpTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

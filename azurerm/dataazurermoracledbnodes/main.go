@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermoracledbnodes
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodes",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodes",
 		reflect.TypeOf((*DataAzurermOracleDbNodes)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,15 +65,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesConfig",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesConfig",
 		reflect.TypeOf((*DataAzurermOracleDbNodesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesDbNodes",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesDbNodes",
 		reflect.TypeOf((*DataAzurermOracleDbNodesDbNodes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesDbNodesList",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesDbNodesList",
 		reflect.TypeOf((*DataAzurermOracleDbNodesDbNodesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -94,7 +94,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesDbNodesOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesDbNodesOutputReference",
 		reflect.TypeOf((*DataAzurermOracleDbNodesDbNodesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalDetails", GoGetter: "AdditionalDetails"},
@@ -148,11 +148,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesTimeouts",
 		reflect.TypeOf((*DataAzurermOracleDbNodesTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermOracleDbNodes.DataAzurermOracleDbNodesTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermOracleDbNodesTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

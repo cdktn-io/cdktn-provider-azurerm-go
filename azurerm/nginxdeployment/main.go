@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nginxdeployment
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeployment",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeployment",
 		reflect.TypeOf((*NginxDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentAutoScaleProfile",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentAutoScaleProfile",
 		reflect.TypeOf((*NginxDeploymentAutoScaleProfile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentAutoScaleProfileList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentAutoScaleProfileList",
 		reflect.TypeOf((*NginxDeploymentAutoScaleProfileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -153,7 +153,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentAutoScaleProfileOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentAutoScaleProfileOutputReference",
 		reflect.TypeOf((*NginxDeploymentAutoScaleProfileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -191,15 +191,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentConfig",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentConfig",
 		reflect.TypeOf((*NginxDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivate",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivate",
 		reflect.TypeOf((*NginxDeploymentFrontendPrivate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivateList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivateList",
 		reflect.TypeOf((*NginxDeploymentFrontendPrivateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -221,7 +221,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivateOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPrivateOutputReference",
 		reflect.TypeOf((*NginxDeploymentFrontendPrivateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationMethod", GoGetter: "AllocationMethod"},
@@ -259,11 +259,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPublic",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPublic",
 		reflect.TypeOf((*NginxDeploymentFrontendPublic)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPublicOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentFrontendPublicOutputReference",
 		reflect.TypeOf((*NginxDeploymentFrontendPublicOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -298,11 +298,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentIdentity",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentIdentity",
 		reflect.TypeOf((*NginxDeploymentIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentIdentityOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentIdentityOutputReference",
 		reflect.TypeOf((*NginxDeploymentIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -341,11 +341,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccount",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccount",
 		reflect.TypeOf((*NginxDeploymentLoggingStorageAccount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccountList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccountList",
 		reflect.TypeOf((*NginxDeploymentLoggingStorageAccountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -367,7 +367,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccountOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccountOutputReference",
 		reflect.TypeOf((*NginxDeploymentLoggingStorageAccountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -405,11 +405,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentNetworkInterface",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentNetworkInterface",
 		reflect.TypeOf((*NginxDeploymentNetworkInterface)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentNetworkInterfaceList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentNetworkInterfaceList",
 		reflect.TypeOf((*NginxDeploymentNetworkInterfaceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -431,7 +431,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentNetworkInterfaceOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentNetworkInterfaceOutputReference",
 		reflect.TypeOf((*NginxDeploymentNetworkInterfaceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -465,11 +465,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentTimeouts",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentTimeouts",
 		reflect.TypeOf((*NginxDeploymentTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentTimeoutsOutputReference",
 		reflect.TypeOf((*NginxDeploymentTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -513,11 +513,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewall",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewall",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewall)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallOutputReference",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activationStateEnabled", GoGetter: "ActivationStateEnabled"},
@@ -552,15 +552,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatus",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatus",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackage",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackage",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageList",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -581,7 +581,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageOutputReference",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -615,11 +615,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackage",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackage",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -640,7 +640,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageOutputReference",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -674,11 +674,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusComponentVersions",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusComponentVersions",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusComponentVersions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusComponentVersionsList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusComponentVersionsList",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusComponentVersionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -699,7 +699,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -733,7 +733,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusList",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -754,7 +754,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusOutputReference",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attackSignaturesPackage", GoGetter: "AttackSignaturesPackage"},
@@ -790,11 +790,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackage",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackage",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackage)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageList",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageList",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -815,7 +815,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReference",
+		"@cdktn/provider-azurerm.nginxDeployment.NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReference",
 		reflect.TypeOf((*NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

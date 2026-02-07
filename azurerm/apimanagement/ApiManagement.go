@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagement/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagement/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management azurerm_api_management}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management azurerm_api_management}.
 type ApiManagement interface {
 	cdktf.TerraformResource
 	AdditionalLocation() ApiManagementAdditionalLocationList
@@ -1040,7 +1040,7 @@ func (j *jsiiProxy_ApiManagement) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management azurerm_api_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management azurerm_api_management} Resource.
 func NewApiManagement(scope constructs.Construct, id *string, config *ApiManagementConfig) ApiManagement {
 	_init_.Initialize()
 
@@ -1050,7 +1050,7 @@ func NewApiManagement(scope constructs.Construct, id *string, config *ApiManagem
 	j := jsiiProxy_ApiManagement{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagement.ApiManagement",
+		"@cdktn/provider-azurerm.apiManagement.ApiManagement",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1058,12 +1058,12 @@ func NewApiManagement(scope constructs.Construct, id *string, config *ApiManagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management azurerm_api_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management azurerm_api_management} Resource.
 func NewApiManagement_Override(a ApiManagement, scope constructs.Construct, id *string, config *ApiManagementConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagement.ApiManagement",
+		"@cdktn/provider-azurerm.apiManagement.ApiManagement",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -1323,7 +1323,7 @@ func ApiManagement_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagement.ApiManagement",
+		"@cdktn/provider-azurerm.apiManagement.ApiManagement",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1358,7 +1358,7 @@ func ApiManagement_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagement.ApiManagement",
+		"@cdktn/provider-azurerm.apiManagement.ApiManagement",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1377,7 +1377,7 @@ func ApiManagement_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagement.ApiManagement",
+		"@cdktn/provider-azurerm.apiManagement.ApiManagement",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1396,7 +1396,7 @@ func ApiManagement_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagement.ApiManagement",
+		"@cdktn/provider-azurerm.apiManagement.ApiManagement",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1409,7 +1409,7 @@ func ApiManagement_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagement.ApiManagement",
+		"@cdktn/provider-azurerm.apiManagement.ApiManagement",
 		"tfResourceType",
 		&returns,
 	)

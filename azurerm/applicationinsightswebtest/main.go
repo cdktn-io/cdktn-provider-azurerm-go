@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationinsightswebtest
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
 		reflect.TypeOf((*ApplicationInsightsWebTest)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTestConfig",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTestConfig",
 		reflect.TypeOf((*ApplicationInsightsWebTestConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTestTimeouts",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTestTimeouts",
 		reflect.TypeOf((*ApplicationInsightsWebTestTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTestTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTestTimeoutsOutputReference",
 		reflect.TypeOf((*ApplicationInsightsWebTestTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

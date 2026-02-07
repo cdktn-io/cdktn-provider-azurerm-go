@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermfirewallpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermfirewallpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/firewall_policy azurerm_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/firewall_policy azurerm_firewall_policy}.
 type DataAzurermFirewallPolicy interface {
 	cdktf.TerraformDataSource
 	BasePolicyId() *string
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataAzurermFirewallPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/firewall_policy azurerm_firewall_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/firewall_policy azurerm_firewall_policy} Data Source.
 func NewDataAzurermFirewallPolicy(scope constructs.Construct, id *string, config *DataAzurermFirewallPolicyConfig) DataAzurermFirewallPolicy {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewDataAzurermFirewallPolicy(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DataAzurermFirewallPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
+		"@cdktn/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -452,12 +452,12 @@ func NewDataAzurermFirewallPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/firewall_policy azurerm_firewall_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/firewall_policy azurerm_firewall_policy} Data Source.
 func NewDataAzurermFirewallPolicy_Override(d DataAzurermFirewallPolicy, scope constructs.Construct, id *string, config *DataAzurermFirewallPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
+		"@cdktn/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -552,7 +552,7 @@ func DataAzurermFirewallPolicy_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
+		"@cdktn/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -587,7 +587,7 @@ func DataAzurermFirewallPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
+		"@cdktn/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func DataAzurermFirewallPolicy_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
+		"@cdktn/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -625,7 +625,7 @@ func DataAzurermFirewallPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
+		"@cdktn/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -638,7 +638,7 @@ func DataAzurermFirewallPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
+		"@cdktn/provider-azurerm.dataAzurermFirewallPolicy.DataAzurermFirewallPolicy",
 		"tfResourceType",
 		&returns,
 	)

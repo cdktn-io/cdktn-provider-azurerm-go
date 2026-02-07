@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventhubnamespace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespace",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespace",
 		reflect.TypeOf((*EventhubNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -116,15 +116,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceConfig",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceConfig",
 		reflect.TypeOf((*EventhubNamespaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceIdentity",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceIdentity",
 		reflect.TypeOf((*EventhubNamespaceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceIdentityOutputReference",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceIdentityOutputReference",
 		reflect.TypeOf((*EventhubNamespaceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -163,15 +163,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesets",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesets",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesets)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsIpRule",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsIpRule",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesetsIpRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsIpRuleList",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsIpRuleList",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesetsIpRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -193,7 +193,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsIpRuleOutputReference",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsIpRuleOutputReference",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesetsIpRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -231,7 +231,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsList",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsList",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesetsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -253,7 +253,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsOutputReference",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsOutputReference",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesetsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -302,11 +302,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsVirtualNetworkRule",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsVirtualNetworkRule",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesetsVirtualNetworkRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -328,7 +328,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReference",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReference",
 		reflect.TypeOf((*EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -366,11 +366,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceTimeouts",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceTimeouts",
 		reflect.TypeOf((*EventhubNamespaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventhubNamespace.EventhubNamespaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventhubNamespace.EventhubNamespaceTimeoutsOutputReference",
 		reflect.TypeOf((*EventhubNamespaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

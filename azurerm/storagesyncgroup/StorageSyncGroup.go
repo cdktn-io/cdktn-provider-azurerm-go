@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagesyncgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagesyncgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagesyncgroup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_sync_group azurerm_storage_sync_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_sync_group azurerm_storage_sync_group}.
 type StorageSyncGroup interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -380,7 +380,7 @@ func (j *jsiiProxy_StorageSyncGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_sync_group azurerm_storage_sync_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_sync_group azurerm_storage_sync_group} Resource.
 func NewStorageSyncGroup(scope constructs.Construct, id *string, config *StorageSyncGroupConfig) StorageSyncGroup {
 	_init_.Initialize()
 
@@ -390,7 +390,7 @@ func NewStorageSyncGroup(scope constructs.Construct, id *string, config *Storage
 	j := jsiiProxy_StorageSyncGroup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageSyncGroup.StorageSyncGroup",
+		"@cdktn/provider-azurerm.storageSyncGroup.StorageSyncGroup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,12 +398,12 @@ func NewStorageSyncGroup(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_sync_group azurerm_storage_sync_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_sync_group azurerm_storage_sync_group} Resource.
 func NewStorageSyncGroup_Override(s StorageSyncGroup, scope constructs.Construct, id *string, config *StorageSyncGroupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageSyncGroup.StorageSyncGroup",
+		"@cdktn/provider-azurerm.storageSyncGroup.StorageSyncGroup",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -520,7 +520,7 @@ func StorageSyncGroup_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageSyncGroup.StorageSyncGroup",
+		"@cdktn/provider-azurerm.storageSyncGroup.StorageSyncGroup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func StorageSyncGroup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageSyncGroup.StorageSyncGroup",
+		"@cdktn/provider-azurerm.storageSyncGroup.StorageSyncGroup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func StorageSyncGroup_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageSyncGroup.StorageSyncGroup",
+		"@cdktn/provider-azurerm.storageSyncGroup.StorageSyncGroup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func StorageSyncGroup_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageSyncGroup.StorageSyncGroup",
+		"@cdktn/provider-azurerm.storageSyncGroup.StorageSyncGroup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func StorageSyncGroup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageSyncGroup.StorageSyncGroup",
+		"@cdktn/provider-azurerm.storageSyncGroup.StorageSyncGroup",
 		"tfResourceType",
 		&returns,
 	)

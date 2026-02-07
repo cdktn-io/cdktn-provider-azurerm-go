@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanagerroutingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/networkmanagerroutingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkmanagerroutingconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration}.
 type NetworkManagerRoutingConfiguration interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -67,6 +67,9 @@ type NetworkManagerRoutingConfiguration interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RouteTableUsageMode() *string
+	SetRouteTableUsageMode(val *string)
+	RouteTableUsageModeInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -124,6 +127,7 @@ type NetworkManagerRoutingConfiguration interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRouteTableUsageMode()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -353,6 +357,26 @@ func (j *jsiiProxy_NetworkManagerRoutingConfiguration) RawOverrides() interface{
 	return returns
 }
 
+func (j *jsiiProxy_NetworkManagerRoutingConfiguration) RouteTableUsageMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routeTableUsageMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagerRoutingConfiguration) RouteTableUsageModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routeTableUsageModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkManagerRoutingConfiguration) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
 	var returns *cdktf.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -404,7 +428,7 @@ func (j *jsiiProxy_NetworkManagerRoutingConfiguration) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration} Resource.
 func NewNetworkManagerRoutingConfiguration(scope constructs.Construct, id *string, config *NetworkManagerRoutingConfigurationConfig) NetworkManagerRoutingConfiguration {
 	_init_.Initialize()
 
@@ -414,7 +438,7 @@ func NewNetworkManagerRoutingConfiguration(scope constructs.Construct, id *strin
 	j := jsiiProxy_NetworkManagerRoutingConfiguration{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -422,12 +446,12 @@ func NewNetworkManagerRoutingConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration} Resource.
 func NewNetworkManagerRoutingConfiguration_Override(n NetworkManagerRoutingConfiguration, scope constructs.Construct, id *string, config *NetworkManagerRoutingConfigurationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -545,6 +569,17 @@ func (j *jsiiProxy_NetworkManagerRoutingConfiguration)SetProvisioners(val *[]int
 	)
 }
 
+func (j *jsiiProxy_NetworkManagerRoutingConfiguration)SetRouteTableUsageMode(val *string) {
+	if err := j.validateSetRouteTableUsageModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routeTableUsageMode",
+		val,
+	)
+}
+
 // Generates CDKTF code for importing a NetworkManagerRoutingConfiguration resource upon running "cdktf plan <stack-name>".
 func NetworkManagerRoutingConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
 	_init_.Initialize()
@@ -555,7 +590,7 @@ func NetworkManagerRoutingConfiguration_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -590,7 +625,7 @@ func NetworkManagerRoutingConfiguration_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -609,7 +644,7 @@ func NetworkManagerRoutingConfiguration_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -628,7 +663,7 @@ func NetworkManagerRoutingConfiguration_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -641,7 +676,7 @@ func NetworkManagerRoutingConfiguration_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
+		"@cdktn/provider-azurerm.networkManagerRoutingConfiguration.NetworkManagerRoutingConfiguration",
 		"tfResourceType",
 		&returns,
 	)
@@ -929,6 +964,14 @@ func (n *jsiiProxy_NetworkManagerRoutingConfiguration) ResetOverrideLogicalId() 
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkManagerRoutingConfiguration) ResetRouteTableUsageMode() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetRouteTableUsageMode",
 		nil, // no parameters
 	)
 }

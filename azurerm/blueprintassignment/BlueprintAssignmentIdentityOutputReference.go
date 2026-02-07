@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package blueprintassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/blueprintassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/blueprintassignment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewBlueprintAssignmentIdentityOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_BlueprintAssignmentIdentityOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.blueprintAssignment.BlueprintAssignmentIdentityOutputReference",
+		"@cdktn/provider-azurerm.blueprintAssignment.BlueprintAssignmentIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewBlueprintAssignmentIdentityOutputReference_Override(b BlueprintAssignmen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.blueprintAssignment.BlueprintAssignmentIdentityOutputReference",
+		"@cdktn/provider-azurerm.blueprintAssignment.BlueprintAssignmentIdentityOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
 	)

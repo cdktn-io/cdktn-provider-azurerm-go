@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devcenterprojectpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/devcenterprojectpool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devcenterprojectpool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool}.
 type DevCenterProjectPool interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -568,7 +568,7 @@ func (j *jsiiProxy_DevCenterProjectPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool} Resource.
 func NewDevCenterProjectPool(scope constructs.Construct, id *string, config *DevCenterProjectPoolConfig) DevCenterProjectPool {
 	_init_.Initialize()
 
@@ -578,7 +578,7 @@ func NewDevCenterProjectPool(scope constructs.Construct, id *string, config *Dev
 	j := jsiiProxy_DevCenterProjectPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
+		"@cdktn/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -586,12 +586,12 @@ func NewDevCenterProjectPool(scope constructs.Construct, id *string, config *Dev
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_project_pool azurerm_dev_center_project_pool} Resource.
 func NewDevCenterProjectPool_Override(d DevCenterProjectPool, scope constructs.Construct, id *string, config *DevCenterProjectPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
+		"@cdktn/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -796,7 +796,7 @@ func DevCenterProjectPool_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
+		"@cdktn/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -831,7 +831,7 @@ func DevCenterProjectPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
+		"@cdktn/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func DevCenterProjectPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
+		"@cdktn/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -869,7 +869,7 @@ func DevCenterProjectPool_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
+		"@cdktn/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -882,7 +882,7 @@ func DevCenterProjectPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
+		"@cdktn/provider-azurerm.devCenterProjectPool.DevCenterProjectPool",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cognitiveaccountraiblocklist
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccountRaiBlocklist.CognitiveAccountRaiBlocklist",
+		"@cdktn/provider-azurerm.cognitiveAccountRaiBlocklist.CognitiveAccountRaiBlocklist",
 		reflect.TypeOf((*CognitiveAccountRaiBlocklist)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccountRaiBlocklist.CognitiveAccountRaiBlocklistConfig",
+		"@cdktn/provider-azurerm.cognitiveAccountRaiBlocklist.CognitiveAccountRaiBlocklistConfig",
 		reflect.TypeOf((*CognitiveAccountRaiBlocklistConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cognitiveAccountRaiBlocklist.CognitiveAccountRaiBlocklistTimeouts",
+		"@cdktn/provider-azurerm.cognitiveAccountRaiBlocklist.CognitiveAccountRaiBlocklistTimeouts",
 		reflect.TypeOf((*CognitiveAccountRaiBlocklistTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cognitiveAccountRaiBlocklist.CognitiveAccountRaiBlocklistTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cognitiveAccountRaiBlocklist.CognitiveAccountRaiBlocklistTimeoutsOutputReference",
 		reflect.TypeOf((*CognitiveAccountRaiBlocklistTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

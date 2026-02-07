@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlmanageddatabase
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabase",
+		"@cdktn/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabase",
 		reflect.TypeOf((*MssqlManagedDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseConfig",
+		"@cdktn/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseConfig",
 		reflect.TypeOf((*MssqlManagedDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseLongTermRetentionPolicy",
+		"@cdktn/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseLongTermRetentionPolicy",
 		reflect.TypeOf((*MssqlManagedDatabaseLongTermRetentionPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseLongTermRetentionPolicyOutputReference",
+		"@cdktn/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseLongTermRetentionPolicyOutputReference",
 		reflect.TypeOf((*MssqlManagedDatabaseLongTermRetentionPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -143,11 +143,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabasePointInTimeRestore",
+		"@cdktn/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabasePointInTimeRestore",
 		reflect.TypeOf((*MssqlManagedDatabasePointInTimeRestore)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabasePointInTimeRestoreOutputReference",
+		"@cdktn/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabasePointInTimeRestoreOutputReference",
 		reflect.TypeOf((*MssqlManagedDatabasePointInTimeRestoreOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -183,11 +183,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseTimeouts",
+		"@cdktn/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseTimeouts",
 		reflect.TypeOf((*MssqlManagedDatabaseTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlManagedDatabase.MssqlManagedDatabaseTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlManagedDatabaseTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

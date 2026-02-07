@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicebusnamespace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespace",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespace",
 		reflect.TypeOf((*ServicebusNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -113,15 +113,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceConfig",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceConfig",
 		reflect.TypeOf((*ServicebusNamespaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceCustomerManagedKey",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceCustomerManagedKey",
 		reflect.TypeOf((*ServicebusNamespaceCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*ServicebusNamespaceCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -160,11 +160,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceIdentity",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceIdentity",
 		reflect.TypeOf((*ServicebusNamespaceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceIdentityOutputReference",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceIdentityOutputReference",
 		reflect.TypeOf((*ServicebusNamespaceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -203,15 +203,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSet",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSet",
 		reflect.TypeOf((*ServicebusNamespaceNetworkRuleSet)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSetNetworkRules",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSetNetworkRules",
 		reflect.TypeOf((*ServicebusNamespaceNetworkRuleSetNetworkRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSetNetworkRulesList",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSetNetworkRulesList",
 		reflect.TypeOf((*ServicebusNamespaceNetworkRuleSetNetworkRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -233,7 +233,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference",
 		reflect.TypeOf((*ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -270,7 +270,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSetOutputReference",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSetOutputReference",
 		reflect.TypeOf((*ServicebusNamespaceNetworkRuleSetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -318,11 +318,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceTimeouts",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceTimeouts",
 		reflect.TypeOf((*ServicebusNamespaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.servicebusNamespace.ServicebusNamespaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.servicebusNamespace.ServicebusNamespaceTimeoutsOutputReference",
 		reflect.TypeOf((*ServicebusNamespaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualhubip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualhubip/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualhubip/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_ip azurerm_virtual_hub_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_ip azurerm_virtual_hub_ip}.
 type VirtualHubIp interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_VirtualHubIp) VirtualHubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_ip azurerm_virtual_hub_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_ip azurerm_virtual_hub_ip} Resource.
 func NewVirtualHubIp(scope constructs.Construct, id *string, config *VirtualHubIpConfig) VirtualHubIp {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewVirtualHubIp(scope constructs.Construct, id *string, config *VirtualHubI
 	j := jsiiProxy_VirtualHubIp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIp",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -492,12 +492,12 @@ func NewVirtualHubIp(scope constructs.Construct, id *string, config *VirtualHubI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/virtual_hub_ip azurerm_virtual_hub_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/virtual_hub_ip azurerm_virtual_hub_ip} Resource.
 func NewVirtualHubIp_Override(v VirtualHubIp, scope constructs.Construct, id *string, config *VirtualHubIpConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIp",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIp",
 		[]interface{}{scope, id, config},
 		v,
 	)
@@ -658,7 +658,7 @@ func VirtualHubIp_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIp",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -693,7 +693,7 @@ func VirtualHubIp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIp",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -712,7 +712,7 @@ func VirtualHubIp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIp",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -731,7 +731,7 @@ func VirtualHubIp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIp",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -744,7 +744,7 @@ func VirtualHubIp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.virtualHubIp.VirtualHubIp",
+		"@cdktn/provider-azurerm.virtualHubIp.VirtualHubIp",
 		"tfResourceType",
 		&returns,
 	)

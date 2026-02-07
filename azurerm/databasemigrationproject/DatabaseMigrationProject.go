@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databasemigrationproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/databasemigrationproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/databasemigrationproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/database_migration_project azurerm_database_migration_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/database_migration_project azurerm_database_migration_project}.
 type DatabaseMigrationProject interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_DatabaseMigrationProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/database_migration_project azurerm_database_migration_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/database_migration_project azurerm_database_migration_project} Resource.
 func NewDatabaseMigrationProject(scope constructs.Construct, id *string, config *DatabaseMigrationProjectConfig) DatabaseMigrationProject {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewDatabaseMigrationProject(scope constructs.Construct, id *string, config 
 	j := jsiiProxy_DatabaseMigrationProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
+		"@cdktn/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -514,12 +514,12 @@ func NewDatabaseMigrationProject(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/database_migration_project azurerm_database_migration_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/database_migration_project azurerm_database_migration_project} Resource.
 func NewDatabaseMigrationProject_Override(d DatabaseMigrationProject, scope constructs.Construct, id *string, config *DatabaseMigrationProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
+		"@cdktn/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -691,7 +691,7 @@ func DatabaseMigrationProject_GenerateConfigForImport(scope constructs.Construct
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
+		"@cdktn/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -726,7 +726,7 @@ func DatabaseMigrationProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
+		"@cdktn/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func DatabaseMigrationProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
+		"@cdktn/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -764,7 +764,7 @@ func DatabaseMigrationProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
+		"@cdktn/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func DatabaseMigrationProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
+		"@cdktn/provider-azurerm.databaseMigrationProject.DatabaseMigrationProject",
 		"tfResourceType",
 		&returns,
 	)

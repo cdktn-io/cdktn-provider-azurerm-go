@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermwebpubsub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermwebpubsub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermwebpubsub/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/web_pubsub azurerm_web_pubsub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/web_pubsub azurerm_web_pubsub}.
 type DataAzurermWebPubsub interface {
 	cdktf.TerraformDataSource
 	AadAuthEnabled() cdktf.IResolvable
@@ -522,7 +522,7 @@ func (j *jsiiProxy_DataAzurermWebPubsub) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/web_pubsub azurerm_web_pubsub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/web_pubsub azurerm_web_pubsub} Data Source.
 func NewDataAzurermWebPubsub(scope constructs.Construct, id *string, config *DataAzurermWebPubsubConfig) DataAzurermWebPubsub {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewDataAzurermWebPubsub(scope constructs.Construct, id *string, config *Dat
 	j := jsiiProxy_DataAzurermWebPubsub{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -540,12 +540,12 @@ func NewDataAzurermWebPubsub(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/web_pubsub azurerm_web_pubsub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/web_pubsub azurerm_web_pubsub} Data Source.
 func NewDataAzurermWebPubsub_Override(d DataAzurermWebPubsub, scope constructs.Construct, id *string, config *DataAzurermWebPubsubConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -640,7 +640,7 @@ func DataAzurermWebPubsub_GenerateConfigForImport(scope constructs.Construct, im
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -675,7 +675,7 @@ func DataAzurermWebPubsub_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -694,7 +694,7 @@ func DataAzurermWebPubsub_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func DataAzurermWebPubsub_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -726,7 +726,7 @@ func DataAzurermWebPubsub_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
+		"@cdktn/provider-azurerm.dataAzurermWebPubsub.DataAzurermWebPubsub",
 		"tfResourceType",
 		&returns,
 	)

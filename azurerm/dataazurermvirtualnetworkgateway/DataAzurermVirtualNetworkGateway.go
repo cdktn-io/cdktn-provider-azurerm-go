@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermvirtualnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermvirtualnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvirtualnetworkgateway/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway}.
 type DataAzurermVirtualNetworkGateway interface {
 	cdktf.TerraformDataSource
 	ActiveActive() cdktf.IResolvable
@@ -489,7 +489,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) VpnType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
 func NewDataAzurermVirtualNetworkGateway(scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkGatewayConfig) DataAzurermVirtualNetworkGateway {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewDataAzurermVirtualNetworkGateway(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataAzurermVirtualNetworkGateway{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -507,12 +507,12 @@ func NewDataAzurermVirtualNetworkGateway(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
 func NewDataAzurermVirtualNetworkGateway_Override(d DataAzurermVirtualNetworkGateway, scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkGatewayConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -607,7 +607,7 @@ func DataAzurermVirtualNetworkGateway_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -642,7 +642,7 @@ func DataAzurermVirtualNetworkGateway_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func DataAzurermVirtualNetworkGateway_IsTerraformDataSource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -680,7 +680,7 @@ func DataAzurermVirtualNetworkGateway_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -693,7 +693,7 @@ func DataAzurermVirtualNetworkGateway_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
+		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
 		"tfResourceType",
 		&returns,
 	)

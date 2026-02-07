@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package machinelearningdatastorefileshare
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshare",
 		reflect.TypeOf((*MachineLearningDatastoreFileshare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountKey", GoGetter: "AccountKey"},
@@ -92,15 +92,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshareConfig",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshareConfig",
 		reflect.TypeOf((*MachineLearningDatastoreFileshareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshareTimeouts",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshareTimeouts",
 		reflect.TypeOf((*MachineLearningDatastoreFileshareTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshareTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.machineLearningDatastoreFileshare.MachineLearningDatastoreFileshareTimeoutsOutputReference",
 		reflect.TypeOf((*MachineLearningDatastoreFileshareTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

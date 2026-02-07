@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkmanager
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManager.NetworkManager",
+		"@cdktn/provider-azurerm.networkManager.NetworkManager",
 		reflect.TypeOf((*NetworkManager)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManager.NetworkManagerConfig",
+		"@cdktn/provider-azurerm.networkManager.NetworkManagerConfig",
 		reflect.TypeOf((*NetworkManagerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManager.NetworkManagerCrossTenantScopes",
+		"@cdktn/provider-azurerm.networkManager.NetworkManagerCrossTenantScopes",
 		reflect.TypeOf((*NetworkManagerCrossTenantScopes)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManager.NetworkManagerCrossTenantScopesList",
+		"@cdktn/provider-azurerm.networkManager.NetworkManagerCrossTenantScopesList",
 		reflect.TypeOf((*NetworkManagerCrossTenantScopesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManager.NetworkManagerCrossTenantScopesOutputReference",
+		"@cdktn/provider-azurerm.networkManager.NetworkManagerCrossTenantScopesOutputReference",
 		reflect.TypeOf((*NetworkManagerCrossTenantScopesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -153,11 +153,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManager.NetworkManagerScope",
+		"@cdktn/provider-azurerm.networkManager.NetworkManagerScope",
 		reflect.TypeOf((*NetworkManagerScope)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManager.NetworkManagerScopeOutputReference",
+		"@cdktn/provider-azurerm.networkManager.NetworkManagerScopeOutputReference",
 		reflect.TypeOf((*NetworkManagerScopeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -195,11 +195,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.networkManager.NetworkManagerTimeouts",
+		"@cdktn/provider-azurerm.networkManager.NetworkManagerTimeouts",
 		reflect.TypeOf((*NetworkManagerTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.networkManager.NetworkManagerTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.networkManager.NetworkManagerTimeoutsOutputReference",
 		reflect.TypeOf((*NetworkManagerTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

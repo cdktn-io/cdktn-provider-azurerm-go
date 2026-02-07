@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package oracleautonomousdatabaseclonefrombackup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/oracleautonomousdatabaseclonefrombackup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/oracleautonomousdatabaseclonefrombackup/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup}.
 type OracleAutonomousDatabaseCloneFromBackup interface {
 	cdktf.TerraformResource
 	AdminPassword() *string
@@ -915,7 +915,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseCloneFromBackup) VirtualNetworkIdInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Resource.
 func NewOracleAutonomousDatabaseCloneFromBackup(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCloneFromBackupConfig) OracleAutonomousDatabaseCloneFromBackup {
 	_init_.Initialize()
 
@@ -925,7 +925,7 @@ func NewOracleAutonomousDatabaseCloneFromBackup(scope constructs.Construct, id *
 	j := jsiiProxy_OracleAutonomousDatabaseCloneFromBackup{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
+		"@cdktn/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -933,12 +933,12 @@ func NewOracleAutonomousDatabaseCloneFromBackup(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Resource.
 func NewOracleAutonomousDatabaseCloneFromBackup_Override(o OracleAutonomousDatabaseCloneFromBackup, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCloneFromBackupConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
+		"@cdktn/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
 		[]interface{}{scope, id, config},
 		o,
 	)
@@ -1308,7 +1308,7 @@ func OracleAutonomousDatabaseCloneFromBackup_GenerateConfigForImport(scope const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
+		"@cdktn/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1343,7 +1343,7 @@ func OracleAutonomousDatabaseCloneFromBackup_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
+		"@cdktn/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1362,7 +1362,7 @@ func OracleAutonomousDatabaseCloneFromBackup_IsTerraformElement(x interface{}) *
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
+		"@cdktn/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1381,7 +1381,7 @@ func OracleAutonomousDatabaseCloneFromBackup_IsTerraformResource(x interface{}) 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
+		"@cdktn/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1394,7 +1394,7 @@ func OracleAutonomousDatabaseCloneFromBackup_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
+		"@cdktn/provider-azurerm.oracleAutonomousDatabaseCloneFromBackup.OracleAutonomousDatabaseCloneFromBackup",
 		"tfResourceType",
 		&returns,
 	)

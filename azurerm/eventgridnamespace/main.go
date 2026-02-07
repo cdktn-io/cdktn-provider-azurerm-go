@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventgridnamespace
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespace",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespace",
 		reflect.TypeOf((*EventgridNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceConfig",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceConfig",
 		reflect.TypeOf((*EventgridNamespaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceIdentity",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceIdentity",
 		reflect.TypeOf((*EventgridNamespaceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceIdentityOutputReference",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceIdentityOutputReference",
 		reflect.TypeOf((*EventgridNamespaceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -147,11 +147,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceInboundIpRule",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceInboundIpRule",
 		reflect.TypeOf((*EventgridNamespaceInboundIpRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceInboundIpRuleList",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceInboundIpRuleList",
 		reflect.TypeOf((*EventgridNamespaceInboundIpRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -173,7 +173,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceInboundIpRuleOutputReference",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceInboundIpRuleOutputReference",
 		reflect.TypeOf((*EventgridNamespaceInboundIpRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -210,11 +210,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTimeouts",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTimeouts",
 		reflect.TypeOf((*EventgridNamespaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTimeoutsOutputReference",
 		reflect.TypeOf((*EventgridNamespaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -258,15 +258,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfiguration",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfiguration",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichment",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichment",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentList",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentList",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -288,7 +288,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReference",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReference",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -324,7 +324,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationList",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationList",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -346,7 +346,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationOutputReference",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationOutputReference",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alternativeAuthenticationNameSource", GoGetter: "AlternativeAuthenticationNameSource"},
@@ -398,11 +398,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichment",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichment",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichment)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentList",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentList",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -424,7 +424,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentOutputReference",
+		"@cdktn/provider-azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentOutputReference",
 		reflect.TypeOf((*EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

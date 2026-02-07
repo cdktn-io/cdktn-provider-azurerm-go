@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package powerbiembedded
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
 		reflect.TypeOf((*PowerbiEmbedded)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -86,15 +86,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbeddedConfig",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbeddedConfig",
 		reflect.TypeOf((*PowerbiEmbeddedConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbeddedTimeouts",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbeddedTimeouts",
 		reflect.TypeOf((*PowerbiEmbeddedTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbeddedTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbeddedTimeoutsOutputReference",
 		reflect.TypeOf((*PowerbiEmbeddedTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

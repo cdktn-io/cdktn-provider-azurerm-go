@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermnetapppool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermnetapppool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermnetapppool/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/netapp_pool azurerm_netapp_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/netapp_pool azurerm_netapp_pool}.
 type DataAzurermNetappPool interface {
 	cdktf.TerraformDataSource
 	AccountName() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAzurermNetappPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/netapp_pool azurerm_netapp_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/netapp_pool azurerm_netapp_pool} Data Source.
 func NewDataAzurermNetappPool(scope constructs.Construct, id *string, config *DataAzurermNetappPoolConfig) DataAzurermNetappPool {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataAzurermNetappPool(scope constructs.Construct, id *string, config *Da
 	j := jsiiProxy_DataAzurermNetappPool{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
+		"@cdktn/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -442,12 +442,12 @@ func NewDataAzurermNetappPool(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/netapp_pool azurerm_netapp_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/netapp_pool azurerm_netapp_pool} Data Source.
 func NewDataAzurermNetappPool_Override(d DataAzurermNetappPool, scope constructs.Construct, id *string, config *DataAzurermNetappPoolConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
+		"@cdktn/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -553,7 +553,7 @@ func DataAzurermNetappPool_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
+		"@cdktn/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -588,7 +588,7 @@ func DataAzurermNetappPool_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
+		"@cdktn/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -607,7 +607,7 @@ func DataAzurermNetappPool_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
+		"@cdktn/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -626,7 +626,7 @@ func DataAzurermNetappPool_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
+		"@cdktn/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -639,7 +639,7 @@ func DataAzurermNetappPool_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
+		"@cdktn/provider-azurerm.dataAzurermNetappPool.DataAzurermNetappPool",
 		"tfResourceType",
 		&returns,
 	)

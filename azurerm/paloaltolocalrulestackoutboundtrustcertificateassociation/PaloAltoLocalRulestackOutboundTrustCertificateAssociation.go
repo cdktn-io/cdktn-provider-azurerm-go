@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package paloaltolocalrulestackoutboundtrustcertificateassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/paloaltolocalrulestackoutboundtrustcertificateassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/paloaltolocalrulestackoutboundtrustcertificateassociation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association}.
 type PaloAltoLocalRulestackOutboundTrustCertificateAssociation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackOutboundTrustCertificateAssociation) Ti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association} Resource.
 func NewPaloAltoLocalRulestackOutboundTrustCertificateAssociation(scope constructs.Construct, id *string, config *PaloAltoLocalRulestackOutboundTrustCertificateAssociationConfig) PaloAltoLocalRulestackOutboundTrustCertificateAssociation {
 	_init_.Initialize()
 
@@ -367,7 +367,7 @@ func NewPaloAltoLocalRulestackOutboundTrustCertificateAssociation(scope construc
 	j := jsiiProxy_PaloAltoLocalRulestackOutboundTrustCertificateAssociation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -375,12 +375,12 @@ func NewPaloAltoLocalRulestackOutboundTrustCertificateAssociation(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association} Resource.
 func NewPaloAltoLocalRulestackOutboundTrustCertificateAssociation_Override(p PaloAltoLocalRulestackOutboundTrustCertificateAssociation, scope constructs.Construct, id *string, config *PaloAltoLocalRulestackOutboundTrustCertificateAssociationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -486,7 +486,7 @@ func PaloAltoLocalRulestackOutboundTrustCertificateAssociation_GenerateConfigFor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -521,7 +521,7 @@ func PaloAltoLocalRulestackOutboundTrustCertificateAssociation_IsConstruct(x int
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -540,7 +540,7 @@ func PaloAltoLocalRulestackOutboundTrustCertificateAssociation_IsTerraformElemen
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -559,7 +559,7 @@ func PaloAltoLocalRulestackOutboundTrustCertificateAssociation_IsTerraformResour
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func PaloAltoLocalRulestackOutboundTrustCertificateAssociation_TfResourceType() 
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
+		"@cdktn/provider-azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociation",
 		"tfResourceType",
 		&returns,
 	)

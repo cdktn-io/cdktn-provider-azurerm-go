@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsubscriptions
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptions",
 		reflect.TypeOf((*DataAzurermSubscriptions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,15 +69,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsConfig",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsConfig",
 		reflect.TypeOf((*DataAzurermSubscriptionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsSubscriptions",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsSubscriptions",
 		reflect.TypeOf((*DataAzurermSubscriptionsSubscriptions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsSubscriptionsList",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsSubscriptionsList",
 		reflect.TypeOf((*DataAzurermSubscriptionsSubscriptionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -98,7 +98,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsSubscriptionsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsSubscriptionsOutputReference",
 		reflect.TypeOf((*DataAzurermSubscriptionsSubscriptionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -139,11 +139,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsTimeouts",
 		reflect.TypeOf((*DataAzurermSubscriptionsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermSubscriptionsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

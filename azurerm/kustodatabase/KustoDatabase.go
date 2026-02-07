@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustodatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/kustodatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustodatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_database azurerm_kusto_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_database azurerm_kusto_database}.
 type KustoDatabase interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_KustoDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_database azurerm_kusto_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_database azurerm_kusto_database} Resource.
 func NewKustoDatabase(scope constructs.Construct, id *string, config *KustoDatabaseConfig) KustoDatabase {
 	_init_.Initialize()
 
@@ -495,7 +495,7 @@ func NewKustoDatabase(scope constructs.Construct, id *string, config *KustoDatab
 	j := jsiiProxy_KustoDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabase",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -503,12 +503,12 @@ func NewKustoDatabase(scope constructs.Construct, id *string, config *KustoDatab
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/kusto_database azurerm_kusto_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/kusto_database azurerm_kusto_database} Resource.
 func NewKustoDatabase_Override(k KustoDatabase, scope constructs.Construct, id *string, config *KustoDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabase",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabase",
 		[]interface{}{scope, id, config},
 		k,
 	)
@@ -669,7 +669,7 @@ func KustoDatabase_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabase",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -704,7 +704,7 @@ func KustoDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabase",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -723,7 +723,7 @@ func KustoDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabase",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -742,7 +742,7 @@ func KustoDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabase",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -755,7 +755,7 @@ func KustoDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.kustoDatabase.KustoDatabase",
+		"@cdktn/provider-azurerm.kustoDatabase.KustoDatabase",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermoracleresourceanchor
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermOracleResourceAnchor.DataAzurermOracleResourceAnchor",
+		"@cdktn/provider-azurerm.dataAzurermOracleResourceAnchor.DataAzurermOracleResourceAnchor",
 		reflect.TypeOf((*DataAzurermOracleResourceAnchor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,15 +69,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermOracleResourceAnchor.DataAzurermOracleResourceAnchorConfig",
+		"@cdktn/provider-azurerm.dataAzurermOracleResourceAnchor.DataAzurermOracleResourceAnchorConfig",
 		reflect.TypeOf((*DataAzurermOracleResourceAnchorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermOracleResourceAnchor.DataAzurermOracleResourceAnchorTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermOracleResourceAnchor.DataAzurermOracleResourceAnchorTimeouts",
 		reflect.TypeOf((*DataAzurermOracleResourceAnchorTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermOracleResourceAnchor.DataAzurermOracleResourceAnchorTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermOracleResourceAnchor.DataAzurermOracleResourceAnchorTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermOracleResourceAnchorTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

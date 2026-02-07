@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/linuxvirtualmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxvirtualmachine/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine}.
 type LinuxVirtualMachine interface {
 	cdktf.TerraformResource
 	AdditionalCapabilities() LinuxVirtualMachineAdditionalCapabilitiesOutputReference
@@ -1583,7 +1583,7 @@ func (j *jsiiProxy_LinuxVirtualMachine) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine} Resource.
 func NewLinuxVirtualMachine(scope constructs.Construct, id *string, config *LinuxVirtualMachineConfig) LinuxVirtualMachine {
 	_init_.Initialize()
 
@@ -1593,7 +1593,7 @@ func NewLinuxVirtualMachine(scope constructs.Construct, id *string, config *Linu
 	j := jsiiProxy_LinuxVirtualMachine{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
+		"@cdktn/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1601,12 +1601,12 @@ func NewLinuxVirtualMachine(scope constructs.Construct, id *string, config *Linu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_virtual_machine azurerm_linux_virtual_machine} Resource.
 func NewLinuxVirtualMachine_Override(l LinuxVirtualMachine, scope constructs.Construct, id *string, config *LinuxVirtualMachineConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
+		"@cdktn/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -2130,7 +2130,7 @@ func LinuxVirtualMachine_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
+		"@cdktn/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -2165,7 +2165,7 @@ func LinuxVirtualMachine_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
+		"@cdktn/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2184,7 +2184,7 @@ func LinuxVirtualMachine_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
+		"@cdktn/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -2203,7 +2203,7 @@ func LinuxVirtualMachine_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
+		"@cdktn/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -2216,7 +2216,7 @@ func LinuxVirtualMachine_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
+		"@cdktn/provider-azurerm.linuxVirtualMachine.LinuxVirtualMachine",
 		"tfResourceType",
 		&returns,
 	)

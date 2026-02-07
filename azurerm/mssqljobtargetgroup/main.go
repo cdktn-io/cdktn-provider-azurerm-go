@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqljobtargetgroup
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroup",
 		reflect.TypeOf((*MssqlJobTargetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupConfig",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupConfig",
 		reflect.TypeOf((*MssqlJobTargetGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupJobTarget",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupJobTarget",
 		reflect.TypeOf((*MssqlJobTargetGroupJobTarget)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupJobTargetList",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupJobTargetList",
 		reflect.TypeOf((*MssqlJobTargetGroupJobTargetList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -108,7 +108,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupJobTargetOutputReference",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupJobTargetOutputReference",
 		reflect.TypeOf((*MssqlJobTargetGroupJobTargetOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -155,11 +155,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupTimeouts",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupTimeouts",
 		reflect.TypeOf((*MssqlJobTargetGroupTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupTimeoutsOutputReference",
 		reflect.TypeOf((*MssqlJobTargetGroupTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

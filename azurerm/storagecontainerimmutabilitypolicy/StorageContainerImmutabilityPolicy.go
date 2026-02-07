@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storagecontainerimmutabilitypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/storagecontainerimmutabilitypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagecontainerimmutabilitypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_container_immutability_policy azurerm_storage_container_immutability_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_container_immutability_policy azurerm_storage_container_immutability_policy}.
 type StorageContainerImmutabilityPolicy interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -452,7 +452,7 @@ func (j *jsiiProxy_StorageContainerImmutabilityPolicy) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_container_immutability_policy azurerm_storage_container_immutability_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_container_immutability_policy azurerm_storage_container_immutability_policy} Resource.
 func NewStorageContainerImmutabilityPolicy(scope constructs.Construct, id *string, config *StorageContainerImmutabilityPolicyConfig) StorageContainerImmutabilityPolicy {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewStorageContainerImmutabilityPolicy(scope constructs.Construct, id *strin
 	j := jsiiProxy_StorageContainerImmutabilityPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
+		"@cdktn/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -470,12 +470,12 @@ func NewStorageContainerImmutabilityPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/storage_container_immutability_policy azurerm_storage_container_immutability_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/storage_container_immutability_policy azurerm_storage_container_immutability_policy} Resource.
 func NewStorageContainerImmutabilityPolicy_Override(s StorageContainerImmutabilityPolicy, scope constructs.Construct, id *string, config *StorageContainerImmutabilityPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
+		"@cdktn/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -625,7 +625,7 @@ func StorageContainerImmutabilityPolicy_GenerateConfigForImport(scope constructs
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
+		"@cdktn/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -660,7 +660,7 @@ func StorageContainerImmutabilityPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
+		"@cdktn/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func StorageContainerImmutabilityPolicy_IsTerraformElement(x interface{}) *bool 
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
+		"@cdktn/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -698,7 +698,7 @@ func StorageContainerImmutabilityPolicy_IsTerraformResource(x interface{}) *bool
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
+		"@cdktn/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func StorageContainerImmutabilityPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
+		"@cdktn/provider-azurerm.storageContainerImmutabilityPolicy.StorageContainerImmutabilityPolicy",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsentinelalertrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermsentinelalertrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsentinelalertrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/sentinel_alert_rule azurerm_sentinel_alert_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/sentinel_alert_rule azurerm_sentinel_alert_rule}.
 type DataAzurermSentinelAlertRule interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -335,7 +335,7 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/sentinel_alert_rule azurerm_sentinel_alert_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/sentinel_alert_rule azurerm_sentinel_alert_rule} Data Source.
 func NewDataAzurermSentinelAlertRule(scope constructs.Construct, id *string, config *DataAzurermSentinelAlertRuleConfig) DataAzurermSentinelAlertRule {
 	_init_.Initialize()
 
@@ -345,7 +345,7 @@ func NewDataAzurermSentinelAlertRule(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAzurermSentinelAlertRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
+		"@cdktn/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -353,12 +353,12 @@ func NewDataAzurermSentinelAlertRule(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/sentinel_alert_rule azurerm_sentinel_alert_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/sentinel_alert_rule azurerm_sentinel_alert_rule} Data Source.
 func NewDataAzurermSentinelAlertRule_Override(d DataAzurermSentinelAlertRule, scope constructs.Construct, id *string, config *DataAzurermSentinelAlertRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
+		"@cdktn/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -453,7 +453,7 @@ func DataAzurermSentinelAlertRule_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
+		"@cdktn/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -488,7 +488,7 @@ func DataAzurermSentinelAlertRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
+		"@cdktn/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -507,7 +507,7 @@ func DataAzurermSentinelAlertRule_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
+		"@cdktn/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -526,7 +526,7 @@ func DataAzurermSentinelAlertRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
+		"@cdktn/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -539,7 +539,7 @@ func DataAzurermSentinelAlertRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
+		"@cdktn/provider-azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRule",
 		"tfResourceType",
 		&returns,
 	)

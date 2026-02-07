@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermclientconfig
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermClientConfig.DataAzurermClientConfig",
+		"@cdktn/provider-azurerm.dataAzurermClientConfig.DataAzurermClientConfig",
 		reflect.TypeOf((*DataAzurermClientConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermClientConfig.DataAzurermClientConfigConfig",
+		"@cdktn/provider-azurerm.dataAzurermClientConfig.DataAzurermClientConfigConfig",
 		reflect.TypeOf((*DataAzurermClientConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermClientConfig.DataAzurermClientConfigTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermClientConfig.DataAzurermClientConfigTimeouts",
 		reflect.TypeOf((*DataAzurermClientConfigTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermClientConfig.DataAzurermClientConfigTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermClientConfig.DataAzurermClientConfigTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermClientConfigTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

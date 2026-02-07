@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package storageshare
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageShare.StorageShare",
+		"@cdktn/provider-azurerm.storageShare.StorageShare",
 		reflect.TypeOf((*StorageShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessTier", GoGetter: "AccessTier"},
@@ -95,15 +95,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageShare.StorageShareAcl",
+		"@cdktn/provider-azurerm.storageShare.StorageShareAcl",
 		reflect.TypeOf((*StorageShareAcl)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageShare.StorageShareAclAccessPolicy",
+		"@cdktn/provider-azurerm.storageShare.StorageShareAclAccessPolicy",
 		reflect.TypeOf((*StorageShareAclAccessPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageShare.StorageShareAclAccessPolicyList",
+		"@cdktn/provider-azurerm.storageShare.StorageShareAclAccessPolicyList",
 		reflect.TypeOf((*StorageShareAclAccessPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -125,7 +125,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageShare.StorageShareAclAccessPolicyOutputReference",
+		"@cdktn/provider-azurerm.storageShare.StorageShareAclAccessPolicyOutputReference",
 		reflect.TypeOf((*StorageShareAclAccessPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -165,7 +165,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageShare.StorageShareAclList",
+		"@cdktn/provider-azurerm.storageShare.StorageShareAclList",
 		reflect.TypeOf((*StorageShareAclList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -187,7 +187,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageShare.StorageShareAclOutputReference",
+		"@cdktn/provider-azurerm.storageShare.StorageShareAclOutputReference",
 		reflect.TypeOf((*StorageShareAclOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicy", GoGetter: "AccessPolicy"},
@@ -225,15 +225,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageShare.StorageShareConfig",
+		"@cdktn/provider-azurerm.storageShare.StorageShareConfig",
 		reflect.TypeOf((*StorageShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.storageShare.StorageShareTimeouts",
+		"@cdktn/provider-azurerm.storageShare.StorageShareTimeouts",
 		reflect.TypeOf((*StorageShareTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.storageShare.StorageShareTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.storageShare.StorageShareTimeoutsOutputReference",
 		reflect.TypeOf((*StorageShareTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

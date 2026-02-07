@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermbatchpool
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPool",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPool",
 		reflect.TypeOf((*DataAzurermBatchPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -91,11 +91,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolAutoScale",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolAutoScale",
 		reflect.TypeOf((*DataAzurermBatchPoolAutoScale)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolAutoScaleList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolAutoScaleList",
 		reflect.TypeOf((*DataAzurermBatchPoolAutoScaleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -116,7 +116,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolAutoScaleOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolAutoScaleOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolAutoScaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolCertificate",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolCertificate",
 		reflect.TypeOf((*DataAzurermBatchPoolCertificate)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolCertificateList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolCertificateList",
 		reflect.TypeOf((*DataAzurermBatchPoolCertificateList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -175,7 +175,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolCertificateOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolCertificateOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolCertificateOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -211,19 +211,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolConfig",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolConfig",
 		reflect.TypeOf((*DataAzurermBatchPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfiguration",
 		reflect.TypeOf((*DataAzurermBatchPoolContainerConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationContainerRegistries",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationContainerRegistries",
 		reflect.TypeOf((*DataAzurermBatchPoolContainerConfigurationContainerRegistries)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationContainerRegistriesList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationContainerRegistriesList",
 		reflect.TypeOf((*DataAzurermBatchPoolContainerConfigurationContainerRegistriesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -244,7 +244,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationContainerRegistriesOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationContainerRegistriesOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolContainerConfigurationContainerRegistriesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -280,7 +280,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationList",
 		reflect.TypeOf((*DataAzurermBatchPoolContainerConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -301,7 +301,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolContainerConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolContainerConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -336,11 +336,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDataDisks",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDataDisks",
 		reflect.TypeOf((*DataAzurermBatchPoolDataDisks)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDataDisksList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDataDisksList",
 		reflect.TypeOf((*DataAzurermBatchPoolDataDisksList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -361,7 +361,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDataDisksOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDataDisksOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolDataDisksOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caching", GoGetter: "Caching"},
@@ -397,11 +397,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDiskEncryption",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDiskEncryption",
 		reflect.TypeOf((*DataAzurermBatchPoolDiskEncryption)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDiskEncryptionList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDiskEncryptionList",
 		reflect.TypeOf((*DataAzurermBatchPoolDiskEncryptionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -422,7 +422,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDiskEncryptionOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolDiskEncryptionOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolDiskEncryptionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -455,11 +455,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolExtensions",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolExtensions",
 		reflect.TypeOf((*DataAzurermBatchPoolExtensions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolExtensionsList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolExtensionsList",
 		reflect.TypeOf((*DataAzurermBatchPoolExtensionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -480,7 +480,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolExtensionsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolExtensionsOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolExtensionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoUpgradeMinorVersion", GoGetter: "AutoUpgradeMinorVersion"},
@@ -520,11 +520,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolFixedScale",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolFixedScale",
 		reflect.TypeOf((*DataAzurermBatchPoolFixedScale)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolFixedScaleList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolFixedScaleList",
 		reflect.TypeOf((*DataAzurermBatchPoolFixedScaleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -545,7 +545,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolFixedScaleOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolFixedScaleOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolFixedScaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -580,15 +580,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMount",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMount",
 		reflect.TypeOf((*DataAzurermBatchPoolMount)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureBlobFileSystem",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureBlobFileSystem",
 		reflect.TypeOf((*DataAzurermBatchPoolMountAzureBlobFileSystem)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureBlobFileSystemList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureBlobFileSystemList",
 		reflect.TypeOf((*DataAzurermBatchPoolMountAzureBlobFileSystemList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -609,7 +609,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureBlobFileSystemOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureBlobFileSystemOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolMountAzureBlobFileSystemOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountKey", GoGetter: "AccountKey"},
@@ -648,11 +648,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureFileShare",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureFileShare",
 		reflect.TypeOf((*DataAzurermBatchPoolMountAzureFileShare)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureFileShareList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureFileShareList",
 		reflect.TypeOf((*DataAzurermBatchPoolMountAzureFileShareList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -673,7 +673,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureFileShareOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountAzureFileShareOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolMountAzureFileShareOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountKey", GoGetter: "AccountKey"},
@@ -710,11 +710,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountCifsMount",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountCifsMount",
 		reflect.TypeOf((*DataAzurermBatchPoolMountCifsMount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountCifsMountList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountCifsMountList",
 		reflect.TypeOf((*DataAzurermBatchPoolMountCifsMountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -735,7 +735,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountCifsMountOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountCifsMountOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolMountCifsMountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -772,7 +772,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountList",
 		reflect.TypeOf((*DataAzurermBatchPoolMountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -793,11 +793,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountNfsMount",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountNfsMount",
 		reflect.TypeOf((*DataAzurermBatchPoolMountNfsMount)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountNfsMountList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountNfsMountList",
 		reflect.TypeOf((*DataAzurermBatchPoolMountNfsMountList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -818,7 +818,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountNfsMountOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountNfsMountOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolMountNfsMountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -853,7 +853,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolMountOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolMountOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "azureBlobFileSystem", GoGetter: "AzureBlobFileSystem"},
@@ -889,15 +889,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfiguration",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfiguration",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfigurationEndpointConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationList",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -918,11 +918,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesList",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -943,7 +943,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRulesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
@@ -979,7 +979,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfigurationEndpointConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backendPort", GoGetter: "BackendPort"},
@@ -1016,7 +1016,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationList",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1037,7 +1037,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNetworkConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolNetworkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratedNetworkingEnabled", GoGetter: "AcceleratedNetworkingEnabled"},
@@ -1075,11 +1075,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNodePlacement",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNodePlacement",
 		reflect.TypeOf((*DataAzurermBatchPoolNodePlacement)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNodePlacementList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNodePlacementList",
 		reflect.TypeOf((*DataAzurermBatchPoolNodePlacementList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1100,7 +1100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNodePlacementOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolNodePlacementOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolNodePlacementOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1133,15 +1133,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTask",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTask",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTask)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainer",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainer",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskContainer)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerList",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskContainerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1162,7 +1162,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskContainerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1198,11 +1198,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerRegistry",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerRegistry",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskContainerRegistry)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerRegistryList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerRegistryList",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskContainerRegistryList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1223,7 +1223,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerRegistryOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskContainerRegistryOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskContainerRegistryOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1259,7 +1259,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskList",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1280,7 +1280,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commandLine", GoGetter: "CommandLine"},
@@ -1319,11 +1319,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskResourceFile",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskResourceFile",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskResourceFile)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskResourceFileList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskResourceFileList",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskResourceFileList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1344,7 +1344,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskResourceFileOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskResourceFileOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskResourceFileOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoStorageContainerName", GoGetter: "AutoStorageContainerName"},
@@ -1383,15 +1383,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentity",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentity",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskUserIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityAutoUser",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityAutoUser",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskUserIdentityAutoUser)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityAutoUserList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityAutoUserList",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskUserIdentityAutoUserList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1412,7 +1412,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityAutoUserOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityAutoUserOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskUserIdentityAutoUserOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1446,7 +1446,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityList",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskUserIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1467,7 +1467,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStartTaskUserIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolStartTaskUserIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoUser", GoGetter: "AutoUser"},
@@ -1501,11 +1501,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStorageImageReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStorageImageReference",
 		reflect.TypeOf((*DataAzurermBatchPoolStorageImageReference)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStorageImageReferenceList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStorageImageReferenceList",
 		reflect.TypeOf((*DataAzurermBatchPoolStorageImageReferenceList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1526,7 +1526,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStorageImageReferenceOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolStorageImageReferenceOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolStorageImageReferenceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1563,11 +1563,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTaskSchedulingPolicy",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTaskSchedulingPolicy",
 		reflect.TypeOf((*DataAzurermBatchPoolTaskSchedulingPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTaskSchedulingPolicyList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTaskSchedulingPolicyList",
 		reflect.TypeOf((*DataAzurermBatchPoolTaskSchedulingPolicyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1588,7 +1588,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTaskSchedulingPolicyOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTaskSchedulingPolicyOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolTaskSchedulingPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1621,11 +1621,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTimeouts",
 		reflect.TypeOf((*DataAzurermBatchPoolTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1660,15 +1660,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccounts",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccounts",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccounts)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsLinuxUserConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsLinuxUserConfiguration",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccountsLinuxUserConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsLinuxUserConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsLinuxUserConfigurationList",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccountsLinuxUserConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1689,7 +1689,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1724,7 +1724,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsList",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccountsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1745,7 +1745,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccountsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1782,11 +1782,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsWindowsUserConfiguration",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsWindowsUserConfiguration",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccountsWindowsUserConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsWindowsUserConfigurationList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsWindowsUserConfigurationList",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccountsWindowsUserConfigurationList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1807,7 +1807,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsWindowsUserConfigurationOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolUserAccountsWindowsUserConfigurationOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolUserAccountsWindowsUserConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1840,11 +1840,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolWindows",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolWindows",
 		reflect.TypeOf((*DataAzurermBatchPoolWindows)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolWindowsList",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolWindowsList",
 		reflect.TypeOf((*DataAzurermBatchPoolWindowsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -1865,7 +1865,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolWindowsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermBatchPool.DataAzurermBatchPoolWindowsOutputReference",
 		reflect.TypeOf((*DataAzurermBatchPoolWindowsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

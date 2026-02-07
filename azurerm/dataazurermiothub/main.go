@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermiothub
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothub",
 		reflect.TypeOf((*DataAzurermIothub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothubConfig",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothubConfig",
 		reflect.TypeOf((*DataAzurermIothubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothubIdentity",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothubIdentity",
 		reflect.TypeOf((*DataAzurermIothubIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothubIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothubIdentityList",
 		reflect.TypeOf((*DataAzurermIothubIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -100,7 +100,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothubIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothubIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermIothubIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -136,11 +136,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothubTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothubTimeouts",
 		reflect.TypeOf((*DataAzurermIothubTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermIothub.DataAzurermIothubTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermIothub.DataAzurermIothubTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermIothubTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

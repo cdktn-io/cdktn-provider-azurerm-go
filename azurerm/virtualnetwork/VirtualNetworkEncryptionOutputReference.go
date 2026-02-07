@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/virtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualnetwork/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewVirtualNetworkEncryptionOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_VirtualNetworkEncryptionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkEncryptionOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkEncryptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewVirtualNetworkEncryptionOutputReference_Override(v VirtualNetworkEncrypt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.virtualNetwork.VirtualNetworkEncryptionOutputReference",
+		"@cdktn/provider-azurerm.virtualNetwork.VirtualNetworkEncryptionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		v,
 	)

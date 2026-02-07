@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package applicationinsightsworkbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/applicationinsightsworkbook/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationinsightsworkbook/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook}.
 type ApplicationInsightsWorkbook interface {
 	cdktf.TerraformResource
 	Category() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook} Resource.
 func NewApplicationInsightsWorkbook(scope constructs.Construct, id *string, config *ApplicationInsightsWorkbookConfig) ApplicationInsightsWorkbook {
 	_init_.Initialize()
 
@@ -603,7 +603,7 @@ func NewApplicationInsightsWorkbook(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_ApplicationInsightsWorkbook{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -611,12 +611,12 @@ func NewApplicationInsightsWorkbook(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/application_insights_workbook azurerm_application_insights_workbook} Resource.
 func NewApplicationInsightsWorkbook_Override(a ApplicationInsightsWorkbook, scope constructs.Construct, id *string, config *ApplicationInsightsWorkbookConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -821,7 +821,7 @@ func ApplicationInsightsWorkbook_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -856,7 +856,7 @@ func ApplicationInsightsWorkbook_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -875,7 +875,7 @@ func ApplicationInsightsWorkbook_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -894,7 +894,7 @@ func ApplicationInsightsWorkbook_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -907,7 +907,7 @@ func ApplicationInsightsWorkbook_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
+		"@cdktn/provider-azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbook",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package logicapptriggercustom
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppTriggerCustom.LogicAppTriggerCustom",
+		"@cdktn/provider-azurerm.logicAppTriggerCustom.LogicAppTriggerCustom",
 		reflect.TypeOf((*LogicAppTriggerCustom)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppTriggerCustom.LogicAppTriggerCustomConfig",
+		"@cdktn/provider-azurerm.logicAppTriggerCustom.LogicAppTriggerCustomConfig",
 		reflect.TypeOf((*LogicAppTriggerCustomConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.logicAppTriggerCustom.LogicAppTriggerCustomTimeouts",
+		"@cdktn/provider-azurerm.logicAppTriggerCustom.LogicAppTriggerCustomTimeouts",
 		reflect.TypeOf((*LogicAppTriggerCustomTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.logicAppTriggerCustom.LogicAppTriggerCustomTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.logicAppTriggerCustom.LogicAppTriggerCustomTimeoutsOutputReference",
 		reflect.TypeOf((*LogicAppTriggerCustomTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

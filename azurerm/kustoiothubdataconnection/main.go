@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustoiothubdataconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnection",
+		"@cdktn/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnection",
 		reflect.TypeOf((*KustoIothubDataConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,10 +74,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMappingRuleName", GoMethod: "ResetMappingRuleName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRetrievalStartDate", GoMethod: "ResetRetrievalStartDate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTableName", GoMethod: "ResetTableName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupName", GoGetter: "ResourceGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceGroupNameInput", GoGetter: "ResourceGroupNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "retrievalStartDate", GoGetter: "RetrievalStartDate"},
+			_jsii_.MemberProperty{JsiiProperty: "retrievalStartDateInput", GoGetter: "RetrievalStartDateInput"},
 			_jsii_.MemberProperty{JsiiProperty: "sharedAccessPolicyName", GoGetter: "SharedAccessPolicyName"},
 			_jsii_.MemberProperty{JsiiProperty: "sharedAccessPolicyNameInput", GoGetter: "SharedAccessPolicyNameInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
@@ -101,15 +104,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionConfig",
+		"@cdktn/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionConfig",
 		reflect.TypeOf((*KustoIothubDataConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionTimeouts",
+		"@cdktn/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionTimeouts",
 		reflect.TypeOf((*KustoIothubDataConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoIothubDataConnection.KustoIothubDataConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*KustoIothubDataConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,10 +141,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetCreate", GoMethod: "ResetCreate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDelete", GoMethod: "ResetDelete"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRead", GoMethod: "ResetRead"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUpdate", GoMethod: "ResetUpdate"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "update", GoGetter: "Update"},
+			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference{}

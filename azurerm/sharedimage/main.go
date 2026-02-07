@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sharedimage
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImage.SharedImage",
+		"@cdktn/provider-azurerm.sharedImage.SharedImage",
 		reflect.TypeOf((*SharedImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratedNetworkSupportEnabled", GoGetter: "AcceleratedNetworkSupportEnabled"},
@@ -150,15 +150,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImage.SharedImageConfig",
+		"@cdktn/provider-azurerm.sharedImage.SharedImageConfig",
 		reflect.TypeOf((*SharedImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImage.SharedImageIdentifier",
+		"@cdktn/provider-azurerm.sharedImage.SharedImageIdentifier",
 		reflect.TypeOf((*SharedImageIdentifier)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImage.SharedImageIdentifierOutputReference",
+		"@cdktn/provider-azurerm.sharedImage.SharedImageIdentifierOutputReference",
 		reflect.TypeOf((*SharedImageIdentifierOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -196,11 +196,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImage.SharedImagePurchasePlan",
+		"@cdktn/provider-azurerm.sharedImage.SharedImagePurchasePlan",
 		reflect.TypeOf((*SharedImagePurchasePlan)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImage.SharedImagePurchasePlanOutputReference",
+		"@cdktn/provider-azurerm.sharedImage.SharedImagePurchasePlanOutputReference",
 		reflect.TypeOf((*SharedImagePurchasePlanOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -240,11 +240,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.sharedImage.SharedImageTimeouts",
+		"@cdktn/provider-azurerm.sharedImage.SharedImageTimeouts",
 		reflect.TypeOf((*SharedImageTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.sharedImage.SharedImageTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.sharedImage.SharedImageTimeoutsOutputReference",
 		reflect.TypeOf((*SharedImageTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

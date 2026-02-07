@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermoracleautonomousdatabaseclonefromdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermoracleautonomousdatabaseclonefromdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracleautonomousdatabaseclonefromdatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database}.
 type DataAzurermOracleAutonomousDatabaseCloneFromDatabase interface {
 	cdktf.TerraformDataSource
 	ActualUsedDataStorageSizeInTb() *float64
@@ -1050,7 +1050,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromDatabase) Virtual
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseCloneFromDatabaseConfig) DataAzurermOracleAutonomousDatabaseCloneFromDatabase {
 	_init_.Initialize()
 
@@ -1060,7 +1060,7 @@ func NewDataAzurermOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Co
 	j := jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
+		"@cdktn/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1068,12 +1068,12 @@ func NewDataAzurermOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseCloneFromDatabase_Override(d DataAzurermOracleAutonomousDatabaseCloneFromDatabase, scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseCloneFromDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
+		"@cdktn/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -1168,7 +1168,7 @@ func DataAzurermOracleAutonomousDatabaseCloneFromDatabase_GenerateConfigForImpor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
+		"@cdktn/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1203,7 +1203,7 @@ func DataAzurermOracleAutonomousDatabaseCloneFromDatabase_IsConstruct(x interfac
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
+		"@cdktn/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1222,7 +1222,7 @@ func DataAzurermOracleAutonomousDatabaseCloneFromDatabase_IsTerraformDataSource(
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
+		"@cdktn/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -1241,7 +1241,7 @@ func DataAzurermOracleAutonomousDatabaseCloneFromDatabase_IsTerraformElement(x i
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
+		"@cdktn/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1254,7 +1254,7 @@ func DataAzurermOracleAutonomousDatabaseCloneFromDatabase_TfResourceType() *stri
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
+		"@cdktn/provider-azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabase",
 		"tfResourceType",
 		&returns,
 	)

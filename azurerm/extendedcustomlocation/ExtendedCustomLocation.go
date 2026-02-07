@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package extendedcustomlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/extendedcustomlocation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/extendedcustomlocation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/extended_custom_location azurerm_extended_custom_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/extended_custom_location azurerm_extended_custom_location}.
 type ExtendedCustomLocation interface {
 	cdktf.TerraformResource
 	Authentication() ExtendedCustomLocationAuthenticationOutputReference
@@ -544,7 +544,7 @@ func (j *jsiiProxy_ExtendedCustomLocation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/extended_custom_location azurerm_extended_custom_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/extended_custom_location azurerm_extended_custom_location} Resource.
 func NewExtendedCustomLocation(scope constructs.Construct, id *string, config *ExtendedCustomLocationConfig) ExtendedCustomLocation {
 	_init_.Initialize()
 
@@ -554,7 +554,7 @@ func NewExtendedCustomLocation(scope constructs.Construct, id *string, config *E
 	j := jsiiProxy_ExtendedCustomLocation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -562,12 +562,12 @@ func NewExtendedCustomLocation(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/extended_custom_location azurerm_extended_custom_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/extended_custom_location azurerm_extended_custom_location} Resource.
 func NewExtendedCustomLocation_Override(e ExtendedCustomLocation, scope constructs.Construct, id *string, config *ExtendedCustomLocationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -750,7 +750,7 @@ func ExtendedCustomLocation_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -785,7 +785,7 @@ func ExtendedCustomLocation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -804,7 +804,7 @@ func ExtendedCustomLocation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -823,7 +823,7 @@ func ExtendedCustomLocation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -836,7 +836,7 @@ func ExtendedCustomLocation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
+		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
 		"tfResourceType",
 		&returns,
 	)

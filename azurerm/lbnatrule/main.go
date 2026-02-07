@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package lbnatrule
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lbNatRule.LbNatRule",
+		"@cdktn/provider-azurerm.lbNatRule.LbNatRule",
 		reflect.TypeOf((*LbNatRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -111,15 +111,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lbNatRule.LbNatRuleConfig",
+		"@cdktn/provider-azurerm.lbNatRule.LbNatRuleConfig",
 		reflect.TypeOf((*LbNatRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.lbNatRule.LbNatRuleTimeouts",
+		"@cdktn/provider-azurerm.lbNatRule.LbNatRuleTimeouts",
 		reflect.TypeOf((*LbNatRuleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.lbNatRule.LbNatRuleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.lbNatRule.LbNatRuleTimeoutsOutputReference",
 		reflect.TypeOf((*LbNatRuleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

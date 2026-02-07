@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermarcmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermarcmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermarcmachine/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataAzurermArcMachineLocationDataList(terraformResource cdktf.IInterpola
 	j := jsiiProxy_DataAzurermArcMachineLocationDataList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationDataList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationDataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataAzurermArcMachineLocationDataList_Override(d DataAzurermArcMachineLo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationDataList",
+		"@cdktn/provider-azurerm.dataAzurermArcMachine.DataAzurermArcMachineLocationDataList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

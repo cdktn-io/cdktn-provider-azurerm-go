@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mssqlfirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mssqlfirewallrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlfirewallrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_firewall_rule azurerm_mssql_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_firewall_rule azurerm_mssql_firewall_rule}.
 type MssqlFirewallRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_MssqlFirewallRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_firewall_rule azurerm_mssql_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_firewall_rule azurerm_mssql_firewall_rule} Resource.
 func NewMssqlFirewallRule(scope constructs.Construct, id *string, config *MssqlFirewallRuleConfig) MssqlFirewallRule {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewMssqlFirewallRule(scope constructs.Construct, id *string, config *MssqlF
 	j := jsiiProxy_MssqlFirewallRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -444,12 +444,12 @@ func NewMssqlFirewallRule(scope constructs.Construct, id *string, config *MssqlF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mssql_firewall_rule azurerm_mssql_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mssql_firewall_rule azurerm_mssql_firewall_rule} Resource.
 func NewMssqlFirewallRule_Override(m MssqlFirewallRule, scope constructs.Construct, id *string, config *MssqlFirewallRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -588,7 +588,7 @@ func MssqlFirewallRule_GenerateConfigForImport(scope constructs.Construct, impor
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -623,7 +623,7 @@ func MssqlFirewallRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func MssqlFirewallRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -661,7 +661,7 @@ func MssqlFirewallRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -674,7 +674,7 @@ func MssqlFirewallRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
+		"@cdktn/provider-azurerm.mssqlFirewallRule.MssqlFirewallRule",
 		"tfResourceType",
 		&returns,
 	)

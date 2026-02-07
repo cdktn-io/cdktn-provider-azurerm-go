@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cosmosdbpostgresqlrole
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRole",
 		reflect.TypeOf((*CosmosdbPostgresqlRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRoleConfig",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRoleConfig",
 		reflect.TypeOf((*CosmosdbPostgresqlRoleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRoleTimeouts",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRoleTimeouts",
 		reflect.TypeOf((*CosmosdbPostgresqlRoleTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRoleTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.cosmosdbPostgresqlRole.CosmosdbPostgresqlRoleTimeoutsOutputReference",
 		reflect.TypeOf((*CosmosdbPostgresqlRoleTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

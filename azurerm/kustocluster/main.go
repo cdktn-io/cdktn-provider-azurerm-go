@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package kustocluster
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoCluster",
+		"@cdktn/provider-azurerm.kustoCluster.KustoCluster",
 		reflect.TypeOf((*KustoCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -140,15 +140,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterConfig",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterConfig",
 		reflect.TypeOf((*KustoClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterIdentity",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterIdentity",
 		reflect.TypeOf((*KustoClusterIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterIdentityOutputReference",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterIdentityOutputReference",
 		reflect.TypeOf((*KustoClusterIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -187,11 +187,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterLanguageExtension",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtension",
 		reflect.TypeOf((*KustoClusterLanguageExtension)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionList",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionList",
 		reflect.TypeOf((*KustoClusterLanguageExtensionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -213,7 +213,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionOutputReference",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionOutputReference",
 		reflect.TypeOf((*KustoClusterLanguageExtensionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -249,11 +249,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterLanguageExtensions",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtensions",
 		reflect.TypeOf((*KustoClusterLanguageExtensions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionsList",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionsList",
 		reflect.TypeOf((*KustoClusterLanguageExtensionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -275,7 +275,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionsOutputReference",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterLanguageExtensionsOutputReference",
 		reflect.TypeOf((*KustoClusterLanguageExtensionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,11 +311,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterOptimizedAutoScale",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterOptimizedAutoScale",
 		reflect.TypeOf((*KustoClusterOptimizedAutoScale)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterOptimizedAutoScaleOutputReference",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterOptimizedAutoScaleOutputReference",
 		reflect.TypeOf((*KustoClusterOptimizedAutoScaleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -351,11 +351,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterSku",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterSku",
 		reflect.TypeOf((*KustoClusterSku)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterSkuOutputReference",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterSkuOutputReference",
 		reflect.TypeOf((*KustoClusterSkuOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacity", GoGetter: "Capacity"},
@@ -392,11 +392,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterTimeouts",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterTimeouts",
 		reflect.TypeOf((*KustoClusterTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterTimeoutsOutputReference",
 		reflect.TypeOf((*KustoClusterTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -440,11 +440,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterVirtualNetworkConfiguration",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterVirtualNetworkConfiguration",
 		reflect.TypeOf((*KustoClusterVirtualNetworkConfiguration)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.kustoCluster.KustoClusterVirtualNetworkConfigurationOutputReference",
+		"@cdktn/provider-azurerm.kustoCluster.KustoClusterVirtualNetworkConfigurationOutputReference",
 		reflect.TypeOf((*KustoClusterVirtualNetworkConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

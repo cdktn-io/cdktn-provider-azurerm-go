@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package subscriptionpolicyremediation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/subscriptionpolicyremediation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subscriptionpolicyremediation/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_remediation azurerm_subscription_policy_remediation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_remediation azurerm_subscription_policy_remediation}.
 type SubscriptionPolicyRemediation interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -547,7 +547,7 @@ func (j *jsiiProxy_SubscriptionPolicyRemediation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_remediation azurerm_subscription_policy_remediation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_remediation azurerm_subscription_policy_remediation} Resource.
 func NewSubscriptionPolicyRemediation(scope constructs.Construct, id *string, config *SubscriptionPolicyRemediationConfig) SubscriptionPolicyRemediation {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewSubscriptionPolicyRemediation(scope constructs.Construct, id *string, co
 	j := jsiiProxy_SubscriptionPolicyRemediation{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
+		"@cdktn/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -565,12 +565,12 @@ func NewSubscriptionPolicyRemediation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/subscription_policy_remediation azurerm_subscription_policy_remediation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/subscription_policy_remediation azurerm_subscription_policy_remediation} Resource.
 func NewSubscriptionPolicyRemediation_Override(s SubscriptionPolicyRemediation, scope constructs.Construct, id *string, config *SubscriptionPolicyRemediationConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
+		"@cdktn/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -764,7 +764,7 @@ func SubscriptionPolicyRemediation_GenerateConfigForImport(scope constructs.Cons
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
+		"@cdktn/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -799,7 +799,7 @@ func SubscriptionPolicyRemediation_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
+		"@cdktn/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -818,7 +818,7 @@ func SubscriptionPolicyRemediation_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
+		"@cdktn/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -837,7 +837,7 @@ func SubscriptionPolicyRemediation_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
+		"@cdktn/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -850,7 +850,7 @@ func SubscriptionPolicyRemediation_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
+		"@cdktn/provider-azurerm.subscriptionPolicyRemediation.SubscriptionPolicyRemediation",
 		"tfResourceType",
 		&returns,
 	)

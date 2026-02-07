@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cognitiveaccountproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/cognitiveaccountproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cognitiveaccountproject/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project}.
 type CognitiveAccountProject interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_CognitiveAccountProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project} Resource.
 func NewCognitiveAccountProject(scope constructs.Construct, id *string, config *CognitiveAccountProjectConfig) CognitiveAccountProject {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewCognitiveAccountProject(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_CognitiveAccountProject{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -538,12 +538,12 @@ func NewCognitiveAccountProject(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project} Resource.
 func NewCognitiveAccountProject_Override(c CognitiveAccountProject, scope constructs.Construct, id *string, config *CognitiveAccountProjectConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -704,7 +704,7 @@ func CognitiveAccountProject_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -739,7 +739,7 @@ func CognitiveAccountProject_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -758,7 +758,7 @@ func CognitiveAccountProject_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -777,7 +777,7 @@ func CognitiveAccountProject_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -790,7 +790,7 @@ func CognitiveAccountProject_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
+		"@cdktn/provider-azurerm.cognitiveAccountProject.CognitiveAccountProject",
 		"tfResourceType",
 		&returns,
 	)

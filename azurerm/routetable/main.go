@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package routetable
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeTable.RouteTable",
+		"@cdktn/provider-azurerm.routeTable.RouteTable",
 		reflect.TypeOf((*RouteTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeTable.RouteTableConfig",
+		"@cdktn/provider-azurerm.routeTable.RouteTableConfig",
 		reflect.TypeOf((*RouteTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeTable.RouteTableRoute",
+		"@cdktn/provider-azurerm.routeTable.RouteTableRoute",
 		reflect.TypeOf((*RouteTableRoute)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeTable.RouteTableRouteList",
+		"@cdktn/provider-azurerm.routeTable.RouteTableRouteList",
 		reflect.TypeOf((*RouteTableRouteList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -117,7 +117,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeTable.RouteTableRouteOutputReference",
+		"@cdktn/provider-azurerm.routeTable.RouteTableRouteOutputReference",
 		reflect.TypeOf((*RouteTableRouteOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressPrefix", GoGetter: "AddressPrefix"},
@@ -161,11 +161,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.routeTable.RouteTableTimeouts",
+		"@cdktn/provider-azurerm.routeTable.RouteTableTimeouts",
 		reflect.TypeOf((*RouteTableTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.routeTable.RouteTableTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.routeTable.RouteTableTimeoutsOutputReference",
 		reflect.TypeOf((*RouteTableTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

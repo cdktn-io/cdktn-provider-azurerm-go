@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mysqlflexibleserverfirewallrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mysqlflexibleserverfirewallrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mysqlflexibleserverfirewallrule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule}.
 type MysqlFlexibleServerFirewallRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_MysqlFlexibleServerFirewallRule) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule} Resource.
 func NewMysqlFlexibleServerFirewallRule(scope constructs.Construct, id *string, config *MysqlFlexibleServerFirewallRuleConfig) MysqlFlexibleServerFirewallRule {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewMysqlFlexibleServerFirewallRule(scope constructs.Construct, id *string, 
 	j := jsiiProxy_MysqlFlexibleServerFirewallRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewMysqlFlexibleServerFirewallRule(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_server_firewall_rule azurerm_mysql_flexible_server_firewall_rule} Resource.
 func NewMysqlFlexibleServerFirewallRule_Override(m MysqlFlexibleServerFirewallRule, scope constructs.Construct, id *string, config *MysqlFlexibleServerFirewallRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -622,7 +622,7 @@ func MysqlFlexibleServerFirewallRule_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func MysqlFlexibleServerFirewallRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func MysqlFlexibleServerFirewallRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func MysqlFlexibleServerFirewallRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func MysqlFlexibleServerFirewallRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
+		"@cdktn/provider-azurerm.mysqlFlexibleServerFirewallRule.MysqlFlexibleServerFirewallRule",
 		"tfResourceType",
 		&returns,
 	)

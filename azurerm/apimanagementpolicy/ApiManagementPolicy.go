@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package apimanagementpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/apimanagementpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_policy azurerm_api_management_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_policy azurerm_api_management_policy}.
 type ApiManagementPolicy interface {
 	cdktf.TerraformResource
 	ApiManagementId() *string
@@ -405,7 +405,7 @@ func (j *jsiiProxy_ApiManagementPolicy) XmlLinkInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_policy azurerm_api_management_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_policy azurerm_api_management_policy} Resource.
 func NewApiManagementPolicy(scope constructs.Construct, id *string, config *ApiManagementPolicyConfig) ApiManagementPolicy {
 	_init_.Initialize()
 
@@ -415,7 +415,7 @@ func NewApiManagementPolicy(scope constructs.Construct, id *string, config *ApiM
 	j := jsiiProxy_ApiManagementPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
+		"@cdktn/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -423,12 +423,12 @@ func NewApiManagementPolicy(scope constructs.Construct, id *string, config *ApiM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/api_management_policy azurerm_api_management_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/api_management_policy azurerm_api_management_policy} Resource.
 func NewApiManagementPolicy_Override(a ApiManagementPolicy, scope constructs.Construct, id *string, config *ApiManagementPolicyConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
+		"@cdktn/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -556,7 +556,7 @@ func ApiManagementPolicy_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
+		"@cdktn/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -591,7 +591,7 @@ func ApiManagementPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
+		"@cdktn/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -610,7 +610,7 @@ func ApiManagementPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
+		"@cdktn/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -629,7 +629,7 @@ func ApiManagementPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
+		"@cdktn/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -642,7 +642,7 @@ func ApiManagementPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
+		"@cdktn/provider-azurerm.apiManagementPolicy.ApiManagementPolicy",
 		"tfResourceType",
 		&returns,
 	)

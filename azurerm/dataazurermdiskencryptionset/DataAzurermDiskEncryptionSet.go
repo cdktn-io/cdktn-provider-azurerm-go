@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermdiskencryptionset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermdiskencryptionset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdiskencryptionset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set}.
 type DataAzurermDiskEncryptionSet interface {
 	cdktf.TerraformDataSource
 	AutoKeyRotationEnabled() cdktf.IResolvable
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermDiskEncryptionSet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set} Data Source.
 func NewDataAzurermDiskEncryptionSet(scope constructs.Construct, id *string, config *DataAzurermDiskEncryptionSetConfig) DataAzurermDiskEncryptionSet {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewDataAzurermDiskEncryptionSet(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataAzurermDiskEncryptionSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
+		"@cdktn/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -408,12 +408,12 @@ func NewDataAzurermDiskEncryptionSet(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set} Data Source.
 func NewDataAzurermDiskEncryptionSet_Override(d DataAzurermDiskEncryptionSet, scope constructs.Construct, id *string, config *DataAzurermDiskEncryptionSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
+		"@cdktn/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -508,7 +508,7 @@ func DataAzurermDiskEncryptionSet_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
+		"@cdktn/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -543,7 +543,7 @@ func DataAzurermDiskEncryptionSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
+		"@cdktn/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -562,7 +562,7 @@ func DataAzurermDiskEncryptionSet_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
+		"@cdktn/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -581,7 +581,7 @@ func DataAzurermDiskEncryptionSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
+		"@cdktn/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -594,7 +594,7 @@ func DataAzurermDiskEncryptionSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
+		"@cdktn/provider-azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSet",
 		"tfResourceType",
 		&returns,
 	)

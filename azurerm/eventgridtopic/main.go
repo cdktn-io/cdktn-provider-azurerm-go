@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package eventgridtopic
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopic",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopic",
 		reflect.TypeOf((*EventgridTopic)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -107,15 +107,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicConfig",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicConfig",
 		reflect.TypeOf((*EventgridTopicConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicIdentity",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicIdentity",
 		reflect.TypeOf((*EventgridTopicIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicIdentityOutputReference",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicIdentityOutputReference",
 		reflect.TypeOf((*EventgridTopicIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -154,11 +154,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRule",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRule",
 		reflect.TypeOf((*EventgridTopicInboundIpRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRuleList",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRuleList",
 		reflect.TypeOf((*EventgridTopicInboundIpRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -180,7 +180,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRuleOutputReference",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInboundIpRuleOutputReference",
 		reflect.TypeOf((*EventgridTopicInboundIpRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
@@ -218,11 +218,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInputMappingDefaultValues",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInputMappingDefaultValues",
 		reflect.TypeOf((*EventgridTopicInputMappingDefaultValues)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInputMappingDefaultValuesOutputReference",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInputMappingDefaultValuesOutputReference",
 		reflect.TypeOf((*EventgridTopicInputMappingDefaultValuesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -263,11 +263,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInputMappingFields",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInputMappingFields",
 		reflect.TypeOf((*EventgridTopicInputMappingFields)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicInputMappingFieldsOutputReference",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicInputMappingFieldsOutputReference",
 		reflect.TypeOf((*EventgridTopicInputMappingFieldsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -317,11 +317,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicTimeouts",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicTimeouts",
 		reflect.TypeOf((*EventgridTopicTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.eventgridTopic.EventgridTopicTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.eventgridTopic.EventgridTopicTimeoutsOutputReference",
 		reflect.TypeOf((*EventgridTopicTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

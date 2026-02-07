@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package powerbiembedded
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/powerbiembedded/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/powerbiembedded/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded}.
 type PowerbiEmbedded interface {
 	cdktf.TerraformResource
 	Administrators() *[]*string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_PowerbiEmbedded) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded} Resource.
 func NewPowerbiEmbedded(scope constructs.Construct, id *string, config *PowerbiEmbeddedConfig) PowerbiEmbedded {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewPowerbiEmbedded(scope constructs.Construct, id *string, config *PowerbiE
 	j := jsiiProxy_PowerbiEmbedded{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -515,12 +515,12 @@ func NewPowerbiEmbedded(scope constructs.Construct, id *string, config *PowerbiE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded} Resource.
 func NewPowerbiEmbedded_Override(p PowerbiEmbedded, scope constructs.Construct, id *string, config *PowerbiEmbeddedConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -692,7 +692,7 @@ func PowerbiEmbedded_GenerateConfigForImport(scope constructs.Construct, importT
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -727,7 +727,7 @@ func PowerbiEmbedded_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -746,7 +746,7 @@ func PowerbiEmbedded_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func PowerbiEmbedded_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -778,7 +778,7 @@ func PowerbiEmbedded_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
+		"@cdktn/provider-azurerm.powerbiEmbedded.PowerbiEmbedded",
 		"tfResourceType",
 		&returns,
 	)

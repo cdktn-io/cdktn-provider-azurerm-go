@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewAppServiceAuthSettingsFacebookOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_AppServiceAuthSettingsFacebookOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsFacebookOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsFacebookOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewAppServiceAuthSettingsFacebookOutputReference_Override(a AppServiceAuthS
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appService.AppServiceAuthSettingsFacebookOutputReference",
+		"@cdktn/provider-azurerm.appService.AppServiceAuthSettingsFacebookOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		a,
 	)

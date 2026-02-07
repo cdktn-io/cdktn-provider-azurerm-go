@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package portaltenantconfiguration
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfiguration",
 		reflect.TypeOf((*PortalTenantConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfigurationConfig",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfigurationConfig",
 		reflect.TypeOf((*PortalTenantConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfigurationTimeouts",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfigurationTimeouts",
 		reflect.TypeOf((*PortalTenantConfigurationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.portalTenantConfiguration.PortalTenantConfigurationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.portalTenantConfiguration.PortalTenantConfigurationTimeoutsOutputReference",
 		reflect.TypeOf((*PortalTenantConfigurationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

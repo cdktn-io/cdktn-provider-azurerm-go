@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dnsptrrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dnsptrrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dnsptrrecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_ptr_record azurerm_dns_ptr_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_ptr_record azurerm_dns_ptr_record}.
 type DnsPtrRecord interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DnsPtrRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_ptr_record azurerm_dns_ptr_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_ptr_record azurerm_dns_ptr_record} Resource.
 func NewDnsPtrRecord(scope constructs.Construct, id *string, config *DnsPtrRecordConfig) DnsPtrRecord {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewDnsPtrRecord(scope constructs.Construct, id *string, config *DnsPtrRecor
 	j := jsiiProxy_DnsPtrRecord{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -502,12 +502,12 @@ func NewDnsPtrRecord(scope constructs.Construct, id *string, config *DnsPtrRecor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dns_ptr_record azurerm_dns_ptr_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dns_ptr_record azurerm_dns_ptr_record} Resource.
 func NewDnsPtrRecord_Override(d DnsPtrRecord, scope constructs.Construct, id *string, config *DnsPtrRecordConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -668,7 +668,7 @@ func DnsPtrRecord_GenerateConfigForImport(scope constructs.Construct, importToId
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -703,7 +703,7 @@ func DnsPtrRecord_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -722,7 +722,7 @@ func DnsPtrRecord_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -741,7 +741,7 @@ func DnsPtrRecord_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -754,7 +754,7 @@ func DnsPtrRecord_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
+		"@cdktn/provider-azurerm.dnsPtrRecord.DnsPtrRecord",
 		"tfResourceType",
 		&returns,
 	)

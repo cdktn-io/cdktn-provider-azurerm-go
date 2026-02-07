@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datafactorytriggertumblingwindow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/datafactorytriggertumblingwindow/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorytriggertumblingwindow/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window}.
 type DataFactoryTriggerTumblingWindow interface {
 	cdktf.TerraformResource
 	Activated() interface{}
@@ -688,7 +688,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) TriggerDependencyInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window} Resource.
 func NewDataFactoryTriggerTumblingWindow(scope constructs.Construct, id *string, config *DataFactoryTriggerTumblingWindowConfig) DataFactoryTriggerTumblingWindow {
 	_init_.Initialize()
 
@@ -698,7 +698,7 @@ func NewDataFactoryTriggerTumblingWindow(scope constructs.Construct, id *string,
 	j := jsiiProxy_DataFactoryTriggerTumblingWindow{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
+		"@cdktn/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -706,12 +706,12 @@ func NewDataFactoryTriggerTumblingWindow(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window} Resource.
 func NewDataFactoryTriggerTumblingWindow_Override(d DataFactoryTriggerTumblingWindow, scope constructs.Construct, id *string, config *DataFactoryTriggerTumblingWindowConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
+		"@cdktn/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -938,7 +938,7 @@ func DataFactoryTriggerTumblingWindow_GenerateConfigForImport(scope constructs.C
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
+		"@cdktn/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -973,7 +973,7 @@ func DataFactoryTriggerTumblingWindow_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
+		"@cdktn/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -992,7 +992,7 @@ func DataFactoryTriggerTumblingWindow_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
+		"@cdktn/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1011,7 +1011,7 @@ func DataFactoryTriggerTumblingWindow_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
+		"@cdktn/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1024,7 +1024,7 @@ func DataFactoryTriggerTumblingWindow_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
+		"@cdktn/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package virtualhubbgpconnection
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubBgpConnection.VirtualHubBgpConnection",
+		"@cdktn/provider-azurerm.virtualHubBgpConnection.VirtualHubBgpConnection",
 		reflect.TypeOf((*VirtualHubBgpConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -81,15 +81,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubBgpConnection.VirtualHubBgpConnectionConfig",
+		"@cdktn/provider-azurerm.virtualHubBgpConnection.VirtualHubBgpConnectionConfig",
 		reflect.TypeOf((*VirtualHubBgpConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.virtualHubBgpConnection.VirtualHubBgpConnectionTimeouts",
+		"@cdktn/provider-azurerm.virtualHubBgpConnection.VirtualHubBgpConnectionTimeouts",
 		reflect.TypeOf((*VirtualHubBgpConnectionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.virtualHubBgpConnection.VirtualHubBgpConnectionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.virtualHubBgpConnection.VirtualHubBgpConnectionTimeoutsOutputReference",
 		reflect.TypeOf((*VirtualHubBgpConnectionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

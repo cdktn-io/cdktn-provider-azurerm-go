@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package healthbot
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthbot.Healthbot",
+		"@cdktn/provider-azurerm.healthbot.Healthbot",
 		reflect.TypeOf((*Healthbot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthbot.HealthbotConfig",
+		"@cdktn/provider-azurerm.healthbot.HealthbotConfig",
 		reflect.TypeOf((*HealthbotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.healthbot.HealthbotTimeouts",
+		"@cdktn/provider-azurerm.healthbot.HealthbotTimeouts",
 		reflect.TypeOf((*HealthbotTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.healthbot.HealthbotTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.healthbot.HealthbotTimeoutsOutputReference",
 		reflect.TypeOf((*HealthbotTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

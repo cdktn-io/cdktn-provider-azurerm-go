@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermlocation
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocation",
 		reflect.TypeOf((*DataAzurermLocation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocationConfig",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocationConfig",
 		reflect.TypeOf((*DataAzurermLocationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocationTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocationTimeouts",
 		reflect.TypeOf((*DataAzurermLocationTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocationTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocationTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermLocationTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -109,11 +109,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocationZoneMappings",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocationZoneMappings",
 		reflect.TypeOf((*DataAzurermLocationZoneMappings)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocationZoneMappingsList",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocationZoneMappingsList",
 		reflect.TypeOf((*DataAzurermLocationZoneMappingsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -134,7 +134,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermLocation.DataAzurermLocationZoneMappingsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermLocation.DataAzurermLocationZoneMappingsOutputReference",
 		reflect.TypeOf((*DataAzurermLocationZoneMappingsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

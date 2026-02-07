@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appservicecustomhostnamebinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appservicecustomhostnamebinding/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservicecustomhostnamebinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_custom_hostname_binding azurerm_app_service_custom_hostname_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_custom_hostname_binding azurerm_app_service_custom_hostname_binding}.
 type AppServiceCustomHostnameBinding interface {
 	cdktf.TerraformResource
 	AppServiceName() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_AppServiceCustomHostnameBinding) VirtualIp() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_custom_hostname_binding azurerm_app_service_custom_hostname_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_custom_hostname_binding azurerm_app_service_custom_hostname_binding} Resource.
 func NewAppServiceCustomHostnameBinding(scope constructs.Construct, id *string, config *AppServiceCustomHostnameBindingConfig) AppServiceCustomHostnameBinding {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewAppServiceCustomHostnameBinding(scope constructs.Construct, id *string, 
 	j := jsiiProxy_AppServiceCustomHostnameBinding{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -480,12 +480,12 @@ func NewAppServiceCustomHostnameBinding(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_custom_hostname_binding azurerm_app_service_custom_hostname_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_custom_hostname_binding azurerm_app_service_custom_hostname_binding} Resource.
 func NewAppServiceCustomHostnameBinding_Override(a AppServiceCustomHostnameBinding, scope constructs.Construct, id *string, config *AppServiceCustomHostnameBindingConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -635,7 +635,7 @@ func AppServiceCustomHostnameBinding_GenerateConfigForImport(scope constructs.Co
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -670,7 +670,7 @@ func AppServiceCustomHostnameBinding_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -689,7 +689,7 @@ func AppServiceCustomHostnameBinding_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func AppServiceCustomHostnameBinding_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -721,7 +721,7 @@ func AppServiceCustomHostnameBinding_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
+		"@cdktn/provider-azurerm.appServiceCustomHostnameBinding.AppServiceCustomHostnameBinding",
 		"tfResourceType",
 		&returns,
 	)

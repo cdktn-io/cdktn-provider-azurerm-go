@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package sharedimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/sharedimage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sharedimage/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/shared_image azurerm_shared_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/shared_image azurerm_shared_image}.
 type SharedImage interface {
 	cdktf.TerraformResource
 	AcceleratedNetworkSupportEnabled() interface{}
@@ -1000,7 +1000,7 @@ func (j *jsiiProxy_SharedImage) TrustedLaunchSupportedInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/shared_image azurerm_shared_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/shared_image azurerm_shared_image} Resource.
 func NewSharedImage(scope constructs.Construct, id *string, config *SharedImageConfig) SharedImage {
 	_init_.Initialize()
 
@@ -1010,7 +1010,7 @@ func NewSharedImage(scope constructs.Construct, id *string, config *SharedImageC
 	j := jsiiProxy_SharedImage{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sharedImage.SharedImage",
+		"@cdktn/provider-azurerm.sharedImage.SharedImage",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1018,12 +1018,12 @@ func NewSharedImage(scope constructs.Construct, id *string, config *SharedImageC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/shared_image azurerm_shared_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/shared_image azurerm_shared_image} Resource.
 func NewSharedImage_Override(s SharedImage, scope constructs.Construct, id *string, config *SharedImageConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.sharedImage.SharedImage",
+		"@cdktn/provider-azurerm.sharedImage.SharedImage",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -1404,7 +1404,7 @@ func SharedImage_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sharedImage.SharedImage",
+		"@cdktn/provider-azurerm.sharedImage.SharedImage",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1439,7 +1439,7 @@ func SharedImage_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sharedImage.SharedImage",
+		"@cdktn/provider-azurerm.sharedImage.SharedImage",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1458,7 +1458,7 @@ func SharedImage_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sharedImage.SharedImage",
+		"@cdktn/provider-azurerm.sharedImage.SharedImage",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1477,7 +1477,7 @@ func SharedImage_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.sharedImage.SharedImage",
+		"@cdktn/provider-azurerm.sharedImage.SharedImage",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1490,7 +1490,7 @@ func SharedImage_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.sharedImage.SharedImage",
+		"@cdktn/provider-azurerm.sharedImage.SharedImage",
 		"tfResourceType",
 		&returns,
 	)

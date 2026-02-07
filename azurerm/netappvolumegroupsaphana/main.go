@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolumegroupsaphana
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHana",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHana",
 		reflect.TypeOf((*NetappVolumeGroupSapHana)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaConfig",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaConfig",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaTimeouts",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaTimeouts",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaTimeoutsOutputReference",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -137,15 +137,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolume",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolume",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolume)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeDataProtectionReplication",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeDataProtectionReplication",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeDataProtectionReplication)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeDataProtectionReplicationOutputReference",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeDataProtectionReplicationOutputReference",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeDataProtectionReplicationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicy",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicy",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicy)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReference",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReference",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -224,11 +224,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeExportPolicyRule",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeExportPolicyRule",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeExportPolicyRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeExportPolicyRuleList",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeExportPolicyRuleList",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeExportPolicyRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -250,7 +250,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedClients", GoGetter: "AllowedClients"},
@@ -299,7 +299,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeList",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeList",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -321,7 +321,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeOutputReference",
+		"@cdktn/provider-azurerm.netappVolumeGroupSapHana.NetappVolumeGroupSapHanaVolumeOutputReference",
 		reflect.TypeOf((*NetappVolumeGroupSapHanaVolumeOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityPoolId", GoGetter: "CapacityPoolId"},
@@ -334,6 +334,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dataProtectionReplicationInput", GoGetter: "DataProtectionReplicationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dataProtectionSnapshotPolicy", GoGetter: "DataProtectionSnapshotPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "dataProtectionSnapshotPolicyInput", GoGetter: "DataProtectionSnapshotPolicyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionKeySource", GoGetter: "EncryptionKeySource"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionKeySourceInput", GoGetter: "EncryptionKeySourceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "exportPolicyRule", GoGetter: "ExportPolicyRule"},
 			_jsii_.MemberProperty{JsiiProperty: "exportPolicyRuleInput", GoGetter: "ExportPolicyRuleInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
@@ -350,9 +352,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "keyVaultPrivateEndpointId", GoGetter: "KeyVaultPrivateEndpointId"},
+			_jsii_.MemberProperty{JsiiProperty: "keyVaultPrivateEndpointIdInput", GoGetter: "KeyVaultPrivateEndpointIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "mountIpAddresses", GoGetter: "MountIpAddresses"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "networkFeatures", GoGetter: "NetworkFeatures"},
+			_jsii_.MemberProperty{JsiiProperty: "networkFeaturesInput", GoGetter: "NetworkFeaturesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "protocols", GoGetter: "Protocols"},
 			_jsii_.MemberProperty{JsiiProperty: "protocolsInput", GoGetter: "ProtocolsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "proximityPlacementGroupId", GoGetter: "ProximityPlacementGroupId"},
@@ -362,8 +368,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putExportPolicyRule", GoMethod: "PutExportPolicyRule"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDataProtectionReplication", GoMethod: "ResetDataProtectionReplication"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDataProtectionSnapshotPolicy", GoMethod: "ResetDataProtectionSnapshotPolicy"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionKeySource", GoMethod: "ResetEncryptionKeySource"},
+			_jsii_.MemberMethod{JsiiMethod: "resetKeyVaultPrivateEndpointId", GoMethod: "ResetKeyVaultPrivateEndpointId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNetworkFeatures", GoMethod: "ResetNetworkFeatures"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProximityPlacementGroupId", GoMethod: "ResetProximityPlacementGroupId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
+			_jsii_.MemberMethod{JsiiMethod: "resetZone", GoMethod: "ResetZone"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "securityStyle", GoGetter: "SecurityStyle"},
 			_jsii_.MemberProperty{JsiiProperty: "securityStyleInput", GoGetter: "SecurityStyleInput"},
@@ -386,6 +396,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumePathInput", GoGetter: "VolumePathInput"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeSpecName", GoGetter: "VolumeSpecName"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeSpecNameInput", GoGetter: "VolumeSpecNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "zone", GoGetter: "Zone"},
+			_jsii_.MemberProperty{JsiiProperty: "zoneInput", GoGetter: "ZoneInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference{}

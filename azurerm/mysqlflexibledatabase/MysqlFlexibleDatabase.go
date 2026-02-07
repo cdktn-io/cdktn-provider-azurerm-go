@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package mysqlflexibledatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/mysqlflexibledatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mysqlflexibledatabase/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database}.
 type MysqlFlexibleDatabase interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_MysqlFlexibleDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database} Resource.
 func NewMysqlFlexibleDatabase(scope constructs.Construct, id *string, config *MysqlFlexibleDatabaseConfig) MysqlFlexibleDatabase {
 	_init_.Initialize()
 
@@ -459,7 +459,7 @@ func NewMysqlFlexibleDatabase(scope constructs.Construct, id *string, config *My
 	j := jsiiProxy_MysqlFlexibleDatabase{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
+		"@cdktn/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -467,12 +467,12 @@ func NewMysqlFlexibleDatabase(scope constructs.Construct, id *string, config *My
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mysql_flexible_database azurerm_mysql_flexible_database} Resource.
 func NewMysqlFlexibleDatabase_Override(m MysqlFlexibleDatabase, scope constructs.Construct, id *string, config *MysqlFlexibleDatabaseConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
+		"@cdktn/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -622,7 +622,7 @@ func MysqlFlexibleDatabase_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
+		"@cdktn/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -657,7 +657,7 @@ func MysqlFlexibleDatabase_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
+		"@cdktn/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -676,7 +676,7 @@ func MysqlFlexibleDatabase_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
+		"@cdktn/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -695,7 +695,7 @@ func MysqlFlexibleDatabase_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
+		"@cdktn/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -708,7 +708,7 @@ func MysqlFlexibleDatabase_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
+		"@cdktn/provider-azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabase",
 		"tfResourceType",
 		&returns,
 	)

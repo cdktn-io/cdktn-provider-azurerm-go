@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/botwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/botwebapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_web_app azurerm_bot_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_web_app azurerm_bot_web_app}.
 type BotWebApp interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -641,7 +641,7 @@ func (j *jsiiProxy_BotWebApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
 func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfig) BotWebApp {
 	_init_.Initialize()
 
@@ -651,7 +651,7 @@ func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfi
 	j := jsiiProxy_BotWebApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botWebApp.BotWebApp",
+		"@cdktn/provider-azurerm.botWebApp.BotWebApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -659,12 +659,12 @@ func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
 func NewBotWebApp_Override(b BotWebApp, scope constructs.Construct, id *string, config *BotWebAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botWebApp.BotWebApp",
+		"@cdktn/provider-azurerm.botWebApp.BotWebApp",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -902,7 +902,7 @@ func BotWebApp_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botWebApp.BotWebApp",
+		"@cdktn/provider-azurerm.botWebApp.BotWebApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -937,7 +937,7 @@ func BotWebApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botWebApp.BotWebApp",
+		"@cdktn/provider-azurerm.botWebApp.BotWebApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -956,7 +956,7 @@ func BotWebApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botWebApp.BotWebApp",
+		"@cdktn/provider-azurerm.botWebApp.BotWebApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -975,7 +975,7 @@ func BotWebApp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botWebApp.BotWebApp",
+		"@cdktn/provider-azurerm.botWebApp.BotWebApp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -988,7 +988,7 @@ func BotWebApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.botWebApp.BotWebApp",
+		"@cdktn/provider-azurerm.botWebApp.BotWebApp",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatednsmxrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/privatednsmxrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privatednsmxrecord/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPrivateDnsMxRecordRecordList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_PrivateDnsMxRecordRecordList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateDnsMxRecord.PrivateDnsMxRecordRecordList",
+		"@cdktn/provider-azurerm.privateDnsMxRecord.PrivateDnsMxRecordRecordList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPrivateDnsMxRecordRecordList_Override(p PrivateDnsMxRecordRecordList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateDnsMxRecord.PrivateDnsMxRecordRecordList",
+		"@cdktn/provider-azurerm.privateDnsMxRecord.PrivateDnsMxRecordRecordList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

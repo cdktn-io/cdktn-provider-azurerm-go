@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelsms
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelSms.BotChannelSms",
+		"@cdktn/provider-azurerm.botChannelSms.BotChannelSms",
 		reflect.TypeOf((*BotChannelSms)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,15 +82,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelSms.BotChannelSmsConfig",
+		"@cdktn/provider-azurerm.botChannelSms.BotChannelSmsConfig",
 		reflect.TypeOf((*BotChannelSmsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelSms.BotChannelSmsTimeouts",
+		"@cdktn/provider-azurerm.botChannelSms.BotChannelSmsTimeouts",
 		reflect.TypeOf((*BotChannelSmsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelSms.BotChannelSmsTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botChannelSms.BotChannelSmsTimeoutsOutputReference",
 		reflect.TypeOf((*BotChannelSmsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

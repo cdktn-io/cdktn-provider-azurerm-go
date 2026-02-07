@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package appserviceslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/appserviceslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appserviceslot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_slot azurerm_app_service_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_slot azurerm_app_service_slot}.
 type AppServiceSlot interface {
 	cdktf.TerraformResource
 	AppServiceName() *string
@@ -759,7 +759,7 @@ func (j *jsiiProxy_AppServiceSlot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_slot azurerm_app_service_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_slot azurerm_app_service_slot} Resource.
 func NewAppServiceSlot(scope constructs.Construct, id *string, config *AppServiceSlotConfig) AppServiceSlot {
 	_init_.Initialize()
 
@@ -769,7 +769,7 @@ func NewAppServiceSlot(scope constructs.Construct, id *string, config *AppServic
 	j := jsiiProxy_AppServiceSlot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlot",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -777,12 +777,12 @@ func NewAppServiceSlot(scope constructs.Construct, id *string, config *AppServic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/app_service_slot azurerm_app_service_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/app_service_slot azurerm_app_service_slot} Resource.
 func NewAppServiceSlot_Override(a AppServiceSlot, scope constructs.Construct, id *string, config *AppServiceSlotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlot",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlot",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -998,7 +998,7 @@ func AppServiceSlot_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlot",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1033,7 +1033,7 @@ func AppServiceSlot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlot",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1052,7 +1052,7 @@ func AppServiceSlot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlot",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1071,7 +1071,7 @@ func AppServiceSlot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlot",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1084,7 +1084,7 @@ func AppServiceSlot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.appServiceSlot.AppServiceSlot",
+		"@cdktn/provider-azurerm.appServiceSlot.AppServiceSlot",
 		"tfResourceType",
 		&returns,
 	)

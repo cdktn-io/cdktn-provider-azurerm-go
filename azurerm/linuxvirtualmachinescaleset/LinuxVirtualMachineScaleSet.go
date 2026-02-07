@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package linuxvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/linuxvirtualmachinescaleset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxvirtualmachinescaleset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_virtual_machine_scale_set azurerm_linux_virtual_machine_scale_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_virtual_machine_scale_set azurerm_linux_virtual_machine_scale_set}.
 type LinuxVirtualMachineScaleSet interface {
 	cdktf.TerraformResource
 	AdditionalCapabilities() LinuxVirtualMachineScaleSetAdditionalCapabilitiesOutputReference
@@ -1634,7 +1634,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSet) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_virtual_machine_scale_set azurerm_linux_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_virtual_machine_scale_set azurerm_linux_virtual_machine_scale_set} Resource.
 func NewLinuxVirtualMachineScaleSet(scope constructs.Construct, id *string, config *LinuxVirtualMachineScaleSetConfig) LinuxVirtualMachineScaleSet {
 	_init_.Initialize()
 
@@ -1644,7 +1644,7 @@ func NewLinuxVirtualMachineScaleSet(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_LinuxVirtualMachineScaleSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
+		"@cdktn/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1652,12 +1652,12 @@ func NewLinuxVirtualMachineScaleSet(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/linux_virtual_machine_scale_set azurerm_linux_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/linux_virtual_machine_scale_set azurerm_linux_virtual_machine_scale_set} Resource.
 func NewLinuxVirtualMachineScaleSet_Override(l LinuxVirtualMachineScaleSet, scope constructs.Construct, id *string, config *LinuxVirtualMachineScaleSetConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
+		"@cdktn/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -2148,7 +2148,7 @@ func LinuxVirtualMachineScaleSet_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
+		"@cdktn/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -2183,7 +2183,7 @@ func LinuxVirtualMachineScaleSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
+		"@cdktn/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -2202,7 +2202,7 @@ func LinuxVirtualMachineScaleSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
+		"@cdktn/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -2221,7 +2221,7 @@ func LinuxVirtualMachineScaleSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
+		"@cdktn/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -2234,7 +2234,7 @@ func LinuxVirtualMachineScaleSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
+		"@cdktn/provider-azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSet",
 		"tfResourceType",
 		&returns,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermcontainerapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/dataazurermcontainerapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermcontainerapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/container_app azurerm_container_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/container_app azurerm_container_app}.
 type DataAzurermContainerApp interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -511,7 +511,7 @@ func (j *jsiiProxy_DataAzurermContainerApp) WorkloadProfileName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/container_app azurerm_container_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/container_app azurerm_container_app} Data Source.
 func NewDataAzurermContainerApp(scope constructs.Construct, id *string, config *DataAzurermContainerAppConfig) DataAzurermContainerApp {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewDataAzurermContainerApp(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataAzurermContainerApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
+		"@cdktn/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -529,12 +529,12 @@ func NewDataAzurermContainerApp(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/data-sources/container_app azurerm_container_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/container_app azurerm_container_app} Data Source.
 func NewDataAzurermContainerApp_Override(d DataAzurermContainerApp, scope constructs.Construct, id *string, config *DataAzurermContainerAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
+		"@cdktn/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -629,7 +629,7 @@ func DataAzurermContainerApp_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
+		"@cdktn/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -664,7 +664,7 @@ func DataAzurermContainerApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
+		"@cdktn/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -683,7 +683,7 @@ func DataAzurermContainerApp_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
+		"@cdktn/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -702,7 +702,7 @@ func DataAzurermContainerApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
+		"@cdktn/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -715,7 +715,7 @@ func DataAzurermContainerApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
+		"@cdktn/provider-azurerm.dataAzurermContainerApp.DataAzurermContainerApp",
 		"tfResourceType",
 		&returns,
 	)

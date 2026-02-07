@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermsharedimagegallery
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGallery",
+		"@cdktn/provider-azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGallery",
 		reflect.TypeOf((*DataAzurermSharedImageGallery)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,15 +71,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGalleryConfig",
+		"@cdktn/provider-azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGalleryConfig",
 		reflect.TypeOf((*DataAzurermSharedImageGalleryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGalleryTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGalleryTimeouts",
 		reflect.TypeOf((*DataAzurermSharedImageGalleryTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGalleryTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGalleryTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermSharedImageGalleryTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

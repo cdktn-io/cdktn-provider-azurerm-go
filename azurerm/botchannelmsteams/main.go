@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botchannelmsteams
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelMsTeams.BotChannelMsTeams",
+		"@cdktn/provider-azurerm.botChannelMsTeams.BotChannelMsTeams",
 		reflect.TypeOf((*BotChannelMsTeams)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelMsTeams.BotChannelMsTeamsConfig",
+		"@cdktn/provider-azurerm.botChannelMsTeams.BotChannelMsTeamsConfig",
 		reflect.TypeOf((*BotChannelMsTeamsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.botChannelMsTeams.BotChannelMsTeamsTimeouts",
+		"@cdktn/provider-azurerm.botChannelMsTeams.BotChannelMsTeamsTimeouts",
 		reflect.TypeOf((*BotChannelMsTeamsTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.botChannelMsTeams.BotChannelMsTeamsTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.botChannelMsTeams.BotChannelMsTeamsTimeoutsOutputReference",
 		reflect.TypeOf((*BotChannelMsTeamsTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

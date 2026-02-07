@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package databricksaccessconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/databricksaccessconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/databricksaccessconnector/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_access_connector azurerm_databricks_access_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_access_connector azurerm_databricks_access_connector}.
 type DatabricksAccessConnector interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DatabricksAccessConnector) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_access_connector azurerm_databricks_access_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_access_connector azurerm_databricks_access_connector} Resource.
 func NewDatabricksAccessConnector(scope constructs.Construct, id *string, config *DatabricksAccessConnectorConfig) DatabricksAccessConnector {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewDatabricksAccessConnector(scope constructs.Construct, id *string, config
 	j := jsiiProxy_DatabricksAccessConnector{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -469,12 +469,12 @@ func NewDatabricksAccessConnector(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/databricks_access_connector azurerm_databricks_access_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/databricks_access_connector azurerm_databricks_access_connector} Resource.
 func NewDatabricksAccessConnector_Override(d DatabricksAccessConnector, scope constructs.Construct, id *string, config *DatabricksAccessConnectorConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -613,7 +613,7 @@ func DatabricksAccessConnector_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -648,7 +648,7 @@ func DatabricksAccessConnector_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -667,7 +667,7 @@ func DatabricksAccessConnector_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -686,7 +686,7 @@ func DatabricksAccessConnector_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -699,7 +699,7 @@ func DatabricksAccessConnector_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
+		"@cdktn/provider-azurerm.databricksAccessConnector.DatabricksAccessConnector",
 		"tfResourceType",
 		&returns,
 	)

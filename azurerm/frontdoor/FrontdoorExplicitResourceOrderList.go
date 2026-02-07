@@ -1,13 +1,13 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package frontdoor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/frontdoor/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/frontdoor/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewFrontdoorExplicitResourceOrderList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_FrontdoorExplicitResourceOrderList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrderList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrderList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewFrontdoorExplicitResourceOrderList_Override(f FrontdoorExplicitResourceO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrderList",
+		"@cdktn/provider-azurerm.frontdoor.FrontdoorExplicitResourceOrderList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		f,
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package privatelinkservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/privatelinkservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privatelinkservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_link_service azurerm_private_link_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_link_service azurerm_private_link_service}.
 type PrivateLinkService interface {
 	cdktf.TerraformResource
 	Alias() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_PrivateLinkService) VisibilitySubscriptionIdsInput() *[]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
 func NewPrivateLinkService(scope constructs.Construct, id *string, config *PrivateLinkServiceConfig) PrivateLinkService {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewPrivateLinkService(scope constructs.Construct, id *string, config *Priva
 	j := jsiiProxy_PrivateLinkService{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkService",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkService",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -623,12 +623,12 @@ func NewPrivateLinkService(scope constructs.Construct, id *string, config *Priva
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
 func NewPrivateLinkService_Override(p PrivateLinkService, scope constructs.Construct, id *string, config *PrivateLinkServiceConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkService",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkService",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -833,7 +833,7 @@ func PrivateLinkService_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkService",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkService",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -868,7 +868,7 @@ func PrivateLinkService_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkService",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkService",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -887,7 +887,7 @@ func PrivateLinkService_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkService",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkService",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -906,7 +906,7 @@ func PrivateLinkService_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkService",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkService",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -919,7 +919,7 @@ func PrivateLinkService_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.privateLinkService.PrivateLinkService",
+		"@cdktn/provider-azurerm.privateLinkService.PrivateLinkService",
 		"tfResourceType",
 		&returns,
 	)

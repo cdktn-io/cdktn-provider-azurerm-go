@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolumequotarule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/netappvolumequotarule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappvolumequotarule/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule}.
 type NetappVolumeQuotaRule interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_NetappVolumeQuotaRule) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Resource.
 func NewNetappVolumeQuotaRule(scope constructs.Construct, id *string, config *NetappVolumeQuotaRuleConfig) NetappVolumeQuotaRule {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewNetappVolumeQuotaRule(scope constructs.Construct, id *string, config *Ne
 	j := jsiiProxy_NetappVolumeQuotaRule{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
+		"@cdktn/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -491,12 +491,12 @@ func NewNetappVolumeQuotaRule(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Resource.
 func NewNetappVolumeQuotaRule_Override(n NetappVolumeQuotaRule, scope constructs.Construct, id *string, config *NetappVolumeQuotaRuleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
+		"@cdktn/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -657,7 +657,7 @@ func NetappVolumeQuotaRule_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
+		"@cdktn/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -692,7 +692,7 @@ func NetappVolumeQuotaRule_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
+		"@cdktn/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -711,7 +711,7 @@ func NetappVolumeQuotaRule_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
+		"@cdktn/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -730,7 +730,7 @@ func NetappVolumeQuotaRule_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
+		"@cdktn/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -743,7 +743,7 @@ func NetappVolumeQuotaRule_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
+		"@cdktn/provider-azurerm.netappVolumeQuotaRule.NetappVolumeQuotaRule",
 		"tfResourceType",
 		&returns,
 	)

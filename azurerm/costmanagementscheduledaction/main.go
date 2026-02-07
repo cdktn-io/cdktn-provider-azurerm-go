@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package costmanagementscheduledaction
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.costManagementScheduledAction.CostManagementScheduledAction",
+		"@cdktn/provider-azurerm.costManagementScheduledAction.CostManagementScheduledAction",
 		reflect.TypeOf((*CostManagementScheduledAction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -103,15 +103,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.costManagementScheduledAction.CostManagementScheduledActionConfig",
+		"@cdktn/provider-azurerm.costManagementScheduledAction.CostManagementScheduledActionConfig",
 		reflect.TypeOf((*CostManagementScheduledActionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.costManagementScheduledAction.CostManagementScheduledActionTimeouts",
+		"@cdktn/provider-azurerm.costManagementScheduledAction.CostManagementScheduledActionTimeouts",
 		reflect.TypeOf((*CostManagementScheduledActionTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.costManagementScheduledAction.CostManagementScheduledActionTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.costManagementScheduledAction.CostManagementScheduledActionTimeoutsOutputReference",
 		reflect.TypeOf((*CostManagementScheduledActionTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

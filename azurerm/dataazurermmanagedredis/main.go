@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package dataazurermmanagedredis
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedis",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedis",
 		reflect.TypeOf((*DataAzurermManagedRedis)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisConfig",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisConfig",
 		reflect.TypeOf((*DataAzurermManagedRedisConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisCustomerManagedKey",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisCustomerManagedKey",
 		reflect.TypeOf((*DataAzurermManagedRedisCustomerManagedKey)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisCustomerManagedKeyList",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisCustomerManagedKeyList",
 		reflect.TypeOf((*DataAzurermManagedRedisCustomerManagedKeyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -104,7 +104,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisCustomerManagedKeyOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisCustomerManagedKeyOutputReference",
 		reflect.TypeOf((*DataAzurermManagedRedisCustomerManagedKeyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -138,11 +138,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabase",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabase",
 		reflect.TypeOf((*DataAzurermManagedRedisDefaultDatabase)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseList",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseList",
 		reflect.TypeOf((*DataAzurermManagedRedisDefaultDatabaseList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -163,11 +163,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseModule",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseModule",
 		reflect.TypeOf((*DataAzurermManagedRedisDefaultDatabaseModule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseModuleList",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseModuleList",
 		reflect.TypeOf((*DataAzurermManagedRedisDefaultDatabaseModuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -188,7 +188,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseModuleOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseModuleOutputReference",
 		reflect.TypeOf((*DataAzurermManagedRedisDefaultDatabaseModuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},
@@ -223,7 +223,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisDefaultDatabaseOutputReference",
 		reflect.TypeOf((*DataAzurermManagedRedisDefaultDatabaseOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeysAuthenticationEnabled", GoGetter: "AccessKeysAuthenticationEnabled"},
@@ -268,11 +268,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisIdentity",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisIdentity",
 		reflect.TypeOf((*DataAzurermManagedRedisIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisIdentityList",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisIdentityList",
 		reflect.TypeOf((*DataAzurermManagedRedisIdentityList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -293,7 +293,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisIdentityOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisIdentityOutputReference",
 		reflect.TypeOf((*DataAzurermManagedRedisIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -329,11 +329,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisTimeouts",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisTimeouts",
 		reflect.TypeOf((*DataAzurermManagedRedisTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisTimeoutsOutputReference",
 		reflect.TypeOf((*DataAzurermManagedRedisTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

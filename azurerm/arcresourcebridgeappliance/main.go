@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package arcresourcebridgeappliance
@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeAppliance",
 		reflect.TypeOf((*ArcResourceBridgeAppliance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -89,15 +89,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceConfig",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceConfig",
 		reflect.TypeOf((*ArcResourceBridgeApplianceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentity",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentity",
 		reflect.TypeOf((*ArcResourceBridgeApplianceIdentity)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentityOutputReference",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentityOutputReference",
 		reflect.TypeOf((*ArcResourceBridgeApplianceIdentityOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,11 +133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceTimeouts",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceTimeouts",
 		reflect.TypeOf((*ArcResourceBridgeApplianceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceTimeoutsOutputReference",
+		"@cdktn/provider-azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceTimeoutsOutputReference",
 		reflect.TypeOf((*ArcResourceBridgeApplianceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

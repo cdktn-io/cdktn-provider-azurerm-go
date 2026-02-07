@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package devcenternetworkconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/devcenternetworkconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devcenternetworkconnection/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_network_connection azurerm_dev_center_network_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_network_connection azurerm_dev_center_network_connection}.
 type DevCenterNetworkConnection interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -569,7 +569,7 @@ func (j *jsiiProxy_DevCenterNetworkConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_network_connection azurerm_dev_center_network_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_network_connection azurerm_dev_center_network_connection} Resource.
 func NewDevCenterNetworkConnection(scope constructs.Construct, id *string, config *DevCenterNetworkConnectionConfig) DevCenterNetworkConnection {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewDevCenterNetworkConnection(scope constructs.Construct, id *string, confi
 	j := jsiiProxy_DevCenterNetworkConnection{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
+		"@cdktn/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -587,12 +587,12 @@ func NewDevCenterNetworkConnection(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/dev_center_network_connection azurerm_dev_center_network_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/dev_center_network_connection azurerm_dev_center_network_connection} Resource.
 func NewDevCenterNetworkConnection_Override(d DevCenterNetworkConnection, scope constructs.Construct, id *string, config *DevCenterNetworkConnectionConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
+		"@cdktn/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -797,7 +797,7 @@ func DevCenterNetworkConnection_GenerateConfigForImport(scope constructs.Constru
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
+		"@cdktn/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -832,7 +832,7 @@ func DevCenterNetworkConnection_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
+		"@cdktn/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -851,7 +851,7 @@ func DevCenterNetworkConnection_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
+		"@cdktn/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -870,7 +870,7 @@ func DevCenterNetworkConnection_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
+		"@cdktn/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -883,7 +883,7 @@ func DevCenterNetworkConnection_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
+		"@cdktn/provider-azurerm.devCenterNetworkConnection.DevCenterNetworkConnection",
 		"tfResourceType",
 		&returns,
 	)

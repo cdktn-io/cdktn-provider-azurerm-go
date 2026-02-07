@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package netappvolumegrouporacle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/netappvolumegrouporacle/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappvolumegrouporacle/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle}.
 type NetappVolumeGroupOracle interface {
 	cdktf.TerraformResource
 	AccountName() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracle) VolumeInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Resource.
 func NewNetappVolumeGroupOracle(scope constructs.Construct, id *string, config *NetappVolumeGroupOracleConfig) NetappVolumeGroupOracle {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewNetappVolumeGroupOracle(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_NetappVolumeGroupOracle{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
+		"@cdktn/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -513,12 +513,12 @@ func NewNetappVolumeGroupOracle(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Resource.
 func NewNetappVolumeGroupOracle_Override(n NetappVolumeGroupOracle, scope constructs.Construct, id *string, config *NetappVolumeGroupOracleConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
+		"@cdktn/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -679,7 +679,7 @@ func NetappVolumeGroupOracle_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
+		"@cdktn/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -714,7 +714,7 @@ func NetappVolumeGroupOracle_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
+		"@cdktn/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -733,7 +733,7 @@ func NetappVolumeGroupOracle_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
+		"@cdktn/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -752,7 +752,7 @@ func NetappVolumeGroupOracle_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
+		"@cdktn/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -765,7 +765,7 @@ func NetappVolumeGroupOracle_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
+		"@cdktn/provider-azurerm.netappVolumeGroupOracle.NetappVolumeGroupOracle",
 		"tfResourceType",
 		&returns,
 	)

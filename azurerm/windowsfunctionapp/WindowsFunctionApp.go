@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package windowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/windowsfunctionapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsfunctionapp/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/windows_function_app azurerm_windows_function_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/windows_function_app azurerm_windows_function_app}.
 type WindowsFunctionApp interface {
 	cdktf.TerraformResource
 	AppSettings() *map[string]*string
@@ -1268,7 +1268,7 @@ func (j *jsiiProxy_WindowsFunctionApp) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
 func NewWindowsFunctionApp(scope constructs.Construct, id *string, config *WindowsFunctionAppConfig) WindowsFunctionApp {
 	_init_.Initialize()
 
@@ -1278,7 +1278,7 @@ func NewWindowsFunctionApp(scope constructs.Construct, id *string, config *Windo
 	j := jsiiProxy_WindowsFunctionApp{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -1286,12 +1286,12 @@ func NewWindowsFunctionApp(scope constructs.Construct, id *string, config *Windo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/windows_function_app azurerm_windows_function_app} Resource.
 func NewWindowsFunctionApp_Override(w WindowsFunctionApp, scope constructs.Construct, id *string, config *WindowsFunctionAppConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
 		[]interface{}{scope, id, config},
 		w,
 	)
@@ -1683,7 +1683,7 @@ func WindowsFunctionApp_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1718,7 +1718,7 @@ func WindowsFunctionApp_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1737,7 +1737,7 @@ func WindowsFunctionApp_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1756,7 +1756,7 @@ func WindowsFunctionApp_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1769,7 +1769,7 @@ func WindowsFunctionApp_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
+		"@cdktn/provider-azurerm.windowsFunctionApp.WindowsFunctionApp",
 		"tfResourceType",
 		&returns,
 	)

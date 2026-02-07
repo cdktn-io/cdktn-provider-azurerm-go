@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package botserviceazurebot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-azurerm-go/azurerm/v14/botserviceazurebot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/botserviceazurebot/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_service_azure_bot azurerm_bot_service_azure_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_service_azure_bot azurerm_bot_service_azure_bot}.
 type BotServiceAzureBot interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -833,7 +833,7 @@ func (j *jsiiProxy_BotServiceAzureBot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_service_azure_bot azurerm_bot_service_azure_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_service_azure_bot azurerm_bot_service_azure_bot} Resource.
 func NewBotServiceAzureBot(scope constructs.Construct, id *string, config *BotServiceAzureBotConfig) BotServiceAzureBot {
 	_init_.Initialize()
 
@@ -843,7 +843,7 @@ func NewBotServiceAzureBot(scope constructs.Construct, id *string, config *BotSe
 	j := jsiiProxy_BotServiceAzureBot{}
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -851,12 +851,12 @@ func NewBotServiceAzureBot(scope constructs.Construct, id *string, config *BotSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.55.0/docs/resources/bot_service_azure_bot azurerm_bot_service_azure_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/bot_service_azure_bot azurerm_bot_service_azure_bot} Resource.
 func NewBotServiceAzureBot_Override(b BotServiceAzureBot, scope constructs.Construct, id *string, config *BotServiceAzureBotConfig) {
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
 		[]interface{}{scope, id, config},
 		b,
 	)
@@ -1182,7 +1182,7 @@ func BotServiceAzureBot_GenerateConfigForImport(scope constructs.Construct, impo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -1217,7 +1217,7 @@ func BotServiceAzureBot_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -1236,7 +1236,7 @@ func BotServiceAzureBot_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -1255,7 +1255,7 @@ func BotServiceAzureBot_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -1268,7 +1268,7 @@ func BotServiceAzureBot_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
+		"@cdktn/provider-azurerm.botServiceAzureBot.BotServiceAzureBot",
 		"tfResourceType",
 		&returns,
 	)
