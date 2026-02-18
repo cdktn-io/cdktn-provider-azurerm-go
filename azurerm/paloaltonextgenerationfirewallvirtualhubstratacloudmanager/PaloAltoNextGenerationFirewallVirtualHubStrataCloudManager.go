@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager azurerm_palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager azurerm_palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager}.
 type PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -593,7 +593,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager) T
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager azurerm_palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager azurerm_palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager} Resource.
 func NewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManager(scope constructs.Construct, id *string, config *PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerConfig) PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManager(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager azurerm_palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager azurerm_palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager} Resource.
 func NewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManager_Override(p PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager, scope constructs.Construct, id *string, config *PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerConfig) {
 	_init_.Initialize()
 

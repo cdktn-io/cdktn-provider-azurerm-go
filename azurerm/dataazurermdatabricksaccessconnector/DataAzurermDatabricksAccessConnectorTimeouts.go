@@ -5,7 +5,7 @@ package dataazurermdatabricksaccessconnector
 
 
 type DataAzurermDatabricksAccessConnectorTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/databricks_access_connector#read DataAzurermDatabricksAccessConnector#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/databricks_access_connector#read DataAzurermDatabricksAccessConnector#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

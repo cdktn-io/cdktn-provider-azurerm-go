@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/container_app azurerm_container_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/container_app azurerm_container_app}.
 type DataAzurermContainerApp interface {
 	cdktf.TerraformDataSource
 	// Experimental.
@@ -63,6 +63,9 @@ type DataAzurermContainerApp interface {
 	SetProvider(val cdktf.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
+	ReadSecrets() interface{}
+	SetReadSecrets(val interface{})
+	ReadSecretsInput() interface{}
 	Registry() DataAzurermContainerAppRegistryList
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
@@ -110,6 +113,7 @@ type DataAzurermContainerApp interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetReadSecrets()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -380,6 +384,26 @@ func (j *jsiiProxy_DataAzurermContainerApp) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermContainerApp) ReadSecrets() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"readSecrets",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermContainerApp) ReadSecretsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"readSecretsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermContainerApp) Registry() DataAzurermContainerAppRegistryList {
 	var returns DataAzurermContainerAppRegistryList
 	_jsii_.Get(
@@ -511,7 +535,7 @@ func (j *jsiiProxy_DataAzurermContainerApp) WorkloadProfileName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/container_app azurerm_container_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/container_app azurerm_container_app} Data Source.
 func NewDataAzurermContainerApp(scope constructs.Construct, id *string, config *DataAzurermContainerAppConfig) DataAzurermContainerApp {
 	_init_.Initialize()
 
@@ -529,7 +553,7 @@ func NewDataAzurermContainerApp(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/data-sources/container_app azurerm_container_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/container_app azurerm_container_app} Data Source.
 func NewDataAzurermContainerApp_Override(d DataAzurermContainerApp, scope constructs.Construct, id *string, config *DataAzurermContainerAppConfig) {
 	_init_.Initialize()
 
@@ -604,6 +628,17 @@ func (j *jsiiProxy_DataAzurermContainerApp)SetProvider(val cdktf.TerraformProvid
 	_jsii_.Set(
 		j,
 		"provider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermContainerApp)SetReadSecrets(val interface{}) {
+	if err := j.validateSetReadSecretsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"readSecrets",
 		val,
 	)
 }
@@ -927,6 +962,14 @@ func (d *jsiiProxy_DataAzurermContainerApp) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermContainerApp) ResetReadSecrets() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetReadSecrets",
 		nil, // no parameters
 	)
 }

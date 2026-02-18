@@ -91,6 +91,10 @@ func (j *jsiiProxy_DataAzurermContainerApp) validateSetNameParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_DataAzurermContainerApp) validateSetReadSecretsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataAzurermContainerApp) validateSetResourceGroupNameParameters(val *string) error {
 	return nil
 }

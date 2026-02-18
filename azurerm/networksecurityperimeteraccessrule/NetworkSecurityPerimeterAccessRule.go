@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_perimeter_access_rule azurerm_network_security_perimeter_access_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/network_security_perimeter_access_rule azurerm_network_security_perimeter_access_rule}.
 type NetworkSecurityPerimeterAccessRule interface {
 	cdktf.TerraformResource
 	AddressPrefixes() *[]*string
@@ -499,7 +499,7 @@ func (j *jsiiProxy_NetworkSecurityPerimeterAccessRule) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_perimeter_access_rule azurerm_network_security_perimeter_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/network_security_perimeter_access_rule azurerm_network_security_perimeter_access_rule} Resource.
 func NewNetworkSecurityPerimeterAccessRule(scope constructs.Construct, id *string, config *NetworkSecurityPerimeterAccessRuleConfig) NetworkSecurityPerimeterAccessRule {
 	_init_.Initialize()
 
@@ -517,7 +517,7 @@ func NewNetworkSecurityPerimeterAccessRule(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/network_security_perimeter_access_rule azurerm_network_security_perimeter_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/network_security_perimeter_access_rule azurerm_network_security_perimeter_access_rule} Resource.
 func NewNetworkSecurityPerimeterAccessRule_Override(n NetworkSecurityPerimeterAccessRule, scope constructs.Construct, id *string, config *NetworkSecurityPerimeterAccessRuleConfig) {
 	_init_.Initialize()
 

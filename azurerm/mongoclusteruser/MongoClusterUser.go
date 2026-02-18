@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mongo_cluster_user azurerm_mongo_cluster_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/mongo_cluster_user azurerm_mongo_cluster_user}.
 type MongoClusterUser interface {
 	cdktf.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_MongoClusterUser) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mongo_cluster_user azurerm_mongo_cluster_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/mongo_cluster_user azurerm_mongo_cluster_user} Resource.
 func NewMongoClusterUser(scope constructs.Construct, id *string, config *MongoClusterUserConfig) MongoClusterUser {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewMongoClusterUser(scope constructs.Construct, id *string, config *MongoCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mongo_cluster_user azurerm_mongo_cluster_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/mongo_cluster_user azurerm_mongo_cluster_user} Resource.
 func NewMongoClusterUser_Override(m MongoClusterUser, scope constructs.Construct, id *string, config *MongoClusterUserConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server}.
 type PostgresqlFlexibleServer interface {
 	cdktf.TerraformResource
 	AdministratorLogin() *string
@@ -37,6 +37,8 @@ type PostgresqlFlexibleServer interface {
 	BackupRetentionDaysInput() *float64
 	// Experimental.
 	CdktfStack() cdktf.TerraformStack
+	Cluster() PostgresqlFlexibleServerClusterOutputReference
+	ClusterInput() *PostgresqlFlexibleServerCluster
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -190,6 +192,7 @@ type PostgresqlFlexibleServer interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAuthentication(value *PostgresqlFlexibleServerAuthentication)
+	PutCluster(value *PostgresqlFlexibleServerCluster)
 	PutCustomerManagedKey(value *PostgresqlFlexibleServerCustomerManagedKey)
 	PutHighAvailability(value *PostgresqlFlexibleServerHighAvailability)
 	PutIdentity(value *PostgresqlFlexibleServerIdentity)
@@ -202,6 +205,7 @@ type PostgresqlFlexibleServer interface {
 	ResetAuthentication()
 	ResetAutoGrowEnabled()
 	ResetBackupRetentionDays()
+	ResetCluster()
 	ResetCreateMode()
 	ResetCustomerManagedKey()
 	ResetDelegatedSubnetId()
@@ -388,6 +392,26 @@ func (j *jsiiProxy_PostgresqlFlexibleServer) CdktfStack() cdktf.TerraformStack {
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PostgresqlFlexibleServer) Cluster() PostgresqlFlexibleServerClusterOutputReference {
+	var returns PostgresqlFlexibleServerClusterOutputReference
+	_jsii_.Get(
+		j,
+		"cluster",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PostgresqlFlexibleServer) ClusterInput() *PostgresqlFlexibleServerCluster {
+	var returns *PostgresqlFlexibleServerCluster
+	_jsii_.Get(
+		j,
+		"clusterInput",
 		&returns,
 	)
 	return returns
@@ -1014,7 +1038,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServer) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server} Resource.
 func NewPostgresqlFlexibleServer(scope constructs.Construct, id *string, config *PostgresqlFlexibleServerConfig) PostgresqlFlexibleServer {
 	_init_.Initialize()
 
@@ -1032,7 +1056,7 @@ func NewPostgresqlFlexibleServer(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/postgresql_flexible_server azurerm_postgresql_flexible_server} Resource.
 func NewPostgresqlFlexibleServer_Override(p PostgresqlFlexibleServer, scope constructs.Construct, id *string, config *PostgresqlFlexibleServerConfig) {
 	_init_.Initialize()
 
@@ -1739,6 +1763,17 @@ func (p *jsiiProxy_PostgresqlFlexibleServer) PutAuthentication(value *Postgresql
 	)
 }
 
+func (p *jsiiProxy_PostgresqlFlexibleServer) PutCluster(value *PostgresqlFlexibleServerCluster) {
+	if err := p.validatePutClusterParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putCluster",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PostgresqlFlexibleServer) PutCustomerManagedKey(value *PostgresqlFlexibleServerCustomerManagedKey) {
 	if err := p.validatePutCustomerManagedKeyParameters(value); err != nil {
 		panic(err)
@@ -1846,6 +1881,14 @@ func (p *jsiiProxy_PostgresqlFlexibleServer) ResetBackupRetentionDays() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetBackupRetentionDays",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PostgresqlFlexibleServer) ResetCluster() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetCluster",
 		nil, // no parameters
 	)
 }

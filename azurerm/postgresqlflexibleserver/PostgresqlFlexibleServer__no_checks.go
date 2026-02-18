@@ -79,6 +79,10 @@ func (p *jsiiProxy_PostgresqlFlexibleServer) validatePutAuthenticationParameters
 	return nil
 }
 
+func (p *jsiiProxy_PostgresqlFlexibleServer) validatePutClusterParameters(value *PostgresqlFlexibleServerCluster) error {
+	return nil
+}
+
 func (p *jsiiProxy_PostgresqlFlexibleServer) validatePutCustomerManagedKeyParameters(value *PostgresqlFlexibleServerCustomerManagedKey) error {
 	return nil
 }

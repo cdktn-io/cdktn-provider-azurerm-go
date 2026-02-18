@@ -5,9 +5,9 @@ package mongocluster
 
 
 type MongoClusterIdentity struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mongo_cluster#identity_ids MongoCluster#identity_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/mongo_cluster#identity_ids MongoCluster#identity_ids}.
 	IdentityIds *[]*string `field:"required" json:"identityIds" yaml:"identityIds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/mongo_cluster#type MongoCluster#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/mongo_cluster#type MongoCluster#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

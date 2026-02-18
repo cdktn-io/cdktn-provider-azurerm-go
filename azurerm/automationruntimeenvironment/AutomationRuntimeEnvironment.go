@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment}.
 type AutomationRuntimeEnvironment interface {
 	cdktf.TerraformResource
 	AutomationAccountId() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_AutomationRuntimeEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment} Resource.
 func NewAutomationRuntimeEnvironment(scope constructs.Construct, id *string, config *AutomationRuntimeEnvironmentConfig) AutomationRuntimeEnvironment {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewAutomationRuntimeEnvironment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.59.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/automation_runtime_environment azurerm_automation_runtime_environment} Resource.
 func NewAutomationRuntimeEnvironment_Override(a AutomationRuntimeEnvironment, scope constructs.Construct, id *string, config *AutomationRuntimeEnvironmentConfig) {
 	_init_.Initialize()
 
